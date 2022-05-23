@@ -1,0 +1,32 @@
+.pagination-container {
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  .pagination-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li {
+      padding: 4px 6px;
+      margin: 8px;
+      transition: color 0.3s ease;
+      font-weight: bolder;
+      font: var(--base-font);
+      font-weight: bolder;
+
+      a {
+        color: var(--theme-text-primary);
+        transition: transitions(color, 0.3s);
+
+        &:hover {
+          color: var(--theme-text-active);
+        }
+      }
+
+      span {
+        color: var(--theme-text-low);
+      }
+    }
+  }
+}

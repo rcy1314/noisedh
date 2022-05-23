@@ -1,0 +1,38 @@
+.single-container {
+  display: flex;
+  align-items: flex-start;
+  overflow: visible;
+
+  .article-content {
+    padding: var(--layout-padding-x);
+  }
+
+  .widget-info {
+    position: sticky;
+    top: 0;
+    width: 360px;
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @include mq-pc {
+    .article-info {
+      flex: 0 1 calc(100% - 360px);
+      min-width: calc(100% - 360px);
+    }
+    .widget-info {
+      display: flex;
+    }
+  }
+
+  @include mq-mb {
+    .article-info {
+      flex: 1 1 100%;
+      width: 100%;
+    }
+    .widget-info {
+      display: none;
+    }
+  }
+}

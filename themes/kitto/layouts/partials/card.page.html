@@ -1,0 +1,16 @@
+<!-- single page card -->
+<div class="post-item">
+    <div class="post-item-time grid-cell">
+        <span class="datetime-span"
+            title="Lastmod: {{ .Lastmod.Format "2006-01-02" }}. Published at: {{ .PublishDate.Format "2006-01-02" }}.">
+            {{ dateFormat "2006-01-02" .PublishDate }}
+        </span>
+    </div>
+    <div class="post-item-space grid-cell">
+    </div>
+    <div class="post-item-title grid-cell">
+        <a href="{{ .RelPermalink }}">
+            <div>{{ .Title }}</div>
+        </a>
+    </div>
+</div>

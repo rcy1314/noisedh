@@ -1,0 +1,27 @@
+{{ $articles := where (where .Site.RegularPages "Params.categories" "intersect" .Params.categories) ".File.UniqueID" "ne" .File.UniqueID }}
+
+{{ if eq (len $articles) 0 }}
+{{ $articles = where (where .Site.RegularPages "Params.tags" "intersect" .Params.tags) ".File.UniqueID" "ne" .File.UniqueID }}
+{{ end }}
+
+{{ if eq (len $articles) 0 }}
+{{ $articles = where (where .Site.RegularPages "Section" "ne" "") ".File.UniqueID" "ne" .File.UniqueID }}
+{{ end }}
+
+{{ if gt (len $articles) 0 }}
+<section class="aside-widget widget-articles content-padding-large soft-size--large soft-style--box">
+  <h2 class="widget-header">
+    <div class="title">
+      <span>{{ i18n "related_posts" }}</span>
+    </div>
+  </h2>
+  <div class="widget-body">
+    <ul class="post-list">
+      {{ $count := or .Site.Params.widget.articles_count 6 }}
+      {{ range first $count $articles }}
+        <li class="post-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}

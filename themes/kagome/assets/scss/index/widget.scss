@@ -1,0 +1,198 @@
+.aside-widget {
+  margin: var(--layout-padding-x);
+
+  .widget-header {
+    margin-bottom: 20px;
+
+    .title {
+      display: flex;
+      align-items: center;
+      padding-bottom: 6px;
+  
+      > span {
+        color: var(--theme-text-stress);
+        font-weight: 500;
+        font-size: var(--font-stress-size);
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        transition: transitions(color, 0.3s);
+        @include soft-text;
+      }
+    }
+
+    &::after {
+      display: block;
+      content: "";
+      width: 100%;
+      height: 2px;
+      background-color: var(--theme-border-primary);
+      transition: transitions(background-color, 0.3s);
+    }
+  }
+
+  .widget-footer {
+    margin-top: 8px;
+    text-align: center;
+
+    .more-link {
+      color: var(--theme-text-stress);
+      font: var(--base-font);
+      transition: transitions(color, 0.3s);
+  
+      &.center {
+        text-align: center;
+      }
+  
+      &:hover {
+        color: var(--theme-text-active);
+  
+        > svg {
+          fill: var(--theme-text-active);
+        }
+      }
+  
+      > svg {
+        display: inline-block;
+        vertical-align: middle;
+        fill: var(--theme-text-stress);
+        transition: transitions(fill, 0.3s);
+      }
+    }
+  }
+}
+
+/** 作者 widget */
+.widget-author .author-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 64px;
+  color: var(--theme-text-primary);
+
+  &.avatar {
+    padding-left: 74px;
+  }
+
+  .author-avatar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 64px;
+    height: 64px;
+  }
+
+  .author-name {
+    height: 32px;
+    line-height: 32px;
+    font-weight: bolder;
+    font-size: var(--font-stress-size);
+  }
+
+  .author-desc {
+    height: 32px;
+    line-height: 32px;
+    border-top: 1px solid var(--theme-border-primary);
+  }
+}
+
+/** 目录TOC widget */
+.widget-toc {
+  ul, ol {
+    list-style: inherit;
+    padding-left: 20px;
+
+    > li {
+      margin: 16px 0;
+
+      &::marker {
+        color: var(--theme-text-primary);
+      }
+
+      > a {
+        font: var(--base-font);
+        color: var(--theme-text-primary);
+        transition: transitions(color, 0.3s);
+
+        &:hover {
+          color: var(--theme-text-active);
+        }
+      }
+    }
+  }
+}
+
+/** 相关文章 widget */
+.widget-articles .post-list {
+  list-style: none;
+
+  .post-item {
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+
+    a {
+      font: var(--base-font);
+      color: var(--theme-text-active);
+      font-weight: bolder;
+      border-bottom: 2px solid #dde0e0;
+      transition: transitions((color, border-color), 0.3s);
+
+      &:hover {
+        border-color: var(--theme-text-active);
+      }
+    }
+  }
+}
+
+/** 分类列表 widget */
+.widget-categories .categories-list {
+  list-style: none;
+
+  > li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 30px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--theme-border-secondary);
+    transition: transitions(border-color, 0.3s);
+
+    &:not(:last-child) {
+      margin-bottom: 6px;
+    }
+
+    > a {
+      color: var(--theme-text-primary);
+      transition: transitions(color, 0.3s);
+    }
+
+    > span {
+      display: inline-block;
+      border-radius: 20px;
+      color: var(--theme-text-light);
+      background-color: var(--theme-text-active);
+      width: 25px;
+      height: 25px;
+      text-align: center;
+      line-height: 25px;
+      font-size: 12px;
+      transition: transitions((color, background-color), 0.3s);
+    }
+  }
+}
+
+/** 标签列表 widget */
+.widget-tags .tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin: 0 -10px;
+
+  > a {
+    display: block;
+    padding: 8px 10px;
+    color: var(--theme-text-primary);
+  }
+}

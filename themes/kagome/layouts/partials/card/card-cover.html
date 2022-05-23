@@ -1,0 +1,42 @@
+<div class="article-cover card-container content-padding-large soft-size--large soft-style--box {{ if .Params.cover -}} img {{- end -}}">
+
+  <div class="card-cover">
+    {{ with .Params.cover }}
+      <img src="{{ . }}" alt="{{ . }}" />
+    {{ end }}
+  </div>
+
+  <div class="card-text">
+    <h1 class="card-text--title">{{ .Title }}</h1>
+    {{ if eq .Type "page" }}
+      {{ with .Params.description }}
+        <p class="card-text--row">{{ . }}</p>
+      {{ end }}
+    {{ else }}
+      <p class="card-text--row">{{ .Date.Format "2006-01-02 15:04" }}</p>
+      
+      {{ $taxo := "categories" }}
+      {{ with .Param $taxo }}
+        <ul class="card-text--tag">
+          {{ range $index, $director := . }}
+            {{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
+              <li><a href="{{ .Permalink | safeURL }}">{{ $director }}</a></li>
+            {{- end -}}
+          {{- end -}}
+        </ul>
+      {{ end }}
+
+      {{ $taxo := "tags" }}
+      {{ with .Param $taxo }}
+        <ul class="card-text--tag">
+          {{ range $index, $director := . }}
+            {{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
+              <li><a href="{{ .Permalink | safeURL }}">{{ $director }}</a></li>
+            {{- end -}}
+          {{- end -}}
+        </ul>
+      {{ end }}
+    {{ end }}
+  </div>
+
+</div>

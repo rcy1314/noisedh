@@ -1,0 +1,84 @@
+<div class="article-section layout-block layout-padding">
+  <section class="section-card card-container content-padding-large soft-size--large soft-style--box">
+    
+    {{ if eq .Kind "taxonomy" }} {{/* 分类 banner */}}
+      <div class="card-cover" {{ with .Params.cover }} style="background-image: url({{ . }});" {{ end }}></div>
+      <div class="card-text">
+        <h1 class="card-text--title">{{ or .Title .Data.Plural }}</h1>
+        {{ with .Params.description }}
+          <p class="card-text--row">{{ . }}</p>
+        {{ end }}
+        <p class="card-text--row">{{ i18n "total_count" (len .Data.Terms) }}</p>
+      </div>
+    {{ end }}
+
+    {{ if eq .Kind "term" }} {{/* 某一分类下列表 banner */}}
+      <div class="card-cover" {{ with .Params.cover }} style="background-image: url({{ . }});" {{ end }}></div>
+      <div class="card-text">
+        <h1 class="card-text--title">{{ or .Title .Data.Term }}</h1>
+        {{ with .Params.description }}
+          <p class="card-text--row">{{ . }}</p>
+        {{ end }}
+        <p class="card-text--row">{{ i18n "total_count" (len .Data.Pages) }}</p>
+      </div>
+    {{ end }}
+
+    {{ if eq .Kind "page" }} {{/* 页面 banner */}}
+      <div class="card-cover" {{ with .Params.cover }} style="background-image: url({{ . }});" {{ end }}></div>
+      <div class="card-text">
+        <h1 class="card-text--title">{{ .Title }}</h1>
+        
+        {{ if .Section }} {{/* section single page */}}
+          <p class="card-text--row">{{ .Date.Format "2006-01-02 15:04" }}</p>
+          
+          {{ $taxo := "categories" }}
+          {{ with .Param $taxo }}
+            <ul class="card-text--tag">
+              {{ range $index, $director := . }}
+                {{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
+                  <li><a href="{{ .Permalink | safeURL }}">{{ $director }}</a></li>
+                {{- end -}}
+              {{- end -}}
+            </ul>
+          {{ end }}
+
+          {{ $taxo := "tags" }}
+          {{ with .Param $taxo }}
+            <ul class="card-text--tag">
+              {{ range $index, $director := . }}
+                {{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
+                  <li><a href="{{ .Permalink | safeURL }}">{{ $director }}</a></li>
+                {{- end -}}
+              {{- end -}}
+            </ul>
+          {{ end }}
+        {{ else }} {{/* root single page */}}
+          {{ with .Params.description }}
+            <p class="card-text--row">{{ . }}</p>
+          {{ end }}
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ if eq .Kind "section" }} {{/* 区分 banner */}}
+      <div class="card-cover" {{ with .Params.cover }} style="background-image: url({{ . }});" {{ end }}></div>
+      <div class="card-text">
+        {{ with .Title }} {{/* title */}}
+          <h1 class="card-text--title">{{ . }}</h1>
+        {{ end }}
+        
+        {{ with .Params.description }} {{/* desc */}}
+          <div class="card-text--row">{{ . }}</div>
+        {{ end }}
+
+        {{ with len .RegularPages }} {{/* pages */}}
+          <p class="card-text--row">{{ i18n "total_count" . }}</p>
+        {{ end }}
+        
+        {{ with len .Sections }} {{/* children sections */}}
+          <p class="card-text--row">{{ i18n "children_total_count" . }}</p>
+        {{ end }}
+      </div>
+    {{ end }}
+  </section>
+</div>

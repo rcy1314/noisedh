@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+
+<div class="cloud">
+    {{ range .Site.Taxonomies }}
+        {{ range . }}
+            {{ $NoSpace := replace .Page.Title " " "-" }}
+            {{ $NoSlash := replace $NoSpace "/" "-" }}
+            {{ $title := lower $NoSlash }}
+            <div class="cloud-item"><a href="#{{ $title }}">{{ .Page.Title }}</a></div>
+        {{ end }}
+    {{ end }}
+</div>
+
+
+<ul class="collection">
+    {{ range .Site.Taxonomies }}
+        {{ range . }}
+        <div class="tag-title">
+            <div class="tag-title-left grid-cell"><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></div>
+            <div class="tag-title-center grid-cell"></div>
+            <div class="tag-title-right grid-cell"></div>
+        </div>
+            {{ range .Pages }}
+                {{ partial "card.page.html" . }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</ul>
+
+{{ end }}
