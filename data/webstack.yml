@@ -15,22 +15,22 @@
       logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.3kwlp0zw38e.jpg
       url: https://www.noisesite.cn
       description: notion知识库
-    - title: 公众号平台
-      logo: 微信公众号.png
-      url: https://mp.weixin.qq.com/
-      description: 再小的个体也有自己的品牌。
-    - title: CODING
-      logo: coding.png
-      url: https://shenweiyan.coding.net/user/projects
-      description: 个人 CODING 代码托管。
-    - title: GitHub
-      logo: github.jpg
-      url: https://github.com/
-      description: GitHub 开源社区。
-    - title: Md2ALL
-      logo: md2all.jpg
-      url: http://md.aclickall.com/
-      description: Markdown 排版利器。
+    - title: Tg频道
+      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.uu0193zd5j4.jpg
+      url: https://tg.quanshoulu.workers.dev/
+      description: 我的tg频道的网页版。
+    - title: Noise资源库
+      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.be7tlu4ewww.jpg
+      url: https://noiseyp.top
+      description: 云盘文件站
+    - title: 我的引导页
+      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.4kagbuldyf80.jpg
+      url: https://www.noisework.cn
+      description: 关联站点引导页
+    - title: 今日热榜
+      logo: https://tophub.today
+      url: https://tophub.today
+      description: 提供各站热榜聚合：微信、今日头条、知乎...追踪全网热点、简单高效阅读
     - title: Md2X 定制版
       logo: mdx.png
       url: https://mdx.ncbix.com/
