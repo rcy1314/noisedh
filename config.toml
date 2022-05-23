@@ -23,7 +23,7 @@ publishDir = "docs"
 
 [params.images]
     favicon           = "assets/images/favicon.png"
-    searchImageL      = "https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.77v265seekg.jpg"		#搜索部分浅色背景图
+    searchImageL      = "https://api.ixiaowai.cn/gqapi/gqapi.php"		#搜索部分浅色背景图
     searchImageD      = "https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.77v265seekg.jpg"		#搜索部分深色背景图
     logoExpandLight   = "assets/images/bioitee-expand-light.png"
     logoExpandDark    = "assets/images/bioitee-expand-dark.png"
