@@ -3,18 +3,18 @@
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
-    - title: 语雀
-      logo: 语雀.jpg
-      url: https://www.yuque.com/
-      description: 专业的云端知识库。
-    - title: QQ 邮箱
-      logo: qq邮箱.png
-      url: http://mail.qq.com/
-      description: 腾讯 QQ 邮箱。
-    - title: 开源中国
-      logo: 开源中国.jpg
-      url: https://www.oschina.net/
-      description: 中文开源技术交流社区。
+    - title: Clash网页面板
+      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.72tm1b9yonk0.jpg
+      url: https://clash.mereith.com
+      description: Clash网页面板
+    - title: NV资源网
+      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.416ae3u44j00.jpg
+      url: https://noisevip.cn
+      description: 综合资源收录站
+    - title: Noise知识效率集
+      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.3kwlp0zw38e.jpg
+      url: https://www.noisesite.cn
+      description: 知识库，也是使用notion自动化的一部分
     - title: 公众号平台
       logo: 微信公众号.png
       url: https://mp.weixin.qq.com/
