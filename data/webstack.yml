@@ -34,7 +34,7 @@
     - title: momentor
       logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.5ll3wza7qlc0.jpg
       url: https://momentor.cn/
-      description: 动态设计C4D行业一线设计师分享交流的平台
+      description: 动态设计C4D，行业一线设计师分享交流的平台
     - title: 新片场
       logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.534dm9fkfn40.jpg
       url: https://www.xinpianchang.com
@@ -109,7 +109,7 @@
           logo: 青椒云.jpg
           url: https://www.qingjiaocloud.com/
           description: 云桌面,一站式云电脑服务平台。
-    - term: 云渲染
+    - term: 办公学习
       links:
         - title: 有道词典
           logo: 有道词典.png
@@ -127,66 +127,12 @@
           logo: ProcessOn.png
           url: https://www.processon.com/
           description: 免费在线作图、实时协作。
-    - term: 云渲染
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-    - term: 云渲染
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-    - term: 外包
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。 
-    - term: 无版权视频
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-    - term: 创意片库
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-     - term: 教程学习
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-    - term: 视频素材
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-    - term: 字幕制作
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-    - term: 配音定制
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-                                                                  
+        
 
-- taxonomy: 设计灵感
+- taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
   list:
-    - term: 素材
+    - term: 影音视频
       links:
         - title: 腾讯视频
           logo: 腾讯视频.png
@@ -220,7 +166,7 @@
           logo: 电影天堂.png
           url: https://www.dygod.net/
           description: 电影天堂（DYGOD），高清电影下载。
-    - term: 设计工具
+    - term: 游戏竞技
       links:
         - title: 百度贴吧
           logo: 百度贴吧.jpg
@@ -230,36 +176,6 @@
           logo: 战地之王.png
           url: https://ava.mangot5.com/ava/index
           description: 台服 AVA 战地之王。
-      - term: 灵感
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-      - term: 插画
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-      - term: 配色
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-     - term: 无版权图库
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-     - term: 字体图标
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。                      
    
       
 - taxonomy: 素材资源
