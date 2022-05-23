@@ -1,6 +1,6 @@
-baseURL = "https://nav.bioitee.com"
+baseURL = "https://www.noisedh.cn"
 languageCode = "zh-CN"
-title = "Bio & IT 网址导航 | Hugo 主题"
+title = "Noise导航 & 收录值得珍藏的网站"
 theme = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower = true
@@ -9,13 +9,13 @@ publishDir = "docs"
 
 
 [params]
-    author        = "shenweiyan"
-    description   = "Webstack Hugo 网址导航 | Bio IT 爱好者"
+    author        = "Noise导航"
+    description   = "Noise导航 & 收录值得珍藏的网站"
     siteurl       = "./"
     about         = "https://www.yuque.com/shenweiyan/cookbook/webstack-hugo"   # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"
     enablePreLoad = true		    		        # 网站完全打开前预加载的动画
-    textPreLoad   = "Bio & IT 网址导航"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
+    textPreLoad   = "Noise导航 & 收录值得珍藏的网站"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
     logosPath     = "assets/images/logos"				# 网站每个导航地址logo存放地址
 
 [params.qweather]
@@ -23,8 +23,8 @@ publishDir = "docs"
 
 [params.images]
     favicon           = "assets/images/favicon.png"
-    searchImageL      = "assets/images/search-bg-light.jpg"		#搜索部分浅色背景图
-    searchImageD      = "assets/images/search-bg-dark.jpg"		#搜索部分深色背景图
+    searchImageL      = "https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/236811b8721adee31505c753684160e8.5kjldruyrz40.gif"		#搜索部分浅色背景图
+    searchImageD      = "https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/236811b8721adee31505c753684160e8.5kjldruyrz40.gif"		#搜索部分深色背景图
     logoExpandLight   = "assets/images/bioitee-expand-light.png"
     logoExpandDark    = "assets/images/bioitee-expand-dark.png"
     logoCollapseLight = "assets/images/logo-collapse-light.png"
@@ -34,4 +34,4 @@ publishDir = "docs"
     unsafe = true
 
 [params.footer]
-    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：ishenweiyan@foxmail.com <br/>&copy; 2021 - {year} By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) | [Bio IT 爱好者](https://www.bioitee.com/) | [粤ICP备16023717号](http://beian.miit.gov.cn/)<br/>'
+    copyright = '本站收录值得珍藏的网站，欢迎访问使用'
