@@ -70,35 +70,7 @@
           logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.dy3166er6fk.jpg
           url: https://app.mediatrack.cn
           description: 在线协作审片平台，无限协作容量，还有大容量个人网盘加持
-    - title: CG说
-          logo: https://api.iowen.cn/favicon/www.cgshuo.com.png
-          url: http://www.cgshuo.com
-          description: 原创CG设计资源、素材交易平台
-    - title: ABOUTCG
-          logo: https://api.iowen.cn/favicon/www.aboutcg.com.png
-          url: https://www.aboutcg.com
-          description: 最新CG行业资讯
-    - title: MAYA动画资源网
-          logo: https://api.iowen.cn/favicon/www.maya09.cn.png
-          url: http://www.maya09.cn
-          description: MAYA资源、论坛、社区
-    - title: CG模型王
-          logo: https://api.iowen.cn/favicon/www.cgmxw.com.png
-          url: https://www.cgmxw.com
-          description: 各类CG模型
-    - title: CG资源网
-          logo: https://api.iowen.cn/favicon/www.cgtsj.com.png
-          url: https://www.cgtsj.com
-          description: 各类CG资源
-    - title: 中文汉化
-          logo: https://api.iowen.cn/favicon/h.shanse8.com.png
-          url: http://h.shanse8.com
-          description: CG 各领域的经典原创汉化作品，有 3D 软件、2D 软件、影视后期、非编等主流软件及其插件的汉化
-    - title: C4D模型网
-          logo: https://api.iowen.cn/favicon/www.c4d.com.cn.png
-          url: https://www.c4d.com.cn
-          description: C4D模型，工程，材质
-    
+   
    
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
