@@ -59,10 +59,10 @@
   list:
     - term: CG三维
       links:
-        - title: NCBI
-          logo: ncbi.jpg
-          url: https://www.ncbi.nlm.nih.gov/
-          description: National Center for Biotechnology Information.
+        - title: CG爱好者
+          logo: https://api.iowen.cn/favicon/www.cgahz.com.png
+          url: http://www.cgahz.com
+          description: 影视后期相关资源
         - title: Bioconda
           logo: bioconda.jpg
           url: https://anaconda.org/bioconda/
