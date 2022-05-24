@@ -21,7 +21,7 @@
       description: 我的tg频道的网页版。
     - title: Noise资源库
       logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.be7tlu4ewww.jpg
-      url: https://noiseyp.top
+      url: http://www.noiseyp.top
       description: 云盘文件站
     - title: 我的引导页
       logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.4kagbuldyf80.jpg
@@ -546,18 +546,18 @@
           logo: https://api.iowen.cn/favicon/www.i8k.cc.png
           url: https://www.i8k.cc
           description: 4K极客影院在线播放
-        - title: 看片狂人
-          logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
-          url: https://whereiskpkuang.com
-          description: 看片狂人是一个由影迷打造服务影迷的平台
-        - title: 看片狂人
-          logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
-          url: https://whereiskpkuang.com
-          description: 看片狂人是一个由影迷打造服务影迷的平台
-        - title: 看片狂人
-          logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
-          url: https://whereiskpkuang.com
-          description: 看片狂人是一个由影迷打造服务影迷的平台
+        - title: 嘀哩影视
+          logo: https://api.iowen.cn/favicon/diliktv.com.png
+          url: http://diliktv.com
+          description: 会员影视免费看
+        - title: 中国高清网
+          logo: https://api.iowen.cn/favicon/www.cnmkv.com.png
+          url: https://www.cnmkv.com/
+          description: 提供迅雷下载及百度云盘下载，站内支持影片搜索
+        - title: 奈非星影视
+          logo: https://api.iowen.cn/favicon/www.nfyingshi.com.png
+          url: https://www.nfyingshi.com/
+          description: 奈非星影视
         - title: 看片狂人
           logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
           url: https://whereiskpkuang.com
