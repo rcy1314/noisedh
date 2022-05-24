@@ -267,61 +267,8 @@
           url: https://www.ldvfx.com
           description: 影视后期加油站
 
-        
-    - term: 云渲染
-      links:
-        
-          
-    - term: 外包平台
-      links:
-        
 
-   - term: 无版权视频
-      links:
-        
-    - term: 创意片库
-      links:
-        
-
-    - term: 教程学习
-      links:
-       
-      - term: 字幕制作
-      links:
-        
-     - term: 配音定制
-      links:
-       
-
-- taxonomy: 设计灵感
-        icon: fas fa-film fa-lg
-        list:
-      - term: 素材资源
-      links:
-        
-
-     - term: 设计工具
-      links:
-        
-
-    - term: 灵感加油站
-      links:
-        
-    - term: 插画
-      links:
-        
-     - term: 配色
-      links:
-       
-    - term: 无版权图库
-      links:
-       
-
-    - term: 字体图标
-      links:
-
-        
-- taxonomy: 影视剧院片场
+- taxonomy: 影视片场
   icon: fas fa-film fa-lg
   list:
     - term: 电影影音
@@ -369,30 +316,7 @@
           url: https://ava.mangot5.com/ava/index
           description: 台服 AVA 战地之王。
 
-    - term: BT种子
-      links:
-        
-    - term: 直播平台
-      links:
-      
-     - term: 字幕组
-      links:
-        
-     - term: 视频解析
-      links:
-        
-
-     - term: 视频下载
-      links:
-       
-     - term: 纪录片天地
-      links:
-        
-    - term: 影视搜索
-      links:
-       
-      
-- taxonomy: 软件下载
+- taxonomy: 软件
   icon: far fa-folder-open fa-lg
   list:
     - term: 网盘资源
