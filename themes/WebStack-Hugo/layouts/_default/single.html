@@ -49,7 +49,21 @@
 </head>
 
 <body class="page-body boxed-container">
-    
+    <nav class="navbar horizontal-menu navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="navbar-brand">
+                <a href="../index.html" class="logo">
+                    {{ if hasPrefix $.Site.Params.images.logoExpandLight "http" }}
+                    <img src="{{ $.Site.Params.images.logoExpandLight }}" width="100%" alt="" class="hidden-xs">
+                    {{ else }}
+                    <img src="../{{ $.Site.Params.images.logoExpandLight }}" width="100%" alt="" class="hidden-xs">
+                    {{ end }}
+                </a>
+            </div>
+            <div class="navbar-mobile-clear"></div>
+            
+        </div>
+    </nav>
     <div class="page-container">
         <!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
         <div class="main-content" style="">
@@ -72,7 +86,7 @@
             <footer class="main-footer sticky footer-type-1 fixed">
                 <div class="footer-inner">
                     <div class="footer-text">
-                        <strong>{{ if $.Site.Params.footer.copyright }}{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}{{ else }}noise导航{{ end }}</strong> 2022 <a href="https://noisedh.cn" target="_blank"><strong>noise</strong></a> by <a href="{{ $.Site.Params.repository }}" target="_blank"><strong>noise导航</strong></a>
+                        <strong>{{ if $.Site.Params.footer.copyright }}{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}{{ else }}noise导航{{ end }}</strong> 2022<a href="https://noisedh.cn" target="_blank"><strong>noise</strong></a> by <a href="{{ $.Site.Params.repository }}" target="_blank"><strong>noise导航</strong></a>
                     </div>
                     <div class="go-up">
                         <a href="#" rel="go-top">
