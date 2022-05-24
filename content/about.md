@@ -6,4 +6,6 @@ draft: false
 
 #### 这是 NOISE导航的静态版
 
-- https://shenweiyan.github.io/webstack-hugo)
+Noise导航是一个综合类导航站，收录你那些值得收藏的网站
+
+欢迎前来访问
