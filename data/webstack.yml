@@ -53,29 +53,10 @@
       description: V2EX 创意工作者的社区。
 
 
-- taxonomy: 后期制作
-  icon: fas fa-flask fa-lg
-  list:
-  - term: CG三维
-      links:
-    - title: CG爱好者
-          logo: https://api.iowen.cn/favicon/www.cgahz.com.png
-          url: http://www.cgahz.com
-          description: 影视后期相关资源
-    - title: CG99-CG设计网
-          logo: https://api.iowen.cn/favicon/www.cg99.com.png
-          url: https://www.cg99.com
-          description: 专注全球CG设计行业，以CG模型为主的资源下载和分享平台
-    - title: 分秒帧
-          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.dy3166er6fk.jpg
-          url: https://app.mediatrack.cn
-          description: 在线协作审片平台，无限协作容量，还有大容量个人网盘加持
-   
-   
-- taxonomy: 悠闲娱乐
+- taxonomy: CG三维
   icon: fas fa-film fa-lg
   list:
-    - term: 影音视频
+    - term: 后期制作
       links:
         - title: 腾讯视频
           logo: 腾讯视频.png
@@ -109,7 +90,7 @@
           logo: 电影天堂.png
           url: https://www.dygod.net/
           description: 电影天堂（DYGOD），高清电影下载。
-    - term: 游戏竞技
+    - term: 影视素材
       links:
         - title: 百度贴吧
           logo: 百度贴吧.jpg
