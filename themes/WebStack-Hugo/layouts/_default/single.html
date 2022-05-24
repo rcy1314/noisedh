@@ -49,21 +49,7 @@
 </head>
 
 <body class="page-body boxed-container">
-    <nav class="navbar horizontal-menu navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="navbar-brand">
-                <a href="../index.html" class="logo">
-                    {{ if hasPrefix $.Site.Params.images.logoExpandLight "http" }}
-                    <img src="{{ $.Site.Params.images.logoExpandLight }}" width="100%" alt="" class="hidden-xs">
-                    {{ else }}
-                    <img src="../{{ $.Site.Params.images.logoExpandLight }}" width="100%" alt="" class="hidden-xs">
-                    {{ end }}
-                </a>
-            </div>
-            <div class="navbar-mobile-clear"></div>
-            <a href="{{ $.Site.Params.repository }}" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="../assets/images/forkme_on_github_right_darkblue.png" alt="Fork me on GitHub"></a>
-        </div>
-    </nav>
+    
     <div class="page-container">
         <!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
         <div class="main-content" style="">
@@ -86,7 +72,7 @@
             <footer class="main-footer sticky footer-type-1 fixed">
                 <div class="footer-inner">
                     <div class="footer-text">
-                        <strong>{{ if $.Site.Params.footer.copyright }}{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}{{ else }}BioIT 爱好者{{ end }}</strong> Design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> themes by <a href="{{ $.Site.Params.repository }}" target="_blank"><strong>shenweiyan</strong></a>
+                        <strong>{{ if $.Site.Params.footer.copyright }}{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}{{ else }}noise{{ end }}</strong>2022 <a href="https://noisedh.cn" target="_blank"><strong>noise</strong></a> by <a href="{{ $.Site.Params.repository }}" target="_blank"><strong>noise导航</strong></a>
                     </div>
                     <div class="go-up">
                         <a href="#" rel="go-top">
