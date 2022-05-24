@@ -13,7 +13,7 @@ publishDir = "docs"
     description   = "Noise导航 & 收录值得珍藏的网站"
     siteurl       = "./"
     about         = "./about"   # 左侧导航栏的"关于导航"页面(./about)
-    repository    = "关于"
+    repository    = "https://noisedh.cn"
     enablePreLoad = false		    		        # 网站完全打开前预加载的动画
     textPreLoad   = "Noise导航 & 收录珍藏的网站"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
     logosPath     = "assets/images/logos"				# 网站每个导航地址logo存放地址
