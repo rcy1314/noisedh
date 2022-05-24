@@ -346,8 +346,7 @@
         - title: Pixabay
           logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
           url: https://pixabay.com/zh/videos/
-          description: 一个老牌的素材站了，Pixabay除了视频，Pixabay 也提供数量众多的矢量图、插画、照片等无版权素材，均可免注册直接下载
-        - title: Pexels
+          description: 一个老牌的素材站了，Pixabay 也提供数量众多的矢量图、插画、照片等无版权素材
           logo: https://api.iowen.cn/favicon/videos.pexels.com.png
           url: https://videos.pexels.com
           description: Pexels 是集大成的素材站，无版权的图片和视频它都有，还集成了别的站点的资源，种类和数量都很可观。
@@ -374,11 +373,11 @@
         - title: Mitch Martinez
           logo: https://api.iowen.cn/favicon/mitchmartinez.com.png
           url: http://mitchmartinez.com/free-4k-red-epic-stock-footage
-          description: 如果正在搜索4K素材，请查看此站点。虽然它似乎不再更新，但仍有许多类别的视频供您浏览。如果计划在商业项目中使用剪辑，则需要先完成发布表单
+          description: 如果正在搜索4K素材，请查看此站点。
         - title: Beachfront B-Roll
           logo: https://api.iowen.cn/favicon/www.beachfrontbroll.com.png
           url: http://www.beachfrontbroll.com
-          description: Beachfront B-Roll是一个视频博客，提供高清素材和动画背景。尽管该网站允许选择要在页面顶部浏览的类别。该网站的内容是独一无二的
+          description: Beachfront B-Roll是一个视频博客，提供高清素材和动画背景。
         - title: SplitShire
           logo: https://api.iowen.cn/favicon/www.splitshire.com.png
           url: https://www.splitshire.com
@@ -386,8 +385,7 @@
         - title: Life of Vids
           logo: https://api.iowen.cn/favicon/www.lifeofvids.com.png
           url: http://www.lifeofvids.com
-          description: 该网站上的所有视频均有加拿大一家叫 LEEROY 的数码创意工作室拍摄并上传，Life of Vids 的视频，用作空镜之类的应该挺适合
-        - title: Coverr
+          description: 该网站上的所有视频均有加拿大一家叫 LEEROY 的数码创意工作室拍摄并上传
           logo: https://api.iowen.cn/favicon/www.coverr.co.png
           url: http://www.coverr.co
           description: Coverr网站就是纯粹为我们提供免费视频下载的站点，网站为我们做了详细的视频分类，每周一会更新7个视频
