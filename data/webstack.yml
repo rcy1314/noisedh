@@ -56,7 +56,7 @@
 - taxonomy: 后期制作
   icon: fas fa-flask fa-lg
   list:
-- term: CG三维
+  - term: CG三维
       links:
     - title: CG爱好者
           logo: https://api.iowen.cn/favicon/www.cgahz.com.png
@@ -150,8 +150,7 @@
           logo: https://api.iowen.cn/favicon/www.btbat.com.png
           url: https://www.btbat.com
           description: 专注三维模型
-         
- - term: 模版插件
+  - term: 模版插件
       links:
     - title: LOOKAE大众脸
           logo: https://api.iowen.cn/favicon/www.lookae.com.png
@@ -265,7 +264,6 @@
           logo: https://api.iowen.cn/favicon/www.ldvfx.com.png
           url: https://www.ldvfx.com
           description: 影视后期加油站
-        
 
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
