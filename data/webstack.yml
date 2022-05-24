@@ -34,7 +34,7 @@
     - title: momentor
       logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.5ll3wza7qlc0.jpg
       url: https://momentor.cn/
-      description: 动态设计C4D，行业一线设计师分享交流的平台
+      description: 动态设计C4D 行业一线设计师分享交流的平台
     - title: 新片场
       logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.534dm9fkfn40.jpg
       url: https://www.xinpianchang.com
@@ -320,10 +320,6 @@
     - term: 字体图标
       links:
         
-          
-        
-    
-
 - taxonomy: 影视剧院片场
   icon: fas fa-film fa-lg
   list:
@@ -372,55 +368,28 @@
           url: https://ava.mangot5.com/ava/index
           description: 台服 AVA 战地之王。
 
-          - term: BT种子
+    - term: BT种子
       links:
-        - title: 百度贴吧
-          logo: 百度贴吧.jpg
-          url: ttps://tieba.baidu.com/index.html
-          description: 百度贴吧。
+        
+    - term: 直播平台
+      links:
+      
+     - term: 字幕组
+      links:
+        
+     - term: 视频解析
+      links:
+        
 
-          - term: 直播平台
+     - term: 视频下载
       links:
-        - title: 百度贴吧
-          logo: 百度贴吧.jpg
-          url: ttps://tieba.baidu.com/index.html
-          description: 百度贴吧。
-
-          - term: 字幕组
+       
+     - term: 纪录片天地
       links:
-        - title: 百度贴吧
-          logo: 百度贴吧.jpg
-          url: ttps://tieba.baidu.com/index.html
-          description: 百度贴吧。
-
-          - term: 视频解析
+        
+    - term: 影视搜索
       links:
-        - title: 百度贴吧
-          logo: 百度贴吧.jpg
-          url: ttps://tieba.baidu.com/index.html
-          description: 百度贴吧。
-
-          - term: 视频下载
-      links:
-        - title: 百度贴吧
-          logo: 百度贴吧.jpg
-          url: ttps://tieba.baidu.com/index.html
-          description: 百度贴吧。
-
-          - term: 纪录片天地
-      links:
-        - title: 百度贴吧
-          logo: 百度贴吧.jpg
-          url: ttps://tieba.baidu.com/index.html
-          description: 百度贴吧。
-
-          - term: 影视搜索
-      links:
-        - title: 百度贴吧
-          logo: 百度贴吧.jpg
-          url: ttps://tieba.baidu.com/index.html
-          description: 百度贴吧。
-   
+       
       
 - taxonomy: 软件下载
   icon: far fa-folder-open fa-lg
