@@ -98,14 +98,7 @@
           logo: https://api.iowen.cn/favicon/www.c4d.com.cn.png
           url: https://www.c4d.com.cn
           description: C4D模型，工程，材质
-    - title: 立体派
-          logo: https://api.iowen.cn/favicon/www.ltpmx.com.png
-          url: http://www.ltpmx.com
-          description: C4D模型
-    - title: biubiu游戏美术论坛
-          logo: https://api.iowen.cn/favicon/www.biubiuiu.com.png
-          url: https://www.biubiuiu.com
-          description: 最专业的游戏特效师，动画师社区
+    
    
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
