@@ -59,210 +59,210 @@
   list:
     - term: CG三维
       links:
-        - title: CG爱好者
+    - title: CG爱好者
           logo: https://api.iowen.cn/favicon/www.cgahz.com.png
           url: http://www.cgahz.com
           description: 影视后期相关资源
-        - title: CG99-CG设计网
+    - title: CG99-CG设计网
           logo: https://api.iowen.cn/favicon/www.cg99.com.png
           url: https://www.cg99.com
           description: 专注全球CG设计行业，以CG模型为主的资源下载和分享平台
-        - title: 分秒帧
+    - title: 分秒帧
           logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.dy3166er6fk.jpg
           url: https://app.mediatrack.cn
           description: 在线协作审片平台，无限协作容量，还有大容量个人网盘加持
-        - title: CG说
+    - title: CG说
           logo: https://api.iowen.cn/favicon/www.cgshuo.com.png
           url: http://www.cgshuo.com
           description: 原创CG设计资源、素材交易平台
-        - title: ABOUTCG
+    - title: ABOUTCG
           logo: https://api.iowen.cn/favicon/www.aboutcg.com.png
           url: https://www.aboutcg.com
           description: 最新CG行业资讯
-        - title: MAYA动画资源网
+    - title: MAYA动画资源网
           logo: https://api.iowen.cn/favicon/www.maya09.cn.png
           url: http://www.maya09.cn
           description: MAYA资源、论坛、社区
-        - title: CG模型王
+    - title: CG模型王
           logo: https://api.iowen.cn/favicon/www.cgmxw.com.png
           url: https://www.cgmxw.com
           description: 各类CG模型
-        - title: CG资源网
+    - title: CG资源网
           logo: https://api.iowen.cn/favicon/www.cgtsj.com.png
           url: https://www.cgtsj.com
           description: 各类CG资源
-        - title: 中文汉化
+    - title: 中文汉化
           logo: https://api.iowen.cn/favicon/h.shanse8.com.png
           url: http://h.shanse8.com
           description: CG 各领域的经典原创汉化作品，有 3D 软件、2D 软件、影视后期、非编等主流软件及其插件的汉化
-        - title: C4D模型网
+    - title: C4D模型网
           logo: https://api.iowen.cn/favicon/www.c4d.com.cn.png
           url: https://www.c4d.com.cn
           description: C4D模型，工程，材质
-        - title: 立体派
+    - title: 立体派
           logo: https://api.iowen.cn/favicon/www.ltpmx.com.png
           url: http://www.ltpmx.com
           description: C4D模型
-        - title: biubiu游戏美术论坛
+    - title: biubiu游戏美术论坛
           logo: https://api.iowen.cn/favicon/www.biubiuiu.com.png
           url: https://www.biubiuiu.com
           description: 最专业的游戏特效师，动画师社区
-        - title: CG帮
+    - title: CG帮
           logo: https://api.iowen.cn/favicon/www.cgboo.com.png
           url: https://www.cgboo.com
           description: 3D模型、游戏原画、AE模版资源网
-          - title: CGJOY
+    - title: CGJOY
           logo: https://www.cgjoy.com/template/iscwo_cgjoy/iscwo/img/logo.png
           url: https://www.cgjoy.com
           description: 3D特效师、动画师、模型、ui交流平台
-          - title: 模匠网
+    - title: 模匠网
           logo: https://api.iowen.cn/favicon/www.3dsmj.com.png
           url: https://www.3dsmj.com
           description: 各类3D模型下载
-          - title: cgebook
+    - title: cgebook
           logo: https://api.iowen.cn/favicon/www.cgebook.com.png
           url: http://www.cgebook.com
           description: 论坛式CG资源共享网
-          - title: 微妙网
+    - title: 微妙网
           logo: https://api.iowen.cn/favicon//www.wmiao.com.png
           url: https://www.wmiao.com
           description: 专业的动画师、特效师、建模师交流网站
-          - title: 魔顿
+    - title: 魔顿
           logo: https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2595532188,773070752&fm=26&gp=0.jpg
           url: http://www.modown.cn
           description: 免费C4D资源下载
-          - title: 动动三维
+    - title: 动动三维
           logo: https://api.iowen.cn/favicon/www.ddd.online.png
           url: https://www.ddd.online
           description: 上传编辑模型
-          - title: 免费三维模型
+    - title: 免费三维模型
           logo: https://api.iowen.cn/favicon/free3d.com.png
           url: https://free3d.com
           description: 完全免费的3D模型下载
-          - title: 菜鸟C4D
+     - title: 菜鸟C4D
           logo: https://api.iowen.cn/favicon/www.c4dcn.com.png
           url: http://www.c4dcn.com
           description: C4D学习站
-          - title: Sketchfab
+    - title: Sketchfab
           logo: https://api.iowen.cn/favicon/sketchfab.com.png
           url: https://sketchfab.com
           description: 大量的免费三维模型下载站
-          - title: R站
+    - title: R站
           logo: https://api.iowen.cn/favicon/www.btbat.com.png
           url: https://www.btbat.com
           description: 专注三维模型
          
     - term: 模版插件
       links:
-        - title: LOOKAE大众脸
+    - title: LOOKAE大众脸
           logo: https://api.iowen.cn/favicon/www.lookae.com.png
           url: https://www.lookae.com
           description: 最好的后期资源站
-          - title: V后期资源吧
+    - title: V后期资源吧
           logo: https://api.iowen.cn/favicon/www.vfx123.com.png
           url: https://www.vfx123.com
           description: 以FCPX资源为主
-          - title: LOOK资源网
+    - title: LOOK资源网
           logo: https://api.iowen.cn/favicon/www.lookzy.cn.png
           url: https://www.lookzy.cn
           description: 后期素材下载站
-          - title: 韬客AE
+    - title: 韬客AE
           logo: https://cdn.talkae.com/wp-content/uploads/2020/01/2020010718384056.png
           url: https://www.talkae.com
           description: 各类插件预设
-          - title: PR模版网
+    - title: PR模版网
           logo: https://api.iowen.cn/favicon/prmuban.com.png
           url: https://prmuban.com
           description: PR模板的集合地
-          - title: 新CG儿
+    - title: 新CG儿
           logo: https://api.iowen.cn/favicon/www.newcger.com.png
           url: https://www.newcger.com
           description: 老牌网站，CG模板插件资源
-          - title: 黑镜资源网
+    - title: 黑镜资源网
           logo: https://api.iowen.cn/favicon/cg66.cn.png
           url: https://cg66.cn
           description: CG资源、AE插件
-          - title: MotionVFX
+    - title: MotionVFX
           logo: https://api.iowen.cn/favicon/www.motionvfx.com.png
           url: https://www.motionvfx.com
           description: 专注于FCPX、motion效果功能开发的国外网站，顶级的素材效果库
-          v- title: 影库创作
+    - title: 影库创作
           logo: https://api.iowen.cn/favicon/www.moviercool.com.png
           url: https://www.moviercool.com
           description: 创作者的素材库，AE模版，插件，视频CG素材库
-          - title: 动视素材
+    - title: 动视素材
           logo: https://api.iowen.cn/favicon/www.dongmv.com.png
           url: http://www.dongmv.com
           description: 比较综合的模版素材网站
-          - title: 国外素材网
+    - title: 国外素材网
           logo: https://api.iowen.cn/favicon//hd1080.pro.png
           url: https://hd1080.pro
           description: 素材资源站
-          - title: 包图网
+    - title: 包图网
           logo: https://api.iowen.cn/favicon/ibaotu.com.png
           url: https://ibaotu.com
           description: 设计素材，AE模板等
-          - title: 93CG
+    - title: 93CG
           logo: https://api.iowen.cn/favicon/www.93cg.com.png
           url: https://www.93cg.com
           description: 老牌CG资源下载站
-          - title: YAKFX影视后期加油站
+    - title: YAKFX影视后期加油站
           logo: https://api.iowen.cn/favicon/www.yakfx.com.png
           url: http://www.yakfx.com
           description: 以FCPX插件为主，后期资源下载站
-          - title: SOSO后期站
+    - title: SOSO后期站
           logo: https://api.iowen.cn/favicon/www.sosohuo.com.png
           url: https://www.sosohuo.com
           description: LR预设，PS插件，后期资源
-          - title: 人人素材
+    - title: 人人素材
           logo: https://api.iowen.cn/favicon/www.rrcg.cn.png
           url: https://www.rrcg.cn
           description: 专业CG分享平台
-          - title: AE模型资源站
+    - title: AE模型资源站
           logo: https://api.iowen.cn/favicon/aemoban.com.png
           url: https://aemoban.com
           description: AE模型资源站
-          - title: 知鱼素材
+    - title: 知鱼素材
           logo: https://api.iowen.cn/favicon/www.zhiyusucai.com.png
           url: https://www.zhiyusucai.com
           description: 可商用素材，后期资源下载站
-          - title: 逍遥影视
+    - title: 逍遥影视
           logo: https://api.iowen.cn/favicon/www.vfxreel.net.png
           url: https://www.vfxreel.net
           description: 后期资源模版资源
-          - title: 凌晨两点
+    - title: 凌晨两点
           logo: https://api.iowen.cn/favicon/www.2amok.com.png
           url: https://www.2amok.com
           description: 视频、模版为主
-          - title: CG资源站
+    - title: CG资源站
           logo: https://api.iowen.cn/favicon/www.cgzyw.com.png
           url: http://www.cgzyw.com
           description: 资源丰富的素材站
-          - title: shareAE
+    - title: shareAE
           logo: https://api.iowen.cn/favicon/www.shareae.cn.png
           url: http://www.shareae.cn/
           description: AE模版资源
-          - title: 剪辑库
+    - title: 剪辑库
           logo: https://api.iowen.cn/favicon/www.editku.com.png
           url: https://www.editku.com
           description: 大量视频模板，以PR为主
-          - title: 明小子资源库
+    - title: 明小子资源库
           logo: https://api.iowen.cn/favicon/www.mingxiaozi.com.png
           url: https://www.mingxiaozi.com
           description: 自学教程资源
-          - title: C4DSKY
+    - title: C4DSKY
           logo: https://api.iowen.cn/favicon/c4dsky.com.png
           url: https://c4dsky.com
           description: AE模板，C4D素材应有尽有
-          - title: 追影吧
+    - title: 追影吧
           logo: https://api.iowen.cn/favicon/www.aepr8.com.png
           url: https://www.aepr8.com
           description: AE、PR、MAC资源
-          - title: CGUFO
+    - title: CGUFO
           logo: https://api.iowen.cn/favicon/www.cgufo.com.png
           url: https://www.cgufo.com
           description: 免费加收费资源
-          - title: 灵动网
+    - title: 灵动网
           logo: https://api.iowen.cn/favicon/www.ldvfx.com.png
           url: https://www.ldvfx.com
           description: 影视后期加油站
