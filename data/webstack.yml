@@ -275,59 +275,59 @@
           url: https://www.youdao.com/
           description: 免费，即时的多语种在线翻译。
           
-           - term: 外包平台
+    - term: 外包平台
       links:
         - title: 有道词典
           logo: 有道词典.png
           url: https://www.youdao.com/
           description: 免费，即时的多语种在线翻译
 
-           - term: 无版权视频
+   - term: 无版权视频
       links:
         - title: 有道词典
           logo: 有道词典.png
           url: https://www.youdao.com/
           description: 免费，即时的多语种在线翻译
 
-           - term: 创意片库
+    - term: 创意片库
       links:
         - title: 有道词典
           logo: 有道词典.png
           url: https://www.youdao.com/
           description: 免费，即时的多语种在线翻译
 
-           - term: 教程学习
+    - term: 教程学习
       links:
         - title: 有道词典
           logo: 有道词典.png
           url: https://www.youdao.com/
           description: 免费，即时的多语种在线翻译
 
-           - term: 字幕制作
+      - term: 字幕制作
       links:
         - title: 有道词典
           logo: 有道词典.png
           url: https://www.youdao.com/
           description: 免费，即时的多语种在线翻译
 
-           - term: 配音定制
+     - term: 配音定制
       links:
         - title: 有道词典
           logo: 有道词典.png
           url: https://www.youdao.com/
           description: 免费，即时的多语种在线翻译
 
-      - taxonomy: 设计灵感
+- taxonomy: 设计灵感
         icon: fas fa-film fa-lg
         list:
-           - term: 素材资源
+      - term: 素材资源
       links:
         - title: 有道词典
           logo: 有道词典.png
           url: https://www.youdao.com/
           description: 免费，即时的多语种在线翻译
 
-           - term: 设计工具
+     - term: 设计工具
       links:
         - title: 有道词典
           logo: 有道词典.png
@@ -341,21 +341,21 @@
           url: https://www.youdao.com/
           description: 免费，即时的多语种在线翻译
 
-          - term: 插画
+    - term: 插画
       links:
         - title: 有道词典
           logo: 有道词典.png
           url: https://www.youdao.com/
           description: 免费，即时的多语种在线翻译
 
-          - term: 配色
+     - term: 配色
       links:
         - title: 有道词典
           logo: 有道词典.png
           url: https://www.youdao.com/
           description: 免费，即时的多语种在线翻译
 
-          - term: 无版权图库
+    - term: 无版权图库
       links:
         - title: 有道词典
           logo: 有道词典.png
