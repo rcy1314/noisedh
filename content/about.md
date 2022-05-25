@@ -9,19 +9,20 @@ draft: false
 
 <center>Noise导航是一个综合类导航站，收录你那些值得收藏的网站</center>
 
- <iframe  
- height=100
- width=90% 
- src="https://rcy1314.github.io/greet-widgets"  
- frameborder=0  
- allowfullscreen>
- </iframe>
-
 <center>目前本站包含三个静态版本<center>
 主版本【个人DIY】:https://noisedh.cn<center>
 简约版【浏览器主页】:https://noisedh.cn/assets/soso/<center>
 旧版【影视新媒体】:https://noisedh.cn/assets/jiuban/<center>
 欢迎访问使用<center></center>
+
+ <center><iframe  
+ height=100
+ width=90% 
+ src="https://rcy1314.github.io/greet-widgets"  
+ frameborder=0  
+ allowfullscreen>
+ </iframe></center>
+
 
  <iframe  
  height=250 
