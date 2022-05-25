@@ -12,7 +12,7 @@ draft: false
  <iframe  
  height=100
  width=90% 
- src="https://pages.izyx.xyz/simple-clock"  
+ src="https://rcy1314.github.io/greet-widgets"  
  frameborder=0  
  allowfullscreen>
  </iframe>
