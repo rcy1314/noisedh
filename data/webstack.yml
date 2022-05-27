@@ -488,6 +488,69 @@
           logo: https://api.iowen.cn/favicon/www.topys.cn.png
           url: https://www.topys.cn
           description: TOPYS灵感视频
+
+   - term: 媒体平台
+      links:
+        - title: Youtube
+          logo: https://api.iowen.cn/favicon/www.youtube.com.png
+          url: https://www.youtube.com
+          description: Youtube
+        - title: 微信公众平台
+          logo: https://api.iowen.cn/favicon/mp.weixin.qq.com.png
+          url: https://mp.weixin.qq.com
+          description: 再小的个体也有自己的品牌
+        - title: Tiktok
+          logo: https://api.iowen.cn/favicon/www.tiktok.com.png
+          url: https://www.tiktok.com
+          description: Tiktok
+        - title: 抖音
+          logo: https://api.iowen.cn/favicon/www.douyin.com.png
+          url: https://www.douyin.com
+          description: 抖音
+        - title: 视频号
+          logo: https://api.iowen.cn/favicon/channels.weixin.qq.com.png
+          url: https://channels.weixin.qq.com
+          description: 视频号管理平台
+        - title: 西瓜视频
+          logo: https://api.iowen.cn/favicon/www.ixigua.com.png
+          url: https://www.ixigua.com
+          description: 西瓜视频
+        - title: 今日头条
+          logo: https://api.iowen.cn/favicon/www.toutiao.com.png
+          url: https://www.toutiao.com
+          description: 今日头条
+        - title: 哔哩哔哩创作中心
+          logo: https://api.iowen.cn/favicon/member.bilibili.com.png
+          url: https://member.bilibili.com/platform/home
+          description: 哔哩哔哩创作中心
+        - title: 大鱼号
+          logo: https://api.iowen.cn/favicon/mp.dayu.com.png
+          url: https://mp.dayu.com
+          description: 大鱼号
+        - title: 快手
+          logo: https://api.iowen.cn/favicon/kuaishou.com.png
+          url: https://kuaishou.com
+          description: 快手
+        - title: 百度百家
+          logo: https://api.iowen.cn/favicon/baijiahao.baidu.com.png
+          url: https://baijiahao.baidu.com
+          description: 百度百家
+        - title: 腾讯微视
+          logo: https://api.iowen.cn/favicon/www.weishi.com.png
+          url: https://www.weishi.com
+          description: 腾讯微视
+        - title: 小红书
+          logo: https://api.iowen.cn/favicon/www.xiaohongshu.com.png
+          url: https://www.xiaohongshu.com
+          description: 小红书
+        - title: Instagram
+          logo: https://api.iowen.cn/favicon/www.instagram.com.png
+          url: https://www.instagram.com
+          description: Instagram
+        - title: Twitter
+          logo: https://api.iowen.cn/favicon/twitter.com.png
+          url: https://twitter.com
+          description: Twitter
      
 - taxonomy: 影视片场
   icon: far fa-folder-open fa-lg
@@ -649,7 +712,7 @@
           logo: https://api.iowen.cn/favicon/ci.moefz.cc.png
           url: http://ci.moefz.cc
           description: 萌语动漫网
-            
+
     - term: 图标素材
       links:
         - title: Iconfinder
