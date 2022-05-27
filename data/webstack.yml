@@ -263,7 +263,6 @@
           logo: https://api.iowen.cn/favicon/www.ldvfx.com.png
           url: https://www.ldvfx.com
           description: 影视后期加油站
-
     - term: 媒体平台
       links:
         - title: Youtube
@@ -326,8 +325,6 @@
           logo: https://api.iowen.cn/favicon/twitter.com.png
           url: https://twitter.com
           description: Twitter
-        
-
     - term: 无版权视频
       links:
         - title: Pixabay
@@ -432,7 +429,6 @@
           logo: https://api.iowen.cn/favicon/www.videvo.net.png
           url: https://www.videvo.net
           description: Videvo提供大量素材和动态图像可供选择
-
     - term: 无版权图库
       links:
         - title: piqsels
@@ -511,7 +507,6 @@
           logo: https://api.iowen.cn/favicon/www.ssyer.com.png
           url: https://www.ssyer.com
           description: 无版权可商用图库
-
     - term: 无版权音频
       links:
         - title: 待添加
@@ -531,10 +526,29 @@
           url: https://pixabay.com/zh/videos/
           description: 待添加  
         - title: 待添加
-          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
           url: https://pixabay.com/zh/videos/
-          description: 待添加        
-        
+          description: 待添加 
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加             
     - term: 创意片库
       links:
         - title: 开眼视频
@@ -682,8 +696,7 @@
         - title: 待添加
           logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
           url: https://whereiskpkuang.com
-          description: 看片狂人是一个由影迷打造服务影迷的平台
-    
+          description: 看片狂人是一个由影迷打造服务影迷的平台 
     - term: 动漫番剧
       links:
         - title: 哔哩哔哩
@@ -764,7 +777,26 @@
           logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
           url: https://pixabay.com/zh/videos/
           description: 待添加  
-
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
     - term: 云盘搜索
       links:
         - title: 待添加
@@ -824,7 +856,19 @@
         - title: 待添加
           logo: https://api.iowen.cn/favicon/bangumi.moe.png
           url: https://pixabay.com/zh/videos/
-          description: 待添加  
+          description: 待添加 
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加 
 
 - taxonomy: 知识库
   icon: fas fa-sitemap fa-lg
@@ -855,7 +899,18 @@
           logo: https://api.iowen.cn/favicon/bangumi.moe.png
           url: https://pixabay.com/zh/videos/
           description: 待添加
-
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
     - term: 优质notion站点
       links:
         - title: notion博客站
@@ -882,7 +937,18 @@
           logo: https://api.iowen.cn/favicon/bangumi.moe.png
           url: https://pixabay.com/zh/videos/
           description: 待添加
-
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
     - term: 我爱电子书
       links:
         - title: 待添加
@@ -907,6 +973,18 @@
           description: 待添加
         - title: 待添加
           logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
           url: https://pixabay.com/zh/videos/
           description: 待添加
 
@@ -939,6 +1017,18 @@
           logo: https://api.iowen.cn/favicon/bangumi.moe.png
           url: https://pixabay.com/zh/videos/
           description: 待添加  
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
 
 - taxonomy: 博客人生
   icon: fas fa-heart fa-lg
@@ -969,6 +1059,22 @@
           logo: https://api.iowen.cn/favicon/bangumi.moe.png
           url: https://pixabay.com/zh/videos/
           description: 待添加 
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
 
 - taxonomy: 音乐人生
   icon: fas fa-headphones fa-lg
@@ -997,6 +1103,18 @@
           description: 待添加
         - title: 待添加
           logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
           url: https://pixabay.com/zh/videos/
           description: 待添加
 
@@ -1029,7 +1147,14 @@
           logo: https://api.iowen.cn/favicon/bangumi.moe.png
           url: https://pixabay.com/zh/videos/
           description: 待添加
-
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
    - term: 工具箱
       links:
         - title: 待添加
@@ -1054,6 +1179,18 @@
           description: 待添加
         - title: 待添加
           logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
           url: https://pixabay.com/zh/videos/
           description: 待添加
 
