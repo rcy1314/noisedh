@@ -311,35 +311,7 @@
           logo: https://api.iowen.cn/favicon/www.renderbus.com.png
           url: https://www.renderbus.com
           description: 专业影视动画云渲染
-       
-          
-    - term: 外包平台
-      links:
-        - title: 牛片网
-          logo: https://api.iowen.cn/favicon/www.6pian.cn.png
-          url: https://www.6pian.cn
-          description: 短视频交易服务平台，专注影视广告资源整合
-        - title: 猪八戒
-          logo: https://api.iowen.cn/favicon/zbj.com.png
-          url: https://zbj.com
-          description: 老牌外包接单平台
-        - title: 欧模网
-          logo: https://fuwu.om.cn/modules/home/desk//images/fws_logo.jpg
-          url: https://fuwu.om.cn
-          description: 效果图接单平台，设计师接单
-        - title: 蓝海创意云
-          logo: https://api.iowen.cn/favicon/www.vsochina.com.png
-          url: https://www.vsochina.com
-          description: 专业的文化创意产业资源整合平台
-        - title: 洛客
-          logo: https://api.iowen.cn/favicon/www.lkker.com.png
-          url: https://www.lkker.com
-          description: 品牌专业设计平台
-        - title: 一品威客
-          logo: https://api.iowen.cn/favicon/www.epwk.com.png
-          url: https://www.epwk.com
-          description: 设计师的接单平台
-        
+   
 
     - term: 无版权视频
       links:
