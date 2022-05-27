@@ -52,7 +52,6 @@
       url: https://www.v2ex.com/
       description: V2EX 创意工作者的社区。
 
-
 - taxonomy: 新媒体狂人
   icon: fas fa-film fa-lg
   list:
@@ -518,7 +517,23 @@
         - title: 待添加
           logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
           url: https://pixabay.com/zh/videos/
-          description: 待添加      
+          description: 待添加
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加        
         
     - term: 创意片库
       links:
@@ -564,7 +579,7 @@
           description: TOPYS灵感视频
      
 - taxonomy: 我爱看电影
-  icon: far fa-folder-open fa-lg
+  icon: far fa-youtube-play fa-lg
   list:
     - term: 电影影视
       links:
@@ -725,41 +740,121 @@
           description: 萌语动漫网
 
 - taxonomy: 资源分享
-  icon: fas fa-film fa-lg
+  icon: fas fa-cloud fa-lg
   list:
     - term: 永硕E盘
       links:
-        - title: CG爱好者
-          logo: https://api.iowen.cn/favicon/www.cgahz.com.png
-          url: http://www.cgahz.com
-          description: 影视后期相关资源
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
 
     - term: 云盘搜索
       links:
-        - title: CG爱好者
-          logo: https://api.iowen.cn/favicon/www.cgahz.com.png
-          url: http://www.cgahz.com
-          description: 影视后期相关资源
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+        - title: 待添加
+          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
 
 - taxonomy: 社区论坛
-  icon: fas fa-film fa-lg
+  icon: fas fa-users fa-lg
   list:
     - term: CG三维
       links:
-        - title: CG爱好者
-          logo: https://api.iowen.cn/favicon/www.cgahz.com.png
-          url: http://www.cgahz.com
-          description: 影视后期相关资源
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
 
 - taxonomy: 知识库
-  icon: fas fa-film fa-lg
+  icon: fas fa-sitemap fa-lg
   list:
     - term: 文档知识库
       links:
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/www.cgahz.com.png
-          url: http://www.cgahz.com
-          description: 影视后期相关资源
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
 
     - term: 优质notion站点
       links:
@@ -767,6 +862,26 @@
           logo: https://api.iowen.cn/favicon/www.cgahz.com.png
           url: http://www.cgahz.com
           description: 影视后期相关资源
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
 
     - term: 我爱电子书
       links:
@@ -774,29 +889,29 @@
           logo: https://api.iowen.cn/favicon/www.cgahz.com.png
           url: http://www.cgahz.com
           description: 影视后期相关资源
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
 
 - taxonomy: 游戏人生
-  icon: fas fa-film fa-lg
-  list:
-    - term: 待添加
-      links:
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/www.cgahz.com.png
-          url: http://www.cgahz.com
-          description: 影视后期相关资源  
-
-- taxonomy: 博客人生
-  icon: fas fa-film fa-lg
-  list:
-    - term: 待添加
-      links:
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/www.cgahz.com.png
-          url: http://www.cgahz.com
-          description: 影视后期相关资源 
-
-- taxonomy: 音乐人生
-  icon: fas fa-film fa-lg
+  icon: fas fa-dot-circle-o fa-lg
   list:
     - term: 待添加
       links:
@@ -804,9 +919,89 @@
           logo: https://api.iowen.cn/favicon/www.cgahz.com.png
           url: http://www.cgahz.com
           description: 影视后期相关资源
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加  
+
+- taxonomy: 博客人生
+  icon: fas fa-heart fa-lg
+  list:
+    - term: 待添加
+      links:
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.cgahz.com.png
+          url: http://www.cgahz.com
+          description: 影视后期相关资源
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加 
+
+- taxonomy: 音乐人生
+  icon: fas fa-headphones fa-lg
+  list:
+    - term: 待添加
+      links:
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/www.cgahz.com.png
+          url: http://www.cgahz.com
+          description: 影视后期相关资源
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
 
 - taxonomy: 开发者俱乐部
-  icon: fas fa-film fa-lg
+  icon: fas fa-diamond fa-lg
   list:
     - term: 建站达人
       links:
@@ -814,6 +1009,26 @@
           logo: https://api.iowen.cn/favicon/www.cgahz.com.png
           url: http://www.cgahz.com
           description: 影视后期相关资源
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
 
    - term: 工具箱
       links:
@@ -821,5 +1036,25 @@
           logo: https://api.iowen.cn/favicon/www.cgahz.com.png
           url: http://www.cgahz.com
           description: 影视后期相关资源
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://pixabay.com/zh/videos/
+          description: 待添加
 
    
