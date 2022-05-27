@@ -494,7 +494,7 @@
         - title: Youtube
           logo: https://api.iowen.cn/favicon/www.youtube.com.png
           url: https://www.youtube.com
-          description: Youtube
+          description: Youtube视频
         - title: 微信公众平台
           logo: https://api.iowen.cn/favicon/mp.weixin.qq.com.png
           url: https://mp.weixin.qq.com
@@ -502,11 +502,11 @@
         - title: Tiktok
           logo: https://api.iowen.cn/favicon/www.tiktok.com.png
           url: https://www.tiktok.com
-          description: Tiktok
+          description: Tiktok总站
         - title: 抖音
           logo: https://api.iowen.cn/favicon/www.douyin.com.png
           url: https://www.douyin.com
-          description: 抖音
+          description: 抖音短视频
         - title: 视频号
           logo: https://api.iowen.cn/favicon/channels.weixin.qq.com.png
           url: https://channels.weixin.qq.com
@@ -546,11 +546,11 @@
         - title: Instagram
           logo: https://api.iowen.cn/favicon/www.instagram.com.png
           url: https://www.instagram.com
-          description: Instagram
+          description: Instagram官方
         - title: Twitter
           logo: https://api.iowen.cn/favicon/twitter.com.png
           url: https://twitter.com
-          description: Twitter
+          description: Twitter官方
      
 - taxonomy: 影视片场
   icon: far fa-folder-open fa-lg
