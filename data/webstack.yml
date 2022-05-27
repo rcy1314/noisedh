@@ -52,6 +52,7 @@
       url: https://www.v2ex.com/
       description: V2EX 创意工作者的社区。
 
+
 - taxonomy: 新媒体狂人
   icon: fas fa-film fa-lg
   list:
@@ -592,6 +593,7 @@
           url: https://www.topys.cn
           description: TOPYS灵感视频
      
+
 - taxonomy: 我爱看电影
   icon: far fa-youtube-play fa-lg
   list:
@@ -752,6 +754,7 @@
           url: http://ci.moefz.cc
           description: 萌语动漫网
 
+
 - taxonomy: 资源分享
   icon: fas fa-cloud fa-lg
   list:
@@ -828,6 +831,7 @@
           url: https://pixabay.com/zh/videos/
           description: 待添加  
 
+
 - taxonomy: 社区论坛
   icon: fas fa-users fa-lg
   list:
@@ -869,6 +873,7 @@
           logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
           url: https://pixabay.com/zh/videos/
           description: 待添加 
+
 
 - taxonomy: 知识库
   icon: fas fa-sitemap fa-lg
@@ -988,6 +993,7 @@
           url: https://pixabay.com/zh/videos/
           description: 待添加
 
+
 - taxonomy: 游戏人生
   icon: fas fa-dot-circle-o fa-lg
   list:
@@ -1029,6 +1035,7 @@
           logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
           url: https://pixabay.com/zh/videos/
           description: 待添加
+
 
 - taxonomy: 博客人生
   icon: fas fa-heart fa-lg
@@ -1076,6 +1083,7 @@
           url: https://pixabay.com/zh/videos/
           description: 待添加
 
+
 - taxonomy: 音乐人生
   icon: fas fa-headphones fa-lg
   list:
@@ -1117,6 +1125,7 @@
           logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
           url: https://pixabay.com/zh/videos/
           description: 待添加
+
 
 - taxonomy: 开发者俱乐部
   icon: fas fa-diamond fa-lg
@@ -1194,4 +1203,4 @@
           url: https://pixabay.com/zh/videos/
           description: 待添加
 
-   
+---   
