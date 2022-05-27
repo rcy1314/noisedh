@@ -53,7 +53,7 @@
       description: V2EX 创意工作者的社区。
 
 
-- taxonomy: 新媒体狂人
+- taxonomy: 新媒体
   icon: fas fa-film fa-lg
   list:
     - term: CG三维
@@ -264,6 +264,7 @@
           logo: https://api.iowen.cn/favicon/www.ldvfx.com.png
           url: https://www.ldvfx.com
           description: 影视后期加油站
+
     - term: 媒体平台
       links:
         - title: Youtube
@@ -326,6 +327,7 @@
           logo: https://api.iowen.cn/favicon/twitter.com.png
           url: https://twitter.com
           description: Twitter
+
     - term: 无版权视频
       links:
         - title: Pixabay
@@ -366,14 +368,14 @@
         - title: SplitShire
           logo: https://api.iowen.cn/favicon/www.splitshire.com.png
           url: https://www.splitshire.com
-          description: SplitShire是网页设计师Daniel Nanescu的心血结晶，他想与全世界分享他的免费图片和视频集
+          description: SplitShire是网页设计师Daniel Nanescu的心血结晶
         - title: Life of Vids
           logo: https://api.iowen.cn/favicon/www.lifeofvids.com.png
           url: http://www.lifeofvids.com
           description: 该网站上的所有视频均有加拿大一家叫 LEEROY 的数码创意工作室拍摄并上传
           logo: https://api.iowen.cn/favicon/www.coverr.co.png
           url: http://www.coverr.co
-          description: Coverr网站就是纯粹为我们提供免费视频下载的站点，网站为我们做了详细的视频分类，每周一会更新7个视频
+          description: Coverr网站就是纯粹为我们提供免费视频下载的站点
         - title: Free HD Stock Footage on Vimeo
           logo: https://api.iowen.cn/favicon/vimeo.com.png
           url: https://vimeo.com/groups/freehd/
@@ -381,7 +383,7 @@
         - title: Production Crate
           logo: https://api.iowen.cn/favicon/www.productioncrate.com.png
           url: https://www.productioncrate.com
-          description: Production Crate将大量资源 - 如素材，特效，模板和音频 - 放在触手可及的位置。它可以免费使用
+          description: Production Crate将大量资源
         - title: OrangeHD
           logo: https://api.iowen.cn/favicon/orangehd.com.png
           url: http://orangehd.com
@@ -508,48 +510,7 @@
           logo: https://api.iowen.cn/favicon/www.ssyer.com.png
           url: https://www.ssyer.com
           description: 无版权可商用图库
-    - term: 无版权音频
-      links:
-        - title: 待添加
-          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
-          url: https://pixabay.com/zh/videos/
-          description: 待添加
-        - title: 待添加
-          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
-          url: https://pixabay.com/zh/videos/
-          description: 待添加  
-        - title: 待添加
-          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
-          url: https://pixabay.com/zh/videos/
-          description: 待添加  
-        - title: 待添加
-          logo: https://s1.ax1x.com/2020/09/06/wZMwUs.png
-          url: https://pixabay.com/zh/videos/
-          description: 待添加  
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
-          url: https://pixabay.com/zh/videos/
-          description: 待添加 
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
-          url: https://pixabay.com/zh/videos/
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
-          url: https://pixabay.com/zh/videos/
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
-          url: https://pixabay.com/zh/videos/
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
-          url: https://pixabay.com/zh/videos/
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
-          url: https://pixabay.com/zh/videos/
-          description: 待添加             
+ 
     - term: 创意片库
       links:
         - title: 开眼视频
@@ -667,7 +628,7 @@
           logo: https://api.iowen.cn/favicon/www.juhaokan.cc.png
           url: https://whereiskpkuang.com
           description: 超清1080p弹幕影视
-          
+
     - term: 动漫番剧
       links:
         - title: 哔哩哔哩
