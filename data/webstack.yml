@@ -594,7 +594,62 @@
           logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
           url: https://whereiskpkuang.com
           description: 看片狂人是一个由影迷打造服务影迷的平台
-    
+
+    - term: 动漫番剧
+      links:
+        - title: 哔哩哔哩
+          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.4pyo1ojnwn40.jpg
+          url: https://www.bilibili.com
+          description: 哔哩哔哩
+        - title: Mikan
+          logo: https://api.iowen.cn/favicon/mikanani.me.png
+          url: https://mikanani.me
+          description: 动态追番新体验
+        - title: 番组放送
+          logo: https://api.iowen.cn/favicon/bgmlist.com.png
+          url: https://bgmlist.com
+          description: 每日动漫番剧时间表
+        - title: 风车动漫
+          logo: https://api.iowen.cn/favicon/www.dmla.cc.png
+          url: http://www.dmla.cc
+          description: 动漫追番站
+        - title: M站【嘛哩嘛哩】
+          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.4wi3fn2cc5g0.jpg
+          url: https://www.malimali5.com
+          description: M站【嘛哩嘛哩】
+        - title: ACFUN
+          logo: https://api.iowen.cn/favicon/www.acfun.cn.png
+          url: https://www.acfun.cn
+          description: A站
+        - title: C站clicli
+          logo: https://api.iowen.cn/favicon/www.clicli.me.png
+          url: https://www.clicli.me
+          description: C站clicli
+        - title: ammmi
+          logo: https://api.iowen.cn/favicon/www.ammmi.com.png
+          url: https://www.ammmi.com
+          description: 一个汇聚了各种日本动漫信息的弹幕网站
+        - title: omofun
+          logo: https://api.iowen.cn/favicon/omofun.tv.png
+          url: https://omofun.tv
+          description: 动漫视频番剧站
+        - title: 萌番组
+          logo: https://api.iowen.cn/favicon/bangumi.moe.png
+          url: https://bangumi.moe
+          description: 动漫番剧种子站
+        - title: D站五弹幕
+          logo: https://api.iowen.cn/favicon/www.5dm.app.png
+          url: https://www.5dm.app
+          description: D站五弹幕
+        - title: 吾爱二次元
+          logo: https://api.iowen.cn/favicon/www.52ecy.com.png
+          url: https://www.52ecy.com
+          description: 二次元导航站
+        - title: 萌语动漫网
+          logo: https://api.iowen.cn/favicon/ci.moefz.cc.png
+          url: http://ci.moefz.cc
+          description: 萌语动漫网
+            
     - term: 图标素材
       links:
         - title: Iconfinder
