@@ -567,7 +567,7 @@
    
      
 - taxonomy: 影视片场
-  icon: far fa-film
+  icon: far fas fa-tape
   list:
     - term: 电影影视
       links:
