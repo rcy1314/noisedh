@@ -450,7 +450,50 @@
           logo: https://api.iowen.cn/favicon/www.videvo.net.png
           url: https://www.videvo.net
           description: Videvo提供大量素材和动态图像可供选择
-
+ 
+    - term: 创意片库
+      links:
+        - title: 开眼视频
+          logo: https://api.iowen.cn/favicon/www.kaiyanapp.com.png
+          url: https://www.kaiyanapp.com
+          description: 每日精选创意视频
+        - title: 扒片库
+          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.4hl65usc9aq0.jpg
+          url: http://www.bapianku.com
+          description: 创意样片，CG样片学习
+        - title: 天空之城
+          logo: https://api.iowen.cn/favicon/www.skypixel.com.png
+          url: https://www.skypixel.com
+          description: 世界各地的航拍摄影师、拍手叫绝的航拍作品与独具价值的航拍攻略
+        - title: 新片场
+          logo: https://api.iowen.cn/favicon/www.xinpianchang.com.png
+          url: https://www.xinpianchang.com
+          description: 质量上乘的视频大开眼界
+        - title: 艾墨镇
+          logo: https://api.iowen.cn/favicon/www.aimozhen.com.png
+          url: https://www.aimozhen.com
+          description: 分享创意视频，展示独立影像
+        - title: NOWNESS
+          logo: https://api.iowen.cn/favicon/www.nowness.cn.png
+          url: https://www.nowness.cn
+          description: 全球创意生活短片
+        - title: 积幕
+          logo: https://api.iowen.cn/favicon/jimu.movtile.com.png
+          url: https://jimu.movtile.com
+          description: 创意灵感聚集地
+        - title: TVCBOOK
+          logo: https://api.iowen.cn/favicon/www.tvcbook.com.png
+          url: https://www.tvcbook.com
+          description: 精选广告创意视频
+        - title: Vimeo
+          logo: https://api.iowen.cn/favicon/vimeo.com.png
+          url: https://vimeo.com
+          description: Vimeo全球创意视频，国内需科学
+        - title: TOPYS灵感视频
+          logo: https://api.iowen.cn/favicon/www.topys.cn.png
+          url: https://www.topys.cn
+          description: TOPYS灵感视频
+          
     - term: 图标素材
       links:
         - title: Iconfinder
@@ -521,52 +564,6 @@
           logo: InstantLogoSearch.png
           url: http://instantlogosearch.com/
           description: Search & download thousands of logos instantly.
-
-    
-        
-    - term: 创意片库
-      links:
-        - title: 开眼视频
-          logo: https://api.iowen.cn/favicon/www.kaiyanapp.com.png
-          url: https://www.kaiyanapp.com
-          description: 每日精选创意视频
-        - title: 扒片库
-          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.4hl65usc9aq0.jpg
-          url: http://www.bapianku.com
-          description: 创意样片，CG样片学习
-        - title: 天空之城
-          logo: https://api.iowen.cn/favicon/www.skypixel.com.png
-          url: https://www.skypixel.com
-          description: 世界各地的航拍摄影师、拍手叫绝的航拍作品与独具价值的航拍攻略
-        - title: 新片场
-          logo: https://api.iowen.cn/favicon/www.xinpianchang.com.png
-          url: https://www.xinpianchang.com
-          description: 质量上乘的视频大开眼界
-        - title: 艾墨镇
-          logo: https://api.iowen.cn/favicon/www.aimozhen.com.png
-          url: https://www.aimozhen.com
-          description: 分享创意视频，展示独立影像
-        - title: NOWNESS
-          logo: https://api.iowen.cn/favicon/www.nowness.cn.png
-          url: https://www.nowness.cn
-          description: 全球创意生活短片
-        - title: 积幕
-          logo: https://api.iowen.cn/favicon/jimu.movtile.com.png
-          url: https://jimu.movtile.com
-          description: 创意灵感聚集地
-        - title: TVCBOOK
-          logo: https://api.iowen.cn/favicon/www.tvcbook.com.png
-          url: https://www.tvcbook.com
-          description: 精选广告创意视频
-        - title: Vimeo
-          logo: https://api.iowen.cn/favicon/vimeo.com.png
-          url: https://vimeo.com
-          description: Vimeo全球创意视频，国内需科学
-        - title: TOPYS灵感视频
-          logo: https://api.iowen.cn/favicon/www.topys.cn.png
-          url: https://www.topys.cn
-          description: TOPYS灵感视频
-
    
      
 - taxonomy: 影视片场
