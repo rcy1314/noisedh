@@ -451,7 +451,7 @@
           url: https://www.videvo.net
           description: Videvo提供大量素材和动态图像可供选择
 
-      - term: 图标素材
+    - term: 图标素材
       links:
         - title: Iconfinder
           logo: Iconfinder.png
