@@ -1125,4 +1125,88 @@
           url: https://www.imooc.com/
           logo: imooc.png
           description: 程序员的梦工厂（有UI课程）。
-        
+
+
+- taxonomy: 社区论坛
+  icon: fas fa-pencil-alt fa-lg
+  list: 
+    - term: 资源类论坛
+      links:
+        - title: 微信读书
+          url: https://weread.qq.com/
+          logo: 微信读书.jpg
+          description: 微信读书电脑版。
+        - title: 书栈网
+          url: https://www.bookstack.cn/
+          logo: 书栈网.jpg
+          description: IT 互联网开源编程书籍免费阅读与下载。 
+
+- taxonomy: 社区论坛
+  icon: fas fa-pencil-alt fa-lg
+  list: 
+    - term: 资源类论坛
+      links:
+        - title: 微信读书
+          url: https://weread.qq.com/
+          logo: 微信读书.jpg
+          description: 微信读书电脑版。
+        - title: 书栈网
+          url: https://www.bookstack.cn/
+          logo: 书栈网.jpg
+          description: IT 互联网开源编程书籍免费阅读与下载。
+
+- taxonomy: 社区论坛
+  icon: fas fa-pencil-alt fa-lg
+  list: 
+    - term: 资源类论坛
+      links:
+        - title: 微信读书
+          url: https://weread.qq.com/
+          logo: 微信读书.jpg
+          description: 微信读书电脑版。
+        - title: 书栈网
+          url: https://www.bookstack.cn/
+          logo: 书栈网.jpg
+          description: IT 互联网开源编程书籍免费阅读与下载。
+
+- taxonomy: 社区论坛
+  icon: fas fa-pencil-alt fa-lg
+  list: 
+    - term: 资源类论坛
+      links:
+        - title: 微信读书
+          url: https://weread.qq.com/
+          logo: 微信读书.jpg
+          description: 微信读书电脑版。
+        - title: 书栈网
+          url: https://www.bookstack.cn/
+          logo: 书栈网.jpg
+          description: IT 互联网开源编程书籍免费阅读与下载。
+
+- taxonomy: 社区论坛
+  icon: fas fa-pencil-alt fa-lg
+  list: 
+    - term: 资源类论坛
+      links:
+        - title: 微信读书
+          url: https://weread.qq.com/
+          logo: 微信读书.jpg
+          description: 微信读书电脑版。
+        - title: 书栈网
+          url: https://www.bookstack.cn/
+          logo: 书栈网.jpg
+          description: IT 互联网开源编程书籍免费阅读与下载。
+
+- taxonomy: 社区论坛
+  icon: fas fa-pencil-alt fa-lg
+  list: 
+    - term: 资源类论坛
+      links:
+        - title: 微信读书
+          url: https://weread.qq.com/
+          logo: 微信读书.jpg
+          description: 微信读书电脑版。
+        - title: 书栈网
+          url: https://www.bookstack.cn/
+          logo: 书栈网.jpg
+          description: IT 互联网开源编程书籍免费阅读与下载。      
