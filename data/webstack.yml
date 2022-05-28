@@ -271,54 +271,55 @@
           logo: https://api.iowen.cn/favicon/www.piqsels.com.png
           url: https://www.piqsels.com/zh
           description: 一个老牌的素材站了，piqsels也提供数量众多的矢量图、插画、照片等无版权素材
-         - title: cc0
+        - title: cc0
           logo: https://api.iowen.cn/favicon/cc0.cn.png
           url: https://cc0.cn
           description: 免费可商用图库
-         - title: lustrations
+        - title: lustrations
           logo: https://api.iowen.cn/favicon/lukaszadam.com.png
           url: https://lukaszadam.com/illustrations
           description: 免费可商用插画和图标
-         - title: Big Heads
+        - title: Big Heads
           logo: https://api.iowen.cn/favicon/bigheads.io.png
           url: https://bigheads.io
           description: 免费可商用头像组合库
-         - title: Sketchvalley
+        - title: Sketchvalley
           logo: https://api.iowen.cn/favicon/sketchvalley.com.png
           url: https://sketchvalley.com
           description: 免费矢量手绘插画资源
-         - title: 西田图像
+        - title: 西田图像
           logo: https://api.iowen.cn/favicon/www.sitapix.com.png
           url: https://www.sitapix.com
           description: 高质量无版权图片素材
-         - title: pixabay
+        - title: pixabay
           logo: https://api.iowen.cn/favicon/pixabay.com.png
           url: https://pixabay.com
           description: 高质量无版权图库
-         - title: stocksnap.io
+        - title: stocksnap.io
           logo: https://api.iowen.cn/favicon/stocksnap.io.png
           url: https://stocksnap.io
           description: 漂亮的免费库存照片，每周增加数百张高分辨率图像，不受版权限制
-         - title: Visualhunt
+        - title: Visualhunt
           logo: https://api.iowen.cn/favicon/visualhunt.com.png
           url: https://visualhunt.com
           description: 超13万张无版权图片图库，可免费商用
-         - title: piqsels
+        - title: piqsels
           logo: https://api.iowen.cn/favicon/www.piqsels.com.png
           url: https://www.piqsels.com/zh
           description: 一个老牌的素材站了
-         - title: Gratisography
+        - title: Gratisography
           logo: https://api.iowen.cn/favicon/gratisography.com.png
           url: https://gratisography.com
           description: 一个脑洞大开的设计师创立的个人网站，几乎都是自己摄影作品
-         - title: freeimages
+        - title: freeimages
           logo: https://api.iowen.cn/favicon/www.piqsels.com.png
           url: https://www.freeimages.com/cn
           description: 界面清爽，图片质量不错，速度可以，值得推荐
-         - title: picjumbo
+        - title: picjumbo
           logo: https://api.iowen.cn/favicon/picjumbo.com.png
           url: https://picjumbo.com
           description: 一每天提供优质免费的照片！完全免费的照片为你的商业及个人的工作
+        - title: lifeofpix
           logo: https://api.iowen.cn/favicon/www.lifeofpix.com.png
           url: https://www.lifeofpix.com
           description: 这个图库中的图片多为欧洲景观，只支持英文搜图
@@ -343,33 +344,6 @@
           url: https://www.ssyer.com
           description: 无版权可商用图库
        
-          
-    - term: 外包平台
-      links:
-        - title: 牛片网
-          logo: https://api.iowen.cn/favicon/www.6pian.cn.png
-          url: https://www.6pian.cn
-          description: 短视频交易服务平台，专注影视广告资源整合
-        - title: 猪八戒
-          logo: https://api.iowen.cn/favicon/zbj.com.png
-          url: https://zbj.com
-          description: 老牌外包接单平台
-        - title: 欧模网
-          logo: https://fuwu.om.cn/modules/home/desk//images/fws_logo.jpg
-          url: https://fuwu.om.cn
-          description: 效果图接单平台，设计师接单
-        - title: 蓝海创意云
-          logo: https://api.iowen.cn/favicon/www.vsochina.com.png
-          url: https://www.vsochina.com
-          description: 专业的文化创意产业资源整合平台
-        - title: 洛客
-          logo: https://api.iowen.cn/favicon/www.lkker.com.png
-          url: https://www.lkker.com
-          description: 品牌专业设计平台
-        - title: 一品威客
-          logo: https://api.iowen.cn/favicon/www.epwk.com.png
-          url: https://www.epwk.com
-          description: 设计师的接单平台
         
 
     - term: 无版权视频
