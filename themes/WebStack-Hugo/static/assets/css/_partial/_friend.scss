@@ -1,0 +1,128 @@
+1#article-container {
+	2 word-wrap: break-word;
+	3 overflow-wrap: break-word
+	4}
+	5
+	6#article-container a {
+	7 color: #49b1f5
+	8}
+	9
+   10#article-container a:hover {
+   11 text-decoration: underline
+   12}
+   13
+   14#article-container img {
+   15 margin: 0 auto .8rem
+   16}
+   17
+   18.flink#article-container .friend-list-div > .friend-div a .friend-info,
+   19.flink#article-container .friend-list-div > .friend-div a .friend-name {
+   20 overflow: hidden;
+   21 -o-text-overflow: ellipsis;
+   22 text-overflow: ellipsis;
+   23 white-space: nowrap
+   24}
+   25
+   26.flink#article-container .friend-list-div {
+   27 overflow: auto;
+   28 padding: 10px 10px 0;
+   29 text-align: center;
+   30}
+   31.flink#article-container .friend-list-div > .friend-div {
+   32 position: relative;
+   33 float: left;
+   34 overflow: hidden;
+   35 margin: 15px 7px;
+   36 width: calc(100% / 3 - 15px);
+   37 height: 90px;
+   38 border-radius: 8px;
+   39 line-height: 17px;
+   40 -webkit-transform: translateZ(0)
+   41}
+   42
+   43@media screen and (max-width: 1100px) {
+   44 .flink#article-container .friend-list-div > .friend-div {
+   45  width: calc(50% - 15px) !important
+   46 }
+   47
+   48@media screen and (max-width: 600px) {
+   49 .flink#article-container .friend-list-div > .friend-div {
+   50  width: calc(100% - 15px) !important
+   51 }
+   52}
+   53}
+   54
+   55.flink#article-container .friend-list-div > .friend-div:hover {
+   56 background: rgba(87, 142, 224, 0.15);
+   57}
+   58
+   59.flink#article-container .friend-list-div > .friend-div:hover img {
+   60 -webkit-transform: rotate(360deg);
+   61 -moz-transform: rotate(360deg);
+   62 -o-transform: rotate(360deg);
+   63 -ms-transform: rotate(360deg);
+   64 transform: rotate(360deg)
+   65}
+   66
+   67.flink#article-container .friend-list-div > .friend-div:before {
+   68 position: absolute;
+   69 top: 0;
+   70 right: 0;
+   71 bottom: 0;
+   72 left: 0;
+   73 z-index: -1;
+   74 background: var(--text-bg-hover);
+   75 content: '';
+   76 -webkit-transition: -webkit-transform .3s ease-out;
+   77 -moz-transition: -moz-transform .3s ease-out;
+   78 -o-transition: -o-transform .3s ease-out;
+   79 -ms-transition: -ms-transform .3s ease-out;
+   80 transition: transform .3s ease-out;
+   81 -webkit-transform: scale(0);
+   82 -moz-transform: scale(0);
+   83 -o-transform: scale(0);
+   84 -ms-transform: scale(0);
+   85 transform: scale(0)
+   86}
+   87.flink#article-container .friend-list-div > .friend-div:hover:before,
+   88.flink#article-container .friend-list-div > .friend-div:focus:before,
+   89.flink#article-container .friend-list-div > .friend-div:active:before {
+   90 -webkit-transform: scale(1);
+   91 -moz-transform: scale(1);
+   92 -o-transform: scale(1);
+   93 -ms-transform: scale(1);
+   94 transform: scale(1)
+   95}
+   96.flink#article-container .friend-list-div > .friend-div a {
+   97 color: var(--font-color);
+   98 text-decoration: none
+   99}
+  100
+  101.flink#article-container .friend-list-div > .friend-div a img{
+  102 float: left;
+  103 margin: 15px 10px;
+  104 width: 60px;
+  105 height: 60px;
+  106 border-radius: 35px;
+  107 -webkit-transition: all .3s;
+  108 -moz-transition: all .3s;
+  109 -o-transition: all .3s;
+  110 -ms-transition: all .3s;
+  111 transition: all .3s
+  112}
+  113
+  114.flink#article-container .friend-list-div > .friend-div a .friend-name {
+  115 display: block;
+  116 padding: 16px 10px 0 0;
+  117 height: 40px;
+  118 font-weight: 700;
+  119 font-size: 20px
+  120}
+  121
+  122.flink#article-container .friend-list-div > .friend-div a .friend-info {
+  123 display: block;
+  124 padding: 1px 10px 1px 0;
+  125 height: 50px;
+  126 font-size: 13px
+  127}
+  

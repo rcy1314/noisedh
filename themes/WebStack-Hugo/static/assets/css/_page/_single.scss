@@ -1,0 +1,332 @@
+1@import "../_partial/_single/toc";
+2@import "../_partial/_single/_friend";
+3
+4.single {
+5  .single-title {
+6    margin: 1rem 0 .5rem;
+7    font-size: 1.6rem;
+8    font-weight: bold;
+9    line-height: 140%;
+10  }
+11
+12  .single-subtitle {
+13    margin: .4rem 0;
+14    font-size: 1.2rem;
+15    font-weight: normal;
+16    font-style: italic;
+17    line-height: 100%;
+18  }
+19
+20  .post-meta {
+21    font-size: .875rem;
+22    color: $global-font-secondary-color;
+23
+24    span {
+25      display: inline-block;
+26    }
+27
+28    [theme=dark] & {
+29      color: $global-font-secondary-color-dark;
+30    }
+31
+32    @include link(false, true);
+33
+34    .author {
+35      font-size: 1.05rem;
+36    }
+37  }
+38
+39  .featured-image {
+40    margin: .5rem 0 1rem 0;
+41
+42    img {
+43      display: block;
+44      max-width: 100%;
+45      height: auto;
+46      margin: 0 auto;
+47      overflow: hidden;
+48    }
+49
+50    img.lazyloaded {
+51      width: 100%;
+52    }
+53  }
+54
+55  .content {
+56    > h2 {
+57      font-size: 1.5rem;
+58
+59      & code {
+60        font-size: 1.25rem;
+61      }
+62    }
+63
+64    > h3 {
+65      font-size: 1.375rem;
+66
+67      & code {
+68        font-size: 1.125rem;
+69      }
+70    }
+71
+72    > h4 {
+73      font-size: 1.25rem;
+74
+75      & code {
+76        font-size: 1rem;
+77      }
+78    }
+79
+80    > h5 {
+81      font-size: 1.125rem;
+82    }
+83
+84    > h6 {
+85      font-size: 1rem;
+86    }
+87
+88    h2,
+89    h3,
+90    h4,
+91    h5,
+92    h6 {
+93      font-weight: bold;
+94      margin: 1.2rem 0;
+95
+96      [theme=dark] & {
+97        font-weight: bolder;
+98      }
+99    }
+100
+101    > h2,
+102    > h3,
+103    > h4,
+104    > h5,
+105    > h6 {
+106      > .header-mark::before {
+107        content: "|";
+108        margin-right: .3125rem;
+109        color: $single-link-color;
+110
+111        [theme=dark] & {
+112          color: $single-link-color-dark;
+113        }
+114      }
+115    }
+116
+117    > h2 > .header-mark::before {
+118      content: "#";
+119    }
+120
+121    p {
+122      margin: .5rem 0;
+123    }
+124
+125    b, strong {
+126      font-weight: bold;
+127
+128      [theme=dark] & {
+129        color: #ddd;
+130      }
+131    }
+132
+133    @include link(false, false);
+134
+135    a {
+136      @include overflow-wrap(break-word);
+137
+138      [theme=dark] & b, [theme=dark] & strong {
+139        color: $single-link-color-dark;
+140      }
+141    }
+142
+143    [theme=dark] a:hover b, [theme=dark] a:hover strong {
+144      color: $single-link-hover-color-dark;
+145    }
+146
+147    ul, ol {
+148      margin: .5rem 0;
+149      padding-left: 2.5rem;
+150    }
+151
+152    ul {
+153      list-style-type: disc;
+154    }
+155
+156    ruby {
+157      background: $code-background-color;
+158
+159      rt {
+160        color: $global-font-secondary-color;
+161      }
+162
+163      [theme=dark] & {
+164        background: $code-background-color-dark;
+165
+166        rt {
+167          color: $global-font-secondary-color-dark;
+168        }
+169      }
+170    }
+171
+172    .table-wrapper {
+173      overflow-x: auto;
+174
+175      &::-webkit-scrollbar {
+176        background-color: $table-background-color;
+177
+178        [theme=dark] & {
+179          background-color: $table-background-color-dark;
+180        }
+181      }
+182
+183      > table {
+184        width: 100%;
+185        max-width: 100%;
+186        margin: .625rem 0;
+187        border-spacing: 0;
+188        background: $table-background-color;
+189        border-collapse: collapse;
+190
+191        [theme=dark] & {
+192          background: $table-background-color-dark;
+193        }
+194
+195        thead {
+196          background: $table-thead-color;
+197
+198          [theme=dark] & {
+199            background-color: $table-thead-color-dark;
+200          }
+201        }
+202
+203        th, td {
+204          padding: .3rem 1rem;
+205          border: 1px solid darken($table-thead-color, 2%);
+206
+207          [theme=dark] & {
+208            border-color: darken($table-thead-color-dark, 2%);
+209          }
+210        }
+211      }
+212    }
+213
+214    img {
+215      max-width: 100%;
+216      min-height: 1em;
+217    }
+218
+219    figure {
+220      margin: .5rem;
+221      text-align: center;
+222
+223      .image-caption:not(:empty) {
+224        min-width: 20%;
+225        max-width: 80%;
+226        display: inline-block;
+227        padding: .5rem;
+228        margin: 0 auto;
+229        font-size: .875rem;
+230        color: #969696;
+231      }
+232
+233      img {
+234        display: block;
+235        height: auto;
+236        margin: 0 auto;
+237        overflow: hidden;
+238      }
+239    }
+240
+241    .lazyloading {
+242      @include object-fit(none);
+243    }
+244
+245    blockquote {
+246      display: block;
+247      border-left: .5rem solid $blockquote-color;
+248      background-color: rgba($blockquote-color, .2);
+249      padding: .25rem .75rem;
+250      margin: 1rem 0;
+251
+252      [theme=dark] & {
+253        border-left-color: $blockquote-color-dark;
+254        background-color: rgba($blockquote-color-dark, .2);
+255      }
+256    }
+257
+258    .footnotes {
+259      color: $global-font-secondary-color;
+260
+261      [theme=dark] & {
+262        color: $global-font-secondary-color-dark;
+263      }
+264
+265      p {
+266        margin: .25rem 0;
+267      }
+268    }
+269
+270    @import "../_partial/_single/code";
+271    @import "../_partial/_single/instagram";
+272    @import "../_partial/_single/admonition";
+273    @import "../_partial/_single/echarts";
+274    @import "../_partial/_single/mapbox";
+275    @import "../_partial/_single/music";
+276    @import "../_partial/_single/bilibili";
+277
+278    hr {
+279      margin: 1rem 0;
+280      position: relative;
+281      border-top: 1px dashed $global-border-color;
+282      border-bottom: none;
+283
+284      [theme=dark] & {
+285        border-top: 1px dashed $global-border-color-dark;
+286      }
+287    }
+288
+289    kbd {
+290      display: inline-block;
+291      padding: .25rem;
+292      background-color: $global-background-color;
+293      border: 1px solid $global-border-color;
+294      border-bottom-color: $global-border-color;
+295      @include border-radius(3px);
+296      @include box-shadow(inset 0 -1px 0 $global-border-color);
+297      font-size: .8rem;
+298      font-family: $code-font-family;
+299      color: $code-color;
+300
+301      [theme=dark] & {
+302        background-color: $global-background-color-dark;
+303        border: 1px solid $global-border-color-dark;
+304        border-bottom-color: $global-border-color-dark;
+305        @include box-shadow(inset 0 -1px 0 $global-border-color-dark);
+306        color: $code-color-dark;
+307      }
+308    }
+309
+310    .typeit {
+311      .code {
+312        padding: .375rem;
+313        font-size: .875rem;
+314        font-family: $code-font-family;
+315        font-weight: bold;
+316        word-break: break-all;
+317      }
+318    }
+319
+320    .version {
+321      height: 1.25em;
+322      vertical-align: text-bottom;
+323    }
+324  }
+325
+326  @import "../_partial/_single/footer";
+327  @import "../_partial/_single/comment";
+328}
+329
+330.lg-toolbar .lg-icon::after {
+331  color: #999;
+332}

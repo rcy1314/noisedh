@@ -51,50 +51,10 @@
       logo: v2ex.jpg
       url: https://www.v2ex.com/
       description: V2EX 创意工作者的社区。
-    - title: 待添加
-      logo: https://api.iowen.cn/favicon/cc0.cn.png
-      url: https://cc0.cn
-      description: 待添加
-    - title: 待添加
-      logo: https://api.iowen.cn/favicon/cc0.cn.png
-      url: https://cc0.cn
-      description: 待添加
-    - title: 待添加
-      logo: https://api.iowen.cn/favicon/cc0.cn.png
-      url: https://cc0.cn
-      description: 待添加
-    - title: 待添加
-      logo: https://api.iowen.cn/favicon/cc0.cn.png
-      url: https://cc0.cn
-      description: 待添加
-    - title: 待添加
-      logo: https://api.iowen.cn/favicon/cc0.cn.png
-      url: https://cc0.cn
-      description: 待添加
-    - title: 待添加
-      logo: https://api.iowen.cn/favicon/cc0.cn.png
-      url: https://cc0.cn
-      description: 待添加
-    - title: 待添加
-      logo: https://api.iowen.cn/favicon/cc0.cn.png
-      url: https://cc0.cn
-      description: 待添加
-    - title: 待添加
-      logo: https://api.iowen.cn/favicon/cc0.cn.png
-      url: https://cc0.cn
-      description: 待添加
-    - title: 待添加
-      logo: https://api.iowen.cn/favicon/cc0.cn.png
-      url: https://cc0.cn
-      description: 待添加
-    - title: 待添加
-      logo: https://api.iowen.cn/favicon/cc0.cn.png
-      url: https://cc0.cn
-      description: 待添加
 
 
 - taxonomy: 媒体制作
-  icon: fas fa-film fa-lg
+  icon: fas fa-folder-open fa-lg
   list:
     - term: CG三维
       links:
@@ -607,7 +567,7 @@
    
      
 - taxonomy: 影视片场
-  icon: far fa-folder-open fa-lg
+  icon: far fa-film fa-lg
   list:
     - term: 电影影视
       links:

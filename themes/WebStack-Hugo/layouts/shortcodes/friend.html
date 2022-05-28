@@ -1,0 +1,22 @@
+1{{ if .IsNamedParams }}
+2    {{- $src := .Get "logo" -}}
+3    {{- $small := .Get "logo_small" | default $src -}}
+4    {{- $large := .Get "logo_large" | default $src -}}
+5    <div class="flink" id="article-container">
+6      <div class="friend-list-div" >
+7        <div class="friend-div">
+8            <a target="_blank" href={{ .Get "url"  | safeURL }} title={{ .Get "name" }} >
+9                <img class="lazyload"
+10                     src="/svg/loading.min.svg"
+11                     data-src={{ $src | safeURL }}
+12                     alt={{ .Get "name" }}
+13                     data-sizes="auto"
+14                     data-srcset="{{ $small | safeURL }}, {{ $src | safeURL }} 1.5x, {{ $large | safeURL }} 2x" />
+15                <span class="friend-name">{{ .Get "name" }}</span>
+16                <span class="friend-info">{{ .Get "word" }}</span>
+17            </a>
+18        </div>
+19      </div>
+20    </div>
+21{{ end }}
+
