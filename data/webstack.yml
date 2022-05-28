@@ -567,7 +567,7 @@
    
      
 - taxonomy: 影视片场
-  icon: far fa-film fa-lg
+  icon: far fa-film
   list:
     - term: 电影影视
       links:
