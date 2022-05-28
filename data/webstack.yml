@@ -53,7 +53,7 @@
       description: V2EX 创意工作者的社区。
 
 
-- taxonomy: 新媒体
+- taxonomy: 媒体制作
   icon: fas fa-film fa-lg
   list:
     - term: CG三维
@@ -150,7 +150,7 @@
           logo: https://api.iowen.cn/favicon/www.btbat.com.png
           url: https://www.btbat.com
           description: 专注三维模型             
-    - term: 模版插件站
+    - term: 模版插件
       links:
         - title: LOOKAE大众脸
           logo: https://api.iowen.cn/favicon/www.lookae.com.png
@@ -451,6 +451,77 @@
           url: https://www.videvo.net
           description: Videvo提供大量素材和动态图像可供选择
 
+      - term: 图标素材
+      links:
+        - title: Iconfinder
+          logo: Iconfinder.png
+          url: https://www.iconfinder.com
+          description: 2,100,000+ free and premium vector icons.
+        - title: iconfont
+          logo: iconfont.png
+          url: http://www.iconfont.cn/
+          description: 阿里巴巴矢量图标库。
+        - title: iconmonstr
+          logo: iconmonstr.png
+          url: https://iconmonstr.com/
+          description: Free simple icons for your next project.
+        - title: Icon Archive
+          logo: iconarchive.png
+          url: http://www.iconarchive.com/
+          description: Search 590,912 free icons.
+        - title: FindIcons
+          logo: FindIcons.png
+          url: https://findicons.com/
+          description: Search through 300,000 free icons.
+        - title: IcoMoonApp
+          logo: IcoMoonApp.png
+          url: https://icomoon.io/app/
+          description: Icon Font, SVG, PDF &amp; PNG Generator.
+        - title: easyicon
+          logo: easyicon.png
+          url: http://www.easyicon.net/
+          description: PNG、ICO、ICNS格式图标搜索、图标下载服务。
+        - title: flaticon
+          logo: flaticon.png
+          url: https://www.flaticon.com/
+          description: 634,000+ Free vector icons in SVG, PSD, PNG, EPS format or as ICON FONT.
+        - title: UICloud
+          logo: UICloud.png
+          url: http://ui-cloud.com/
+          description: The largest user interface design database in the world.
+        - title: Material icons
+          logo: Materialicons.png
+          url: https://material.io/icons/
+          description: Access over 900 material system icons, available in a variety of sizes and densities, and as a web font.
+        - title: Font Awesome Icon
+          logo: fontawesomeicon.png
+          url: https://fontawesome.com/icons/
+          description: The complete set of 675 icons in Font Awesome.
+        - title: ion icons
+          logo: ionicons.png
+          url: http://ionicons.com/
+          description: The premium icon font for Ionic Framework.
+        - title: Simpleline Icons
+          logo: simplelineicons.png
+          url: http://simplelineicons.com/
+          description: Simple line Icons pack.
+        - title: Iconsfeed
+          logo: iconsfeed.png
+          url: http://www.iconsfeed.com/
+          description: iOS icons gallery.
+        - title: iOS Icon Gallery
+          logo: iosicongallery.png
+          url: http://iosicongallery.com/
+          description: Showcasing beautiful icon designs from the iOS App Store.
+        - title: World Vector Logo
+          logo: worldvectorlogo.png
+          url: https://worldvectorlogo.com/
+          description: Brand logos free to download.
+        - title: Instant Logo Search
+          logo: InstantLogoSearch.png
+          url: http://instantlogosearch.com/
+          description: Search & download thousands of logos instantly.
+
     
         
     - term: 创意片库
@@ -659,77 +730,7 @@
           url: http://ci.moefz.cc
           description: 萌语动漫网
 
-    - term: 图标素材
-      links:
-        - title: Iconfinder
-          logo: Iconfinder.png
-          url: https://www.iconfinder.com
-          description: 2,100,000+ free and premium vector icons.
-        - title: iconfont
-          logo: iconfont.png
-          url: http://www.iconfont.cn/
-          description: 阿里巴巴矢量图标库。
-        - title: iconmonstr
-          logo: iconmonstr.png
-          url: https://iconmonstr.com/
-          description: Free simple icons for your next project.
-        - title: Icon Archive
-          logo: iconarchive.png
-          url: http://www.iconarchive.com/
-          description: Search 590,912 free icons.
-        - title: FindIcons
-          logo: FindIcons.png
-          url: https://findicons.com/
-          description: Search through 300,000 free icons.
-        - title: IcoMoonApp
-          logo: IcoMoonApp.png
-          url: https://icomoon.io/app/
-          description: Icon Font, SVG, PDF &amp; PNG Generator.
-        - title: easyicon
-          logo: easyicon.png
-          url: http://www.easyicon.net/
-          description: PNG、ICO、ICNS格式图标搜索、图标下载服务。
-        - title: flaticon
-          logo: flaticon.png
-          url: https://www.flaticon.com/
-          description: 634,000+ Free vector icons in SVG, PSD, PNG, EPS format or as ICON FONT.
-        - title: UICloud
-          logo: UICloud.png
-          url: http://ui-cloud.com/
-          description: The largest user interface design database in the world.
-        - title: Material icons
-          logo: Materialicons.png
-          url: https://material.io/icons/
-          description: Access over 900 material system icons, available in a variety of sizes and densities, and as a web font.
-        - title: Font Awesome Icon
-          logo: fontawesomeicon.png
-          url: https://fontawesome.com/icons/
-          description: The complete set of 675 icons in Font Awesome.
-        - title: ion icons
-          logo: ionicons.png
-          url: http://ionicons.com/
-          description: The premium icon font for Ionic Framework.
-        - title: Simpleline Icons
-          logo: simplelineicons.png
-          url: http://simplelineicons.com/
-          description: Simple line Icons pack.
-        - title: Iconsfeed
-          logo: iconsfeed.png
-          url: http://www.iconsfeed.com/
-          description: iOS icons gallery.
-        - title: iOS Icon Gallery
-          logo: iosicongallery.png
-          url: http://iosicongallery.com/
-          description: Showcasing beautiful icon designs from the iOS App Store.
-        - title: World Vector Logo
-          logo: worldvectorlogo.png
-          url: https://worldvectorlogo.com/
-          description: Brand logos free to download.
-        - title: Instant Logo Search
-          logo: InstantLogoSearch.png
-          url: http://instantlogosearch.com/
-          description: Search & download thousands of logos instantly.
-
+    
 - taxonomy: 资源分享
   icon: fas fa-cloud fa-lg
   list:
@@ -795,7 +796,7 @@
           logo: https://api.iowen.cn/favicon/cc0.cn.png
           url: https://cc0.cn
           description: 待添加
-    - term: 优质notion站点
+    - term: notion站点
       links:
         - title: 待添加
           logo: https://api.iowen.cn/favicon/cc0.cn.png
@@ -814,7 +815,7 @@
           url: https://cc0.cn
           description: 待添加
         
-    - term: 我爱电子书
+    - term: 电子书库
       links:
         - title: 待添加
           logo: https://api.iowen.cn/favicon/cc0.cn.png
@@ -835,7 +836,7 @@
         
 
 - taxonomy: 游戏人生
-  icon: fas fa-dot-circle-o fa-lg
+  icon: fas fa-gamepad fa-lg
   list:
     - term: 待添加
       links:
@@ -912,8 +913,8 @@
         
 
 
-- taxonomy: 开发者俱乐部
-  icon: fas fa-diamond fa-lg
+- taxonomy: 独立开发
+  icon: fas fa-code fa-lg
   list:
     - term: 建站达人
       links:
