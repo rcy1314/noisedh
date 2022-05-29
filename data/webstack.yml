@@ -907,8 +907,7 @@
         - title: 文武科技柜
           logo: yongshuo.png
           url: http://itxh.ysepan.com
-          description: 网址书签库
-              
+          description: 网址书签库             
     - term: 软件文件类
       links:
         - title: 一些软件文件
@@ -1435,8 +1434,6 @@
           logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
-  
-
     - term: 游戏类社区
       links:
         - title: 待添加
@@ -1508,7 +1505,6 @@
           url: https://cc0.cn
           description: 待添加
         
-
 - taxonomy: 思维人生
   icon: fas fa-heart fa-lg
   list:
@@ -1629,6 +1625,14 @@
   list:
     - term: 精选收录
       links:
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
         - title: 待添加
           logo: yongshuo.png
           url: https://cc0.cn
