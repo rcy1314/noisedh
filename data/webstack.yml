@@ -727,7 +727,7 @@
           description: 一个私有静态动画库
    
 - taxonomy: 永硕E盘
-  icon: fas fa-file-zip-o
+  icon: fas fa-tree
   list:
     - term: 网址资源类
       links:
@@ -940,7 +940,7 @@
         - title: a1111		
           logo: yongshuo.png
           url: http://a1111.ysepan.com
-          description: 安卓apk
+          description: 安卓TVapk
         - title: 油麦同学的藏宝阁
           logo: yongshuo.png
           url: http://cangbaoge.ysepan.com
