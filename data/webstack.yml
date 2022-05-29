@@ -730,7 +730,7 @@
     - term: 永硕E盘
       links:
         - title: 懒人找素材
-          logo: https://api.iowen.cn/favicon/lazyman.ysepan.com.png
+          logo: yongshuo.png
           url: http://lazyman.ysepan.com
           description: 网址软件综合资源站
         - title: FC资源整理
@@ -741,14 +741,14 @@
           logo: yongshuo.png
           url: http://babe.ysepan.com
           description: 综合网址书签库
-        - title: 待添加
+        - title: GBT乐赏游戏空间
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://gbtgame.ysepan.com
+          description: 游戏资源收录
+        - title: SG拾尚研究室
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
+          url: http://tcsn.ysepan.com
+          description: 综合网址书签库
         - title: 待添加
           logo: yongshuo.png
           url: https://cc0.cn
@@ -1352,33 +1352,29 @@
           description: 待添加
         
 
-- taxonomy: 游戏人生
-  icon: fas fa-gamepad fa-lg
-  list:
-    - term: 待添加
-      links:
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        
-
-- taxonomy: 博客人生
+- taxonomy: 思维人生
   icon: fas fa-heart fa-lg
   list:
-    - term: 待添加
+    - term: 游戏人生
+      links:
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          url: https://cc0.cn
+          description: 待添加
+        
+    - term: 博客人生
       links:
         - title: 待添加
           logo: https://api.iowen.cn/favicon/cc0.cn.png
@@ -1401,11 +1397,7 @@
           url: https://cc0.cn
           description: 待添加
         
-
-- taxonomy: 音乐人生
-  icon: fas fa-headphones fa-lg
-  list:
-    - term: 待添加
+    - term: 音乐人生
       links:
         - title: 待添加
           logo: https://api.iowen.cn/favicon/cc0.cn.png
