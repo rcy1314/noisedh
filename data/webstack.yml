@@ -722,576 +722,733 @@
           logo: https://api.iowen.cn/favicon/ci.moefz.cc.png
           url: http://ci.moefz.cc
           description: 萌语动漫网
-
-    
-- taxonomy: 资源分享
-  icon: fas fa-cloud fa-lg
+        - title: 熔岩番剧库
+          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.png
+          url: https://magmablock.github.io/LavaAnimeWeb
+          description: 一个私有静态动画库
+   
+- taxonomy: 永硕E盘
+  icon: fas fa-file-zip-o
   list:
-    - term: 永硕E盘
+    - term: 网址资源类
       links:
         - title: 懒人找素材
           logo: yongshuo.png
           url: http://lazyman.ysepan.com
           description: 网址软件综合资源站
-        - title: FC资源整理
-          logo: yongshuo.png
-          url: http://1574802932.ysepan.com
-          description: FC游戏及网址书签收藏收录
-        - title: 大好人资源铺
-          logo: yongshuo.png
-          url: http://babe.ysepan.com
-          description: 综合网址书签库
-        - title: GBT乐赏游戏空间
-          logo: yongshuo.png
-          url: http://gbtgame.ysepan.com
-          description: 游戏资源收录
         - title: SG拾尚研究室
           logo: yongshuo.png
           url: http://tcsn.ysepan.com
           description: 综合网址书签库
-        - title: 待添加
+        - title: 小帅同学的储物间
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://gmengshuai.ysepan.com
+          description: 网址书签综合资源站
+        - title: 相逢储物站
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://xfyzyyb.ysepan.com
+          description: 网址书签综合资源站
+        - title: 陈蛋蛋的宝藏库
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://chendandan.ysepan.com
+          description: 网址书签综合资源站
+        - title: 怸歪的网盘
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://ago.ysepan.com
+          description: 综合网址书签库
+        - title: 果果资源库
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://gg369.ysepan.com
+          description: 综合资源书签收录
+        - title: 人生苦短，不妨一试
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://z007.ysepan.com
+          description: 综合网址书签库
+        - title: 一见如故储物室
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://yyds007.ysepan.com
+          description: 很强的综合资源书签库
+        - title: 大好人资源铺
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://babe.ysepan.com
+          description: 综合网址书签库
+        - title: 记忆力博客站
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://qq351605872.ysepan.com
+          description: 综合资源站
+        - title: 阿虚同学储物间
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: https://axutongxue.com
+          description: 综合资源站
+        - title: 油麦同学的藏宝阁
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://cangbaoge.ysepan.com
+          description: 综合类网址书签
+        - title: 效率视界的空间站
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://xiaolv.ysepan.com
+          description: 综合资源站
+        - title: 945KM的资源库
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://945km.ysepan.com
+          description: 综合类书签站
+        - title: 可可西里的杂货铺
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://kkxldzhp.ysepan.com
+          description: 网址书签综合资源站
+        - title: 嗯呢的储藏室
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://simple.ysepan.com
+          description: 综合类网址书签
+        - title: 龍舞的软件仓库
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://iml5.ysepan.com
+          description: 网址书签库
+        - title: 流年时迹
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://kinger.ysepan.com
+          description: 网址书签综合资源站
+        - title: LINDA的杂货铺		
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://thislinda.ysepan.com
+          description: 综合网址书签库
+         - title: 57号资源社
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://57cool.ysepan.com
+          description: 网址书签库
+        - title: 柠檬的资源库
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://dnmjun.ysepan.com
+          description: 综合资源书签收录
+        - title: 锋行网络工作室
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://fengxingit.ysepan.com
+          description: 网址书签库
+        - title: 秋叶的垃圾箱
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://qiuye.ysepan.com
+          description: 综合资源站
+        - title: ACG情报交流
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://duobaoxiang.ysepan.com
+          description: ACG资源收录
+        - title: 抓小猫资源库
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://huxiaogou.ysepan.com
+          description: 综合网址书签库
+        - title: 辉色深度导航站	
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://buguai2005.ysepan.com
+          description: 网址书签综合资源站
+        - title: MagicaVoxel	
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://wz6z6z6.ysepan.com
+          description: 网址书签库
+        - title: 小七素材
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://zymf.ysepan.com
+          description: 媒体素材库
+        - title: 57号实验室
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://57dh.ysepan.com
+          description: 几十个书签网站
+        - title: 薛信的资料室
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://xuexinxs.ysepan.com
+          description: 网址书签库
+        - title: 彬彬同学
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://abinpan.ysepan.com
+          description: 网址书签库
+        - title: 利爪典藏资源分享
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://lizhua.ysepan.com
+          description: 网址书签库
+        - title: 青春的资源库
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://youngqc.ysepan.com
+          description: 网址书签库
+        - title: 阡陌的储物间
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
+          url: http://tig198.ysepan.com
+          description: 网址书签库
+        - title: sakura
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        
+          url: http://sakura.ysepan.com
+          description: 网址书签综合资源站
+        - title: 真不错资源网
+          logo: yongshuo.png
+          url: http://fendoudeniu.ysepan.com
+          description: 网址书签库
+        - title: 仙҈流҈
+          logo: yongshuo.png
+          url: http://xianliu.ysepan.com
+          description: 综合类书签站
+        - title: 猫
+          logo: yongshuo.png
+          url: http://hushuojinpeng.ysepan.com
+          description: 少量的网址书签
+        - title: 个人储存空间站
+          logo: yongshuo.png
+          url: http://982585608.ysepan.com
+          description: 网址书签综合资源站
+        - title: zuliang
+          logo: yongshuo.png
+          url: http://zuliang.ysepan.com
+          description: 网址书签库
+        - title: bo文的储物间
+          logo: yongshuo.png
+          url: http://bowenkongjian.ysepan.com
+          description: 网址书签库    
+        - title: 量子孤岛杂货店
+          logo: yongshuo.png
+          url: http://quantumisland.ysepan.com
+          description: 网址书签库     
+        - title: 文武科技柜
+          logo: yongshuo.png
+          url: http://itxh.ysepan.com
+          description: 网址书签库
+              
+    - term: 软件文件类
+      links:
+        - title: 一些软件文件
+          logo: yongshuo.png
+          url: http://shenlong123.ysepan.com
+          description: 一些软件文件
+        - title: 羽享平台
+          logo: yongshuo.png
+          url: http://yuzhuyi.ysepan.com
+          description: 电子书文献
+        - title: 青春的秘密基地
+          logo: yongshuo.png
+          url: http://qcsuper.ysepan.com
+          description: 软件资源收录
+        - title: Burger Studio 的空间
+          logo: yongshuo.png
+          url: http://burger.ysepan.com
+          description: 系统软件类
+        - title: 小张分享的空间站
+          logo: yongshuo.png
+          url: http://xiaozhangfx.ysepan.com
+          description: 网址软件综合资源站
+        - title: 鱼果天晴的资源库
+          logo: yongshuo.png
+          url: http://ygtq.ysepan.com
+          description: 网址软件综合资源站
+        - title: 鲨鱼共享资源库		
+          logo: yongshuo.png
+          url: http://moli234.ysepan.com
+          description: 网址软件综合资源站
+        - title: a1111		
+          logo: yongshuo.png
+          url: http://a1111.ysepan.com
+          description: 安卓apk
+        - title: 油麦同学的藏宝阁
+          logo: yongshuo.png
+          url: http://cangbaoge.ysepan.com
+          description: 网址软件综合资源站
+        - title: 周哥的K1官方网盘
+          logo: yongshuo.png
+          url: http://kteam.ysepan.com
+          description: K1 Official WebDisc
+        - title: VNR吧共享目录
+          logo: yongshuo.png
+          url: http://vnr-file.ysepan.com
+          description: 软件综合书签
+        - title: 电脑软件		
+          logo: yongshuo.png
+          url: http://dnrj.ysepan.com
+          description: 电脑软件
+        - title: wpbkj网络工具箱
+          logo: yongshuo.png
+          url: http://wpbkj.ysepan.com
+          description: 精品软件库
+        - title: 小天学长的资源分享
+          logo: yongshuo.png
+          url: http://py1985.ysepan.com
+          description: 软件库书签库
+        - title: 思楠网盘
+          logo: yongshuo.png
+          url: http://lisinan.ysepan.com
+          description: 一点软件资源
+        - title: Mac&Win software share
+          logo: yongshuo.png
+          url: http://ltbb.ysepan.com
+          description: 软件备用书签
+        - title: 舒颜
+          logo: yongshuo.png
+          url: http://mr123.ysepan.com
+          description: 软件综合书签
+        - title: 电脑绿色精品软件库
+          logo: yongshuo.png
+          url: http://ruchun.ysepan.com
+          description: 电脑绿色精品软件库
+        - title: 羽享平台
+          logo: yongshuo.png
+          url: http://yuzhuyi.ysepan.com
+          description: 软件综合书签
+        - title: cmd程序高玩
+          logo: yongshuo.png
+          url: http://cmd1152.ysepan.com
+          description: cmd程序
+        - title: 特洛衣网络维护网盘
+          logo: yongshuo.png
+          url: http://866286.ysepan.com
+          description: 网咖电竞维护工具收集
+        - title: 旷世奇才电子书
+          logo: yongshuo.png
+          url: http://apkbook.ysepan.com
+          description: 安卓APK电子书
+        - title: 哆啦A梦的神奇口袋
+          logo: yongshuo.png
+          url: http://baozangku.ysepan.com
+          description: 网址软件综合资源站
+        - title: 资源汇社区的资源库
+          logo: yongshuo.png
+          url: http://ziyuanhuishequ.ysepan.com
+          description: 综合资源站，密码zyhsq55
+        - title: IDM分享
+          logo: yongshuo.png
+          url: http://idman.ysepan.com
+          description: IDM下载
+        - title: 边缘星的杂货铺
+          logo: yongshuo.png
+          url: http://byx2020.ysepan.com
+          description: 书籍和软件
+        - title: 图书馆资源
+          logo: yongshuo.png
+          url: http://tushuguan.ysepan.com
+          description: 图书类书签收录
+        - title: 周靖的E盘
+          logo: yongshuo.png
+          url: http://transbot.ysepan.com
+          description: 编程书籍
+        - title: 五分钱网络交流资料
+          logo: yongshuo.png
+          url: http://wfq678.ysepan.com
+          description: 电脑绿色精品软件库
+        - title: DAC导航的文件共享区
+          logo: yongshuo.png
+          url: http://nwuzmed.ysepan.com
+          description: 软件库书签库
+        - title: 东海资料网盘专区
+          logo: yongshuo.png
+          url: http://eastsea.ysepan.com
+          description: 刷机库
+        - title: wpbkj网络工具箱
+          logo: yongshuo.png
+          url: http://wpbkj.ysepan.com
+          description: 精品软件库
+        - title: 小天学长的资源分享
+          logo: yongshuo.png
+          url: http://py1985.ysepan.com
+          description: 软件库书签库
+        - title: 小派上货软件
+          logo: yongshuo.png
+          url: http://qq676712213.ysepan.com
+          description: 各种淘宝抖音电商软件收录
+        - title: 蓝天云研究所
+          logo: yongshuo.png
+          url: http://maorenjie147.ysepan.com
+          description: 病毒样本
+        - title: 渊龙Sec安全团队公开网盘1
+          logo: yongshuo.png
+          url: http://ymlz2.ysepan.com
+          description: 安全 渗透类软件
+        - title: 黑猫装饰软件
+          logo: yongshuo.png
+          url: http://ten-cent.ysepan.com
+          description: 黑猫软件服务
+
+    - term: 游戏娱乐类
+      links:
+        - title: FC资源整理
+          logo: yongshuo.png
+          url: http://1574802932.ysepan.com
+          description: FC游戏及网址书签收藏收录
+        - title: GBT乐赏游戏空间
+          logo: yongshuo.png
+          url: http://gbtgame.ysepan.com
+          description: 游戏资源收录
+        - title: UIUIUI影视导航
+          logo: yongshuo.png
+          url: http://uiuiui.ysepan.com
+          description: 影视导航书签
+        - title: 57号影社
+          logo: yongshuo.png
+          url: http://57tv.ysepan.com
+          description: 影视网站书签汇总
+        - title: 15935916112com
+          logo: yongshuo.png
+          url: 15935916112com.ysepan.com
+          description: FC-HACK游戏
+        - title: Forever的单机游戏空间	
+          logo: yongshuo.png
+          url: http://foreve.ysepan.com
+          description: 游戏资源收录
+        - title: Thurter星夜的网盘
+          logo: yongshuo.png
+          url: http://2865037603.ysepan.com
+          description: 一点游戏资源
+        - title: Sega 16-Bit 音乐网盘		
+          logo: yongshuo.png
+          url: http://sonichackmusic.ysepan.com
+          description: 16-Bit 音乐网盘
+        - title: 惊云-FC游戏交流站
+          logo: yongshuo.png
+          url: http://dfqshy.ysepan.com
+          description: FC游戏交流站
+        - title: 超级马里奥网盘
+          logo: yongshuo.png
+          url: http://opengl106.ysepan.com
+          description: 超级马里奥集中区
+        - title: A系列RPG游戏
+          logo: yongshuo.png
+          url: http://u1996.ysepan.com
+          description: 游戏资源收录
+        - title: flysheep资源避难所
+          logo: yongshuo.png
+          url: http://flysheep.ysepan.com
+          description: 游戏资源收录
+        - title: 123456a
+          logo: yongshuo.png
+          url: http://123456a.ysepan.com
+          description: FC游戏及街机收藏收录
+        - title: 小鱼儿系统站
+          logo: yongshuo.png
+          url: http://yrxitong.ysepan.com
+          description: 系统藏经阁
+        - title: Load Error
+          logo: yongshuo.png
+          url: http://kaizozhang.ysepan.com
+          description: 模拟器HACK相关
+        - title: 黑乐谱爱好者网盘
+          logo: yongshuo.png
+          url: http://miaofoolfish.ysepan.com
+          description: MIDI音乐
+        - title: 吞食天地重装机兵资源站
+          logo: yongshuo.png
+          url: http://tstdzzjb.ysepan.com
+          description: FC街机游戏收藏
+        - title: 我爱云的落花窗台
+          logo: yongshuo.png
+          url: http://way1539.ysepan.com
+          description: 游戏资源收录
+        - title: Synthesia吧公共网盘
+          logo: yongshuo.png
+          url: http://synthesia.ysepan.com
+          description: 一点MIDI音乐
+         - title: 悠然小赐
+          logo: yongshuo.png
+          url: http://108201645.ysepan.com
+          description: FC HACK系列
+        - title: FC-HACK小站
+          logo: yongshuo.png
+          url: http://yrd2005.ysepan.com
+          description: FC-HACK游戏
+        - title: w7n's Hack Zone
+          logo: yongshuo.png
+          url: http://mariohacker.ysepan.com
+          description: Hack制作上传盘
+        - title: 经典游戏网盘
+          logo: yongshuo.png
+          url: http://438985757.ysepan.com
+          description: FC游戏及街机收藏收录
+        - title: 维京的梦
+          logo: yongshuo.png
+          url: http://fogota.ysepan.com
+          description: FC游戏及街机收藏收录
+        - title: FC怀旧游戏
+          logo: yongshuo.png
+          url: http://ysusb.ysepan.com
+          description: FC怀旧游戏
+        - title: 妍☆如☆玉☆空☆间
+          logo: yongshuo.png
+          url: http://yanruyu.ysepan.com
+          description: HACK及FC游戏修改
+        - title: 天际边工作室
+          logo: yongshuo.png
+          url: http://wstjb.ysepan.com
+          description: 游戏资源收录
+        - title: 没错，我就是流氓哥哥
+          logo: yongshuo.png
+          url: http://ctm.ysepan.com
+          description: 游戏资源收录
+
+    - term: 考试资料类
+      links:
+        - title: gongkao6688
+          logo: yongshuo.png
+          url: http://gongkao6688.edudisk.cn
+          description: 国考省考
+        - title: 学习分享菌
+          logo: yongshuo.png
+          url: http://mxhg678.ysepan.com
+          description: 初中高中网课资源
+        - title: 考博论坛库
+          logo: yongshuo.png
+          url: http://freekaobo.ysepan.com
+          description: 考博论坛库
+         - title: 信息化课程教学空间
+          logo: yongshuo.png
+          url: http://2006b.ysepan.com
+          description: 英语课程相关资源
+        - title: 太極·真誥
+          logo: yongshuo.png
+          url: http://www.taijizg.com
+          description: 佛教经文
+        - title: 考研学子
+          logo: yongshuo.png
+          url: http://kyxz.ysepan.com
+          description: 网课书签资源有收费
+        - title: 曲境♥♥藏宝地
+          logo: yongshuo.png
+          url: http://lhjhome.ysepan.com
+          description: 教育考试资源收录
+        - title: 免费考试课件
+          logo: yongshuo.png
+          url: http://mfkskj.ysepan.com
+          description: 综合课程资料
+        - title: 绝对の0度
+          logo: yongshuo.png
+          url: http://eternity.ysepan.com
+          description: 一点音乐书籍
+        - title: 蓝之自由下载站
+          logo: yongshuo.png
+          url: http://bluefree.ysepan.com
+          description: 小说备用书签
+        - title: EXCEL模板工具疯狂下载站
+          logo: yongshuo.png
+          url: http://15161218108.ysepan.com
+          description: EXCEL模板工具疯狂下载站
+        - title: 安心考研
+          logo: yongshuo.png
+          url: http://axky.ysepan.com
+          description: 考研题库
+        - title: 逐鹿（一建、二建）
+          logo: yongshuo.png
+          url: http://zhulu.ysepan.com
+          description: 第一个目录密码pass
+        - title: kaoyan1122
+          logo: yongshuo.png
+          url: http://kaoyanjidi2018.ysepan.com
+          description: 考研资料库
+        - title: 法考网
+          logo: yongshuo.png
+          url: http://sifalianmemg.ysepan.com
+          description: 法考资源有收费
+        - title: 记忆力博客网盘
+          logo: yongshuo.png
+          url: http://qq351605872.ysepan.com
+          description: 以课程为主的综合资源站
+        - title: 金榜题名
+          logo: yongshuo.png
+          url: http://qzbltushu.ysepan.com
+          description: 考研教资
+        - title: 知识管理师导航站
+          logo: yongshuo.png
+          url: http://kmanage.ysepan.com
+          description: 网课书签资源
+        - title: 考博论坛库
+          logo: yongshuo.png
+          url: http://freekaobo.ysepan.com
+          description: 考博论坛库
+
+- taxonomy: 资源分享
+  icon: fas fa-cloud fa-lg
+  list:        
     - term: 云盘搜索
       links:
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加 
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加 
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+    - term: 蓝奏云盘站
+      links:
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加 
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加 
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+    - term: 自建云盘站
+      links:
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加 
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加 
+        - title: 待添加
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         
 - taxonomy: 社区论坛
   icon: fas fa-users fa-lg
   list:
-    - term: CG三维
+    - term: 资源类社区
       links:
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+    - term: 摄影类社区
+      links:
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+    - term: 综合技术类
+      links:
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+    - term: IT编程类
+      links:
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+    - term: 软件技术类
+      links:
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+    - term: 影视类论坛
+      links:
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+  
+
+    - term: 游戏类社区
+      links:
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
+        - title: 待添加
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         
@@ -1302,52 +1459,52 @@
     - term: 文档知识库
       links:
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
     - term: notion站点
       links:
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         
     - term: 电子书库
       links:
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         
@@ -1358,65 +1515,65 @@
     - term: 游戏人生
       links:
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         
     - term: 博客人生
       links:
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         
     - term: 音乐人生
       links:
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         
@@ -1428,42 +1585,51 @@
     - term: 建站达人
       links:
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         
     - term: 工具箱
       links:
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: https://api.iowen.cn/favicon/cc0.cn.png
+          logo: yongshuo.png
           url: https://cc0.cn
           description: 待添加
 
+- taxonomy: 其它精选
+  icon: fas fa-heart fa-lg
+  list:
+    - term: 精选收录
+      links:
+        - title: 待添加
+          logo: yongshuo.png
+          url: https://cc0.cn
+          description: 待添加
