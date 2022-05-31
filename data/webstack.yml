@@ -2146,6 +2146,10 @@
           logo: https://api.iowen.cn/favicon/bbs.keter.pub.png
           url: https://bbs.keter.pub
           description: 游戏社区
+        - title: 电玩DIY论坛
+          logo: 电玩DIY.png
+          url: http://vgdiy.com/bbs/forum.php
+          description: 电玩DIY论坛
        
     - term: 知识类社区
       links:
@@ -2750,45 +2754,229 @@
   list:
     - term: 游戏人生
       links:
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
+        - title: switch520.com
+          logo: https://api.iowen.cn/favicon/www.switch520.com.png
+          url: https://switch520.com
+          description: 全球游戏免费下载
+        - title: Epic游戏|周免
+          logo: https://api.iowen.cn/favicon//www.epicgames.com.png
+          url: https://www.epicgames.com/store/zh-CN/free-games?utm_source=iplaysoft.com&hmsr=iplaysoft.com
+          description: Epic游戏|每周都有免费游戏可领
+        - title: G1游戏
+          logo: https://api.iowen.cn/favicon/g1yx.com.png
+          url: https://g1yx.com/
+          description: 游戏社区资源站
+        - title: FFF游戏
+          logo: https://api.iowen.cn/favicon/www.fffyouxi.com.png
+          url: http://www.fffyouxi.com/
+          description: 单机游戏整合平台
+        - title: FC小霸王
+          logo: https://api.iowen.cn/favicon/www.yikm.net.png
+          url: https://www.yikm.net
+          description: 小霸王其乐无穷
+        - title: Deep Fun
+          logo: https://api.iowen.cn/favicon//www.deepfun.net.png
+          url: https://www.deepfun.net/
+          description: switch游戏下载
+        - title: RGB Game
+          logo: https://api.iowen.cn/favicon/www.rpg.kim.png
+          url: https://www.rpg.kim
+          description: pc游戏下载中心
+        - title: 游戏年轮
+          logo: https://api.iowen.cn/favicon/www.bibgame.com.png
+          url: https://www.bibgame.com
+          description: 主机游戏下载综合站
+        - title: 178游戏网
+          logo: https://api.iowen.cn/favicon/www.178.com.png
+          url: http://www.178.com
+          description: 网游集合地
+        - title: Steam
+          logo: https://api.iowen.cn/favicon/store.steampowered.com.png
+          url: https://store.steampowered.com/
+          description: Steam游戏商店
+        - title: 电玩巴士
+          logo: https://api.iowen.cn/favicon/www.tgbus.com.png
+          url: http://www.tgbus.com
+          description: 电玩巴士
+        - title: 游民星空
+          logo: https://api.iowen.cn/favicon/www.gamersky.com.png
+          url: https://www.gamersky.com
+          description: 单机游戏门户
+        - title: 3DM
+          logo: https://api.iowen.cn/favicon/www.3dmgame.com.png
+          url: https://www.3dmgame.com
+          description: 单机游戏门户
+        - title: 游侠网
+          logo: https://api.iowen.cn/favicon/www.ali213.net.png
+          url: https://www.ali213.net
+          description: 单机游戏门户
         
-    - term: 博客人生
+    - term: 独立博客
       links:
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
+        - title: 冬烛之焰
+          logo: https://api.iowen.cn/favicon/www.zhuhuadong.com.png
+          url: https://www.zhuhuadong.com
+          description: 冬烛之焰
+        - title: 奔跑中的奶酪
+          logo: https://api.iowen.cn/favicon/www.runningcheese.com.png
+          url: https://www.runningcheese.com
+          description: 奔跑中的奶酪
+        - title: Hassan's Blog
+          logo: https://api.iowen.cn/favicon/hassanwong.top.png
+          url: https://hassanwong.top
+          description: 时不我待，只争朝夕
+        - title: 风雪之隅
+          logo: https://api.iowen.cn/favicon/www.laruence.com.png
+          url: https://www.laruence.com
+          description: Laruence的博客
+        - title: Android Performance	
+          logo: https://api.iowen.cn/favicon/www.androidperformance.com.png
+          url: https://www.androidperformance.com
+          description: Android Performance
+        - title: 知识追寻者
+          logo: https://api.iowen.cn/favicon/zszxz.com.png
+          url: https://zszxz.com
+          description: 知识追寻者
+        - title: Frytea's Blog
+          logo: https://api.iowen.cn/favicon/blog.frytea.com.png
+          url: https://blog.frytea.com
+          description: Frytea's Blog
+        - title: 勿埋我心 - 浅蓝
+          logo: https://api.iowen.cn/favicon/www.qian.blue.png
+          url: https://www.qian.blue
+          description: 勿埋我心 - 浅蓝
+        - title: 曾小满的盒子-ShermanBox
+          logo: https://api.iowen.cn/favicon/share-man.com.png
+          url: https://share-man.com
+          description: 曾小满的盒子-ShermanBox
+        - title: 小z博客
+          logo: https://api.iowen.cn/favicon/www.xiaoz.me.png
+          url: https://www.xiaoz.me
+          description: 生命不息，吾将折腾不止
+        - title: 宝硕博客
+          logo: https://api.iowen.cn/favicon/blog.baoshuo.ren.png
+          url: https://blog.baoshuo.ren
+          description: 宝硕博客
+        - title: 有格调
+          logo: https://api.iowen.cn/favicon/www.ugediao.com.png
+          url: https://www.ugediao.com
+          description: 有格调
+        - title: 本卡风
+          logo: https://api.iowen.cn/favicon/bkfeng.top.png
+          url: https://bkfeng.top
+          description: 本卡风
+        - title: MOE
+          logo: https://api.iowen.cn/favicon/www.moe.am.png
+          url: https://www.moe.am
+          description: MOE
+        - title: The JetBrains Blog
+          logo: https://api.iowen.cn/favicon/blog.jetbrains.com.png
+          url: https://blog.jetbrains.com/zh-hans/
+          description: The JetBrains Blog
+        - title: Oldpan的个人博客
+          logo: https://api.iowen.cn/favicon/oldpan.me.png
+          url: https://oldpan.me
+          description: Oldpan的个人博客
+        - title: 山川行貉
+          logo: https://api.iowen.cn/favicon/blog.scxho.cn.png
+          url: https://blog.scxho.cn
+          description: 山川行貉
+        - title: 汀彵の汐
+          logo: https://api.iowen.cn/favicon/www.izznan.cn.png
+          url: https://www.izznan.cn
+          description: 汀彵の汐
+        - title: 林海草原
+          logo: https://api.iowen.cn/favicon/lhcy.org.png
+          url: https://lhcy.org
+          description: 林海草原
+        - title: 胡家小子_记录对生活的向往，记录生活周遭的个人网站	
+          logo: https://api.iowen.cn/favicon/www.boyhu.cn.png
+          url: https://www.boyhu.cn/
+          description: 记录对生活的向往，记录生活周遭的个人网站
+        - title: 云鹤 - 云鹤小窝	
+          logo: https://api.iowen.cn/favicon/blog.yhidc.cc.png
+          url: http://blog.yhidc.cc
+          description: 云鹤 - 云鹤小窝
+        - title: YaloisBlog 
+          logo: https://api.iowen.cn/favicon/blog.sky233.top.png
+          url: https://blog.sky233.top
+          description: 探索永无止境
+        - title: 归梦の博客
+          logo: https://api.iowen.cn/favicon/blog.zengjunyin.com.png
+          url: https://blog.zengjunyin.com
+          description: 归梦の博客
+        - title: 猎人杂货铺
+          logo: https://api.iowen.cn/favicon/hunterx.xyz.png
+          url: https://hunterx.xyz
+          description: 学习随笔 与君分享
+        - title: Wenxuan SHI
+          logo: https://api.iowen.cn/favicon/www.whexy.com.png
+          url: https://www.whexy.com
+          description: Wenxuan SHI
+        - title: 张洪Heo
+          logo: https://api.iowen.cn/favicon/blog.zhheo.com.png
+          url: https://blog.zhheo.com
+          description: 分享设计与科技生活
+        - title: 忽然笔记
+          logo: https://api.iowen.cn/favicon/blog.huran.xyz.png
+          url: https://blog.huran.xyz
+          description: 忽然笔记
+        - title: Akilarの糖果屋
+          logo: https://api.iowen.cn/favicon/akilar.top.png
+          url: https://akilar.top
+          description: Akilarの糖果屋
+        - title: 小冰博客
+          logo: https://api.iowen.cn/favicon/zfe.space.png
+          url: https://zfe.space
+          description: 做个有梦想的人！
+        - title: 黑石博客
+          logo: https://api.iowen.cn/favicon/www.heson10.com.png
+          url: https://www.heson10.com
+          description: 黑石博客
+        - title: ZkeqのCoding日志
+          logo: https://api.iowen.cn/favicon/icodeq.com.png
+          url: https://icodeq.com
+          description: ZkeqのCoding日志
+        - title: 七龙的秘密基地	
+          logo: 七龙.jpg
+          url: https://it.o.ls/index.php
+          description: 七龙的秘密基地
+        - title: flydean的博客
+          logo: https://api.iowen.cn/favicon/www.flydean.com.png
+          url: http://www.flydean.com
+          description: 程序那些事
+        - title: zhanghe.cool
+          logo: https://api.iowen.cn/favicon/zhanghe.cool.png
+          url: https://zhanghe.cool
+          description: zhanghe.cool
+        - title: 辣椒の酱
+          logo: https://api.iowen.cn/favicon/dogzi.fun.png
+          url: https://dogzi.fun
+          description: 辣椒の酱
+        - title: 一个程序员的个人博客
+          logo: https://api.iowen.cn/favicon/waynegong.cn.png
+          url: https://waynegong.cn
+          description: 一个程序员的个人博客
+        - title: 一如Java深似海
+          logo: https://api.iowen.cn/favicon/v-vincen.life.png
+          url: https://v-vincen.life
+          description: 一如Java深似海
+        - title: 小唐笔记📒
+          logo: 小唐.png
+          url: https://nobelium-plum-nine.vercel.app
+          description: 小唐笔记📒
+        - title: 信鑫 Blog
+          logo: https://api.iowen.cn/favicon/www.rustc.cloud.png
+          url: https://www.rustc.cloud
+          description: 信鑫 Blog
+        - title: 糖醋鱼的小破站
+          logo: https://api.iowen.cn/favicon/expoli.tech.png
+          url: https://expoli.tech
+          description: 糖醋鱼的小破站
+        - title: 奶爸建站笔记 	
+          logo: https://api.iowen.cn/favicon/blog.naibabiji.com.png
+          url: https://blog.naibabiji.com/
+          description: 奶爸建站笔记
         
     - term: 音乐人生
       links:
