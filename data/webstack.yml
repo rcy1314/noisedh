@@ -1555,7 +1555,7 @@
           url: https://xz.aliyun.com
           description: 网络安全类论坛
         - title: 工控论坛
-          logo: https://api.iowen.cn/faviconbbs.gkong.com.png
+          logo: http://bbs.gkong.com/favicon.ico
           url: http://bbs.gkong.com
           description: 工控技术自动化
         - title: 数学研发论坛
@@ -1769,7 +1769,7 @@
           url: 	https://www.52pojie.cn
           description: 老牌的站点,很强
         - title: 心动社区
-          logo: https://www.xdo.cc/www.xdo.cc/favicon.ico
+          logo: https://www.xdo.cc/favicon.ico
           url: 	https://www.xdo.cc
           description: 综合资源类社区
         
@@ -1848,7 +1848,7 @@
           url: http://bbs.liuxingw.com
           description: 安卓类综合门户
         - title: 萝卜头论坛
-          logo: https://api.iowen.cn/faviconbbs.luobotou.org.png
+          logo: https://bbs.luobotou.org/favicon.ico
           url: https://bbs.luobotou.org
           description: 软件IT论坛
         - title: 51testing论坛
@@ -1895,10 +1895,6 @@
           logo: https://api.iowen.cn/favicon/forum.ubuntu.org.cn.png
           url: https://forum.ubuntu.org.cn
           description: ubuntu系统的一切
-        - title: 奇帕官网
-          logo: https://api.iowen.cn/favicon/www.7po.com.png
-          url: http://www.7po.com
-          description: 智能电视机顶盒软件
         - title: 智能电视论坛
           logo: https://api.iowen.cn/favicon/www.znds.com.png
           url: https://www.znds.com
@@ -1955,7 +1951,7 @@
           url: https://bbs.xktpx.com
           description: 综合类交流论坛
         - title: 天翼小站
-          logo: https://api.iowen.cn/favicon/yun.hei521.cn.png
+          logo: tianyixiaozhan.png
           url: https://yun.hei521.cn
           description: 天翼及阿里云盘资源
         - title: 阿里云网盘资源免费分享论坛
@@ -1986,10 +1982,6 @@
           logo: https://api.iowen.cn/favicon/pan666.net.png
           url: https://pan666.net
           description: 以阿里云盘资源为主的论坛
-        - title: 天天资源吧
-          logo: https://api.iowen.cn/faviconwww.ttsf6.com.png
-          url: https://www.ttsf6.com
-          description: 综合类交流论坛
         - title: 网盘分享吧
           logo: https://api.iowen.cn/favicon/www.wpfx8.com.png
           url: https://www.wpfx8.com
@@ -2346,10 +2338,6 @@
           logo: https://api.iowen.cn/favicon/bbs.51credit.com.png
           url: https://bbs.51credit.com
           description: 信用卡类社区
-        - title: 派代网
-          logo: https://api.iowen.cn/favicon/www.paidai.com.png
-          url: https://www.paidai.com
-          description: 电商类社区
         - title: 穷游论坛
           logo: https://api.iowen.cn/favicon/bbs.qyer.com.png
           url: https://bbs.qyer.com
@@ -2362,10 +2350,6 @@
           logo: https://api.iowen.cn/favicon/bbs.moto8.com.png
           url: http://bbs.moto8.com
           description: 摩托骑士交流
-        - title: 吉他中国论坛
-          logo: https://api.iowen.cn/favicon/bbs.guitarchina.com.png
-          url: https://bbs.guitarchina.com
-          description: 吉他中国论坛
         - title: 老司机
           logo: https://api.iowen.cn/favicon/www.laosiji.com.png
           url: https://www.laosiji.com
@@ -2575,7 +2559,7 @@
           description: 待添加
 
 - taxonomy: 精选导航站
-  icon: fas fa-heart fa-lg
+  icon: fas fa-circle
   list:
     - term: 导航收录
       links:
@@ -2593,7 +2577,7 @@
           description: 待添加
 
 - taxonomy: 其它精选
-  icon: fas fa-heart fa-lg
+  icon: fas fa-cube
   list:
     - term: 精选收录
       links:
