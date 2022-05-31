@@ -591,10 +591,6 @@
           logo: https://api.iowen.cn/favicon/ddrk.me.png
           url: https://ddrk.me
           description: 高质量看片追剧
-        - title: 奈非影视
-          logo: https://api.iowen.cn/favicon/www.nfyingshi.com.png
-          url: https://www.nfyingshi.com
-          description: 打造的美剧追剧平台
         - title: 奈非中文影视
           logo: https://api.iowen.cn/favicon/yanetflix.com.png
           url: https://yanetflix.com
@@ -2330,18 +2326,34 @@
   list:
     - term: 文档知识库
       links:
-        - title: 待添加
+        - title: TigerZH 开发笔记
           logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
+          url: https://6372-crypto2server-576164-1302901174.tcb.qcloud.la/z-org-logos/16x16.png
+          description: My Life Getting Better
+        - title: 不同编程语言的代码示例
+          logo: codepaper.png
+          url: https://zh.code-paper.com/
+          description: 不同编程语言的代码示例
+        - title: lcomplete 的技术分享
+          logo: https://tech.codelc.com//assets/favicons/favicon-32x32.png
+          url: https://tech.codelc.com
+          description: lcomplete 的技术分享
+        - title: JavaPark
+          logo: JavaPark.png
+          url: https://cunyu1943.site/JavaPark/
+          description: 「Java 自学指南」Java 学习保姆级教程、面试总结、计算机基础、数据库、实战实践、效率工具、资源分享、程序人生。
+        - title: 渐近式 Go 语言入门到精通
+          logo: vuejs.png
+          url: https://go-docs.vercel.app/
+          description: 渐近式 Go 语言入门到精通
+        - title: Jerry Chen 在线文档
+          logo: JerryChen.png
+          url: https://www.ijerrychen.com
+          description: 丰富的vue、java、html笔记
+        - title: 科技趣玩
+          logo: kejiwan.png
+          url: https://sharemore52.gitee.io
+          description: 一个分享各类资源的地方
     - term: notion站点
       links:
         - title: Harumonia
