@@ -2327,8 +2327,8 @@
     - term: 文档知识库
       links:
         - title: TigerZH 开发笔记
-          logo: yongshuo.png
-          url: https://6372-crypto2server-576164-1302901174.tcb.qcloud.la/z-org-logos/16x16.png
+          logo: https://6372-crypto2server-576164-1302901174.tcb.qcloud.la/z-org-logos/16x16.png
+          url: https://doc.tigerzh.com
           description: My Life Getting Better
         - title: 不同编程语言的代码示例
           logo: codepaper.png
@@ -2354,6 +2354,38 @@
           logo: kejiwan.png
           url: https://sharemore52.gitee.io
           description: 一个分享各类资源的地方
+        - title: awesome-bookmarks
+          logo: awesome.png
+          url: https://panjiachen.github.io/awesome-bookmarks/repository/#%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8
+          description: 程序员编程类bookmark
+        - title: Github收藏夹
+          logo: github.jpg
+          url: https://github.com/taojintianxia/github-bookmark
+          description: 收集了Github上的优秀工具,框架,知识合集
+        - title: web全栈书签收藏整理
+          logo: default.png
+          url: http://oxoyo.co/F2E-Tutorial-Collect
+          description: web全栈书签收藏整理
+        - title: Mybookmarks
+          logo: default.png
+          url: https://gerryiswarrior.github.io/MyBookmarks
+          description: 书签整理和分类
+        - title: web-bookmarks
+          logo: webbook.png
+          url: https://neveryu.github.io/web-bookmarks
+          description: 前端工程师知识技能储备库
+        - title: 后盾人
+          logo: default.png
+          url: https://doc.houdunren.com
+          description: 在线文档，前端学习及vscode插件推荐
+        - title: 一些书签
+          logo: 一些书签.png
+          url: https://techpang.top/bookmark_libs
+          description: 沈公子的云端书签库
+        - title: 程序员成长指北
+          logo: 指北.png
+          url: http://www.inode.club/
+          description: 专注 Node.js 技术栈分享，从 前端 到 Node.js 再到 后端数据库
     - term: notion站点
       links:
         - title: Harumonia
@@ -2511,22 +2543,179 @@
         
     - term: 电子书库
       links:
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
+        - title: 快吧
+          logo: default.png
+          url: http://www.fast8.cc
+          description: 电子书下载
+        - title: IPFS星际分享社区
+          logo: default.png
+          url: https://spcqwserdvymm.com.vika.cn/share/shryNwH3HRgvzMTaZVAGx/fodkuzz5eaw0w
+          description: 中国首个应用去中心化技术（IPFS）储存的数字图书共享系统
+        - title: 静然书屋
+          logo: default.png
+          url: https://books.andrewjr.workers.dev/0:/
+          description: 点击右上角菜单可以搜索
+        - title: 书格
+          logo: default.png
+          url: https://new.shuge.org
+          description: 书格
+        - title: 计算机电子书
+          logo: default.png
+          url: http://www.xz577.com
+          description: 编程类电子书
+        - title: PDF之家
+          logo: default.png
+          url: http://pdfzj.cn
+          description: PDF下载
+        - title: 好读
+          logo: default.png
+          url: http://www.haodoo.net
+          description: 电子书下载
+        - title: itbook
+          logo: default.png
+          url: https://itbook.download
+          description: 电子书下载
+        - title: 书问
+          logo: default.png
+          url: https://www.bookask.com
+          description: 书籍搜索
+        - title: 大学资源网
+          logo: default.png
+          url: http://www.dxzy163.com
+          description: 课程书籍
+        - title: 第一学习网
+          logo: default.png
+          url: http://www.xxw001.com
+          description: 课程书籍
+        - title: 知网
+          logo: default.png
+          url: https://www.cnki.net
+          description: 科研文献
+        - title: 第一范文网
+          logo: default.png
+          url: https://www.diyifanwen.com
+          description: 范文类
+        - title: 书单网
+          logo: default.png
+          url: https://www.shudan.vip
+          description: 书单检索
+        - title: 书斋网
+          logo: default.png
+          url: https://www.bookstack.cn
+          description: 书单检索
+        - title: 电子书下载
+          logo: default.png
+          url: https://www.yuedu.pro
+          description: 电子书下载
+        - title: 什么值得读
+          logo: default.png
+          url: https://www.shenmezhidedu.com
+          description: 书单检索
+        - title: 偶书
+          logo: default.png
+          url: https://obook.cc
+          description: 书单检索
+        - title: 苦瓜书盘
+          logo: default.png
+          url: https://kgbook.com
+          description: 电子书下载
+        - title: 电子书下载
+          logo: default.png
+          url: https://kindle114-blog.tumblr.com
+          description: 电子书下载
+        - title: 熊猫搜书
+          logo: default.png
+          url: https://xmsoushu.com
+          description: 多站点书籍搜索
+        - title: Z-Library
+          logo: default.png
+          url: https://1lib.net
+          description: 电子书图书馆
+        - title: 鸠摩搜索
+          logo: default.png
+          url: https://www.jiumodiary.com
+          description: 文档搜索引擎
+        - title: 阅读链
+          logo: default.png
+          url: https://www.yuedu.pro/category-2.html
+          description: 电子书下载
+        - title: 西边云
+          logo: default.png
+          url: http://xibianyun.com/book/
+          description: 电子书下载
+        - title: 读库
+          logo: default.png
+          url: https://readhub.one
+          description: 电子书下载
+        - title: 天浪书屋
+          logo: default.png
+          url: https://www.tianlangbooks.com
+          description: 电子书下载
+        - title: 秘籍网
+          logo: default.png
+          url: http://www.miji8.com
+          description: 电子书下载
+        - title: 图灵社区
+          logo: default.png
+          url: https://www.ituring.com.cn/book
+          description: 电子书下载
+        - title: 阡陌居
+          logo: default.png
+          url: http://www.1000qm.vip/forum.php
+          description: 电子书下载
+        - title: 书籍搜索下载
+          logo: default.png
+          url: https://bks.thefuture.top
+          description: 电子书下载
+        - title: 书籍知识库
+          logo: default.png
+          url: https://book.zhishikoo.com
+          description: 网站进入较慢，可能要等个十秒
+        - title: it业界网
+          logo: default.png
+          url: https://emebao.com
+          description: 资源链接为OneDrive
+        - title: eBooklist
+          logo: default.png
+          url: https://ebooklist.mobi/
+          description: 域通链接，但是书籍大小不是很大，几分钟就可以下载好，问题不大
+        - title: 可可观察
+          logo: default.png
+          url: http://book.cocotao.cn/
+          description: 同上，也是域通网盘
+        - title: 78书库
+          logo: default.png
+          url: http://www.78books.com
+          description: 域通网盘
+        - title: 书行万里
+          logo: default.png
+          url: https://www.gpdf.net
+          description: 域通网盘
+        - title: Z-Library
+          logo: default.png
+          url: https://zh.booksc.xyz/
+          description: 近1000万图书，8400万篇文章，下载网站
+        - title: 全历史
+          logo: default.png
+          url: https://www.allhistory.com
+          description: 记录全世界历史
+        - title: scribd
+          logo: default.png
+          url: https://www.scribd.com
+          description: 国外的电子书/audio-Book搜索下载站点
+        - title: 古腾堡计划
+          logo: default.png
+          url: https://www.gutenberg.org
+          description: 世界上第一个数字图书馆
+        - title: Sci-Hub
+          logo: default.png
+          url: https://www.sci-hub.st
+          description: 开放的文献获取平台
+        - title: 奇书网
+          logo: default.png
+          url: https://www.kankezw.com
+          description: 网文电子书
+        
         
 - taxonomy: 思维人生
   icon: fas fa-heart fa-lg
@@ -2534,65 +2723,65 @@
     - term: 游戏人生
       links:
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         
     - term: 博客人生
       links:
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         
     - term: 音乐人生
       links:
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         
@@ -2604,42 +2793,42 @@
     - term: 建站达人
       links:
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         
     - term: 工具箱
       links:
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
 
@@ -2649,15 +2838,15 @@
     - term: 导航收录
       links:
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
 
@@ -2667,14 +2856,14 @@
     - term: 精选收录
       links:
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
         - title: 待添加
-          logo: yongshuo.png
+          logo: default.png
           url: https://cc0.cn
           description: 待添加
