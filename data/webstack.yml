@@ -1184,6 +1184,10 @@
           logo: yongshuo.png
           url: http://freekaobo.ysepan.com
           description: 考博论坛库
+        - title: 2022考研资料分享
+          logo: 语雀.jpg
+          url: https://www.yuque.com/qjl988/kyzl
+          description: 语雀知识库
 
 - taxonomy: 资源分享
   icon: fas fa-cloud fa-lg
@@ -1399,18 +1403,42 @@
         
     - term: 自建云盘站
       links:
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加 
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加 
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
+        - title: 4s云盘
+          logo: https://api.iowen.cn/favicon/file.ssss.fun.png
+          url: https://file.ssss.fun
+          description: 挂载的微软盘
+        - title: 从零开始动漫分享站
+          logo: 天翼云.jpg
+          url: https://m.cloud.189.cn/u/330783715
+          description: 需要登录天翼云
+        - title: 时光新科技
+          logo: default.png
+          url: https://pan.x-wan.top
+          description: 软路由大全
+        - title: 电影收集合集
+          logo: 天翼云.jpg
+          url: https://cloud.189.cn/web/share?code=u6zaIvZRrEB3
+          description: 天翼云盘
+        - title: 爱好论坛自建网盘
+          logo: 天翼云.jpg
+          url: http://pan.aihao.cc
+          description: 各类软件汇总
+        - title: 七米蓝的仓库
+          logo: OneDrive.png
+          url: https://om.chirmyram.com
+          description: 挂载的onedrive
+        - title: 萌新云盘
+          logo: OneDrive.png
+          url: https://pan.macxin.com
+          description: 挂载的onedrive
+        - title: Revincx的公开网盘
+          logo: OneDrive.png
+          url: https://cloud.revincx.icu
+          description: OneDrive
+        - title: Noise文件库
+          logo: OneDrive.png
+          url: https://www.noiseyp.top
+          description: OneDrive盘
     - term: 软件下载站
       links:
         - title: 待添加
