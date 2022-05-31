@@ -1508,7 +1508,7 @@
           url: https://bbs.16rd.com
           description: 综合技术芯片类论坛
         - title: 摸鱼派
-          logo: https://api.iowen.cn/favicon/fishpi.cn.png
+          logo: 摸鱼派.png
           url: https://fishpi.cn
           description: 一个属于程序员的摸鱼社区
         - title: 先知社区
@@ -1604,7 +1604,7 @@
           url: https://hostloc.com
           description: 服务器等综合类
         - title: 野火论坛
-          logo: https://api.iowen.cn/favicon/firebbs.cn.png
+          logo: 野火.png
           url: https://firebbs.cn
           description: STM32开发资料
         - title: V2EX
@@ -1753,7 +1753,7 @@
           url: https://learnku.com/mac
           description: MAC用户论坛
         - title: abbs论坛
-          logo: https://api.iowen.cn/favicon/www.abbs.com.cn/bbs.png
+          logo: ABBS.png
           url: http://www.abbs.com.cn/bbs
           description: 建筑师社区
         - title: 木蚂蚁论坛
@@ -1896,7 +1896,7 @@
           url: https://bbs.shanhaiz.com
           description: 资源分享类社区
         - title: BT种子论坛
-          logo: https://api.iowen.cn/favicon/pt.btschool.club.png
+          logo: BT种子.png
           url: https://pt.btschool.club/torrents.php
           description: BT种子资源
         - title: 姿势论坛
@@ -2755,7 +2755,7 @@
     - term: 游戏人生
       links:
         - title: switch520.com
-          logo: https://api.iowen.cn/favicon/www.switch520.com.png
+          logo: switch520.png
           url: https://switch520.com
           description: 全球游戏免费下载
         - title: Epic游戏|周免
@@ -2874,7 +2874,7 @@
           url: https://blog.jetbrains.com/zh-hans/
           description: The JetBrains Blog
         - title: Oldpan的个人博客
-          logo: https://api.iowen.cn/favicon/oldpan.me.png
+          logo: oldpan.png
           url: https://oldpan.me
           description: Oldpan的个人博客
         - title: 山川行貉
@@ -2902,7 +2902,7 @@
           url: https://blog.sky233.top
           description: 探索永无止境
         - title: 归梦の博客
-          logo: https://api.iowen.cn/favicon/blog.zengjunyin.com.png
+          logo: 归梦.png
           url: https://blog.zengjunyin.com
           description: 归梦の博客
         - title: 猎人杂货铺
@@ -2926,7 +2926,7 @@
           url: https://akilar.top
           description: Akilarの糖果屋
         - title: 小冰博客
-          logo: https://api.iowen.cn/favicon/zfe.space.png
+          logo: 小冰博客.png
           url: https://zfe.space
           description: 做个有梦想的人！
         - title: 黑石博客
