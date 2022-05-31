@@ -2576,175 +2576,175 @@
     - term: 电子书库
       links:
         - title: 快吧
-          logo: default.png
+          logo: book.png
           url: http://www.fast8.cc
           description: 电子书下载
         - title: IPFS星际分享社区
-          logo: default.png
+          logo: book.png
           url: https://spcqwserdvymm.com.vika.cn/share/shryNwH3HRgvzMTaZVAGx/fodkuzz5eaw0w
           description: 中国首个应用去中心化技术（IPFS）储存的数字图书共享系统
         - title: 静然书屋
-          logo: default.png
+          logo: book.png
           url: https://books.andrewjr.workers.dev/0:/
           description: 点击右上角菜单可以搜索
         - title: 书格
-          logo: default.png
+          logo: book.png
           url: https://new.shuge.org
           description: 书格
         - title: 计算机电子书
-          logo: default.png
+          logo: book.png
           url: http://www.xz577.com
           description: 编程类电子书
         - title: PDF之家
-          logo: default.png
+          logo: book.png
           url: http://pdfzj.cn
           description: PDF下载
         - title: 好读
-          logo: default.png
+          logo: book.png
           url: http://www.haodoo.net
           description: 电子书下载
         - title: itbook
-          logo: default.png
+          logo: book.png
           url: https://itbook.download
           description: 电子书下载
         - title: 书问
-          logo: default.png
+          logo: book.png
           url: https://www.bookask.com
           description: 书籍搜索
         - title: 大学资源网
-          logo: default.png
+          logo: book.png
           url: http://www.dxzy163.com
           description: 课程书籍
         - title: 第一学习网
-          logo: default.png
+          logo: book.png
           url: http://www.xxw001.com
           description: 课程书籍
         - title: 知网
-          logo: default.png
+          logo: book.png
           url: https://www.cnki.net
           description: 科研文献
         - title: 第一范文网
-          logo: default.png
+          logo: book.png
           url: https://www.diyifanwen.com
           description: 范文类
         - title: 书单网
-          logo: default.png
+          logo: book.png
           url: https://www.shudan.vip
           description: 书单检索
         - title: 书斋网
-          logo: default.png
+          logo: book.png
           url: https://www.bookstack.cn
           description: 书单检索
         - title: 电子书下载
-          logo: default.png
+          logo: book.png
           url: https://www.yuedu.pro
           description: 电子书下载
         - title: 什么值得读
-          logo: default.png
+          logo: book.png
           url: https://www.shenmezhidedu.com
           description: 书单检索
         - title: 偶书
-          logo: default.png
+          logo: book.png
           url: https://obook.cc
           description: 书单检索
         - title: 苦瓜书盘
-          logo: default.png
+          logo: book.png
           url: https://kgbook.com
           description: 电子书下载
         - title: 电子书下载
-          logo: default.png
+          logo: book.png
           url: https://kindle114-blog.tumblr.com
           description: 电子书下载
         - title: 熊猫搜书
-          logo: default.png
+          logo: book.png
           url: https://xmsoushu.com
           description: 多站点书籍搜索
         - title: Z-Library
-          logo: default.png
+          logo: book.png
           url: https://1lib.net
           description: 电子书图书馆
         - title: 鸠摩搜索
-          logo: default.png
+          logo: book.png
           url: https://www.jiumodiary.com
           description: 文档搜索引擎
         - title: 阅读链
-          logo: default.png
+          logo: book.png
           url: https://www.yuedu.pro/category-2.html
           description: 电子书下载
         - title: 西边云
-          logo: default.png
+          logo: book.png
           url: http://xibianyun.com/book/
           description: 电子书下载
         - title: 读库
-          logo: default.png
+          logo: book.png
           url: https://readhub.one
           description: 电子书下载
         - title: 天浪书屋
-          logo: default.png
+          logo: book.png
           url: https://www.tianlangbooks.com
           description: 电子书下载
         - title: 秘籍网
-          logo: default.png
+          logo: book.png
           url: http://www.miji8.com
           description: 电子书下载
         - title: 图灵社区
-          logo: default.png
+          logo: book.png
           url: https://www.ituring.com.cn/book
           description: 电子书下载
         - title: 阡陌居
-          logo: default.png
+          logo: book.png
           url: http://www.1000qm.vip/forum.php
           description: 电子书下载
         - title: 书籍搜索下载
-          logo: default.png
+          logo: book.png
           url: https://bks.thefuture.top
           description: 电子书下载
         - title: 书籍知识库
-          logo: default.png
+          logo: book.png
           url: https://book.zhishikoo.com
           description: 网站进入较慢，可能要等个十秒
         - title: it业界网
-          logo: default.png
+          logo: book.png
           url: https://emebao.com
           description: 资源链接为OneDrive
         - title: eBooklist
-          logo: default.png
+          logo: book.png
           url: https://ebooklist.mobi/
           description: 域通链接，但是书籍大小不是很大，几分钟就可以下载好，问题不大
         - title: 可可观察
-          logo: default.png
+          logo: book.png
           url: http://book.cocotao.cn/
           description: 同上，也是域通网盘
         - title: 78书库
-          logo: default.png
+          logo: book.png
           url: http://www.78books.com
           description: 域通网盘
         - title: 书行万里
-          logo: default.png
+          logo: book.png
           url: https://www.gpdf.net
           description: 域通网盘
         - title: Z-Library
-          logo: default.png
+          logo: book.png
           url: https://zh.booksc.xyz/
           description: 近1000万图书，8400万篇文章，下载网站
         - title: 全历史
-          logo: default.png
+          logo: book.png
           url: https://www.allhistory.com
           description: 记录全世界历史
         - title: scribd
-          logo: default.png
+          logo: book.png
           url: https://www.scribd.com
           description: 国外的电子书/audio-Book搜索下载站点
         - title: 古腾堡计划
-          logo: default.png
+          logo: book.png
           url: https://www.gutenberg.org
           description: 世界上第一个数字图书馆
         - title: Sci-Hub
-          logo: default.png
+          logo: book.png
           url: https://www.sci-hub.st
           description: 开放的文献获取平台
         - title: 奇书网
-          logo: default.png
+          logo: book.png
           url: https://www.kankezw.com
           description: 网文电子书
         
@@ -2978,28 +2978,80 @@
           url: https://blog.naibabiji.com/
           description: 奶爸建站笔记
         
-    - term: 音乐人生
+    - term: 优质播客
       links:
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
+        - title: 摄影叨B叨
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5e2831ef418a84a0462323b7?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 每天5分钟学摄影	摄影
+        - title: Anyway.FM 设计杂谈
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5e280faf418a84a0461fba0e?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 由 UI 设计师 JJ Ying 和 Leon Gao 主播的 podcast，主题包括但不限于视觉设计	设计
+        - title: 别的电波
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/episode/60e0a88b952e661b2247130d?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 面对无聊现实，我们来聊点别的！	聊天听故事
+        - title: 故事 FM
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5e280fad418a84a0461fb38b?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 用你的声音，讲述你的故事	聊天听故事
+        - title: What Do You Mean
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5efd97d76d76607427f765f3?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: What Do You Mean 是一档泛心理类播客。这里的对话很长，但思考本来就不是一蹴而就的。与他人的对话中，其实也是一个与自己内心对话的过程。在这里我们经常向自己向世界发问，偶尔找到答案，但总是不疲于思考。希望它能在充实和迷茫的时候一直陪伴你	聊天听故事
+        - title: 摄影早自习
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5e2831f0418a84a04623288e?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: “摄影早自习”是火遍朋友圈的摄影微课堂，是由咔图摄影教育中心运营的微信公众账号（账号theipea），于每天早上6:30分推送，每集由3-5分钟音频构成，由叶梓老师亲自录制	摄影
+        - title: 商业摄影聊聊天第二季
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/6036fa727ec77309b153b37e?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 商业摄影聊聊天	摄影
+        - title: 坏蛋调频
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5e284e0e418a84a0462697cc?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 人人都是主播	聊天听故事
+        - title: 电影不无聊
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5e280fa8418a84a0461f929f?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 囍儿、电聊金刚、地球的土产	聊聊电影的故事
+        - title: 世界莫名其妙物语
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5ec74981418a84a046d8a006?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 干货和笑点不能两全？ 这么想可就大错特错了！ 三名美少女段子手组成了相声天团，每周一为您介绍莫名其妙的历史地理知识，欢迎收听	段子手聊天听故事
+        - title: Steve说
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5e61155b418a84a046401f72?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 这是一个基于泛心理学视角，通过深度交流拓展意识边界，探索个人成长之道，加深对自我和世界理解的谈话类节目。	访谈类节目
+        - title: 创业内幕 Startup Insider
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5e7cccf8418a84a046c4e7f9?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 《创业内幕》 Startup Insider	聊天听故事
+        - title: 逆光电台
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5f0c2a1b6d76607427f1331a?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 『逆光电台』是一档与摄影相关的谈话节目。我们将每周邀请来自摄影相关领域的嘉宾和我们一起聊聊他们有趣的职业故事和严肃的职业思考。	摄影
+        - title: 海马星球
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5e2d145c418a84a0467fc4d8?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 	这是一个理想化的星球，和地球部分重叠。 在这里，没有性别刻板印象，没有陈词滥调。 在这里，每个人都自主决定自己的性别身份，也接受别人自主决定的性别身份
+        - title: 自我进化论
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5e5de5cb418a84a0467beb90?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 用智慧启发你内在的转变。 欢迎在Podcasts, 喜马拉雅和小宇宙等平台关注<自我进化论>，全平台同步更新中 :) Athena Yan，赋能个体绽放生命力
+        - title:  声波飞行员sonic pilots		
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5e280fac418a84a0461fb100?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: 孟获、地下丝贼、包雪龙、音迷酱、Sonic或缸中之脑、剑剑	聊天听故事
+        - title: UX Coffee 设计咖
+          logo: 播客.png
+          url: https://www.xiaoyuzhoufm.com/podcast/5e280fab418a84a0461fa480?s=eyJ1IjogIjVlZmJjNGZhYjBiZDE0MjdiZDEzOTQ4ZiJ9
+          description: Riceman、Hoka可嘉、帆啊帆、Chishan_志珊、夏梅杰	设计
+        - title: EmacsTalk
+          logo: 播客.png
+          url: https://www.ximalaya.com/keji/50656645
+          description: EmacsTalk 是一档专注在 Emacs 社区的程序员闲聊节目	和程序员闲聊
         
 
 
@@ -3048,7 +3100,7 @@
           url: https://cc0.cn
           description: 待添加
 
-- taxonomy: 精选导航站
+- taxonomy: 媒体频道
   icon: fas fa-circle
   list:
     - term: 导航收录
