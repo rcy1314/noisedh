@@ -632,40 +632,40 @@
           description: 奈非星影视
         - title: 剧好看
           logo: https://api.iowen.cn/favicon/www.juhaokan.cc.png
-          url: https://whereiskpkuang.com
+          url: https://www.juhaokan.cc
           description: 超清1080p弹幕影视
-        - title: 看片狂人
-          logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
-          url: https://whereiskpkuang.com
-          description: 看片狂人是一个由影迷打造服务影迷的平台
-        - title: 看片狂人
-          logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
-          url: https://whereiskpkuang.com
-          description: 看片狂人是一个由影迷打造服务影迷的平台
-        - title: 看片狂人
-          logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
-          url: https://whereiskpkuang.com
-          description: 看片狂人是一个由影迷打造服务影迷的平台
-        - title: 看片狂人
-          logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
-          url: https://whereiskpkuang.com
-          description: 看片狂人是一个由影迷打造服务影迷的平台
-        - title: 看片狂人
-          logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
-          url: https://whereiskpkuang.com
-          description: 看片狂人是一个由影迷打造服务影迷的平台
-        - title: 看片狂人
-          logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
-          url: https://whereiskpkuang.com
-          description: 看片狂人是一个由影迷打造服务影迷的平台
-        - title: 看片狂人
-          logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
-          url: https://whereiskpkuang.com
-          description: 看片狂人是一个由影迷打造服务影迷的平台
-        - title: 看片狂人
-          logo: https://api.iowen.cn/favicon/whereiskpkuang.com.png
-          url: https://whereiskpkuang.com
-          description: 看片狂人是一个由影迷打造服务影迷的平台
+        - title: HWJ影视
+          logo: https://www.juhaokan.cc//template/mytheme/statics/img/favicon.ico
+          url: http://hwjyingshi.com
+          description: 在线4K影院
+        - title: FIX字幕侠
+          logo: https://api.iowen.cn/favicon/www.zimuxia.cn.png
+          url: https://www.zimuxia.cn
+          description: 收罗高质量影片
+        - title: 高清MP4吧
+          logo: https://api.iowen.cn/favicon/www.mp4ba.cc.png
+          url: http://www.mp4ba.cc
+          description: 免费高清影视资源
+        - title: mitime时光网
+          logo: https://api.iowen.cn/favicon/www.mtime.com.png
+          url: http://www.mtime.com
+          description: 电影资讯站
+        - title: 6V电影
+          logo: https://api.iowen.cn/favicon/www.66s.cc.png
+          url: https://www.66s.cc
+          description: 电影下载站
+        - title: NO影视
+          logo: https://api.iowen.cn/favicon/www.novipnoad.com.png
+          url: https://www.novipnoad.com
+          description: 在线追剧好站点
+        - title: 低端影视
+          logo: https://api.iowen.cn/favicon/ddrk.me.png
+          url: https://ddrk.me
+          description: 高质量看片追剧
+        - title: 奈非影视
+          logo: https://api.iowen.cn/favicon/www.nfyingshi.com.png
+          url: https://www.nfyingshi.com
+          description: 打造的美剧追剧平台
 
     - term: 动漫番剧
       links:
@@ -2005,10 +2005,10 @@
           logo: https://api.iowen.cn/favicon/bbs.keter.pub.png
           url: https://mubu.com/explore
           description: 知识分享交流
-        - title: 品品品		电子书类论坛
+        - title: 品品品
           logo: https://api.iowen.cn/favicon/bbs.keter.pub.png
           url: http://www.pinmuch.com
-          description: 
+          description: 电子书类论坛
         - title: 医学论坛网		
           logo: https://api.iowen.cn/favicon/bbs.keter.pub.png
           url: http://www.cmt.com.cn
