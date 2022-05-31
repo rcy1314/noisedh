@@ -1555,7 +1555,7 @@
           url: https://xz.aliyun.com
           description: 网络安全类论坛
         - title: 工控论坛
-          logo: http://bbs.gkong.com/favicon.ico
+          logo: gongkong.png
           url: http://bbs.gkong.com
           description: 工控技术自动化
         - title: 数学研发论坛
