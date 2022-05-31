@@ -2344,22 +2344,158 @@
           description: 待添加
     - term: notion站点
       links:
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
+        - title: Harumonia
+          logo: notion.png
+          url: https://harumonia.notion.site/harumonia/Harumonia-e1d77980f1b942beb0ac80c3f3448a8d
+          description: Harumonia的博客，优质博主
+        - title: 黑鲸智能系统知识库
+          logo: notion.png
+          url: https://wikiwhale.notion.site/3633a659e2a1478eaf6c8904c86de401
+          description: 知识库系统梳理
+        - title: tangly1024
+          logo: notion.png
+          url: https://tangly1024.ml
+          description: 使用Nextjs-Notion-Starter-Kit搭建的博客，介绍了许多有关Notion及第三方使用，很有帮助
+        - title: 芝麻地
+          logo: notion.png
+          url: https://www.notion.so/63b2e83003f240339ae065011afc88a0
+          description: 一个有关编程与设计的邮报，每当准备好了就更新。
+        - title: 177
+          logo: notion.png
+          url: https://www.notion.so/177/177-466f3df46024432fabc894c57bb83bb0
+          description: 优质Notion教程汇总
+        - title: Ruter
+          logo: notion.png
+          url: https://www.notion.so/ruter/Ruter-82f2a01d9b4447e4974e3f1bb71fee52
+          description: 博客形式，加了画布
+        - title: 古剑Wiki-博物学会特刊
+          logo: notion.png
+          url: https://www.notion.so/Wiki-16b548d0cbf041be8beaecb46e43e8d6
+          description: 古剑奇谭爱好者
+        - title: 肆意🅥科学上网
+          logo: notion.png
+          url: https://www.notion.so/35f343bec8b2466d971f4a7dfded93a2
+          description: 🅥科学上网 指南汇总
+        - title: 装修经验教训
+          logo: notion.png
+          url: https://www.notion.so/66226e9a906740d9bb16914dd28577bb
+          description: 装修一手被坑经验
+        - title: Notion 中文社区
+          logo: notion.png
+          url: https://www.notion.so/cnotion/Notion-e18268991cd14de89b1cad0de60baa91
+          description: Notion 中文社区导航总览
+        - title: 数字生活
+          logo: notion.png
+          url: https://www.notion.so/b194e46214f043999a1f783761a46b2c
+          description: 深入研究快速学习领域
+        - title: 西狂部落阁
+          logo: notion.png
+          url: https://xikuang.ren
+          description: 梳理化文章
+        - title: 诺亚方舟
+          logo: notion.png
+          url: https://www.notion.so/nos/7afb8141a5b9494e8f279c1deebe37e7
+          description: 数字资源收藏爱好者
+        - title: kieker in notion
+          logo: notion.png
+          url: https://www.notion.so/kieker/kieker-in-notion-3c2008d0dd1e4c659d48c630df71302d
+          description: kieker的主页，优秀产品设计
+        - title: AFuture 的世界
+          logo: notion.png
+          url: https://www.notion.so/afuture/AFuture-d4c327c3511546aa89c42dd6ee7301d4
+          description: 编程为主，分享为辅
+        - title: Xiaowen.Z Deployed
+          logo: notion.png
+          url: https://notion.xiaowenz.com
+          description: 来自于杭州的博主，主力生产在NOTION
+        - title: iFREE Design
+          logo: notion.png
+          url: https://ifreegroup.design
+          description: 设计工具
+        - title: Jim Sun's BLOG
+          logo: notion.png
+          url: https://www.notion.so/jimsyun/4374cc1974d749129faf91438039df08?v=dca6a4dd10bf48f4a94c9ad74176f27b
+          description: 优质文章，记录Notion各种玩法
+        - title: 雷蒙的數字小島
+          logo: notion.png
+          url: https://www.notion.so/raymondhouch/352b57df383543b9bfa8301c71c35cba
+          description: 很优秀
+        - title: 春殿的手账本
+          logo: notion.png
+          url: https://www.notion.so/tonoko/5a23e43b26e64651be75a22693564ce3
+          description: 栏目很多，主页精美
+        - title: STICKY｜钻の彼面
+          logo: notion.png
+          url: https://www.notion.so/stihub/STICKY-a0a4d6c018904d7e8d8680dbc3d2333a
+          description: STICKY的博客站
+        - title: Niin 的个人主页
+          logo: notion.png
+          url: https://niin.notion.site
+          description: 分享 Notion 的使用技巧和进阶用法
+        - title: 诺亚方舟
+          logo: notion.png
+          url: https://www.notion.so/nos/7afb8141a5b9494e8f279c1deebe37e7
+          description: 数字资源收藏爱好者
+        - title: maylie
+          logo: notion.png
+          url: https://www.notion.so/404not/Maylie-9eb974bd1566458d8cba0e6ffc2273a5
+          description: 设计博主
+        - title: yafee's world
+          logo: notion.png
+          url: https://www.notion.so/yafee-s-world-bc40e047806d4414ade5d241243fe117
+          description: 互联网搬砖的业余📸️摄影爱好者
+        - title: i365投资组合管理
+          logo: notion.png
+          url: https://www.notion.so/i365-e0ed086e701a4d0aaa4839d2c7aa62ea
+          description: 投资组合
+        - title: Sean Patrick O'Reilly的主页
+          logo: notion.png
+          url: https://github.com/seano424/seans-react-portfolio
+          description: 由NextJS，TailwindCSS，Notion的API制作，由Vercel托管
+        - title: Notion综合社群
+          logo: notion.png
+          url: https://www.notion.so/linkwork/Notion-Work-6d8058e5e6b346a58130015755c4d1f0
+          description: Notion社群
+        - title: 胡自自的主页
+          logo: notion.png
+          url: https://www.notion.so/hugohwu/f01261bad9e14bd99d76afa411bdf3c6
+          description: 博客化文章
+        - title: Inbox
+          logo: notion.png
+          url: https://www.notion.so/mdw/Inbox-1fb2a7e9d72747a4ba7aea5cb4541f3f
+          description: 收藏网站和书单
+        - title: 中文Newsletter导航
+          logo: notion.png
+          url: https://www.notion.so/kfang/Newsletter-68ee46c0a4574f659fb8a873ead438c6
+          description: 收集中文领域的Newsletter
+        - title: 中文Newsletter导航
+          logo: notion.png
+          url: https://www.notion.so/kfang/Newsletter-68ee46c0a4574f659fb8a873ead438c6
+          description: 收集中文领域的Newsletter
+        - title: 柳十七的小宇宙.Notion
+          logo: notion.png
+          url: https://www.notion.so/liushiqi/Notion-1c21d874a4824774a310a3d8d125e0be
+          description: 书单博主
+        - title: 产品沉思录（精选
+          logo: notion.png
+          url: 	https://www.notion.so/pmthinking/ProductThinking-a601a12335044f349a22caf57f274c27
+          description: 主理人：Plidezus Leo
+        - title: Hank's Wiki
+          logo: notion.png
+          url: https://www.notion.so/kehanlu2/Hank-s-Wiki-7810d2eeee4744b18b91c7860b687291
+          description: 电脑科学
+        - title: Ludwigの生活觀察
+          logo: notion.png
+          url: https://www.notion.so/wangyurui/Ludwig-faeaabbf01394a33bfa5638a9a37f74a
+          description: 值得收藏的博主
+        - title: Gueisen的閉樂園
+          logo: notion.png
+          url: https://www.notion.so/cnotion/Gueisen-bec30dc6093d4c9d9f834c38a6e3c6a1
+          description: Gueisen的閉樂園
+        - title: 陆止于此、海始于斯
+          logo: notion.png
+          url: https://qianlei.notion.site/
+          description: 用Github的Issue写博客
         
     - term: 电子书库
       links:
