@@ -489,77 +489,6 @@
           url: https://www.topys.cn
           description: TOPYS灵感视频
 
-    - term: 图标素材
-      links:
-        - title: Iconfinder
-          logo: Iconfinder.png
-          url: https://www.iconfinder.com
-          description: 2,100,000+ free and premium vector icons.
-        - title: iconfont
-          logo: iconfont.png
-          url: http://www.iconfont.cn/
-          description: 阿里巴巴矢量图标库。
-        - title: iconmonstr
-          logo: iconmonstr.png
-          url: https://iconmonstr.com/
-          description: Free simple icons for your next project.
-        - title: Icon Archive
-          logo: iconarchive.png
-          url: http://www.iconarchive.com/
-          description: Search 590,912 free icons.
-        - title: FindIcons
-          logo: FindIcons.png
-          url: https://findicons.com/
-          description: Search through 300,000 free icons.
-        - title: IcoMoonApp
-          logo: IcoMoonApp.png
-          url: https://icomoon.io/app/
-          description: Icon Font, SVG, PDF &amp; PNG Generator.
-        - title: easyicon
-          logo: easyicon.png
-          url: http://www.easyicon.net/
-          description: PNG、ICO、ICNS格式图标搜索、图标下载服务。
-        - title: flaticon
-          logo: flaticon.png
-          url: https://www.flaticon.com/
-          description: 634,000+ Free vector icons in SVG, PSD, PNG, EPS format or as ICON FONT.
-        - title: UICloud
-          logo: UICloud.png
-          url: http://ui-cloud.com/
-          description: The largest user interface design database in the world.
-        - title: Material icons
-          logo: Materialicons.png
-          url: https://material.io/icons/
-          description: Access over 900 material system icons, available in a variety of sizes and densities, and as a web font.
-        - title: Font Awesome Icon
-          logo: fontawesomeicon.png
-          url: https://fontawesome.com/icons/
-          description: The complete set of 675 icons in Font Awesome.
-        - title: ion icons
-          logo: ionicons.png
-          url: http://ionicons.com/
-          description: The premium icon font for Ionic Framework.
-        - title: Simpleline Icons
-          logo: simplelineicons.png
-          url: http://simplelineicons.com/
-          description: Simple line Icons pack.
-        - title: Iconsfeed
-          logo: iconsfeed.png
-          url: http://www.iconsfeed.com/
-          description: iOS icons gallery.
-        - title: iOS Icon Gallery
-          logo: iosicongallery.png
-          url: http://iosicongallery.com/
-          description: Showcasing beautiful icon designs from the iOS App Store.
-        - title: World Vector Logo
-          logo: worldvectorlogo.png
-          url: https://worldvectorlogo.com/
-          description: Brand logos free to download.
-        - title: Instant Logo Search
-          logo: InstantLogoSearch.png
-          url: http://instantlogosearch.com/
-          description: Search & download thousands of logos instantly.
-   
      
 - taxonomy: 影视片场
   icon: far fas fa-tape
@@ -666,6 +595,14 @@
           logo: https://api.iowen.cn/favicon/www.nfyingshi.com.png
           url: https://www.nfyingshi.com
           description: 打造的美剧追剧平台
+        - title: 奈非中文影视
+          logo: https://api.iowen.cn/favicon/yanetflix.com.png
+          url: https://yanetflix.com
+          description: 质量较高的国内奈菲影视平台
+        - title: 真不卡影院
+          logo: https://api.iowen.cn/favicon/www.zhenbuka3.com/.png
+          url: https://www.zhenbuka.fun
+          description: 真不卡影院发布地址
 
     - term: 动漫番剧
       links:
