@@ -1194,10 +1194,10 @@
   list:        
     - term: 云盘搜索
       links:
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加 
+        - title: 找资源
+          logo: zhaoziyuan.png
+          url: https://zhaoziyuan.la
+          description: 阿里云盘搜索引擎
         - title: 待添加
           logo: yongshuo.png
           url: https://cc0.cn
@@ -1439,6 +1439,34 @@
           logo: OneDrive.png
           url: https://www.noiseyp.top
           description: OneDrive盘
+        - title: 阳@盘
+          logo: aliyun.somun.cn.png
+          url: http://aliyun.somun.cn
+          description: 基于alst的挂载盘
+        - title: 图欧学习资源库
+          logo: toustudy.png
+          url: https://tuostudy.com
+          description: OneDrive盘
+        - title: 三石论坛网盘A
+          logo: 三石.png
+          url: http://wj.gptzfx.com
+          description: 三石论坛网盘A
+        - title: 未命名onedrive盘
+          logo: OneDrive.png
+          url: https://onedrive.vmert.com
+          description: 未命名onedrive盘
+        - title: digac
+          logo: OneDrive.png
+          url: https://zfile.digac.cc
+          description: 基于alst的挂载盘
+        - title: 知网云盘
+          logo: zhi.png
+          url: https://pan.xyyh.xyz
+          description: 基于alst的挂载盘
+        - title: Arley的私人盘
+          logo: arley.png
+          url: https://pan.arley.cn
+          description: Arley的私人盘
     - term: 软件下载站
       links:
         - title: 待添加
