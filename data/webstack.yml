@@ -1572,7 +1572,7 @@
           url: https://bbs.pcbeta.com
           description: 综合类系统OS技术社区
         - title: 自学编程吧
-          logo: https://api.iowen.cn/favicon/zxbc8.com.png
+          logo: default.png
           url: default.png
           description: IT技术交流论坛
         - title: 思杰爱好者技术论坛
@@ -1932,7 +1932,7 @@
           url: https://bbs.zsxwz.com
           description: 姿势论坛
         - title: AliYunpanso
-          logo: https://api.iowen.cn/favicon/aliyunpanso.cn:88.png
+          logo: default.png
           url: http://aliyunpanso.cn:88
           description: 阿里云资源
         - title: 资源岛论坛
