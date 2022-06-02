@@ -3159,7 +3159,7 @@
           logo: default.png
           url: https://github.com/q1006608006/windrop/releases/tag/v1.0.1
           description: windows(服务端)与包含Apple公司快捷指令功能的设备之间剪贴板内容以及数据文件的共享
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
+        - title: 阅读
+          logo: legado.png
+          url: https://www.legado.top/
+          description: 阅读是一款免费且开源的Android小说阅读器
