@@ -3107,18 +3107,18 @@
         
     - term: 工具箱
       links:
-        - title: 待添加
+        - title: 抖音/TikTok无水印在线解析
+          logo: 下载.png
+          url: https://douyin.wtf
+          description: 抖音/TikTok无水印在线解析，开源：https://github.com/Evil0ctal/Douyin_TikTok_Download_API
+        - title: PicUploader
           logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
+          url: https://github.com/xiebruce/PicUploader
+          description: 一个还不错的图床工具
+        - title: YouTube播放器
+          logo: 播放.png
+          url: https://faketube.valchy.com
+          description: 使用其内置的嵌入式播放器浏览和观看无广告视频
         - title: 待添加
           logo: default.png
           url: https://cc0.cn
@@ -3151,14 +3151,14 @@
   list:
     - term: 精选收录
       links:
-        - title: 待添加
+        - title: Suki 素记
+          logo: 素记.png
+          url: https://github.com/classfang/suki/releases/tag/v1.0.0
+          description: 一个mac端，任务栏快捷笔记、待办、工具软件
+        - title: WinDrop
           logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
+          url: https://github.com/q1006608006/windrop/releases/tag/v1.0.1
+          description: windows(服务端)与包含Apple公司快捷指令功能的设备之间剪贴板内容以及数据文件的共享
         - title: 待添加
           logo: default.png
           url: https://cc0.cn
