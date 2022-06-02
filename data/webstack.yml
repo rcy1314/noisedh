@@ -1931,10 +1931,6 @@
           logo: https://api.iowen.cn/favicon/bbs.zsxwz.com.png
           url: https://bbs.zsxwz.com
           description: 姿势论坛
-        - title: AliYunpanso
-          logo: default.png
-          url: http://aliyunpanso.cn:88
-          description: 阿里云资源
         - title: 资源岛论坛
           logo: https://api.iowen.cn/favicon/bbs.xktpx.com.png
           url: https://bbs.xktpx.com
