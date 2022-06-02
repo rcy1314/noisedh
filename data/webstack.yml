@@ -560,11 +560,11 @@
           url: https://www.nfyingshi.com/
           description: 奈非星影视
         - title: 剧好看
-          logo: https://api.iowen.cn/favicon/www.juhaokan.cc.png
+          logo: default.png
           url: https://www.juhaokan.cc
           description: 超清1080p弹幕影视
         - title: HWJ影视
-          logo: https://www.juhaokan.cc//template/mytheme/statics/img/favicon.ico
+          logo: default.png
           url: http://hwjyingshi.com
           description: 在线4K影院
         - title: FIX字幕侠
@@ -1508,7 +1508,7 @@
           url: http://bbs.bcb5.com
           description: 源码论坛
         - title: 自学IT吧
-          logo: https://api.iowen.cn/favicon/www.zxit8.com.png
+          logo: default.png
           url: http://www.zxit8.com
           description: IT技术交流论坛
         - title: Emacs China
@@ -1573,7 +1573,7 @@
           description: 综合类系统OS技术社区
         - title: 自学编程吧
           logo: https://api.iowen.cn/favicon/zxbc8.com.png
-          url: https://zxbc8.com
+          url: default.png
           description: IT技术交流论坛
         - title: 思杰爱好者技术论坛
           logo: https://api.iowen.cn/favicon/www.xen800.com.png
@@ -1652,7 +1652,7 @@
           url: http://www.itpub.net/forum-44-1.html
           description: IT技术交流论坛
         - title: 无忧启动论坛
-          logo: https://api.iowen.cn/favicon/wuyou.net.png
+          logo: 无忧.png
           url: http://wuyou.net/forum.php
           description: 装机封装类综合
         - title: ITgood论坛
@@ -1718,7 +1718,7 @@
           url: https://www.dnlt.cc
           description: 综合类技术论坛
         - title: 云析IT论坛
-          logo: https://api.iowen.cn/favicon/yunqit.com.png
+          logo: default.png
           url: https://yunqit.com
           description: xiuno IT交流论坛
         - title: 小木虫
@@ -3163,3 +3163,8 @@
           logo: legado.png
           url: https://www.legado.top/
           description: 阅读是一款免费且开源的Android小说阅读器
+        - title: Nintendo Switch Emulator
+          logo: emulator.png
+          url: https://yuzu-emu.org
+          description: 开源Nintendo Switch PC模拟器
+
