@@ -2830,6 +2830,10 @@
           logo: https://api.iowen.cn/favicon/www.ali213.net.png
           url: https://www.ali213.net
           description: 单机游戏门户
+        - title: webrcade
+          logo: webrcade.png
+          url: https://play-staging.webrcade.com
+          description: 国外的FC类模拟器游戏大全
         
     - term: 独立博客
       links:
