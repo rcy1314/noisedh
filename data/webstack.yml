@@ -209,7 +209,7 @@
           url: http://www.yakfx.com
           description: 以FCPX插件为主，后期资源下载站
         - title: SOSO后期站
-          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.i7albi3zs94.jpg
+          logo: soso后期.jpg
           url: https://www.sosohuo.com
           description: LR预设，PS插件，后期资源
         - title: 人人素材
@@ -233,7 +233,7 @@
           url: https://www.2amok.com
           description: 视频、模版为主
         - title: CG资源站
-          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.a8ylbxfexmo.jpg
+          logo: CG资源.jpg
           url: http://www.cgzyw.com
           description: 资源丰富的素材站
         - title: shareAE
@@ -453,15 +453,15 @@
           url: https://www.kaiyanapp.com
           description: 每日精选创意视频
         - title: 扒片库
-          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.4hl65usc9aq0.jpg
+          logo: 扒片.jpg
           url: http://www.bapianku.com
           description: 创意样片，CG样片学习
         - title: 天空之城
-          logo: https://api.iowen.cn/favicon/www.skypixel.com.png
+          logo: 天空之城.jpg
           url: https://www.skypixel.com
           description: 世界各地的航拍摄影师、拍手叫绝的航拍作品与独具价值的航拍攻略
         - title: 新片场
-          logo: https://api.iowen.cn/favicon/www.xinpianchang.com.png
+          logo: 新片场.jpg
           url: https://www.xinpianchang.com
           description: 质量上乘的视频大开眼界
         - title: 艾墨镇
@@ -623,7 +623,7 @@
     - term: 动漫番剧
       links:
         - title: 哔哩哔哩
-          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.4pyo1ojnwn40.jpg
+          logo: 哔哩哔哩.jpg
           url: https://www.bilibili.com
           description: 哔哩哔哩
         - title: Mikan
@@ -639,7 +639,7 @@
           url: http://www.dmla.cc
           description: 动漫追番站
         - title: M站【嘛哩嘛哩】
-          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.4wi3fn2cc5g0.jpg
+          logo: M站.jpg
           url: https://www.malimali5.com
           description: M站【嘛哩嘛哩】
         - title: ACFUN
@@ -675,7 +675,7 @@
           url: http://ci.moefz.cc
           description: 萌语动漫网
         - title: 熔岩番剧库
-          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.png
+          logo: 番剧索引.png
           url: https://magmablock.github.io/LavaAnimeWeb
           description: 一个私有静态动画库
         - title: zoro.to
@@ -3037,6 +3037,10 @@
           logo: https://api.iowen.cn/favicon/blog.naibabiji.com.png
           url: https://blog.naibabiji.com/
           description: 奶爸建站笔记
+        - title: pseudoyu 	
+          logo: pseudoyu.png
+          url: https://www.pseudoyu.com/zh/
+          description: Yu Zhang的个人博客
         
     - term: 优质播客
       links:
