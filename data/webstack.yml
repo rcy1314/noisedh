@@ -4,47 +4,47 @@
   icon: far fa-star
   links: 
     - title: Clash网页面板
-      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.72tm1b9yonk0.jpg
+      logo: clash.jpg
       url: https://clash.mereith.com
       description: Clash网页面板
     - title: NV资源网
-      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.416ae3u44j00.jpg
+      logo: 漫1.jpg
       url: https://noisevip.cn
       description: 综合资源收录站
     - title: Noise知识效率集
-      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.3kwlp0zw38e.jpg
+      logo: 漫2.jpg
       url: https://www.noisesite.cn
       description: notion知识库
     - title: Tg频道
-      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.uu0193zd5j4.jpg
+      logo: 漫3.jpg
       url: https://tg.quanshoulu.workers.dev/
       description: 我的tg频道的网页版。
     - title: Noise资源库
-      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.be7tlu4ewww.jpg
+      logo: 漫4.jpg
       url: http://www.noiseyp.top
       description: 云盘文件站
     - title: 我的引导页
-      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.4kagbuldyf80.jpg
+      logo: 漫5.jpg
       url: https://www.noisework.cn
       description: 关联站点引导页
     - title: 今日热榜
-      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.5rnp5qhon8c0.jpg
+      logo: 今日热榜.jpg
       url: https://tophub.today
       description: 提供各站热榜聚合：微信、今日头条、知乎...追踪全网热点、简单高效阅读
     - title: momentor
-      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.5ll3wza7qlc0.jpg
+      logo: momentor.jpg
       url: https://momentor.cn/
       description: 动态设计C4D 行业一线设计师分享交流的平台
     - title: 新片场
-      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.534dm9fkfn40.jpg
+      logo: 新片场.jpg
       url: https://www.xinpianchang.com
       description: 质量上乘的视频大开眼界
     - title: 天空之城
-      logo: https://api.iowen.cn/favicon/www.skypixel.com.png
+      logo: 天空之城.jpg
       url: https://www.skypixel.com
       description: 世界各地的航拍摄影师、拍手叫绝的航拍作品与独具价值的航拍攻略。全世界的探索者们互相启发，乐在其中。现在加入天空之城，换个角度看世界！。
     - title: 哔哩哔哩
-      logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.4pyo1ojnwn40.jpg
+      logo: 哔哩哔哩.jpg
       url: https://www.bilibili.com
       description: 哔哩哔哩
     - title: V2EX
@@ -599,6 +599,26 @@
           logo: https://api.iowen.cn/favicon/www.zhenbuka3.com/.png
           url: https://www.zhenbuka.fun
           description: 真不卡影院发布地址
+        - title: justwatch
+          logo: justwatch.png
+          url: https://www.justwatch.com/
+          description: 国外在线追剧平台
+        - title: vipstream
+          logo: vipstream.png
+          url: https://vipstream.tv/home
+          description: 国外高清影视在线平台
+        - title: myflixer
+          logo: myflixer.png
+          url: https://myflixer.is/home
+          description: 国外高清影视在线平台
+        - title: channel4
+          logo: channel4.jpg
+          url: https://www.channel4.com/
+          description: 国外高清影视在线平台
+        - title: fmovies
+          logo: fmovies.png
+          url: https://fmovies.ink/
+          description: 国外高清影视在线平台
 
     - term: 动漫番剧
       links:
@@ -658,6 +678,14 @@
           logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.png
           url: https://magmablock.github.io/LavaAnimeWeb
           description: 一个私有静态动画库
+        - title: zoro.to
+          logo: zoro.to.png
+          url: https://zoro.to/home/
+          description: 国外的一家综合类番剧库
+        - title: gogoplay1
+          logo: gogoplay1.png
+          url: https://gogoplay1.com
+          description: 国外的综合类番剧库
    
 - taxonomy: 永硕E盘
   icon: fas fa-tree
@@ -1667,6 +1695,14 @@
           logo: https://api.iowen.cn/favicon/emacs-china.org.png
           url: https://emacs-china.org
           description: 开发者技术类论坛
+        - title: 独立黑客社区
+          logo: 独立黑客.png
+          url: https://www.indiehackers.com/
+          description: 开发者技术类社区
+        - title: wvbCommunity
+          logo: wvbtech.png
+          url: https://community.wvbtech.com/
+          description: 编程类技术社区
     - term: 综合技术类社区
       links:
         - title: 我爱分享论坛
