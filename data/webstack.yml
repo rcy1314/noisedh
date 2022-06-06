@@ -3122,7 +3122,7 @@
 - taxonomy: 独立开发
   icon: fas fa-code fa-lg
   list:
-    - term: 建站达人
+    - term: site
       links:
         - title: 待添加
           logo: default.png
@@ -3155,19 +3155,23 @@
           logo: 播放.png
           url: https://faketube.valchy.com
           description: 使用其内置的嵌入式播放器浏览和观看无广告视频
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
+        - title: mergist
+          logo: mergist.png
+          url: https://mergist.johng.io
+          description: 将多个PDF文件合并为一个
+        - title: v2rayse
+          logo: v2rayse.png
+          url: https://v2rayse.com
+          description: 科学上网v2rayse工具页
+        - title: Burger工具站
+          logo: BGS.jpg
+          url: https://burgerstudio.github.io
+          description: Burger工具站
 
-- taxonomy: 媒体频道
+- taxonomy: 软件下载
   icon: fas fa-circle
   list:
-    - term: 导航收录
+    - term: 待添加
       links:
         - title: 待添加
           logo: default.png
