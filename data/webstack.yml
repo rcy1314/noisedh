@@ -1571,10 +1571,6 @@
           logo: https://api.iowen.cn/favicon/bbs.bcb5.com.png
           url: http://bbs.bcb5.com
           description: 源码论坛
-        - title: 自学IT吧
-          logo: default.png
-          url: http://www.zxit8.com
-          description: IT技术交流论坛
         - title: Emacs China
           logo: https://api.iowen.cn/favicon/emacs-china.org.png
           url: https://emacs-china.org
@@ -1635,10 +1631,10 @@
           logo: https://api.iowen.cn/favicon/bbs.pcbeta.com.png
           url: https://bbs.pcbeta.com
           description: 综合类系统OS技术社区
-        - title: 自学编程吧
-          logo: default.png
-          url: default.png
-          description: IT技术交流论坛
+        - title: Reddit
+          logo: Reddit.png
+          url: https://www.reddit.com
+          description: 全球技术交流论坛
         - title: 思杰爱好者技术论坛
           logo: https://api.iowen.cn/favicon/www.xen800.com.png
           url: http://www.xen800.com
@@ -1679,10 +1675,10 @@
           logo: https://api.iowen.cn/favicon/www.im286.net.png
           url: https://www.im286.net
           description: 站长交流社区
-        - title: 创意分享论坛
-          logo: https://api.iowen.cn/favicon/www.fenxiangzq.com.png
-          url: https://www.fenxiangzq.com
-          description: 站长交流社区
+        - title: DEV
+          logo: dev.to.ico
+          url: https://dev.to
+          description: DEV社区是一个由861，701名优秀开发人员组成的社区
         - title: 1024只猴子
           logo: https://api.iowen.cn/favicon/1024.com.png
           url: https://1024.com
