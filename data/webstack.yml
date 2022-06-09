@@ -68,7 +68,7 @@
       url: https://github.com
       description: github
     - title: Railway
-      logo: railway.ico
+      logo: railway.png
       url: https://railway.app
       description: railway
     - title: cloudflare
@@ -173,7 +173,11 @@
         - title: R站
           logo: www.btbat.com.ico
           url: https://www.btbat.com
-          description: 专注三维模型             
+          description: 专注三维模型
+        - title: iiidea CG
+          logo: iiidea.png
+          url: http://iiidea.cn
+          description: CG资源网         
     - term: 模版插件
       links:
         - title: LOOKAE大众脸
@@ -185,7 +189,7 @@
           url: https://www.vfx123.com
           description: 以FCPX资源为主
         - title: LOOK资源网
-          logo: https://api.iowen.cn/favicon/www.lookzy.cn.png
+          logo: www.lookzy.cn.ico
           url: https://www.lookzy.cn
           description: 后期素材下载站
         - title: 韬客AE
@@ -193,43 +197,43 @@
           url: https://www.talkae.com
           description: 各类插件预设
         - title: PR模版网
-          logo: https://api.iowen.cn/favicon/prmuban.com.png
+          logo: prmuban.com.ico
           url: https://prmuban.com
           description: PR模板的集合地
         - title: 新CG儿
-          logo: https://api.iowen.cn/favicon/www.newcger.com.png
+          logo: www.newcger.com.ico
           url: https://www.newcger.com
           description: 老牌网站，CG模板插件资源
         - title: 黑镜资源网
-          logo: https://api.iowen.cn/favicon/cg66.cn.png
+          logo: cg66.cn.ico
           url: https://cg66.cn
           description: CG资源、AE插件
         - title: MotionVFX
-          logo: https://api.iowen.cn/favicon/www.motionvfx.com.png
+          logo: www.motionvfx.com.ico
           url: https://www.motionvfx.com
           description: 专注于FCPX、motion效果功能开发的国外网站，顶级的素材效果库
         - title: 影库创作
-          logo: https://api.iowen.cn/favicon/www.moviercool.com.png
+          logo: www.moviercool.com.ico
           url: https://www.moviercool.com
           description: 创作者的素材库，AE模版，插件，视频CG素材库
         - title: 动视素材
-          logo: https://api.iowen.cn/favicon/www.dongmv.com.png
+          logo: www.dongmv.com.ico
           url: http://www.dongmv.com
           description: 比较综合的模版素材网站
         - title: 国外素材网
-          logo: https://api.iowen.cn/favicon//hd1080.pro.png
+          logo: hd1080.pro.ico
           url: https://hd1080.pro
           description: 素材资源站
         - title: 包图网
-          logo: https://api.iowen.cn/favicon/ibaotu.com.png
+          logo: ibaotu.com.ico
           url: https://ibaotu.com
           description: 设计素材，AE模板等
         - title: 93CG
-          logo: https://api.iowen.cn/favicon/www.93cg.com.png
+          logo: www.93cg.com.ico
           url: https://www.93cg.com
           description: 老牌CG资源下载站
         - title: YAKFX影视后期加油站
-          logo: https://api.iowen.cn/favicon/www.yakfx.com.png
+          logo: www.yakfx.com.ico
           url: http://www.yakfx.com
           description: 以FCPX插件为主，后期资源下载站
         - title: SOSO后期站
@@ -237,23 +241,23 @@
           url: https://www.sosohuo.com
           description: LR预设，PS插件，后期资源
         - title: 人人素材
-          logo: https://api.iowen.cn/favicon/www.rrcg.cn.png
+          logo: www.rrcg.cn.ico
           url: https://www.rrcg.cn
           description: 专业CG分享平台
         - title: AE模型资源站
-          logo: https://api.iowen.cn/favicon/aemoban.com.png
+          logo: aemoban.com.ico
           url: https://aemoban.com
           description: AE模型资源站
         - title: 知鱼素材
-          logo: https://api.iowen.cn/favicon/www.zhiyusucai.com.png
+          logo: www.zhiyusucai.com.ico
           url: https://www.zhiyusucai.com
           description: 可商用素材，后期资源下载站
         - title: 逍遥影视
-          logo: https://api.iowen.cn/favicon/www.vfxreel.net.png
+          logo: www.vfxreel.net.ico
           url: https://www.vfxreel.net
           description: 后期资源模版资源
         - title: 凌晨两点
-          logo: https://api.iowen.cn/favicon/www.2amok.com.png
+          logo: www.2amok.com.ico
           url: https://www.2amok.com
           description: 视频、模版为主
         - title: CG资源站
@@ -261,38 +265,46 @@
           url: http://www.cgzyw.com
           description: 资源丰富的素材站
         - title: shareAE
-          logo: https://api.iowen.cn/favicon/www.shareae.cn.png
+          logo: www.shareae.cn.ico
           url: http://www.shareae.cn/
           description: AE模版资源
         - title: 剪辑库
-          logo: https://api.iowen.cn/favicon/www.editku.com.png
+          logo: www.editku.com.ico
           url: https://www.editku.com
           description: 大量视频模板，以PR为主
         - title: 明小子资源库
-          logo: https://api.iowen.cn/favicon/www.mingxiaozi.com.png
+          logo: www.mingxiaozi.com.ico
           url: https://www.mingxiaozi.com
           description: 自学教程资源
         - title: C4DSKY
-          logo: https://api.iowen.cn/favicon/c4dsky.com.png
+          logo: c4dsky.com.ico
           url: https://c4dsky.com
           description: AE模板，C4D素材应有尽有
         - title: 追影吧
-          logo: https://api.iowen.cn/favicon/www.aepr8.com.png
+          logo: www.aepr8.com.ico
           url: https://www.aepr8.com
           description: AE、PR、MAC资源
         - title: CGUFO
-          logo: https://api.iowen.cn/favicon/www.cgufo.com.png
+          logo: www.cgufo.com.ico
           url: https://www.cgufo.com
           description: 免费加收费资源
         - title: 灵动网
-          logo: https://api.iowen.cn/favicon/www.ldvfx.com.png
+          logo: www.ldvfx.com.ico
           url: https://www.ldvfx.com
           description: 影视后期加油站
+        - title: 幕后
+          logo: 幕后.ico
+          url: https://muhou.net
+          description: 素材资源网
+        - title: C4素材网
+          logo: C4.ico
+          url: https://c4sucaiku.com
+          description: C4D素材库
 
     - term: 无版权图库
       links:
         - title: piqsels
-          logo: https://api.iowen.cn/favicon/www.piqsels.com.png
+          logo: www.piqsels.com.ico
           url: https://www.piqsels.com/zh
           description: 一个老牌的素材站了，piqsels也提供数量众多的矢量图、插画、照片等无版权素材
         - title: cc0
@@ -3165,7 +3177,7 @@
           url: https://github.com
           description: github
         - title: Railway
-          logo: railway.ico
+          logo: railway.png
           url: https://railway.app
           description: railway
         - title: cloud.serverless
@@ -3219,6 +3231,34 @@
           logo: BGS.jpg
           url: https://burgerstudio.github.io
           description: Burger工具站
+        - title: 一个工具箱
+          logo: 一个工具箱.ico
+          url: http://www.atoolbox.net
+          description: 一个工具箱
+        - title: 独特工具箱
+          logo: dute.ico
+          url: https://www.dute.org
+          description: 独特工具箱
+        - title: 云极客工具
+          logo: yunjike.png
+          url: https://www.ygktool.com
+          description: 云极客工具
+        - title: 123apps
+          logo: 123app.png
+          url: https://123apps.com
+          description: webapp
+        - title: PDF24 Tools
+          logo: Pdf24.ico
+          url: https://tools.pdf24.org/zh/
+          description: 免费且易于使用的在线PDF工具
+        - title: 在线工具
+          logo: zaixian.ico
+          url: https://tool.lu
+          description: 在线工具
+        - title: CTFever
+          logo: ctfever.ico
+          url: https://ctfever.uniiem.com
+          description: CTFever for everyone
 
 - taxonomy: 软件下载
   icon: fas fa-circle
