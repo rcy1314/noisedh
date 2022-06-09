@@ -50,7 +50,31 @@
     - title: V2EX
       logo: v2ex.jpg
       url: https://www.v2ex.com/
-      description: V2EX 创意工作者的社区。
+      description: V2EX 创意工作者的社区
+    - title: vercel
+      logo: vercel.png
+      url: https://vercel.com
+      description: vercel
+    - title: Netlify
+      logo: netlify.png
+      url: https://app.netlify.com
+      description: Netlify
+    - title: Gatsbyjs
+      logo: gatsbyjs.jpg
+      url: https://www.gatsbyjs.com
+      description: Gatsbyjs
+    - title: Github
+      logo: github.jpg
+      url: https://github.com
+      description: github
+    - title: Railway
+      logo: railway.ico
+      url: https://railway.app
+      description: railway
+    - title: cloudflare
+      logo: cloudflare.png
+      url: https://dash.cloudflare.com
+      description: cloudflare
 
 
 - taxonomy: 媒体制作
@@ -3122,24 +3146,52 @@
 - taxonomy: 独立开发
   icon: fas fa-code fa-lg
   list:
-    - term: site
+    - term: 开发部署
       links:
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
+        - title: vercel
+          logo: vercel.png
+          url: https://vercel.com
+          description: vercel
+        - title: Netlify
+          logo: netlify.png
+          url: https://app.netlify.com
+          description: Netlify
+        - title: Gatsbyjs
+          logo: gatsbyjs.jpg
+          url: https://www.gatsbyjs.com
+          description: Gatsbyjs
+        - title: Github
+          logo: github.jpg
+          url: https://github.com
+          description: github
+        - title: Railway
+          logo: railway.ico
+          url: https://railway.app
+          description: railway
+        - title: cloud.serverless
+          logo: serverless.png
+          url: https://cloud.serverless.com
+          description: serverless
+        - title: cloudflare
+          logo: cloudflare.png
+          url: https://dash.cloudflare.com
+          description: cloudflare
+        - title: Gitpod
+          logo: gitpod.jpg
+          url: https://gitpod.io
+          description: gitpod
+        - title: Electron
+          logo: Electron.png
+          url: https://www.electronjs.org
+          description: electron
+        - title: Codesandbox
+          logo: codesandbox.jpg
+          url: https://codesandbox.io
+          description: 沙盒
+        - title: Dcloud
+          logo: Dcloud.jpg
+          url: https://dcloud.io
+          description: 程序开发
         
     - term: 工具箱
       links:
