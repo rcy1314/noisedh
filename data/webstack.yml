@@ -67,97 +67,97 @@
           url: https://www.cg99.com
           description: 专注全球CG设计行业，以CG模型为主的资源下载和分享平台
         - title: 分秒帧
-          logo: https://cdn.jsdelivr.net/gh/rcy1314/tuchuang@main/NV/image.dy3166er6fk.jpg
+          logo: 分秒帧.jpg
           url: https://app.mediatrack.cn
           description: 在线协作审片平台，无限协作容量，还有大容量个人网盘加持
         - title: CG说
-          logo: https://api.iowen.cn/favicon/www.cgshuo.com.png
+          logo: www.cgshuo.com.ico
           url: http://www.cgshuo.com
           description: 原创CG设计资源、素材交易平台
         - title: ABOUTCG
-          logo: https://api.iowen.cn/favicon/www.aboutcg.com.png
+          logo: www.aboutcg.com.ico
           url: https://www.aboutcg.com
           description: 最新CG行业资讯
         - title: MAYA动画资源网
-          logo: https://api.iowen.cn/favicon/www.maya09.cn.png
+          logo: www.maya09.cn.ico
           url: http://www.maya09.cn
           description: MAYA资源、论坛、社区
         - title: CG模型王
-          logo: https://api.iowen.cn/favicon/www.cgmxw.com.png
+          logo: www.cgmxw.com.ico
           url: https://www.cgmxw.com
           description: 各类CG模型
         - title: CG资源网
-          logo: https://api.iowen.cn/favicon/www.cgtsj.com.png
+          logo: www.cgtsj.com.ico
           url: https://www.cgtsj.com
           description: 各类CG资源
         - title: 中文汉化
-          logo: https://api.iowen.cn/favicon/h.shanse8.com.png
+          logo: h.shanse8.com.ico
           url: http://h.shanse8.com
           description: CG 各领域的经典原创汉化作品，有 3D 软件、2D 软件、影视后期、非编等主流软件及其插件的汉化
         - title: C4D模型网
-          logo: https://api.iowen.cn/favicon/www.c4d.com.cn.png
+          logo: www.c4d.com.cn.ico
           url: https://www.c4d.com.cn
           description: C4D模型，工程，材质
         - title: 立体派
-          logo: https://api.iowen.cn/favicon/www.ltpmx.com.png
+          logo: www.ltpmx.com.ico
           url: http://www.ltpmx.com
           description: C4D模型
         - title: biubiu游戏美术论坛
-          logo: https://api.iowen.cn/favicon/www.biubiuiu.com.png
+          logo: www.biubiuiu.com.ico
           url: https://www.biubiuiu.com
           description: 最专业的游戏特效师，动画师社区
         - title: CG帮
-          logo: https://api.iowen.cn/favicon/www.cgboo.com.png
+          logo: www.cgboo.com.ico
           url: https://www.cgboo.com
           description: 3D模型、游戏原画、AE模版资源网
         - title: CGJOY
-          logo: https://www.cgjoy.com/template/iscwo_cgjoy/iscwo/img/logo.png
+          logo: CGJOY.png
           url: https://www.cgjoy.com
           description: 3D特效师、动画师、模型、ui交流平台
         - title: 模匠网
-          logo: https://api.iowen.cn/favicon/www.3dsmj.com.png
+          logo: www.3dsmj.com.ico
           url: https://www.3dsmj.com
           description: 各类3D模型下载
         - title: cgebook
-          logo: https://api.iowen.cn/favicon/www.cgebook.com.png
+          logo: www.cgebook.com.ico
           url: http://www.cgebook.com
           description: 论坛式CG资源共享网
         - title: 微妙网
-          logo: https://api.iowen.cn/favicon//www.wmiao.com.png
+          logo: www.wmiao.com.ico
           url: https://www.wmiao.com
           description: 专业的动画师、特效师、建模师交流网站
         - title: 魔顿
-          logo: https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2595532188,773070752&fm=26&gp=0.jpg
+          logo: 魔顿.jpg
           url: http://www.modown.cn
           description: 免费C4D资源下载
         - title: 动动三维
-          logo: https://api.iowen.cn/favicon/www.ddd.online.png
+          logo: www.ddd.online.ico
           url: https://www.ddd.online
           description: 上传编辑模型
         - title: 免费三维模型
-          logo: https://api.iowen.cn/favicon/free3d.com.png
+          logo: free3d.com.ico
           url: https://free3d.com
           description: 完全免费的3D模型下载
         - title: 菜鸟C4D
-          logo: https://api.iowen.cn/favicon/www.c4dcn.com.png
+          logo: www.c4dcn.com.ico
           url: http://www.c4dcn.com
           description: C4D学习站
         - title: Sketchfab
-          logo: https://api.iowen.cn/favicon/sketchfab.com.png
+          logo: sketchfab.com.ico
           url: https://sketchfab.com
           description: 大量的免费三维模型下载站
         - title: R站
-          logo: https://api.iowen.cn/favicon/www.btbat.com.png
+          logo: www.btbat.com.ico
           url: https://www.btbat.com
           description: 专注三维模型             
     - term: 模版插件
       links:
         - title: LOOKAE大众脸
-          logo: https://api.iowen.cn/favicon/www.lookae.com.png
+          logo: www.lookae.com.ico
           url: https://www.lookae.com
           description: 最好的后期资源站
         - title: V后期资源吧
-          logo: https://api.iowen.cn/favicon/www.vfx123.com.png
+          logo: www.vfx123.com.ico
           url: https://www.vfx123.com
           description: 以FCPX资源为主
         - title: LOOK资源网
@@ -165,7 +165,7 @@
           url: https://www.lookzy.cn
           description: 后期素材下载站
         - title: 韬客AE
-          logo: https://cdn.talkae.com/wp-content/uploads/2020/01/2020010718384056.png
+          logo: talkae.png
           url: https://www.talkae.com
           description: 各类插件预设
         - title: PR模版网
@@ -2116,15 +2116,15 @@
     - term: 设计摄影类社区
       links:
         - title: 新摄影
-          logo: https://api.iowen.cn/favicon/forums.nphoto.net.png
+          logo: 新摄影.png
           url: http://forums.nphoto.net
           description: 摄影技术综合论坛
         - title: CG分享网
-          logo: https://api.iowen.cn/favicon/www.cgfxw.com.png
+          logo: CG分享网.png
           url: https://www.cgfxw.com
           description: CG类资源
         - title: 三维3D技术论坛
-          logo: https://api.iowen.cn/favicon/www.narkii.com/club.png
+          logo: 三维3D.png
           url: http://www.narkii.com/club
           description: 三维3D技术论坛
         - title: 色影无忌论坛
@@ -2874,7 +2874,7 @@
     - term: 独立博客
       links:
         - title: 冬烛之焰
-          logo: https://api.iowen.cn/favicon/www.zhuhuadong.com.png
+          logo: www.runningcheese.com.ico
           url: https://www.zhuhuadong.com
           description: 冬烛之焰
         - title: 奔跑中的奶酪
@@ -3014,11 +3014,11 @@
           url: https://dogzi.fun
           description: 辣椒の酱
         - title: 一个程序员的个人博客
-          logo: https://api.iowen.cn/favicon/waynegong.cn.png
+          logo: waynegong.cn.ico
           url: https://waynegong.cn
           description: 一个程序员的个人博客
         - title: 一如Java深似海
-          logo: https://api.iowen.cn/favicon/v-vincen.life.png
+          logo: v-vincen.life.ico
           url: https://v-vincen.life
           description: 一如Java深似海
         - title: 小唐笔记📒
@@ -3026,15 +3026,15 @@
           url: https://nobelium-plum-nine.vercel.app
           description: 小唐笔记📒
         - title: 信鑫 Blog
-          logo: https://api.iowen.cn/favicon/www.rustc.cloud.png
+          logo: 小唐.png
           url: https://www.rustc.cloud
           description: 信鑫 Blog
         - title: 糖醋鱼的小破站
-          logo: https://api.iowen.cn/favicon/expoli.tech.png
+          logo: HEE_favicon.png
           url: https://expoli.tech
           description: 糖醋鱼的小破站
         - title: 奶爸建站笔记 	
-          logo: https://api.iowen.cn/favicon/blog.naibabiji.com.png
+          logo: 奶爸.png
           url: https://blog.naibabiji.com/
           description: 奶爸建站笔记
         - title: pseudoyu 	
@@ -3148,7 +3148,7 @@
           url: https://douyin.wtf
           description: 抖音/TikTok无水印在线解析，开源：https://github.com/Evil0ctal/Douyin_TikTok_Download_API
         - title: PicUploader
-          logo: default.png
+          logo: 还不错.png
           url: https://github.com/xiebruce/PicUploader
           description: 一个还不错的图床工具
         - title: YouTube播放器
