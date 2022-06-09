@@ -55,14 +55,7 @@ footer.main-footer .footer-text a:hover {
 .panel .panel-body a {color: #007bff;}
 .panel .panel-body a:hover {color: #979898;}
 
-/** 普通指针样式**/
-body {
-  cursor: url(assets/images/logos/C1.png), default;
-  }
-  
-  /** 链接指针样式**/
-  a:hover{cursor:url(assets/images/logos/C2.png), pointer;
-  }
+
 
 
 
