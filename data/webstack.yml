@@ -3239,10 +3239,15 @@
           logo: ctfever.ico
           url: https://ctfever.uniiem.com
           description: CTFever for everyone
-        - title: iptv-org
-          logo: miptv.png
-          url: https://iptv-org.github.io
-          description: 全球IPTV电视类m3u8收录
+        - title: 书签生成器
+          logo: book11.png
+          url: https://alanhogan.github.io/bookmarkleter/
+          description: 书签生成器
+        - title: 简单书签
+          logo: 简单书签.png
+          url: https://chrome.google.com/webstore/detail/%E7%AE%80%E5%8D%95%E4%B9%A6%E7%AD%BE/eepoajjgnajliplcimelcklkaobndkkm?hl=zh-CN&authuser=0
+          description: 一个无压的浏览器书签管理扩展
+        
 
 - taxonomy: 软件下载
   icon: fas fa-circle
@@ -3283,4 +3288,8 @@
           logo: emulator.png
           url: https://yuzu-emu.org
           description: 开源Nintendo Switch PC模拟器
+        - title: iptv-org
+          logo: miptv.png
+          url: https://iptv-org.github.io
+          description: 全球IPTV电视类m3u8收录
 
