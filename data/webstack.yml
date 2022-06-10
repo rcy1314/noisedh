@@ -647,6 +647,10 @@
           logo: fmovies.png
           url: https://fmovies.ink/
           description: 国外高清影视在线平台
+        - title: 真不卡影视
+          logo: zhenbuka.ico
+          url: https://zhenbuka.bitbucket.io
+          description: 真不卡影视地址发布页
 
     - term: 动漫番剧
       links:
@@ -710,6 +714,10 @@
           logo: gogoplay1.png
           url: https://gogoplay1.com
           description: 国外的综合类番剧库
+        - title: 打驴动漫
+          logo: dalv.png
+          url: https://www.dqsj.cc
+          description: 番剧免费看
    
 - taxonomy: 永硕E盘
   icon: fas fa-tree
@@ -3231,6 +3239,10 @@
           logo: ctfever.ico
           url: https://ctfever.uniiem.com
           description: CTFever for everyone
+        - title: iptv-org
+          logo: miptv.png
+          url: https://iptv-org.github.io
+          description: 全球IPTV电视类m3u8收录
 
 - taxonomy: 软件下载
   icon: fas fa-circle
