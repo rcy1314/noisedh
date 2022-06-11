@@ -3245,7 +3245,7 @@
           description: 一个无压的浏览器书签管理扩展
         
 
-- taxonomy: 云下载
+- taxonomy: 极客下载
   icon: fas fa-circle
   list:
     - term: 视频下载
