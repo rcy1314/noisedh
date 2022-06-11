@@ -623,10 +623,6 @@
           logo: https://api.iowen.cn/favicon/yanetflix.com.png
           url: https://yanetflix.com
           description: 质量较高的国内奈菲影视平台
-        - title: 真不卡影院
-          logo: https://api.iowen.cn/favicon/www.zhenbuka3.com/.png
-          url: https://www.zhenbuka.fun
-          description: 真不卡影院发布地址
         - title: justwatch
           logo: justwatch.png
           url: https://www.justwatch.com/
@@ -1779,7 +1775,7 @@
           description: 0xffff
         - title: 大牛论坛
           logo: https://api.iowen.cn/favicon/www.dnlt.cc.png
-          url: https://www.dnlt.cc
+          url: https://www.daniu520.com
           description: 综合类技术论坛
         - title: 小木虫
           logo: https://api.iowen.cn/favicon/muchong.com/bbs.png
@@ -3249,23 +3245,79 @@
           description: 一个无压的浏览器书签管理扩展
         
 
-- taxonomy: 软件下载
+- taxonomy: 云下载
   icon: fas fa-circle
   list:
-    - term: 待添加
+    - term: 视频下载
       links:
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
-        - title: 待添加
-          logo: default.png
-          url: https://cc0.cn
-          description: 待添加
+        - title: simplecd百度网盘搜索
+          logo: simple.png
+          url: http://www.simplecd.cc/
+          description: BT下载站，可复制豆瓣ID IMDB等方式搜索下载
+        - title: 66网盘电影
+          logo: 66.ico
+          url: https://www.6a6z.com
+          description: 提供百度云盘影视下载
+        - title: youtube下载器
+          logo: yt1s.ico
+          url: https://yt1s.com/zh-cn12
+          description: 在线youtube解析下载
+        - title: Yout
+          logo: Youty.png
+          url: https://yout.com
+          description: 在线youtube解析下载
+        - title: seedhub
+          logo: seedhub.png
+          url: http://seedhub.info
+          description: 动漫影视种子下载站，支持4K种子
+        - title: Savied
+          logo: sav.png
+          url: https://savieo.com/zh/
+          description: 国外视频解析，在线youtube解析下载
+        - title: 唧唧
+          logo: 唧唧.ico
+          url: https://www.jijidown.com/
+          description: B站视频解析下载，可在线可软件
+        - title: 视频下载微博党
+          logo: wd.png
+          url: http://weibodang.cn
+          description: 视频解析，在线视频解析下载
+        - title: superparse
+          logo: superparse.ico
+          url: https://superparse.com/
+          description: 国外视频解析，在线youtube解析下载
+        - title: savefrome
+          logo: savefrom.ico
+          url: https://en.savefrom.net/25/
+          description: 国外视频解析，在线youtube解析下载
+        - title: reddit
+          logo: redd2x.png
+          url: https://www.reddit.tube
+          description: 国外视频解析
+        - title: ouo工具
+          logo: ouo.ico
+          url: https://ouotool.com/dy
+          description: 抖音在线去水印下载
+        - title: fdown
+          logo: fdown.png
+          url: https://www.fdown.net/index.php
+          description: 国外视频解析,facebook下载
+        - title: 贝贝解析
+          logo: xbei.png
+          url: https://xbeibeix.com/api/bilibili/
+          description: B站视频解析下载，可在线可软件
+        - title: 9itube
+          logo: 9ie.png
+          url: https://www.9itube.com
+          description: 国外视频解析，在线youtube解析下载
+        - title: DHTclub
+          logo: DHT.png
+          url: https://www.dhtclub.com
+          description: 完全免费的BT影视下载站
+        - title: 9xbuddy
+          logo: 9x.png
+          url: https://9xbuddy.in/zh
+          description: 突破限制级下载
 
 - taxonomy: 其它精选
   icon: fas fa-cube
