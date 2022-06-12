@@ -2882,6 +2882,10 @@
           logo: webrcade.png
           url: https://play-staging.webrcade.com
           description: 国外的FC类模拟器游戏大全
+        - title: IndieNova独立精神
+          logo: indienova.ico
+          url: https://indienova.com
+          description: indienova独立游戏
         
     - term: 独立博客
       links:
