@@ -647,6 +647,10 @@
           logo: zhenbuka.ico
           url: https://zhenbuka.bitbucket.io
           description: 真不卡影视地址发布页
+        - title: 大米星球
+          logo: 大米星球.png
+          url: https://www.dmxq.fun/
+          description: 影视剧集在线播放
 
     - term: 动漫番剧
       links:
@@ -714,6 +718,14 @@
           logo: dalv.png
           url: https://www.dqsj.cc
           description: 番剧免费看
+        - title: 简单动漫
+          logo: jiandan.ico
+          url: https://www.36dm.com
+          description: BT资源发布站
+        - title: MX动漫
+          logo: MX.ico
+          url: http://www.mxdm.cc
+          description: 动漫番剧在线看
    
 - taxonomy: 永硕E盘
   icon: fas fa-tree
@@ -3184,6 +3196,10 @@
           logo: Dcloud.jpg
           url: https://dcloud.io
           description: 程序开发
+        - title: supabase
+          logo: supabase.png
+          url: https://supabase.com
+          description: 使用Postgres数据库，身份验证，即时API，实时订阅和存储开始您的项目
         
     - term: 工具箱
       links:
@@ -3241,12 +3257,33 @@
           description: CTFever for everyone
         - title: 书签生成器
           logo: book11.png
-          url: https://alanhogan.github.io/bookmarkleter/
+          url: https://alanhogan.github.io/bookmarkleter
           description: 书签生成器
         - title: 简单书签
           logo: 简单书签.png
           url: https://chrome.google.com/webstore/detail/%E7%AE%80%E5%8D%95%E4%B9%A6%E7%AD%BE/eepoajjgnajliplcimelcklkaobndkkm?hl=zh-CN&authuser=0
           description: 一个无压的浏览器书签管理扩展
+        - title: 在线PS
+          logo: 在线ps.ico
+          url: https://www.uupoop.com/
+          description: 稿定在线PS
+        - title: PDF在线工具
+          logo: lovepdf.ico
+          url: https://www.ilovepdf.com/zh-cn
+          description: 完全免费、易于使用、丰富的PDF处理工具
+        - title: 智能去人声
+          logo: 去人声.ico
+          url: hhttps://vocalremover.org/zh/
+          description: 用强大的人工智能算法将声音从音乐中分离出来
+        - title: 在线网页截图
+          logo: 火.ico
+          url: https://screendump.techulus.com
+          description: 输入URL截屏
+        - title: 创建代码图像
+          logo: 代码.ico
+          url: https://carbon.now.sh
+          description: 创建并共享源代码的精美图像
+        
         
 
 - taxonomy: 极客下载
@@ -3282,6 +3319,10 @@
           logo: 唧唧.ico
           url: https://www.jijidown.com/
           description: B站视频解析下载，可在线可软件
+        - title: vtool
+          logo: vtool.png
+          url: https://vtool.pro/
+          description: 视频解析站
         - title: 视频下载微博党
           logo: wd.png
           url: http://weibodang.cn
@@ -3348,4 +3389,8 @@
           logo: miptv.png
           url: https://iptv-org.github.io
           description: 全球IPTV电视类m3u8收录
+        - title: Nsf小站
+          logo: nsf.ico
+          url: http://nsf.nesbbs.com
+          description: 8Bit音乐站
 
