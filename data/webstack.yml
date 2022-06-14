@@ -2278,10 +2278,6 @@
           logo: https://api.iowen.cn/favicon/www.9000xp.com.png
           url: http://www.9000xp.com
           description: 文学类综合论坛
-        - title: 独目不成林
-          logo: https://api.iowen.cn/favicon/bbs.5mmm.top.png
-          url: https://bbs.5mmm.top
-          description: 考研课程类论坛
         - title: TXT电子书论坛
           logo: https://api.iowen.cn/favicon/www.zm233.net.png
           url: https://www.zm233.net
@@ -2340,10 +2336,6 @@
           logo: https://api.iowen.cn/favicon/www.nowcoder.com/discuss.png
           url: https://www.nowcoder.com/discuss
           description: 求职者交流
-        - title: 交易者联盟
-          logo: https://api.iowen.cn/favicon/jiaoyizhe.com.png
-          url: http://jiaoyizhe.com
-          description: 老牌社区
         - title: 西祠胡同
           logo: https://api.iowen.cn/favicon/www.xici.net.png
           url: https://www.xici.net
