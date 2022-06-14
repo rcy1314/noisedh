@@ -3286,7 +3286,7 @@
 - taxonomy: 极客下载
   icon: fas fa-circle
   list:
-    - term: 
+    - term: 下载·视频
       links:
         - title: simplecd百度网盘搜索
           logo: simple.png
