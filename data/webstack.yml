@@ -1798,6 +1798,10 @@
           logo: 心动社区.ico
           url: 	https://www.xdo.cc
           description: 综合资源类社区
+        - title: 秋无痕论坛
+          logo: bbs.realqwh.cn.ico
+          url: http://bbs.realqwh.cn
+          description: 综合类技术论坛，有win系统板块包括影视板块
         
     - term: 社区·软件技术类
       links:
@@ -1973,7 +1977,7 @@
           url: https://bbs.zsxwz.com
           description: 姿势论坛
         - title: 资源岛论坛
-          logo: https://api.iowen.cn/favicon/bbs.xktpx.com.png
+          logo: bbs.xktpx.com.ico
           url: https://bbs.xktpx.com
           description: 综合类交流论坛
         - title: 天翼小站
@@ -1981,145 +1985,141 @@
           url: https://yun.hei521.cn
           description: 天翼及阿里云盘资源
         - title: 阿里云网盘资源免费分享论坛
-          logo: https://api.iowen.cn/favicon/alifree.net.png
+          logo: alifree.net.ico
           url: https://alifree.net
           description: 阿里云网盘资源分享论坛
         - title: 90云盘网论坛
-          logo: https://api.iowen.cn/favicon/90yp.com.png
+          logo: 90yp.com.ico
           url: http://90yp.com
           description: 网盘综合类类资源论坛
         - title: 112网盘社区
-          logo: https://api.iowen.cn/favicon/www.112pan.com.png
+          logo: www.112pan.com.ico
           url: http://www.112pan.com
           description: 网盘综合类类资源论坛
         - title: 云盘资源分享论坛
-          logo: https://api.iowen.cn/favicon/drivebbs.com.png
+          logo: drivebbs.com.ico
           url: https://drivebbs.com
           description: 云盘资源分享交流
         - title: 百度网盘论坛
-          logo: https://api.iowen.cn/favicon/www.baoshu8.com.png
+          logo: www.baoshu8.com.ico
           url: http://www.baoshu8.com
           description: 百度类资源社区
         - title: VIP分享网论坛
-          logo: https://api.iowen.cn/favicon/bbs.vipfenxiang.com.png
+          logo: bbs.vipfenxiang.com.ico
           url: https://bbs.vipfenxiang.com
           description: VIP分享账号论坛
         - title: 我的小站
-          logo: https://api.iowen.cn/favicon/pan666.net.png
+          logo: pan666.net.ico
           url: https://pan666.net
           description: 以阿里云盘资源为主的论坛
         - title: 网盘分享吧
-          logo: https://api.iowen.cn/favicon/www.wpfx8.com.png
+          logo: wpfx8.com.ico
           url: https://www.wpfx8.com
           description: 网盘资源论坛
         - title: 网盘世界吧
-          logo: https://api.iowen.cn/favicon/www.wpsj8.com.png
+          logo: www.wpsj8.com.ico
           url: http://www.wpsj8.com
           description: 网盘综合类类资源论坛
         - title: 星期八
-          logo: https://api.iowen.cn/favicon/www.xinqi8888.com.png
+          logo: www.xinqi8888.com.ico
           url: https://www.xinqi8888.com
           description: 一些资源论坛
         - title: 视界论坛
-          logo: https://api.iowen.cn/favicon/bbs.outfu.com.png
+          logo: bbs.outfu.com.ico
           url: https://bbs.outfu.com
           description: 阿里云资源
     - term: 社区·影视类
       links:
         - title: 百度云电影论坛
-          logo: https://api.iowen.cn/favicon/www.chchzh.com.png
+          logo: www.chchzh.com.ico
           url: http://www.chchzh.com
           description: 百度盘影视类资源论坛
         - title: 资源号
-          logo: https://api.iowen.cn/favicon/www.ziyuanhao.com.png
+          logo: www.ziyuanhao.com.ico
           url: http://www.ziyuanhao.com/index.php
           description: 影视资源为主
         - title: 云资源分享论坛
-          logo: https://api.iowen.cn/favicon/www.yunpandu.com.png
+          logo: www.yunpandu.com.ico
           url: http://www.yunpandu.com
           description: 百度盘影视类资源论坛
         - title: hd高清乐园
-          logo: https://api.iowen.cn/favicon/www.hdsay.net.png
+          logo: www.hdsay.net.ico
           url: https://www.hdsay.net
           description: 影视资源论坛
         - title: HIFI音乐论坛
-          logo: https://api.iowen.cn/favicon/sacdr.net/forum.php.png
+          logo: HIFIYIN.ico
           url: https://sacdr.net/forum.php
           description: HIFI音乐交流论坛
         - title: 国配影迷社区
-          logo: https://api.iowen.cn/favicon/club.ccmnn.com.png
+          logo: club.ccmnn.com.ico
           url: https://club.ccmnn.com
           description: 影视资源论坛
         - title: 东西资源论坛
-          logo: https://api.iowen.cn/favicon/www.dxzylt.net.png
+          logo: www.dxzylt.net.ico
           url: http://www.dxzylt.net
           description: 音乐HIFI类资源论坛
         - title: 西西论坛
-          logo: https://api.iowen.cn/favicon/www.zhanxixi.com.png
+          logo: www.zhanxixi.com.ico
           url: https://www.zhanxixi.com
           description: 百度盘影视类资源论坛
         - title: 飘雪动漫社
-          logo: https://api.iowen.cn/favicon/www.deainx.me.png
+          logo: www.deainx.me.ico
           url: https://www.deainx.me
           description: 动漫资源论坛
         - title: hktvwind
-          logo: https://api.iowen.cn/favicon/www.hktvwind.com.png
+          logo: www.hktvwind.com.ico
           url: http://www.hktvwind.com
           description: 影视资源论坛
         - title: 百度盘影视类资源论坛
-          logo: https://api.iowen.cn/favicon/8yunpan.com.png
+          logo: discuz.ico
           url: https://8yunpan.com
           description: 百度盘影视类资源论坛
         - title: 90云盘网
-          logo: https://api.iowen.cn/favicon/www.90yp.net.png
+          logo: www.90yp.net.ico
           url: http://www.90yp.net
           description: 影视资源论坛
         - title: 牛皮兔
-          logo: https://api.iowen.cn/favicon/www.niupitu.com.png
+          logo: www.niupitu.com.ico
           url: http://www.niupitu.com
           description: 影视资源论坛
         - title: HiFiNi
-          logo: https://api.iowen.cn/favicon/www.hifini.com.png
+          logo: www.hifini.com.ico
           url: https://www.hifini.com
           description: HiFiNi 是一个由音乐爱好者维护的分享平台, 旨在解决问题互帮互助
         - title: BT电影天堂
-          logo: https://api.iowen.cn/favicon/www.ck180.net.png
+          logo: www.ck180.net.ico
           url: https://www.ck180.net
           description: 一个背时鬼的看电影首选小网站
         - title: 优优MP4
-          logo: https://api.iowen.cn/favicon/www.uump4.net.png
+          logo: www.uump4.net.ico
           url: https://www.uump4.net
           description: 影视资源论坛
         - title: 点拨论坛	
-          logo: https://api.iowen.cn/favicon/www.dianbo.org.png
+          logo: www.dianbo.org.ico
           url: https://www.dianbo.org
           description: 视频、光盘、技术类老牌
         - title: 慢慢游社区
-          logo: https://api.iowen.cn/favicon/www.mmybt.com.png
+          logo: www.mmybt.com.ico
           url: https://www.mmybt.com
           description: 影视资源论坛
         - title: 百度云分享论坛
-          logo: https://api.iowen.cn/favicon/www.aixuge.com.png
+          logo: www.aixuge.com.ico
           url: https://www.aixuge.com
           description: 百度盘影视类资源论坛
         - title: G2怀旧论坛
-          logo: https://api.iowen.cn/favicon/www.g2hj.com.png
+          logo: www.g2hj.com.ico
           url: https://www.g2hj.com
           description: 影视资源论坛
-        - title: 秋无痕论坛
-          logo: https://api.iowen.cn/favicon/bbs.realqwh.cn.png
-          url: http://bbs.realqwh.cn
-          description: 综合类技术论坛，有win系统板块包括影视板块
         - title: 云中漫步
-          logo: https://api.iowen.cn/favicon/www.yunzmb.com.png
+          logo: www.yunzmb.com.ico
           url: https://www.yunzmb.com
           description: 影视资源论坛
         - title: 音响DIY
-          logo: https://api.iowen.cn/favicon/bbs.hifidiy.net.png
+          logo: bbs.hifidiy.net.ico
           url: http://bbs.hifidiy.net
           description: 功放音响玩家论坛
         - title: CD包音乐网
-          logo: https://api.iowen.cn/favicon/www.cdbao.net.png
+          logo: www.cdbao.net.ico
           url: https://www.cdbao.net
           description: 无损音乐、刻录光盘
     - term: 社区·设计摄影类
@@ -2164,23 +2164,23 @@
     - term: 社区·游戏类
       links:
         - title: 久爱论坛
-          logo: https://api.iowen.cn/favicon/www.jizy8.com.png
+          logo: www.jizy8.com.ico
           url: https://www.jizy8.com
           description: 游戏辅助类论坛
         - title: 破走论坛
-          logo: https://api.iowen.cn/favicon/www.pozou.com.png
+          logo: www.pozou.com.ico
           url: https://www.pozou.com
           description: 游戏辅助类论坛
         - title: 游民星空论坛
-          logo: https://api.iowen.cn/favicon/bbs.gamersky.com.png
+          logo: bbs.gamersky.com.ico
           url: http://bbs.gamersky.com
           description: 游民星空PC游戏论坛
         - title: 随心破解论坛
-          logo: https://api.iowen.cn/favicon/sxpojie.cn.png
+          logo: sxpojie.cn.ico
           url: http://sxpojie.cn
           description: 游戏辅助类论坛
         - title: 终点论坛
-          logo: https://api.iowen.cn/favicon/bbs.zdfx.net.png
+          logo: bbs.zdfx.net.ico
           url: https://bbs.zdfx.net
           description: ACG游戏社区
         - title: 玖大猫论坛
@@ -2192,11 +2192,11 @@
           url: https://u.sgamer.com
           description: 游戏板块交流社区
         - title: A9VG		
-          logo: https://api.iowen.cn/favicon/bbs.a9vg.com.png
+          logo: bbs.a9vg.com.ico
           url: https://bbs.a9vg.com
           description: 游戏论坛社区
         - title: keter	
-          logo: https://api.iowen.cn/favicon/bbs.keter.pub.png
+          logo: bbs.keter.pub.ico
           url: https://bbs.keter.pub
           description: 游戏社区
         - title: 电玩DIY论坛
@@ -2207,189 +2207,189 @@
     - term: 社区·知识类
       links:
         - title: 幕布精选社区		
-          logo: https://api.iowen.cn/favicon/mubu.com/explore.png
+          logo: explore.ico
           url: https://mubu.com/explore
           description: 知识分享交流
         - title: 品品品
-          logo: https://api.iowen.cn/favicon/www.pinmuch.com.png
+          logo: www.pinmuch.com.ico
           url: http://www.pinmuch.com
           description: 电子书类论坛
         - title: 医学论坛网		
-          logo: https://api.iowen.cn/favicon/www.cmt.com.cn.png
+          logo: www.cmt.com.cn.ico
           url: http://www.cmt.com.cn
           description: 医学类论坛
         - title: 教育盘论坛		
-          logo: https://api.iowen.cn/favicon/jiaoyupan.com.png
+          logo: jiaoyupan.com.ico
           url: https://jiaoyupan.com
           description: 综合类教育考试交流论坛
         - title: 吾爱知道
-          logo: https://api.iowen.cn/favicon/www.qkoufu.com.png
+          logo: www.qkoufu.com.ico
           url: http://www.qkoufu.com
           description: 问答社区
         - title: 百步塔		
-          logo: https://api.iowen.cn/favicon/www.baibuta.com.png
+          logo: www.baibuta.com.ico
           url: https://www.baibuta.com
           description: 考试类资源社区
         - title: 答疑啦
-          logo: https://api.iowen.cn/favicon/www.dayila.net.png
+          logo: www.dayila.net.ico
           url: https://www.dayila.net
           description: 考试类资源社区
         - title: 考研帮论坛区		
-          logo: https://api.iowen.cn/favicon/bbs.kaoyan.com.png
+          logo: bbs.kaoyan.com.ico
           url: http://bbs.kaoyan.com
           description: 考研为主
         - title: 溜达TXT电子书论坛
-          logo: https://api.iowen.cn/favicon/www.ldtxt.net.png
+          logo: www.ldtxt.net.ico
           url: https://www.ldtxt.net
           description: TXT电子书论坛
         - title: 爱快考论坛
-          logo: https://api.iowen.cn/favicon/aikuaikao.com.png
+          logo: aikuaikao.com.ico
           url: http://aikuaikao.com
           description: 考试学习资料
         - title: 医学资料吧
-          logo: https://api.iowen.cn/favicon/www.yxzlb.com.png
+          logo: www.yxzlb.com.ico
           url: https://www.yxzlb.com
           description: 医学类论坛
         - title: 英语听力论坛
-          logo: https://api.iowen.cn/favicon/bbs.tingroom.com.png
+          logo: bbs.tingroom.com.ico
           url: http://bbs.tingroom.com
           description: 英语听力论坛
         - title: FREE考研论坛
-          logo: https://api.iowen.cn/favicon/bbs.freekaoyan.com.png
+          logo: bbs.freekaoyan.com.ico
           url: http://bbs.freekaoyan.com
           description: 考研论坛
         - title: 学法网论坛
-          logo: https://api.iowen.cn/favicon/bbs.xuefa.com.png
+          logo: bbs.xuefa.com.ico
           url: http://bbs.xuefa.com
           description: 有一些法律相关资料
         - title: 王道论坛
-          logo: https://api.iowen.cn/favicon/www.cskaoyan.com.png
+          logo: www.cskaoyan.com.ico
           url: http://www.cskaoyan.com
           description: 计算机、考研、大学
         - title: 法硕联盟论坛
-          logo: https://api.iowen.cn/favicon/www.fashuounion.com.png
+          logo: www.fashuounion.com.ico
           url: http://www.fashuounion.com
           description: 法律硕士联盟
         - title: 5imx
-          logo: https://api.iowen.cn/favicon/bbs.5imx.com.png
+          logo: bbs.5imx.com.ico
           url: http://bbs.5imx.com
           description: 遥控模型和无人机玩家
         - title: 醉里挑原创
-          logo: https://api.iowen.cn/favicon/www.9000xp.com.png
+          logo: www.9000xp.com.ico
           url: http://www.9000xp.com
           description: 文学类综合论坛
         - title: TXT电子书论坛
-          logo: https://api.iowen.cn/favicon/www.zm233.net.png
+          logo: www.zm233.net.ico
           url: https://www.zm233.net
           description: TXT电子书论坛
         - title: 钢笔论坛
-          logo: https://api.iowen.cn/favicon/www.penbbs.com.png
+          logo: www.penbbs.com.ico
           url: http://www.penbbs.com
           description: 书写DIY爱好者
     - term: 社区·其它类
       links:
         - title: 失业者联盟
-          logo: https://api.iowen.cn/favicon/losergogogo.com.png
+          logo: losergogogo.com.ico
           url: http://losergogogo.com
           description: 职场人和职场故事
         - title: 收音机论坛
-          logo: https://api.iowen.cn/favicon/bbs.tecsun.com.cn.png
+          logo: bbs.tecsun.com.cn.ico
           url: http://bbs.tecsun.com.cn
           description: FM交流
         - title: ISO爱好者
-          logo: https://api.iowen.cn/favicon/www.isofans.com.png
+          logo: www.isofans.com.ico
           url: http://www.isofans.com
           description: 审核员必备论坛
         - title: 豆瓣小组
-          logo: https://api.iowen.cn/favicon/www.douban.com/group/explore.png
+          logo: douban.ico
           url: https://www.douban.com/group/explore
           description: 豆瓣官方社区
         - title: 北极星电力论坛
-          logo: https://api.iowen.cn/favicon/www.bjxbbs.com.cn/forum.php.png
+          logo: 北极星.ico
           url: http://www.bjxbbs.com.cn/forum.php
           description: 电气电网技术
         - title: 3A汽车电子
-          logo: https://api.iowen.cn/favicon/www.auto3a.com.png
+          logo: www.auto3a.com.ico
           url: http://www.auto3a.com
           description: 汽车电子论坛
         - title: free学习论坛
-          logo: https://api.iowen.cn/favicon/bbs.hrfree.cn.png
+          logo: bbs.hrfree.cn.ico
           url: http://bbs.hrfree.cn
           description: HR专业学习论坛
         - title: 非人类论坛
-          logo: https://api.iowen.cn/favicon/loc.cc.png
+          logo: loc.cc.ico
           url: https://loc.cc
           description: 域名爱好者的论坛
         - title: 跨国采购网论坛
-          logo: https://api.iowen.cn/favicon/bbs.globalimporter.net.png
+          logo: bbs.globalimporter.net.ico
           url: http://bbs.globalimporter.net
           description: 外贸论坛
         - title: 屌丝论坛
-          logo: https://api.iowen.cn/favicon/assbbs.com.png
+          logo: assbbs.com.ico
           url: https://assbbs.com
-          description: 嗯....
+          description: 比较杂乱，域名服务器
         - title: 航空飞行社区
-          logo: https://api.iowen.cn/favicon/bbs.aeroflight.cn.png
+          logo: bbs.aeroflight.cn.ico
           url: https://bbs.aeroflight.cn
           description: 航空飞行类研究
         - title: 牛客网讨论区
-          logo: https://api.iowen.cn/favicon/www.nowcoder.com/discuss.png
+          logo: niuke.ico
           url: https://www.nowcoder.com/discuss
           description: 求职者交流
         - title: 西祠胡同
-          logo: https://api.iowen.cn/favicon/www.xici.net.png
+          logo: www.xici.net.ico
           url: https://www.xici.net
           description: 这个社区有一定年份了
         - title: 南+ South Plus
-          logo: https://api.iowen.cn/favicon/www.spring-plus.net.png
+          logo: www.spring-plus.net.ico
           url: https://www.spring-plus.net
           description: 老司机交流
         - title: 我爱卡
-          logo: https://api.iowen.cn/favicon/bbs.51credit.com.png
+          logo: bbs.51credit.com.ico
           url: https://bbs.51credit.com
           description: 信用卡类社区
         - title: 穷游论坛
-          logo: https://api.iowen.cn/favicon/bbs.qyer.com.png
+          logo: bbs.qyer.com.ico
           url: https://bbs.qyer.com
           description: 穷游者的论坛
         - title: AMZ123
-          logo: https://api.iowen.cn/favicon/www.amz123.com/forum-8.htm.png
+          logo: forum-8.htm.ico
           url: https://www.amz123.com/forum-8.htm
           description: 亚马逊跨境交流
         - title: 摩托吧
-          logo: https://api.iowen.cn/favicon/bbs.moto8.com.png
+          logo: bbs.moto8.com.ico
           url: http://bbs.moto8.com
           description: 摩托骑士交流
         - title: 老司机
-          logo: https://api.iowen.cn/favicon/www.laosiji.com.png
+          logo: www.laosiji.com.ico
           url: https://www.laosiji.com
           description: 汽车人的社区网站
         - title: discuz官方论坛
-          logo: https://api.iowen.cn/favicon/www.discuz.net.png
+          logo: www.discuz.net.ico
           url: https://www.discuz.net
           description: discuz官方论坛
         - title: 虾哥论坛
-          logo: https://api.iowen.cn/favicon/xiage.yy.com.png
+          logo: xiage.yy.com.ico
           url: https://xiage.yy.com
           description: YY语音旗下的
         - title: 艾特早教
-          logo: https://api.iowen.cn/favicon/www.at008.com.png
+          logo: www.at008.com.ico
           url: http://www.at008.com
           description: 儿童早教资源
         - title: 北大未名BBS
-          logo: https://api.iowen.cn/favicon/bbs.pku.edu.cn.png
+          logo: bbs.pku.edu.cn.ico
           url: https://bbs.pku.edu.cn
           description: 北京大学校园论坛
         - title: 有趣网站之家
-          logo: https://api.iowen.cn/favicon/youquhome.com.png
+          logo: youquhome.com.ico
           url: https://youquhome.com
           description: 一个背时鬼的有趣网站
         - title: 人民强国论坛
-          logo: https://api.iowen.cn/favicon/bbs1.people.com.cn.png
+          logo: bbs1.people.com.cn.ico
           url: http://bbs1.people.com.cn/board/1.html
           description: 强国论坛
         - title: 虎扑社区
-          logo: https://api.iowen.cn/favicon/bbs.hupu.com.png
+          logo: bbs.hupu.com.ico
           url: https://bbs.hupu.com
           description: NBA体坛
         - title: 统计之都论坛
