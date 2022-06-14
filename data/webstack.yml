@@ -47,10 +47,10 @@
       logo: 哔哩哔哩.jpg
       url: https://www.bilibili.com
       description: 哔哩哔哩
-    - title: V2EX
-      logo: v2ex.jpg
-      url: https://www.v2ex.com/
-      description: V2EX 创意工作者的社区
+    - title: Pinterest
+      logo: Pinterest.png
+      url: https://www.pinterest.com
+      description: 全球设计创意灵感
     - title: vercel
       logo: vercel.png
       url: https://vercel.com
@@ -1260,20 +1260,6 @@
 - taxonomy: 资源分享
   icon: fas fa-cloud fa-lg
   list:        
-    - term: 云盘搜索
-      links:
-        - title: 找资源
-          logo: zhaoziyuan.png
-          url: https://zhaoziyuan.la
-          description: 阿里云盘搜索引擎
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加 
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
     - term: 蓝奏云盘站
       links:
         - title: 黑客学习资料
@@ -1535,20 +1521,7 @@
           logo: arley.png
           url: https://pan.arley.cn
           description: Arley的私人盘
-    - term: 软件下载站
-      links:
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加 
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加 
-        - title: 待添加
-          logo: yongshuo.png
-          url: https://cc0.cn
-          description: 待添加
+    
         
 - taxonomy: 社区论坛
   icon: fas fa-users fa-lg
@@ -3231,6 +3204,10 @@
           logo: 一个工具箱.ico
           url: http://www.atoolbox.net
           description: 一个工具箱
+        - title: 一个木函工具箱
+          logo: 一个木函.ico
+          url: https://web.woobx.cn
+          description: 一个木函工具箱
         - title: 独特工具箱
           logo: dute.ico
           url: https://www.dute.org
@@ -3283,6 +3260,34 @@
           logo: 代码.ico
           url: https://carbon.now.sh
           description: 创建并共享源代码的精美图像
+        - title: 微信网页版
+          logo: weixin.jpg
+          url: https://wx.qq.com/
+          description: 在线文件传输还是很棒的
+        - title: 微步云沙箱
+          logo: 微步.ico
+          url: https://s.threatbook.cn
+          description: 扫描检测软件行为
+        - title: MikuTools
+          logo: MIKU.png
+          url: https://tools.miku.ac
+          description: MikuTools工具合集
+        - title: 九蛙工具箱
+          logo: 九蛙工具箱.ico
+          url: https://www.jiuwa.net
+          description: 九蛙工具箱
+        - title: 蛙蛙工具
+          logo: 蛙蛙.ico
+          url: https://www.iamwawa.cn/
+          description: 便捷的在线工具网站
+        - title: lmcjl在线工具
+          logo: lmcjl.png
+          url: https://www.lmcjl.com/
+          description: lmcjl在线工具
+        - title: 太美工具网
+          logo: 太美工具网.ico
+          url: https://tiomg.org
+          description: 太美工具网
         
         
 
@@ -3363,6 +3368,201 @@
           logo: 9x.png
           url: https://9xbuddy.in/zh
           description: 突破限制级下载
+
+    - term: 软件下载·MAC
+      links:
+        - title: MACWK
+          logo: macwk.jpg
+          url: https://macwk.com
+          description: 精品MAC软件下载
+        - title: 黑苹果屋
+          logo: 黑苹果屋.png
+          url: http://imacos.top
+          description: 黑苹果系统软件下载
+        - title: 马可菠萝
+          logo: MACBL.png
+          url: https://www.macbl.com/
+          description: 分享你喜欢的MAC应用
+        - title: MAC玩法
+          logo: waerfa-logo.png
+          url: https://www.waerfa.com
+          description: MAC玩法
+        - title: macpeers
+          logo: macpeers.png
+          url: http://www.macpeers.net
+          description: 中文MAC软件资源
+        - title: 赤狐MAC
+          logo: 赤狐MAC.png
+          url: https://www.foxmac.com
+          description: MAC软件下载
+        - title: MAC搜索
+          logo: MAC搜索.png
+          url: https://ourmacs.com
+          description: MAC搜索引擎
+        - title: MACW
+          logo: MACW.png
+          url: https://www.macw.com
+          description: MAC软件下载
+        - title: 尝鲜派
+          logo: 尝鲜派.png
+          url: https://www.betahub.cn
+          description: 苹果最新开发者测试
+        - title: 黑苹果动力
+          logo: 黑苹果动力.png
+          url: https://www.mfpud.com
+          description: 黑苹果系统软件工具
+        - title: MACSKY
+          logo: MACSKY.ico
+          url: https://www.macsky.net
+          description: MAC软件下载
+        - title: MAC毒
+          logo: MAC毒.png
+          url: https://www.macdo.cn
+          description: MAC软件下载
+        - title: 苹果软件盒子
+          logo: 苹果软件盒子.ico
+          url: https://www.macappbox.com
+          description: MAC软件下载
+        - title: MAC萌新网
+          logo: MAC萌新.png
+          url: https://www.macxin.com/
+          description: MAC软件下载
+        - title: 潘多拉盒子
+          logo: 潘多拉盒子.png
+          url: https://www.inpandora.com/
+          description: MAC软件下载
+        - title: APPKED
+          logo: APPKED.png
+          url: https://www.macbed.com/apps/
+          description: 外网MAC软件下载
+
+
+    - term: 软件下载·PC
+      links:
+        - title: 黑域基地
+          logo: 黑域基地.ico
+          url: https://www.hybase.com/
+          description: 各类系统软件下载
+        - title: 佛系软件
+          logo: 佛系软件.ico
+          url: https://foxirj.com/
+          description: 软件下载站
+        - title: 亿破姐
+          logo: 亿破姐.ico
+          url: https://www.ypojie.com/
+          description: 软件下载站
+        - title: 腾龙工作室
+          logo: 腾龙工作室.png
+          url: https://www.tenlonstudio.com/
+          description: 软件下载站
+        - title: 果核剥壳
+          logo: 果核剥壳.ico
+          url: https://www.ghxi.com/
+          description: 软件下载站
+        - title: 分享者
+          logo: 分享者.ico
+          url: https://www.sharerw.com
+          description: 软件下载站
+        - title: Repacks
+          logo: Repacks.png
+          url: https://lrepacks.net/
+          description: 俄罗斯软件下载站
+        - title: 深蓝软件
+          logo: 深蓝软件.ico
+          url: https://slsup.com/
+          description: 软件下载站
+        - title: 嗨软
+          logo: 嗨软.png
+          url: https://ihacksoft.com/
+          description: 绿色软件下载
+        - title: 正版中国
+          logo: 正版中国.ico
+          url: https://www.getitfree.cn
+          description: 正版软件下载
+        - title: 阿酷杂货铺
+          logo: 阿酷.png
+          url: https://www.coolexe.com/
+          description: 软件下载站
+        - title: 轻狂志
+          logo: 狂.ico
+          url: https://www.flighty.cn/
+          description: 精品软件下载站
+
+    - term: 软件下载·安卓
+      links:
+        - title: 蚂蚁兄弟
+          logo: 蚂蚁.ico
+          url: https://www.mayixiongdi.cn/
+          description: 精品安卓下载站
+        - title: 翻应用
+          logo: 翻应用.ico
+          url: https://www.iapps.me/
+          description: 精品安卓软件站
+        - title: APKPURE
+          logo: APKPURE.ico
+          url: https://apkpure.com/cn/
+          description: 精品谷歌安卓应用
+        - title: OurPlay
+          logo: OurPlay.ico
+          url: https://www.ourplay.net/
+          description: 安卓软件站
+        - title: 我天哪鸡哥
+          logo: 我天哪鸡哥.ico
+          url: https://www.wotianna.com/
+          description: 包含WIN软件
+        - title: APKTUYBO
+          logo: APKTUYBO.ico
+          url: https://www.apkturbo.com/
+          description: 国际版安卓应用商店
+        - title: 酷安
+          logo: 酷安.ico
+          url: https://www.coolapk.com
+          description: 安卓必备商店，国内大神社区
+        - title: MODDROID
+          logo: MODD.png
+          url: https://zh.moddroid.co/
+          description: 国外安卓游戏应用商店
+
+
+    - term: 软件下载·系统
+      links:
+        - title: MAC麦克吧
+          logo: Mac麦克吧.png
+          url: https://mac999.cn/
+          description: 苹果系统镜像+教程
+        - title: 专注WIN7
+          logo: 专注WIN7.ico
+          url: https://www.newxitong.com/
+          description: 专注WIN7
+        - title: 专注WIN10
+          logo: 专注WIN10.ico
+          url: http://iwin10.net/
+          description: 专注WIN10
+        - title: 绿色系统
+          logo: 绿色系统.ico
+          url: http://lvsexitong.com
+          description: 绿色系统
+        - title: 枫&主题社
+          logo: 枫&主题社.ico
+          url: https://winmoes.com/
+          description: win系统主题美化
+        - title: 云萌WIN10激活工具
+          logo: 云萌.png
+          url: https://cmwtat.cloudmoe.com/
+          description: 云萌WIN10激活工具
+        - title: 图拉丁吧工具箱
+          logo: 图拉.ico
+          url: http://www.tbtool.cn/
+          description: 纯净的硬件检测工具合集
+        - title: 卡硬工具箱
+          logo: 卡硬工具箱.ico
+          url: http://www.kbtool.cn/
+          description: 全面实用的硬件检测、管理、性能测试工具
+        - title: DLL FILES
+          logo: DLL.ico
+          url: http://www.icrcb.org.cn/
+          description: 各种DLL下载
+
 
 - taxonomy: 其它精选
   icon: fas fa-cube
