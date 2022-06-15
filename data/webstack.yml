@@ -651,6 +651,10 @@
           logo: 大米星球.png
           url: https://www.dmxq.fun/
           description: 影视剧集在线播放
+        - title: 爱笑聚
+          logo: 爱笑聚.png
+          url: https://www.axjbt.com/
+          description: 提供网盘、磁力下载及订阅服务
 
     - term: 动漫番剧
       links:
@@ -3606,9 +3610,13 @@
           logo: LOGO生产.png
           url: https://creecros.github.io/simple_logo_gen
           description: 非常简单的logo图标制作工具，开源：https://github.com/creecros/simple_logo_gen
-        - title: 页面亮暗主题示例
+        - title: 亮暗主题切换示例
           logo: 亮暗.png
           url: https://jjaimealeman.github.io/my-theme-switcher/
           description: 页面亮暗主题示例
+        - title: Altapps
+          logo: app.net.png
+          url: https://zh.altapps.net/
+          description: 帮助您找到软件和应用程序的更好替代品
 
 
