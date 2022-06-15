@@ -1,0 +1,10 @@
+{{ if and ( .Site.Params.utteranc.enable ) (and (not .Params.disable_comments) (or (eq .Kind "404") (and (not .IsHome) .Content))) }}
+<script src="https://utteranc.es/client.js"
+        repo="rcy1314/daohang"
+        issue-term="url"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</section>
+{{ end }}
