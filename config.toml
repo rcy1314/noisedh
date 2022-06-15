@@ -36,8 +36,3 @@ publishDir = "docs"
 [params.footer]
     copyright = '<p>本站收录值得珍藏的网站，欢迎访问使用</p>©<a href="https://noisedh.cn" target="_blank"><strong>noise导航</strong></a> '
 
-[params.utteranc]
-enable = true
-repo = "rcy1314/daohang"    # 存储评论的Repo，格式为 owner/repo
-issueTerm = "title"           # 表示你选择以那种方式让github issue的评论和你的文章关联可以选择默认的pathname。
-theme = "github-light"        # 样式主题
