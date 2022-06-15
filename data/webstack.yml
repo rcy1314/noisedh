@@ -3282,6 +3282,7 @@
           description: 太美工具网
         
         
+        
 
 - taxonomy: 极客下载
   icon: fas fa-circle
@@ -3479,6 +3480,10 @@
           logo: 狂.ico
           url: https://www.flighty.cn/
           description: 精品软件下载站
+        - title: 脑袋瓜子
+          logo: 脑袋瓜子.png
+          url: https://www.naodai.org/
+          description: 精品软件下载站
 
     - term: 下载·安卓
       links:
@@ -3585,4 +3590,25 @@
           logo: nsf.ico
           url: http://nsf.nesbbs.com
           description: 8Bit音乐站
+        - title: Emoji Favicon
+          logo: smiley.png
+          url: https://favicon.magnobiet.com
+          description: 使用Emoji图标代替网站默认icon
+        - title: 图标生成器
+          logo: 图标生成.ico
+          url: https://faviconator.gaetan.me
+          description: 图标生成工具
+        - title: Favicons生成器
+          logo: myfavicon.ico
+          url: https://my.faviconkit.com
+          description: 可靠的API从任何网站获取并嵌入Favicons
+        - title: LOGO生成器
+          logo: LOGO生产.png
+          url: https://creecros.github.io/simple_logo_gen
+          description: 非常简单的logo图标制作工具，开源：https://github.com/creecros/simple_logo_gen
+        - title: 页面亮暗主题示例
+          logo: 亮暗.png
+          url: https://jjaimealeman.github.io/my-theme-switcher/
+          description: 页面亮暗主题示例
+
 
