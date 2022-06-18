@@ -3285,11 +3285,7 @@
           url: https://tiomg.org
           description: 太美工具网
         
-        
-- taxonomy: 效率至上
-  icon: fas fa-superpowers
-  list:
-    - term: Efficiency
+    - term: 效率生产力
       links:
         - title: Notion
           logo: notion.png
