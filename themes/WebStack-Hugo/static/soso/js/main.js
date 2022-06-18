@@ -124,7 +124,7 @@ $(function () {
 //点击搜索按钮
 $(".sou-button").click(function () {
     iziToast.show({
-        message: '问题未修复，请点击键盘上的确认键以搜索',
+        message: '请点击键盘上的确认键以搜索',
     });
     // $('#search-submit').click();
 });

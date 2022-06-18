@@ -3286,7 +3286,73 @@
           description: 太美工具网
         
         
+- taxonomy: 效率至上
+  icon: fas fa-superpowers
+  list:
+    - term: Efficiency
+      links:
+        - title: Notion
+          logo: notion.png
+          url: https://www.notion.so
+          description: all in one notion 笔记工具中的强者
+        - title: 语雀
+          logo: 语雀.jpg
+          url: https://www.yuque.com
+          description: 专业云端知识库
+        - title: wolai
+          logo: wolai.png
+          url: https://www.wolai.com
+          description: 文档生产力工具
+        - title: obsidian
+          logo: obsidian.png
+          url: https://obsidian.md
+          description: 知识生产力工具
+        - title: 飞书
+          logo: 飞书.png
+          url: https://www.feishu.cn
+          description: 企业协作管理平台
+        - title: SLACK
+          logo: SLACK.png
+          url: https://slack.com/intl/zh-hk
+          description: 探索未来的工作形态
+        - title: 维格表
+          logo: 维格表.jpg
+          url: https://spcqwserdvymm.com.vika.cn/
+          description: 智能化表格文档新体验
+        - title: Baklib
+          logo: Baklib.png
+          url: https://www.baklib.com/
+          description: 知识库，帮助文档
+        - title: 智办事
+          logo: 智办事.png
+          url: https://www.iai.work
+          description: 基于“目标+事”为中心的新一代企业管理协作软件
+        - title: 企业微信
+          logo: 企业微信.png
+          url: https://work.weixin.qq.com/
+          description: 企业办公协作助手
+        - title: UTools
+          logo: UTools.ico
+          url: https://www.u-tools.cn/
+          description: 新一代效率工具平台
+        - title: Qucker
+          logo: Qucker.ico
+          url: https://getquicker.net
+          description: WIN平台效率工具
+        - title: Eagle
+          logo: Eagle.ico
+          url: https://eagle.cool
+          description: 设计师收藏必备工具,素材管理工具
+        - title: 云策文档
+          logo: yunce.ico
+          url: https://think.codingit.cn
+          description: 开源知识管理工具
+        - title: TiddlyWiki
+          logo: iTiddlyWiki.png
+          url: https://bramchen.github.io/tw5-docs/zh-Hans/
+          description: 高度diy定制化及可部署的笔记工具
         
+
 
 - taxonomy: 极客下载
   icon: fas fa-circle
