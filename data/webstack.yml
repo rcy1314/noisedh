@@ -3347,6 +3347,14 @@
           logo: iTiddlyWiki.png
           url: https://bramchen.github.io/tw5-docs/zh-Hans/
           description: 高度diy定制化及可部署的笔记工具
+        - title: Flow Us
+          logo: flowus.png
+          url: https://flowus.cn/
+          description: 探索效率的笔记平台，Notion追随者之一
+        - title: 思源笔记
+          logo: 思源笔记.png
+          url: https://b3log.org/siyuan/
+          description: 下一代的知识管理工具平台
         
 
 
