@@ -3355,6 +3355,10 @@
           logo: 思源笔记.png
           url: https://b3log.org/siyuan/
           description: 下一代的知识管理工具平台
+        - title: logseq
+          logo: logseq.png
+          url: https://logseq.com/
+          description: 新一代的知识管理笔记工具
         
 
 
