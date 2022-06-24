@@ -3562,6 +3562,11 @@
           logo: 脑袋瓜子.png
           url: https://www.naodai.org/
           description: 精品软件下载站
+        - title: 吾爱软件下载
+          logo: 吾爱软件.png
+          url: https://www.iai.work/
+          description: 热爱分享软件,crack补丁等相关软件下载,致力于为用户打造一个纯净的下载专区,站内提供编程,图形,图像,录屏,音频,办公（office）,系统等相关网络软件下载
+
 
     - term: 下载·安卓
       links:
