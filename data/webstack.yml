@@ -3681,6 +3681,18 @@
           logo: 235.png
           url: https://www.wc235.com/
           description: 免费收录各类优秀中外网站，提供网站目录检索，关键字搜索
+        - title: 苦心ios导航
+          logo: 苦心.ico
+          url: http://93665.xin/
+          description: ios导航
+        - title: 书享家
+          logo: 书享.png
+          url: http://shuxiangjia.cn/
+          description: 书籍类导航
+        - title: AnywhereAnything
+          logo: AA.png
+          url: http://lackar.com/aa/
+          description: 综合设计类导航
 
     - term: 精选收录
       links:
