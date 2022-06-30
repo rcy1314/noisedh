@@ -655,6 +655,10 @@
           logo: 爱笑聚.png
           url: https://www.axjbt.com/
           description: 提供网盘、磁力下载及订阅服务
+        - title: 影渣渣
+          logo: 影渣渣.png
+          url: https://www.yingzhazha.com
+          description: 提供最新最快最全的免费在线影视资讯和在线影视剧播放
 
     - term: 动漫番剧
       links:
@@ -3651,6 +3655,33 @@
 - taxonomy: 其它精选
   icon: fas fa-cube
   list:
+    - term: 其它导航站
+      links:
+        - title: 创造狮导航
+          logo: 创造狮.ico
+          url: https://chuangzaoshi.com
+          description: 创意工作者导航
+        - title: 轻工具导航
+          logo: 轻工具.ico
+          url: https://qinggongju.com/
+          description: 专注分享优质免费内容
+        - title: 兰客导航
+          logo: 兰客.jpg
+          url: https://b.lackk.com/
+          description: 设计综合类导航
+        - title: 博客大全
+          logo: 博客blog.ico
+          url: https://blogwe.com/allblogs.html
+          description: 收录个人博客的地方
+        - title: 那些免费的砖
+          logo: 砖.png
+          url: https://www.thosefree.com/
+          description: 发现设计图库类导航
+        - title: 王朝235
+          logo: 235.png
+          url: https://www.wc235.com/
+          description: 免费收录各类优秀中外网站，提供网站目录检索，关键字搜索
+
     - term: 精选收录
       links:
         - title: Suki 素记
