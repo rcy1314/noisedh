@@ -3292,6 +3292,10 @@
           logo: sojson.png
           url: https://www.sojson.com/
           description: json在线工具
+        - title: QuickCDN
+          logo: cdnquickso.png
+          url: https://cdn.quickso.cn/
+          description: 稳定、快速、免费的前端开源项目 CDN 加速服务
         
     - term: 效率生产力
       links:
