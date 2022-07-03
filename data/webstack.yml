@@ -659,6 +659,10 @@
           logo: 影渣渣.png
           url: https://www.yingzhazha.com
           description: 提供最新最快最全的免费在线影视资讯和在线影视剧播放
+        - title: 麻花视频
+          logo: mahua.png
+          url: https://www.mhyyy.com
+          description: 为您提供全能影视，麻花视频，平民影院，热门电影，热门电视剧，综艺，动漫等免费观看
 
     - term: 动漫番剧
       links:
