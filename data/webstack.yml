@@ -3,9 +3,9 @@
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
-    - title: Clash网页面板
-      logo: clash.jpg
-      url: https://clash.mereith.com
+    - title: Efficiency-Notion主页
+      logo: binoculars.jpg
+      url: https://efficiencyfollow.notion.site
       description: Clash网页面板
     - title: NV资源网
       logo: 漫1.jpg
@@ -3618,6 +3618,11 @@
           logo: MODD.png
           url: https://zh.moddroid.co/
           description: 国外安卓游戏应用商店
+        - title: apkcombo
+          logo: APKK.png
+          url: https://apkcombo.com/zh/
+          description: 第三方安卓应用商店
+
 
 
     - term: 下载·系统
@@ -3658,6 +3663,22 @@
           logo: DLL.ico
           url: http://www.icrcb.org.cn/
           description: 各种DLL下载
+        - title: 纯净PE维护系统
+          logo: winpe.ico
+          url: https://firpe.cn/page-247
+          description: FirPE 维护系统
+        - title: 顽石WIN10系统精简
+          logo: winpe.ico
+          url: http://wsks.net
+          description: 顽石WIN10系统精简
+        - title: 绿茶吧
+          logo: 绿茶.ico
+          url: http://www.gtxp2.com/
+          description: 绿茶吧
+        - title: Angel天使PE
+          logo: 天使PE.png
+          url: https://www.angel-pe.cn/
+          description: 系统PE下载站
 
 
 - taxonomy: 其它精选
