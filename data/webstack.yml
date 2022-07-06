@@ -1821,6 +1821,10 @@
           logo: 无忧.png
           url: http://wuyou.net/forum.php
           description: PE系统下载，装机封装类综合
+        - title: 猪猪猫论坛
+          logo: 猪猪猫.ico
+          url: http://www.jujumaow.com/
+          description: 系统软件下载论坛
         - title: 七幻论坛
           logo: www.qihuank.net.ico
           url: https://www.qihuank.net
@@ -2215,6 +2219,10 @@
           logo: 电玩DIY.png
           url: http://vgdiy.com/bbs/forum.php
           description: 电玩DIY论坛
+        - title: Marioforever
+          logo: Marioforever.ico
+          url: https://www.marioforever.net/
+          description: 马里奥爱好者社区
        
     - term: 社区·知识类
       links:
@@ -3711,6 +3719,10 @@
           logo: LDTOOLS.ico
           url: https://ldtstore.com.cn/ldtools/
           description: 图吧硬件工具合集
+        - title: 爱纯净
+          logo: 纯.ico
+          url: http://www.aichunjing.com/
+          description: 纯净系统下载
 
 - taxonomy: 其它精选
   icon: fas fa-cube
