@@ -301,6 +301,53 @@
           url: https://c4sucaiku.com
           description: C4D素材库
 
+    - term: 字幕配音制作
+      links:
+        - title: 智影
+          logo: 智影.ico
+          url: https://zenvideo.qq.com/
+          description: 在线智能视频创作平台-免费
+        - title: 突字幕
+          logo: 突.ico
+          url: https://2zimu.com
+          description: 上传视频得到字幕
+        - title: 字幕酱
+          logo: 字幕酱.ico
+          url: https://www.zimujiang.com/
+          description: 在线字幕生成工具
+        - title: 云猫转码
+          logo: 云猫转码.ico
+          url: https://yunmaovideo.com/
+          description: 智能字幕，语音合成工具箱
+        - title: 文字转语音&偷懒工具
+          logo: 偷懒工具.png
+          url: https://toolight.cn/media/reading
+          description: 免费文字转语音&偷懒工具
+        - title: 讯飞配音
+          logo: 讯飞配音.ico
+          url: http://peiyin.xunfei.cn
+          description: 讯飞一站式配音平台
+        - title: 牛片网配音服务
+          logo: 牛.ico
+          url: https://www.6pian.cn/peiyin.html
+          description: 牛片网配音服务平台
+        - title: 闪电配音
+          logo: 闪电配音.ico
+          url: https://www.soundems.com/
+          description: 闪电配音服务平台
+        - title: 好声库
+          logo: 好声库.ico
+          url: http://www.haoshengku.com/
+          description: 好声库付费配音平台
+        - title: 配音圈
+          logo: 配音圈.ico
+          url: https://www.peiyinquan.com/
+          description: 配音圈付费需求平台
+        - title: 极简字幕翻译
+          logo: 极简.png
+          url: http://yinzhuanwen.com/
+          description: 极简字幕翻译付费需求平台
+
     - term: 无版权图库
       links:
         - title: piqsels
@@ -3606,6 +3653,10 @@
           logo: 应用侠.ico
           url: https://www.appgao.com/
           description: 精品软件下载站
+        - title: 批量安装 Windows 应用
+          logo: wininstall.ico
+          url: https://winstall.app/
+          description: 批量安装 Windows 应用
 
 
     - term: 下载·安卓
