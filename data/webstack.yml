@@ -6,7 +6,7 @@
     - title: Efficiency-Notion主页
       logo: binoculars.jpg
       url: https://efficiencyfollow.notion.site
-      description: Clash网页面板
+      description: Efficiency-Notion主页
     - title: NV资源网
       logo: 漫1.jpg
       url: https://noisevip.cn
@@ -3679,7 +3679,10 @@
           logo: 天使PE.png
           url: https://www.angel-pe.cn/
           description: 系统PE下载站
-
+        - title: ipsw
+          logo: ipsw.png
+          url: https://ipsw.me/
+          description: 苹果设备固件下载
 
 - taxonomy: 其它精选
   icon: fas fa-cube
