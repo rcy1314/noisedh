@@ -3300,6 +3300,18 @@
           logo: cdnquickso.png
           url: https://cdn.quickso.cn/
           description: 稳定、快速、免费的前端开源项目 CDN 加速服务
+        - title: 即时工具
+          logo: 即时工具.ico
+          url: https://www.67tool.com/
+          description: 致力打造即用即走的在线工具
+        - title: 桌面显卡性能天梯
+          logo: 桌面显卡.ico
+          url: https://www.mydrivers.com/zhuanti/tianti/gpu/
+          description: 桌面显卡性能天梯
+        - title: 桌面CPU性能天梯
+          logo: 桌面显卡.ico
+          url: https://www.mydrivers.com/zhuanti/tianti/cpu/
+          description: 桌面CPU性能天梯
         
     - term: 效率生产力
       links:
@@ -3582,6 +3594,10 @@
           logo: 吾爱软件.png
           url: http://www.52pjb.net/
           description: 热爱分享软件,crack补丁等相关软件下载,致力于为用户打造一个纯净的下载专区,站内提供编程,图形,图像,录屏,音频,办公（office）,系统等相关网络软件下载
+        - title: 应用侠
+          logo: 应用侠.ico
+          url: https://www.appgao.com/
+          description: 精品软件下载站
 
 
     - term: 下载·安卓
@@ -3683,6 +3699,18 @@
           logo: ipsw.png
           url: https://ipsw.me/
           description: 苹果设备固件下载
+        - title: 小鱼yr系统
+          logo: 小鱼.ico
+          url: https://www.yrxitong.com/
+          description: 系统重装下载
+        - title: 微PE工具箱
+          logo: 微PE.ico
+          url: https://www.wepe.com.cn/download.html
+          description: 微PE工具箱
+        - title: LDTOOLS
+          logo: LDTOOLS.ico
+          url: https://ldtstore.com.cn/ldtools/
+          description: 图吧硬件工具合集
 
 - taxonomy: 其它精选
   icon: fas fa-cube
