@@ -685,6 +685,10 @@
           logo: 微博.png
           url: https://weibo.com/
           description: 微博
+        - title: Pinterest
+          logo: Pinterest.png
+          url: https://www.pinterest.com
+          description: 全球设计创意灵感
      
 - taxonomy: 影视片场
   icon: far fas fa-tape
