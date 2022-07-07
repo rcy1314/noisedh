@@ -579,7 +579,7 @@
           url: https://igoutu.cn/music
           description: 无版权音乐站
         - title: music player
-          logo: music11.png
+          logo: musicplay.ico
           url: https://www.mmgal.com/music/
           description: 在线音乐
         - title: 在线音乐聚合
@@ -848,7 +848,7 @@
           description: 动漫追番站
         - title: M站【嘛哩嘛哩】
           logo: M站.jpg
-          url: https://www.malimali5.com
+          url: https://www.malimali6.com
           description: M站【嘛哩嘛哩】
         - title: ACFUN
           logo: www.acfun.cn.ico
