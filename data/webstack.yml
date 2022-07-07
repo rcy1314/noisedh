@@ -572,6 +572,119 @@
           url: https://www.topys.cn
           description: TOPYS灵感视频
 
+    - term: 音乐世界
+      links:
+        - title: igoutu
+          logo: igoutu.png
+          url: https://igoutu.cn/music
+          description: 无版权音乐站
+        - title: music player
+          logo: music11.png
+          url: https://www.mmgal.com/music/
+          description: 在线音乐
+        - title: 在线音乐聚合
+          logo: musicplay.ico
+          url: http://www.gequdaquan.net/gqss/
+          description: 在线音乐聚合
+        - title: lxmusic
+          logo: lxmusic.ico
+          url: https://lxmusic.toside.cn/
+          description: 一个免费&开源的音乐查找工具
+        - title: 歌词滚动姬
+          logo: 歌词滚动姬.png
+          url: https://lrc-maker.github.io/
+          description: 在线制作滚动歌词
+        - title: 团子AI
+          logo: 团子AI.ico
+          url: https://dango.ai/
+          description: 智能提取音频去人声
+        - title: 我的云音乐
+          logo: musicplay.ico
+          url: http://music.ytxmgy.com/
+          description: 在线音乐
+        - title: 在线音乐解密
+          logo: 解密.ico
+          url: https://tool.liumingye.cn/unlock-music/
+          description: 在线音乐解密
+        - title: 下歌吧
+          logo: 下歌.ico
+          url: http://music.y444.cn/
+          description: 下歌吧
+        - title: 全网音乐
+          logo: 全网音乐.ico
+          url: https://music.sonimei.cn/
+          description: 全网音乐下载
+        - title: 无忧音乐
+          logo: 无忧音乐.png
+          url: http://web.app.ouyangpeng.top/poncon-copyrighted-music/#/home/
+          description: 无版权音乐下载
+        - title: 淘声网
+          logo: 淘声网.ico
+          url: https://www.tosound.com/
+          description: 免费音效素材
+        - title: bensound
+          logo: bensound.png
+          url: https://www.bensound.com/
+          description: 无版权音乐站
+        - title: 100audio
+          logo: 100audio.ico
+          url: https://100audio.com/
+          description: 版权音乐站
+        - title: 小梦的LAUNCHPAD社区
+          logo: launchpadxm.ico
+          url: https://launchpadxm.com/
+          description: LAUNCHPAD学习社区
+        - title: abletive电子音乐社区
+          logo: abletive.ico
+          url: http://www.abletive.com/
+          description: abletive电子音乐社区
+
+    - term: 媒体平台
+      links:
+        - title: Youtube
+          logo: youtube.jpg
+          url: https://www.youtube.com/
+          description: Youtube
+        - title: twitter
+          logo: twitter.com.ico
+          url: https://twitter.com/
+          description: twitter
+        - title: 哔哩哔哩
+          logo: 哔哩哔哩.jpg
+          url: https://www.bilibili.com
+          description: 哔哩哔哩
+        - title: 抖音
+          logo: douyin.ico
+          url: https://www.douyin.com/
+          description: 抖音
+        - title: tiktok
+          logo: tiktok.png
+          url: https://www.tiktok.com/
+          description: tiktok
+        - title: 西瓜视频
+          logo: 西瓜视频.ico
+          url: https://www.ixigua.com/
+          description: 西瓜视频
+        - title: instagram
+          logo: instagram.jpg
+          url: https://www.instagram.com/
+          description: instagram
+        - title: Discord
+          logo: Discord.png
+          url: https://discord.com
+          description: Discord
+        - title: 微信公众平台
+          logo: 微信公众.ico
+          url: https://mp.weixin.qq.com/
+          description: 微信公众平台
+        - title: 竹白
+          logo: 竹白.png
+          url: https://zhubai.love/
+          description: 竹白
+        - title: 微博
+          logo: 微博.png
+          url: https://weibo.com/
+          description: 微博
      
 - taxonomy: 影视片场
   icon: far fas fa-tape
@@ -3367,6 +3480,10 @@
           logo: 桌面显卡.ico
           url: https://www.mydrivers.com/zhuanti/tianti/cpu/
           description: 桌面CPU性能天梯
+        - title: 小说排版助手
+          logo: 小说排版.ico
+          url: https://vvsolo.github.io/
+          description: 小说排版助手
         
     - term: 效率生产力
       links:
@@ -3522,6 +3639,10 @@
           logo: 9x.png
           url: https://9xbuddy.in/zh
           description: 突破限制级下载
+        - title: x2twitter
+          logo: x2twitter.ico
+          url: https://x2twitter.com/zh-cn
+          description: Twitter视频下载
 
     - term: 下载·MAC
       links:
@@ -3816,6 +3937,105 @@
           logo: AA.png
           url: http://lackar.com/aa/
           description: 综合设计类导航
+
+    - term: TG·BOT
+      links:
+        - title: Download_it_bot
+          logo: Nerd_Robot.png
+          url: https://t.me/download_it_bot
+          description: 下载视频、文件bot
+        - title: GmailBot
+          logo: Nerd_Robot.png
+          url: https://t.me/GmailBot
+          description: 谷歌邮箱bot
+        - title: userinfobot
+          logo: Nerd_Robot.png
+          url: https://t.me/userinfobot
+          description: 获取ID专用
+        - title: Tlk Tok Downloader
+          logo: Nerd_Robot.png
+          url: https://t.me/downloader_tiktok_bot
+          description: Tlk Tok 下载
+        - title: usefulbot
+          logo: Nerd_Robot.png
+          url: https://t.me/aUsefulBot
+          description: 社群管理bot
+        - title: 無名
+          logo: Nerd_Robot.png
+          url: https://t.me/iwuming_bot
+          description: 社群管理bot
+        - title: 抖音Tiktok去水印
+          logo: Nerd_Robot.png
+          url: https://t.me/DouYintg_bot
+          description: 抖音Tiktok去水印
+        - title: pinterest_downloaderbot
+          logo: Nerd_Robot.png
+          url: https://t.me/pinterest_downloaderbot
+          description: pinterest_downloaderbot
+        - title: 贴纸下载bot
+          logo: Nerd_Robot.png
+          url: https://t.me/GIFDownloader_bot
+          description:  贴纸下载bot
+        - title: V2raySE机器人
+          logo: Nerd_Robot.png
+          url: https://t.me/v2rayse_bot
+          description: V2raySE机器人
+        - title: Inbox Notion Bot
+          logo: Nerd_Robot.png
+          url: https://t.me/inbox_notion_robot
+          description: Notion发送Bot
+        - title: RSStT_Bot
+          logo: Nerd_Robot.png
+          url: https://t.me/RSStT_Bot
+          description: RSS订阅bot
+        - title: TelegrmToNotionBot
+          logo: Nerd_Robot.png
+          url: https://t.me/TelegrmToNotionBot
+          description: TelegrmToNotionBot
+        - title: Music163bot
+          logo: Nerd_Robot.png
+          url: https://t.me/Music163bot
+          description: 一个用来下载/分享网易云歌曲的bot
+        - title: 好音乐搜索
+          logo: Nerd_Robot.png
+          url: https://t.me/haoyybot
+          description: 歌曲音乐搜索机器人
+        - title: Bilibili Feed Bot
+          logo: Nerd_Robot.png
+          url: https://t.me/bilifeedbot
+          description: B站链接内容提取器，同时支持 Inline 和文本匹配
+        - title: Zwei
+          logo: Nerd_Robot.png
+          url: https://t.me/Jqs7ZweiBot
+          description: 进群验证码机器人
+        - title: TG酱-通知机器人
+          logo: Nerd_Robot.png
+          url: https://t.me/tg_jiang_bot
+          description: 一个telegram提醒机器人,server酱的telegram简版
+        - title: sssoou_bot
+          logo: Nerd_Robot.png
+          url: https://t.me/sssoou_bot
+          description: 中文搜索bot
+        - title: 这个我知道
+          logo: Nerd_Robot.png
+          url: https://t.me/keyword_reply_bot
+          description: 根据关键词和正则规则进行回复和群管操作，需要管理员权限
+        - title: 和风天气小棉袄
+          logo: Nerd_Robot.png
+          url: https://t.me/he_weather_bot
+          description: 获取天气
+        - title: 翻译
+          logo: Nerd_Robot.png
+          url: https://t.me/fanyi_bot
+          description: 为全世界语言提供中英翻译。支持私聊、群组、行内请求。
+        - title: Video Download Bot
+          logo: Nerd_Robot.png
+          url: https://t.me/benny_ytdlbot
+          description: youtube视频下载
+        - title: BotFather
+          logo: Nerd_Robot.png
+          url: https://t.me/BotFather
+          description: 官方bot，支持自己创建bot
 
     - term: 精选收录
       links:
