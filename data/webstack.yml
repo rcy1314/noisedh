@@ -347,6 +347,10 @@
           logo: 极简.png
           url: http://yinzhuanwen.com/
           description: 极简字幕翻译付费需求平台
+        - title: 在线AI转换
+          logo: AI转换.ico
+          url: https://www.zaixianai.cn
+          description: 语音合成，语音转文字
 
     - term: 无版权图库
       links:
@@ -638,6 +642,10 @@
           logo: abletive.ico
           url: http://www.abletive.com/
           description: abletive电子音乐社区
+        - title: Noise Music
+          logo: noisemusic.png
+          url: http://www.noisemusic.cn/
+          description: Noise音乐站
 
     - term: 媒体平台
       links:
