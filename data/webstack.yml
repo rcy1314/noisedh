@@ -922,6 +922,10 @@
           logo: yishijeman.png
           url: https://www.gqdm.net
           description: 異世界动漫
+        - title: 哔咪动漫
+          logo: bimiacg4.ico
+          url: https://www.bimiacg4.net
+          description: 哔咪动漫
    
 - taxonomy: 永硕E盘
   icon: fas fa-tree
@@ -1904,6 +1908,11 @@
           logo: wvbtech.png
           url: https://community.wvbtech.com/
           description: 编程类技术社区
+        - title: 程序员论坛
+          logo: mac.ico
+          url: https://learnku.com
+          description: 编程论坛
+
     - term: 社区·综合技术类
       links:
         - title: 我爱分享论坛
@@ -2021,10 +2030,6 @@
           logo: www.mcuzx.net.ico
           url: http://www.mcuzx.net
           description: 单片机学习交流
-        - title: MAC用户论坛
-          logo: mac.ico
-          url: https://learnku.com/mac
-          description: MAC用户论坛
         - title: abbs论坛
           logo: ABBS.png
           url: http://www.abbs.com.cn/bbs
@@ -3516,6 +3521,10 @@
           logo: 小说排版.ico
           url: https://vvsolo.github.io/
           description: 小说排版助手
+        - title: github文件下载
+          logo: 下载g.png
+          url: https://d.serctl.com
+          description: github文件下载
         
     - term: 效率生产力
       links:
