@@ -646,6 +646,10 @@
           logo: noisemusic.png
           url: http://www.noisemusic.cn/
           description: Noise音乐站
+        - title: 热门TikTok歌曲
+          logo: rementiktok.png
+          url: https://tokboard.com
+          description: 一周热门TikTok歌曲
 
     - term: 媒体平台
       links:
@@ -835,6 +839,10 @@
           logo: mahua.png
           url: https://www.mhyyy.com
           description: 为您提供全能影视，麻花视频，平民影院，热门电影，热门电视剧，综艺，动漫等免费观看
+        - title: 追新番
+          logo: fanxin.png
+          url: http://www.fanxinzhui.com
+          description: 为您提供可下载影视，百度网盘影视资源站
 
     - term: 动漫番剧
       links:
@@ -3357,6 +3365,14 @@
           logo: supabase.png
           url: https://supabase.com
           description: 使用Postgres数据库，身份验证，即时API，实时订阅和存储开始您的项目
+        - title: Replit
+          logo: replit.png
+          url: https://replit.com
+          description: replit
+        - title: Render
+          logo: render.ico
+          url: https://dashboard.render.com
+          description: Render
         
     - term: 工具箱
       links:
