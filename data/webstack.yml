@@ -918,6 +918,10 @@
           logo: MX.ico
           url: http://www.mxdm.cc
           description: 动漫番剧在线看
+        - title: 異世界动漫
+          logo: yishijeman.png
+          url: https://www.gqdm.net
+          description: 異世界动漫
    
 - taxonomy: 永硕E盘
   icon: fas fa-tree
