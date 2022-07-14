@@ -3382,6 +3382,10 @@
           logo: render.ico
           url: https://dashboard.render.com
           description: Render
+        - title: stackblitz
+          logo: stackblitz.png
+          url: https://stackblitz.com
+          description: stackblitz
         
     - term: 工具箱
       links:
@@ -3819,6 +3823,10 @@
           logo: wininstall.ico
           url: https://winstall.app/
           description: 批量安装 Windows 应用
+        - title: 软仓
+          logo: ruancang.svg
+          url: https://www.ruancang.net
+          description: RuanCang.Net丨软件仓库
 
 
     - term: 下载·安卓
