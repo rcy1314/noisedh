@@ -3076,6 +3076,10 @@
           logo: indienova.ico
           url: https://indienova.com
           description: indienova独立游戏
+        - title: itch
+          logo: itch.ico
+          url: https://itch.io
+          description: 独立游戏爱好者必备网站，独立游戏制作、上传、售卖、社区交流
         
     - term: 独立博客
       links:
