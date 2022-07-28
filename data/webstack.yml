@@ -3540,7 +3540,7 @@
         - title: 在线工具箱
           logo: 在线工具1.ico
           url: https://www.toolfk.com
-          description: Toolfk程序在线工具箱提供古诗智能创作,语音生成,伪原创,文字转语音,文字转视频,JavaScript/PHP/Python混淆加密,HTML/CSS/JSON格式化等在线工具,做一个有用的在线工具站
+          description: Toolfk程序在线工具箱提供古诗智能创作,语音生成,伪原创,文字转语音,文字转视频,JSON格式化等在线工具,做一个有用的在线工具站
         
     - term: 效率生产力
       links:
