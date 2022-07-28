@@ -3538,7 +3538,7 @@
           url: https://d.serctl.com
           description: github文件下载
         - title: 在线工具箱
-          logo: zaixiangj.ico
+          logo: zaixiangj.png
           url: https://www.toolfk.com
           description: Toolfk程序在线工具箱提供古诗智能创作,语音生成,伪原创,文字转语音,文字转视频,JSON格式化等在线工具,做一个有用的在线工具站
         
@@ -4149,7 +4149,7 @@
           url: https://zh.altapps.net/
           description: 帮助您找到软件和应用程序的更好替代品
         - title: 无涯教程网
-          logo: learnfk.ico
+          logo: 21342.png
           url: https://www.learnfk.com
           description: 无涯教程网提供程序员在线零基础学IT编程技术教程。包括Javascript、MySQL、PHP、Python、Java、HTML5、Go语言等入门基础教程
 
