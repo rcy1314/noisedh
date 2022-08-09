@@ -3545,6 +3545,10 @@
           logo: https://img.logosc.cn/_next/static/media/gaitu.0bb400f5.svg
           url: https://img.logosc.cn
           description: 一款完全免费简单好用的在线万能图片编辑器，无需注册即开即用，支持多种格式图片
+        - title: 热浪数据
+          logo: relangdata.ico
+          url: https://www.relangdata.cn/?source=fcbdcf83
+          description: 短视频直播电商一站式数据服务平台，提供抖音、小红书、视频号等社会化媒体平台数据分析服务。
         
     - term: 效率生产力
       links:
@@ -3843,6 +3847,10 @@
           logo: ruancang.svg
           url: https://www.ruancang.net
           description: RuanCang.Net丨软件仓库
+        - title: 乐于分享
+          logo: oovvv.png
+          url: https://www.oovvv.com
+          description: 乐于分享网，好资源不私藏！免费资源分享平台！
 
 
     - term: 下载·安卓
@@ -4101,6 +4109,10 @@
           logo: Nerd_Robot.png
           url: https://t.me/BotFather
           description: 官方bot，支持自己创建bot
+        - title: TG喵
+          logo: Nerd_Robot.png
+          url: https://meow.tg
+          description: 最懂你的Telegram中文搜索引擎，目前已经收录资源80W+
 
     - term: 精选收录
       links:
