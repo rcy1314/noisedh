@@ -12,9 +12,10 @@
     <!-- 引入样式 -->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/font.css">
-  
+    <link rel="stylesheet" type="text/css" href="./css/loading.css">
     <link rel="stylesheet" type="text/css" href="./css/mobile.css">
- 
+    <link rel="stylesheet" type="text/css" href="./css/firefox.css">
+    <link rel="stylesheet" type="text/css" href="./css/animation.css">
      <!-- 引入 播放器 -->
      <link rel="stylesheet" href="./css/APlayer.min.css">
     <!-- Izitoast -->
@@ -31,7 +32,22 @@
 </head>
 
 <body>
- 
+    <!--加载动画-->
+    <div id="loading-box">
+        <div class="loading-left-bg"></div>
+        <div class="loading-right-bg"></div>
+        <div class="spinner-box">
+            <div class="loader">
+                <div class="inner one"></div>
+                <div class="inner two"></div>
+                <div class="inner three"></div>
+            </div>
+            <div class="loading-word">
+                <p class="loading-title">Noise导航</p>
+                <span id="loading-text">加载中，请耐心等待</span>
+            </div>
+        </div>
+    </div>
     <!-- 背景图片 -->
     <div class="bg-all">
         <img id="bg" onerror="this.classList.add('error');"></img>
@@ -479,8 +495,8 @@
                                     <input type="file" id="my_data_file" name="file" style="display: none">
                                 </div>
                                 <div class="set_version">
-                                    <span class="set_version-text">欢迎再次使用</span>
-                                    <span class="set_version-text2">©&nbsp;Snavigation&nbsp;v&nbsp;1.2</span>
+                                    <span class="set_version-text">Noise导航</span>
+                                 
                                 </div>
                             </div>
                         </div>
