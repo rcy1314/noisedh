@@ -1725,6 +1725,61 @@
           logo: arley.png
           url: https://pan.arley.cn
           description: Arley的私人盘
+        
+    - term: 云盘搜索
+      links:
+        - title: 易搜
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.50h9fq6op800.jpg
+          url: https://yiso.fun
+          description: 努力做最好用的云盘资源搜索引擎！
+        - title: 小纸条
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.2ct6rwhp15no.png
+          url: https://u.gitcafe.net
+          description: 开放纯粹的资源网站
+        - title: 咔帕搜索
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.1h7twb20v6yo.png
+          url: https://www.cuppaso.fun/
+          description: 坚持用心做最简单的夸克云盘资源搜索引擎，并且永久免费使用无广告做绿色搜索引擎！
+        - title: 奈斯搜索
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/logo.3dbokpu0x0i0.jpg
+          url: https://www.niceso.fun
+          description: 坚持做最好用的阿里云盘资源搜索引擎，服务你我他，深藏功与名！
+        - title: 猫狸盘搜
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.4a8w6gg3nj40.jpg
+          url: https://www.alipansou.com
+          description: 阿里云盘搜索
+        - title: UPanSou
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.png
+          url: https://disk.upanso.com/search
+          description: 优盘搜官网
+        - title: 微贴网云盘搜索
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.1lxabzwrn05c.png
+          url: https://www.weitiewang.com/
+          description: 云盘搜索
+        - title: verypan
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.xwh72xf754w.png
+          url: http://www.verypan.com
+          description: verypan是一个极易搜索网站
+        - title: 超能搜
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.1p0y0zzpnn40.png
+          url: https://www.chaonengsou.com
+          description: 聚合类云盘搜索
+        - title: 小鸟搜索
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.6ijaywr3f7s0.png
+          url: https://www.birdiesearch.com
+          description: 小鸟云盘搜索
+        - title: 毕方铺
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.33jdmgr1aos0.png
+          url: https://www.iizhi.cn
+          description: 毕方铺云盘搜索
+        - title: 飞鱼盘搜
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.i6zyl5driqo.png
+          url: http://feiyu100.cn
+          description: 飞鱼盘搜
+        - title: UP云搜
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.4h67dbv8pji0.png
+          url: https://www.upyunso.com
+          description: 阿里云盘搜索
     
         
 - taxonomy: 社区论坛
@@ -3863,10 +3918,10 @@
 
     - term: 下载·安卓
       links:
-        - title: 蚂蚁兄弟
-          logo: 蚂蚁.ico
-          url: https://www.mayixiongdi.cn/
-          description: 精品安卓下载站
+        - title: texhocea-海纳百川
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.2pl7ms6yhqg0.png
+          url: https://texhocean.com
+          description: 精品破解安卓下载站
         - title: 翻应用
           logo: 翻应用.ico
           url: https://www.iapps.me/
@@ -4176,5 +4231,9 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/21342.3hgusuvr25o0.png
           url: https://www.learnfk.com
           description: 无涯教程网提供程序员在线零基础学IT编程技术教程。包括Javascript、MySQL、PHP、Python、Java、HTML5、Go语言等入门基础教程
+        - title: hellocjc
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.znvzi33k5og.png
+          url: https://www.hellocjc.com
+          description: 虚幻4免费教程站
 
 
