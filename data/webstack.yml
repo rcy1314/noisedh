@@ -3067,7 +3067,7 @@
   list:
     - term: 游戏人生
       links:
-        - title: switch520.com
+        - title: switch520
           logo: switch520.png
           url: https://fourpetal.com
           description: 全球游戏免费下载
@@ -3135,6 +3135,10 @@
           logo: itch.ico
           url: https://itch.io
           description: 独立游戏爱好者必备网站，独立游戏制作、上传、售卖、社区交流
+        - title: 多人在线网页游戏站
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220821/image.2g31sanm0sbo.png
+          url: https://www.crazygames.com
+          description: 摸鱼多人在线网页游戏站     
         
     - term: 独立博客
       links:
@@ -4235,5 +4239,13 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.znvzi33k5og.png
           url: https://www.hellocjc.com
           description: 虚幻4免费教程站
+        - title: 中文播客榜
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220821/image.5782odvbuf80.png
+          url: https://xyzrank.com
+          description: 中文播客榜
+        - title: 像素画分享站
+          logo: https://git.poker/rcy1314/tuchuang/blob/main/20220822/image.57dvtc4msls0.jpg?raw=true
+          url: https://hello.eboy.com
+          description: 像素画分享站
 
 
