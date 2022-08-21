@@ -24,9 +24,18 @@ window.addEventListener('load', function () {
     setTimeout(function () {
         iziToast.show({
             title: hello,
-            message: '欢迎来到 Noise导航'
+            message: '欢迎来到 Snavigation'
         });
     }, 800);
+
+    //中文字体缓加载-此处写入字体源文件
+    //先行加载简体中文子集，后续补全字集
+    //由于压缩过后的中文字体仍旧过大，可转移至对象存储或 CDN 加载
+    const font = new FontFace(
+        "MiSans",
+        "url(" + "./font/MiSans-Regular.woff2" + ")"
+    );
+    document.fonts.add(font);
 
 }, false)
 
@@ -121,12 +130,29 @@ $(function () {
     })
 })
 
+//输入框为空时阻止跳转
+$(window).keydown(function (e) {
+    var key = window.event ? e.keyCode : e.which;
+    if (key.toString() == "13") {
+        if ($(".wd").val() == "") {
+            return false;
+        }
+    }
+});
+
 //点击搜索按钮
 $(".sou-button").click(function () {
-    iziToast.show({
-        message: '请点击键盘上的确认键以搜索',
-    });
-    // $('#search-submit').click();
+    if ($("body").attr("class") === "onsearch") {
+        if ($(".wd").val() != "") {
+            $("#search-submit").click();
+        }
+    }
+});
+
+$(window).mousedown(function (event) {
+    if (event.button == 1) {
+        $("#time_text").click();
+    }
 });
 
 //控制台输出
@@ -152,8 +178,8 @@ var title2 = `
 |_____|_|  |_|_____/   |_|      |_|                                                     
 `
 var content = `
-版 本 号：1.0
-更新日期：2022-03-22
+版 本 号：1.1
+更新日期：2022-07-12
 
 Github:  https://github.com/imsyy/Snavigation
 `

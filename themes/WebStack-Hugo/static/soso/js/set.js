@@ -98,28 +98,52 @@ var se_list_preinstall = {
 // 默认快捷方式
 var quick_list_preinstall = {
     '1': {
-        title: "哔哩哔哩",
-        url: "https://www.bilibili.com/",
+        title: "Vercel",
+        url: "https://vercel.com/",
     },
     '2': {
         title: "GitHub",
         url: "https://github.com/",
     },
     '3': {
-        title: "V2EX",
-        url: "https://www.v2ex.com/",
+        title: "Cloudflare",
+        url: "https://dash.cloudflare.com/",
     },
     '4': {
-        title: "Steam",
-        url: "https://store.steampowered.com/",
+        title: "W3school",
+        url: "https://www.w3school.com.cn/",
     },
     '5': {
-        title: "Github",
-        url: "https://github.com/",
+        title: "腾讯云",
+        url: "https://console.cloud.tencent.com/",
     },
     '6': {
-        title: "Github",
-        url: "https://github.com/",
+        title: "阿里云",
+        url: "https://console.aliyun.com/",
+    },
+    '7': {
+        title: "百度网盘",
+        url: "https://pan.baidu.com/",
+    },
+    '8': {
+        title: "阿里云盘",
+        url: "https://www.aliyundrive.com/drive/",
+    },
+    '9': {
+        title: "Office",
+        url: "https://www.office.com/",
+    },
+    '10': {
+        title: "又拍云",
+        url: "https://console.upyun.com/",
+    },
+    '11': {
+        title: "CSDN",
+        url: "https://www.csdn.net/",
+    },
+    '12': {
+        title: "哔哩哔哩",
+        url: "https://www.bilibili.com/",
     }
 };
 
@@ -226,67 +250,19 @@ function setBgImgInit() {
 
 // 搜索框高亮
 function focusWd() {
-    //输入框
-    $(".all-search").css({
-        "background-color": 'var(--main-text-form-hover-color)',
-        "transition": "ease 0.4s",
-        "transform": "translateY(-140%)"
-    });
-    //背景模糊
-    $('#bg').css({
-        "transform": "scale(1.08)",
-        "filter": "blur(10px)",
-        "transition": "ease 0.3s",
-    });
-    //搜索引擎按钮
-    $('#icon-se').css({
-        "color": 'var(--main-text-form-color)',
-        "transition": "ease 0.5s"
-    });
-    //搜索按钮
-    $('#icon-sou').css({
-        "color": "var(--main-text-form-color)",
-        "transition": "ease 0.5s"
-    });
-    //时间上移
-    $(".tool-all").css({
-        "transform": "translateY(-140%)"
-    });
+    $("body").addClass("onsearch");
 }
 
 // 搜索框取消高亮
 function blurWd() {
-    //输入框
-    $(".all-search").css({
-        "background-color": "",
-        "transition": "ease 0.4s",
-        "transform": ""
-    });
-    //背景模糊
-    $('#bg').css({
-        "transform": "scale(1)",
-        "filter": "blur(0px)",
-        "transition": "ease 0.3s",
-    });
-    //搜索引擎按钮
-    $('#icon-se').css({
-        "color": "var(--main-text-color)",
-        "transition": "ease 0.5s"
-    });
-    //搜索按钮
-    $('#icon-sou').css({
-        "color": 'var(--main-text-color)',
-        "transition": "ease 0.5s"
-    });
+    $("body").removeClass("onsearch");
     //隐藏输入
     $(".wd").val("");
-    //时间下移
-    $(".tool-all").css({
-        "transform": "translateY(-120%)"
-    });
+    //隐藏搜索建议
+    $("#keywords").hide();
 }
 
-// 关键字提示
+// 搜索建议提示
 function keywordReminder() {
     var keyword = $(".wd").val();
     if (keyword != "") {
@@ -299,9 +275,13 @@ function keywordReminder() {
                 $("#keywords").css("width", $('.sou').width());
                 $("#keywords").empty().show();
                 $.each(data.s, function (i, val) {
-                    $('#keywords').append("<div class=\"keyword\" data-id=\"" + (i + 1) + "\">" + "<i class='iconfont icon-sousuo'></i>" + val + "</div>");
+                    $('#keywords').append(`<div class="keyword" data-id="${i + 1}"><i class='iconfont icon-sousuo'></i>${val}</div>`);
                 });
                 $("#keywords").attr("data-length", data.s["length"]);
+                $(".keyword").click(function () {
+                    $(".wd").val($(this).text());
+                    $("#search-submit").click();
+                });
             },
             error: function () {
                 $("#keywords").empty().show();
@@ -340,7 +320,8 @@ function seList() {
     var html = "";
     var se_list = getSeList();
     for (var i in se_list) {
-        html += "<div class='se-li' data-url='" + se_list[i]["url"] + "' data-name='" + se_list[i]["name"] + "' data-icon='" + se_list[i]["icon"] + "'><a class='se-li-text'><i id='icon-sou-list' class=' " + se_list[i]["icon"] + " '></i><span>" + se_list[i]["title"] + "</span></a></div>";
+        html += `<div class='se-li' data-url='${se_list[i]["url"]}' data-name='${se_list[i]["name"]}' data-icon='${se_list[i]["icon"]}'>
+        <a class='se-li-text'><i id='icon-sou-list' class='${se_list[i]["icon"]}'></i><span>${se_list[i]["title"]}</span></a></div>`;
     }
     $(".search-engine-list").html(html);
 }
@@ -351,20 +332,20 @@ function setSeInit() {
     var se_list = getSeList();
     var html = "";
     for (var i in se_list) {
-        var tr = "<div class='se_list_div'><div class='se_list_num'>" + i + "</div>";
+        var tr = `<div class='se_list_div'><div class='se_list_num'>${i}</div>`;
         if (i === se_default) {
-            tr = "<div class='se_list_div'><div class='se_list_num'>\
-            <i class='iconfont icon-home'></i></div>";
+            tr = `<div class='se_list_div'><div class='se_list_num'>
+            <i class='iconfont icon-home'></i></div>`;
         }
-        tr += "<div class='se_list_name'>" + se_list[i]["title"] + "</div>\
-        <div class='se_list_button'>\
-        <button class='set_se_default' value='" + i + "' style='border-radius: 8px 0px 0px 8px;'>\
-        <i class='iconfont icon-home'></i></button>\
-        <button class='edit_se' value='" + i + "'>\
-        <i class='iconfont icon-xiugai'></i></button>\
-        <button class='delete_se' value='" + i + "' style='border-radius: 0px 8px 8px 0px;'>\
-        <i class='iconfont icon-delete'></i></button></div>\
-        </div>";
+        tr += `<div class='se_list_name'>${se_list[i]["title"]}</div>
+        <div class='se_list_button'>
+        <button class='set_se_default' value='${i}' style='border-radius: 8px 0px 0px 8px;'>
+        <i class='iconfont icon-home'></i></button>
+        <button class='edit_se' value='${i}'>
+        <i class='iconfont icon-xiugai'></i></button>
+        <button class='delete_se' value='${i}' style='border-radius: 0px 8px 8px 0px;'>
+        <i class='iconfont icon-delete'></i></button></div>
+        </div>`;
         html += tr;
     }
     $(".se_list_table").html(html);
@@ -397,14 +378,11 @@ function quickData() {
     var html = "";
     var quick_list = getQuickList();
     for (var i in quick_list) {
-        html += "<div class='quick'>\
-                        <a href='" + quick_list[i]['url'] + "' target='_blank'>\
-                            " + quick_list[i]['title'] + "\
-                        </a>\
-                     </div>";
+        html += `<div class="quick">
+                    <a href="${quick_list[i]['url']}" target="_blank">${quick_list[i]['title']}</a>
+                </div>`;
     }
-    $(".quick-all").html(html + "<div class='quick'><a id='set-quick'>\
-    <i class='iconfont icon-tianjia-'></i></a></div>");
+    $(".quick-all").html(html + `<div class="quick"><a id="set-quick"><i class="iconfont icon-tianjia-"></i></a></div>`);
 }
 
 // 设置-快捷方式加载
@@ -412,24 +390,24 @@ function setQuickInit() {
     var quick_list = getQuickList();
     var html = "";
     for (var i in quick_list) {
-        tr = "<div class='quick_list_div'>\
-                    <div class='quick_list_div_num'>" + i + "</div>\
-                    <div class='quick_list_div_name'>" + quick_list[i]['title'] + "</div>\
-                    <div class='quick_list_div_button'>\
-                        <button class='edit_quick' value='" + i + "' style='border-radius: 8px 0px 0px 8px;'>\
-                        <i class='iconfont icon-xiugai'></i></button>\
-                        <button class='delete_quick' value='" + i + "' style='border-radius: 0px 8px 8px 0px;'>\
-                        <i class='iconfont icon-delete'></i></button>\
-                    </div>\
-                </div>\
-            </div>";
+        tr = `
+        <div class='quick_list_div'>
+            <div class='quick_list_div_num'>${i}</div>
+            <div class='quick_list_div_name'>${quick_list[i]['title']}</div>
+            <div class='quick_list_div_button'>
+                <button class='edit_quick' value='${i}' style='border-radius: 8px 0px 0px 8px;'>
+                <i class='iconfont icon-xiugai'></i></button>
+                <button class='delete_quick' value='${i}' style='border-radius: 0px 8px 8px 0px;'>
+                <i class='iconfont icon-delete'></i></button>
+            </div>
+        </div>`;
         html += tr;
     }
     $(".quick_list_table").html(html);
 }
 
 /**
- * 下載文本为文件
+ * 下载文本为文件
  * @param filename 文件名
  * @param text     内容
  */
@@ -585,6 +563,7 @@ $(document).ready(function () {
         if ($("#content").attr("class") === "box") {
             closeBox();
             closeSet();
+            blurWd();
         } else {
             openBox();
         }
@@ -601,19 +580,46 @@ $(document).ready(function () {
         $(".search-engine").slideUp(160);
     });
 
-    // 搜索框获得焦点事件
-    $(".wd").focus(function () {
+    // 搜索引擎列表点击
+    $(".search-engine-list").on("click", ".se-li", function () {
+        var url = $(this).attr('data-url');
+        var name = $(this).attr('data-name');
+        var icon = $(this).attr('data-icon');
+        $(".search").attr("action", url);
+        $(".wd").attr("name", name);
+        $("#icon-se").attr("class", icon);
+        $(".search-engine").slideUp(160);
+    });
+
+    // 搜索框点击事件
+    $(document).on('click', '.sou', function () {
+        focusWd();
+        $(".search-engine").slideUp(160);
+    });
+
+    $(document).on('click', '.wd', function () {
         focusWd();
         keywordReminder();
         $(".search-engine").slideUp(160);
     });
 
-    // 搜索框失去焦点事件
-    $(".wd").blur(function () {
+    // 点击其他区域关闭事件
+    $(document).on('click', '.close_sou', function () {
         blurWd();
+        closeSet();
     });
-    
-    // 自动提示( 调用百度 api ）
+
+    // 点击搜索引擎时隐藏自动提示
+    $(document).on('click', '.se', function () {
+        $('#keywords').toggle();
+    });
+
+    // 恢复自动提示
+    $(document).on('click', '.se-li', function () {
+        $('#keywords').show();
+    });
+
+    // 自动提示 (调用百度 api）
     $('.wd').keyup(function (event) {
         var key = event.keyCode;
         // 屏蔽上下键
@@ -622,8 +628,8 @@ $(document).ready(function () {
         keywordReminder();
     });
 
-    // 点击自动提示的关键字
-    $("#keywords").on("click", "div", function () {
+    // 点击自动提示的搜索建议
+    $("#keywords").on("click", ".wd", function () {
         var wd = $(this).text();
         $(".wd").val(wd);
         $(".search").submit();
@@ -633,32 +639,32 @@ $(document).ready(function () {
     });
 
     // 自动提示键盘方向键选择操作
-    // $(".wd").keydown(function (event) { //上下键获取焦点
-    //     var key = event.keyCode;
-    //     if ($.trim($(this).val()).length === 0) return;
+    $(".wd").keydown(function (event) { //上下键获取焦点
+        var key = event.keyCode;
+        if ($.trim($(this).val()).length === 0) return;
 
-    //     var id = $(".keyword-active").attr("data-id");
-    //     if (id === undefined) id = 0;
+        var id = $(".choose").attr("data-id");
+        if (id === undefined) id = 0;
 
-    //     if (key === 38) {
-    //         /*向上按钮*/
-    //         id--;
-    //     } else if (key === 40) {
-    //         /*向下按钮*/
-    //         id++;
-    //     } else {
-    //         return;
-    //     }
-    //     var length = $("#keywords").attr("data-length");
-    //     if (id > length) id = 1;
-    //     if (id < 1) id = length;
+        if (key === 38) {
+            /*向上按钮*/
+            id--;
+        } else if (key === 40) {
+            /*向下按钮*/
+            id++;
+        } else {
+            return;
+        }
+        var length = $("#keywords").attr("data-length");
+        if (id > length) id = 1;
+        if (id < 1) id = length;
 
-    //     $(".keyword[data-id=" + id + "]").addClass("keyword-active").siblings().removeClass("keyword-active");
-    //     $(".wd").val($(".keyword[data-id=" + id + "]").text());
-    // });
+        $(".keyword[data-id=" + id + "]").addClass("choose").siblings().removeClass("choose");
+        $(".wd").val($(".keyword[data-id=" + id + "]").text());
+    });
 
     // 菜单点击
-    $("#menu").click(function (event) {
+    $("#menu").click(function () {
         if ($(this).attr("class") === "on") {
             closeSet();
         } else {
@@ -997,9 +1003,9 @@ $(document).ready(function () {
                         timeout: 2000,
                         message: '重置成功'
                     });
-                    setTimeout(function () {
-                        window.location.reload()
-                    }, 1000);
+                    // setTimeout(function () {
+                    //     window.location.reload()
+                    // }, 1000);
                 }, true],
                 ['<button>取消</button>', function (instance, toast) {
                     instance.hide({
