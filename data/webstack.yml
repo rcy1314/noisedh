@@ -608,7 +608,7 @@
           description: 在线音乐
         - title: 在线音乐解密
           logo: 解密.ico
-          url: https://tool.liumingye.cn/unlock-music/
+          url: https://github.com/unlock-music/unlock-music
           description: 在线音乐解密
         - title: 下歌吧
           logo: 下歌.ico
