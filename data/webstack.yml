@@ -559,10 +559,6 @@
           logo: www.nowness.cn.ico
           url: https://www.nowness.cn
           description: 全球创意生活短片
-        - title: 积幕
-          logo: jimu.movtile.com.ico
-          url: https://jimu.movtile.com
-          description: 创意灵感聚集地
         - title: TVCBOOK
           logo: www.tvcbook.com.ico
           url: https://www.tvcbook.com
@@ -1166,10 +1162,6 @@
           logo: yongshuo.png
           url: http://wpbkj.ysepan.com
           description: 精品软件库
-        - title: 小天学长的资源分享
-          logo: yongshuo.png
-          url: http://py1985.ysepan.com
-          description: 软件库书签库
         - title: 思楠网盘
           logo: yongshuo.png
           url: http://lisinan.ysepan.com
@@ -3268,7 +3260,7 @@
           description: ZkeqのCoding日志
         - title: 七龙的秘密基地	
           logo: 七龙.jpg
-          url: https://it.o.ls/index.php
+          url: https://destiny.cool
           description: 七龙的秘密基地
         - title: flydean的博客
           logo: www.flydean.com.ico
@@ -3612,6 +3604,18 @@
           logo: https://www.logosc.cn/img/home/logosc-new.png
           url: https://www.logosc.cn
           description: logo在线设计生成器，免费智能生成公司logo设计
+        - title: 哔哩哔哩工具箱
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220826/image.484hhlxdeie0.jpg
+          url: https://tool.rsplwe.com
+          description: 获取视频封面、bv\av转换、查询弹幕发送者
+        - title: bgsub
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220826/image.5uq9v50y18k0.jpg
+          url: https://bgsub.cn
+          description: 智能ai抠像，去除背景
+        - title: 有个美工
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220826/image.3b2na8alwtu0.jpg
+          url: https://youge.art
+          description: 强大的广告、封面作图神器
         
     - term: 效率生产力
       links:
@@ -4247,5 +4251,9 @@
           logo: https://git.poker/rcy1314/tuchuang/blob/main/20220822/image.57dvtc4msls0.jpg?raw=true
           url: https://hello.eboy.com
           description: 像素画分享站
+        - title: 慧语简报
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220826/image.2vb3lxuipvw0.jpg
+          url: https://news.topurl.cn
+          description: 慧语简报，每日更新新资讯
 
 
