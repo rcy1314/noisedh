@@ -177,7 +177,11 @@
         - title: iiidea CG
           logo: iiidea.png
           url: http://iiidea.cn
-          description: CG资源网         
+          description: CG资源网
+        - title: C4DNB
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.jyiamiwzl1c.png
+          url: http://c4dnb.co
+          description: C4D资源下载网         
     - term: 模版插件
       links:
         - title: LOOKAE大众脸
@@ -532,6 +536,10 @@
           logo: www.videvo.net.ico
           url: https://www.videvo.net
           description: Videvo提供大量素材和动态图像可供选择
+        - title: vecteezy
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.3sylndjlsoc0.png
+          url: https://www.vecteezy.com/free-videos
+          description: vecteezy.com提供大量免费视频素材和动态图像可供选择
  
     - term: 创意片库
       links:
@@ -571,6 +579,26 @@
           logo: www.topys.cn.ico
           url: https://www.topys.cn
           description: TOPYS灵感视频
+        - title: MANA
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.4xufvxjhkog0.png
+          url: https://manamana.net/#!zh
+          description: 全球新媒体艺术平台
+        - title: 合拍网
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.3uyvgmzro3y0.png
+          url: https://hepai.video/video/
+          description: 合拍网优秀案例
+        - title: 网络广告人社区
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.6film71t7r80.png
+          url: https://iwebad.com
+          description: 分享国内创意广告及优秀案例
+        - title: 牛片网
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.56x1o56e15o0.png
+          url: https://www.6pian.cn/jx.html
+          description: 牛片网案例作品库
+        - title: Eagle资源社区
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.3xrzvfv0yt40.png
+          url: https://community-cn.eagle.cool
+          description: 设计师灵感交流地
 
     - term: 音乐世界
       links:
@@ -4255,5 +4283,9 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220826/image.2vb3lxuipvw0.jpg
           url: https://news.topurl.cn
           description: 慧语简报，每日更新新资讯
+        - title: JustLive
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.6wf3vz45ir40.png
+          url: http://live.yj1211.work
+          description: 聚合直播平台，b站、斗鱼、虎牙综合直播
 
 

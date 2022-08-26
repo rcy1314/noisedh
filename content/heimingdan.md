@@ -24,7 +24,7 @@ draft: false
 
 <center>一：站点名称：charm城市女孩 地址：https://co6.cc/  来源：留言主动申请 </center>
 
-<center>二：站点名称：亿万导航  地址：https://www.bd-fo.ml  来源：主动申请 </center>
+<center>二：站点名称：亿万导航  地址：https://www.yiw1.com  来源：主动申请 </center>
 
 <center>三：站点名称：一只鱼影视站  地址：https://www.bd-fo.ml  来源：主动申请  </center>
 
