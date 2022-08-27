@@ -176,7 +176,7 @@
           description: CG资源网
         - title: C4DNB
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.jyiamiwzl1c.png
-          url: http://c4dnb.co
+          url: http://c4dnb.com
           description: C4D资源下载网         
     - term: 模版插件
       links:
@@ -3210,10 +3210,6 @@
           logo: bkfeng.top.ico
           url: https://bkfeng.top
           description: 本卡风
-        - title: MOE
-          logo: www.moe.am.ico
-          url: https://www.moe.am
-          description: MOE
         - title: The JetBrains Blog
           logo: blog.jetbrains.com.ico
           url: https://blog.jetbrains.com/zh-hans/
