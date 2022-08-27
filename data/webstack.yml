@@ -1987,6 +1987,10 @@
           logo: mac.ico
           url: https://learnku.com
           description: 编程论坛
+        - title: 智源社区
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.1jayi8zfxjkw.png
+          url: https://hub.baai.ac.cn
+          description: ai智能社区
 
     - term: 社区·综合技术类
       links:
@@ -3862,9 +3866,13 @@
           logo: APPKED.png
           url: https://www.macbed.com/apps/
           description: 外网MAC软件下载
+        - title: kkmac
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.33dndlxep2c.png
+          url: https://www.kkmac.com
+          description: 精选MAC软件下载
 
 
-    - term: 下载·PC
+    - term: 下载·PC·综合
       links:
         - title: 黑域基地
           logo: 黑域基地.ico
@@ -3942,6 +3950,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220810/www.550ik0npzu80.jpg
           url: https://www.qyun.vip
           description: 免费资源搜集分享平台！
+        - title: i3综合社区
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.76kwgpjm7j40.png
+          url: https://www.i3zh.com
+          description: pc、安卓、mac综合软件站
 
 
     - term: 下载·安卓
@@ -4060,7 +4072,7 @@
           url: http://www.aichunjing.com/
           description: 纯净系统下载
 
-- taxonomy: 其它精选
+- taxonomy: 精选收录
   icon: fas fa-cube
   list:
     - term: 其它导航站
@@ -4205,7 +4217,7 @@
           url: https://meow.tg
           description: 最懂你的Telegram中文搜索引擎，目前已经收录资源80W+
 
-    - term: 精选收录
+    - term: 探索发现
       links:
         - title: Suki 素记
           logo: 素记.png
@@ -4279,5 +4291,29 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.6wf3vz45ir40.png
           url: http://live.yj1211.work
           description: 聚合直播平台，b站、斗鱼、虎牙综合直播
+        - title: 文心一格AI作画
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.3zzjzsnit1a0.png
+          url: https://yige.baidu.com
+          description: 百度旗下ai作画平台
+        - title: 365实时热榜
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.4cmy91c37t80.png
+          url: https://hot.primo.wiki
+          description: 365实时热榜
+        - title: 一起听播客
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.37sl6mdxtc00.png
+          url: https://fm.lemonsjtu.cn
+          description: 创建房间邀请好友一起实时在线听播客
+        - title: 6pen
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.4uoinwycbpy0.png
+          url: https://6pen.art
+          description: 基于AI技术，从文本描述生成绘画艺术作品
+        - title: 大疆无人机在线飞行
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.d9dbbvkdjhk.png
+          url: https://start.dji.com
+          description: 大疆无人机在线飞行模拟器
+        - title: Effidit
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.45jmtzs81dc0.png
+          url: https://effidit.qq.com
+          description: AI智能创作助手
 
 
