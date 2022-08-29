@@ -1991,6 +1991,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.1jayi8zfxjkw.png
           url: https://hub.baai.ac.cn
           description: ai智能社区
+        - title: Rebase
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/beepress0-1563189283.1noehln11o3k.png
+          url: https://rebase.network
+          description: Rebase 是由中国的 Web3.0 开发者们在业余时间凭热爱建立的开发者社区。 Rebase 是一个极客组织，致力于帮助极客更好地利用科技创新，推动社会变革
 
     - term: 社区·综合技术类
       links:
@@ -2037,7 +2041,7 @@
         - title: 搬砖技术社区
           logo: 0xffff.one.ico
           url: https://0xffff.one
-          description: 0xffff
+          description: 搬砖技术社区
         - title: 大牛论坛
           logo: www.dnlt.cc.ico
           url: https://www.daniu520.com
@@ -2905,6 +2909,10 @@
           logo: notion.png
           url: https://qianlei.notion.site/
           description: 用Github的Issue写博客
+        - title: Alan’s BLOG
+          logo: notion.png
+          url: https://notion-next-lovat-eight.vercel.app
+          description: Alan个人的博客，用来发布，技术分享，读书笔记，视频创作等
         
     - term: 电子书库
       links:
@@ -3326,6 +3334,10 @@
           logo: pseudoyu.png
           url: https://www.pseudoyu.com/zh/
           description: Yu Zhang的个人博客
+        - title: lindavid	
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/heart-broken.3c2e0fe0nqu0.png
+          url: http://www.lindavid.cn/
+          description: 超多技术文章，软件mac资源分享
         
     - term: 优质播客
       links:
@@ -3469,6 +3481,10 @@
           logo: stackblitz.png
           url: https://stackblitz.com
           description: stackblitz
+        - title: codepen
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.333x3t387bu0.png
+          url: https://codepen.io/
+          description: 在线代码编辑，案例社区交流
         
     - term: 工具箱
       links:
@@ -3799,6 +3815,10 @@
           logo: x2twitter.ico
           url: https://x2twitter.com/zh-cn
           description: Twitter视频下载
+        - title: BTHUB
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/favicon.filp1mavnw0.png
+          url: https://bthub002.xyz/
+          description: BT种子，影视资源在线搜索下载
 
     - term: 下载·MAC
       links:
@@ -3870,6 +3890,14 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.33dndlxep2c.png
           url: https://www.kkmac.com
           description: 精选MAC软件下载
+        - title: XXMAC
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/17141406376.4froxqs8c0i0.png
+          url: https://www.xxmac.com
+          description: 精选MAC软件下载
+        - title: 苹果系统之家
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/f1avicon.1ll2sg5mjexs.png
+          url: https://macoshome.com
+          description: 苹果专用软件下载
 
 
     - term: 下载·PC·综合
@@ -4114,7 +4142,7 @@
           url: http://lackar.com/aa/
           description: 综合设计类导航
 
-    - term: TG·BOT
+    - term: TG·BOT·相关
       links:
         - title: Download_it_bot
           logo: Nerd_Robot.png
