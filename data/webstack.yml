@@ -3894,11 +3894,6 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/17141406376.4froxqs8c0i0.png
           url: https://www.xxmac.com
           description: 精选MAC软件下载
-        - title: 苹果系统之家
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/f1avicon.1ll2sg5mjexs.png
-          url: https://macoshome.com
-          description: 苹果专用软件下载
-
 
     - term: 下载·PC·综合
       links:
@@ -4091,10 +4086,10 @@
           logo: 微PE.ico
           url: https://www.wepe.com.cn/download.html
           description: 微PE工具箱
-        - title: LDTOOLS
-          logo: LDTOOLS.ico
-          url: https://ldtstore.com.cn/ldtools/
-          description: 图吧硬件工具合集
+        - title: HelloWindows
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220830/jgsQJoG6WIAwCdTlb1GxNPBTH75pAAAAAElFTkSuQmCC.61eq16aa46s0.png
+          url: https://hellowindows.cn/
+          description: 精校 完整 极致 Windows系统下载仓储站
         - title: 爱纯净
           logo: 纯.ico
           url: http://www.aichunjing.com/
@@ -4141,6 +4136,18 @@
           logo: AA.png
           url: http://lackar.com/aa/
           description: 综合设计类导航
+        - title: linkfind
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220830/linkfind.64f4r2gkep80.png
+          url: https://linkfind.cn/
+          description: LinkFind是一个优质资源聚合社区，我们希望通过推荐优质的资源来帮助用户提升工作效率。
+        - title: 我的书签
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220830/itcxy.6ey4bgcu6dg0.png
+          url: https://it-cxy.top
+          description: 超多丰富的网站收录
+        - title: 喜欢书签
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220830/likebookmark.58l0e8o3iqo0.png
+          url: https://www.likebookmark.com/
+          description: 喜欢书签找网站更简单
 
     - term: TG·BOT·相关
       links:
