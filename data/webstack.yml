@@ -1131,6 +1131,10 @@
         - title: 文武科技柜
           logo: yongshuo.png
           url: http://itxh.ysepan.com
+          description: 网址书签库
+        - title: X
+          logo: yongshuo.png
+          url: http://yxxang.ysepan.co
           description: 网址书签库             
     - term: 永硕·软件文件类
       links:
