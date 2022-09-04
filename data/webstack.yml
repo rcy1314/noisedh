@@ -2917,6 +2917,10 @@
           logo: notion.png
           url: https://notion-next-lovat-eight.vercel.app
           description: Alan个人的博客，用来发布，技术分享，读书笔记，视频创作等
+        - title: 全网漫游指南
+          logo: notion.png
+          url: https://tagly.notion.site
+          description: 丰富的知识库，包含职业指南、社区网站收录等等。
         
     - term: 电子书库
       links:
