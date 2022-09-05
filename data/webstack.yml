@@ -867,6 +867,14 @@
           logo: yanetflix.png
           url: https://yanetflix.live
           description: 鸭剧场影视，全高清、蓝光的在线影视网站，独家奈飞1080P、蓝光、4K资源
+        - title: 霹雳影视
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220905/霹雳.2sy82owmggy0.png
+          url: https://plyingshi.com
+          description: 最快最全无损影视大全
+        - title: 可乐影视
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220905/xxx.3y4ei88t3eo0.jpg
+          url: http://klyingshi.com/
+          description: 最快最全无损影视大全
 
     - term: 动漫番剧
       links:
@@ -4161,6 +4169,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220830/likebookmark.58l0e8o3iqo0.png
           url: https://www.likebookmark.com/
           description: 喜欢书签找网站更简单
+        - title: 蜗牛小站
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220905/蜗牛.1oiq9adpwbpc.png
+          url: https://www.woniu6.top/
+          description: 一个清新的工具导航资源入口，简洁干净，为您提供搜索、在线影视、免费电影、音乐搜索、音乐下载、实用工具，小游戏、视频影视、音乐音频、动画动漫、体育赛事、生活购物、学习阅读、设计开发、办公工具和在线直播等各种分类的优秀内容。
 
     - term: TG·BOT·相关
       links:
