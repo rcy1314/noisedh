@@ -3501,6 +3501,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.333x3t387bu0.png
           url: https://codepen.io/
           description: 在线代码编辑，案例社区交流
+        - title: html5up
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220905/h5avicon.2hf022cqiii0.png
+          url: https://html5up.net/
+          description: 在线代码编辑,html模版免费下载
         
     - term: 工具箱
       links:
@@ -4276,6 +4280,10 @@
           logo: Nerd_Robot.png
           url: https://meow.tg
           description: 最懂你的Telegram中文搜索引擎，目前已经收录资源80W+
+        - title: sssoou
+          logo: Nerd_Robot.png
+          url: https://t.me/sssoou_resource
+          description: 中文tg资源搜索
 
     - term: 探索发现
       links:
