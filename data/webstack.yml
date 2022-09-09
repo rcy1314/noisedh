@@ -1753,6 +1753,10 @@
           logo: arley.png
           url: https://pan.arley.cn
           description: Arley的私人盘
+        - title: Arley的私人盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220909/xxx.2v2j7xxan4g0.png
+          url: https://mqs.hk
+          description: 小江盘
         
     - term: 云盘搜索
       links:
@@ -3505,6 +3509,18 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220905/h5avicon.2hf022cqiii0.png
           url: https://html5up.net/
           description: 在线代码编辑,html模版免费下载
+        - title: 4everland
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220909/icon_64x64.2xzhvibh5ug0.png
+          url: https://www.4everland.org/
+          description: web3的云计算平台
+        - title: gitcode
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220909/xxx.3zimb02hv2u0.png
+          url: https://gitcode.net/
+          description: 国内代码仓库平台
+        - title: githubmemory
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220909/memory.2p5cxp88y880.png
+          url: https://githubmemory.com
+          description: 代码仓库平台
         
     - term: 工具箱
       links:
