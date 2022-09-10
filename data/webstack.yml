@@ -2933,6 +2933,10 @@
           logo: notion.png
           url: https://tagly.notion.site
           description: 丰富的知识库，包含职业指南、社区网站收录等等。
+        - title: 小妖精博客
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220910/xxx.ktpyszkd8hs.png
+          url: http://www.xyjwangluo.com/
+          description: 网络资源技术免费分享
         
     - term: 电子书库
       links:
