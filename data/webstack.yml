@@ -3525,6 +3525,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220909/memory.2p5cxp88y880.png
           url: https://githubmemory.com
           description: 代码仓库平台
+        - title: Peasy
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220910/keshijing.6dpbh7obw380.png
+          url: https://p-easy.net/
+          description: 可视化静态网址在线制作
         
     - term: 工具箱
       links:
@@ -4197,6 +4201,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220905/蜗牛.1oiq9adpwbpc.png
           url: https://www.woniu6.top/
           description: 一个清新的工具导航资源入口，简洁干净，为您提供搜索、在线影视、免费电影、音乐搜索、音乐下载、实用工具，小游戏、视频影视、音乐音频、动画动漫、体育赛事、生活购物、学习阅读、设计开发、办公工具和在线直播等各种分类的优秀内容。
+        - title: AlleyRead
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220910/newsletter.1iwacgz55vhc.png
+          url: https://alleyread.com/
+          description: Newsletter 导航站
 
     - term: TG·BOT·相关
       links:
@@ -4403,5 +4411,13 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.45jmtzs81dc0.png
           url: https://effidit.qq.com
           description: AI智能创作助手
+        - title: 开发者简报
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220910/xxx.5t33hxqi3h00.png
+          url: https://dev.com.cn/
+          description: 每周为你轻简读技术创业、酷产品、编程语言、开发工具、DevOps…等内容
+        - title: 发现产品
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220910/xxx.1rud2nj2icow.png
+          url: https://fxcp.info
+          description: 收集一些有意思的创意和产品
 
 
