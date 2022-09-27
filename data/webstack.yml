@@ -1799,7 +1799,65 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.4h67dbv8pji0.png
           url: https://www.upyunso.com
           description: 阿里云盘搜索
-    
+        
+    - term: 云盘存储
+      links:
+        - title: 百度云盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/baidu.2dvor78fbafw.png
+          url: https://pan.baidu.com/
+          description: 百度云盘
+        - title: 天翼云盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/tianyi.49o48xd9zk80.png
+          url: https://cloud.189.cn/
+          description: 天翼云盘
+        - title: 移动云盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.24tvbv39wdcw.png
+          url: https://yun.139.com
+          description: 移动云盘
+        - title: onedrive
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/onedrive.4crrxxg82gm0.png
+          url: https://onedrive.live.com/
+          description: onedrive
+        - title: 谷歌云盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.370tkths53o0.png
+          url: https://drive.google.com/
+          description: 
+        - title: 迅雷云盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.5js4ey65i980.png
+          url: https://pan.xunlei.com/
+          description: 迅雷云盘
+        - title: degoo云盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/apple-touch-icon-152x152.5wf0y564tg40.png
+          url: https://app.degoo.com
+          description: degoo云盘
+        - title: 腾讯微云
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.5js4ey65i980.png
+          url: https://www.weiyun.com
+          description: 腾讯微云
+        - title: 小飞机网盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.3o1nterma3w0.png
+          url: https://www.feijipan.com/
+          description: 上传下载不限速、一键转存分享文件，转存文件无上限、小说Office文件免登陆/注册/下载客户端；支持在线预览Office文件、在线播放无损视频、音频。
+        - title: pikpak
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.14z7cieevc1s.png
+          url: https://mypikpak.com/
+          description: 免费6g不限速
+        - title: 小米云盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/favicon_new.1ks86xw9dpa8.png
+          url: https://account.xiaomi.com/
+          description: 小米云盘
+        - title: 蓝奏云盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/lanzou.5gmaqjhfeyc0.png
+          url: https://pc.woozooo.com/
+          description:  蓝奏云盘
+        - title: 超星云盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/chao.6tomkbrgnhg.png
+          url: http://pan-yz.chaoxing.com/
+          description: 超星云盘
+        - title: 123云盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/123.3hczxtqkb9o.png
+          url: https://www.123pan.com/
+          description: 123云盘
         
 - taxonomy: 社区论坛
   icon: fas fa-users fa-lg
