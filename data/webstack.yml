@@ -945,6 +945,10 @@
           logo: bimiacg4.ico
           url: https://www.bimiacg4.net
           description: 哔咪动漫
+        - title: 樱花动漫
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220928/xxx.6fo0kquyvy80.jpg
+          url: https://yhdm6.top
+          description: 樱花动漫
    
 - taxonomy: 永硕E盘
   icon: fas fa-tree
@@ -1821,7 +1825,7 @@
         - title: 谷歌云盘
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.370tkths53o0.png
           url: https://drive.google.com/
-          description: 
+          description: 谷歌云盘
         - title: 迅雷云盘
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.5js4ey65i980.png
           url: https://pan.xunlei.com/
@@ -1836,28 +1840,36 @@
           description: 腾讯微云
         - title: 小飞机网盘
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.3o1nterma3w0.png
-          url: https://www.feijipan.com/
+          url: https://www.feijipan.com
           description: 上传下载不限速、一键转存分享文件，转存文件无上限、小说Office文件免登陆/注册/下载客户端；支持在线预览Office文件、在线播放无损视频、音频。
         - title: pikpak
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.14z7cieevc1s.png
-          url: https://mypikpak.com/
+          url: https://mypikpak.com
           description: 免费6g不限速
         - title: 小米云盘
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/favicon_new.1ks86xw9dpa8.png
-          url: https://account.xiaomi.com/
+          url: https://account.xiaomi.com
           description: 小米云盘
         - title: 蓝奏云盘
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/lanzou.5gmaqjhfeyc0.png
-          url: https://pc.woozooo.com/
+          url: https://pc.woozooo.com
           description:  蓝奏云盘
         - title: 超星云盘
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/chao.6tomkbrgnhg.png
-          url: http://pan-yz.chaoxing.com/
+          url: http://pan-yz.chaoxing.com
           description: 超星云盘
         - title: 123云盘
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/123.3hczxtqkb9o.png
           url: https://www.123pan.com/
           description: 123云盘
+        - title: 阿里云盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220928/xxx.8m2v2w1jwa4.png
+          url: https://www.aliyundrive.com
+          description: 阿里云盘
+        - title: 夸克云盘
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220928/kua.6rd8tjjs7gc0.png
+          url: https://pan.quark.cn
+          description: 夸克云盘
         
 - taxonomy: 社区论坛
   icon: fas fa-users fa-lg
@@ -2816,6 +2828,10 @@
           logo: 指北.png
           url: http://www.inode.club/
           description: 专注 Node.js 技术栈分享，从 前端 到 Node.js 再到 后端数据库
+        - title: Knowledge Planet-知识分享
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220928/typoraimage-20220326203849385.22z40q4ootuo.png
+          url: http://www.jimmyxuexue.top
+          description: Jimmy- 知识星球
     - term: notion站点
       links:
         - title: Harumonia
