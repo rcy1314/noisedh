@@ -175,7 +175,7 @@
           url: http://iiidea.cn
           description: CG资源网
         - title: C4DNB
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.jyiamiwzl1c.png
+          logo: c4dnb.png
           url: http://c4dnb.com
           description: C4D资源下载网         
     - term: 模版插件
@@ -533,7 +533,7 @@
           url: https://www.videvo.net
           description: Videvo提供大量素材和动态图像可供选择
         - title: vecteezy
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.3sylndjlsoc0.png
+          logo: vecteezy.png
           url: https://www.vecteezy.com/free-videos
           description: vecteezy.com提供大量免费视频素材和动态图像可供选择
  
@@ -576,23 +576,23 @@
           url: https://www.topys.cn
           description: TOPYS灵感视频
         - title: MANA
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.4xufvxjhkog0.png
+          logo: MANA.png
           url: https://manamana.net/#!zh
           description: 全球新媒体艺术平台
         - title: 合拍网
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.3uyvgmzro3y0.png
+          logo: hepai.png
           url: https://hepai.video/video/
           description: 合拍网优秀案例
         - title: 网络广告人社区
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.6film71t7r80.png
+          logo: 6film71t7r80.png
           url: https://iwebad.com
           description: 分享国内创意广告及优秀案例
         - title: 牛片网
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.56x1o56e15o0.png
+          logo: 牛片网.png
           url: https://www.6pian.cn/jx.html
           description: 牛片网案例作品库
         - title: Eagle资源社区
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.3xrzvfv0yt40.png
+          logo: eagle社区.png
           url: https://community-cn.eagle.cool
           description: 设计师灵感交流地
 
@@ -946,7 +946,7 @@
           url: https://www.bimiacg4.net
           description: 哔咪动漫
         - title: 樱花动漫
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220928/xxx.6fo0kquyvy80.jpg
+          logo: 樱花动漫.jpg
           url: https://yhdm6.top
           description: 樱花动漫
    
@@ -1745,7 +1745,7 @@
           url: https://pan.arley.cn
           description: Arley的私人盘
         - title: 小江的私人盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220909/xxx.2v2j7xxan4g0.png
+          logo: xiaojiang.png
           url: https://mqs.hk
           description: 小江盘
         
@@ -3005,10 +3005,6 @@
           logo: book.png
           url: https://spcqwserdvymm.com.vika.cn/share/shryNwH3HRgvzMTaZVAGx/fodkuzz5eaw0w
           description: 中国首个应用去中心化技术（IPFS）储存的数字图书共享系统
-        - title: 静然书屋
-          logo: book.png
-          url: https://books.andrewjr.workers.dev/0:/
-          description: 点击右上角菜单可以搜索
         - title: 书格
           logo: book.png
           url: https://new.shuge.org
@@ -3178,7 +3174,7 @@
       links:
         - title: switch520
           logo: switch520.png
-          url: https://fourpetal.com
+          url: https://xxxxx520.com
           description: 全球游戏免费下载
         - title: Epic游戏|周免
           logo: www.epicgames.com.ico
@@ -3420,7 +3416,7 @@
           url: http://www.lindavid.cn/
           description: 超多技术文章，软件mac资源分享
         - title: 小妖精博客
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220910/xxx.ktpyszkd8hs.png
+          logo: 小妖精博客.png
           url: http://www.xyjwangluo.com/
           description: 网络资源技术免费分享
         
@@ -3567,27 +3563,27 @@
           url: https://stackblitz.com
           description: stackblitz
         - title: codepen
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.333x3t387bu0.png
+          logo: codepen.png
           url: https://codepen.io/
           description: 在线代码编辑，案例社区交流
         - title: html5up
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220905/h5avicon.2hf022cqiii0.png
+          logo: html5up.png
           url: https://html5up.net/
           description: 在线代码编辑,html模版免费下载
         - title: 4everland
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220909/icon_64x64.2xzhvibh5ug0.png
+          logo: 4everland.png
           url: https://www.4everland.org/
           description: web3的云计算平台
         - title: gitcode
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220909/xxx.3zimb02hv2u0.png
+          logo: gitcode.png
           url: https://gitcode.net/
           description: 国内代码仓库平台
         - title: githubmemory
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220909/memory.2p5cxp88y880.png
+          logo: githubmemory.png
           url: https://githubmemory.com
           description: 代码仓库平台
         - title: Peasy
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220910/keshijing.6dpbh7obw380.png
+          logo: Peasy.png
           url: https://p-easy.net/
           description: 可视化静态网址在线制作
         
@@ -3734,31 +3730,31 @@
           url: https://d.serctl.com
           description: github文件下载
         - title: 在线工具箱
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/zaixiangj.6mhafkfhfhw0.png
+          logo: zaixiangj.png
           url: https://www.toolfk.com
           description: Toolfk程序在线工具箱提供古诗智能创作,语音生成,伪原创,文字转语音,文字转视频,JSON格式化等在线工具,做一个有用的在线工具站
         - title: 改图神器
-          logo: https://img.logosc.cn/_next/static/media/gaitu.0bb400f5.svg
+          logo: gaitu.png
           url: https://img.logosc.cn
           description: 一款完全免费简单好用的在线万能图片编辑器，无需注册即开即用，支持多种格式图片
         - title: 热浪数据
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220906/relang.312re2jisom0.png
+          logo: 热浪.png
           url: https://www.relangdata.cn/?source=fcbdcf83
           description: 短视频直播电商一站式数据服务平台，提供抖音、小红书、视频号等社会化媒体平台数据分析服务。
         - title: 标小智LOGO神器
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220826/image.3d37qbjz0a60.png
+          logo: 标小志.png
           url: https://www.logosc.cn
           description: logo在线设计生成器，免费智能生成公司logo设计
         - title: 哔哩哔哩工具箱
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220826/image.484hhlxdeie0.jpg
+          logo: 哔哩哔哩工具.jpg
           url: https://tool.rsplwe.com
           description: 获取视频封面、bv\av转换、查询弹幕发送者
         - title: bgsub
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220826/image.5uq9v50y18k0.jpg
+          logo: bgsub.jpg
           url: https://bgsub.cn
           description: 智能ai抠像，去除背景
         - title: 有个美工
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220826/image.3b2na8alwtu0.jpg
+          logo: 有个美工.jpg
           url: https://youge.art
           description: 强大的广告、封面作图神器
         
@@ -3833,7 +3829,7 @@
           url: https://b3log.org/siyuan/
           description: 下一代的知识管理工具平台
         - title: 妙记多
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220914/miaojiduo.74tl7x0o7vw0.png
+          logo: miaojiduo.png
           url: https://www.mojidoc.com/
           description: 自由灵活，强大的创意文档
         - title: logseq
@@ -3841,7 +3837,7 @@
           url: https://logseq.com/
           description: 新一代的知识管理笔记工具
         - title: Billfish
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220914/billfish.3pb5gwxu9io0.png
+          logo: billfish.png
           url: http://www.billfish.cn/
           description: 免费的灵感采集和素材管理工具
         
@@ -3930,7 +3926,7 @@
           url: https://x2twitter.com/zh-cn
           description: Twitter视频下载
         - title: BTHUB
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/favicon.filp1mavnw0.png
+          logo: bthub.png 
           url: https://bthub002.xyz/
           description: BT种子，影视资源在线搜索下载
 
@@ -4001,11 +3997,11 @@
           url: https://www.macbed.com/apps/
           description: 外网MAC软件下载
         - title: kkmac
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.33dndlxep2c.png
+          logo: kkmac.png
           url: https://www.kkmac.com
           description: 精选MAC软件下载
         - title: XXMAC
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/17141406376.4froxqs8c0i0.png
+          logo: 17141406376.4froxqs8c0i0.png
           url: https://www.xxmac.com
           description: 精选MAC软件下载
 
@@ -4080,19 +4076,19 @@
           url: https://www.ruancang.net
           description: RuanCang.Net丨软件仓库
         - title: 乐于分享
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220809/oovvv.4rwdp6qhvbq0.jpg
+          logo: oovvv.4rwdp6qhvbq0.jpg
           url: https://www.oovvv.com
           description: 乐于分享网，好资源不私藏！免费资源分享平台！
         - title: Q云资源网
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220810/www.550ik0npzu80.jpg
+          logo: www.550ik0npzu80.jpg
           url: https://www.qyun.vip
           description: 免费资源搜集分享平台！
         - title: i3综合社区
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.76kwgpjm7j40.png
+          logo: i3社区.png
           url: https://www.i3zh.com
           description: pc、安卓、mac综合软件站
         - title: 技术鸟
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220905/jishuniao.32jft2j7t560.png
+          logo: 技术鸟.png
           url: https://jishuniao.com
           description: 免费游戏、软件下载、活动线报、网站源码、网络课程、影视等资源共享
 
@@ -4101,7 +4097,7 @@
     - term: 下载·安卓
       links:
         - title: texhocea-海纳百川
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.2pl7ms6yhqg0.png
+          logo: 海纳百川.png
           url: https://texhocean.com
           description: 精品破解安卓下载站
         - title: 翻应用
@@ -4206,7 +4202,7 @@
           url: https://www.wepe.com.cn/download.html
           description: 微PE工具箱
         - title: HelloWindows
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220830/jgsQJoG6WIAwCdTlb1GxNPBTH75pAAAAAElFTkSuQmCC.61eq16aa46s0.png
+          logo: hellowin.png
           url: https://hellowindows.cn/
           description: 精校 完整 极致 Windows系统下载仓储站
         - title: 爱纯净
@@ -4256,23 +4252,23 @@
           url: http://lackar.com/aa/
           description: 综合设计类导航
         - title: linkfind
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220830/linkfind.64f4r2gkep80.png
+          logo: linkfind.png
           url: https://linkfind.cn/
           description: LinkFind是一个优质资源聚合社区，我们希望通过推荐优质的资源来帮助用户提升工作效率。
         - title: 我的书签
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220830/itcxy.6ey4bgcu6dg0.png
+          logo: itcxy.png
           url: https://it-cxy.top
           description: 超多丰富的网站收录
         - title: 喜欢书签
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220830/likebookmark.58l0e8o3iqo0.png
+          logo: likebookmark.png
           url: https://www.likebookmark.com/
           description: 喜欢书签找网站更简单
         - title: 蜗牛小站
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220905/蜗牛.1oiq9adpwbpc.png
+          logo: 蜗牛.1oiq9adpwbpc.png
           url: https://www.woniu6.top/
           description: 一个清新的工具导航资源入口，简洁干净，为您提供搜索、在线影视、免费电影、音乐搜索、音乐下载、实用工具，小游戏、视频影视、音乐音频、动画动漫、体育赛事、生活购物、学习阅读、设计开发、办公工具和在线直播等各种分类的优秀内容。
         - title: AlleyRead
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220910/newsletter.1iwacgz55vhc.png
+          logo: allkey.png
           url: https://alleyread.com/
           description: Newsletter 导航站
 
@@ -4434,67 +4430,67 @@
           url: https://zh.altapps.net/
           description: 帮助您找到软件和应用程序的更好替代品
         - title: 无涯教程网
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/21342.3hgusuvr25o0.png
+          logo: 无涯.png 
           url: https://www.learnfk.com
           description: 无涯教程网提供程序员在线零基础学IT编程技术教程。包括Javascript、MySQL、PHP、Python、Java、HTML5、Go语言等入门基础教程
         - title: hellocjc
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.znvzi33k5og.png
+          logo: znvzi33k5og.png
           url: https://www.hellocjc.com
           description: 虚幻4免费教程站
         - title: 中文播客榜
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220821/image.5782odvbuf80.png
+          logo: 播客榜.png
           url: https://xyzrank.com
           description: 中文播客榜
         - title: 像素画分享站
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220906/xxx.3xmz3diyrqm0.png
+          logo: 像素分享.png
           url: https://hello.eboy.com
           description: 像素画分享站
         - title: 慧语简报
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220826/image.2vb3lxuipvw0.jpg
+          logo: 慧简报.jpg
           url: https://news.topurl.cn
           description: 慧语简报，每日更新新资讯
         - title: JustLive
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/image.6wf3vz45ir40.png
+          logo: justlive.png
           url: http://live.yj1211.work
           description: 聚合直播平台，b站、斗鱼、虎牙综合直播
         - title: 文心一格AI作画
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.3zzjzsnit1a0.png
+          logo: 一格.png
           url: https://yige.baidu.com
           description: 百度旗下ai作画平台
         - title: 365实时热榜
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.4cmy91c37t80.png
+          logo: 365热榜.png
           url: https://hot.primo.wiki
           description: 365实时热榜
         - title: 一起听播客
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.37sl6mdxtc00.png
+          logo: 37sl6mdxtc00.png
           url: https://fm.lemonsjtu.cn
           description: 创建房间邀请好友一起实时在线听播客
         - title: 6pen
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.4uoinwycbpy0.png
+          logo: 4uoinwycbpy0.png
           url: https://6pen.art
           description: 基于AI技术，从文本描述生成绘画艺术作品
         - title: 大疆无人机在线飞行
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.d9dbbvkdjhk.png
+          logo: d9dbbvkdjhk.png
           url: https://start.dji.com
           description: 大疆无人机在线飞行模拟器
         - title: Effidit
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.45jmtzs81dc0.png
+          logo: 45jmtzs81dc0.png
           url: https://effidit.qq.com
           description: AI智能创作助手
         - title: 开发者简报
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220910/xxx.5t33hxqi3h00.png
+          logo: xxx.5t33hxqi3h00.png
           url: https://dev.com.cn/
           description: 每周为你轻简读技术创业、酷产品、编程语言、开发工具、DevOps…等内容
         - title: 发现产品
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220910/xxx.1rud2nj2icow.png
+          logo: xxx.1rud2nj2icow.png
           url: https://fxcp.info
           description: 收集一些有意思的创意和产品
         - title: 杂志天下
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220930/杂志.6sfn96v3k4k0.png
+          logo: 杂志.6sfn96v3k4k0.png
           url: http://www.fuyoutech.club
           description: 杂志期刊在线阅读
         - title: 匿名墙
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220930/shu.caihnmz7i0g.png
+          logo: shu.caihnmz7i0g.png
           url: https://www.nimingqiang.com
           description: 树洞小秘密，聆听你的心声！
 
