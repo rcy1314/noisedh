@@ -1752,122 +1752,122 @@
     - term: 云盘搜索
       links:
         - title: 易搜
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.50h9fq6op800.jpg
+          logo: 易搜.jpg
           url: https://yiso.fun
           description: 努力做最好用的云盘资源搜索引擎！
         - title: 小纸条
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.2ct6rwhp15no.png
+          logo: 小纸条.png
           url: https://u.gitcafe.net
           description: 开放纯粹的资源网站
         - title: 咔帕搜索
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.1h7twb20v6yo.png
-          url: https://www.cuppaso.fun/
+          logo: 咔帕搜索.png
+          url: https://www.cuppaso.fun
           description: 坚持用心做最简单的夸克云盘资源搜索引擎，并且永久免费使用无广告做绿色搜索引擎！
         - title: 奈斯搜索
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/logo.3dbokpu0x0i0.jpg
+          logo: 奈斯搜索.jpg
           url: https://www.niceso.fun
           description: 坚持做最好用的阿里云盘资源搜索引擎，服务你我他，深藏功与名！
         - title: 猫狸盘搜
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.4a8w6gg3nj40.jpg
+          logo: 猫狸盘搜.jpg
           url: https://www.alipansou.com
           description: 阿里云盘搜索
         - title: UPanSou
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.png
+          logo: UPanSou.png
           url: https://disk.upanso.com/search
           description: 优盘搜官网
         - title: 微贴网云盘搜索
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.1lxabzwrn05c.png
+          logo: 微贴.png
           url: https://www.weitiewang.com/
           description: 云盘搜索
         - title: verypan
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.xwh72xf754w.png
+          logo: verypan.png
           url: http://www.verypan.com
           description: verypan是一个极易搜索网站
         - title: 超能搜
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.1p0y0zzpnn40.png
+          logo: 超能搜.png
           url: https://www.chaonengsou.com
           description: 聚合类云盘搜索
         - title: 小鸟搜索
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.6ijaywr3f7s0.png
+          logo: 小鸟搜索.png
           url: https://www.birdiesearch.com
           description: 小鸟云盘搜索
         - title: 毕方铺
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.33jdmgr1aos0.png
+          logo: 毕方铺.png
           url: https://www.iizhi.cn
           description: 毕方铺云盘搜索
         - title: 飞鱼盘搜
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.i6zyl5driqo.png
+          logo: 飞鱼盘搜.png
           url: http://feiyu100.cn
           description: 飞鱼盘搜
         - title: UP云搜
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220820/image.4h67dbv8pji0.png
+          logo: UP云搜.png
           url: https://www.upyunso.com
           description: 阿里云盘搜索
         
     - term: 云盘存储
       links:
         - title: 百度云盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/baidu.2dvor78fbafw.png
+          logo: 百度云盘.png
           url: https://pan.baidu.com/
           description: 百度云盘
         - title: 天翼云盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/tianyi.49o48xd9zk80.png
+          logo: 天翼云盘.png
           url: https://cloud.189.cn/
           description: 天翼云盘
         - title: 移动云盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.24tvbv39wdcw.png
+          logo: 移动云盘.png
           url: https://yun.139.com
           description: 移动云盘
         - title: onedrive
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/onedrive.4crrxxg82gm0.png
+          logo: OneDrive.png
           url: https://onedrive.live.com/
           description: onedrive
         - title: 谷歌云盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.370tkths53o0.png
+          logo: 谷歌云盘.png
           url: https://drive.google.com/
           description: 谷歌云盘
         - title: 迅雷云盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.5js4ey65i980.png
+          logo: 迅雷云盘.png
           url: https://pan.xunlei.com/
           description: 迅雷云盘
         - title: degoo云盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/apple-touch-icon-152x152.5wf0y564tg40.png
+          logo: degoo云盘.png
           url: https://app.degoo.com
           description: degoo云盘
         - title: 腾讯微云
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.5js4ey65i980.png
+          logo: 腾讯微云.png
           url: https://www.weiyun.com
           description: 腾讯微云
         - title: 小飞机网盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.3o1nterma3w0.png
+          logo: 小飞机网盘.png
           url: https://www.feijipan.com
           description: 上传下载不限速、一键转存分享文件，转存文件无上限、小说Office文件免登陆/注册/下载客户端；支持在线预览Office文件、在线播放无损视频、音频。
         - title: pikpak
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/xxx.14z7cieevc1s.png
+          logo: pikpak.png
           url: https://mypikpak.com
           description: 免费6g不限速
         - title: 小米云盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/favicon_new.1ks86xw9dpa8.png
+          logo: 小米云盘.png
           url: https://account.xiaomi.com
           description: 小米云盘
         - title: 蓝奏云盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/lanzou.5gmaqjhfeyc0.png
+          logo: 蓝奏云盘.png
           url: https://pc.woozooo.com
           description:  蓝奏云盘
         - title: 超星云盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/chao.6tomkbrgnhg.png
+          logo: 超星云盘.png
           url: http://pan-yz.chaoxing.com
           description: 超星云盘
         - title: 123云盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220927/123.3hczxtqkb9o.png
+          logo: 123云盘.png
           url: https://www.123pan.com/
           description: 123云盘
         - title: 阿里云盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220928/xxx.8m2v2w1jwa4.png
+          logo: 阿里云盘.png
           url: https://www.aliyundrive.com
           description: 阿里云盘
         - title: 夸克云盘
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220928/kua.6rd8tjjs7gc0.png
+          logo: 夸克云盘.png
           url: https://pan.quark.cn
           description: 夸克云盘
         
@@ -2061,11 +2061,11 @@
           url: https://learnku.com
           description: 编程论坛
         - title: 智源社区
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220828/image.1jayi8zfxjkw.png
+          logo: 智源社区.png
           url: https://hub.baai.ac.cn
           description: ai智能社区
         - title: Rebase
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/beepress0-1563189283.1noehln11o3k.png
+          logo: Rebase.png
           url: https://rebase.network
           description: Rebase 是由中国的 Web3.0 开发者们在业余时间凭热爱建立的开发者社区。 Rebase 是一个极客组织，致力于帮助极客更好地利用科技创新，推动社会变革
 
@@ -2829,7 +2829,7 @@
           url: http://www.inode.club/
           description: 专注 Node.js 技术栈分享，从 前端 到 Node.js 再到 后端数据库
         - title: Knowledge Planet-知识分享
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220928/typoraimage-20220326203849385.22z40q4ootuo.png
+          logo: Jimmy.png
           url: http://www.jimmyxuexue.top
           description: Jimmy- 知识星球
     - term: notion站点
@@ -3241,7 +3241,7 @@
           url: https://itch.io
           description: 独立游戏爱好者必备网站，独立游戏制作、上传、售卖、社区交流
         - title: 多人在线网页游戏站
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220821/image.2g31sanm0sbo.png
+          logo: 多人在线网页游戏站.png
           url: https://www.crazygames.com
           description: 摸鱼多人在线网页游戏站     
         
@@ -3412,7 +3412,7 @@
           url: https://www.pseudoyu.com/zh/
           description: Yu Zhang的个人博客
         - title: lindavid	
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20220829/heart-broken.3c2e0fe0nqu0.png
+          logo: lindavid.png
           url: http://www.lindavid.cn/
           description: 超多技术文章，软件mac资源分享
         - title: 小妖精博客
