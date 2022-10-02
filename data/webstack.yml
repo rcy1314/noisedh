@@ -2832,6 +2832,10 @@
           logo: Jimmy.png
           url: http://www.jimmyxuexue.top
           description: Jimmy- 知识星球
+        - title: 查尔斯的知识库
+          logo: charles7c.png
+          url: https://blog.charles7c.top
+          description: 个人知识库，记录和分享个人碎片化、结构化、体系化的知识内容
     - term: notion站点
       links:
         - title: Harumonia
@@ -4493,5 +4497,21 @@
           logo: shu.caihnmz7i0g.png
           url: https://www.nimingqiang.com
           description: 树洞小秘密，聆听你的心声！
+        - title: Make-A-Video
+          logo: metavideo.png
+          url: https://makeavideo.studio
+          description: 让一句话一段文字变成视频
+        - title: YouTube镜像
+          logo: yoube.png
+          url: https://redirect.invidious.io
+          description: YouTube镜像
+        - title: nitter实例-监测
+          logo: nitter.png
+          url: https://xnaas.github.io/nitter-instances/
+          description: nitter实例-Twitter镜像
+        - title: Zhelper-V3网址列表
+          logo: o2b4p.png
+          url: https://v3.zhelper.net
+          description: 电子书库Zhelper可用网址列表
 
 
