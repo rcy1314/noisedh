@@ -741,27 +741,27 @@
           description: 视剧&电影线上看，免费平台播放Netflix,Apple tv
         - title: 电影先生
           logo: dianying.im.ico
-          url: http://dianying.im/
-          description: 聚合全网高清影视
+          url: https://www.dianyi.ng
+          description: 官方域名：DianYi.ng/Www.DianYi.ng ；备用：电影先生.Com/DianYing.XianShe.ng
         - title: 大师兄影视
           logo: dsxys.com.ico
           url: https://dsxys.com/
           description: 高清片源影视站
         - title: 555影视
           logo: www.o8tv.com.ico
-          url: https://www.o8tv.com
+          url: https://www.555kan.net
           description: 在线影视门户
         - title: 厂长资源
           logo: www.qianoo.cn.ico
-          url: https://www.qianoo.cn
-          description: 质量很不错的综合类在线影视站
+          url: https://www.czspp.com
+          description: 质量很不错的综合类在线影视站，备用域名WWW.CZZY.TV
         - title: 哔嘀影视
           logo: bde4.com.ico
           url: https://bde4.com
           description: 提供下载和在线播放
         - title: 片库
           logo: www.pianku.tv.ico
-          url: https://www.pianku.tv
+          url: https://www.pkmp4.com
           description: 质量相当不错的影视门户
         - title: 电影牛
           logo: www.dianyingn.com.ico
@@ -779,10 +779,10 @@
           logo: www.i8k.cc.ico
           url: https://www.i8k.cc
           description: 4K极客影院在线播放
-        - title: 嘀哩影视
+        - title: 星空影视
           logo: diliktv.com.ico
-          url: http://diliktv.com
-          description: 会员影视免费看
+          url: https://xkys123.com
+          description: 备用网址xkys1.com、xkys2.com、xkys.tv、xkysmv.com、xkyso.com、xkys.ee 
         - title: 中国高清网
           logo: www.cnmkv.com.ico
           url: https://www.cnmkv.com/
@@ -949,6 +949,10 @@
           logo: 樱花动漫.jpg
           url: https://yhdm6.top
           description: 樱花动漫
+        - title: 路漫漫在线动漫
+          logo: 路漫漫.png
+          url: https://www.92cj.com
+          description: 在线动画,日本动漫,国产动漫,动漫免费在线
    
 - taxonomy: 永硕E盘
   icon: fas fa-tree
@@ -1870,6 +1874,10 @@
           logo: 夸克云盘.png
           url: https://pan.quark.cn
           description: 夸克云盘
+        - title: 115云盘
+          logo: 115.png
+          url: https://115.com
+          description: 115云盘
         
 - taxonomy: 社区论坛
   icon: fas fa-users fa-lg
@@ -2836,6 +2844,10 @@
           logo: charles7c.png
           url: https://blog.charles7c.top
           description: 个人知识库，记录和分享个人碎片化、结构化、体系化的知识内容
+        - title: OSLAW知识库
+          logo: oslaw.png
+          url: https://nervworkspace.feishu.cn/wiki/wikcnMPtW5iaaNPYa7cVwh8xzKe
+          description: OSLAW知识库是一个面向法律人的知识管理库。通过结构化沉淀高价值信息，形成与法律相关的完整知识体系。
     - term: notion站点
       links:
         - title: Harumonia
@@ -3247,7 +3259,11 @@
         - title: 多人在线网页游戏站
           logo: 多人在线网页游戏站.png
           url: https://www.crazygames.com
-          description: 摸鱼多人在线网页游戏站     
+          description: 摸鱼多人在线网页游戏站
+        - title: 奶牛关
+          logo: 奶牛关.png
+          url: https://cowlevel.net
+          description: 玩游戏就要有追求     
         
     - term: 独立博客
       links:
