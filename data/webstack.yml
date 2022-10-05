@@ -662,10 +662,10 @@
           logo: abletive.ico
           url: http://www.abletive.com/
           description: abletive电子音乐社区
-        - title: Noise Music
+        - title: vuetify Music
           logo: noisemusic.png
-          url: http://www.noisemusic.cn/
-          description: Noise音乐站
+          url: https://noisemusic.netlify.app/
+          description: 音乐站
         - title: 热门TikTok歌曲
           logo: rementiktok.png
           url: https://tokboard.com
