@@ -93,7 +93,7 @@
         - title: 分秒帧
           logo: 分秒帧.jpg
           url: https://app.mediatrack.cn
-          description: 在线协作审片平台，无限协作容量，还有大容量个人网盘加持
+          description: 在线协作审片平台
         - title: CG说
           logo: www.cgshuo.com.ico
           url: http://www.cgshuo.com
@@ -670,6 +670,10 @@
           logo: rementiktok.png
           url: https://tokboard.com
           description: 一周热门TikTok歌曲
+        - title: midishow
+          logo: midishow.png
+          url: https://www.midishow.com
+          description: 查找MIDI音乐
 
     - term: 媒体平台
       links:
@@ -4295,6 +4299,19 @@
           logo: allkey.png
           url: https://alleyread.com/
           description: Newsletter 导航站
+        - title: DAC导航
+          logo: DAC导航.png
+          url: https://nwuzmed.ga
+          description: 丰富的网址导航
+        - title: 安杰聚合搜索导航
+          logo: 安杰聚合搜索导航.png
+          url: https://aunger.cf
+          description: 安杰聚合搜索导航
+        - title: 乱红如雨
+          logo: 乱红如雨.png
+          url: http://info.lhqs.ink
+          description: 支持「标签导航」 与 「聚合搜索」的个人站点.
+
     - term: 科学机场
       links:
         - title: 科学基地
