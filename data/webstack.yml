@@ -1138,7 +1138,11 @@
         - title: X
           logo: yongshuo.png
           url: http://yxxang.ysepan.com
-          description: 网址书签库             
+          description: 网址书签库  
+        - title: 是个阿叔杂货铺（设计导航）
+          logo: yongshuo.png
+          url: http://thislinda.ysepan.com
+          description: 设计网址书签库            
     - term: 永硕·软件文件类
       links:
         - title: 一些软件文件
@@ -2848,6 +2852,10 @@
           logo: oslaw.png
           url: https://nervworkspace.feishu.cn/wiki/wikcnMPtW5iaaNPYa7cVwh8xzKe
           description: OSLAW知识库是一个面向法律人的知识管理库。通过结构化沉淀高价值信息，形成与法律相关的完整知识体系。
+        - title: cl的前端果乐园
+          logo: cl的前端果乐园.png
+          url: https://clozz-lin.github.io
+          description: 前端知识库
     - term: notion站点
       links:
         - title: Harumonia
@@ -4283,15 +4291,37 @@
           logo: likebookmark.png
           url: https://www.likebookmark.com/
           description: 喜欢书签找网站更简单
-        - title: 蜗牛小站
-          logo: 蜗牛.1oiq9adpwbpc.png
-          url: https://www.woniu6.top/
-          description: 一个清新的工具导航资源入口，简洁干净，为您提供搜索、在线影视、免费电影、音乐搜索、音乐下载、实用工具，小游戏、视频影视、音乐音频、动画动漫、体育赛事、生活购物、学习阅读、设计开发、办公工具和在线直播等各种分类的优秀内容。
         - title: AlleyRead
           logo: allkey.png
           url: https://alleyread.com/
           description: Newsletter 导航站
-
+    - term: 科学机场
+      links:
+        - title: 科学基地
+          logo: vpngo.jpg
+          url: https://scicentre.io/#/register?code=ybO5SOZ8
+          description: 稳定，价格适中，不限制客户端数量
+        - title: 飞云
+          logo: vpngo.jpg
+          url: https://fyun.cf/auth/register?code=y5XW
+          description: 价格适中，稳定，高速，不限制客户端数量
+        - title: 大机场
+          logo: vpngo.jpg
+          url: https://xn--mesr8b36x.company
+          description: （最便宜）官网国内入口：大机场.company 大机场.business官网国际入口：大机场.com 大机场.ne
+        - title: walless
+          logo: vpngo.jpg
+          url: https://portal.wallless.xyz
+          description: 价格便宜，稳定
+        - title: 羊圈
+          logo: vpngo.jpg
+          url: https://mielink.com
+          description: 价格贵但稳
+        - title: Element lite
+          logo: vpngo.jpg
+          url: https://lite.yuansu.app
+          description: 价格便宜，稳定
+        
     - term: TG·BOT·相关
       links:
         - title: Download_it_bot
@@ -4533,5 +4563,9 @@
           logo: o2b4p.png
           url: https://v3.zhelper.net
           description: 电子书库Zhelper可用网址列表
+        - title: 码力全开
+          logo: 码力全开.png
+          url: https://design.maliquankai.com
+          description: 汇集产品、设计、独立开发者的高质量资源站
 
 
