@@ -7,18 +7,18 @@
       logo: binoculars.jpg
       url: https://efficiencyfollow.notion.site
       description: Efficiency-Notion主页
-    - title: NV资源网
+    - title: RSS阅读feed
       logo: 漫1.jpg
-      url: https://noisevip.cn
+      url: https://rcy1314.github.io/news/
       description: 综合资源收录站
     - title: Noise知识效率集
       logo: 漫2.jpg
       url: https://www.noisesite.cn
       description: notion知识库
-    - title: Tg频道
+    - title: Acting
       logo: 漫3.jpg
-      url: https://t.me/quanshoulu
-      description: 站点关联tg频道。
+      url: https://acting.efficiencyfollow.repl.co
+      description: 沙箱内解除被封锁的网络，备用地址：https://noise-proxy.efficiencyfollow.repl.co
     - title: Noise资源库
       logo: 漫4.jpg
       url: http://www.noiseyp.top
