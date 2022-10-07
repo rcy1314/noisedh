@@ -2860,6 +2860,10 @@
           logo: cl的前端果乐园.png
           url: https://clozz-lin.github.io
           description: 前端知识库
+        - title: Butterfly主题美化教程
+          logo: Butterfly主题美化教程.png
+          url: https://butterfly.zhheo.com
+          description: 让每个人轻松的自定义自己的博客
     - term: notion站点
       links:
         - title: Harumonia
@@ -3451,6 +3455,14 @@
           logo: 小妖精博客.png
           url: http://www.xyjwangluo.com/
           description: 网络资源技术免费分享
+        - title: 小康博客
+          logo: 小康博客.png
+          url: https://www.antmoe.com
+          description: 一个收藏回忆与分享技术的地方！
+        - title: WangScaler
+          logo: WangScaler.png
+          url: https://blog.wangscaler.com/
+          description: wangscaler blog
         
     - term: 优质播客
       links:
@@ -4584,5 +4596,9 @@
           logo: 码力全开.png
           url: https://design.maliquankai.com
           description: 汇集产品、设计、独立开发者的高质量资源站
+        - title: 思奥FM
+          logo: 思奥FM.png
+          url: https://sao.fm
+          description: 专门为忙碌的年轻人量身打造的轻量型音频及电台收听平台，内容包括全球主流电台流媒体以及各种风格流派的音乐电台播放收听服务，让用户在使用过程中，找到朋友般陪伴的感觉，用不一样的方式与这个世界沟通。
 
 
