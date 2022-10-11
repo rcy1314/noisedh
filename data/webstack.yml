@@ -3984,9 +3984,9 @@
 
     - term: 下载·MAC
       links:
-        - title: MACWK
-          logo: macwk.jpg
-          url: https://macwk.com
+        - title: Mhero
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221012/xxx.3zuj7robkyg0.png
+          url: https://www.mhero.com
           description: 精品MAC软件下载
         - title: 黑苹果屋
           logo: 黑苹果屋.png
@@ -4056,6 +4056,22 @@
           logo: 17141406376.4froxqs8c0i0.png
           url: https://www.xxmac.com
           description: 精选MAC软件下载
+        - title: 我爱mac
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221012/52mac.2z5n0cge1wa0.png
+          url: https://www.52mac.com
+          description: MAC软件下载
+        - title: okaapps
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221012/okaapps.407c0zfiwuq0.png
+          url: https://zh.okaapps.com
+          description: 精选MAC软件下载
+        - title: MacYY
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221012/MACYY.6oyskjra29c0.png
+          url: https://www.macyy.cn
+          description: MAC软件下载
+        - title: Mac软件清单
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221012/xxx.2sjngjqpd3m0.png
+          url: https://github.com/qianguyihao/Mac-list
+          description: github上的Mac软件清单推荐
 
     - term: 下载·PC·综合
       links:
@@ -4143,6 +4159,14 @@
           logo: 技术鸟.png
           url: https://jishuniao.com
           description: 免费游戏、软件下载、活动线报、网站源码、网络课程、影视等资源共享
+        - title: digit77
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221012/logo.1wtdchh6hf8g.svg
+          url: https://www.digit77.com
+          description:  MAC、win、安卓综合软件下载
+        - title: x1g.la
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221012/xxx.3pmyu2f7wus0.png
+          url: https://x1g.la
+          description:  MAC、win、安卓综合软件下载
 
 
 
