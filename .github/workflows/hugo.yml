@@ -1,0 +1,32 @@
+# Sample workflow for building and deploying a Hugo site to GitHub Pages
+name: Deploy Hugo site to Pages
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-deploy:
+#    runs-on: ubuntu-20.04
+    runs-on: macos-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v2
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+#          hugo-version: "latest" # 可以修改为你使用的 Hugo 版本
+          hugo-version: "0.88.1" #
+          extended: true # 设置是否需要 extended 版本
+
+      - name: Build
+        run: hugo
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }} # 另外还支持 deploy_token 和 github_token
+          external_repository: rcy1314/daohang.github.io # 修改为你的 GitHub Pages 仓库
+          publish_dir: ./docs
+#          keep_files: false
+          publish_branch: master
