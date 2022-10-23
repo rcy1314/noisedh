@@ -351,6 +351,14 @@
           logo: AI转换.ico
           url: https://www.zaixianai.cn
           description: 语音合成，语音转文字
+        - title: 微软AI语音
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/toolb.2t6eabk4u8q0.png
+          url: https://toolb.cn/textspeech
+          description: 语音合成，语音转文字
+        - title: 声咖
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/声咖.7ktb3trgqcw0.png
+          url: https://shengka.ai.sogou.com
+          description: 语音合成，文本情感配音，专属配音定制
 
     - term: 无版权图库
       links:
@@ -725,7 +733,87 @@
           logo: Pinterest.png
           url: https://www.pinterest.com
           description: 全球设计创意灵感
-     
+        - title: 视云鹤
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/image.15oic54wk68w.png
+          url: http://www.videospread.biz
+          description: 自媒体平台一键发布
+        - title: 蚁小二
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/image.6yggp05q86o0.png
+          url: https://cpc.yixiaoer.cn
+          description: 自媒体平台一键发布
+        - title: 网易云音乐创作者中心
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/云音乐.2pmhprxylje0.png
+          url: https://music.163.com/st/ncreator
+          description: 网易云音乐创作者中心
+
+    - term: AI云剪辑
+      links:
+        - title: 闪剪
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/闪剪.3rci9x94b100.png
+          url: https://my.shanjian.tv
+          description: 直播切片、图文快剪
+        - title: 腾讯云创
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/腾讯云创.3of5fx42ewu0.png
+          url: https://app.v.tencent.com
+          description: 直播转推，直播转博，视频素材库、文件分享、直播剪辑、素材直播
+        - title: 来画
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/来画.1podo3gzpo80.png
+          url: https://www.laihua.com
+          description: 虚拟直播人、智能AI动画、在线白板
+        - title: 阿里云剪辑
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/阿里云.vopzkvefvxc.png
+          url: https://ice.console.aliyun.com/production/editing/list/videoEditing
+          description: 智能媒体服务，按照剪辑合成的成片时长计费
+        - title: 一帧秒创
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/image.2ojzqiqniog0.png
+          url: https://aigc.yizhentv.com
+          description: 文案生成自动匹配画面视频、文章链接生成视频、字幕大师【youtube】
+        - title: 票圈
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/票.3b828t45d9s0.png
+          url: https://www.piaoquantv.com
+          description: 文案转视频【支持公众号】输入文案手动选择素材生成ai配音视频
+        - title: 集阅
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/集阅.61ywp5gn1fg0.png
+          url: https://v.neobai.com
+          description: AI视频分割、媒体素材池【支持私有、公有频道化分享】
+        - title: 美摄
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/美.1ql2ief0l0kg.png
+          url: https://editor.meishesdk.com
+          description: 虚拟主播、直播切片、AI录制、智能剪辑
+        - title: 阅流
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/阅流.612ey2e2keg0.png
+          url: https://www.yueliu.cn
+          description: 在线审片、软硬件直播推流、文件拷贝
+        - title: 哔哩哔哩云剪辑
+          logo: 哔哩哔哩.jpg
+          url: https://member.bilibili.com/studio/bs-editor/projects
+          description: 在
+        - title: 抖音云剪辑
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/douyin.7525lz2a37w0.png
+          url: https://creator.douyin.com/creator-micro/content/material/manage
+          description: 抖音云剪辑
+        - title: 快手云剪辑
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/k_edit_logo.xn4g9izsmi8.png
+          url: https://onvideo.kuaishou.com
+          description: 快手云剪辑
+        - title: 微博云剪
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/weibo.349kimgevbg0.png
+          url: https://jian.weibo.com
+          description: 微博云剪
+        - title: clipchamp
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/icon-144x144.5ngk1jwlvd80.png
+          url: https://clipchamp.com/zh-hans/
+          description: clipchamp云剪
+        - title: 喜玛拉雅云剪辑
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/喜玛拉雅.14308a69izgg.png
+          url: https://www.ximalaya.com/audioedit
+          description: 纯音频在线剪辑
+        - title: 新简
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/新.2pfsoc98ask0.png
+          url: https://editor.ixinjian.com
+          description: 新片场在线剪辑
+
+
 - taxonomy: 影视片场
   icon: far fas fa-tape
   list:
