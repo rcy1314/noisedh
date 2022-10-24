@@ -963,6 +963,10 @@
           logo: 可乐影视.jpg
           url: http://klyingshi.com
           description: 综合影视大全，在线影视网站
+        - title: 追影猫
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221024/追.56i9yt0fzbg0.png
+          url: https://zhuiyingmao.com
+          description: 最全电影、电视剧、综艺、动漫、纪录片等影视资源
     - term: 动漫番剧
       links:
         - title: 哔哩哔哩
