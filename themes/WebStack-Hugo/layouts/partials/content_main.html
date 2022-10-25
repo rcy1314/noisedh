@@ -2,7 +2,8 @@
     {{ range .Site.Data.webstack }}
         {{ if .list }}
             {{ range .list }}
-	
+	    <!--正文网址导航--》
+            <!-- {{ .term }} -->
             <div class="d-flex flex-fill">
                 <h4 class="text-gray text-lg mb-4">
                     <i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 .term }}"></i>
@@ -19,17 +20,32 @@
 			<!--去除 Tooltip
                         <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4" title="{{ .title }}">
 			去除 Tooltip -->
+			{{ if .qrcode }}
+			<a href="javascript:" target=""
+                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
+                        {{ else }}
                         <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}"
                             class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
+			{{ end }}
                             <div class="card-body">
                                 <div class="url-content d-flex align-items-center">
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">
                                         {{ if findRE "http.*?(.|\n)*?" .logo }}
-                                        <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
-                                            onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}">
+					    {{ if $.Site.Params.defaultLogo }}
+                                            <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
+                                                onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
+					    {{ else }}
+					    <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
+                                                onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}">
+					    {{ end }}
                                         {{ else }}
-                                        <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
-                                            onerror="javascript:this.src='{{ $.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
+					    {{ if $.Site.Params.defaultLogo }}
+					    <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
+                                                onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
+					    {{ else }}
+                                            <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
+                                                onerror="javascript:this.src='{{ $.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
+					    {{ end }}
                                         {{ end }}
                                     </div>
                                     <div class="url-info flex-fill">
@@ -60,7 +76,8 @@
                     <i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 .taxonomy }}"></i>
                     {{ .taxonomy }}
                 </h4>
-                
+                <!--div class="flex-fill"></div>
+                <a class='btn-move text-xs' href='#'>more+</a-->
             </div>
             <!--获取内容列表-->
             <div class="row">
@@ -70,17 +87,32 @@
 			<!--去除 Tooltip
 			<a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4" title="{{ .title }}">
 			-->
+			{{ if .qrcode }}
+			<a href="javascript:" target=""
+                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
+                        {{ else }}
                         <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" 
                             class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
+			{{ end }}
                             <div class="card-body">
                                 <div class="url-content d-flex align-items-center">
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">
                                         {{ if findRE "http.*?(.|\n)*?" .logo }}
-                                        <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
-                                            onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}">
+					    {{ if $.Site.Params.defaultLogo }}
+					    <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
+                                                onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
+					    {{ else }}
+                                            <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}"
+                                                onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}">
+					    {{ end }}
                                         {{ else }}
-                                        <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
-                                            onerror="javascript:this.src='{{ $.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
+					    {{ if $.Site.Params.defaultLogo }}
+                                            <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
+                                                onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
+					    {{ else }}
+                                            <img class="lazy" src="{{ $.Site.Params.logosPath }}/{{ .logo }}" data-src="{{ $.Site.Params.logosPath }}/{{ .logo }}"
+                                                onerror="javascript:this.src='{{ $.Site.Params.logosPath }}/{{ .logo }}'" alt="{{ .title }}">
+					    {{ end }}
                                         {{ end }}
                                     </div>
                                     <div class="url-info flex-fill">

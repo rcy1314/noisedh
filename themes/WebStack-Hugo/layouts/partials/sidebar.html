@@ -60,8 +60,12 @@
     </div>
     {{ end }}
     <div class="page-container">
+	{{ if $.Site.Params.expandSidebar }}
+	<div id="sidebar" class="sticky sidebar-nav fade animate-nav" style="width: 170px">
+        {{ else }}
         <div id="sidebar" class="sticky sidebar-nav fade mini-sidebar" style="width: 60px;">
-            <div class="modal-dialog h-100  sidebar-nav-inner">
+	{{ end }}
+            <div class="modal-dialog h-100 sidebar-nav-inner">
                 <div class="sidebar-logo border-bottom border-color">
                     <!-- logo -->
                     <div class="logo overflow-hidden">
@@ -87,7 +91,7 @@
                                 {{ range .Site.Data.webstack }}
                                     {{ if .list }}
                                     <li class="sidebar-item">
-                                        <a href="javascript:;" class="smooth change-href" data-change="{{ .taxonomy }}">
+                                        <a href="#{{ range first 1 .list }}{{ md5 .term }}{{ end }}" class="smooth change-href" data-change="#{{ range first 1 .list }}{{ md5 .term }}{{ end }}">    
                                             <i class="{{ .icon }} icon-fw icon-lg mr-2"></i>
                                             <span>{{ .taxonomy }}</span>
                                             <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>

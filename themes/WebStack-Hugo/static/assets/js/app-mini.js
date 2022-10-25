@@ -340,7 +340,7 @@
         }
         else if($(window).width() < 767.98 && $('#sidebar').hasClass('mini-sidebar')){
             $('#sidebar').removeClass('mini-sidebar');
-            //221024: 调整左导航展开时,点击图标锚定定位失效
+	    //221024: 调整左导航展开时,点击图标锚定定位失效
             //$('.sidebar-nav .change-href').attr('href','javascript:;');
             isMobileMin = true;
             isMin = false;
@@ -367,29 +367,24 @@
     });
     //菜单栏最小化
     $('#mini-button').on('click',function(){
-        console.log('start trigger_lsm_mini');
-        trigger_lsm_mini(true);
+        trigger_lsm_mini(false);
 
     });
     function trigger_lsm_mini(isNoAnim){
-        if (!$('.header-mini-btn input[type="checkbox"]').prop("checked")) {
+        if ($('.header-mini-btn input[type="checkbox"]').prop("checked")) {
             $('.sidebar-nav').removeClass('mini-sidebar');
 	    //221024: 调整左导航展开时,点击图标锚定定位失效
             //$('.sidebar-nav .change-href').attr('href','javascript:;');
             $('.sidebar-menu ul ul').css("display", "none");
-	    console.log('checked=true');
             if(isNoAnim){
-		console.log('isNoAnim=true');
                 $('.sidebar-nav').removeClass('animate-nav');
-                $('.sidebar-nav').width(170);
+                $('.sidebar-nav').width(220);
             }
             else{
-		console.log('isNoAnim=false');
                 $('.sidebar-nav').addClass('animate-nav');
                 $('.sidebar-nav').stop().animate({width: 170},200);
             }
         }else{
-            console.log('checked=false');
             $('.sidebar-item.sidebar-show').removeClass('sidebar-show');
             $('.sidebar-menu ul').removeAttr('style');
             $('.sidebar-nav').addClass('mini-sidebar');
