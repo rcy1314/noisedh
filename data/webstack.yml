@@ -90,10 +90,10 @@
           logo: cg99.ico
           url: https://www.cg99.com
           description: 专注全球CG设计行业，以CG模型为主的资源下载和分享平台
-        - title: 分秒帧
-          logo: 分秒帧.jpg
-          url: https://app.mediatrack.cn
-          description: 在线协作审片平台
+        - title: 斑斓魔法CG
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221027/blcg.4p6swepuwps0.png
+          url: https://www.blendermagic.cn
+          description: 专注于Blender的定时开源网站
         - title: CG说
           logo: www.cgshuo.com.ico
           url: http://www.cgshuo.com
@@ -812,6 +812,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/新.2pfsoc98ask0.png
           url: https://editor.ixinjian.com
           description: 新片场在线剪辑
+        - title: 分秒帧
+          logo: 分秒帧.jpg
+          url: https://app.mediatrack.cn
+          description: 在线协作审片平台
 
 
 - taxonomy: 影视片场
@@ -3130,6 +3134,10 @@
           logo: notion.png
           url: https://tagly.notion.site
           description: 丰富的知识库，包含职业指南、社区网站收录等等。
+        - title: 数字绘画
+          logo: notion.png
+          url: https://qiufeng.notion.site/qiufeng/06fab45ec290447ba41c3fd0f6e78fac
+          description: AI绘画平台收集及教程
         
     - term: 电子书库
       links:
@@ -4266,11 +4274,15 @@
         - title: digit77
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221012/logo.1wtdchh6hf8g.svg
           url: https://www.digit77.com
-          description:  MAC、win、安卓综合软件下载
+          description: MAC、win、安卓综合软件下载
         - title: x1g.la
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221012/xxx.3pmyu2f7wus0.png
           url: https://x1g.la
-          description:  MAC、win、安卓综合软件下载
+          description: MAC、win、安卓综合软件下载
+        - title: 哇哦菌
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221027/xxx.4ipjhuykhh20.png
+          url: https://www.waodown.com
+          description: 一个综合类软件下载站
 
 
 
@@ -4520,7 +4532,7 @@
         - title: pinterest_downloaderbot
           logo: Nerd_Robot.png
           url: https://t.me/pinterest_downloaderbot
-          description: pinterest_downloaderbot
+          description: pinterest下载bot
         - title: 贴纸下载bot
           logo: Nerd_Robot.png
           url: https://t.me/GIFDownloader_bot
@@ -4540,7 +4552,7 @@
         - title: TelegrmToNotionBot
           logo: Nerd_Robot.png
           url: https://t.me/TelegrmToNotionBot
-          description: TelegrmToNotionBot
+          description: Notion发送Bot
         - title: Music163bot
           logo: Nerd_Robot.png
           url: https://t.me/Music163bot
@@ -4593,6 +4605,18 @@
           logo: Nerd_Robot.png
           url: https://t.me/sssoou_resource
           description: 中文tg资源搜索
+        - title: 音乐识别bot
+          logo: Nerd_Robot.png
+          url: https://t.me/ziyotech_vkmusicbot
+          description: 音乐识别bot，可以发送音频、视频或歌词
+        - title: 音乐查找bot
+          logo: Nerd_Robot.png
+          url: https://t.me/Ziyotech_Vkmbot
+          description: 音乐查找bot，可以发送歌名、歌词、语音、TikTok地址
+        - title: instagram下载bot
+          logo: Nerd_Robot.png
+          url: https://t.me/ziyotech_instagram_downloaderbot
+          description: instagram下载bot
 
     - term: 探索发现
       links:
