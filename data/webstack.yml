@@ -640,7 +640,7 @@
           description: 在线音乐解密
         - title: 下歌吧
           logo: 下歌.ico
-          url: http://music.y444.cn/
+          url: https://music.y444.cn
           description: 下歌吧
         - title: 全网音乐
           logo: 全网音乐.ico
@@ -3563,10 +3563,6 @@
           logo: lindavid.png
           url: http://www.lindavid.cn/
           description: 超多技术文章，软件mac资源分享
-        - title: 小妖精博客
-          logo: 小妖精博客.png
-          url: http://www.xyjwangluo.com/
-          description: 网络资源技术免费分享
         - title: 小康博客
           logo: 小康博客.png
           url: https://www.antmoe.com
@@ -3575,6 +3571,10 @@
           logo: WangScaler.png
           url: https://blog.wangscaler.com/
           description: wangscaler blog
+        - title: 安知鱼
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221028/xxx.3uh8ymtn6540.png
+          url: https://anzhiy.cn
+          description: 生活明朗 万物可爱
         
     - term: 优质播客
       links:
@@ -3913,6 +3913,14 @@
           logo: 有个美工.jpg
           url: https://youge.art
           description: 强大的广告、封面作图神器
+        - title: Boardos
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221028/size.6ikaf2vltlc0.png
+          url: https://boardos.online
+          description: 多人在线实时白板协作系统
+        - title: 小妖精工具箱
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221028/image.23vsv294loqo.png
+          url: http://www.xyjwangluo.cn
+          description: 小妖精工具箱
         
     - term: 效率生产力
       links:
@@ -4207,6 +4215,10 @@
           logo: 果核剥壳.ico
           url: https://www.ghxi.com/
           description: 软件下载站
+        - title: 小众软件
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221028/Appinn-icon-152.2wp0ry6qscs0.jpg
+          url: https://www.appinn.com
+          description: 精品软件推荐下载
         - title: 分享者
           logo: 分享者.ico
           url: https://www.sharerw.com
@@ -4279,10 +4291,18 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221012/xxx.3pmyu2f7wus0.png
           url: https://x1g.la
           description: MAC、win、安卓综合软件下载
+        - title: 小妖精博客
+          logo: 小妖精博客.png
+          url: http://www.xyjwangluo.com/
+          description: 网络资源技术免费分享
         - title: 哇哦菌
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221027/xxx.4ipjhuykhh20.png
           url: https://www.waodown.com
           description: 一个综合类软件下载站
+        - title: 惊鸿一面
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221028/惊鸿.2c0j9npf4wpw.png
+          url: https://www.kn21.xyz
+          description: 一个独立化博客综合软件库
 
 
 
