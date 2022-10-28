@@ -310,8 +310,7 @@
 
     $('#sidebar-switch').on('click',function(){
         $('#sidebar').removeClass('mini-sidebar');
-	//221024: 调整左导航展开时,点击图标锚定定位失效
-        //$('.sidebar-nav .change-href').attr('href','javascript:;');
+        $('.sidebar-nav .change-href').attr('href','javascript:;');
 
     }); 
  
@@ -340,8 +339,7 @@
         }
         else if($(window).width() < 767.98 && $('#sidebar').hasClass('mini-sidebar')){
             $('#sidebar').removeClass('mini-sidebar');
-            //221024: 调整左导航展开时,点击图标锚定定位失效
-            //$('.sidebar-nav .change-href').attr('href','javascript:;');
+            $('.sidebar-nav .change-href').attr('href','javascript:;');
             isMobileMin = true;
             isMin = false;
         }
@@ -374,8 +372,7 @@
     function trigger_lsm_mini(isNoAnim){
         if (!$('.header-mini-btn input[type="checkbox"]').prop("checked")) {
             $('.sidebar-nav').removeClass('mini-sidebar');
-	    //221024: 调整左导航展开时,点击图标锚定定位失效
-            //$('.sidebar-nav .change-href').attr('href','javascript:;');
+            $('.sidebar-nav .change-href').attr('href','javascript:;');
             $('.sidebar-menu ul ul').css("display", "none");
 	    console.log('checked=true');
             if(isNoAnim){
@@ -1292,7 +1289,7 @@ function ioConfirm(message, btnCallBack) {
 	}
 	return popup;
 }
-console.log("\n %c WebStack-Hugo 导航主题 By ShumLab %c https://www.shumlab.com/ \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
+// console.log("\n %c WebStack-Hugo 导航主题 By ShumLab %c https://www.shumlab.com/ \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
 
 /**
  * Minified by jsDelivr using Terser v5.3.5.
