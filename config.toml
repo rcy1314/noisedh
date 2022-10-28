@@ -34,5 +34,5 @@ publishDir = "docs"
     unsafe = true
 
 [params.footer]
-    copyright = ' 2019 - {year} | 本站收录值得珍藏的网站，欢迎访问使用 | © <a href="https://noisedh.cn" target="_blank"><strong>NOISE导航</strong></a> '
+    copyright = '<p> 2019 - {year} | 本站收录值得珍藏的网站，欢迎访问使用</p>©<a href="https://noisedh.cn" target="_blank"><strong>NOISE导航</strong></a> '
 
