@@ -55,12 +55,7 @@ body class="page-body boxed-container">
     <nav class="navbar horizontal-menu navbar-fixed-top">
         <div class="navbar-inner">
             <div class="navbar-brand">
-                <a href="../index.html" class="logo">
-                    {{ if hasPrefix $.Site.Params.images.logoExpandLight "http" }}
-                    <img src="{{ $.Site.Params.images.logoExpandLight }}" width="100%" alt="" class="hidden-xs">
-                    {{ else }}
-                    <img src="../{{ $.Site.Params.images.logoExpandLight }}" width="100%" alt="" class="hidden-xs">
-                    {{ end }}
+  
                 </a>
             </div>
         </nav>
