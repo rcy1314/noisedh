@@ -17,9 +17,14 @@ publishDir = "docs"
     enablePreLoad = false		    		        # 网站完全打开前预加载的动画
     textPreLoad   = "Noise导航 & 收录珍藏的网站"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
     logosPath     = "assets/images/logos"				# 网站每个导航地址logo存放地址
+    defaultLogo   = "assets/images/logos/default_web.ico"             # logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
+#   baiduhmid     = 'efccc04cb44fc49faddac5876180b369'
 
 [params.qweather]
     key = "085791e805a24491b43b06cf58ab31e7"
+
+[params.cdn]
+    fontawesome     = "https://cdn.staticfile.org/font-awesome/6.2.0"
 
 [params.images]
     favicon           = "assets/images/favicon.png"
@@ -35,4 +40,9 @@ publishDir = "docs"
 
 [params.footer]
     copyright = '<p> 2019 - {year} | 本站收录值得珍藏的网站，欢迎访问使用</p>©<a href="https://noisedh.cn" target="_blank"><strong>NOISE导航</strong></a> '
+    busuanzi  = true
+
+[params.waline]
+    comment   = false
+    serverURL = 'https://your-domain.vercel.app'
 
