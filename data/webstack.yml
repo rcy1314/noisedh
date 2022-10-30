@@ -791,7 +791,7 @@
         - title: 抖音云剪辑
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/douyin.7525lz2a37w0.png
           url: https://creator.douyin.com/creator-micro/content/material/manage
-          description: 抖音云剪辑
+          description: 创作者服务中找到视频剪辑
         - title: 快手云剪辑
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/uTools_1666533287118.2mreesces4g0.png
           url: https://onvideo.kuaishou.com
@@ -816,6 +816,10 @@
           logo: 分秒帧.jpg
           url: https://app.mediatrack.cn
           description: 在线协作审片平台
+        - title: 剪映网页版
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221030/xxx.4upsqwo26ae0.png
+          url: https://www.capcut.cn/editor
+          description: 剪映网页版
 
 
 - taxonomy: 影视片场
