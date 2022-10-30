@@ -19,10 +19,10 @@
       logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221031/远方.1g39hc1q2v5s.jpg
       url: https://www.noisework.cn/qun/index.html
       description: 这里是关联的社群入口通道，可根据自己需要加入参与
-    - title: Noise资源库
-      logo: 漫4.jpg
+    - title: Efficiency网络社区
+      logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221031/街口.2ysqnjirpo20.jpg
       url: http://www.noiseyp.top
-      description: 云盘文件站
+      description: 这是放在云服务器上的社区站，关联slack频道
     - title: 我的引导页
       logo: 漫5.jpg
       url: https://www.noisework.cn
@@ -1837,7 +1837,7 @@
           url: https://cloud.revincx.icu
           description: OneDrive
         - title: Noise文件库
-          logo: OneDrive.png
+          logo: 漫4.jpg
           url: https://www.noiseyp.top
           description: OneDrive盘
         - title: 阳@盘
