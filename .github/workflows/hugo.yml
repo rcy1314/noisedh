@@ -7,7 +7,7 @@ on:
 jobs:
   build-deploy:
 #    runs-on: ubuntu-20.04
-    runs-on: macos-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Check out source
         uses: actions/checkout@v2
@@ -16,7 +16,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
 #          hugo-version: "latest" # 可以修改为你使用的 Hugo 版本
-          hugo-version: "0.88.1" #
+          hugo-version: "latest" #
           extended: true # 设置是否需要 extended 版本
 
       - name: Build
