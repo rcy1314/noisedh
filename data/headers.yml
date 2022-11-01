@@ -4,11 +4,11 @@
 
 - item: 主页版
   icon: fa fa-book
-  link: "soso/"
+  link: "./soso/"
 
 - item: 投稿
   icon: fa fa-paper-plane
-  link: "tougao/"
+  link: "./tougao/"
 
 - item: 社群入口
   icon: fa fa-paw
@@ -27,13 +27,13 @@
   link: ""
   list:
     - name: 😀Emoji
-      url: "assets/emoji/"
+      url: "./assets/emoji/"
     - name: 🎁备用1
       url: "https://noisedaohang.netlify.app"
     - name: 🎁备用2
       url: "https://daohang-c5k.pages.dev"
     - name: 📑旧版
-      url: "jiuban/"
+      url: "./jiuban/"
     - name: 🗳TG频道
       url: "https://t.me/quanshoulu"
     - name: ⌛关于
