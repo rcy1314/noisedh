@@ -1,34 +1,34 @@
-name: github pages
-
+# Sample workflow for building and deploying a Hugo site to GitHub Pages
+name: hugo
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
-  pull_request:
-
+      - main
 jobs:
-  deploy:
-    runs-on: ubuntu-20.04
+  build-deploy:
+#    runs-on: ubuntu-20.04
+    runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Check out source
+        uses: actions/checkout@v2
 
-      - name: Setup Hugo
+      - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
-          # extended: true
+#          hugo-version: "latest" # 可以修改为你使用的 Hugo 版本
+          hugo-version: "latest" #
+          extended: true # 设置是否需要 extended 版本
 
       - name: Build
-        run: hugo --minify
+        run: hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: itlab1024/itlab1024.github.io
-          publish_branch: gh-pages  # default: gh-pages
+          personal_token: ${{ secrets.PERSONAL_TOKEN }} # 另外还支持 deploy_token 和 github_token
+          external_repository: rcy1314/daohang # 修改为你的 GitHub Pages 仓库
           publish_dir: ./public
+#          keep_files: false
+          publish_branch: master
+         # 如果使用自定义域名，还需要添加下面一行配置
+          cname: www.noisedh.cn
