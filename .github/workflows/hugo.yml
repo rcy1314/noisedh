@@ -24,7 +24,6 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           personal_token: ${{ secrets.NOISE_TOKEN  }} # 另外还支持 deploy_token 和 github_token
           external_repository: rcy1314/noisedh # 修改为你的 GitHub Pages 仓库
