@@ -1,0 +1,40 @@
+- item: 首页
+  icon: fa fa-home
+  link: "./"
+
+- item: 主页版
+  icon: fa fa-book
+  link: "soso/"
+
+- item: 投稿
+  icon: fa fa-paper-plane
+  link: "tougao/"
+
+- item: 社群入口
+  icon: fa fa-paw
+  link: "https://noisework.cn/qun"
+
+- item: 博客版
+  icon: a fa-gift
+  link: "https://efficiencybookmark.netlify.app"
+
+- item: 维格表
+  icon: fa fa-columns
+  link: "https://spcqwserdvymm.com.vika.cn/share/shryNwH3HRgvzMTaZVAGx/fodkuzz5eaw0w"
+
+- item: 更多
+  icon: fa fa-map-signs
+  link: ""
+  list:
+    - name: 😀Emoji
+      url: "assets/emoji/"
+    - name: 🎁备用1
+      url: "https://noisedaohang.netlify.app"
+    - name: 🎁备用2
+      url: "https://daohang-c5k.pages.dev"
+    - name: 📑旧版
+      url: "jiuban/"
+    - name: 🗳TG频道
+      url: "https://t.me/quanshoulu"
+    - name: ⌛关于
+      url: "{{ $.Site.Params.about }}"
