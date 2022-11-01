@@ -37,4 +37,4 @@
     - name: 🗳TG频道
       url: "https://t.me/quanshoulu"
     - name: ⌛关于
-      url: "{{ $.Site.Params.about }}"
+      url: "./about/"
