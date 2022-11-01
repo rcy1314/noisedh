@@ -10,20 +10,20 @@
     - title: 个人RSS阅读页
       logo: 漫1.jpg
       url: https://rcy1314.github.io/news/
-      description: 添加feed页面RSS阅读
+      description: 我的RSS阅读聚合页
     - title: Noise知识效率集
       logo: 漫2.jpg
       url: https://www.noisesite.cn
       description: notion知识库
-    - title: 社群入口
-      logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221031/朋克.2s1j8g63kl60.jpg
-      url: https://www.noisework.cn/qun/index.html
-      description: 这里是关联的社群入口通道，可根据自己需要加入参与
-    - title: Efficiency网络社区
-      logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221031/街口.2ysqnjirpo20.jpg
-      url: https://www.efficiency.vip
-      description: 这是放在云服务器上的社区站，关联slack频道
-    - title: 我的引导页
+    - title: 我的YouTube订阅页
+      logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221101/xxx.4g7u9qxd3z00.jpg
+      url: https://rcy1314.github.io/youtube/
+      description: 我的YouTube订阅页
+    - title: 频道推送器
+      logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221101/xxx.4uhtmjvhgv00.jpg
+      url: https://www.efficiencynoise.top
+      description: 我的频道推送器
+    - title: 引导主页
       logo: 漫5.jpg
       url: https://www.noisework.cn
       description: 关联站点引导页
