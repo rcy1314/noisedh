@@ -6,17 +6,17 @@
   icon: fa fa-book
   link: "./soso/"
 
-- item: 投稿
-  icon: fa fa-paper-plane
-  link: "./tougao/"
+- item: 博客版
+  icon: fa fa-gift
+  link: "https://efficiencybookmark.netlify.app"
 
 - item: 社群入口
   icon: fa fa-paw
   link: "https://noisework.cn/qun"
 
-- item: 博客版
-  icon: fa fa-gift
-  link: "https://efficiencybookmark.netlify.app"
+- item: 投稿
+  icon: fa fa-paper-plane
+  link: "./tougao/"
 
 - item: 维格表
   icon: fa fa-columns
