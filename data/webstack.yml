@@ -4684,10 +4684,6 @@
           logo: LOGO生产.png
           url: https://creecros.github.io/simple_logo_gen
           description: 非常简单的logo图标制作工具，开源：https://github.com/creecros/simple_logo_gen
-        - title: 亮暗主题切换示例
-          logo: 亮暗.png
-          url: https://jjaimealeman.github.io/my-theme-switcher/
-          description: 页面亮暗主题示例
         - title: Altapps
           logo: app.net.png
           url: https://zh.altapps.net/
@@ -4788,5 +4784,9 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221020/uiset.73k3kfq8fyw0.png
           url: https://uiset.com
           description: 一个收录收集插图、图标、表情、图案等资源的网站
+        - title: 一帧秒创AI作画
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221102/xxx.5bzljy9uhf00.png
+          url: https://aigc.yizhentv.com/h5/ai-paint
+          description: AI作画创作平台，输入关键词一键生成绘画作品
 
 
