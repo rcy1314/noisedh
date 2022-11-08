@@ -3,23 +3,23 @@
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
-    - title: NOISE-Notion主页
+    - title: Efficiency主页
       logo: binoculars.jpg
       url: https://efficiencyfollow.notion.site
-      description: Efficiency主页
-    - title: NOISE-RSS阅读页
+      description: Efficiency-notion主页
+    - title: 个人RSS阅读页
       logo: 漫1.jpg
       url: https://rcy1314.github.io/news/
       description: 我的RSS阅读聚合页
-    - title: Noise-知识效率集
+    - title: 知识效率集
       logo: 漫2.jpg
       url: https://www.noisesite.cn
-      description: notion知识库
-    - title: NOISE-YouTube订阅页
+      description: Noise-notion知识库
+    - title: YouTube订阅页
       logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221101/xxx.4g7u9qxd3z00.jpg
       url: https://rcy1314.github.io/youtube
       description: 我的YouTube订阅页
-    - title: NOISE-频道推送器
+    - title: 频道推送器
       logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221101/xxx.4uhtmjvhgv00.jpg
       url: https://www.efficiencynoise.top
       description: 我的频道推送器
