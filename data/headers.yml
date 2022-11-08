@@ -17,6 +17,10 @@
 - item: 社群入口
   icon: fa fa-paw
   link: "https://noisework.cn/qun"
+  
+- item: 备用地址
+  icon: fa fa-eercast
+  link: "https://www.noisework.cn/fb/index.html"
 
 - item: 投稿
   icon: fa fa-paper-plane
