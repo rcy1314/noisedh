@@ -4641,6 +4641,10 @@
           logo: Nerd_Robot.png
           url: https://t.me/ziyotech_instagram_downloaderbot
           description: instagram下载bot
+        - title: 网易云音乐ncm转换Bot
+          logo: Nerd_Robot.png
+          url: https://t.me/netease_ncm_bot
+          description: 网易云音乐ncm转换Bot
 
     - term: 探索发现
       links:
