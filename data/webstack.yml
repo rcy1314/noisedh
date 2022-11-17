@@ -4088,7 +4088,7 @@
         - title: 9xbuddy
           logo: 9x.png
           url: https://9xbuddy.in/zh
-          description: 突破限制级下载
+          description: 全能搜索下载，突破限制级下载
         - title: x2twitter
           logo: x2twitter.ico
           url: https://x2twitter.com/zh-cn
@@ -4097,6 +4097,10 @@
           logo: bthub.png 
           url: https://bthub002.xyz/
           description: BT种子，影视资源在线搜索下载
+        - title: Cobalt
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221117/xxx.4td97in3vnc0.jpg
+          url: https://co.wukko.me
+          description: 支持Twitter、YouTube、TikTok、douyin等
 
     - term: 下载·MAC
       links:
