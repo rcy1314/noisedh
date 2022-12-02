@@ -4315,6 +4315,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221028/惊鸿.2c0j9npf4wpw.png
           url: https://www.kn21.xyz
           description: 一个独立化博客综合软件库
+        - title: 资料云
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.21evzux5t340.jpg
+          url: https://xyyzyw.cn
+          description: 综合类资源下载站
 
 
 
@@ -4503,6 +4507,10 @@
           logo: 乱红如雨.png
           url: http://info.lhqs.ink
           description: 支持「标签导航」 与 「聚合搜索」的个人站点.
+        - title: 站三界导航
+          logo: 站.png
+          url: https://www.zhansanjie.com
+          description: 综合类导航收录站
 
     - term: 科学机场
       links:
