@@ -1033,10 +1033,10 @@
           logo: ci.moefz.cc.ico
           url: http://ci.moefz.cc
           description: 萌语动漫网
-        - title: 熔岩番剧库
-          logo: 番剧索引.png
-          url: https://magmablock.github.io/LavaAnimeWeb
-          description: 一个私有静态动画库
+        - title: 动漫新番表
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.5c3fsr8qv9g0.png
+          url: https://xf.hmacg.cn
+          description: 很直观的列出新番详情和播放日期，并支持下载表格
         - title: zoro.to
           logo: zoro.to.png
           url: https://zoro.to/home/
