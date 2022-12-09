@@ -1844,10 +1844,6 @@
           logo: 漫4.jpg
           url: https://www.noiseyp.top
           description: OneDrive盘
-        - title: 阳@盘
-          logo: aliyun.somun.cn.png
-          url: http://aliyun.somun.cn
-          description: 基于alst的挂载盘
         - title: 图欧学习资源库
           logo: toustudy.png
           url: https://tuostudy.com
@@ -3399,7 +3395,27 @@
         - title: 奶牛关
           logo: 奶牛关.png
           url: https://cowlevel.net
-          description: 玩游戏就要有追求     
+          description: 玩游戏就要有追求
+        - title: GOG
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.1ff8kp31zmsg.png
+          url: https://www.gog.com
+          description: 一个游戏商店，和Epic一样|每周都有免费游戏可领
+        - title: NSW2U
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.524qfwazzhk0.jpg
+          url: https://nsw2u.com
+          description: 以主机游戏为主的破解游戏下载
+        - title: Games press
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.5bv9l6j3amw0.jpg
+          url: https://www.gamespress.com
+          description: Games Press是报道游戏行业资讯为主的平台
+        - title: TAPTAP
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.4wb3rlbrpew0.jpg
+          url: https://www.taptap.cn
+          description: 发现手机平台的那些好游戏
+        - title: Game Maker
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.4wdnxfoeu220.png
+          url: https://forum.gamemaker.io/
+          description: 国外的游戏设计、开发和发行论坛社区
         
     - term: 独立博客
       links:
