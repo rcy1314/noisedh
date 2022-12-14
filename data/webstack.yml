@@ -4066,7 +4066,7 @@
           description: 免费的灵感采集和素材管理工具
 
 - taxonomy: AI次时代
-  icon: fas fa-eercast
+  icon: fas fa-cog
   list:
     - term: AI·绘画
       links:
