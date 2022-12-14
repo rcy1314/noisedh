@@ -4066,7 +4066,7 @@
           description: 免费的灵感采集和素材管理工具
 
 - taxonomy: AI次时代
-  icon: fas fa-ravelry
+  icon: fa fa-eercast
   list:
     - term: AI·绘画
       links:
@@ -4094,11 +4094,11 @@
           logo: 一格.png
           url: https://yige.baidu.com
           description: 百度旗下ai作画平台
-        - title: 6pen.art
+        - title: 6pen art
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.2eqi90houxwk.png
           url: https://6pen.art
           description: 让你的文本描述变成绘画艺术作品
-        - title: dream.ai
+        - title: dream ai
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.3zufo8a4qj00.png
           url: https://dream.ai/create
           description: 国外AI绘画平台，有提供APP
@@ -4118,7 +4118,7 @@
       links:
         - title: Disco Diffusion
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.68k0citi9po0.png
-          url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbF93Nktjb1ZBaHAwdlFoajN0T3ZybE55aGhPZ3xBQ3Jtc0ttZ05Ybmw4U041Q1liNUJaMnBlN1Q1VTBPZEo1aWxsLUt0YWR3azd2S3N1dC02Y0VNMS1QM2RQeUVtM3Z3NnFjU3dlQTNZMDZxX190ZWU2cTV4cFRpR21nbzlfaUppTndfQ0dWQndkMEpQbXFad29TTQ&q=https%3A%2F%2Fcolab.research.google.com%2Fgithub%2FSxela%2FDiscoDiffusion-Warp%2Fblob%2Fmain%2FDisco_Diffusion_v5_2_Warp.ipynb&v=Yf2G9ye37ms
+          url: https://colab.research.google.com/github/Sxela/DiscoDiffusion-Warp/blob/main/Disco_Diffusion_v5_2_Warp.ipynb
           description: AI制作赛博朋克科幻视频  
         - title: Make-A-Video
           logo: metavideo.png
