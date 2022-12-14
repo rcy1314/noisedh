@@ -200,7 +200,7 @@
           logo: talkae.png
           url: https://www.talkae.com
           description: 各类插件预设
-        - title: gan.cool
+        - title: gan cool
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.x3figa5c4cg.png
           url: https://gan.cool
           description: 更好更强的Premiere Pro插件
@@ -1936,7 +1936,7 @@
           url: https://www.upyunso.com
           description: 阿里云盘搜索
         - title: YAPAN
-          logo:https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.q5tor1urqfk.png
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.q5tor1urqfk.png
           url: https://pan.ccof.cc
           description: YAPAN阿里云盘搜索
         - title: YouGit
@@ -4065,7 +4065,103 @@
           url: http://www.billfish.cn/
           description: 免费的灵感采集和素材管理工具
 
+- taxonomy: AI次时代
+  icon: fa fa-eercast
+  list:
+    - term: AI·绘画
+      links:
+        - title: stability
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.53dqddjij280.png
+          url: https://stability.ai
+          description:  出色的AI绘画制图平台，模型对中文不友好，英文描述更准确
+        - title: 一帧秒创
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221102/xxx.5bzljy9uhf00.png
+          url: https://aigc.yizhentv.com/h5/ai-paint
+          description: AI作画创作平台，输入关键词一键生成绘画作品 
+        - title: artpai
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.5wsf13nehm80.png
+          url: https://artpai.xyz
+          description: 一句话生成AI画面
+        - title: DALL·E
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.5rz7w97fpms0.png
+          url: https://labs.openai.com
+          description: OPENAI下的AI绘画
+        - title: Novelai
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.74fb8nuj11s0.png
+          url: https://novelai.net
+          description: 非常出色的AI绘画平台，模型带有漫画偏向
+        - title: 文心一格AI作画
+          logo: 一格.png
+          url: https://yige.baidu.com
+          description: 百度旗下ai作画平台
+        - title: 6pen art
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.2eqi90houxwk.png
+          url: https://6pen.art
+          description: 让你的文本描述变成绘画艺术作品
+        - title: dream ai
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.3zufo8a4qj00.png
+          url: https://dream.ai/create
+          description: 国外AI绘画平台，有提供APP
 
+    - term: AI·问答
+      links:
+        - title: ChatGPT
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.53y0kwh741s0.jpg
+          url: https://chat.openai.com
+          description: 全球知名的AI问答平台 
+        - title: 待添加
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.1achlr0jjdsw.png
+          url: https://www.noisework.cn
+          description: 待添加  
+
+    - term: AI·视频
+      links:
+        - title: Disco Diffusion
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.68k0citi9po0.png
+          url: https://colab.research.google.com/github/Sxela/DiscoDiffusion-Warp/blob/main/Disco_Diffusion_v5_2_Warp.ipynb
+          description: AI制作赛博朋克科幻视频  
+        - title: Make-A-Video
+          logo: metavideo.png
+          url: https://makeavideo.studio
+          description: 让一句话一段文字变成视频
+        - title: github-StoryTube
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.4ov6mk42g9o0.png
+          url: https://github.com/shouryank/StoryTube
+          description: 从短篇小说生成动画视频
+        - title: AIGuiChu
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.3qetzl0jw4a0.jpg
+          url: https://github.com/AndersonBY/AIGuiChu
+          description: 用AI制作鬼畜类视频
+        - title: Runway
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.2cq1cj60f78k.png
+          url: https://runwayml.com
+          description: 基于浏览器的AI快速剪辑
+        - title: 待添加
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.1achlr0jjdsw.png
+          url: https://www.noisework.cn/
+          description: 待添加 
+
+    - term: AI·音乐
+      links:
+        - title: 待添加
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.1achlr0jjdsw.png
+          url: https://www.noisework.cn/
+          description: 待添加  
+
+    - term: AI·写作
+      links: 
+        - title: Effidit
+          logo: 45jmtzs81dc0.png
+          url: https://effidit.qq.com
+          description: AI智能创作助手
+        - title: Notion AI
+          logo: notion-app.jpg
+          url: https://www.notion.so/ai?wr=f77230175d26a30d&utm_source=notionClient&utm_medium
+          description: 强大有力的AI协作创作
+        - title: 待添加
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.1achlr0jjdsw.png
+          url: https://www.noisework.cn/
+          description: 待添加 
         
 
 
