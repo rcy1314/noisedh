@@ -196,10 +196,14 @@
           logo: talkae.png
           url: https://www.talkae.com
           description: 各类插件预设
-        - title: PR模版网
-          logo: prmuban.com.ico
-          url: https://prmuban.com
-          description: PR模板的集合地
+        - title: 韬客AE
+          logo: talkae.png
+          url: https://www.talkae.com
+          description: 各类插件预设
+        - title: gan.cool
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.x3figa5c4cg.png
+          url: https://gan.cool
+          description: 更好更强的Premiere Pro插件
         - title: 新CG儿
           logo: www.newcger.com.ico
           url: https://www.newcger.com
@@ -749,6 +753,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/云音乐.2pmhprxylje0.png
           url: https://music.163.com/st/ncreator
           description: 网易云音乐创作者中心
+        - title: 推兔
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.txiafnpc34w.png
+          url: https://www.tuitool.cn
+          description: 主流自媒体平台多账号登录，多平台视频一键发布，多平台数据综合分析
 
     - term: AI云剪辑
       links:
@@ -1927,6 +1935,14 @@
           logo: UP云搜.png
           url: https://www.upyunso.com
           description: 阿里云盘搜索
+        - title: YAPAN
+          logo:https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.q5tor1urqfk.png
+          url: https://pan.ccof.cc
+          description: YAPAN阿里云盘搜索
+        - title: YouGit
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.7k1n1nnkv8w0.png
+          url: https://yougit.net
+          description: 蓝奏云、阿里云盘搜索站
         
     - term: 云盘存储
       links:
@@ -2219,10 +2235,6 @@
           logo: segmentfault.com.ico
           url: https://segmentfault.com
           description: 综合类交流论坛
-        - title: 后浪论坛
-          logo: bbs.dhzy.fun.ico
-          url: https://bbs.dhzy.fun
-          description: 综合类交流论坛
         - title: 51CTO论坛
           logo: bbs.51cto.com.ico
           url: https://bbs.51cto.com
@@ -2288,7 +2300,7 @@
           url: 	https://www.xdo.cc
           description: 综合资源类社区
         - title: 秋无痕论坛
-          logo: bbs.realqwh.cn.ico
+          logo: bbs.realqwh.cn.png
           url: http://bbs.realqwh.cn
           description: 综合类技术论坛，有win系统板块包括影视板块
         
@@ -2303,7 +2315,7 @@
           url: http://www.jujumaow.com/
           description: 系统软件下载论坛
         - title: 七幻论坛
-          logo: www.qihuank.net.ico
+          logo: www.qihuank_1.jpg
           url: https://www.qihuank.net
           description: 破解软件交流
         - title: 资源大享
@@ -2976,6 +2988,10 @@
           logo: Butterfly主题美化教程.png
           url: https://butterfly.zhheo.com
           description: 让每个人轻松的自定义自己的博客
+        - title: 二丫讲梵
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.35m4239bsl80.png
+          url: https://wiki.eryajf.net
+          description: 优秀的开发文档及学习周刊
     - term: notion站点
       links:
         - title: Harumonia
@@ -3766,6 +3782,14 @@
           logo: Peasy.png
           url: https://p-easy.net/
           description: 可视化静态网址在线制作
+        - title: Team code
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.4elqwa29wnw0.png
+          url: https://www.teamcode.com
+          description: 云端协作开发平台
+        - title: Deno Deploy
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.4qhkmwi487q0.png
+          url: https://deno.com
+          description: Deno Deploy 是一个分布式系统，允许你运行 JavaScript， TypeScript 和 WebAssembly ，其边缘化与 V8 运行时集成
         
     - term: 工具箱
       links:
@@ -3953,6 +3977,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.2hn9tcvg4go0.png
           url: https://www.photopea.com
           description: 国外的在线PS
+        - title: Flowchart Fun
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.aka8mqh4g3s.png
+          url: https://flowchart.fun
+          description: Flowchart Fun 是一个网络应用程序，用于从使用 React 和cytoscape.js 构建的文本生成流程图
         
     - term: 效率生产力
       links:
@@ -4036,7 +4064,104 @@
           logo: billfish.png
           url: http://www.billfish.cn/
           description: 免费的灵感采集和素材管理工具
-        
+
+- taxonomy: AI次时代
+  icon: fas fa-ravelry
+  list:
+    - term: AI·绘画
+      links:
+        - title: stability
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.53dqddjij280.png
+          url: https://stability.ai
+          description:  出色的AI绘画制图平台，模型对中文不友好，英文描述更准确
+        - title: 一帧秒创
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221102/xxx.5bzljy9uhf00.png
+          url: https://aigc.yizhentv.com/h5/ai-paint
+          description: AI作画创作平台，输入关键词一键生成绘画作品 
+        - title: artpai
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.5wsf13nehm80.png
+          url: https://artpai.xyz
+          description: 一句话生成AI画面
+        - title: DALL·E
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.5rz7w97fpms0.png
+          url: https://labs.openai.com
+          description: OPENAI下的AI绘画
+        - title: Novelai
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.74fb8nuj11s0.png
+          url: https://novelai.net
+          description: 非常出色的AI绘画平台，模型带有漫画偏向
+        - title: 文心一格AI作画
+          logo: 一格.png
+          url: https://yige.baidu.com
+          description: 百度旗下ai作画平台
+        - title: 6pen.art
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.2eqi90houxwk.png
+          url: https://6pen.art
+          description: 让你的文本描述变成绘画艺术作品
+        - title: dream.ai
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.3zufo8a4qj00.png
+          url: https://dream.ai/create
+          description: 国外AI绘画平台，有提供APP
+
+    - term: AI·问答
+      links:
+        - title: ChatGPT
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.53y0kwh741s0.jpg
+          url: https://chat.openai.com
+          description: 全球知名的AI问答平台 
+        - title: 待添加
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.1achlr0jjdsw.png
+          url: 
+          description: 待添加  
+
+    - term: AI·视频
+      links:
+        - title: Disco Diffusion
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.68k0citi9po0.png
+          url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbF93Nktjb1ZBaHAwdlFoajN0T3ZybE55aGhPZ3xBQ3Jtc0ttZ05Ybmw4U041Q1liNUJaMnBlN1Q1VTBPZEo1aWxsLUt0YWR3azd2S3N1dC02Y0VNMS1QM2RQeUVtM3Z3NnFjU3dlQTNZMDZxX190ZWU2cTV4cFRpR21nbzlfaUppTndfQ0dWQndkMEpQbXFad29TTQ&q=https%3A%2F%2Fcolab.research.google.com%2Fgithub%2FSxela%2FDiscoDiffusion-Warp%2Fblob%2Fmain%2FDisco_Diffusion_v5_2_Warp.ipynb&v=Yf2G9ye37ms
+          description: AI制作赛博朋克科幻视频  
+        - title: Make-A-Video
+          logo: metavideo.png
+          url: https://makeavideo.studio
+          description: 让一句话一段文字变成视频
+        - title: github-StoryTube
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.4ov6mk42g9o0.png
+          url: https://github.com/shouryank/StoryTube
+          description: 从短篇小说生成动画视频
+        - title: AIGuiChu
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.3qetzl0jw4a0.jpg
+          url: https://github.com/AndersonBY/AIGuiChu
+          description: 用AI制作鬼畜类视频
+        - title: Runway
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.2cq1cj60f78k.png
+          url: https://runwayml.com
+          description: 基于浏览器的AI快速剪辑
+        - title: 待添加
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.1achlr0jjdsw.png
+          url: 
+          description: 待添加 
+
+    - term: AI·音乐
+      links:
+        - title: 待添加
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.1achlr0jjdsw.png
+          url: 
+          description: 待添加  
+
+    - term: AI·写作
+      links: 
+        - title: Effidit
+          logo: 45jmtzs81dc0.png
+          url: https://effidit.qq.com
+          description: AI智能创作助手
+        - title: Notion AI
+          logo: notion-app.jpg
+          url: https://www.notion.so/ai?wr=f77230175d26a30d&utm_source=notionClient&utm_medium
+          description: 强大有力的AI协作创作
+        - title: 待添加
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.1achlr0jjdsw.png
+          url: 
+          description: 待添加 
         
 
 
@@ -4229,7 +4354,7 @@
           url: https://github.com/qianguyihao/Mac-list
           description: github上的Mac软件清单推荐
 
-    - term: 下载·PC·综合
+    - term: 下载·综合
       links:
         - title: 黑域基地
           logo: 黑域基地.ico
@@ -4462,10 +4587,10 @@
           url: http://www.aichunjing.com/
           description: 纯净系统下载
 
-- taxonomy: 精选收录
+- taxonomy: 极客创造
   icon: fas fa-cube
   list:
-    - term: 其它导航站
+    - term: 其它导航
       links:
         - title: 创造狮导航
           logo: 创造狮.ico
@@ -4686,6 +4811,49 @@
           url: https://t.me/netease_ncm_bot
           description: 网易云音乐ncm转换Bot
 
+    - term: 极客订阅
+      links:
+        - title: RSSHUB文档
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.wcxzjcdl63k.png
+          url: https://docs.rsshub.app
+          description: 万物皆可订阅
+        - title: ALL About RSS
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.325un3apvqu0.jpg
+          url: https://t.me/aboutrss
+          description: 一个TG频道，只收录RSS相关
+        - title: RSS 指南
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.11tdo6tjv82o.jpg
+          url: https://efficiencyfollow.notion.site/RSS-01f580f05df2412993c5ad0f68f0a95d
+          description: Notion页面统计收录RSS相关
+        - title: Rsshub List
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.wcxzjcdl63k.png
+          url: https://github.com/kaminolee/RsshubList
+          description: 收集rsshub服务器，定时检测可用性
+        - title: RSS Source
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/Generic_Feed-icon.2icdpqu7zis0.png
+          url: https://rss-source.com
+          description: 高质量RSS源推荐
+        - title: substats
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.4khqn7itjyi0.png
+          url: https://substats.swo.moe
+          description: 可搜索的RSS订阅中继站
+        - title: feedle
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.73l6k797its0.png
+          url: https://feedle.world
+          description: RSS源搜索引擎
+        - title: feedle
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.1dqdy4i0kzuo.jpg
+          url: https://openrss.org
+          description: 为第三方提供RSS支持
+        - title: KOTOMI RSS
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.1s79fl0b50lc.png
+          url: https://moe4sale.in
+          description: 为动漫索引提供RSS支持
+        - title: 源仓库
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.5f4fsba6dn40.png
+          url: http://www.yckceo.com
+          description: 收录整理RSS源
+
     - term: 探索发现
       links:
         - title: Suki 素记
@@ -4756,10 +4924,6 @@
           logo: justlive.png
           url: http://live.yj1211.work
           description: 聚合直播平台，b站、斗鱼、虎牙综合直播
-        - title: 文心一格AI作画
-          logo: 一格.png
-          url: https://yige.baidu.com
-          description: 百度旗下ai作画平台
         - title: 365实时热榜
           logo: 365热榜.png
           url: https://hot.primo.wiki
@@ -4776,10 +4940,6 @@
           logo: d9dbbvkdjhk.png
           url: https://start.dji.com
           description: 大疆无人机在线飞行模拟器
-        - title: Effidit
-          logo: 45jmtzs81dc0.png
-          url: https://effidit.qq.com
-          description: AI智能创作助手
         - title: 开发者简报
           logo: xxx.5t33hxqi3h00.png
           url: https://dev.com.cn/
@@ -4800,10 +4960,6 @@
           logo: shu.caihnmz7i0g.png
           url: https://www.nimingqiang.com
           description: 树洞小秘密，聆听你的心声！
-        - title: Make-A-Video
-          logo: metavideo.png
-          url: https://makeavideo.studio
-          description: 让一句话一段文字变成视频
         - title: YouTube镜像
           logo: yoube.png
           url: https://redirect.invidious.io
@@ -4828,9 +4984,6 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221020/uiset.73k3kfq8fyw0.png
           url: https://uiset.com
           description: 一个收录收集插图、图标、表情、图案等资源的网站
-        - title: 一帧秒创AI作画
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221102/xxx.5bzljy9uhf00.png
-          url: https://aigc.yizhentv.com/h5/ai-paint
-          description: AI作画创作平台，输入关键词一键生成绘画作品
+        
 
 
