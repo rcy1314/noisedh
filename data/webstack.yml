@@ -4065,7 +4065,7 @@
           url: http://www.billfish.cn/
           description: 免费的灵感采集和素材管理工具
 
-- taxonomy: AI次时代
+- taxonomy: AI新时代
   icon: fas fa-cog
   list:
     - term: AI·绘画
@@ -4102,6 +4102,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.3zufo8a4qj00.png
           url: https://dream.ai/create
           description: 国外AI绘画平台，有提供APP
+        - title: QQ小世界AI画匠
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.6i48mt4p7ds0.jpg
+          url: https://h5.tu.qq.com/web/ai-2d/cartoon/index?parent_trace_id=cac70ced-1cd5-9335-89b8-f759013f2e6a&current_channel=link&root_channel=&level=2
+          description: 请在QQ内打开链接，将照片转换为二次元漫画像
 
     - term: AI·问答
       links:
@@ -4141,12 +4145,52 @@
           url: https://www.noisework.cn/
           description: 待添加 
 
-    - term: AI·音乐
+    - term: AI·作曲
       links:
-        - title: 待添加
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.1achlr0jjdsw.png
-          url: https://www.noisework.cn/
-          description: 待添加  
+        - title: Soundraw
+          logo: Soundraw.ico
+          url: https://soundraw.io
+          description: 可以通过选择不同情绪的音乐片段来创作，再加上AI音乐生成工具，能够让你非常轻松的创建属于自己的音乐 
+        - title: Amper Music
+          logo: Amper Music.ico
+          url: https://www.ampermusic.com
+          description: Amper AI 通过预录制的样本生成原始音频音轨。这样你就能够非常方便的修改音乐的节奏、key或者让某种乐器静音，切换不同的音乐情绪。音轨可以合成导出，也可以单独导出。
+        - title: AIVA
+          logo: AIVA.png
+          url: https://www.aiva.ai
+          description: AIVA擅长创作广告、电子游戏和电影配乐，而且你不用考虑音乐的版权问题。这是非常方便的
+        - title: Ecrett Music
+          logo: Ecrett Music.ico
+          url: https://ecrettmusic.com
+          description: 这个在线AI音乐生成器有一个非常直观的软件，拥有非常多的场景、情绪和音乐类别
+        - title: Humtap
+          logo: Humtap.png
+          url: https://www.humtap.com
+          description: Humtap是一款iOS应用。通过这个AI工具，你可以在手机上创作出专业录音棚效果的歌声
+        - title: Amadeus Code
+          logo: Amadeus.ico
+          url: https://amadeuscode.com/top
+          description: 这一款专门针对音乐创作者和音乐发烧友的iOS App。他们可以通过App快速的创作配乐。你通过 Amadeus Code创建的音乐可以导出为声音和MIDI文件到 DAW 中
+        - title: Computoser
+          logo: Computoser.png
+          url: http://computoser.com
+          description: Computoser 使用一种算法将音乐、节奏和乐器混合在一起生成创意音乐
+        - title: Google’s Magenta tools
+          logo: Magenta.ico
+          url: https://experiments.withgoogle.com/ai/drum-machine/view/
+          description: 无限打击乐是 Magenta 的预置工具。顾名思义，这是一个通过机器学习创作鼓乐机器。 根据 GitHub 的描述，“计算机不会输出任何的描述或标识音频。
+        - title: Chrome’s Song Maker
+          logo: MusicBox_16_2.ico
+          url: https://musiclab.chromeexperiments.com/Song-Maker/
+          description: Chrome’s Song Maker 来自 Chrome Music Lab。从技术来说，这个产品不能算是AI音乐生成器。因为它不是通过大数据自动生成音乐的。它只是一个工具，让所有人都能够通过音乐片段创作属于自己的音乐
+        - title: fm
+          logo: fm.ico
+          url: https://www.brain.fm/app/player
+          description: 不同于其他 AI 音乐生成器，fm 不支持按照你的需求去自动合成音乐，而是罗列出一堆由 AI 生成好的音乐让你选择
+        - title: MuseNet
+          logo: MuseNet.ico
+          url: https://openai.com/blog/musenet/
+          description: OpenAI 的 MuseNet 号称能够生成10种不同音乐的歌曲和15种不同风格的音乐。同时，它也能够模仿古典音乐创作，如莫扎特；也能创造流行音乐，如 Lady Gaga。
 
     - term: AI·写作
       links: 
@@ -5063,10 +5107,6 @@
           logo: 37sl6mdxtc00.png
           url: https://fm.lemonsjtu.cn
           description: 创建房间邀请好友一起实时在线听播客
-        - title: 6pen
-          logo: 4uoinwycbpy0.png
-          url: https://6pen.art
-          description: 基于AI技术，从文本描述生成绘画艺术作品
         - title: 大疆无人机在线飞行
           logo: d9dbbvkdjhk.png
           url: https://start.dji.com
