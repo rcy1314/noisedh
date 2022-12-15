@@ -4811,6 +4811,133 @@
           url: https://t.me/netease_ncm_bot
           description: 网易云音乐ncm转换Bot
 
+    - term: TG·频道·推荐
+      links:
+        - title: Efficiency资源干货全收录
+          logo: tg.png
+          url: https://t.me/quanshoulu
+          description: 综合类TG频道，收录推送设计类，编程类 ，软件类
+        - title: Docker
+          logo: tg.png
+          url: https://t.me/dockertutorial
+          description: Docker 学习|交流|分享
+        - title: 好书分享频道
+          logo: tg.png
+          url: https://t.me/Bookworm_Bibliophile
+          description: 读书，找到更美的世界与生活。不定期分享收集的好书好资料
+        - title: 破解軟件資源站
+          logo: tg.png
+          url: https://t.me/menggeEVO
+          description: 影音軟件，各類軟件
+        - title: Tg攝影社群
+          logo: tg.png
+          url: https://t.me/photographyintelegram
+          description: 電報攝影群組
+        - title: GIF 群聚地
+          logo: tg.png
+          url: https://t.me/GIFgroupTW
+          description: GIF 群聚地
+        - title: 不求甚解
+          logo: tg.png
+          url: https://t.me/fakeye
+          description: 不求甚解
+        - title: 少数派sspai
+          logo: tg.png
+          url: https://t.me/sspai
+          description: 少数派sspai
+        - title: 苹果ios黑科技
+          logo: tg.png
+          url: https://t.me/ioshkj7
+          description: 各种实用软件与技巧
+        - title: 开源社区
+          logo: tg.png
+          url: https://t.me/opencfdchannel
+          description: 科技人文资讯
+        - title: Appinn Feed
+          logo: tg.png
+          url: https://t.me/appinnfeed
+          description: 小众软件和发现频道的内容更新
+        - title: 每日摄影观察
+          logo: tg.png
+          url: https://t.me/cnphotog_collect
+          description: 一个不严肃的摄影频道
+        - title: Find Blog👁发现博客
+          logo: tg.png
+          url: https://t.me/FindBlog
+          description: 发现优秀的博客与创作者
+        - title: 你有一个打折需要了解
+          logo: tg.png
+          url: https://t.me/SteamNy
+          description: 周榜、折扣、资讯、喜加一
+        - title: 链接收藏
+          logo: tg.png
+          url: https://t.me/LDList
+          description: 链接收藏
+        - title: Price Tag
+          logo: tg.png
+          url: https://t.me/appfans
+          description: 推荐 App 限免降价，推送好物好券
+        - title: 瞎玩菌 
+          logo: tg.png
+          url: https://t.me/blindgamer
+          description: 聚焦 PC / 主机游戏，分享游戏见闻，晒趣图，赏视频
+        - title: 科技玩家
+          logo: tg.png
+          url: https://t.me/kejiwanjiarss
+          description: 科技玩家的订阅频道
+        - title: ALL About RSS
+          logo: tg.png
+          url: https://t.me/aboutrss
+          description: ALL About RSS
+        - title: 得到2019
+          logo: tg.png
+          url: https://t.me/dedao2019
+          description: 得到 电子书 喜马拉雅 知乎
+        - title: iShare News
+          logo: tg.png
+          url: https://t.me/iShareNews
+          description: iShare News
+        - title: 远程工作者
+          logo: tg.png
+          url: https://t.me/remote_cn
+          description: 分享国内远程工作相关的文章、讨论和工作机会等
+        - title: 全网漫游指南
+          logo: tg.png
+          url: https://t.me/TheWebGuide
+          description: 全网漫游指南
+        - title: FL STUDiO
+          logo: tg.png
+          url: https://t.me/flstudiosignaturepro
+          description: FL STUDiO
+        - title: 4K Remux
+          logo: tg.png
+          url: https://t.me/Remux_2160P
+          description: 4K影视资源分享
+        - title: Newlearnerの自留地
+          logo: tg.png
+          url: https://t.me/NewlearnerChannel
+          description: 不定期推送 IT 相关资讯
+        - title: 硬核小卒
+          logo: tg.png
+          url: https://t.me/yinghexiaozu
+          description: 分享最优质的内容
+        - title: Quantumult X JS 收集分享
+          logo: tg.png
+          url: https://t.me/QuanXJS
+          description: Quantumult X JS 收集分享
+        - title: 纯粹的 Mac 应用推荐
+          logo: tg.png
+          url: https://t.me/mac_app_store
+          description: macOS 实用免费、精选限免
+        - title: 独立博客&播客全订阅
+          logo: tg.png
+          url: https://t.me/blogrsslist
+          description: 独立博客&播客全订阅
+        - title: 不良林
+          logo: tg.png
+          url: https://t.me/buliang00
+          description: 科学上网，资源分享
+
     - term: 极客订阅
       links:
         - title: RSSHUB文档
@@ -4824,7 +4951,7 @@
         - title: RSS 指南
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.11tdo6tjv82o.jpg
           url: https://efficiencyfollow.notion.site/RSS-01f580f05df2412993c5ad0f68f0a95d
-          description: Notion页面统计收录RSS相关
+          description: 统计收录RSS相关生产力、阅读器、阅读源
         - title: Rsshub List
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.wcxzjcdl63k.png
           url: https://github.com/kaminolee/RsshubList
@@ -4853,6 +4980,14 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.5f4fsba6dn40.png
           url: http://www.yckceo.com
           description: 收录整理RSS源
+        - title: 公众号 RSS
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.5rmppvaaut80.png
+          url: https://feeddd.org
+          description: 免费的公众号 RSS，支持扩展任意 APP
+        - title: TG频道转换RSS
+          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.6xulrsc1toc0.png
+          url: https://tg.i-c-a.su
+          description: TG频道转换RSS
 
     - term: 探索发现
       links:
