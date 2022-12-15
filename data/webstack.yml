@@ -4933,11 +4933,7 @@
           logo: tg.png
           url: https://t.me/blogrsslist
           description: 独立博客&播客全订阅
-        - title: 不良林
-          logo: tg.png
-          url: https://t.me/buliang00
-          description: 科学上网，资源分享
-
+        
     - term: 极客订阅
       links:
         - title: RSSHUB文档
