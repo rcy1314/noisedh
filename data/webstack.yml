@@ -4106,6 +4106,34 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.6i48mt4p7ds0.jpg
           url: https://h5.tu.qq.com/web/ai-2d/cartoon/index?parent_trace_id=cac70ced-1cd5-9335-89b8-f759013f2e6a&current_channel=link&root_channel=&level=2
           description: 请在QQ内打开链接，将照片转换为二次元漫画像
+        - title: Canva文字到图片
+          logo: Canva.ico
+          url: https://www.canva.com/your-apps/text-to-image?utm_source=futurepedia
+          description: 根据描述生成设计的画面
+        - title: Astria
+          logo: Astria.ico
+          url: https://www.astria.ai
+          description: 量身定制的 AI 图像生成
+        - title: generated
+          logo: generated.ico
+          url: https://generated.photos
+          description: 使用完全由 AI 生成的照片增强您的创意作品。通过我们排序和标记的应用程序查找模型图像，或通过 API 集成图像
+        - title: civitai
+          logo: generated.ico
+          url: https://civitai.com
+          description: 人工智能艺术生成社区的模型共享中心，免费使用
+        - title: dreampic-ai
+          logo: dreampic.ai.png
+          url: https://dreampic.ai
+          description: 用户可以创造AI生成的头像
+        - title: portrait
+          logo: portrait.vana.com.ico
+          url: https://portrait.vana.com
+          description: 用AI创造无限风格的自画像
+        - title: dreamup
+          logo: dreamup.png
+          url: https://www.dreamup.com
+          description: 用AI创造艺术作品
 
     - term: AI·问答
       links:
@@ -5155,6 +5183,3 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221020/uiset.73k3kfq8fyw0.png
           url: https://uiset.com
           description: 一个收录收集插图、图标、表情、图案等资源的网站
-        
-
-
