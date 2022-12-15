@@ -4064,6 +4064,15 @@
           logo: billfish.png
           url: http://www.billfish.cn/
           description: 免费的灵感采集和素材管理工具
+        - title: 零泉
+          logo: 灵泉.ico
+          url: https://lingquan.cool
+          description: 灵感采集和素材管理工具，支持云同步
+        - title: AFFiNE
+          logo: AFFiNE.ico
+          url: https://affine.pro
+          description: 它不仅仅是一个文档、白板和表格的集合。可以根据需要转换任何构建块，文档、看板、数据库可集中展示
+
 
 - taxonomy: AI新时代
   icon: fas fa-cog
@@ -4141,8 +4150,28 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.53y0kwh741s0.jpg
           url: https://chat.openai.com
           description: 全球知名的AI问答平台 
+        - title: andi
+          logo: andisearch.ico
+          url: https://andisearch.com
+          description: 可以像朋友一样交谈
         - title: 待添加
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.1achlr0jjdsw.png
+          logo: 待.png
+          url: https://www.noisework.cn
+          description: 待添加 
+        - title: 待添加
+          logo: 待.png
+          url: https://www.noisework.cn
+          description: 待添加 
+        - title: 待添加
+          logo: 待.png
+          url: https://www.noisework.cn
+          description: 待添加 
+        - title: 待添加
+          logo: 待.png
+          url: https://www.noisework.cn
+          description: 待添加 
+        - title: 待添加
+          logo: 待.png
           url: https://www.noisework.cn
           description: 待添加  
 
@@ -4169,7 +4198,7 @@
           url: https://runwayml.com
           description: 基于浏览器的AI快速剪辑
         - title: 待添加
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.1achlr0jjdsw.png
+          logo: 待.png
           url: https://www.noisework.cn/
           description: 待添加 
 
@@ -4230,8 +4259,16 @@
           logo: notion-app.jpg
           url: https://www.notion.so/ai?wr=f77230175d26a30d&utm_source=notionClient&utm_medium
           description: 强大有力的AI协作创作
+        - title: copymatic
+          logo: copymatic.ico
+          url: https://copymatic.ai
+          description: 使用AI在几秒钟内生成内容
+        - title: glasp
+          logo: glasp_logo.png
+          url: https://glasp.co
+          description: 为博主提供AI驱动的写作
         - title: 待添加
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.1achlr0jjdsw.png
+          logo: 待.png
           url: https://www.noisework.cn/
           description: 待添加 
         
