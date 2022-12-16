@@ -391,7 +391,7 @@
           url: https://sketchvalley.com
           description: 免费矢量手绘插画资源
         - title: 西田图像
-          logo: www.sitapix.com.ico
+          logo: www.sitapix.com.png
           url: https://www.sitapix.com
           description: 高质量无版权图片素材
         - title: pixabay
@@ -852,7 +852,7 @@
           url: https://www.inmi.app
           description: 视剧&电影线上看，免费平台播放Netflix,Apple tv
         - title: 电影先生
-          logo: dianying.im.ico
+          logo: dianyi.png
           url: https://www.dianyi.ng
           description: 官方域名：DianYi.ng/Www.DianYi.ng ；备用：电影先生.Com/DianYing.XianShe.ng
         - title: 大师兄影视
@@ -912,7 +912,7 @@
           url: http://www.mp4ba.cc
           description: 免费高清影视资源
         - title: mitime时光网
-          logo: www.mtime.com.ico
+          logo: mtime.png
           url: http://www.mtime.com
           description: 电影资讯站
         - title: 6V电影
@@ -998,7 +998,7 @@
           url: https://www.bilibili.com
           description: 哔哩哔哩
         - title: Mikan
-          logo: mikanani.me.ico
+          logo: mikanani.me.png
           url: https://mikanani.me
           description: 动态追番新体验
         - title: 番组放送
@@ -2045,7 +2045,7 @@
           url: https://emacs-china.org
           description: 开发者技术类论坛
         - title: 恩山无线论坛
-          logo: www.right.com.cn.ico
+          logo: right.com.png
           url: https://www.right.com.cn
           description: 软路由
         - title: 批处理之家		
@@ -2177,7 +2177,7 @@
           url: https://eleduck.com
           description: 远程工作者的家园
         - title: ITPUB论坛
-          logo: www.itpub.net.ico
+          logo: www.itpub.net.png
           url: http://www.itpub.net/forum-44-1.html
           description: IT技术交流论坛
         - title: ITgood论坛
@@ -2544,7 +2544,7 @@
           url: http://www.yunpandu.com
           description: 百度盘影视类资源论坛
         - title: hd高清乐园
-          logo: www.hdsay.net.ico
+          logo: hdsay.png
           url: https://www.hdsay.net
           description: 影视资源论坛
         - title: HIFI音乐论坛
@@ -2841,10 +2841,6 @@
           logo: niuke.ico
           url: https://www.nowcoder.com/discuss
           description: 求职者交流
-        - title: 西祠胡同
-          logo: www.xici.net.ico
-          url: https://www.xici.net
-          description: 这个社区有一定年份了
         - title: 南+ South Plus
           logo: www.spring-plus.net.ico
           url: https://www.spring-plus.net
@@ -3369,11 +3365,11 @@
           url: https://www.bibgame.com
           description: 主机游戏下载综合站
         - title: 178游戏网
-          logo: www.178.com.ico
+          logo: 178.com.png
           url: http://www.178.com
           description: 网游集合地
         - title: Steam
-          logo: store.steampowered.com.ico
+          logo: steam.ico
           url: https://store.steampowered.com/
           description: Steam游戏商店
         - title: 电玩巴士
@@ -3508,7 +3504,7 @@
           url: https://lhcy.org
           description: 林海草原
         - title: 胡家小子_记录对生活的向往，记录生活周遭的个人网站	
-          logo: www.boyhu.cn.ico
+          logo: boyhu.ico
           url: https://www.boyhu.cn/
           description: 记录对生活的向往，记录生活周遭的个人网站
         - title: itsNeko博客~	
@@ -3945,22 +3941,10 @@
           logo: 热浪.png
           url: https://www.relangdata.cn/?source=fcbdcf83
           description: 短视频直播电商一站式数据服务平台，提供抖音、小红书、视频号等社会化媒体平台数据分析服务。
-        - title: 标小智LOGO神器
-          logo: 标小志.png
-          url: https://www.logosc.cn
-          description: logo在线设计生成器，免费智能生成公司logo设计
         - title: 哔哩哔哩工具箱
           logo: 哔哩哔哩工具.jpg
           url: https://tool.rsplwe.com
           description: 获取视频封面、bv\av转换、查询弹幕发送者
-        - title: bgsub
-          logo: bgsub.jpg
-          url: https://bgsub.cn
-          description: 智能ai抠像，去除背景
-        - title: 有个美工
-          logo: 有个美工.jpg
-          url: https://youge.art
-          description: 强大的广告、封面作图神器
         - title: Boardos
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221028/size.6ikaf2vltlc0.png
           url: https://boardos.online
@@ -4193,10 +4177,117 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.2cq1cj60f78k.png
           url: https://runwayml.com
           description: 基于浏览器的AI快速剪辑
-        - title: 待添加
-          logo: 待.png
-          url: https://www.noisework.cn/
-          description: 待添加 
+        - title: fliki
+          logo: fliki.png
+          url: https://fliki.ai
+          description: 在2分钟内使用逼真的声音从脚本或博客文章创建视频！ 将博客文章转换为视频。
+        - title: studio d-id
+          logo: studio.d-id.png
+          url: https://studio.d-id.com
+          description: 仅使用图像和文本生成视频。从几种不同的头像和声音中进行选择。
+        - title: rephrase
+          logo: rephrase.png
+          url: https://www.rephrase.ai
+          description: Rephrase 的技术可实现大规模超个性化的视频创建，从而提高参与度和业务效率。
+        - title: designs ai
+          logo: designs.ai.png
+          url: https://designs.ai
+          description: 在 2 分钟内使用 AI 创建徽标、视频、横幅、模型。
+        - title: synthesia
+          logo: synthesia.ico
+          url: https://www.synthesia.io
+          description: 只需输入文本即可创建 AI 视频。易于使用
+        - title: opus
+          logo: opus.ico
+          url: https://opus.ai
+          description: 将文本转换为电影和游戏。
+
+    - term: AI·图设
+      links:
+        - title: Hugging Face
+          logo: huggingface.ico
+          url: https://huggingface.co/spaces/akhaliq/AnimeGANv2
+          description: 将图片和视频转换成漫画风格
+        - title: artbreeder
+          logo: artbreeder.ico
+          url: https://www.artbreeder.com
+          description: 在线图像合成
+        - title: sideit
+          logo: sideit.ico
+          url: https://sideit.app
+          description: 无缝拼图，自动调整比例
+        - title: upscalepics
+          logo: upscalepics.ico
+          url: https://upscalepics.com
+          description: AI无损放大图片
+        - title: pfpmaker
+          logo: pfpmaker.ico
+          url: https://pfpmaker.com
+          description: 上传肖像图，自动去除背景
+        - title: magiceraser
+          logo: magiceraser.ico
+          url: https://magicstudio.com/magiceraser
+          description: AI自动抠图
+        - title: getavataaars
+          logo: getavataaars.png
+          url: https://getavataaars.com
+          description: 卡通头像生成器
+        - title: generated
+          logo: generated.png
+          url: https://generated.photos
+          description: AI头像库，生成不存在的照片
+        - title: deepimage
+          logo: deepimage.ico
+          url: https://deep-image.ai
+          description: AI放大4倍图像
+        - title: uigradients
+          logo: uigradients.png
+          url: https://uigradients.com
+          description: 生成随机变色背景
+        - title: everypixel
+          logo: everypixel.ico
+          url: https://www.everypixel.com/patterns/generate
+          description: 随机生成无缝拼接图
+        - title: petalica
+          logo: petalica.png
+          url: https://petalica.com
+          description: 线稿插画自动上色
+        - title: autodraw
+          logo: autodraw.png
+          url: https://www.autodraw.com
+          description: AI猜测你要画什么
+        - title: fotoforensics
+          logo: fotoforensics.ico
+          url: https://fotoforensics.com
+          description: 自动检测图片是否PS过
+        - title: socialbook
+          logo: socialbook.png
+          url: https://socialbook.io/remove-background
+          description: AI自动人物背景移除
+        - title: purephotos
+          logo: purephotos.ico
+          url: https://purephotos.app
+          description: 自动删除照片上的所有背景
+        - title: palette
+          logo: palette.png
+          url: https://palette.fm
+          description: 黑白照片自动上色
+        - title: qiuziti
+          logo: qiuziti.ico
+          url: https://www.qiuziti.com
+          description: 自动识别图片中的字体
+        - title: bgsub
+          logo: bgsub.jpg
+          url: https://bgsub.cn
+          description: 智能ai抠像，去除背景
+        - title: 有个美工
+          logo: 有个美工.jpg
+          url: https://youge.art
+          description: 强大的广告、封面作图神器
+        - title: 标小智LOGO神器
+          logo: 标小志.png
+          url: https://www.logosc.cn
+          description: logo在线设计生成器，免费智能生成公司logo设计
 
     - term: AI·作曲
       links:
@@ -4630,6 +4721,10 @@
           logo: APKK.png
           url: https://apkcombo.com/zh/
           description: 第三方安卓应用商店
+        - title: appshare
+          logo: appshare.ico
+          url: https://appshare.muge.info
+          description: 更好用的第三方安卓应用商店
 
 
 
