@@ -4154,26 +4154,22 @@
           logo: andisearch.ico
           url: https://andisearch.com
           description: 可以像朋友一样交谈
-        - title: 待添加
-          logo: 待.png
-          url: https://www.noisework.cn
-          description: 待添加 
-        - title: 待添加
-          logo: 待.png
-          url: https://www.noisework.cn
-          description: 待添加 
-        - title: 待添加
-          logo: 待.png
-          url: https://www.noisework.cn
-          description: 待添加 
-        - title: 待添加
-          logo: 待.png
-          url: https://www.noisework.cn
-          description: 待添加 
-        - title: 待添加
-          logo: 待.png
-          url: https://www.noisework.cn
-          description: 待添加  
+        - title: polyai
+          logo: poly.ico
+          url: https://poly.ai
+          description: AI语音通话助手，随时接听你的电话
+        - title: usechannel
+          logo: usechannel.ico
+          url: https://www.usechannel.com
+          description: 连接您的数据库，提出问题，获得答案。
+        - title: quickchat
+          logo: quickchat.ico
+          url: https://www.quickchat.ai
+          description: 构建像人类一样说话的AI助手的技术
+        - title: 微信对话开放平台
+          logo: openweixin.ico
+          url: https://openai.weixin.qq.com
+          description: 免费搭建对接智能对话机器人
 
     - term: AI·视频
       links:
@@ -4267,10 +4263,26 @@
           logo: glasp_logo.png
           url: https://glasp.co
           description: 为博主提供AI驱动的写作
-        - title: 待添加
-          logo: 待.png
-          url: https://www.noisework.cn/
-          description: 待添加 
+        - title: tome
+          logo: beta.tome.app.ico
+          url: https://beta.tome.app
+          description:  使用 Tome 的 AI 驱动的叙事格式解锁您的作品
+        - title: webcopilot
+          logo: webcopilot.ico
+          url: https://www.webcopilot.co
+          description: 使用 AI 编写您的Notion页面。加快您的写作过程并专注于重要的事情
+        - title: upword
+          logo: upword.png
+          url: https://www.upword.ai
+          description: 使用 Upword 的 AI 捕捉关键想法。个性化您的摘要。增长和管理您的知识 
+        - title: luciaai
+          logo: luciaai.ico
+          url: https://luciaai.com
+          description: 高级AI写作助手，更快地写作
+        - title: helloscribe
+          logo: helloscribe.png
+          url: https://www.helloscribe.ai
+          description: HelloScribe 的 AI 写作和头脑风暴工具可帮助公关和营销专业人员更智能、更快速地工作 
         
 
 
