@@ -363,10 +363,26 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/toolb.2t6eabk4u8q0.png
           url: https://toolb.cn/textspeech
           description: 语音合成，语音转文字
-        - title: 声咖
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221023/声咖.7ktb3trgqcw0.png
-          url: https://shengka.ai.sogou.com
-          description: 语音合成，文本情感配音，专属配音定制
+        - title: 微软官方语音合成入口
+          logo: Microsoft.ico
+          url: https://azure.microsoft.com/zh-cn/products/cognitive-services/text-to-speech/#features
+          description: 微软官方文本转语音入口
+        - title: Microsoft™ 文字转语音下载器
+          logo: Microsofttts.jpg
+          url: https://chrome.google.com/webstore/detail/microsoft-text-to-speech/dplnecggiofdkdcagdkjebneaonfhbbb/related?hl=zh-CN
+          description: 为官方转语音页面添加下载按钮
+        - title: 云语音合成助手
+          logo: hechengzhushou.png
+          url: https://tts.yycc.dev
+          description: 跨平台基于云平台的语音合成 API 的文字转语音助手。支持 windows、macOS、Linux。github:https://github.com/funnyzak/tts-now
+        - title: TTS-Vue
+          logo: loker.ico
+          url: https://loker-page.lgwawork.com/home.html
+          description: 微软语音合成工具，使用 Electron + Vue + ElementPlus + Vite 构建
+        - title: edge-TTS-record
+          logo: github.jpg
+          url: https://github.com/LuckyHookin/edge-TTS-record
+          description: 一个可以录制 Microsoft Edge 浏览器的语音合成（TTS）语音并输出为 .wav 音频的（windows平台）工具。
 
     - term: 无版权图库
       links:
@@ -4288,6 +4304,10 @@
           logo: opus.ico
           url: https://opus.ai
           description: 将文本转换为电影和游戏。
+        - title: mdvideo
+          logo: mdvideo.png
+          url: https://mdvideo.gshll.com
+          description: 一个将markdown文档转为视频的便捷工具
 
     - term: AI·图设
       links:
