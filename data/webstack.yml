@@ -6,23 +6,23 @@
     - title: Efficiency主页
       logo: binoculars.jpg
       url: https://efficiencyfollow.notion.site
-      description: Efficiency-notion主页
+      description: 栏目为主综合Notion收录增长页
     - title: 个人RSS阅读页
       logo: 漫1.jpg
       url: https://rcy1314.github.io/news/
-      description: 我的RSS阅读聚合页
+      description: 个人RSS综合阅读聚合页
     - title: 知识效率集
       logo: 漫2.jpg
       url: https://www.noisesite.cn
-      description: Noise-notion知识库
+      description: 强大的notion知识库
     - title: YouTube订阅页
       logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.5axe7kkjjc80.jpg
       url: https://rcy1314.github.io/youtube
-      description: 我的YouTube订阅页
+      description: 个人YouTube订阅推荐页
     - title: 频道推送器
       logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.6agxn2fdzxw0.jpg
       url: https://www.efficiencynoise.top
-      description: 我的频道推送器
+      description: 频道推送通知器
     - title: NOISE宝藏阁
       logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.gy018s53b3s.jpg
       url: https://www.noisevip.cn
@@ -678,10 +678,6 @@
           logo: abletive.ico
           url: http://www.abletive.com/
           description: abletive电子音乐社区
-        - title: vuetify Music
-          logo: noisemusic.png
-          url: https://noisemusic.netlify.app/
-          description: 音乐站
         - title: 热门TikTok歌曲
           logo: rementiktok.png
           url: https://tokboard.com
@@ -5201,6 +5197,148 @@
           url: https://tg.i-c-a.su
           description: TG频道转换RSS
 
+    - term: 极客自动化
+      links:
+        - title: Github action
+          logo: github.jpg
+          url: https://docs.github.com/zh/actions
+          description: 在 GitHub Actions 的仓库中自动化、自定义和执行软件开发工作流程
+        - title: ifttt
+          logo: ifttt.ico
+          url: https://ifttt.com
+          description: 构建全球信息自动化的第一步
+        - title: zapier
+          logo: zapier.ico
+          url: https://zapier.com
+          description: 老牌自动化集成平台
+        - title: make
+          logo: make.ico
+          url: https://www.make.com
+          description: integromat改版进化而来的集成平台
+        - title: Bardeen
+          logo: Bardeen.jpg
+          url: https://chrome.google.com/webstore/detail/bardeen/ihhkmalpkhkoedlmcnilbbhhbhnicjga
+          description: 连接 30+ 个应用程序，抓取网络并提高您的工作效率
+        - title: Automate.io
+          logo: Automate.png
+          url: https://automate.io
+          description: 官方已于2022年10月31日停用，作为使用过的平台，仅留作纪念
+        - title: CommandPost
+          logo: CommandPost.png
+          url: https://commandpost.io
+          description: FCPX必备工具，自动化集成推送通知
+        - title: mintlify
+          logo: mintlify.ico
+          url: https://www.mintlify.com
+          description: 连续文档平台 
+        - title: N8N
+          logo: n8n.ico
+          url: https://n8n.io
+          description: 最强的自动化工具，开源支持自部署
+        - title: splitbee
+          logo: splitbee.png
+          url: https://splitbee.io
+          description: 自动化通知分析业务
+        - title: parabola
+          logo: parabola.png
+          url: https://parabola.io
+          description: 以自动化、记录和协作的方式实现表单构建、协作
+        - title: hiflow
+          logo: hiflow.ico
+          url: https://hiflow.tencent.com
+          description: 腾讯的流程自动化工具
+        - title: svix
+          logo: svix.ico
+          url: https://www.svix.com
+          description: 几分钟内构建安全、可靠且可扩展的webhook平台
+        - title: tooljet
+          logo: tooljet.png
+          url: https://www.tooljet.com
+          description: 自动化交付、构建、审核平台
+        - title: testsigma
+          logo: testsigma.ico
+          url: https://testsigma.com
+          description: 快速构建稳定可靠的自动化测试
+        - title: dopplertask
+          logo: dopplertask.ico
+          url: https://dopplertask.com
+          description: 自动执行任务。无论是一堆 bash 脚本还是只是远程启动您的汽车，您都可以自动化它
+        - title: workload
+          logo: workload.png
+          url: https://automate.workload.co
+          description: 创建难以置信的自动化工作流
+        - title: mailjet
+          logo: mailjet.ico
+          url: https://www.mailjet.com
+          description: 使用mailjet为邮件配置自动化
+        - title: HIVE
+          logo: HIVE.ico
+          url: https://app.hive.com
+          description: 使用HIVE构建自动化应用程序
+        - title: monday
+          logo: monday.ico
+          url: https://monday.com
+          description: 创建表单、文档自动化
+        - title: pipedrive
+          logo: pipedrive.ico
+          url: https://pipedrive.com
+          description: 营销自动化pipedrive
+        - title: livestorm
+          logo: livestorm.ico
+          url: https://livestorm.co
+          description: 视频会议自动化
+        - title: process
+          logo: process.png
+          url: https://www.process.st
+          description: 表单自动化
+        - title: PipeHub
+          logo: PipeHub.png
+          url: https://www.pipehub.net
+          description: 开源的企业微信和TG的自动化推送平台
+        - title: pipedream
+          logo: pipedream.ico
+          url: https://pipedream.com
+          description: 针对每个人的自动化集成平台，数百种链接自动化
+        - title: integrately
+          logo: integrately.ico
+          url: https://app.integrately.com
+          description: 快速简单构建自动化工作流
+        - title: sunsama
+          logo: sunsama.ico
+          url: https://www.sunsama.com
+          description: 日程追踪自动化
+        - title: 集简云
+          logo: 集简云.ico
+          url: https://apps.jijyun.cn
+          description: 国内的自动化集成平台，链接数百种平台
+        - title: getconvoy
+          logo: getconvoy.ico
+          url: https://getconvoy.io
+          description: 开源的webhook代理
+        - title: 数环通
+          logo: 数环通.ico
+          url: https://www.solinkup.com
+          description: 国内的针对企业客户的集成平台
+        - title: pabbly
+          logo: pabbly.png
+          url: https://connect.pabbly.com
+          description: 表单创建、电子邮件营销、计费、自动化
+        - title: NAS媒体库资源归集
+          logo: github.jpg
+          url: https://github.com/jxxghp/nas-tools
+          description: NAS媒体库资源归集、整理自动化
+        - title: cyclr
+          logo: cyclr.png
+          url: https://cyclr.com
+          description: 交付集成自动化
+        - title: directus
+          logo: directus.png
+          url: https://directus.io
+          description: 动态接口SQL数据库
+        - title: mailgun
+          logo: mailgun.ico
+          url: https://www.mailgun.com
+          description: 通过API、SMTP 中继和webhook发送、接收和跟踪电子邮件
     - term: 探索发现
       links:
         - title: Suki 素记
@@ -5327,3 +5465,7 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221020/uiset.73k3kfq8fyw0.png
           url: https://uiset.com
           description: 一个收录收集插图、图标、表情、图案等资源的网站
+        - title: mergeek
+          logo: mergeek.png
+          url: https://mergeek.com
+          description: 科技产品爱好者社区，限免APP情报
