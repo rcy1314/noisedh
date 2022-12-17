@@ -1876,6 +1876,10 @@
           logo: xiaojiang.png
           url: https://mqs.hk
           description: 小江盘
+        - title:  Liynw 的网盘
+          logo: Liynw.ico
+          url: https://pan.liynw.top
+          description:  Onedrive盘，Liynw 的网盘
         
     - term: 云盘搜索
       links:
@@ -3424,8 +3428,83 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.4wdnxfoeu220.png
           url: https://forum.gamemaker.io/
           description: 国外的游戏设计、开发和发行论坛社区
-        
-    - term: 独立博客
+
+    - term: 博客人生·构建
+      links:
+        - title: Github
+          logo: github.jpg
+          url: https://github.com
+          description: 全世界的码农社区和代码托管平台
+        - title: Gitlab
+          logo: gitlab.png
+          url: https://about.gitlab.com
+          description: 全世界的代码托管平台 
+        - title: gitee.ico
+          logo: gitee.ico
+          url: https://gitee.com
+          description: 国内的代码托管平台 
+        - title: Hugo
+          logo: Hugo.ico
+          url: https://gohugo.io
+          description: Hugo 是最受欢迎的开源静态站点生成器之一
+        - title: Hexo
+          logo: hexo.ico
+          url: https://hexo.io/zh-cn/
+          description: 快速、简洁且高效的博客框架
+        - title: Vuepress
+          logo: vuepress.png
+          url: https://www.vuepress.cn
+          description: Vue 驱动的静态网站生成器
+        - title: Wordpress
+          logo: wordpress.ico
+          url: https://cn.wordpress.org
+          description: WordPress是一款能让您建立出色网站、博客或应用程序的开源软件
+        - title: Solo
+          logo: Solo.ico
+          url: https://b3log.org/solo/
+          description: 小而美的博客系统，为未来而构建
+        - title: 21云盒子
+          logo: 21yun.png
+          url: https://www.21cloudbox.com
+          description: 出色的网站托管及静态站构建
+        - title: Gridea
+          logo: Gridea.ico
+          url: https://gridea.dev
+          description: Gridea 是一个静态博客写作客户端，帮助你更容易地构建并管理博客或任何静态站点
+        - title: Typecho
+          logo: typecho.ico
+          url: http://typecho.org
+          description: 轻量化网站构建器，N 年 Typecho 沉淀，现在，回应您的等待
+        - title: Halo
+          logo: halo.ico
+          url: https://halo.run
+          description: 好用又强大的开源建站工具
+        - title: xnote
+          logo: gitee.ico
+          url: https://gitee.com/xupingmao/xnote
+          description: xnote是一款面向个人的轻量级笔记系统
+        - title: Publii
+          logo: publii.ico
+          url: https://getpublii.com
+          description: 比Gridea更早的静态站点构建器，您可以快速轻松地创建一个美观、安全且隐私友好的网站
+        - title: 笔迹
+          logo: 笔迹.png
+          url: https://v2.penlogs.com
+          description: 笔迹博客托管——不将就
+        - title: vercel
+          logo: vercel.png
+          url: https://vercel.com
+          description: 静态化站点托管平台，可一键生成静态博客模版
+        - title: Netlify
+          logo: netlify.png
+          url: https://app.netlify.com
+          description: 静态化站点托管平台，可一键生成静态博客模版
+        - title: cloudflare
+          logo: cloudflare.png
+          url: https://dash.cloudflare.com
+          description: 静态化站点托管平台，可一键生成静态博客模版
+
+    - term: 博客人生·独立博客
       links:
         - title: 冬烛之焰
           logo: www.runningcheese.com.ico
@@ -3607,6 +3686,18 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221028/xxx.3uh8ymtn6540.png
           url: https://anzhiy.cn
           description: 生活明朗 万物可爱
+        - title: 小触手的书房
+          logo: heiheihei.png
+          url: https://heiheihei.ca
+          description: 记录绘画学习的独立站
+        - title: 山岳库博
+          logo: kmar.png
+          url: https://kmar.top
+          description: 记录绘画学习的独立站
+        - title: 肆零肆
+          logo: xmq.ico
+          url: https://xmq.plus
+          description: 肆零肆的学习记录站
         
     - term: 优质播客
       links:
@@ -4370,8 +4461,10 @@
           logo: helloscribe.png
           url: https://www.helloscribe.ai
           description: HelloScribe 的 AI 写作和头脑风暴工具可帮助公关和营销专业人员更智能、更快速地工作 
-        
-
+        - title: copy ai
+          logo: copyai.ico
+          url: https://app.copy.ai
+          description: 输入一个主题AI自动化展开头脑风暴
 
 - taxonomy: 极客下载
   icon: fas fa-circle
@@ -4676,8 +4769,6 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.21evzux5t340.jpg
           url: https://xyyzyw.cn
           description: 综合类资源下载站
-
-
 
     - term: 下载·安卓
       links:
@@ -5469,3 +5560,11 @@
           logo: mergeek.png
           url: https://mergeek.com
           description: 科技产品爱好者社区，限免APP情报
+        - title: Google谷歌搜索镜像
+          logo: gglink.ico
+          url: https://www.ooopn.com/tool/gglink/
+          description: Google谷歌搜索镜像
+        - title: v1tx
+          logo: v1tx.png
+          url: https://www.v1tx.com
+          description: 发现实用工具和软件
