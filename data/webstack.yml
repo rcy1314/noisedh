@@ -3488,6 +3488,26 @@
           logo: kookapp.ico
           url: https://www.kookapp.cn
           description: 为游戏派对而生的语音沟通工具
+        - title: silvergames
+          logo: silvergames.ico
+          url: https://www.silvergames.com
+          description: 国外经典小游戏
+        - title: 4399
+          logo: 4399.ico
+          url: https://www.4399.com
+          description: 童年经典4399
+        - title: 5dplay
+          logo: 5dplay.png
+          url: http://www.5dplay.net
+          description: 网页摸鱼小游戏4399
+        - title: Infinity Games
+          logo: inftab.png
+          url: https://games.inftab.com
+          description: H5网页摸鱼小游戏
+        - title: kbhgames
+          logo: kbhgames.ico
+          url: https://kbhgames.com
+          description: 国外网页摸鱼小游戏站
 
     - term: 博客人生·构建
       links:
