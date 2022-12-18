@@ -3508,6 +3508,14 @@
           logo: kbhgames.ico
           url: https://kbhgames.com
           description: 国外网页摸鱼小游戏站
+        - title: flysheep资源避难所
+          logo: flysheep.png
+          url: https://www.flysheep6.com
+          description: PC单机大作下载站
+        - title: nexusmods
+          logo: nexusmods.ico
+          url: https://www.nexusmods.com
+          description: MMD游戏模组供给站
 
     - term: 博客人生·构建
       links:
