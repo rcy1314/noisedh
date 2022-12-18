@@ -3444,6 +3444,18 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.4wdnxfoeu220.png
           url: https://forum.gamemaker.io/
           description: 国外的游戏设计、开发和发行论坛社区
+        - title: flash保存计划
+          logo: flash.zczc.ico
+          url: https://flash.zczc.cz/flash
+          description: flash游戏收录
+        - title: 在线DOS游戏
+          logo: dos.zczc.ico
+          url: https://dos.zczc.cz
+          description: 在线DOS游戏
+        - title: 老男人游戏网
+          logo: oldmanemu.ico
+          url: https://www.oldmanemu.net
+          description: 经典游戏，主机游戏收录
 
     - term: 博客人生·构建
       links:
@@ -4395,6 +4407,10 @@
           logo: 标小志.png
           url: https://www.logosc.cn
           description: logo在线设计生成器，免费智能生成公司logo设计
+        - title: 改图鸭
+          logo: gaituya.ico
+          url: https://www.gaituya.com
+          description: 在线图片工具大全
 
     - term: AI·作曲
       links:
@@ -4485,6 +4501,10 @@
           logo: copyai.ico
           url: https://app.copy.ai
           description: 输入一个主题AI自动化展开头脑风暴
+        - title: 据意查句
+          logo: wantquotes.ico
+          url: https://wantquotes.net
+          description: 可以根据你输入描述的意思来查找相应的名言名句
 
 - taxonomy: 极客下载
   icon: fas fa-circle
@@ -4789,6 +4809,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.21evzux5t340.jpg
           url: https://xyyzyw.cn
           description: 综合类资源下载站
+        - title: IT熊技术站
+          logo: cutrui.ico
+          url: https://www.cutrui.cn
+          description: 专注于网络安全和技术分享
 
     - term: 下载·安卓
       links:
@@ -5588,3 +5612,7 @@
           logo: v1tx.png
           url: https://www.v1tx.com
           description: 发现实用工具和软件
+        - title: 像素滤镜
+          logo: jingshing.ico
+          url: https://pixel.jingshing.com
+          description: 图片视频转像素画
