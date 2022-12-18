@@ -702,6 +702,18 @@
           logo: midishow.png
           url: https://www.midishow.com
           description: 查找MIDI音乐
+        - title: ishkur
+          logo: ishkur.ico
+          url: http://music.ishkur.com
+          description: 电子音乐流派分类点播
+        - title: learningmusic
+          logo: learningmusic.ico
+          url: https://learningmusic.ableton.com/zh-Hans/
+          description: 音乐创造学习
+        - title: khinsider
+          logo: khinsider.ico
+          url: https://downloads.khinsider.com
+          description: 游戏音乐大全
 
     - term: 媒体平台
       links:
@@ -3468,6 +3480,14 @@
           logo: 灵动游戏.png
           url: https://www.mhhf.com
           description: 网页小游戏大全
+        - title: indiexpo
+          logo: indiexpo.ico
+          url: https://www.indiexpo.net
+          description: 电子独立游戏
+        - title: kookapp
+          logo: kookapp.ico
+          url: https://www.kookapp.cn
+          description: 为游戏派对而生的语音沟通工具
 
     - term: 博客人生·构建
       links:
@@ -4262,6 +4282,10 @@
           logo: draft.ico
           url: https://draft.art
           description: AI绘图快速创造
+        - title: ERNIE-ViLG
+          logo: ERNIE-ViLG.ico
+          url: https://huggingface.co/spaces/PaddlePaddle/ERNIE-ViLG
+          description: 支持中文，多种模型快速绘制
 
     - term: AI·问答
       links:
@@ -4340,6 +4364,10 @@
           logo: mdvideo.png
           url: https://mdvideo.gshll.com
           description: 一个将markdown文档转为视频的便捷工具
+        - title: unscreen
+          logo: unscreen.ico
+          url: https://www.unscreen.com
+          description: AI在线视频抠像
 
     - term: AI·图设
       links:
@@ -5640,7 +5668,8 @@
           logo: pixilart.ico
           url: https://www.pixilart.com
           description: 像素画创造和分享
-        - title: 轻壁纸
-          logo: 轻壁纸.ico
-          url: https://qingbizhi.com
-          description: 免费高清4K电脑壁纸
+        - title: 全历史
+          logo: 全历史.ico
+          url: https://www.allhistory.com
+          description: get历史知识
+        
