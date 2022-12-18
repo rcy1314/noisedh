@@ -1959,6 +1959,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.7k1n1nnkv8w0.png
           url: https://yougit.net
           description: 蓝奏云、阿里云盘搜索站
+        - title: 趣盘搜
+          logo: 趣盘搜.ico
+          url: https://pan.funletu.com
+          description: 夸克云盘搜索站
         
     - term: 云盘存储
       links:
@@ -3456,6 +3460,14 @@
           logo: oldmanemu.ico
           url: https://www.oldmanemu.net
           description: 经典游戏，主机游戏收录
+        - title: iogames
+          logo: iogames.png
+          url: https://iogames.space
+          description: 国外的网页游戏大全
+        - title: 灵动游戏
+          logo: 灵动游戏.png
+          url: https://www.mhhf.com
+          description: 网页小游戏大全
 
     - term: 博客人生·构建
       links:
@@ -4080,6 +4092,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.aka8mqh4g3s.png
           url: https://flowchart.fun
           description: Flowchart Fun 是一个网络应用程序，用于从使用 React 和cytoscape.js 构建的文本生成流程图
+        - title: 像素滤镜
+          logo: jingshing.ico
+          url: https://pixel.jingshing.com
+          description: 图片视频转像素画
         
     - term: 效率生产力
       links:
@@ -4242,6 +4258,10 @@
           logo: dreamup.png
           url: https://www.dreamup.com
           description: 用AI创造艺术作品
+        - title: draft
+          logo: draft.ico
+          url: https://draft.art
+          description: AI绘图快速创造
 
     - term: AI·问答
       links:
@@ -4505,6 +4525,10 @@
           logo: wantquotes.ico
           url: https://wantquotes.net
           description: 可以根据你输入描述的意思来查找相应的名言名句
+        - title: 彩云小梦AI续写
+          logo: 彩云小梦.png
+          url: https://if.caiyunai.com/dashboard/novels
+          description: 彩云小梦AI续写
 
 - taxonomy: 极客下载
   icon: fas fa-circle
@@ -5612,7 +5636,11 @@
           logo: v1tx.png
           url: https://www.v1tx.com
           description: 发现实用工具和软件
-        - title: 像素滤镜
-          logo: jingshing.ico
-          url: https://pixel.jingshing.com
-          description: 图片视频转像素画
+        - title: pixilart
+          logo: pixilart.ico
+          url: https://www.pixilart.com
+          description: 像素画创造和分享
+        - title: 轻壁纸
+          logo: pixilart.ico
+          url: https://qingbizhi.com
+          description: 免费高清4K电脑壁纸
