@@ -1,5 +1,4 @@
 ---
-
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
@@ -856,7 +855,44 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221030/xxx.4upsqwo26ae0.png
           url: https://www.capcut.cn/editor
           description: 剪映网页版
-
+    - term: 虚拟直播
+      links:
+        - title: animaze
+          logo: animaze.ico
+          url: https://www.animaze.us
+          description: Animaze 可与网络摄像头或 iPhone 配合使用，并与 OBS、SLOBS、Discord、Zoom、Google 会议等兼容！在Twitch，YouTube和Facebook Gaming等网站上流式传输。在所有社交媒体上发布视频，包括TikTok和Instagram
+        - title: 超次元
+          logo: 超次元.ico
+          url: https://www.acgvr.com
+          description: VTPlus虚拟主播系统
+        - title: VTube Studio
+          logo: VTube.png
+          url: https://denchisoft.com
+          description: VTube Studio是一款面向虚拟YouTube用户的应用程序，让您轻松有趣地将自己的Live2D模型带入生活
+        - title: 域动数字
+          logo: 域动数字.ico
+          url: https://rhythmo.cn
+          description: 域动数字提供轻量级虚拟数字人生成与驱动的智能解决方案，致力于构建所有人都可以使用的虚拟形象交互平台
+        - title: 小K直播姬
+          logo: 小K.ico
+          url: https://www.yunboai.com
+          description: 打造人人皆可虚拟
+        - title: xianfei动作捕捉系统
+          logo: github.jpg
+          url: https://github.com/xianfei/SysMocap
+          description: 用于3D虚拟角色动画的实时动作捕捉系统
+        - title: VSeeFace
+          logo: VSeeFace.ico
+          url: https://www.vseeface.icu
+          description: VSeeFace是一款免费，高度可配置的面部和手部跟踪VRM和VSFAvatar头像木偶程序，适用于虚拟YouTuber
+        - title: snapcamera
+          logo: snapcamera.ico
+          url: https://snapcamera.snapchat.com
+          description: 实时视频特效头像贴纸
+        - title: voicemod
+          logo: voicemod.ico
+          url: https://www.voicemod.net
+          description: AI 语音转换器和音板表达自己，为 Roblox、OBS、VRChat、Discord 等平台构建您的声音
 
 - taxonomy: 影视片场
   icon: far fas fa-tape
@@ -2031,7 +2067,7 @@
           url: http://pan-yz.chaoxing.com
           description: 超星云盘
         - title: 123云盘
-          logo: 123云盘.png
+          logo: 123云盘.jpg
           url: https://www.123pan.com/
           description: 123云盘
         - title: 阿里云盘
@@ -4144,6 +4180,10 @@
           logo: jingshing.ico
           url: https://pixel.jingshing.com
           description: 图片视频转像素画
+        - title: 小闪电
+          logo: 小闪电.png
+          url: https://jsrun.net
+          description: 专业的代码在线运行
         
     - term: 效率生产力
       links:
@@ -4499,6 +4539,10 @@
           logo: imgcook.ico
           url: https://www.imgcook.com
           description: PS、SKETCH、FLGMA设计稿智能生成代码
+        - title: toonme
+          logo: toonme.ico
+          url: https://toonme.com
+          description: AI照片转卡通效果
 
     - term: AI·作曲
       links:
@@ -4550,6 +4594,10 @@
           logo: tuneflow.png
           url: https://tuneflow.com
           description: 中文新一代的音乐创作工具
+        - title: voicemod
+          logo: voicemod.ico
+          url: https://www.voicemod.net/text-to-song/
+          description: AI文本生成歌曲
 
     - term: AI·写作
       links: 
@@ -4605,6 +4653,22 @@
           logo: github.jpg
           url: https://github.com/EssayKillerBrain/EssayKiller_V2
           description: 基于开源GPT2.0的初代创作型人工智能 | 可扩展、可进化
+        - title: Get写作
+          logo: Get写作.png
+          url: https://getgetai.com
+          description: Get写作，一站式智能写作服务平台
+        - title: 秘塔写作猫
+          logo: 秘塔写作猫.ico
+          url: https://xiezuocat.com
+          description: A写作，文章自成、集A写作、多人协作、文本校对、改写润色、自动配图等功能为一体
+        - title: 火龙果写作
+          logo: 火龙果写作.ico
+          url: https://www.mypitaya.com
+          description: 火龙果写作，AI驱动的文字生产力工具
+        - title: 九歌
+          logo: 九歌.png
+          url: http://jiuge.thunlp.org
+          description: 人工智能诗歌写作系统
     - term: AI·元素
       links: 
         - title: ai dawnmark
@@ -4986,8 +5050,6 @@
           logo: appshare.ico
           url: https://appshare.muge.info
           description: 更好用的第三方安卓应用商店
-
-
 
     - term: 下载·系统
       links:
@@ -5452,7 +5514,7 @@
         - title: 源仓库
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.5f4fsba6dn40.png
           url: http://www.yckceo.com
-          description: 收录整理RSS源
+          description: 书籍、漫画RSS源
         - title: 公众号 RSS
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.5rmppvaaut80.png
           url: https://feeddd.org
