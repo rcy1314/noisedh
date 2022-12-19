@@ -4341,6 +4341,14 @@
           logo: openweixin.ico
           url: https://openai.weixin.qq.com
           description: 免费搭建对接智能对话机器人
+        - title: 图灵机器人
+          logo: 图灵.ico
+          url: http://www.turingapi.com
+          description: 智能好用的聊天机器人
+        - title: 思知
+          logo: 思知.ico
+          url: https://www.ownthink.com
+          description: AI认知对话服务
 
     - term: AI·视频
       links:
@@ -4487,6 +4495,10 @@
           logo: gaituya.ico
           url: https://www.gaituya.com
           description: 在线图片工具大全
+        - title: imgcook
+          logo: imgcook.ico
+          url: https://www.imgcook.com
+          description: PS、SKETCH、FLGMA设计稿智能生成代码
 
     - term: AI·作曲
       links:
@@ -4534,6 +4546,10 @@
           logo: MuseNet.ico
           url: https://openai.com/blog/musenet/
           description: OpenAI 的 MuseNet 号称能够生成10种不同音乐的歌曲和15种不同风格的音乐。同时，它也能够模仿古典音乐创作，如莫扎特；也能创造流行音乐，如 Lady Gaga。
+        - title: tuneflow
+          logo: tuneflow.png
+          url: https://tuneflow.com
+          description: 中文新一代的音乐创作工具
 
     - term: AI·写作
       links: 
@@ -4585,6 +4601,40 @@
           logo: 彩云小梦.png
           url: https://if.caiyunai.com/dashboard/novels
           description: 彩云小梦AI续写
+        - title: 论文创作人工智能框架
+          logo: github.jpg
+          url: https://github.com/EssayKillerBrain/EssayKiller_V2
+          description: 基于开源GPT2.0的初代创作型人工智能 | 可扩展、可进化
+    - term: AI·元素
+      links: 
+        - title: ai dawnmark
+          logo: dawnmark.ico
+          url: https://ai.dawnmark.cn
+          description: AI词汇加速
+        - title: aitag
+          logo: aitag.png
+          url: https://aitag.top
+          description: AI绘画tag生成器
+        - title: NovelAiTag
+          logo: github.jpg
+          url: https://thereisnospon.github.io/NovelAiTag/
+          description: NovelAiTag生成器
+        - title: NovelAI语雀文档
+          logo: yuque.ico
+          url: https://www.yuque.com/longyuye/lmgcwy
+          description: NovelAI语雀文档
+        - title: NovelAI tag生成器
+          logo: wolfchen.ico
+          url: https://wolfchen.top/tag/
+          description: NovelAI tag生成器
+        - title: 元素法典 腾讯文档
+          logo: 腾讯文档.png
+          url: https://docs.qq.com/doc/DWHl3am5Zb05QbGVs
+          description: Novel AI 元素魔法全收录
+        - title: AI 的样式和关键字的参考
+          logo: github.jpg
+          url: https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference
+          description:  AI 的样式和关键字的参考
 
 - taxonomy: 极客下载
   icon: fas fa-circle
