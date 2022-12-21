@@ -4144,10 +4144,6 @@
           logo: zaixiangj.png
           url: https://www.toolfk.com
           description: Toolfk程序在线工具箱提供古诗智能创作,语音生成,伪原创,文字转语音,文字转视频,JSON格式化等在线工具,做一个有用的在线工具站
-        - title: 改图神器
-          logo: gaitu.png
-          url: https://img.logosc.cn
-          description: 一款完全免费简单好用的在线万能图片编辑器，无需注册即开即用，支持多种格式图片
         - title: 热浪数据
           logo: 热浪.png
           url: https://www.relangdata.cn/?source=fcbdcf83
@@ -4476,6 +4472,10 @@
           logo: github.jpg
           url: https://github.com/rameshavinash94/AIVideoEditor
           description: 提供多种模块，包括语音转换为文本等
+        - title: 33搜帧
+          logo: 33搜帧.ico
+          url: https://fse.agilestudio.cn
+          description: 33搜帧基于AI能力，可以帮你快速找到和剪切相关视频画面，并且支持一键合成视频，让视频创作变得更有效率
 
     - term: AI·图设
       links:
@@ -4575,6 +4575,10 @@
           logo: toonme.ico
           url: https://toonme.com
           description: AI照片转卡通效果
+        - title: 改图神器
+          logo: gaitu.png
+          url: https://img.logosc.cn
+          description: 一款完全免费简单好用的在线万能图片编辑器，无需注册即开即用，支持多种格式图片
 
     - term: AI·作曲
       links:
@@ -5740,6 +5744,10 @@
           logo: myfavicon.ico
           url: https://my.faviconkit.com
           description: 可靠的API从任何网站获取并嵌入Favicons
+        - title: 六种方式获取网站图标
+          logo: wechat.ico
+          url: https://mp.weixin.qq.com/s/8fqpoLDfy4HCRlOaiEkLCA
+          description: 建站必备技能【六种获取网站图标或嵌入在自己网站上的方法】
         - title: LOGO生成器
           logo: LOGO生产.png
           url: https://creecros.github.io/simple_logo_gen
@@ -5848,4 +5856,13 @@
           logo: 全历史.ico
           url: https://www.allhistory.com
           description: get历史知识
+        - title: 神器集
+          logo: logosc.ico
+          url: https://hao.logosc.cn
+          description: 神器集是一个互联网工具收集与分享网站，这里收集了最新最酷的互联网产品和创意工具网站，你一定能发现能带给你灵感的工具
+        - title: Adobe软件下载
+          logo: Adobe软件下载.ico
+          url: https://www.superso.top/Adobe/?ref=lovejay.top
+          description: 网站收录Adobe2021-2023全系列软件下载，提供WIN、MAC端版本
+        
         
