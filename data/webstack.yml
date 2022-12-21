@@ -655,7 +655,7 @@
           description: 在线音乐
         - title: 在线音乐解密
           logo: 解密.ico
-          url: https://github.com/unlock-music/unlock-music
+          url: https://ipidkun.com/unlock-music/
           description: 在线音乐解密
         - title: 下歌吧
           logo: 下歌.ico
@@ -1857,10 +1857,6 @@
           logo: lanzou.png
           url: https://dazhong.lanzoui.com/b0ee9ctaj
           description: 安卓手机 电脑软件
-        - title: 安卓和少量电脑软件
-          logo: lanzou.png
-          url: https://zdjb.lanzoui.com/b00zmt4ne
-          description: APK 少量exe
         - title: go破解全站app大全
           logo: lanzou.png
           url: https://gopojie.lanzoui.com/b00z78rib
@@ -1869,10 +1865,14 @@
           logo: lanzou.png
           url: https://bimbjz.lanzoux.com/s/BJZ
           description: 各类软件, win, 苹果, 安卓
-        - title: youtube 博主的			
+        - title: MIUI开发版和更新	
           logo: lanzou.png
-          url: https://wny.lanzoui.com/b016pdopa
-          description: 手机电脑软件汇总，密码4rxw
+          url: https://www.lanzoui.com/b0eej6xqd?w
+          description: MIUI开发版和更新	
+        - title: MIUI应用更新	
+          logo: lanzou.png
+          url: https://www.lanzoux.com/b00z6coeh
+          description: MIUI应用更新
         
     - term: 自建云盘站
       links:
