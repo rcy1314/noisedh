@@ -9,7 +9,7 @@
     - title: 个人RSS阅读页
       logo: 漫1.jpg
       url: https://rcy1314.github.io/news/
-      description: 个人RSS综合阅读聚合页
+      description: 我的RSS综合阅读聚合页
     - title: 知识效率集
       logo: 漫2.jpg
       url: https://www.noisesite.cn
@@ -17,11 +17,11 @@
     - title: YouTube订阅页
       logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.5axe7kkjjc80.jpg
       url: https://rcy1314.github.io/youtube
-      description: 个人YouTube订阅推荐页
+      description: 我的YouTube订阅推荐页
     - title: 频道推送器
       logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.6agxn2fdzxw0.jpg
       url: https://www.efficiencynoise.top
-      description: 频道推送通知器
+      description: 我的频道推送通知器
     - title: NOISE宝藏阁
       logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.gy018s53b3s.jpg
       url: https://www.noisevip.cn
@@ -191,10 +191,6 @@
           logo: www.lookzy.cn.ico
           url: https://www.lookzy.cn
           description: 后期素材下载站
-        - title: 韬客AE
-          logo: talkae.png
-          url: https://www.talkae.com
-          description: 各类插件预设
         - title: 韬客AE
           logo: talkae.png
           url: https://www.talkae.com
@@ -893,6 +889,10 @@
           logo: voicemod.ico
           url: https://www.voicemod.net
           description: AI 语音转换器和音板表达自己，为 Roblox、OBS、VRChat、Discord 等平台构建您的声音
+        - title: voice.ai
+          logo: voice.ai.ico
+          url: https://voice.ai
+          description: 实时人工智能变声器
 
 - taxonomy: 影视片场
   icon: far fas fa-tape
@@ -4354,6 +4354,14 @@
           logo: ERNIE-ViLG.ico
           url: https://huggingface.co/spaces/PaddlePaddle/ERNIE-ViLG
           description: 支持中文，多种模型快速绘制
+        - title: midjourney
+          logo: midjourney.ico
+          url: https://www.midjourney.com
+          description: AI绘图快速创造
+        - title: kive
+          logo: kive.ico
+          url: https://www.kive.ai
+          description: 使用 AI 轻松组织可视化库
 
     - term: AI·问答
       links:
@@ -4393,7 +4401,7 @@
     - term: AI·视频
       links:
         - title: Disco Diffusion
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.68k0citi9po0.png
+          logo: research.google.png
           url: https://colab.research.google.com/github/Sxela/DiscoDiffusion-Warp/blob/main/Disco_Diffusion_v5_2_Warp.ipynb
           description: AI制作赛博朋克科幻视频  
         - title: Make-A-Video
@@ -4444,6 +4452,30 @@
           logo: unscreen.ico
           url: https://www.unscreen.com
           description: AI在线视频抠像
+        - title: rokoko
+          logo: rokoko.png
+          url: https://www.rokoko.com
+          description: 使用您的网络摄像头或视频上传进行动作捕捉，并在几分钟内制作动画
+        - title: ebsynth
+          logo: ebsynth.ico
+          url: https://ebsynth.com
+          description: 将视频转换为带有艺术效果的漫画视频
+        - title: steve
+          logo: steve.png
+          url: https://www.steve.ai
+          description: 将文本转换为视频
+        - title: 自动音乐视频制作器
+          logo: research.google.png
+          url: https://colab.research.google.com/github/dmarx/video-killed-the-radio-star/blob/main/Video_Killed_The_Radio_Star_Defusion.ipynb#scrollTo=oPbeyWtesAoh
+          description: 根据该文本提示生成图像，给定mp3或youtube网址生成动画帧，开源：https://github.com/dmarx/video-killed-the-radio-star
+        - title: AI视频换脸DeepFaceLab
+          logo: github.jpg
+          url: https://github.com/JDecelles1990/DeepFake_VideoAI
+          description: 包含程序下载及指南和教程
+        - title: 可自部署的AI视频编辑器
+          logo: github.jpg
+          url: https://github.com/rameshavinash94/AIVideoEditor
+          description: 提供多种模块，包括语音转换为文本等
 
     - term: AI·图设
       links:
@@ -4669,6 +4701,10 @@
           logo: 九歌.png
           url: http://jiuge.thunlp.org
           description: 人工智能诗歌写作系统
+        - title: rytr
+          logo: rytr.png
+          url: https://rytr.me
+          description: Rytr 是一款 AI 写作助手，可帮助您在短短几秒钟内以极低的成本创建高质量的内容！
     - term: AI·元素
       links: 
         - title: ai dawnmark
