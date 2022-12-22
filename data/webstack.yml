@@ -2890,7 +2890,7 @@
           url: http://bbs.hrfree.cn
           description: HR专业学习论坛
         - title: 非人类论坛
-          logo: loc.cc.ico
+          logo: loc.png
           url: https://loc.cc
           description: 域名爱好者的论坛
         - title: 跨国采购网论坛
@@ -3552,6 +3552,10 @@
           logo: nexusmods.ico
           url: https://www.nexusmods.com
           description: MMD游戏模组供给站
+        - title: 游戏怀旧灌水
+          logo: nexusmods.ico
+          url: https://www.yxhjgs.com
+          description: 游戏精品分享站
 
     - term: 博客人生·构建
       links:
@@ -4271,6 +4275,10 @@
           logo: AFFiNE.ico
           url: https://affine.pro
           description: 它不仅仅是一个文档、白板和表格的集合。可以根据需要转换任何构建块，文档、看板、数据库可集中展示
+        - title: Deepnote
+          logo: Deepnote.ico
+          url: https://deepnote.com
+          description: Deepnote是一种为协作而构建的新型数据笔记本 - 兼容Jupyter，在云中神奇地工作，共享就像发送链接一样简单
 
 
 - taxonomy: AI新时代
@@ -5047,6 +5055,10 @@
           logo: cutrui.ico
           url: https://www.cutrui.cn
           description: 专注于网络安全和技术分享
+        - title: Adobe软件下载
+          logo: Adobe软件下载.ico
+          url: https://www.superso.top/Adobe/?ref=lovejay.top
+          description: 网站收录Adobe2021-2023全系列软件下载，提供WIN、MAC端版本
 
     - term: 下载·安卓
       links:
@@ -5165,6 +5177,10 @@
           logo: 纯.ico
           url: http://www.aichunjing.com/
           description: 纯净系统下载
+        - title: UUP dump
+          logo: UUP.ico
+          url: https://uupdump.net
+          description: 轻松地从 Windows 更新服务器下载 UUP 文件
 
 - taxonomy: 极客创造
   icon: fas fa-cube
@@ -5860,9 +5876,9 @@
           logo: logosc.ico
           url: https://hao.logosc.cn
           description: 神器集是一个互联网工具收集与分享网站，这里收集了最新最酷的互联网产品和创意工具网站，你一定能发现能带给你灵感的工具
-        - title: Adobe软件下载
-          logo: Adobe软件下载.ico
-          url: https://www.superso.top/Adobe/?ref=lovejay.top
-          description: 网站收录Adobe2021-2023全系列软件下载，提供WIN、MAC端版本
-        
+        - title: 克苏鲁公社
+          logo: 克苏鲁公社.png
+          url: https://www.cthulhuclub.com
+          description: 整理收录关于克苏鲁
+
         
