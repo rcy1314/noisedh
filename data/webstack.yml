@@ -1940,10 +1940,14 @@
           logo: xiaojiang.png
           url: https://mqs.hk
           description: 小江盘
-        - title:  Liynw 的网盘
+        - title: Liynw的网盘
           logo: Liynw.ico
           url: https://pan.liynw.top
-          description:  Onedrive盘，Liynw 的网盘
+          description: Onedrive盘，Liynw 的网盘
+        - title: 小莫的网盘
+          logo: 小莫的网盘.ico
+          url: https://pan.aoe.top
+          description: 网盘使用onedrive+OneN搭建
         
     - term: 云盘搜索
       links:
@@ -3553,7 +3557,7 @@
           url: https://www.nexusmods.com
           description: MMD游戏模组供给站
         - title: 游戏怀旧灌水
-          logo: nexusmods.ico
+          logo: 游戏怀旧灌水.ico
           url: https://www.yxhjgs.com
           description: 游戏精品分享站
 
@@ -4180,7 +4184,7 @@
           logo: jingshing.ico
           url: https://pixel.jingshing.com
           description: 图片视频转像素画
-        - title: 小闪电
+        - title: JSRUN.NET
           logo: 小闪电.png
           url: https://jsrun.net
           description: 专业的代码在线运行
@@ -5880,5 +5884,9 @@
           logo: 克苏鲁公社.png
           url: https://www.cthulhuclub.com
           description: 整理收录关于克苏鲁
+        - title: fuun.fun
+          logo: fuun.ico
+          url: https://fuun.fun
+          description: 奇趣网站收藏家
 
         
