@@ -1141,6 +1141,10 @@
           logo: 路漫漫.png
           url: https://www.92cj.com
           description: 在线动画,日本动漫,国产动漫,动漫免费在线
+        - title: ギリギリ愛 动漫弹幕网
+          logo: ギリギリ愛.png
+          url: https://girigirilove.com
+          description: ギリギリ愛 动漫弹幕网
    
 - taxonomy: 永硕E盘
   icon: fas fa-tree
@@ -1886,7 +1890,7 @@
           description: 需要登录天翼云
         - title: 时光新科技
           logo: default.png
-          url: https://pan.x-wan.top
+          url: https://vip.hhao.cc
           description: 软路由大全
         - title: 电影收集合集
           logo: 天翼云.jpg
@@ -4370,6 +4374,10 @@
           logo: kive.ico
           url: https://www.kive.ai
           description: 使用 AI 轻松组织可视化库
+        - title: InvokeAI
+          logo: InvokeAI.png
+          url: https://invoke-ai.github.io/InvokeAI/
+          description: InvokeAI 是一个 实现稳定扩散，开源文本到图像和图像到图像生成器
 
     - term: AI·问答
       links:
@@ -4721,6 +4729,18 @@
           logo: rytr.png
           url: https://rytr.me
           description: Rytr 是一款 AI 写作助手，可帮助您在短短几秒钟内以极低的成本创建高质量的内容！
+        - title: quillbot
+          logo: quillbot.png
+          url: https://quillbot.com
+          description: AI语法检查、释义、引文
+        - title: jasper
+          logo: jasper.png
+          url: https://www.jasper.ai
+          description: 快速轻松地为您的博客、社交媒体、网站等创建内容
+        - title: frase
+          logo: frase.png
+          url: https://www.frase.io
+          description: Frase AI 可帮助您在几分钟而不是几小时内研究、编写和优化高质量的 SEO 内容
     - term: AI·元素
       links: 
         - title: ai dawnmark
@@ -4750,7 +4770,11 @@
         - title: AI 的样式和关键字的参考
           logo: github.jpg
           url: https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference
-          description:  AI 的样式和关键字的参考
+          description: AI 的样式和关键字的参考
+        - title: originality.ai
+          logo: originality.png
+          url: https://originality.ai
+          description: AI检测内容原创性，判断是否是AI创作
 
 - taxonomy: 极客下载
   icon: fas fa-circle
