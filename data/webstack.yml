@@ -452,6 +452,10 @@
         - title: ssyer
           logo: www.ssyer.com.ico
           url: https://www.ssyer.com
+          description: 无版权可商用图库
+        - title: burst
+          logo: burst.png
+          url: https://burst.shopify.com
           description: 无版权可商用图库       
     - term: 无版权视频
       links:
@@ -2784,6 +2788,10 @@
           logo: Marioforever.ico
           url: https://www.marioforever.net/
           description: 马里奥爱好者社区
+        - title: 哈设游戏小论坛
+          logo: 哈设.ico
+          url: http://hasheji.cn/forum.php
+          description: 哈设游戏世界社区
        
     - term: 社区·知识类
       links:
@@ -3564,6 +3572,26 @@
           logo: 游戏怀旧灌水.ico
           url: https://www.yxhjgs.com
           description: 游戏精品分享站
+        - title: 红玩
+          logo: 红玩.png
+          url: https://www.hongwan.com.cn
+          description: 游戏折扣早知道
+        - title: 知任JOY
+          logo: 知任JOY.ico
+          url: https://www.zhirenjoy.com
+          description: SWITCH游戏折扣及推荐
+        - title: G1游戏
+          logo: G1游戏.ico
+          url: https://g1yx.com
+          description: 游戏下载和社区
+        - title: JUMP
+          logo: JUMP.png
+          url: http://www.jump-game.com
+          description: 全面及时的游戏折扣信息，无网页版，支持app和小程序
+        - title: 游戏动力
+          logo: 游戏动力.ico
+          url: https://vgn.cn
+          description: 游戏资讯、折扣及提供APP
 
     - term: 博客人生·构建
       links:
@@ -4964,6 +4992,22 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221012/xxx.2sjngjqpd3m0.png
           url: https://github.com/qianguyihao/Mac-list
           description: github上的Mac软件清单推荐
+        - title: 麦氪搜
+          logo: 麦氪搜.ico
+          url: https://www.imacso.com
+          description: 致力于让您的Mac更有价值
+        - title: seemac
+          logo: seemac.ico
+          url: https://www.seemac.cn
+          description: 海量MAC软件游戏
+        - title: 优乐事
+          logo: 优乐事.ico
+          url: https://uleshi.com
+          description: 知您网(zhinin.com)分站点
+        - title: MAC金币
+          logo: MAC金币.ico
+          url: https://www.macjb.com
+          description: MAC软件游戏
 
     - term: 下载·综合
       links:
@@ -5912,5 +5956,13 @@
           logo: fuun.ico
           url: https://fuun.fun
           description: 奇趣网站收藏家
+        - title: 简答
+          logo: 简答.png
+          url: https://www.jianda.com/zh
+          description: 一个实验性的周刊系统
+        - title: pod.link
+          logo: pod.link.png
+          url: https://pod.link
+          description: 播客搜索引擎
 
         
