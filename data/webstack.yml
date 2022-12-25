@@ -1048,13 +1048,17 @@
           url: http://klyingshi.com
           description: 综合影视大全，在线影视网站
         - title: 追影猫
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221024/追.56i9yt0fzbg0.png
+          logo: 追影猫.png
           url: https://zhuiyingmao.com
           description: 最全电影、电视剧、综艺、动漫、纪录片等影视资源
         - title: 看看电影
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221026/kkdy.7iut3j9rqgs0.png
+          logo: 看看电影.png
           url: https://www.kkdy.live
           description: 综合影视大全，在线影视网站
+        - title: 吼吼
+          logo: 吼吼.png
+          url: https://hoho.tv
+          description: 海外华人在线影视平台，综合影视大全，在线影视网站
     - term: 动漫番剧
       links:
         - title: 哔哩哔哩
@@ -1149,6 +1153,57 @@
           logo: ギリギリ愛.png
           url: https://girigirilove.com
           description: ギリギリ愛 动漫弹幕网
+
+    - term: 直播聚合
+      links:
+        - title: 斗鱼
+          logo: 斗鱼.ico
+          url: https://www.douyu.com
+          description: 每个人的直播平台
+        - title: 虎牙
+          logo: 虎牙.ico
+          url: https://www.huya.com
+          description: 弹幕式互动直播平台
+        - title: CCTV官方直播
+          logo: CCTV.ico
+          url: https://tv.cctv.com/live/
+          description: CCTV官方直播
+        - title: 爱看TV
+          logo: 爱看TV.ico
+          url: http://www.aikantv.org
+          description: 网络电视直播收看
+        - title: 好趣网
+          logo: 好趣网.ico
+          url: http://tv.haoqu99.com
+          description: 网络电视直播收看
+        - title: 看全球
+          logo: 看全球.ico
+          url: http://www.zyz98.com
+          description: 网络电视直播收看
+        - title: 电视牛
+          logo: 电视牛.ico
+          url: http://www.tvniu.com
+          description: 网络电视直播收看
+        - title: 玩球直播
+          logo: 玩球直播.ico
+          url: https://www.wq003.com
+          description: 体育赛事直播收看
+        - title: 天天直播
+          logo: 天天直播.ico
+          url: https://jx8.co
+          description: 体育赛事直播收看
+        - title: 全球直播
+          logo: 全球直播.ico
+          url: http://tg2.qqzb77.com
+          description: 体育赛事直播收看
+        - title: iptv-org
+          logo: miptv.png
+          url: https://iptv-org.github.io
+          description: 全球IPTV电视类m3u8收录
+        - title: JustLive
+          logo: justlive.png
+          url: http://live.yj1211.work
+          description: 聚合直播平台，b站、斗鱼、虎牙综合直播
    
 - taxonomy: 永硕E盘
   icon: fas fa-tree
@@ -4406,6 +4461,14 @@
           logo: InvokeAI.png
           url: https://invoke-ai.github.io/InvokeAI/
           description: InvokeAI 是一个 实现稳定扩散，开源文本到图像和图像到图像生成器
+        - title: playground
+          logo: playground.ico
+          url: https://playgroundai.com
+          description: AI画廊
+        - title: nightcafe
+          logo: nightcafe.ico
+          url: https://creator.nightcafe.studio
+          description: 人工智能艺术生成器
 
     - term: AI·问答
       links:
@@ -5812,10 +5875,6 @@
           logo: emulator.png
           url: https://yuzu-emu.org
           description: 开源Nintendo Switch PC模拟器
-        - title: iptv-org
-          logo: miptv.png
-          url: https://iptv-org.github.io
-          description: 全球IPTV电视类m3u8收录
         - title: Nsf小站
           logo: nsf.ico
           url: http://nsf.nesbbs.com
@@ -5864,10 +5923,6 @@
           logo: 慧简报.jpg
           url: https://news.topurl.cn
           description: 慧语简报，每日更新新资讯
-        - title: JustLive
-          logo: justlive.png
-          url: http://live.yj1211.work
-          description: 聚合直播平台，b站、斗鱼、虎牙综合直播
         - title: 365实时热榜
           logo: 365热榜.png
           url: https://hot.primo.wiki
