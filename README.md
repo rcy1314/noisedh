@@ -1,6 +1,4 @@
-## Noise导航是一个综合类导航站，它不一定是最好的，但一定是适合每个人的
 
-<img src="https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.2zyhlyiboog0.jpg" alt="image" style="zoom: 33%;" />
 
 **网站基于shenweiyan开源的 webstack hugo主题**，目前包含多个版本
 主版本:https://www.noisedh.cn
