@@ -1254,10 +1254,6 @@
           logo: yongshuo.png
           url: http://qq351605872.ysepan.com
           description: 综合资源站
-        - title: 阿虚同学储物间
-          logo: yongshuo.png
-          url: https://axutongxue.com
-          description: 综合资源站
         - title: 油麦同学的藏宝阁
           logo: yongshuo.png
           url: http://cangbaoge.ysepan.com
@@ -1389,7 +1385,11 @@
         - title: X
           logo: yongshuo.png
           url: http://yxxang.ysepan.com
-          description: 网址书签库  
+          description: 网址书签库 
+        - title: 阿虚储物间
+          logo: yongshuo.png
+          url: https://axutongxue.com
+          description: 简单的网址书签
         - title: 是个阿叔杂货铺（设计导航）
           logo: yongshuo.png
           url: http://thislinda.ysepan.com
@@ -1400,6 +1400,10 @@
           logo: yongshuo.png
           url: http://shenlong123.ysepan.com
           description: 一些软件文件
+        - title: win维护工具集
+          logo: yongshuo.png
+          url: http://laiyuanys.ysepan.com
+          description: 包括系统修复及一些驱动工具
         - title: 羽享平台
           logo: yongshuo.png
           url: http://yuzhuyi.ysepan.com
@@ -1734,10 +1738,6 @@
           logo: yongshuo.png
           url: http://freekaobo.ysepan.com
           description: 考博论坛库
-        - title: 2022考研资料分享
-          logo: 语雀.jpg
-          url: https://www.yuque.com/qjl988/kyzl
-          description: 语雀知识库
 
 - taxonomy: 资源分享
   icon: fas fa-cloud fa-lg
