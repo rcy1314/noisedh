@@ -4587,6 +4587,10 @@
           logo: 33搜帧.ico
           url: https://fse.agilestudio.cn
           description: 33搜帧基于AI能力，可以帮你快速找到和剪切相关视频画面，并且支持一键合成视频，让视频创作变得更有效率
+        - title: lumalabs.ai
+          logo: lumalabs.png
+          url: https://lumalabs.ai
+          description: 镜头捕获3D形态并导入任何虚拟引擎
 
     - term: AI·图设
       links:
