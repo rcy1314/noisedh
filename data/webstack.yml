@@ -364,7 +364,7 @@
           description: 微软官方文本转语音入口
         - title: Microsoft™ 文字转语音下载器
           logo: Microsofttts.jpg
-          url: https://chrome.google.com/webstore/detail/microsoft-text-to-speech/dplnecggiofdkdcagdkjebneaonfhbbb/related?hl=zh-CN
+          url: https://chrome.google.com/webstore/detail/microsoft-text-to-speech/dplnecggiofdkdcagdkjebneaonfhbbb
           description: 为官方转语音页面添加下载按钮
         - title: 云语音合成助手
           logo: hechengzhushou.png
@@ -378,6 +378,14 @@
           logo: github.jpg
           url: https://github.com/LuckyHookin/edge-TTS-record
           description: 一个可以录制 Microsoft Edge 浏览器的语音合成（TTS）语音并输出为 .wav 音频的（windows平台）工具。
+        - title: 小鲤鱼微软azure文本转语音
+          logo: github.jpg
+          url: https://github.com/pashangshangpo/xmly-tts
+          description: 多系统支持，支持 Windows、Mac 系统，https://cowtransfer.com/s/644dcc27967e44 提取码 43xoyp
+        - title: 字幕组机翻小助手
+          logo: github.jpg
+          url: https://github.com/1c7/Translate-Subtitle-File
+          description: 支持 Windows + macOS【功能1：翻译字幕文件】 .srt .ass .vtt 【功能2：语音转文字】
 
     - term: 无版权图库
       links:
@@ -3131,6 +3139,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.35m4239bsl80.png
           url: https://wiki.eryajf.net
           description: 优秀的开发文档及学习周刊
+        - title: StudyNote
+          logo: StudyNote.ico
+          url: https://blog.ciberviler.top
+          description: 包含各类工具、知识技巧等的个人类笔记博客站
     - term: notion站点
       links:
         - title: Harumonia
@@ -4595,6 +4607,14 @@
           logo: lumalabs.png
           url: https://lumalabs.ai
           description: 镜头捕获3D形态并导入任何虚拟引擎
+        - title: Wisecut
+          logo: Wisecut.png
+          url: https://www.wisecut.video
+          description: 是一款在线自动视频编辑软件，可利用 AI 和语音识别为您编辑视频
+        - title: AI克隆任何声音
+          logo: research.google.png
+          url: https://colab.research.google.com/drive/1NxiY3zHN4Nd8J3YAqFsbYaOB71IiLE04
+          description: 它可用于生成具有任何语音的语音。通常这样的模型分为语音编码器，合成器和声码器。语音编码器学习创建潜在的固定维度嵌入（矢量），以捕获特定人声的各种特征
 
     - term: AI·图设
       links:
