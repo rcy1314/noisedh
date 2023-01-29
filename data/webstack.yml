@@ -725,6 +725,10 @@
           logo: khinsider.ico
           url: https://downloads.khinsider.com
           description: 游戏音乐大全
+        - title: Beatbump
+          logo: Beatbump.ico
+          url: https://beatbump.ml
+          description: 令人惊艳的开源第三方YouTube 音乐，你可在Github中找到其他实例，其中使用的API为第三方镜像youtube，但同样不支持大陆地区直接访问
 
     - term: 媒体平台
       links:
@@ -2098,6 +2102,10 @@
           logo: 趣盘搜.ico
           url: https://pan.funletu.com
           description: 夸克云盘搜索站
+        - title: PanSearch
+          logo: PanSearch.ico
+          url: https://pansearch.long2ice.io
+          description: 云盘搜索站
         
     - term: 云盘存储
       links:
@@ -3151,6 +3159,11 @@
           logo: StudyNote.ico
           url: https://blog.ciberviler.top
           description: 包含各类工具、知识技巧等的个人类笔记博客站
+        - title: 知识管理
+          logo: 知识管理.ico
+          url: http://wiki.deqiang.wang
+          description: 包含前端、后端、AI、知识技巧等的个人类笔记博客站
+        
     - term: notion站点
       links:
         - title: Harumonia
@@ -4726,8 +4739,12 @@
           logo: gaitu.png
           url: https://img.logosc.cn
           description: 一款完全免费简单好用的在线万能图片编辑器，无需注册即开即用，支持多种格式图片
+        - title: coverview
+          logo: coverview.png
+          url: https://coverview.vercel.app
+          description: 封面设计器，可用于博客文章中
 
-    - term: AI·作曲
+    - term: AI·音乐
       links:
         - title: Soundraw
           logo: Soundraw.ico
@@ -4781,6 +4798,10 @@
           logo: voicemod.ico
           url: https://www.voicemod.net/text-to-song/
           description: AI文本生成歌曲
+        - title: YUKIRYTHEM
+          logo: YUKIRYTHEM.ico
+          url: https://yuki-rythem.vercel.app
+          description: YUKIRYTHEM是一个人工智能驱动的音乐和播客机器人网站，它使用先进的人工智能算法为您的音乐和播客搜索提供准确有效的结果，开源自部署https://github.com/ELATTAR-Ayoub/YukiRythem—Nextjs
 
     - term: AI·写作
       links: 
@@ -4868,6 +4889,34 @@
           logo: frase.png
           url: https://www.frase.io
           description: Frase AI 可帮助您在几分钟而不是几小时内研究、编写和优化高质量的 SEO 内容
+
+    - term: AI·代码
+      links: 
+        - title: Copilot
+          logo: github.jpg
+          url: https://github.com/features/copilot/
+          description: 由Github和OpenAI联合开发的模型框架，收费
+        - title: Tabnine
+          logo: Tabnine.png
+          url: https://www.tabnine.com
+          description: 面向软件开发人员的 AI 助手，免费 + 收费
+        - title: Mutable AI
+          logo: Mutable.png
+          url: https://mutable.ai
+          description: 具有 AI 自动完成功能的原型。利用 AI 转换为生产质量代码，免费
+        - title: cheat.sh
+          logo: github.jpg
+          url: https://github.com/chubin/cheat.sh#visual-studio-code
+          description: 有一个方便的命令行客户端，这是非常有利和有用的，尽管不是强制性的。cht.sh可以直接从代码编辑器使用，无需打开浏览器，免费
+        - title: CodeGeeX
+          logo: CodeGeeX.ico
+          url: https://models.aminer.cn/codegeex/
+          description: 清华大学知识工程实验室开源，免费
+        - title: CodeWhisperer
+          logo: CodeWhisperer.ico
+          url: https://aws.amazon.com/cn/codewhisperer/
+          description: 需要加入waitlist Amazon发布的对标Copilot竞品
+
     - term: AI·元素
       links: 
         - title: ai dawnmark
@@ -4902,6 +4951,33 @@
           logo: originality.png
           url: https://originality.ai
           description: AI检测内容原创性，判断是否是AI创作
+        - title: AiDraw
+          logo: AiDraw.png
+          url: https://guide.novelai.dev
+          description: 关于使用 AI 绘画的 Wiki、翻译、教程与相关资源
+
+    - term: AI·工具集
+      links: 
+        - title: AI2045
+          logo: AI2045.ico
+          url: https://ai2045.com
+          description: AI工具收录站
+        - title: futuretools
+          logo: futuretools.png
+          url: https://www.futuretools.io
+          description: AI工具收录站
+        - title: hotpot
+          logo: hotpot.ico
+          url: https://hotpot.ai/tools
+          description: AI工具收录站
+        - title: all things ai
+          logo: allthingsai.png
+          url: https://allthingsai.com
+          description: AI工具收录站
+        - title: 小白兔 AI
+          logo: 小白兔.ico
+          url: https://xiaobaituai.com
+          description: 一款专为内容创造者赋能的AI生产力工具箱
 
 - taxonomy: 极客下载
   icon: fas fa-circle
