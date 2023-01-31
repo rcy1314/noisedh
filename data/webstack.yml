@@ -1083,6 +1083,11 @@
           logo: 伊人追剧.png
           url: https://yrzj.vip
           description: 免费好用的视频网站
+        - title: 鸿菇影音
+          logo: 鸿菇影音.jpg
+          url: https://www.hggyyds.com
+          description: 鸿菇影音，多功能聚合影音平台，直播，小说，新闻，电影，美图，音乐，广播，文刊，电台，影视
+
     - term: 动漫番剧
       links:
         - title: 哔哩哔哩
