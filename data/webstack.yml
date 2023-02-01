@@ -6152,5 +6152,9 @@
           logo: pod.link.png
           url: https://pod.link
           description: 播客搜索引擎
+        - title: pod.link
+          logo: zb.png
+          url: https://zb.liey.cn
+          description: 竹白专栏收录检索
 
         
