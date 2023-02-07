@@ -3685,6 +3685,10 @@
           logo: 游戏动力.ico
           url: https://vgn.cn
           description: 游戏资讯、折扣及提供APP
+        - title: 133游戏仓库
+          logo: 游戏仓库.ico
+          url: https://www.133yxgame.com
+          description: 各类单机游戏下载站
 
     - term: 博客人生·构建
       links:
@@ -4974,6 +4978,14 @@
         - title: all things ai
           logo: allthingsai.png
           url: https://allthingsai.com
+          description: AI工具收录站
+        - title: AI-Archive
+          logo: github.jpg
+          url: https://orelmizrahii.github.io/Web-AI-Archive/thelist.html
+          description: AI工具收录站
+        - title: gpt3demo
+          logo: gpt3demo.png
+          url: https://gpt3demo.com
           description: AI工具收录站
         - title: 小白兔 AI
           logo: 小白兔.ico
