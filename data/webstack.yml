@@ -374,6 +374,10 @@
           logo: loker.ico
           url: https://loker-page.lgwawork.com/home.html
           description: 微软语音合成工具，使用 Electron + Vue + ElementPlus + Vite 构建
+        - title: TTS - 文本转语音
+          logo: TTS文本.png
+          url: https://www.text-to-speech.cn
+          description: 微软语音合成工具
         - title: edge-TTS-record
           logo: github.jpg
           url: https://github.com/LuckyHookin/edge-TTS-record
