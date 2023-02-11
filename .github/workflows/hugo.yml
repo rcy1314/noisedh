@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v2
         with:
 #          hugo-version: "latest" # 可以修改为你使用的 Hugo 版本
           hugo-version: "latest" #
