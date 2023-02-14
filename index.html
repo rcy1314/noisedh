@@ -18515,6 +18515,39 @@
                     </div>
                 </div>
                 
+                <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                    <div class="url-body default">
+			
+			
+                        <a href="https://filen.io" target="_blank" data-id="" data-url="https://filen.io"
+                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="国外的免费10GB不限速云存储">
+			
+                            <div class="card-body">
+                                <div class="url-content d-flex align-items-center">
+                                    <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                        
+					    
+					    <img class="lazy" src="assets/images/logos/filen.ico" data-src="assets/images/logos/filen.ico"
+                                                onerror="javascript:this.src='assets\/images\/favicon.png'" alt="Filen">
+					    
+                                        
+                                    </div>
+                                    <div class="url-info flex-fill">
+                                        <div class="text-sm overflowClip_1">
+                                            <strong>Filen</strong>
+                                        </div>
+                                        <p class="overflowClip_1 m-0 text-muted text-xs">国外的免费10GB不限速云存储</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://filen.io" class="togo text-center text-muted is-views" data-id="689"
+                            data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
+                            <i class="iconfont icon-goto"></i>
+                        </a>
+                    </div>
+                </div>
+                
             </div>
             <br />
             
@@ -51216,8 +51249,17 @@ function switchNightMode(){
 
 <script id="cid0020000331426377525" data-cfasync="false" async src=".//assets/js/emb.js" style="width: 339px;height: 304px;">{"handle":"efficiencytime","arch":"js","styles":{"a":"000000","b":97,"c":"ffffff","d":"FFFFFF","e":"000000","g":"ffffff","k":"000000","l":"000000","m":"000000","n":"FFFFFF","p":"9","q":"000000","r":97,"ab":false,"usricon":0,"pos":"br","cv":1,"cvfntsz":"12px","cvbg":"202020","cvw":70,"surl":0,"cnrs":"0.29"}}</script>
 
-
-		
+<script src=".//assets/sw.js"></script>
+<script src=".//assets/manifest.json"></script>
+<script>
+    if (navigator.serviceWorker != null) {
+        navigator.serviceWorker.register('.\//assets/sw.js')
+        .then(function(registration) {
+            console.log('Registered events at scope: ', registration.scope);
+        });
+    }
+</script>
+	
     
 </body>
 </html>
