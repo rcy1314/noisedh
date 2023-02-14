@@ -2186,6 +2186,10 @@
           logo: 115.png
           url: https://115.com
           description: 115云盘
+        - title: Filen
+          logo: filen.ico
+          url: https://filen.io
+          description: 国外的免费10GB不限速云存储
         
 - taxonomy: 社区论坛
   icon: fas fa-users fa-lg
