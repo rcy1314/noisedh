@@ -20,6 +20,35 @@
     <link rel="stylesheet" id="fortawesome-css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" type="text/css">
     <script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/jquery.min-3.2.1.js' id='jquery-js'></script>
     <script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/content-search.js' id='content-search-js'></script>
+    <link rel="stylesheet" type="text/css" href="{{ $.Site.Params.siteurl }}/assets/css/loading.css">
+    <!-- loading加载 -->
+		<div class="is-loading" id="load"> 
+			<div class="curtain">
+				<div class="loader">
+				</div>
+			</div>
+		</div>
+	<script type="text/javascript">
+	//确保Jquey已加载后执行进入 
+	(function($){
+		//$(window).load 和 $(document).ready 都可以使用，虽然有差别，整体感知不明显
+		$(window).on("load", function() { 
+			window.setTimeout(function() {
+				//隐藏或者移除Class均可以使用
+				//推荐用CSS特性实现 
+				//$("#load").removeClass("is-loading");
+				$("#load").hide(500);
+			}, 100);
+		});
+	})(jQuery);
+	</script>
+     <!-- 引入JS -->   
+<script src="{{ $.Site.Params.siteurl }}/assets/js/instantclick.min.js"></script>
+<!-- data-no-instant表示该标签不进行预加载 -->
+<script data-no-instant>
+//选择点击瞬间预加载模式
+InstantClick.init("mousedown");
+</script>  
     <!-- 引入 播放器 -->
     <link rel="stylesheet" href="{{ $.Site.Params.siteurl }}/assets/css/APlayer.min.css">
     <!-- 百度统计 -->
