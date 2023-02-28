@@ -1,8 +1,4 @@
-{{ if $.Site.Params.nightMode }}
-<body class="io-black-mode">
-{{ else }}
 <body class="io-grey-mode">
-{{ end }}
     {{ if $.Site.Params.enablePreLoad }}
     <div id="loading">
         <style>
@@ -74,15 +70,15 @@
                     <!-- logo -->
                     <div class="logo overflow-hidden">
                         <a href="" class="logo-expanded">
-                            <img src="{{ relURL $.Site.Params.images.logoExpandLight }}" height="40" class="logo-light"
+                            <img src="{{ $.Site.Params.images.logoExpandLight }}" height="40" class="logo-light"
                                 alt="{{ .Site.Title }}">
-                            <img src="{{ relURL $.Site.Params.images.logoExpandDark }}" height="40" class="logo-dark d-none"
+                            <img src="{{ $.Site.Params.images.logoExpandDark }}" height="40" class="logo-dark d-none"
                                 alt="{{ .Site.Title }}">
                         </a>
                         <a href="" class="logo-collapsed">
-                            <img src="{{ relURL $.Site.Params.images.logoCollapseLight }}" height="40" class="logo-light"
+                            <img src="{{ $.Site.Params.images.logoCollapseLight }}" height="40" class="logo-light"
                                 alt="{{ .Site.Title }}">
-                            <img src="{{ relURL $.Site.Params.images.logoCollapseDark }}" height="40" class="logo-dark d-none"
+                            <img src="{{ $.Site.Params.images.logoCollapseDark }}" height="40" class="logo-dark d-none"
                                 alt="{{ .Site.Title }}">
                         </a>
                     </div>
