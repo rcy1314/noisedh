@@ -5334,7 +5334,11 @@
         - title: PS4X下载
           logo: ps4x.ico
           url: http://www.ps4x.com
-          description: PS4X更新国内外免费软件,提供ps软件下载,包括各类PC软件,游戏,手机应用,手机软件,APP应用等,
+          description: PS4X更新国内外免费软件,提供ps软件下载,包括各类PC软件,游戏,手机应用,手机软件,APP应用等
+        - title: CAD下载
+          logo: CAD下载.ico
+          url: http://www.09pc.com
+          description: CAD下载提供免费软件下载及资源分享,站内提供电脑软件,电脑游戏,手机应用,手机游戏以及相关CAD资源和教程,致力于打造绿色分享平台
 
     - term: 下载·安卓
       links:
