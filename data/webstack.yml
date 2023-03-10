@@ -5339,6 +5339,10 @@
           logo: CAD下载.ico
           url: http://www.09pc.com
           description: CAD下载提供免费软件下载及资源分享,站内提供电脑软件,电脑游戏,手机应用,手机游戏以及相关CAD资源和教程,致力于打造绿色分享平台
+        - title: CC下载
+          logo: CC下载.ico
+          url: http://www.36ci.com
+          description: CC软件下载提拱海量免费安全无捆绑软件下载,资源定时更新,整理用户需要的应用,让大家可以找得到需要的工具
 
     - term: 下载·安卓
       links:
