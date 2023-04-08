@@ -4527,6 +4527,10 @@
           logo: nightcafe.ico
           url: https://creator.nightcafe.studio
           description: 人工智能艺术生成器
+        - title: 绘创Al
+          logo: 绘创.png
+          url: https://www.origins.chat
+          description: AI绘图网站，高效，快速创建出你所描述信息相关的图片
 
     - term: AI·问答
       links:
@@ -5603,6 +5607,10 @@
           logo: vpngo.jpg
           url: http://link.pan89.club
           description: 价格划算，比较稳定，不足是经常更换官网地址
+        - title: Hneko
+          logo: Hneko.ico
+          url: https://hneko.site/index.php#/register?code=uPlFjA2f
+          description: 7元月付，15元可年付
         
     - term: TG·BOT·相关
       links:
