@@ -1095,6 +1095,10 @@
           logo: wandou.pro.ico
           url: https://wandou.pro
           description: 免费高清影视网站，更新速度快，干净无广告，极速播放！
+        - title: 56影院
+          logo: 56影院.ico
+          url: https://www.56yy.com
+          description: 五六影院为您提供最新韩国电影排行榜,热播电视剧大全免费在线观看！
 
     - term: 动漫番剧
       links:
