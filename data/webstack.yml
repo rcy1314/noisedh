@@ -1099,6 +1099,10 @@
           logo: 56影院.ico
           url: https://www.56yy.com
           description: 五六影院为您提供最新韩国电影排行榜,热播电视剧大全免费在线观看！
+        - title: 我爱电影
+          logo: 我爱电影.png
+          url: https://www.5aifilms.com
+          description: 全球华人免费在线视频站
 
     - term: 动漫番剧
       links:
