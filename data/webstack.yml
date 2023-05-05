@@ -800,6 +800,14 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.txiafnpc34w.png
           url: https://www.tuitool.cn
           description: 主流自媒体平台多账号登录，多平台视频一键发布，多平台数据综合分析
+        - title: 易媒助手
+          logo: https://17707510.s21i.faiusr.com/2/2/ABUIABACGAAgnp6ZmAYovf-mugMwmAI4rQE.jpg
+          url: https://yimeizhushou.com
+          description: 70+平台多账号管理，文章视频动态30+平台一键发布，支持1000+账号管理，3分钟完成2小时分发工作，更稳定的一站式运营、营销、发布工具
+        - title: 虾果
+          logo: https://17707510.s21i.faiusr.com/4/ABUIABAEGAAgtMOPmwYoweaE5gUwoAE4oAE!100x100.png
+          url: https://ixiaguo.com
+          description: 虾果,私域营销必备神器,支持短链、活码、微信外链、企微客服、短信营销等功能
 
     - term: AI云剪辑
       links:
@@ -4931,6 +4939,10 @@
           logo: frase.png
           url: https://www.frase.io
           description: Frase AI 可帮助您在几分钟而不是几小时内研究、编写和优化高质量的 SEO 内容
+        - title: 微撰
+          logo: https://www.weizhuan6.com/client/images/login/logo1.svg
+          url: https://www.weizhuan6.com
+          description: 微撰是一款在线智能AI聊天写作机器人，支持一键生成原创新闻、公文、软文、议论文、知识科普、营销文章稿件，基于NLP深度学习技术,解决底层内容
 
     - term: AI·代码
       links: 
