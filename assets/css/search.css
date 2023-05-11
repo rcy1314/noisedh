@@ -31,7 +31,7 @@
   border: none;
   outline: none;
   padding-left: 45px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #dfd8d8;
   border-radius: 10px;
 }
 .search-input:focus{
@@ -83,7 +83,7 @@ input::-webkit-input-placeholder{
   cursor: pointer;
 }
 .search-hot-text ul li.current{
-  background: #f1f1f1;
+  background: #413f3f;
   color: #2196f3;
 }
 .search-hot-text ul li:hover{
@@ -98,7 +98,7 @@ input::-webkit-input-placeholder{
     font-size: 12px;
     line-height: 20px;
     text-align: center;
-    background: #e5e5e5;
+    background: #3b3939;
     margin-right: 10px;
     border-radius: 10px;
     color: #999;
