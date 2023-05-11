@@ -27,7 +27,7 @@
   height: 50px;
   line-height: 50px;
   font-size: 16px;
-  color: #999;
+  color: #5a5656;
   border: none;
   outline: none;
   padding-left: 45px;
@@ -75,7 +75,7 @@ input::-webkit-input-placeholder{
 	padding: 5px 0;
 }
 .search-hot-text ul li{
-  border-top: 1px solid #f2f2f2;
+  border-top: 1px solid #646060;
   line-height: 30px;
   font-size: 14px;
   padding: 0px 25px;
@@ -87,7 +87,7 @@ input::-webkit-input-placeholder{
   color: #2196f3;
 }
 .search-hot-text ul li:hover{
-  background: #f1f1f1;
+  background: #686767;
   color: #2196f3;
   cursor: pointer;
 }
