@@ -1115,6 +1115,10 @@
           logo: 端木影视.png
           url: http://dmsvip.top
           description: 蓝光,自建片源，无广告，国产剧较多，海外剧也有！提供最新最快的netflix影视剧,最新美剧,最新韩剧,流行泰剧,最新日剧在线点播
+        - title: 搜片
+          logo: soupian.png
+          url: https://soupian.one
+          description: 影视搜索引擎，为你轻松找到想看的影片，追剧找电影上搜片.com
 
 
     - term: 动漫番剧
