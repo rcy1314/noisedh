@@ -1,21 +1,21 @@
-<script type='text/javascript' src="{{ $.Site.Params.siteurl }}/assets/js/jquery.ui.touch-punch.min-0.2.2.js"  id='jqueryui-touch-js'></script>
-<script type='text/javascript' src="{{ $.Site.Params.siteurl }}/assets/js/clipboard.min-5.6.2.js" id='clipboard-js'></script>
-<script type='text/javascript' src="{{ $.Site.Params.siteurl }}/assets/js/tooltip-extend.js" id='iplaycode-nav-js'></script>
+<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/jquery.ui.touch-punch.min-0.2.2.js' id='jqueryui-touch-js'></script>
+<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/clipboard.min-5.6.2.js' id='clipboard-js'></script>
+<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/tooltip-extend.js' id='iplaycode-nav-js'></script>
 <script type='text/javascript' id='popper-js-extra'>
 /* <![CDATA[ */
 //var theme = {"ajaxurl":"https:\/\/nav.baidu.com\/wp-admin\/admin-ajax.php","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/onenav\/images\/add.png","order":"asc","formpostion":"top","defaultclass":"io-grey-mode","isCustomize":"1","icourl":"https:\/\/api.badi.cn\/favicon\/","icopng":".png","urlformat":"1","customizemax":"10","newWindow":"0","lazyload":"1","minNav":"1","loading":"1","hotWords":"baidu","classColumns":" col-sm-6 col-md-4 col-xl-5a col-xxl-6a ","apikey":"TWpBeU1UVTNOekk1TWpVMEIvZ1M2bFVIQllUMmxsV1dZelkxQTVPVzB3UW04eldGQmxhM3BNWW14bVNtWk4="};
 var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/onenav\/images\/add.png","order":"asc","formpostion":"top","defaultclass":"io-grey-mode","isCustomize":"1","icourl":"","icopng":".png","urlformat":"1","customizemax":"10","newWindow":"0","lazyload":"1","minNav":"1","loading":"1","hotWords":"baidu","classColumns":" col-sm-6 col-md-4 col-xl-5a col-xxl-6a ","apikey":"TWpBeU1UVTNOekk1TWpVMEIvZ1M2bFVIQllUMmxsV1dZelkxQTVPVzB3UW04eldGQmxhM3BNWW14bVNtWk4="};
 /* ]]> */
 </script>
-<script type='text/javascript' src="{{ $.Site.Params.siteurl }}/assets/js/popper.min.js" id='popper-js'></script>
-<script type='text/javascript' src="{{ $.Site.Params.siteurl }}/assets/js/bootstrap.min-4.3.1.js" id='bootstrap-js'></script>
-<script type='text/javascript' src="{{ $.Site.Params.siteurl }}/assets/js/theia-sticky-sidebar-1.5.0.js" id='sidebar-js'></script>
-<script type='text/javascript' src="{{ $.Site.Params.siteurl }}/assets/js/lazyload.min-12.4.0.js" id='lazyload-js'></script>
-<script type='text/javascript' src="{{ $.Site.Params.siteurl }}/assets/js/fancybox.min-3.5.7.js" id='lightbox-js-js'></script>
+<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/popper.min.js' id='popper-js'></script>
+<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/bootstrap.min-4.3.1.js' id='bootstrap-js'></script>
+<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/theia-sticky-sidebar-1.5.0.js' id='sidebar-js'></script>
+<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/lazyload.min-12.4.0.js' id='lazyload-js'></script>
+<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/fancybox.min-3.5.7.js' id='lightbox-js-js'></script>
 {{ if $.Site.Params.expandSidebar }}
-<script type='text/javascript' src="{{ $.Site.Params.siteurl }}/assets/js/app-anim.js" id='appanim-js'></script>
+<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/app-anim.js' id='appanim-js'></script>
 {{ else }}
-<script type='text/javascript' src="{{ $.Site.Params.siteurl }}/assets/js/app-mini.js" id='appmini-js'></script>
+<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/app-mini.js' id='appmini-js'></script>
 {{ end }}
 <script type="text/javascript">
     $(document).ready(function(){
@@ -26,6 +26,7 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
         }, 600);
     });
 </script>
+<script src="{{ $.Site.Params.siteurl }}/assets/js/loading.js"></script>
 <script>        
     $(document).ready(function(){
         setTimeout(function () {
@@ -73,7 +74,7 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
 </script>
 
 <script>
-//夜间(日间)模式
+//夜间模式
 (function(){
     if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === ''){
         if(new Date().getHours() > 22 || new Date().getHours() < 6){
@@ -95,7 +96,7 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
         }
     }
 })();
-//夜间(日间)模式切换
+//夜间模式切换
 $("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageL }})");   //默认浅色背景
 function switchNightMode(){
     var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
@@ -120,6 +121,7 @@ function switchNightMode(){
     }
 }
 </script>
+<script src="{{ $.Site.Params.siteurl }}/assets/js/Meting.min.js"></script>
 <!-- 聊天控件 -->
 <script id="cid0020000331426377525" data-cfasync="false" async src="{{ $.Site.Params.siteurl }}/assets/js/emb.js" style="width: 339px;height: 304px;">{"handle":"efficiencytime","arch":"js","styles":{"a":"000000","b":97,"c":"ffffff","d":"FFFFFF","e":"000000","g":"ffffff","k":"000000","l":"000000","m":"000000","n":"FFFFFF","p":"9","q":"000000","r":97,"ab":false,"usricon":0,"pos":"br","cv":1,"cvfntsz":"12px","cvbg":"202020","cvw":70,"surl":0,"cnrs":"0.29"}}</script>
 <!-- 弹窗提示 -->	
