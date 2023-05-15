@@ -1266,6 +1266,10 @@
           logo: justlive.png
           url: http://live.yj1211.work
           description: 聚合直播平台，b站、斗鱼、虎牙综合直播
+        - title: 看看直播
+          logo: 看看直播.ico
+          url: https://www.kankanzhibo.com/pindaodaquan/
+          description: 高清电视直播平台，体育频道直播
    
 - taxonomy: 永硕E盘
   icon: fas fa-tree
