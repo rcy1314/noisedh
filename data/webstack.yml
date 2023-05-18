@@ -4465,6 +4465,10 @@
           logo: Deepnote.ico
           url: https://deepnote.com
           description: Deepnote是一种为协作而构建的新型数据笔记本 - 兼容Jupyter，在云中神奇地工作，共享就像发送链接一样简单
+        - title: TreeMind树图
+          logo: TreeMind树图.ico
+          url: https://shutu.cn
+          description: 跨平台新一代“AI人工智能”思维导图
 
 
 - taxonomy: AI新时代
