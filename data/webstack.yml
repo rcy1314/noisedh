@@ -4000,6 +4000,14 @@
           logo: xmq.ico
           url: https://xmq.plus
           description: 肆零肆的学习记录站
+        - title: NUTSWP
+          logo: NUTSWP.png
+          url: https://nutswp.com
+          description: WordPress建站技术分享
+        - title: 粥里有勺糖
+          logo: 粥里有勺糖.ico
+          url: https://sugarat.top
+          description: 来自99年技术博主，博客框架：vitepress，记录随笔与学习笔记，包含技术笔记、计算机知识、前端及一些代码笔记
         
     - term: 优质播客
       links:
