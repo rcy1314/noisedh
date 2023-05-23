@@ -4615,6 +4615,10 @@
           logo: 思知.ico
           url: https://www.ownthink.com
           description: AI认知对话服务
+        - title: AI.LS
+          logo: LS.png
+          url: https://4.gpt02.xyz
+          description: 简洁的 ChatBot，提供免费额度。
 
     - term: AI·视频
       links:
