@@ -4619,6 +4619,10 @@
           logo: LS.png
           url: https://4.gpt02.xyz
           description: 简洁的 ChatBot，提供免费额度。
+        - title: AI匣子
+          logo: GPT.png
+          url: https://ai.08qt.com
+          description: 「AI匣子」是一款非常有用、有趣且免费的人工智能聊天机器人网站。它可以为您提供有用的信息和服务，让您享受到娱乐和放松的时光
 
     - term: AI·视频
       links:
