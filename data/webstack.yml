@@ -731,7 +731,7 @@
           description: 游戏音乐大全
         - title: Beatbump
           logo: Beatbump.ico
-          url: https://beatbump.ml
+          url: https://beatbump.io
           description: 令人惊艳的开源第三方YouTube 音乐，你可在Github中找到其他实例，其中使用的API为第三方镜像youtube，但同样不支持大陆地区直接访问
 
     - term: 媒体平台
@@ -883,6 +883,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20221030/xxx.4upsqwo26ae0.png
           url: https://www.capcut.cn/editor
           description: 剪映网页版
+        - title: 一起剪
+          logo: 一起剪.jpg
+          url: http://www.yiqijian.com
+          description: 一起剪是一款强大的免费在线视频剪辑工具，通过人工智能自动生成脚本、配音剪辑、图文成片、视频采集等功能，实现视频云端自动合成
     - term: 虚拟直播
       links:
         - title: animaze
@@ -3734,6 +3738,10 @@
           logo: 游戏仓库.ico
           url: https://www.133yxgame.com
           description: 各类单机游戏下载站
+        - title: 668游戏仓库
+          logo: 668游戏.ico
+          url: https://www.668play.com
+          description: 668游戏仓库支持单机游戏下载,免费游戏下载,Switch游戏下载,PS4游戏下载，本站游戏每日更新，且资源优质！
 
     - term: 博客人生·构建
       links:
