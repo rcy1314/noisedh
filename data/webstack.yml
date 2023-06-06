@@ -4983,6 +4983,10 @@
           logo: https://www.weizhuan6.com/client/images/login/logo1.svg
           url: https://www.weizhuan6.com
           description: 微撰是一款在线智能AI聊天写作机器人，支持一键生成原创新闻、公文、软文、议论文、知识科普、营销文章稿件，基于NLP深度学习技术,解决底层内容
+        - title: 小鱼AI写作
+          logo: 小鱼AI.png
+          url: https://ai.68wenan.com/AI_A13c97c
+          description: 小鱼AI免费在线智能AI写作平台，AI自动生成高质量原创内容。拥有超过435个智能写作模板，支持AI写作、AI续写、关键词写文章、文章起标题
 
     - term: AI·代码
       links: 
