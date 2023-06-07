@@ -4987,6 +4987,14 @@
           logo: 小鱼AI.png
           url: https://ai.68wenan.com/AI_A13c97c
           description: 小鱼AI免费在线智能AI写作平台，AI自动生成高质量原创内容。拥有超过435个智能写作模板，支持AI写作、AI续写、关键词写文章、文章起标题
+        - title: 爱创作
+          logo: 爱创作.ico
+          url: https://ai.zaker.cn/writer/
+          description: 爱创作是一款强大的智能写作工具，通过人工智能一键生成文章、营销文本、配图与短视频等多类型内容
+        - title: 5118 AI写作
+          logo: 5118.ico
+          url: https://www.5118.com/ai/articlegenius
+          description: 一键式AI文章助手,一键式生成高质量SEO文章，提高搜索引擎排名获得更多流量.一键式AI文章助手是一款基于海量数据算法的文章生成工具。它可以帮助网站主快速生成高质量、符合SEO要求的文章，提高网站在搜索引擎中的排名
 
     - term: AI·代码
       links: 
