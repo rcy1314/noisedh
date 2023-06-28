@@ -25,26 +25,25 @@
                         </div>
 
                         <ul class="navbar-nav site-menu" style="margin-right: 16px;">
-                            {{ range .Site.Data.headers }}
-                            <li {{ if .list }}class="menu-item-has-children"{{ end }}>
-                                <a href="{{ .link }}">
+                        {{ range .Site.Data.headers }}
+			<li {{ if .list }}class="menu-item-has-children"{{ end }}>
+				<a href="{{ .link }}">
                                     <i class="{{ .icon }} fa-lg mr-2"></i>
                                     <span>{{ .item }}</span>
                                 </a>
-                                <ul class="sub-menu">
-                                    {{ range .list }}
-                                    <li><a href="{{ .url }}">{{ .name }}</a></li>
-                                    {{ end }}
-                                </ul>
-                            </li>
-                            {{ end }}
-                        </ul>
+				<ul class="sub-menu">
+				{{ range .list }}
+				    <li><a href="{{ .url }}">{{ .name }}</a></li>
+				{{ end }}
+				</ul>
+			    </li>
+			{{ end }}
+			</ul>
 
                         {{ if not (eq $.Site.Params.qweather.key "") }}
                         <div class="rounded-circle weather">
                             <div id="he-plugin-simple" style="display: contents;"></div>
-                            <script>
-                                WIDGET = {
+                            <script>WIDGET = {
                                     CONFIG: {
                                         "modules": "01234",
                                         "background": 5,
@@ -73,6 +72,7 @@
                     </div>
 
                     <ul class="nav navbar-menu text-xs order-1 order-md-2">
+                    
                         <li class="nav-search ml-3 ml-md-4">
                             <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i
                                     class="iconfont icon-search icon-2x"></i></a>
@@ -87,4 +87,3 @@
         </div>
         <div class="placeholder" style="height:74px"></div>
     </div>
-</div>
