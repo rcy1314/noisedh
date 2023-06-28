@@ -21,32 +21,36 @@
     <link rel="stylesheet" id="fortawesome-css" href=".//assets/fontawesome-5.15.4/css/all.min.css" type="text/css">
     <script type='text/javascript' src='.//assets/js/jquery.min-3.2.1.js' id='jquery-js'></script>
     <script type='text/javascript' src='.//assets/js/content-search.js' id='content-search-js'></script>
-    <link rel="stylesheet" type="text/css" href=".//assets/css/loading.css"> 
-     
-<div id="spinner-container">
-    <div class="spinner"></div>
-  </div>
-  <script type="text/javascript"> 
-<!--  引入JS -->    
-    <!-- 引入JS -->   
-<script src=".\//assets/js/instantclick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href=".//assets/css/loading.css">
+</head>
+<body>
+    
+    <div id="spinner-container">
+        <div class="spinner"></div>
+    </div>
 
-<script data-no-instant>
+    <script type="text/javascript">
+        
+        var instantClickScript = document.createElement("script");
+        instantClickScript.src = ".\//assets/js/instantclick.min.js";
+        document.head.appendChild(instantClickScript);
 
-InstantClick.init("mousedown");
-</script>  
+        
+        var noInstantScript = document.createElement("script");
+        noInstantScript.innerHTML = 'InstantClick.init("mousedown");';
+        noInstantScript.setAttribute("data-no-instant", "");
+        document.head.appendChild(noInstantScript);
+    </script>
+
     
     <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
+        var baiduStatisticsScript = document.createElement("script");
+        baiduStatisticsScript.src = "https://hm.baidu.com/hm.js?";
+        document.head.appendChild(baiduStatisticsScript);
     </script>
-       
-</head>
+    
+</body>
+</html>
 
 
 
@@ -52324,23 +52328,7 @@ InstantClick.init("mousedown");
 </div>
 
 
-<script type='text/javascript' src='.//assets/js/jquery.ui.touch-punch.min-0.2.2.js' id='jqueryui-touch-js'></script>
-<script type='text/javascript' src='.//assets/js/clipboard.min-5.6.2.js' id='clipboard-js'></script>
-<script type='text/javascript' src='.//assets/js/tooltip-extend.js' id='iplaycode-nav-js'></script>
-<script type='text/javascript' id='popper-js-extra'>
- 
-
-var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/onenav\/images\/add.png","order":"asc","formpostion":"top","defaultclass":"io-grey-mode","isCustomize":"1","icourl":"","icopng":".png","urlformat":"1","customizemax":"10","newWindow":"0","lazyload":"1","minNav":"1","loading":"1","hotWords":"baidu","classColumns":" col-sm-6 col-md-4 col-xl-5a col-xxl-6a ","apikey":"TWpBeU1UVTNOekk1TWpVMEIvZ1M2bFVIQllUMmxsV1dZelkxQTVPVzB3UW04eldGQmxhM3BNWW14bVNtWk4="};
- 
-</script>
-<script type='text/javascript' src='.//assets/js/popper.min.js' id='popper-js'></script>
-<script type='text/javascript' src='.//assets/js/bootstrap.min-4.3.1.js' id='bootstrap-js'></script>
-<script type='text/javascript' src='.//assets/js/theia-sticky-sidebar-1.5.0.js' id='sidebar-js'></script>
-<script type='text/javascript' src='.//assets/js/lazyload.min-12.4.0.js' id='lazyload-js'></script>
-<script type='text/javascript' src='.//assets/js/fancybox.min-3.5.7.js' id='lightbox-js-js'></script>
-
-<script type='text/javascript' src='.//assets/js/app-mini.js' id='appmini-js'></script>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         var siteWelcome = $('#loading');
@@ -52350,8 +52338,14 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
         }, 600);
     });
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/theia-sticky-sidebar/1.7.0/theia-sticky-sidebar.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.0/lazysizes.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 <script src=".//assets/js/loading.js"></script>
-<script>        
+<script src=".//assets/js/Meting.min.js"></script>
+<script type="text/javascript">
     $(document).ready(function(){
         setTimeout(function () {
             if ($('a.smooth[href="' + window.location.hash + '"]')[0]) {
@@ -52393,12 +52387,9 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
             else
                 $(this).parents('.d-flex.flex-fill.flex-tab').children('.btn-move.tab-move').hide();
         });
-        
     });
 </script>
-
 <script>
-
 (function(){
     if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === ''){
         if(new Date().getHours() > 22 || new Date().getHours() < 6){
@@ -52420,7 +52411,6 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
         }
     }
 })();
-
 $("#search-bg").css("background-image", "url(assets\/images\/dh-light.jpg)");   
 function switchNightMode(){
     var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
@@ -52445,7 +52435,7 @@ function switchNightMode(){
     }
 }
 </script>
-<script src=".//assets/js/Meting.min.js"></script>
+
 
 <script id="cid0020000331426377525" data-cfasync="false" async src=".//assets/js/emb.js" style="width: 339px;height: 304px;">{"handle":"efficiencytime","arch":"js","styles":{"a":"000000","b":97,"c":"ffffff","d":"FFFFFF","e":"000000","g":"ffffff","k":"000000","l":"000000","m":"000000","n":"FFFFFF","p":"9","q":"000000","r":97,"ab":false,"usricon":0,"pos":"br","cv":1,"cvfntsz":"12px","cvbg":"202020","cvw":70,"surl":0,"cnrs":"0.29"}}</script>
 	
