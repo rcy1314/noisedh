@@ -1468,10 +1468,14 @@
           logo: yongshuo.png
           url: https://axutongxue.com
           description: 简单的网址书签
-        - title: 是个阿叔杂货铺（设计导航）
+        - title: 是个阿叔杂货铺
           logo: yongshuo.png
           url: http://thislinda.ysepan.com
-          description: 设计网址书签库            
+          description: 设计网址书签库  
+        - title: bileizhen的收纳箱
+          logo: yongshuo.png
+          url: http://bileizhen.ysepan.com
+          description: 只录最优质的网站！        
     - term: 永硕·软件文件类
       links:
         - title: 一些软件文件
