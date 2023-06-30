@@ -5965,10 +5965,10 @@
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.11tdo6tjv82o.jpg
           url: https://efficiencyfollow.notion.site/RSS-01f580f05df2412993c5ad0f68f0a95d
           description: 统计收录RSS相关生产力、阅读器、阅读源
-        - title: Rsshub List
+        - title: Rsshub实例
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/image.wcxzjcdl63k.png
-          url: https://github.com/kaminolee/RsshubList
-          description: 收集rsshub服务器，定时检测可用性
+          url: https://www.notion.so/ppnoise/RSS-969c17fce59f428390cb32e3baf67ca5
+          description: 收集rsshub托管实例
         - title: RSS Source
           logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/Generic_Feed-icon.2icdpqu7zis0.png
           url: https://rss-source.com
