@@ -1131,6 +1131,10 @@
           logo: 茶杯狐.png
           url: https://cupfox.app
           description: 聚合各大影视资源站的资源，基本上只要网上已经有的资源，它都能搜到，强烈推荐！
+        - title: 飞流视频
+          logo: 飞流视频.png
+          url: https://www.flixflop.com
+          description: 飞流视频是一个在线视频媒体平台，致力于提供丰富且最新的内容，如电影、电视剧、动漫、综艺、纪录片等，主要满足用户免费在线观看视频的需求
 
 
     - term: 动漫番剧
