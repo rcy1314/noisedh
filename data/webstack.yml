@@ -4402,6 +4402,10 @@
           logo: 小闪电.png
           url: https://jsrun.net
           description: 专业的代码在线运行
+        - title: 职徒简历
+          logo: 职徒.ico
+          url: https://www.52cv.com
+          description: 一款智能的专业简历制作平台，支持在电脑，小程序，APP同步进行简历创建，一键排版，简历智能评测，基于GPT的一键简历优化和简历代写，一键简历翻译，拥有海量模板和专业的案例，上百位各行业的大咖导师在线进行简历和职业辅导，提升你的就业综合竞争力
         
     - term: 效率生产力
       links:
