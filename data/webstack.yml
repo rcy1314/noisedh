@@ -4406,7 +4406,11 @@
           logo: 职徒.ico
           url: https://www.52cv.com
           description: 一款智能的专业简历制作平台，支持在电脑，小程序，APP同步进行简历创建，一键排版，简历智能评测，基于GPT的一键简历优化和简历代写，一键简历翻译，拥有海量模板和专业的案例，上百位各行业的大咖导师在线进行简历和职业辅导，提升你的就业综合竞争力
-        
+        - title: 旺影速转
+          logo: 旺影速转.png
+          url: https://suzhuan.wangying.cn
+          description: 音视频转换工具，支持音视频转换、视频压缩、视频添加水印、视频添加LUT、批量处理、多任务处理等功能
+
     - term: 效率生产力
       links:
         - title: Notion
