@@ -1356,10 +1356,6 @@
           logo: yongshuo.png
           url: http://xiaolv.ysepan.com
           description: 综合资源站
-        - title: 945KM的资源库
-          logo: yongshuo.png
-          url: http://945km.ysepan.com
-          description: 综合类书签站
         - title: 可可西里的杂货铺
           logo: yongshuo.png
           url: http://kkxldzhp.ysepan.com
@@ -1412,14 +1408,6 @@
           logo: yongshuo.png
           url: http://wz6z6z6.ysepan.com
           description: 网址书签库
-        - title: 小七素材
-          logo: yongshuo.png
-          url: http://zymf.ysepan.com
-          description: 媒体素材库
-        - title: 57号实验室
-          logo: yongshuo.png
-          url: http://57dh.ysepan.com
-          description: 几十个书签网站
         - title: 薛信的资料室
           logo: yongshuo.png
           url: http://xuexinxs.ysepan.com
@@ -2706,10 +2694,6 @@
           logo: pan.yuankongjian.com.ico
           url: https://pan666.cn
           description: 阿里云盘资源共享论坛
-        - title: 山海社区
-          logo: bbs.shanhaiz.com.ico
-          url: https://bbs.shanhaiz.com
-          description: 资源分享类社区
         - title: BT种子论坛
           logo: BT种子.png
           url: https://pt.btschool.club/torrents.php
@@ -3888,10 +3872,6 @@
           logo: blog.baoshuo.ren.ico
           url: https://blog.baoshuo.ren
           description: 宝硕博客
-        - title: 有格调
-          logo: www.ugediao.com.ico
-          url: https://www.ugediao.com
-          description: 有格调
         - title: 本卡风
           logo: bkfeng.top.ico
           url: https://bkfeng.top
