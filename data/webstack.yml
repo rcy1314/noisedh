@@ -10,20 +10,20 @@
       logo: 漫1.jpg
       url: https://rcy1314.github.io/news/
       description: 我的RSS综合阅读聚合页
+    - title: NOISE主页
+      logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20230801/NOISELOGO.4cy9whhpaf00.jpg
+      url: https://www.noisework.cn
+      description: 个人引导页，站点入口
+    - title: 公共服务页
+      logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20230801/image.5fpszsmze5s0.jpg
+      url: https://www.noisework.cn/fw/index.html
+      description: NOISE公共服务页
     - title: 知识效率集
-      logo: 漫2.jpg
-      url: https://www.noisesite.cn
-      description: 强大的notion知识库
-    - title: YouTube订阅页
-      logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.5axe7kkjjc80.jpg
-      url: https://rcy1314.github.io/youtube
-      description: 我的YouTube订阅推荐页
-    - title: 频道推送器
-      logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.6agxn2fdzxw0.jpg
-      url: https://www.efficiencynoise.top
-      description: 我的频道推送通知器
+      logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20230801/image.409snji77ga0.jpg
+      url: https://ppnoise.notion.site/NOISE-69a25fc6e04b471eac64c8757a2c2bae?pvs=4
+      description: NOISE维护NOTION页
     - title: NOISE宝藏阁
-      logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/NV/xxx.gy018s53b3s.jpg
+      logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20230801/1122r.420m6b1mgl40.jpg
       url: https://www.noisevip.cn
       description: NOISE宝藏阁
     - title: 今日热榜
@@ -941,7 +941,7 @@
           description: 看片狂人是一个由影迷打造服务影迷的平台，至今已稳定运营3年并持续更新，每日同步更新各类影视的播放资源
         - title: LIBVIO
           logo: www.libvio.com.jpg
-          url: https://www.libvio.me
+          url: https://www.libfabu.com
           description: 在线影视站，播放速度超快，有安卓app
         - title: Inmi 映迷
           logo: www.inmi.app.ico
@@ -5456,6 +5456,10 @@
           logo: CC下载.ico
           url: http://www.36ci.com
           description: CC软件下载提拱海量免费安全无捆绑软件下载,资源定时更新,整理用户需要的应用,让大家可以找得到需要的工具
+        - title: 快书屋-创业资源网
+          logo: 快书屋.ico
+          url: https://kuaishuwu.net
+          description: 2000+套课程，覆盖副业项目，引流技巧，短视频运营，公众号自媒体，电商领域，微信社群营销等专业课程
 
     - term: 下载·安卓
       links:
