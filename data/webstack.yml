@@ -4608,6 +4608,10 @@
           logo: 绘创.png
           url: https://www.origins.chat
           description: AI绘图网站，高效，快速创建出你所描述信息相关的图片
+        - title: 虎课网AI教程
+          logo: 虎课.ico
+          url: https://huke88.com/aigc?source=e0575
+          description: 虎课网专门开设有AIGC的使用课程，包括ChatGPT进阶教程、AI绘画教程(例如Midjourney、Stable Diffusion)、电商设计等多种AI设计培训课，旨在帮助用户快速入门AIGC技术，并在实际工作中应用
 
     - term: AI·问答
       links:
@@ -5036,7 +5040,7 @@
           description: 有一个方便的命令行客户端，这是非常有利和有用的，尽管不是强制性的。cht.sh可以直接从代码编辑器使用，无需打开浏览器，免费
         - title: CodeGeeX
           logo: CodeGeeX.ico
-          url: https://models.aminer.cn/codegeex/
+          url: https://codegeex.cn/zh-CN
           description: 清华大学知识工程实验室开源，免费
         - title: CodeWhisperer
           logo: CodeWhisperer.ico
