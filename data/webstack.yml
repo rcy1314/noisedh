@@ -4505,6 +4505,10 @@
           logo: TreeMind树图.ico
           url: https://shutu.cn
           description: 跨平台新一代“AI人工智能”思维导图
+        - title: HelpLook
+          logo: HelpLook.svg
+          url: https://www.helplook.net/?source=noisedh
+          description: HelpLook 是一款零代码、开箱即用的帮助中心及博客网站搭建工具，只需简单几步，即可帮助企业、机构、个人发布在线品牌内容站点。还提供智能客服等AI向服务。
 
 
 - taxonomy: AI新时代
@@ -5019,6 +5023,10 @@
           logo: 5118.ico
           url: https://www.5118.com/ai/articlegenius
           description: 一键式AI文章助手,一键式生成高质量SEO文章，提高搜索引擎排名获得更多流量.一键式AI文章助手是一款基于海量数据算法的文章生成工具。它可以帮助网站主快速生成高质量、符合SEO要求的文章，提高网站在搜索引擎中的排名
+        - title: 笔灵AI
+          logo: 笔灵AI.ico
+          url: https://ibiling.cn
+          description: 一键生成工作计划、研究报告等的AI写作工具
 
     - term: AI·代码
       links: 
