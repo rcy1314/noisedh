@@ -5054,6 +5054,10 @@
           logo: CodeWhisperer.ico
           url: https://aws.amazon.com/cn/codewhisperer/
           description: 需要加入waitlist Amazon发布的对标Copilot竞品
+        - title: Keploy
+          logo: Keploy.png
+          url: https://www.keploy.io/
+          description: Keploy 是一个开源的基于 AI 的测试生成平台，可创建测试用例和数据模拟/存根，在 90 分钟内实现 2% 的代码覆盖率。把它想象成用于测试的ChatGPT
 
     - term: AI·元素
       links: 
