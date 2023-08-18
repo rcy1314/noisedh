@@ -2033,10 +2033,6 @@
           logo: 天翼云.jpg
           url: https://m.cloud.189.cn/u/330783715
           description: 需要登录天翼云
-        - title: 时光新科技
-          logo: default.png
-          url: https://vip.hhao.cc
-          description: 软路由大全
         - title: 电影收集合集
           logo: 天翼云.jpg
           url: https://cloud.189.cn/web/share?code=u6zaIvZRrEB3
@@ -2097,6 +2093,117 @@
           logo: 小莫的网盘.ico
           url: https://pan.aoe.top
           description: 网盘使用onedrive+OneN搭建
+        - title: chencd97
+          logo: yundown.jpg
+          url: https://cloud.chencd97.com
+          description: alist云盘
+        - title: Xinxin's OneDrive
+          logo: yundown.jpg
+          url: https://drive.xinxin2021.tk/zh-CN/
+          description: alist云盘
+        - title: pan.rawchen
+          logo: yundown.jpg
+          url: https://pan.rawchen.com/
+          description: 阿里云盘
+        - title: oss.sunpma
+          logo: yundown.jpg
+          url: https://oss.sunpma.com/
+          description: 一个简单的挂载盘
+        - title: LISIR
+          logo: yundown.jpg
+          url: https://cloud.lisir.me/
+          description: alist云盘
+        - title: Acreson Pan
+          logo: yundown.jpg
+          url: https://share.acreson.cn/
+          description: alist云盘
+        - title: AMESD
+          logo: yundown.jpg
+          url: https://pc.am136.com/
+          description: alist云盘
+        - title: 薄荷の盘
+          logo: yundown.jpg
+          url: https://alist.6bohe.com
+          description: alist云盘
+        - title: 小鸟游晓幻想乡
+          logo: yundown.jpg
+          url: https://pan.t-satoru.top/
+          description: alist云盘
+        - title: Xiwangly的云盘
+          logo: yundown.jpg
+          url: https://pan.xiwangly.top
+          description: alist云盘
+        - title: 喵喵盘
+          logo: yundown.jpg
+          url: https://pan.appmiu.com
+          description: alist云盘
+        - title: Media Center
+          logo: yundown.jpg
+          url: https://alist.advanced360.top
+          description: alist云盘
+        - title: qyide
+          logo: yundown.jpg
+          url: https://alist.qyide.com/
+        - title: 酷小呵网盘
+          logo: yundown.jpg
+          url: https://pan.kuhehe.top/
+          description: alist云盘
+        - title: 路灯网盘
+          logo: yundown.jpg
+          url: https://pan.eqishare.com
+          description: alist云盘
+        - title: pengcheng
+          logo: yundown.jpg
+          url: https://pan.pengcheng.team
+          description: alist云盘
+        - title: 杜比高清影视
+          logo: yundown.jpg
+          url: https://dubi.tk
+          description: alist云盘
+        - title: 梓澪の妙妙屋
+          logo: yundown.jpg
+          url: https://zi0.cc
+          description: alist云盘
+        - title: 小雅的盘
+          logo: yundown.jpg
+          url: http://alist.xiaoya.pro
+          description: alist云盘
+        - title: 星梦Alist
+          logo: yundown.jpg
+          url: https://pan.bashroot.top
+          description: alist云盘
+        - title: 七米蓝的仓库
+          logo: yundown.jpg
+          url: https://al.chirmyram.com
+          description: alist云盘
+        - title: 触光云盘
+          logo: yundown.jpg
+          url: https://pan.ichuguang.com
+          description: alist云盘
+        - title: 姬路白雪の资源小站
+          logo: yundown.jpg
+          url: https://pan.jlbx.xyz
+          description: alist云盘
+        - title: 弱水分享
+          logo: yundown.jpg
+          url: http://shicheng.wang:555/
+          description: alist云盘
+        - title: 雨昵网盘
+          logo: yundown.jpg
+          url: https://pan.clun.top/
+          description: alist云盘
+        - title: Azad盘
+          logo: yundown.jpg
+          url: https://alist.azad.asia
+          description: alist云盘
+        - title: 邓先生的盘
+          logo: yundown.jpg
+          url: https://pan.qinzhi.cc
+          description: alist云盘
+        - title: PIXCAT
+          logo: yundown.jpg
+          url: http://pan.svvme.com
+          description: alist云盘
         
     - term: 云盘搜索
       links:
@@ -6350,9 +6457,4 @@
           logo: zb.png
           url: https://zb.liey.cn
           description: 竹白专栏收录检索
-        - title: 轴流风机
-          logo: https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20210220/轴流风机.4lr8axid2ge0.jpg
-          url: http://www.sddv.com
-          description: 工业风扇选首肯电子,12年品牌资历,正品保证,提供10000多种现货库存,支持个性化服务方案
-
         
