@@ -1,6 +1,6 @@
 // 广告位
  // 图片和链接数组
-var images = ["https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20230818/guang.6xvhojj7j8w0.jpg", "https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20230818/11宝.5gadu623kd00.jpg", "https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20230818/2321312.1o5qd8jb6elc.jpg", "https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20230818/guang2.3c7b9a9xpvi0.png"];
+var images = ["https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20230818/tt.67d9yc51bl80.jpg", "https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20230818/11宝.5gadu623kd00.jpg", "https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20230818/2321312.1o5qd8jb6elc.jpg", "https://cdn.staticaly.com/gh/rcy1314/tuchuang@main/20230818/guang2.3c7b9a9xpvi0.png"];
 var links = ["https://www.noisework.cn", "https://noisevip.cn", "https://www.noisedh.cn", "https://www.noisework.cn"];
 var descriptions = ["广告位+", "包罗万象-Noise宝藏阁", "超量收录-Noise导航", "广告位+"];
 var currentIndex = 0;
