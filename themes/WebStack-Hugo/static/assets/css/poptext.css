@@ -1,0 +1,32 @@
+ /* 弹出框样式 */
+ .popup {
+  position: fixed;
+  top: 50%;
+  right: -300px;
+  width: auto;
+  padding: 10px 16px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  transition: right 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transform: translateY(-50%);
+  text-align: center;
+  border-radius: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  z-index: 9999; /* 将弹出框置于最上层 */
+}
+
+/* 关闭按钮样式 */
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 4px;
+  cursor: pointer;
+}
+
+/* 波动效果动画 */
+@keyframes popupAnimation {
+  0% { transform: translateY(-50%) scale(0.5); opacity: 0; }
+  50% { transform: translateY(-50%) scale(1.2); opacity: 1; }
+  100% { transform: translateY(-50%) scale(1); }
+}
