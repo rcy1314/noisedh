@@ -1147,6 +1147,18 @@
           logo: 夜光影院.png
           url: https://ygpvp.com
           description: 夜光影院网主要为影视爱好者提供电影、电视剧、动漫、综艺节目等的在线观看，高清无卡顿
+        - title: 往往影视
+          logo: https://www.oftens.top/img/logo.png
+          url: https://www.oftens.top
+          description: 最新热门影视自建片源秒播不卡顿无广告蓝光画质
+        - title: 首播站
+          logo: https://shoubozhan.com/mxtheme/images/logo.png
+          url: https://www.oftens.top
+          description: 全网影视首播网站
+        - title: 0512lady.com
+          logo: 0512.png
+          url: http://0512lady.com
+          description: 在线电影,免费电影,最新高清电影,美剧推荐,韩剧推荐
 
 
     - term: 动漫番剧
@@ -1233,7 +1245,7 @@
           description: 哔咪动漫
         - title: 樱花动漫
           logo: 樱花动漫.jpg
-          url: https://yhdm6.top
+          url: https://www.yhmgo.com
           description: 樱花动漫
         - title: 路漫漫在线动漫
           logo: 路漫漫.png
@@ -4513,6 +4525,10 @@
           logo: 嗨格式录屏大师.png
           url: https://www.luping.com
           description: 嗨格式录屏大师软件是一款国产类软件，适用于Windows操作系统。软件能够音画同步录制电脑桌面操作、娱乐游戏、在线课程等屏幕活动。支持全屏录制、区域录制、摄像头录制等多种录制视频模式，帮助用户轻松搞定屏幕视频录像
+        - title: 36解析式工具箱
+          logo: 36解析.ico
+          url: http://www.36jxs.com
+          description: 36解析式工具箱是一个功能强大的在线查询工具网站，为用户提供了各种实用的查询与计算工具等。不论您是需要查询汉语字典、笔顺、组词、造句、成语、近义词、反义词、英文单词、缩写、谜语等，还是需要进身份照归属地、机场三字码查询、世界港口查询等操作，36解析式工具箱都能满足您的需求
 
     - term: 效率生产力
       links:
@@ -5134,6 +5150,10 @@
           logo: 笔灵AI.ico
           url: https://ibiling.cn
           description: 一键生成工作计划、研究报告等的AI写作工具
+        - title: magictex.ai
+          logo: Magictex.png
+          url: https://magictex.ai
+          description: 人工智能生成文本、音频等多元化内容
 
     - term: AI·代码
       links: 
