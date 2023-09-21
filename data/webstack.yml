@@ -887,6 +887,10 @@
           logo: 一起剪.jpg
           url: http://www.yiqijian.com
           description: 一起剪是一款强大的免费在线视频剪辑工具，通过人工智能自动生成脚本、配音剪辑、图文成片、视频采集等功能，实现视频云端自动合成
+        - title: 剪映国际网页版
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221030/xxx.4upsqwo26ae0.png
+          url: https://www.capcut.com/editor
+          description: 剪映国际网页版
     - term: 虚拟直播
       links:
         - title: animaze
@@ -1159,6 +1163,10 @@
           logo: 0512.png
           url: http://0512lady.com
           description: 在线电影,免费电影,最新高清电影,美剧推荐,韩剧推荐
+        - title: 700看电影天堂网
+          logo: https://700kan.cc/mxtheme/images/favicon.png
+          url: https://700kan.cc/
+          description: 700看电影天堂网为您提供2020最新电影、电影下载、最新电视剧、高清电影、好看的电视剧、好看的电影在线观看和迅雷电影下载，每天更新最新好看的电影电视剧
 
 
     - term: 动漫番剧
