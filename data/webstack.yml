@@ -1167,6 +1167,10 @@
           logo: https://700kan.cc/mxtheme/images/favicon.png
           url: https://700kan.cc/
           description: 700看电影天堂网为您提供2020最新电影、电影下载、最新电视剧、高清电影、好看的电视剧、好看的电影在线观看和迅雷电影下载，每天更新最新好看的电影电视剧
+        - title: 影视TV
+          logo: https://yingshi.tv/static/images/logo.png
+          url: https://www.yingshi.tv
+          description: 影视TV是一个提供用户网上观看影视,免费高清无广告,多项影片如大陆剧,欧美剧,韩剧,动漫和综艺供用户选择,我们尽力为用户提供最新的电影电视剧更新,竭尽所能为用户提供最好的观影体验！
 
 
     - term: 动漫番剧
@@ -1318,10 +1322,7 @@
           logo: 看看直播.ico
           url: https://www.kankanzhibo.com/pindaodaquan/
           description: 高清电视直播平台，体育频道直播
-        - title: 影视TV
-          logo: https://yingshi.tv/static/images/logo.png
-          url: https://www.yingshi.tv
-          description: 影视TV是一个提供用户网上观看影视,免费高清无广告,多项影片如大陆剧,欧美剧,韩剧,动漫和综艺供用户选择,我们尽力为用户提供最新的电影电视剧更新,竭尽所能为用户提供最好的观影体验！
+        
    
 - taxonomy: 永硕E盘
   icon: fas fa-tree
