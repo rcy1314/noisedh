@@ -891,6 +891,10 @@
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221030/xxx.4upsqwo26ae0.png
           url: https://www.capcut.com/editor
           description: 剪映国际网页版
+        - title: 鬼手剪辑
+          logo: 鬼手剪辑.ico
+          url: https://jollytoday.com/
+          description: 鬼手剪辑能高效实现视频去字幕、视频翻译和视频混剪等，帮助电商客户、MCN机构和影视剪辑人员制作精彩的视频。支持十几种语言的互译，短视频全自动剪辑，支持API调用，一键打造本土化视频内容
     - term: 虚拟直播
       links:
         - title: animaze
@@ -1171,6 +1175,14 @@
           logo: https://yingshi.tv/static/images/logo.png
           url: https://www.yingshi.tv
           description: 影视TV是一个提供用户网上观看影视,免费高清无广告,多项影片如大陆剧,欧美剧,韩剧,动漫和综艺供用户选择,我们尽力为用户提供最新的电影电视剧更新,竭尽所能为用户提供最好的观影体验！
+        - title: 宝盒影视网
+          logo: https://www.baohe.me/upload/site/20230922-1/1c07fbbc75ce90c7e0a4e3a21d6dff5a.png
+          url: https://baohe.me/
+          description: 宝盒影视为您提供免费热门电影,电视剧,综艺,动漫在线观看,给您更好的视频观看体验
+        - title: 影视TV
+          logo: https://www.nxmusic.com/favicon.ico
+          url: https://www.nxmusic.com
+          description: Gimy TV 剧迷，剧迷首选线上看电视剧与节目，随时随地轻松追上最新影剧资讯! 涵盖电影、电视剧、动漫、综艺、陆剧、韩剧、美剧、台剧、日剧、BL、泰剧、纪录片等
 
 
     - term: 动漫番剧
