@@ -6,33 +6,28 @@
     <description>Recent content on Noise导航 &amp; 收录值得珍藏的网站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 18 Jul 2019 17:18:05 +0100</lastBuildDate><atom:link href="https://www.noisedh.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Jul 2019 17:18:05 +0100</lastBuildDate>
+    <atom:link href="https://www.noisedh.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于</title>
       <link>https://www.noisedh.cn/about/</link>
       <pubDate>Tue, 28 Jul 2020 19:27:08 +0800</pubDate>
-      
       <guid>https://www.noisedh.cn/about/</guid>
       <description>关于本站 Noise导航是一个综合类导航站，收录你那些值得收藏的网站 目前本站包含多个版本 欢迎访问使用 主版本:https://www.noise</description>
     </item>
-    
     <item>
       <title>友链黑名单</title>
       <link>https://www.noisedh.cn/heimingdan/</link>
       <pubDate>Tue, 28 Jul 2020 19:27:08 +0800</pubDate>
-      
       <guid>https://www.noisedh.cn/heimingdan/</guid>
       <description>黑名单公布及说明 以下站点均在未通知情况下直接删除了友链 本站永不欢迎此类站点及失信人员，如果是因为客观原因停站域名无效及主动说明不会加到黑名单</description>
     </item>
-    
     <item>
       <title>My First Post</title>
       <link>https://www.noisedh.cn/posts/my-first-post/</link>
       <pubDate>Thu, 18 Jul 2019 17:18:05 +0100</pubDate>
-      
       <guid>https://www.noisedh.cn/posts/my-first-post/</guid>
       <description>Hugo on Vercel </description>
     </item>
-    
   </channel>
 </rss>
