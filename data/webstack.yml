@@ -5300,7 +5300,10 @@
           logo: 小白兔.ico
           url: https://xiaobaituai.com
           description: 一款专为内容创造者赋能的AI生产力工具箱
-
+        - title: ChatHelp.ai
+          logo: https://chathelp.ai/wp-content/uploads/chathelp_icon-150x150.png
+          url: https://chathelp.ai/
+          description: AI Chatbot - AI-powered Business, Work, Study Assistant & Website Chat Widget.Chat with Private AI Knowledge Base - Increase daily work efficiency, by having an AI assistant, who knows everything about your business & competitors, your work or studies.Save time & money on customer support. Drive more sales, by letting AI interact with potential customers 24/7, via Website Chat Widget. Train AI with your Website data & other documentation!
 - taxonomy: 极客下载
   icon: fas fa-circle
   list:
