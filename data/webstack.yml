@@ -2868,8 +2868,12 @@
           description: 综合类交流论坛
         - title: 天翼小站
           logo: tianyixiaozhan.png
-          url: https://yun.hei521.cn
+          url: https://jinglei.eu.org
           description: 天翼及阿里云盘资源
+        - title: 雷鲸小站
+          logo: https://www.leijing.xyz/favicon.ico
+          url: https://www.leijing.xyz
+          description: 云盘资源站
         - title: 阿里云网盘资源免费分享论坛
           logo: alifree.net.ico
           url: https://alifree.net
