@@ -5203,6 +5203,10 @@
           logo: Magictex.png
           url: https://magictex.ai
           description: 人工智能生成文本、音频等多元化内容
+        - title: Al论文写作平台
+          logo: https://aijar-www-oss.yyjjtech.com/logo_paper_128.png
+          url: https://www.aipaperpass.com/?pic=lLGw
+          description: AI PaperPass是一个AI论文写作平台，旨在为学生和教师提供一个完整的论文写作解决方案。结合强大的AI算法和丰富的学习资源，可以提供论文写作帮助、研究建议、文献综述和论文修订等功能
 
     - term: AI·代码
       links: 
