@@ -1267,10 +1267,6 @@
           logo: jiandan.ico
           url: https://www.36dm.com
           description: BT资源发布站
-        - title: MX动漫
-          logo: MX.ico
-          url: http://www.mxdm.cc
-          description: 动漫番剧在线看
         - title: 異世界动漫
           logo: yishijeman.png
           url: https://www.gqdm.net
@@ -1291,6 +1287,35 @@
           logo: ギリギリ愛.png
           url: https://girigirilove.com
           description: ギリギリ愛 动漫弹幕网
+        - title: MX动漫
+          logo: MX.ico
+          url: https://www.mxdm9.com
+          description: 在线动画,日本动漫,国产动漫,动漫免费在线
+        - title: FREEOK
+          logo: https://www.freeok.vip/mxtheme/images/favicon.png
+          url: https://www.freeok.vip
+          description: 在线动画,日本动漫,国产动漫,动漫免费在线
+        - title: 蜜糖动漫
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/VQdWNWSr.png
+          url: https://www.mitang.tv
+          description: 在线动画,日本动漫,国产动漫,动漫免费在线
+        - title: 嗷鸣动漫
+          logo: https://www.moefun.net/upload/site/20231008-1/1d27dcff6dd75c29842e6e8266fb0468.png
+          url: https://www.moefun.net
+          description: 在线动画,日本动漫,国产动漫,动漫免费在线
+        - title: 动画疯
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1704038926567.png
+          url: https://ani.gamer.com.tw/
+          description: 在线动画,日本动漫,国产动漫,动漫免费在线
+        - title: 漫岛动漫
+          logo: https://www.mddmx.com/favicon.ico
+          url: https://www.mddmx.com
+          description: 在线动画,日本动漫,国产动漫,动漫免费在线
+        - title: 溶岩番剧库
+          logo: https://lavani.me/apple-touch-icon.png
+          url: https://lavani.me
+          description: 很直观的列出新番详情和播放
+
 
     - term: 直播聚合
       links:
