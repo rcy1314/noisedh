@@ -2349,6 +2349,26 @@
           logo: PanSearch.ico
           url: https://pansearch.long2ice.io
           description: 云盘搜索站
+        - title: 混合盘
+          logo: https://hunhepan.com/favicon.svg
+          url: https://hunhepan.com
+          description: 在线加本地综合多家云盘搜索站
+        - title: 皮卡搜索
+          logo: PanSearch.ico
+          url: https://www.pikaso.top
+          description: 云盘搜索站
+        - title: 奇妙搜索
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1704206435633.png
+          url: https://www.magicalsearch.top/
+          description: 云盘搜索站
+        - title: 盘友圈
+          logo: https://panyq.com/favicon.ico
+          url: https://panyq.com/
+          description: 云盘搜索站
+        - title: 阿里云盘搜索站
+          logo: https://pan.justin3go.com/logo.ico
+          url: https://pan.justin3go.com
+          description: 阿里云盘搜索站
         
     - term: 云盘存储
       links:
@@ -2428,6 +2448,14 @@
           logo: http://wp.5ghkw.cn/view.php/63ce6d7218d6aa24f586044e8081297a.jpg
           url: http://wp.5ghkw.cn
           description: 汤姆外链网盘是一个实用工具，免费为用户提供大容量云存储服务，用户上传文件时可选择不在首页显示，也可设置密码。上传后可选择文件外链或代码调用，相当于图床。
+        - title: 蓝奏云优享版
+          logo: https://www.ilanzou.com/favicon.ico
+          url: https://www.ilanzou.com/console/files/0
+          description: 蓝奏云优享版
+        - title: MediaFire
+          logo: https://www.ilanzou.com/favicon.ico
+          url: https://www.mediafire.com/
+          description: MediaFire 是一项简单易用的免费服务，可让您将所有照片、文档、音乐和视频放在一个地方，以便您可以在任何地方访问它们并在任何地方共享它们。
         
 - taxonomy: 社区论坛
   icon: fas fa-users fa-lg
