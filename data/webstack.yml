@@ -2449,10 +2449,6 @@
           logo: filen.ico
           url: https://filen.io
           description: 国外的免费10GB不限速云存储
-        - title: 汤姆外链网盘
-          logo: http://wp.5ghkw.cn/view.php/63ce6d7218d6aa24f586044e8081297a.jpg
-          url: http://wp.5ghkw.cn
-          description: 汤姆外链网盘是一个实用工具，免费为用户提供大容量云存储服务，用户上传文件时可选择不在首页显示，也可设置密码。上传后可选择文件外链或代码调用，相当于图床。
         - title: 蓝奏云优享版
           logo: https://www.ilanzou.com/favicon.ico
           url: https://www.ilanzou.com/console/files/0
