@@ -4850,6 +4850,10 @@
           logo: 虎课.ico
           url: https://huke88.com/aigc?source=e0575
           description: 虎课网专门开设有AIGC的使用课程，包括ChatGPT进阶教程、AI绘画教程(例如Midjourney、Stable Diffusion)、电商设计等多种AI设计培训课，旨在帮助用户快速入门AIGC技术，并在实际工作中应用
+        - title: EasyDiffusion Online
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/9y.png
+          url: https://www.easydiffusion.online
+          description: EasyDiffusion Online 是一款人工智能驱动的软件，允许用户免费生成高质量的图像。凭借其用户友好的界面和先进的算法，该软件简化了创建令人惊叹的视觉效果的过程。无论您是技术专家还是普通用户，EasyDiffusion Online 都提供了一个用于生成迷人图像的易于访问的平台
 
     - term: AI·问答
       links:
@@ -5158,6 +5162,10 @@
           logo: YUKIRYTHEM.ico
           url: https://yuki-rythem.vercel.app
           description: YUKIRYTHEM是一个人工智能驱动的音乐和播客机器人网站，它使用先进的人工智能算法为您的音乐和播客搜索提供准确有效的结果，开源自部署https://github.com/ELATTAR-Ayoub/YukiRythem—Nextjs
+        - title: mix.audio
+          logo: https://mix.audio/logo.png
+          url: https://go.mix.audio/netlify
+          description: your solution for quick and unique music creation. Input your idea as text, image, or sound, and get up to four tailored tracks instantly. Ideal for YouTubers, podcasters, and game developers, Mix.audio offers copyright-free music
 
     - term: AI·写作
       links: 
