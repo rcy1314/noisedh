@@ -2976,6 +2976,10 @@
           logo: bbs.outfu.com.ico
           url: https://bbs.outfu.com
           description: 阿里云资源
+        - title: 好家当
+          logo: https://www.hjdang.com/icons/favicon-32x32.png
+          url: https://www.hjdang.com
+          description: 好家当是一个网友分享阿里云盘，夸克网盘资源的社区。网友发帖十分活跃，资源很新
     - term: 社区·影视类
       links:
         - title: 百度云电影论坛
