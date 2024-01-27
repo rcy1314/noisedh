@@ -6463,10 +6463,6 @@
           description: 自然机器人作为新一代的AutoPaaS自动化产品，致力于帮助企业和个人提高数字化的效率和灵活性，并轻松实现自动化。通过实施基于云的网页设计，自然机器人允许用户随时随地打开网页，并通过简单的拖放操作轻松构建流程。它还支持将基于界面和API的软件同时自动化在一个业务流程中，同时还具备方便和即用型私有部署的能力
     - term: 探索发现
       links:
-        - title: Suki 素记
-          logo: 素记.png
-          url: https://github.com/classfang/suki/releases/tag/v1.0.0
-          description: 一个mac端，任务栏快捷笔记、待办、工具软件
         - title: WinDrop
           logo: AirDrop.png
           url: https://github.com/q1006608006/windrop/releases/tag/v1.0.1
@@ -6565,7 +6561,7 @@
           description: YouTube镜像
         - title: nitter实例-监测
           logo: nitter.png
-          url: https://xnaas.github.io/nitter-instances/
+          url: https://github.com/zedeus/nitter/wiki/Instances
           description: nitter实例-Twitter镜像
         - title: Zhelper-V3网址列表
           logo: o2b4p.png
@@ -6631,4 +6627,8 @@
           logo: 100font.ico
           url: https://www.100font.com/
           description: 100font.com创建于2019年，是一个主要靠爱发电的免费商用字体收集整理网站，致力于让所有人都有免费商用字体使用、让所有人都能正确使用免费商用字体、让所有优秀的公益字体都能得到更有价值地传播，坚持做企业、设计师都爱用的免费商用字体下载网站
+        - title: Solo 独立开发者社区
+          logo: https://solo.xin/favicon.ico
+          url: https://solo.xin
+          description: 在这里和众多独立开发者们一起分享最新动态、推动产品落地及运营和市场化。你能在这里找到资源和灵感，完成第一桶金的收入。
         
