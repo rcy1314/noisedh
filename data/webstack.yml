@@ -5115,6 +5115,10 @@
           logo: https://ai.nero.com/favicon.ico
           url: https://ai.nero.com
           description: Nero AI 旨在利用最新的 AI 技术为用户提供快速、高效的图像处理解决方案。这些服务包括图片增强、老照片修复、去背景、以及其他工具，内置多种 AI 模型，应用于不同类型的图像。用户可以在这个网站内完成图片质量提升、修复老旧照片、图片去噪点，以及移除或更换图片背景等操作
+        - title: AI照片生成器
+          logo: https://www.photoaistudio.com/structure/favicon-32x32.jpg
+          url: https://www.photoaistudio.com/zh
+          description: AI照片生成器
 
     - term: AI·音乐
       links:
