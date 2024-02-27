@@ -1332,6 +1332,10 @@
           logo: https://lavani.me/apple-touch-icon.png
           url: https://lavani.me
           description: 很直观的列出新番详情和播放
+        - title: 呵呵动漫
+          logo: https://hehe.cc/app200.png
+          url: https://hehe.cc
+          description: 免费高质量在线动漫网站！为动漫爱好者提供无与伦比的追番体验!
 
 
     - term: 直播聚合
@@ -5981,6 +5985,10 @@
           logo: https://anee.cc/favicon.png
           url: https://anee.cc/
           description: 有安逸影视 享影视安逸
+        - title: Cooltools
+          logo: https://cooltools.top/imgs/icons/favicon-32x32.png
+          url: https://cooltools.top/
+          description: Cooltools.top 是一个导航网站。主页收录了大众热门网站，还有分行业导航
         - title: Cooltools
           logo: https://cooltools.top/imgs/icons/favicon-32x32.png
           url: https://cooltools.top/
