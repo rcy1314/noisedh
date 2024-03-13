@@ -4764,6 +4764,62 @@
 - taxonomy: AI新时代
   icon: fas fa-cog
   list:
+    - term: AI·产品
+      links:
+        - title: Gnomic智能体平台
+          logo: https://buff8.oss-cn-shanghai.aliyuncs.com/sublime_words/logo_1.png
+          url: https://www.gnomic.cn/agentCenter/index
+          description: ​Gnomic智能体立足AI Agent生态体系构建，通过打造AI Agent多模态生态平台，帮助开发者快速设计和训练个性化的智能体
+        - title: chatnio
+          logo: https://chatnio.net/favicon.ico
+          url: https://chatnio.net/
+          description: 下一代 AI 一站式解决方案，一站式 Chat + 中转 API 站点
+        - title: 速推
+          logo: https://faka.fyshark.com/assets/img/favicon.png
+          url: https://faka.fyshark.com/invite.html?lang=zh&u=26262
+          description: AI小说漫画视频软件
+        - title: FastGPT
+          logo: https://fastgpt.in/favicon.ico
+          url: https://fastgpt.in/
+          description: 一站式AI知识库生成平台
+        - title: Gomoon
+          logo: https://github.githubassets.com/favicons/favicon.png
+          url: https://github.com/wizardAEI/Gomoon
+          description: 桌面端的大模型效率工具
+        - title: Finalframe
+          logo: https://finalframe.ai/favicon.ico
+          url: https://finalframe.ai/dashboard/login.html
+          description: AI生成视频剪辑产品
+        - title: acoust
+          logo: https://assets-global.website-files.com/636207e70fe65d361505494e/6364a21cc6a3e449edb1af92_favicon.ico
+          url: https://www.acoust.io/
+          description: 人工智能的ai语音合成和克隆
+        - title: pinokio-AI编程浏览器
+          logo: https://pinokio.computer/favicon.ico
+          url: https://pinokio.computer
+          description: Pinokio 是一款浏览器，可让您自动轻松地**安装、运行和自动化任何 AI 应用程序和模型**
+        - title: Vega AI 
+          logo: https://edit-static-1307270943.cos.ap-beijing.myqcloud.com/logo.ico
+          url: https://www.vegaai.net/
+          description: 国内专业的ai创作平台，支持文本生成图片，图片风格转换
+        - title: coze
+          logo: https://sf-coze-web-cdn.coze.com/obj/coze-web-sg/obric/coze/favicon.1970.png
+          url: https://www.coze.com
+          description: 字节旗下AI平台
+        - title: StartAI
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/top_logo.png
+          url: https://www.istarry.com.cn/
+          description: StartAI是一款PS画图AI软件，为设计师在使用Photoshop进行图像处理时提供多种AI绘画功能
+        - title: 星火内容运营大师
+          logo: https://turbodesk.xfyun.cn/favicon.ico
+          url: https://turbodesk.xfyun.cn
+          description: 一站式AIGC内容运营平台
+        - title: 智谱AI开放平台
+          logo: https://open.bigmodel.cn/img/icons/favicon-16x16.png
+          url: https://open.bigmodel.cn/
+          description: 新一代国产自主通用AI开放平台，致力于将产品技术与行业场景双轮驱动的中国先进的认知智能技术和千行百业应用相结合，构建更高精度、高效率、通用化的AI开发新模式
+        
+
     - term: AI·绘画
       links:
         - title: stability
@@ -4909,10 +4965,6 @@
           logo: LS.png
           url: https://4.gpt02.xyz
           description: 简洁的 ChatBot，提供免费额度。
-        - title: AI匣子
-          logo: GPT.png
-          url: https://ai.08qt.com
-          description: 「AI匣子」是一款非常有用、有趣且免费的人工智能聊天机器人网站。它可以为您提供有用的信息和服务，让您享受到娱乐和放松的时光
 
     - term: AI·视频
       links:
@@ -5004,10 +5056,22 @@
           logo: Wisecut.png
           url: https://www.wisecut.video
           description: 是一款在线自动视频编辑软件，可利用 AI 和语音识别为您编辑视频
-        - title: AI克隆任何声音
-          logo: research.google.png
-          url: https://colab.research.google.com/drive/1NxiY3zHN4Nd8J3YAqFsbYaOB71IiLE04
-          description: 它可用于生成具有任何语音的语音。通常这样的模型分为语音编码器，合成器和声码器。语音编码器学习创建潜在的固定维度嵌入（矢量），以捕获特定人声的各种特征
+        - title: Etna
+          logo: https://etna.7volcanoes.com/assets/images/logo-6.png
+          url: https://etna.7volcanoes.com
+          description: 七火山科技开发的文生视频AI视频模型
+        - title: pika
+          logo: https://assets-global.website-files.com/6595753f1f7a37b39fc71171/65b14e0c69dc65de2557459a_pika-favicon-1x.png
+          url: https://pika.art/home
+          description: 文本创建3d视频的最佳选择
+        - title: pixverse
+          logo: https://cdn.pixverse.ai/app/app-pixverse-website/favicon-pixverse.png
+          url: https://pixverse.ai
+          description: AI文本和图像生成视频
+        - title: Moonvalley
+          logo: https://assets.ycodeapp.com/assets/app24697/favicons/mLscWXM8rxaqEZ1rA68PFFLo3Qd7il5QlAMIVnf9.png
+          url: https://moonvalley.ai
+          description: AI简单文本创造惊艳视频
 
     - term: AI·图设
       links:
@@ -5186,6 +5250,10 @@
           logo: https://mix.audio/logo.png
           url: https://go.mix.audio/netlify
           description: your solution for quick and unique music creation. Input your idea as text, image, or sound, and get up to four tailored tracks instantly. Ideal for YouTubers, podcasters, and game developers, Mix.audio offers copyright-free music
+        - title: AI克隆任何声音
+          logo: research.google.png
+          url: https://colab.research.google.com/drive/1NxiY3zHN4Nd8J3YAqFsbYaOB71IiLE04
+          description: 它可用于生成具有任何语音的语音。通常这样的模型分为语音编码器，合成器和声码器。语音编码器学习创建潜在的固定维度嵌入（矢量），以捕获特定人声的各种特征
 
     - term: AI·写作
       links: 
@@ -5406,6 +5474,7 @@
           logo: https://chathelp.ai/wp-content/uploads/chathelp_icon-150x150.png
           url: https://chathelp.ai/
           description: AI Chatbot - AI-powered Business, Work, Study Assistant & Website Chat Widget.Chat with Private AI Knowledge Base - Increase daily work efficiency, by having an AI assistant, who knows everything about your business & competitors, your work or studies.Save time & money on customer support. Drive more sales, by letting AI interact with potential customers 24/7, via Website Chat Widget. Train AI with your Website data & other documentation!
+
 - taxonomy: 极客下载
   icon: fas fa-circle
   list:
