@@ -4652,6 +4652,10 @@
           logo: 36解析.ico
           url: http://www.36jxs.com
           description: 36解析式工具箱是一个功能强大的在线查询工具网站，为用户提供了各种实用的查询与计算工具等。不论您是需要查询汉语字典、笔顺、组词、造句、成语、近义词、反义词、英文单词、缩写、谜语等，还是需要进身份照归属地、机场三字码查询、世界港口查询等操作，36解析式工具箱都能满足您的需求
+        - title: kedou视频解析
+          logo: https://www.kedou.life/favicon.ico
+          url: https://www.kedou.life/
+          description: 一款支持海量视频网站解析下载工具，致力于为您提供优质的视频解析服务
 
     - term: 效率生产力
       links:
@@ -6062,6 +6066,10 @@
           logo: https://cooltools.top/imgs/icons/favicon-32x32.png
           url: https://cooltools.top/
           description: Cooltools.top 是一个导航网站。主页收录了大众热门网站，还有分行业导航
+        - title: 零帝导航
+          logo: https://www.0ddh.com/favicon.ico
+          url: https://www.0ddh.com
+          description: 网站工具收录导航
 
 
     - term: 科学机场
