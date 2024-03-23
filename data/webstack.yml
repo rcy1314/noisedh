@@ -1211,7 +1211,10 @@
           logo: http://miaohao.xyz/template/mxone/mxstatic/picture/logo.png
           url: http://miaohao.xyz
           description: 无广告免费电视剧动漫电影网
-
+        - title: DHZ影视
+          logo: https://dhzys.xckiu.cn/upload/dycms/20240322-1/c4ca83d1ae16de74fc5a096655becb6a.png
+          url: https://dhzys.xckiu.cn
+          description: 免费在线观看,免费高清观看电影，连续剧，动漫，短剧等
 
 
     - term: 动漫番剧
@@ -6069,6 +6072,10 @@
         - title: 零帝导航
           logo: https://www.0ddh.com/favicon.ico
           url: https://www.0ddh.com
+          description: 网站工具收录导航
+        - title: Xckiu导航
+          logo: https://sou.xckiu.cn/assets/img/web-logo.png
+          url: https://sou.xckiu.cn/
           description: 网站工具收录导航
 
 
