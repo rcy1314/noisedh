@@ -2389,10 +2389,6 @@
           logo: https://panyq.com/favicon.ico
           url: https://panyq.com/
           description: 云盘搜索站
-        - title: 阿里云盘搜索站
-          logo: https://pan.justin3go.com/logo.ico
-          url: https://pan.justin3go.com
-          description: 阿里云盘搜索站
         
     - term: 云盘存储
       links:
@@ -3999,6 +3995,10 @@
           logo: https://www.gamelll.com/wp-content/uploads/fa.png
           url: https://www.gamelll.com
           description: 全球游戏软件试玩学习中心，分享热门单机游戏、绿色软件、游戏攻略、游戏补丁
+        - title: playgames8
+          logo: https://playgames8.com/theme/images/logo16.png
+          url: https://playgames8.com
+          description: 免费在线游戏
 
     - term: 博客人生·构建
       links:
@@ -4895,7 +4895,7 @@
           description: 用AI创造艺术作品
         - title: draft
           logo: draft.ico
-          url: https://draft.art
+          url: https://www.draft1.art
           description: AI绘图快速创造
         - title: ERNIE-ViLG
           logo: ERNIE-ViLG.ico
@@ -5079,6 +5079,10 @@
           logo: https://assets.ycodeapp.com/assets/app24697/favicons/mLscWXM8rxaqEZ1rA68PFFLo3Qd7il5QlAMIVnf9.png
           url: https://moonvalley.ai
           description: AI简单文本创造惊艳视频
+        - title: TOPVIEW
+          logo: https://www.topview.ai/favicon.ico
+          url: https://www.topview.ai
+          description: AI广告视频编辑
 
     - term: AI·图设
       links:
