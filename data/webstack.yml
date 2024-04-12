@@ -4825,6 +4825,10 @@
           logo: https://open.bigmodel.cn/img/icons/favicon-16x16.png
           url: https://open.bigmodel.cn/
           description: 新一代国产自主通用AI开放平台，致力于将产品技术与行业场景双轮驱动的中国先进的认知智能技术和千行百业应用相结合，构建更高精度、高效率、通用化的AI开发新模式
+        - title: ChatGai
+          logo: https://chatgai.lovepor.cn/favicon.ico
+          url: https://chatgai.lovepor.cn
+          description: 包含GPT聊天及AI-PPT的服务产品
         
 
     - term: AI·绘画
@@ -6091,7 +6095,7 @@
           description: 稳定，价格适中，不限制客户端数量
         - title: 飞云
           logo: vpngo.jpg
-          url: https://a.fyun1.win/auth/register?code=y5XW
+          url: https://fyun1.win/auth/register?code=y5XW
           description: 价格适中，稳定，高速，不限制客户端数量
         - title: 大机场
           logo: vpngo.jpg
