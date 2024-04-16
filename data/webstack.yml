@@ -2318,10 +2318,26 @@
           logo: yundown.jpg
           url: https://pan.qinzhi.cc
           description: alist云盘
-        - title: PIXCAT
+        - title: Nite07的小窝
           logo: yundown.jpg
-          url: http://pan.svvme.com
+          url: https://www.nite07.com/
           description: alist云盘
+        - title: Crrashh Cloud Service
+          logo: yundown.jpg
+          url: https://disk.crrashh.com/
+          description: alist云盘
+        - title: pan.qlam
+          logo: yundown.jpg
+          url: https://pan.qlam.cc/
+          description: pan.qlam
+        - title: 宝哥网盘
+          logo: yundown.jpg
+          url: hhttps://pan.baoge.vip/
+          description: 宝哥网盘
+        - title: 宝哥网盘
+          logo: yundown.jpg
+          url: hhttps://pan.baoge.vip/
+          description: 宝哥网盘
         
     - term: 云盘搜索
       links:
@@ -5111,6 +5127,10 @@
           logo: https://www.topview.ai/favicon.ico
           url: https://www.topview.ai
           description: AI广告视频编辑
+        - title: Haiper
+          logo: https://framerusercontent.com/images/watrGBdmVCqKiljkZtWYQ53oVE.png
+          url: https://haiper.ai
+          description: Haiper是近期推出的一项AI生成视频服务，支持文本生成视频、图片制作动画、重绘视频等
 
     - term: AI·图设
       links:
@@ -5297,6 +5317,10 @@
           logo: https://udioai.org/eggmusic.png
           url: https://udioai.org
           description: udioai是一个ai音乐生成在线平台,利用先进的人工智能技术为用户生成原创音乐。无论您是音乐家、游戏开发者,还是需要配乐的视频创作者,udioai.org 都能满足您的需求。
+        - title: 网易天音
+          logo: https://s7.music.126.net/6369f9ec78c25c1818ccfc08/img/favicon_021f7155.ico
+          url: https://tianyin.music.163.com
+          description: 网易天音是一款网易云推出的一站式AI音乐创作工具，带有AI一键编曲、DEMO、歌词创作且支持创建多音乐风格的程序。
 
     - term: AI·搜索
       links: 
@@ -6596,6 +6620,10 @@
           logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
           url: https://mp.weixin.qq.com/s/9Cor1xSy3ZJPLxkgg6wyqQ
           description: Python自动化办公社区
+        - title: AI应用帮
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/SlqWjVi1xG5F_34aMeIglQ
+          description: AI应用帮
     - term: Newsletter
       links:
         - title: Hacker News
@@ -6720,6 +6748,10 @@
           logo: github.jpg
           url: https://github.com/cooderl/wewe-rss
           description: 更优雅的微信公众号订阅方式，支持私有化部署、微信公众号RSS生成
+        - title: Tidyread
+          logo: https://www.tidyread.info/favicon.svg
+          url: https://www.tidyread.info/zh-CN
+          description: Tidyread 支持管理和计划你的日常阅读，并通过 AI 摘要、整洁的简报使你获得更现代的阅读体验
 
     - term: 极客自动化
       links:
@@ -6743,10 +6775,10 @@
           logo: Bardeen.jpg
           url: https://chrome.google.com/webstore/detail/bardeen/ihhkmalpkhkoedlmcnilbbhhbhnicjga
           description: 连接 30+ 个应用程序，抓取网络并提高您的工作效率
-        - title: Automate.io
-          logo: Automate.png
-          url: https://automate.io
-          description: 官方已于2022年10月31日停用，作为使用过的平台，仅留作纪念
+        - title: Activepieces
+          logo: activepieces.png
+          url: https://cloud.activepieces.com/sign-up?referral=UvhYQVNxIY6mgRfqhgng4
+          description: activepieces是一个强大的自动化平台，拥有和N8N一样出色的流程功能
         - title: CommandPost
           logo: CommandPost.png
           url: https://commandpost.io
