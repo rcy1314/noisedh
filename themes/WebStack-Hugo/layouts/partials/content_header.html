@@ -3,14 +3,12 @@
         <div id="header" class="page-header sticky">
             <div class="navbar navbar-expand-md">
                 <div class="container-fluid p-0">
-
                     <a href="" class="navbar-brand d-md-none" title="{{ .Site.Title }}">
                         <img src="{{ relURL $.Site.Params.images.logoCollapseLight }}" class="logo-light"
                             alt="{{ .Site.Title }}">
                         <img src="{{ relURL $.Site.Params.images.logoCollapseDark }}" class="logo-dark d-none"
                             alt="{{ .Site.Title }}">
                     </a>
-
                     <div class="collapse navbar-collapse order-2 order-md-1">
                         <div class="header-mini-btn">
                             <label>
@@ -23,13 +21,12 @@
                             </label>
 
                         </div>
-
                         <ul class="navbar-nav site-menu" style="margin-right: 16px;">
                         {{ range .Site.Data.headers }}
-			<li {{ if .list }}class="menu-item-has-children"{{ end }}>
-				<a href="{{ .link }}">
-                                    <i class="{{ .icon }} fa-lg mr-2"></i>
-                                    <span>{{ .item }}</span>
+			           <li {{ if .list }}class="menu-item-has-children"{{ end }}>
+				     <a href="{{ .link }}">
+                   <i class="{{ .icon }} fa-lg mr-2"></i>
+                 <span>{{ .item }}</span>
                                 </a>
 				<ul class="sub-menu">
 				{{ range .list }}
@@ -39,7 +36,6 @@
 			    </li>
 			{{ end }}
 			</ul>
-
                         {{ if not (eq $.Site.Params.qweather.key "") }}
                         <div class="rounded-circle weather">
                             <div id="he-plugin-simple" style="display: contents;"></div>

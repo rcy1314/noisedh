@@ -10,10 +10,10 @@
       logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/logo.png
       url: https://www.noisework.cn/soso/
       description: 从包括本站在内收录的上万条书签里搜索
-    - title: 个人RSS阅读页
-      logo: 漫1.jpg
-      url: https://rcy1314.github.io/news/
-      description: 我的RSS综合阅读聚合页
+    - title: NOISE&Blog
+      logo: pin.png
+      url: https://www.noiseblogs.top
+      description: 我的博客站
     - title: NOISE主页
       logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20230801/NOISELOGO.4cy9whhpaf00.jpg
       url: https://www.noisework.cn
@@ -681,10 +681,6 @@
           logo: 下歌.ico
           url: https://music.y444.cn
           description: 下歌吧
-        - title: 全网音乐
-          logo: 全网音乐.ico
-          url: https://music.sonimei.cn/
-          description: 全网音乐下载
         - title: 无忧音乐
           logo: 无忧音乐.png
           url: http://web.app.ouyangpeng.top/poncon-copyrighted-music/#/home/
@@ -733,6 +729,30 @@
           logo: Beatbump.ico
           url: https://beatbump.io
           description: 令人惊艳的开源第三方YouTube 音乐，你可在Github中找到其他实例，其中使用的API为第三方镜像youtube，但同样不支持大陆地区直接访问
+        - title: FindSounds
+          logo: https://www.findsounds.com/favicon.ico
+          url: https://www.findsounds.com/typesChinese.html
+          description: 在网络上发现音效，搜索网络声音
+        - title: MyFreeMP3
+          logo: https://tools.liumingye.cn/favicon.ico
+          url: https://tools.liumingye.cn/music/#/
+          description: 音频下载变得更加容易、快速和免费。使用我们的服务搜索您想要下载的声音。您的第一次下载仅需2次点击！
+        - title: chosic
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/chosic-logo-img.png
+          url: https://www.chosic.com/
+          description: chosic发现新音乐
+        - title: 歌曲宝
+          logo: https://www.gequbao.com/favicon.ico
+          url: https://www.gequbao.com/
+          description: 下载音乐歌曲宝
+        - title: Uppbeat
+          logo: https://cdn.uppbeat.io/images/logo/apple-touch-icon.png
+          url: https://uppbeat.io/music/mood/hype
+          description: 下载最好的免版税炒作音乐用于YouTube、Twitch、Instagram、TikTok、播客等。 Uppbeat是创作者的音乐平台
+        - title: 全网音乐免费
+          logo: 全网音乐.ico
+          url: https://music.txqq.pro/
+          description: 全网音乐免费下载工具
 
     - term: 媒体平台
       links:
@@ -4456,6 +4476,10 @@
           logo: Zion无代码.ico
           url: https://www.functorz.com/?channel=noise
           description: Zion无代码开发工具，无需一行代码，实现小程序/Web开发，从设计到上线完全自动化，赋予你全流程开发能力！
+        - title: cyclic
+          logo: https://app.cyclic.sh/favicon.ico
+          url: https://app.cyclic.sh/#/join/rcy1314
+          description: cyclic无服务器部署开发
         
     - term: 工具箱
       links:
@@ -5269,7 +5293,53 @@
           logo: research.google.png
           url: https://colab.research.google.com/drive/1NxiY3zHN4Nd8J3YAqFsbYaOB71IiLE04
           description: 它可用于生成具有任何语音的语音。通常这样的模型分为语音编码器，合成器和声码器。语音编码器学习创建潜在的固定维度嵌入（矢量），以捕获特定人声的各种特征
+        - title: udioai
+          logo: https://udioai.org/eggmusic.png
+          url: https://udioai.org
+          description: udioai是一个ai音乐生成在线平台,利用先进的人工智能技术为用户生成原创音乐。无论您是音乐家、游戏开发者,还是需要配乐的视频创作者,udioai.org 都能满足您的需求。
 
+    - term: AI·搜索
+      links: 
+        - title: isou
+          logo: https://isou.chat/favicon.ico
+          url: https://isou.chat/
+          description: Search with AI
+        - title: 秘塔AI搜索
+          logo: https://metaso.cn/favicon.ico
+          url: https://metaso.cn/
+          description: 秘塔AI搜索
+        - title: webpilot
+          logo: https://www.webpilot.ai/light.ico
+          url: https://www.webpilot.ai/home?lang=zh-CN&mode=search
+          description: webpilot
+        - title: 十号AI搜索
+          logo: https://retardphobia.moebh.org/ui/icon.svg?6d9118a9d44796c6
+          url: https://retardphobia.moebh.org/ui/index.html
+          description: 十号AI搜索
+        - title: phind-ai
+          logo: https://phind-ai.com/favicon.ico
+          url: https://phind-ai.com/
+          description: phind-ai
+        - title: thinkany
+          logo: https://thinkany.ai/favicon.ico
+          url: https://thinkany.ai/zh
+          description: thinkany
+        - title: Kimi.ai
+          logo: https://statics.moonshot.cn/kimi-chat/favicon.ico
+          url: https://kimi.moonshot.cn/
+          description: Kimi.ai帮你看更大的世界
+        - title: aoyo
+          logo: https://aoyo.ai/favicon.ico
+          url: https://aoyo.ai/
+          description: aoyoAI
+        - title: phind
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1713171384663.png
+          url: https://www.phind.com/search?home=true
+          description: phind
+        - title: Devv.ai
+          logo: https://devv.ai/favicon-dark.png
+          url: https://devv.ai
+          description: Devv.ai - 面向程序员的革命性AI搜索引擎
     - term: AI·写作
       links: 
         - title: Effidit
@@ -5694,6 +5764,38 @@
           logo: MAC金币.ico
           url: https://www.macjb.com
           description: MAC软件游戏
+        - title: Appstorren
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/images.png
+          url: https://appstorrent.ru/
+          description: 俄罗斯破解团队网站，不支持VPN访问
+        - title: MacenJoy
+          logo: https://macenjoy.net/wp-content/uploads/2024/02/cropped-Slice-2-1931-32x32.png
+          url: https://macenjoy.net/
+          description: 把最好的资源,以最快的速度分享给大家
+        - title: Macked
+          logo: https://macked.app/wp-content/uploads/favicon.png
+          url: https://macked.app
+          description: MAC软件下载服务，由会员机制
+        - title: Cmacked
+          logo: https://cmacked.com/wp-content/uploads/fbrfg/favicon-32x32.png?v=3
+          url: https://cmacked.com/
+          description:  免费下载Mac应用程序和游戏，每天更新最佳和最受欢迎的Mac应用程序。
+        - title: POMAC
+          logo: https://www.pomac.cc/upload/ABE961FD-1D4C-4812-B59A-E5C6FC3AE9F5-e1662871033968%20(1).png
+          url: https://www.pomac.cc/
+          description: 专注于提供最新的Mac软件下载的网站
+        - title: Mac下载网
+          logo: https://www.macwang.cn/wp-content/uploads/2023/07/cropped-Favicon-2-32x32.png
+          url: https://www.macwang.cn
+          description: Mac系统软件驱动一站式下载网站
+        - title: 优秀Mac应用软件分享
+          logo: https://static.cdn.imacapp.cn/favicon.ico
+          url: https://www.imacapp.cn
+          description: 优秀Mac应用软件分享
+        - title: Mac服务
+          logo: https://www.macfuwu.com/favicon.ico
+          url: https://www.macfuwu.com/
+          description: 分享优秀Mac软件实用Mac技巧
 
     - term: 下载·综合
       links:
@@ -6025,10 +6127,6 @@
           logo: DAC导航.png
           url: https://studyhard.eu.org
           description: 丰富的网址导航
-        - title: 安杰聚合搜索导航
-          logo: 安杰聚合搜索导航.png
-          url: https://aunger.cf
-          description: 安杰聚合搜索导航
         - title: 乱红如雨
           logo: 乱红如雨.png
           url: http://info.lhqs.ink
@@ -6375,8 +6473,164 @@
           logo: tg.png
           url: https://t.me/blogrsslist
           description: 独立博客&播客全订阅
-        
-    - term: 极客订阅
+- taxonomy: 极客订阅
+  icon: fas fa-rss-square
+  list: 
+    - term: 周刊期刊
+      links:
+        - title: 村雨遥好物周刊
+          logo: https://cunyu1943.github.io/logo.svg
+          url: https://cunyu1943.github.io/weekly/
+          description: 发现好用的网站、软件、项目、资料、插件等资源
+        - title: 偷懒爱好者周刊
+          logo: https://toolight.zhubai.love/favicon.png
+          url: https://toolight.zhubai.love/
+          description: 分享产品、工具、新鲜事，每周三发布
+        - title: 猫鱼周刊
+          logo: https://ameow.xyz/upload/favicon.png
+          url: https://ameow.xyz/categories/weekly
+          description: 来自阿猫的博客，后端工程师一枚
+        - title: xiaoxuan6's 周刊
+          logo: https://weekly-7lo.pages.dev/assets/images/favicon.png
+          url: https://weekly-7lo.pages.dev
+          description: 主要针对计算机领域，内容主题极大程度被维护者个人喜好主导
+        - title: XiaoHu.Ai日报
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/350_100.png
+          url: https://xiaohu.ai/
+          description: 针对AI领域的知识案例汇总
+        - title: 产品经理周刊
+          logo: https://pmfeeds.bearman.xyz/weekly/noodles.png
+          url: https://pm.bearman.xyz
+          description: 产品经理周刊，记录每周看到的有趣内容，每周一早晨发布
+        - title: MDH Weekly
+          logo: https://img.alicdn.com/imgextra/i3/O1CN01uKTVpD1UK8BCxFBwo_!!6000000002498-2-tps-500-500.png
+          url: https://mdhweekly.com/weekly
+          description: 知识技能存档
+        - title: 早早鸟日刊
+          logo: https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*vMxOQIh4KBMAAAAAAAAAAAAADvuFAQ/original
+          url: https://www.yuque.com/zaotalk/worm
+          description: 早早鸟日刊发布在语雀平台
+        - title: BLUE·周刊
+          logo: https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*vMxOQIh4KBMAAAAAAAAAAAAADvuFAQ/original
+          url: https://www.yuque.com/hhhhuazi/gwyv4u/ksbqit
+          description: 设计、编程类文档，发布在语雀平台
+        - title: HelloGitHub 月刊
+          logo: https://hellogithub.com/favicon/apple-icon-57x57.png
+          url: https://hellogithub.com/periodical
+          description: 分享 GitHub 上有趣、入门级的开源项目，每月 28 号发布最新一期
+        - title: Link设计周刊
+          logo: https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*vMxOQIh4KBMAAAAAAAAAAAAADvuFAQ/original
+          url: https://www.yuque.com/zing123/scu69w
+          description: 与设计有关的文字文章
+        - title: nuofe-weekly
+          logo: https://mdn.alipayobjects.com/huamei_0prmtq/afts/img/A*vMxOQIh4KBMAAAAAAAAAAAAADvuFAQ/original
+          url: 诺诺前端周刊
+          description: 为前端开发同学创建的每周一小时了解前端发展、技术文档和业界新闻的 readlist
+        - title: 独立开发变现周刊
+          logo: https://www.ezindie.com/favicon.ico
+          url: https://www.ezindie.com
+          description: 让小产品的独立变现更简单
+        - title: 潮流周刊
+          logo: https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png
+          url: https://weekly.tw93.fun
+          description: 记录工程师 Tw93 的不枯燥生活，每周一发布，欢迎关注
+        - title: Linux周刊
+          logo: https://weekly.linuxcat.top/upload/496.webp
+          url: https://weekly.linuxcat.top
+          description: Linux周刊，记录Linux最新资讯，每周天发布
+    - term: 公众号
+      links:
+        - title: 前端食堂技术周刊
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/86Cz3KUWqutu9J0V4tyabQ
+          description: 前端食堂技术周刊
+        - title: 摄影猫不斩
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/j99kEw71WeoF9UVbXtfd8A
+          description: 实用摄影技巧
+        - title: GitHubDaily
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/8LR-U1nElg0_Q8lNl8-6sQ
+          description: 精选开源实用项目
+        - title: 新片场
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/l_Fz10AFOHJD1BHmW96Uxg
+          description: 新片场每个人的影视学习地
+        - title:  NOISE宝藏阁
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/MlwI8W-Fz6aYs8GKusXY6w
+          description: 宝藏知识分享
+        - title: 果核剥壳
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/nwlV4fVkT221W73PO8N8vQ
+          description: 实用软件资源资讯
+        - title:  Memm设计知识分享
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/KWo2fQdtUD0FGK3ixA9hNg
+          description: 实用软件资源资讯
+        - title: 书生说
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/QIO8eQ65SNtU1QQTbZh7gw
+          description: 三维设计资源分享
+        - title: 下1个好软件
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/bf3tu8d_GeVpzUK-8O0V6g
+          description: 实用软件资源资讯
+        - title: 设计后期宝藏库
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/EmDC0Ei9N5YoOGVF8J01hA
+          description: 设计后期宝藏库
+        - title: 奇迹秀
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/UX816fiYU-k0fciIQ1AwMA
+          description: 不定时分享优质工具
+        - title: 优设
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/OeE9LmeCBKxg39y1dEW2zA
+          description: 设计教程及工具
+        - title: 营销案例精选
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/fV373an7lwL2YyLNTBbFpA
+          description: 营销案例精选
+        - title: Python自动化办公社区
+          logo: https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png
+          url: https://mp.weixin.qq.com/s/9Cor1xSy3ZJPLxkgg6wyqQ
+          description: Python自动化办公社区
+    - term: Newsletter
+      links:
+        - title: Hacker News
+          logo: https://hn.cho.sh/img/favicon.ico
+          url: https://hn.cho.sh/zh-Hans/
+          description: 由Sunghyun Cho维护的支持多国语言订阅Hacker News
+        - title: selfh.st
+          logo: https://selfh.st/content/images/size/w256h256/2023/09/favicon-1.png
+          url: https://selfh.st
+          description: 最新的自托管新闻、更新、发布、活动等
+        - title: Aiadvantage
+          logo: https://myaiadvantage.com/wp-content/uploads/2023/03/AI-Advantage-Favicon.png
+          url: https://myaiadvantage.com/newsletter
+          description: 获得免费AI时事通讯及提示模版等
+        - title: Open Pioneers
+          logo: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/logo/7d621449-2117-404f-95db-7cec17e64b15/thumb_iconpioneer.png
+          url: https://openpioneers.com/
+          description: 开源的最前沿资讯，每周更新一次
+        - title: Python潮流周刊
+          logo: https://substackcdn.com/icons/substack/apple-touch-icon-57x57.png
+          url: https://substack.com/sign-in?redirect=%2Faccount%3Futm_medium%3Dweb%26utm_source%3Dsubscribe-widget&for_pub=pythoncat&email=&with_password=&change_user=false&justTrying=
+          description: 由豌豆花下猫主理，精心筛选国内外的 250+ 信息源，
+        - title: BestofShowHN
+          logo: https://news.ycombinator.com/favicon.ico
+          url: https://bestofshowhn.com/
+          description: Hacker News最佳帖子，可随时订阅
+        - title: AI KATANA
+          logo: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/logo/878ce796-399c-44c9-ac2c-c2c6543fc60a/thumb_logo.png
+          url: https://www.aikatana.com/
+          description: 最新的 AI 新闻、工具、趋势和见解
+        - title: ComfyUI+AnimateDiff
+          logo: notion.png
+          url: https://luminous-mapusaurus-1aa.notion.site/ComfyUI-AnimateDiff-fd5303fdafd14630b15726ad56e6dae3
+          description: 每日AI新闻 
+    - term: RSS生产力
       links:
         - title: RSSHUB文档
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/NV/image.wcxzjcdl63k.png
@@ -6386,7 +6640,7 @@
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/NV/xxx.325un3apvqu0.jpg
           url: https://t.me/aboutrss
           description: 一个TG频道，只收录RSS相关
-        - title: RSS 指南
+        - title: Notion专栏-RSS指南
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/NV/image.11tdo6tjv82o.jpg
           url: https://efficiencyfollow.notion.site/RSS-01f580f05df2412993c5ad0f68f0a95d
           description: 统计收录RSS相关生产力、阅读器、阅读源
@@ -6426,6 +6680,46 @@
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/NV/image.6xulrsc1toc0.png
           url: https://tg.i-c-a.su
           description: TG频道转换RSS
+        - title: RSS翻译器
+          logo: https://rsstranslator.com/assets/logo.svg
+          url: https://rsstranslator.com/
+          description: 开源、简洁、可自部署RSS翻译
+        - title: Tops
+          logo: https://site.zchengb.top/favicon.ico
+          url: https://site.zchengb.top/
+          description: 支持RSS订阅的资讯聚合扩展程序
+        - title: Redfeed锐读
+          logo: https://www.forcecreat.com/favicon.ico
+          url: https://www.forcecreat.com/
+          description: 一个AI引擎驱动的个人信息助手
+        - title: RSS-GPT
+          logo: github.jpg
+          url: https://github.com/yinan-c/RSS-GPT
+          description: 使用GitHubActions自动运行并调用OpenAIAPI为RSS源生成总结
+        - title: readybot.io
+          logo: https://readybot.io/favicon-32x32.png
+          url: https://readybot.io
+          description: Discord-RSS订阅机器人服务
+        - title: rss-bridge镜像实例
+          logo: github.jpg
+          url: https://rss-bridge.github.io/rss-bridge/General/Public_Hosts.html
+          description: rss-bridge镜像实例
+        - title: B站观看列表-RSS
+          logo: github.jpg
+          url: https://github.com/PerfectDay20/bilibili-online-filtered-rss
+          description: 将哔哩哔哩观看列表转换为RSS
+        - title: feedsearch
+          logo: https://feedsearch.dev/static/favicon.ico
+          url: https://feedsearch.dev/
+          description: 一种API服务，用于在网站上搜索RSS、Atom 和 JSON 源
+        - title: RSS Anything
+          logo: https://rss.diffbot.com/static/rss-anything-icon.svg
+          url: https://rss.diffbot.com/
+          description: 将任何带有链接列表的旧网站转换为 RSS 源
+        - title: WeWe-RSS
+          logo: github.jpg
+          url: https://github.com/cooderl/wewe-rss
+          description: 更优雅的微信公众号订阅方式，支持私有化部署、微信公众号RSS生成
 
     - term: 极客自动化
       links:
