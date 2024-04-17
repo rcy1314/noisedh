@@ -2334,10 +2334,6 @@
           logo: yundown.jpg
           url: hhttps://pan.baoge.vip/
           description: 宝哥网盘
-        - title: 宝哥网盘
-          logo: yundown.jpg
-          url: hhttps://pan.baoge.vip/
-          description: 宝哥网盘
         
     - term: 云盘搜索
       links:
@@ -4881,10 +4877,6 @@
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221102/xxx.5bzljy9uhf00.png
           url: https://aigc.yizhentv.com/h5/ai-paint
           description: AI作画创作平台，输入关键词一键生成绘画作品 
-        - title: artpai
-          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/NV/image.5wsf13nehm80.png
-          url: https://artpai.xyz
-          description: 一句话生成AI画面
         - title: DALL·E
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/NV/image.5rz7w97fpms0.png
           url: https://labs.openai.com
@@ -4965,10 +4957,6 @@
           logo: nightcafe.ico
           url: https://creator.nightcafe.studio
           description: 人工智能艺术生成器
-        - title: 绘创Al
-          logo: 绘创.png
-          url: https://www.origins.chat
-          description: AI绘图网站，高效，快速创建出你所描述信息相关的图片
         - title: 虎课网AI教程
           logo: 虎课.ico
           url: https://huke88.com/aigc?source=e0575
@@ -4977,6 +4965,14 @@
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/9y.png
           url: https://www.easydiffusion.online
           description: EasyDiffusion Online 是一款人工智能驱动的软件，允许用户免费生成高质量的图像。凭借其用户友好的界面和先进的算法，该软件简化了创建令人惊叹的视觉效果的过程。无论您是技术专家还是普通用户，EasyDiffusion Online 都提供了一个用于生成迷人图像的易于访问的平台
+        - title: openart.ai
+          logo: https://openart.ai/favicon/favicon-32x32.png
+          url: https://openart.ai/workflows/templates
+          description: AI艺术生成器让你的创意和生产力提高了10倍。有100多种模型和风格可供选择
+        - title: aiuphouse
+          logo: https://aiuphouse.com/icons/favicon.ico
+          url: https://aiuphouse.com/
+          description: AI图片快速生成器
 
     - term: AI·问答
       links:
