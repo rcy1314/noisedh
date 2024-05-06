@@ -27,13 +27,29 @@
                 </a>
                 {{ end }}
             </div>
-            <div class="footer-inner">
-                <div class="footer-text">{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}</div>
-                {{ if $.Site.Params.footer.busuanzi }}
-                <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-                <center><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></center>
-                {{ end }}
-            </div>
+            <style>
+                .gradient-text {
+                   background: linear-gradient(90deg, red, yellow, green, blue, purple, red);
+                   -webkit-background-clip: text;
+                   -webkit-text-fill-color: transparent; 
+                   animation: gradient 5s ease-in-out infinite;
+                }
+               
+                @keyframes gradient {
+                  0% { background-position: 0% }
+                  100% { background-position: 100% }
+                }
+               </style>
+               
+               <footer>
+                   <div class="footer-inner">
+                       <div class="footer-text gradient-text">{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}</div>
+                       {{ if $.Site.Params.footer.busuanzi }}
+                       <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                       <center class="gradient-text"><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></center>
+                       {{ end }}
+                   </div>
+               </footer>
         </footer>
       
     </div><!-- main-content end -->
