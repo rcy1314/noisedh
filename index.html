@@ -807,7 +807,7 @@ InstantClick.init("mousedown");
                     </span>
                     </a>
                     <a href="#" target="_black" >
-                        <span style="font-family: 'Tahoma';font-weight:700; color: #b333e5ce; font-size: 30px;line-height:80px;">📢③：如您发现主域名访问受限，请尝试访问备用域名，本站可永久持续访问
+                        <span style="font-family: 'Tahoma';font-weight:700; color: #b333e5ce; font-size: 30px;line-height:80px;">📢③：如您发现域名访问受限，请尝试访问备用域名，本站可永久持续访问
                         </span>
                         </a>
                 <a href="#" target="_black" >
@@ -61976,13 +61976,29 @@ InstantClick.init("mousedown");
                 </a>
                 
             </div>
-            <div class="footer-inner">
-                <div class="footer-text"><p> 2019 - 2024 | 本站收录值得珍藏的网站，欢迎访问使用</p>©<a href="https://noisedh.cn" target="_blank"><strong>NOISE导航</strong></a></div>
-                
-                <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-                <center><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></center>
-                
-            </div>
+            <style>
+                .gradient-text {
+                   background: linear-gradient(90deg, red, yellow, green, blue, purple, red);
+                   -webkit-background-clip: text;
+                   -webkit-text-fill-color: transparent; 
+                   animation: gradient 5s ease-in-out infinite;
+                }
+               
+                @keyframes gradient {
+                  0% { background-position: 0% }
+                  100% { background-position: 100% }
+                }
+               </style>
+               
+               <footer>
+                   <div class="footer-inner">
+                       <div class="footer-text gradient-text"><p> 2019 - 2024 | 本站收录值得珍藏的网站，欢迎访问使用</p>©<a href="https://noisedh.cn" target="_blank"><strong>NOISE导航</strong></a></div>
+                       
+                       <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                       <center class="gradient-text"><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></center>
+                       
+                   </div>
+               </footer>
         </footer>
       
     </div>
