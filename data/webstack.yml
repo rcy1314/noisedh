@@ -100,7 +100,7 @@
       description: cloudflare
 
 
-- taxonomy: 媒体制作
+- taxonomy: 媒体创作
   icon: fas fa-folder-open fa-lg
   list:
     - term: CG三维
@@ -418,6 +418,26 @@
           logo: 知意配音.ico
           url: https://peiyin.wozhiyi.com
           description: 知意配音是专业的AI文字转语音配音平台，支持短视频配音、有声书制作、影视解说、课件配音、广告配音、促销叫卖等各类配音场景需求
+        - title: ttsmaker
+          logo: https://ttsmaker.com/static/v3_theme_01_asset/logo/favicon-32x32.png?version=2
+          url: https://ttsmaker.com/zh-cn
+          description: 在线免费文字转语音
+        - title: TTS - 文本转语音
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715074881169.png
+          url: https://www.text-to-speech.cn/
+          description: TTS - 文本转语音
+        - title: 原神在线TTS
+          logo: https://www.gradio.app/favicon.png
+          url: https://v2.genshinvoice.top/
+          description: 原神在线TTS-引导页
+        - title: TTS-Online
+          logo: https://www.ttson.cn/favicon.ico
+          url: https://www.ttson.cn/
+          description: TTS-Online | 多种声音与二次元语音
+        - title: elevenlabs
+          logo: https://elevenlabs.io/favicon.ico
+          url: https://elevenlabs.io
+          description: 在线AI文本转语音
 
     - term: 无版权图库
       links:
@@ -786,82 +806,58 @@
           url: https://music.txqq.pro/
           description: 全网音乐免费下载工具
 
-    - term: 媒体平台
+    - term: 抖音工具箱
       links:
-        - title: Youtube
-          logo: youtube.jpg
-          url: https://www.youtube.com/
-          description: Youtube
-        - title: twitter
-          logo: twitter.com.ico
-          url: https://twitter.com/
-          description: twitter
-        - title: 哔哩哔哩
-          logo: 哔哩哔哩.jpg
-          url: https://www.bilibili.com
-          description: 哔哩哔哩
-        - title: 抖音
-          logo: douyin.ico
-          url: https://www.douyin.com/
-          description: 抖音
-        - title: tiktok
-          logo: tiktok.png
-          url: https://www.tiktok.com/
-          description: tiktok
-        - title: 西瓜视频
-          logo: 西瓜视频.ico
-          url: https://www.ixigua.com/
-          description: 西瓜视频
-        - title: instagram
-          logo: instagram.jpg
-          url: https://www.instagram.com/
-          description: instagram
-        - title: Discord
-          logo: Discord.png
-          url: https://discord.com
-          description: Discord
-        - title: 微信公众平台
-          logo: 微信公众.ico
-          url: https://mp.weixin.qq.com/
-          description: 微信公众平台
-        - title: 竹白
-          logo: 竹白.png
-          url: https://zhubai.love/
-          description: 竹白
-        - title: 微博
-          logo: 微博.png
-          url: https://weibo.com/
-          description: 微博
-        - title: Pinterest
-          logo: Pinterest.png
-          url: https://www.pinterest.com
-          description: 全球设计创意灵感
-        - title: 视云鹤
-          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221023/image.15oic54wk68w.png
-          url: http://www.videospread.biz
-          description: 自媒体平台一键发布
-        - title: 蚁小二
-          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221023/image.6yggp05q86o0.png
-          url: https://cpc.yixiaoer.cn
-          description: 自媒体平台一键发布
-        - title: 网易云音乐创作者中心
-          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221023/云音乐.2pmhprxylje0.png
-          url: https://music.163.com/st/ncreator
-          description: 网易云音乐创作者中心
-        - title: 推兔
-          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/NV/image.txiafnpc34w.png
-          url: https://www.tuitool.cn
-          description: 主流自媒体平台多账号登录，多平台视频一键发布，多平台数据综合分析
-        - title: 易媒助手
-          logo: https://17707510.s21i.faiusr.com/2/2/ABUIABACGAAgnp6ZmAYovf-mugMwmAI4rQE.jpg
-          url: https://yimeizhushou.com
-          description: 70+平台多账号管理，文章视频动态30+平台一键发布，支持1000+账号管理，3分钟完成2小时分发工作，更稳定的一站式运营、营销、发布工具
-        - title: 虾果
-          logo: https://17707510.s21i.faiusr.com/4/ABUIABAEGAAgtMOPmwYoweaE5gUwoAE4oAE!100x100.png
-          url: https://ixiaguo.com
-          description: 虾果,私域营销必备神器,支持短链、活码、微信外链、企微客服、短信营销等功能
+        - title: 旧版tiktok安装
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715073773690.png
+          url: https://itiktok.best
+          description: 旧版tiktok在线安装
+        - title: 抖音TikTok无水印下载
+          logo: https://dlpanda.com/favicon.ico
+          url: https://dlpanda.com/zh-CN
+          description: 抖音TikTok无水印下载
+        - title: tiktokarchive
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/2321.png
+          url: https://tiktokarchive.com/
+          description: tiktok去水印下载
+        - title: 抖音直播录制工具
+          logo: github.jpg
+          url: https://github.com/LyzenX/DouyinLiveRecorder
+          description: 一个自动监测和录制抖音直播的工具，支持录制弹幕，以GUI或命令行形式运行，支持linux，无需设置cookie，不使用selenium，开箱即用。
+        - title: DouyinCatcher
+          logo: github.jpg
+          url: https://github.com/HShiDianLu/DouyinCatcher
+          description: WIN平台可以在抖音上下载没有水印的视频/图片到本地的工具
+        - title: TikDown
+          logo: github.jpg
+          url: https://github.com/Tairraos/TikDown
+          description: TikTok抖音无水印视频下载器
+        - title: 抖音弹幕监听器
+          logo: github.jpg
+          url: https://github.com/HaoDong108/DouyinBarrageGrab
+          description: 基于系统代理的抖音弹幕wss抓取程序，能够获取所有数据来源，包括chrome，抖音直播伴侣等，可进行进程过滤
+        - title: TikTokDownloader
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/TikTokDownloader.png
+          url: https://github.com/JoeanAmier/TikTokDownloader
+          description: TikTok 主页/视频/图集/原声；抖音主页/视频/图集/收藏/直播/原声/合集/评论/账号/搜索/热榜数据采集工具
+        - title: 抖音获取脚本
+          logo: https://scriptcat.org/favicon.ico
+          url: https://scriptcat.org/zh-CN/script-show-page/1277/
+          description: 抖音获取脚本
+        - title: 抖音批量下载工具
+          logo: github.jpg
+          url: https://github.com/jiji262/douyin-downloader
+          description: 抖音批量下载工具
+        - title: TikTokDownload
+          logo: github.jpg
+          url: https://github.com/Johnserf-Seed/TikTokDownload
+          description: 抖音去水印作品下载
+        - title: douyin.wtf
+          logo: https://cdn.jsdelivr.net/gh/wang0618/PyWebIO-assets@v1.8.3/image/apple-touch-icon.png
+          url: https://douyin.wtf
+          description: 在线抖音去水印作品下载
 
-    - term: 云剪辑
+    - term: 剪辑能手
       links:
         - title: 闪剪
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221023/闪剪.3rci9x94b100.png
@@ -947,6 +943,31 @@
           logo: 鬼手剪辑.ico
           url: https://jollytoday.com/
           description: 鬼手剪辑能高效实现视频去字幕、视频翻译和视频混剪等，帮助电商客户、MCN机构和影视剪辑人员制作精彩的视频。支持十几种语言的互译，短视频全自动剪辑，支持API调用，一键打造本土化视频内容
+        - title: 批量视频分段
+          logo: github.jpg
+          url: https://github.com/cmdch2017/-python-
+          description: 批量视频分段
+        - title: 剪映一键关键帧
+          logo: https://keyframeai.top/favicon.ico
+          url: https://keyframeai.top
+          description: 一键设定剪映视频关键帧，轻松添加转场动画。
+        - title: 快速创建剪映草稿
+          logo: github.jpg
+          url: https://github.com/xiaoyiv/JianYingProDraft
+          description: 快速创建剪映草稿
+        - title: 剪映导出助手
+          logo: github.jpg
+          url: https://github.com/jiaojiaodubai/sort-jianying-draft
+          description: 剪映导出助手
+        - title: autocut
+          logo: https://autocut.video/static/favicon.svg
+          url: https://autocut.video/
+          description: 自动剪辑神器
+        - title: 大拍档剪辑助手
+          logo: https://spdpd.net/favicon.ico
+          url: https://spdpd.net/
+          description: 大拍档剪辑助手
+
     - term: 虚拟直播
       links:
         - title: animaze
@@ -990,13 +1011,186 @@
           url: https://voice.ai
           description: 实时人工智能变声器
         - title: Live Auto Record
-          logo: github.jpg
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715073521725.png
           url: https://github.com/WhiteMinds/LiveAutoRecord
           description: 多平台直播自动录制软件
         - title: kplayer
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715058699901.png
           url: https://docs.kplayer.net
           description: 服务器直播系统
+
+- taxonomy: 媒体运营
+  icon: fas fa-square
+  list:
+    - term: 媒体平台
+      links:
+        - title: Youtube
+          logo: youtube.jpg
+          url: https://www.youtube.com/
+          description: Youtube
+        - title: twitter
+          logo: twitter.com.ico
+          url: https://twitter.com/
+          description: twitter
+        - title: 哔哩哔哩
+          logo: 哔哩哔哩.jpg
+          url: https://www.bilibili.com
+          description: 哔哩哔哩
+        - title: 抖音
+          logo: douyin.ico
+          url: https://www.douyin.com/
+          description: 抖音
+        - title: tiktok
+          logo: tiktok.png
+          url: https://www.tiktok.com/
+          description: tiktok
+        - title: 西瓜视频
+          logo: 西瓜视频.ico
+          url: https://www.ixigua.com/
+          description: 西瓜视频
+        - title: 快手
+          logo: https://static.yximgs.com/udata/pkg/WEB-LIVE/kwai_icon.8f6787d8.ico
+          url: https://www.kuaishou.com/
+          description: 快手
+        - title: 视频号
+          logo: https://res.wx.qq.com/t/wx_fed/finder/helper/finder-helper-web/res/favicon.ico
+          url: https://channels.weixin.qq.com/
+          description: 视频号助手
+        - title: 小红书
+          logo: https://www.xiaohongshu.com/favicon.ico
+          url: https://creator.xiaohongshu.com
+          description: 小红书
+        - title: instagram
+          logo: instagram.jpg
+          url: https://www.instagram.com/
+          description: instagram
+        - title: Discord
+          logo: Discord.png
+          url: https://discord.com
+          description: Discord
+        - title: 微信公众平台
+          logo: 微信公众.ico
+          url: https://mp.weixin.qq.com/
+          description: 微信公众平台
+        - title: 竹白
+          logo: 竹白.png
+          url: https://zhubai.love/
+          description: 竹白
+        - title: 微博
+          logo: 微博.png
+          url: https://weibo.com/
+          description: 微博
+        - title: Pinterest
+          logo: Pinterest.png
+          url: https://www.pinterest.com
+          description: 全球设计创意灵感
+        - title: 视云鹤
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221023/image.15oic54wk68w.png
+          url: http://www.videospread.biz
+          description: 自媒体平台一键发布
+        - title: 蚁小二
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221023/image.6yggp05q86o0.png
+          url: https://cpc.yixiaoer.cn
+          description: 自媒体平台一键发布
+        - title: 网易云音乐创作者中心
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221023/云音乐.2pmhprxylje0.png
+          url: https://music.163.com/st/ncreator
+          description: 网易云音乐创作者中心
+        - title: 推兔
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/NV/image.txiafnpc34w.png
+          url: https://www.tuitool.cn
+          description: 主流自媒体平台多账号登录，多平台视频一键发布，多平台数据综合分析
+        - title: 易媒助手
+          logo: https://17707510.s21i.faiusr.com/2/2/ABUIABACGAAgnp6ZmAYovf-mugMwmAI4rQE.jpg
+          url: https://yimeizhushou.com
+          description: 70+平台多账号管理，文章视频动态30+平台一键发布，支持1000+账号管理，3分钟完成2小时分发工作，更稳定的一站式运营、营销、发布工具
+        - title: 虾果
+          logo: https://17707510.s21i.faiusr.com/4/ABUIABAEGAAgtMOPmwYoweaE5gUwoAE4oAE!100x100.png
+          url: https://ixiaguo.com
+          description: 虾果,私域营销必备神器,支持短链、活码、微信外链、企微客服、短信营销等功能
+
+    - term: 数据运营
+      links:
+        - title: 飞瓜数据
+          logo: https://dy.feigua.cn/favicon.ico
+          url: https://dy.feigua.cn/
+          description: 飞瓜数据-抖音电商与直播大数据分析平台-feigua.cn
+        - title: 新抖
+          logo: https://chs.newrank.cn/favicon/xd/favicon.ico
+          url: https://xd.newrank.cn
+          description: 新抖—短视频及直播数据工具
+        - title: 新红
+          logo: https://chs.newrank.cn/favicon/xh/favicon.ico
+          url: https://xh.newrank.cn
+          description: 小红书数据运营
+        - title: 抖音搜索SEO
+          logo: https://www.dso100.com/new_logo.png
+          url: https://www.dso100.com/
+          description: 抖音搜索SEO
+        - title: 巨量算数
+          logo: https://lf3-static.bytednsdoc.com/obj/eden-cn/kyhgpdeh7nuvanuhd/count/trendinsight.ico
+          url: https://trendinsight.oceanengine.com
+          description: 巨量算数-解析内容风向，解码营销未来
+        - title: 新榜
+          logo: https://chs.newrank.cn/favicon/favicon.ico
+          url: https://newrank.cn/
+          description: 新榜
+        - title: 抖加
+          logo: https://lf-cdn-tos.bytescm.com/obj/static/douplus_official_website/favicon.ico
+          url: https://doujia.douyin.com/
+          description: 抖加
+        - title: 巨量星图
+          logo: https://lf3-star.xingtu.cn/obj/star-fe/favicon.png
+          url: https://www.xingtu.cn/
+          description: 巨量星图
+        - title: 神赞
+          logo: https://www.shenzan.com/oss/favicon.png
+          url: https://www.shenzan.com/
+          description: 提供KOL营销/品牌种草/内容带货/店铺引流/私域获客等多场景营销推广服务
+        - title: 传播易
+          logo: https://www.chuanboyi.com/favicon.ico
+          url: https://www.chuanboyi.com
+          description: 广告投放平台
+        - title: 蝉妈妈
+          logo: https://cdn-static.chanmama.com/sub-module/web/favicon.ico
+          url: https://www.chanmama.com/
+          description: 内容营销与电商增长
+        - title: 店查查
+          logo: https://www.dianchacha.com/favicon.ico
+          url: https://www.dianchacha.com/
+          description: 做电商，就用店查查
+        - title: 穿山甲平台
+          logo: https://sf3-scmcdn-tos.pglstatp-toutiao.com/obj/goofy/ad/pangle/homepage/assets/favicon.ico
+          url: https://www.csjplatform.com/
+          description: 开放全矩阵商业化资源，帮助各类App获得商业成长
+        - title: 热浪数据
+          logo: https://static-img.relangdata.cn/relang/favicon.ico
+          url: https://www.relangdata.cn/
+          description: 全链路社交数据分析平台
+        - title: 灰豚数据
+          logo: https://dy.huitun.com/icon/favicon.ico
+          url: https://dy.huitun.com/
+          description: 短视频热门视频商品及直播数据分析平台
+        - title: 西瓜数据
+          logo: https://data.xiguaji.com/Content/images/favicon.ico?v=1
+          url: https://data.xiguaji.com/
+          description: 新媒体广告投放及品牌营销服务
+        - title: 友望数据
+          logo: https://www.youwant.cn/favicon.ico
+          url: https://www.youwant.cn/
+          description: 视频号数据分析平台
+        - title: kalodata
+          logo: https://d4ewq8axz3ayo.cloudfront.net/global/favicon.png
+          url: https://www.kalodata.com/zh
+          description: 全球用户首选的TikTok电商数据洞察平台
+        - title: fastmoss
+          logo: https://www.fastmoss.com/favicon.svg
+          url: https://www.fastmoss.com/zh/dashboard
+          description: TikTok数据分析平台
+        - title: pinterest广告投放
+          logo: https://s.pinimg.com/webapp/favicon_48x48-7470a30d.png
+          url: https://ads.pinterest.com/
+          description: pinterest广告投放
 
 - taxonomy: 影视片场
   icon: far fas fa-tape
@@ -1691,10 +1885,6 @@
           logo: yongshuo.png
           url: http://miaofoolfish.ysepan.com
           description: MIDI音乐
-        - title: 吞食天地重装机兵资源站
-          logo: yongshuo.png
-          url: http://tstdzzjb.ysepan.com
-          description: FC街机游戏收藏
         - title: 我爱云的落花窗台
           logo: yongshuo.png
           url: http://way1539.ysepan.com
@@ -1888,10 +2078,6 @@
           logo: lanzou.png
           url: https://lanzoui.com/u/rjk
           description: APK
-        - title: 软件合集
-          logo: lanzou.png
-          url: https://www.lanzoui.com/b098unlvi
-          description: APK
         - title: 嗨分享软件合集
           logo: lanzou.png
           url: https://www.lanzoui.com/u/%E6%8B%BD%E6%8B%BD
@@ -1899,14 +2085,6 @@
         - title: 小轩VIP软件合集
           logo: lanzou.png
           url: https://www.lanzoui.com/b76826
-          description: APK
-        - title: 软件合集
-          logo: lanzou.png
-          url: https://www.lanzoui.com/b098unlvi
-          description: APK
-        - title: 晓张软件大全破解合集
-          logo: lanzou.png
-          url: https://www.lanzoui.com/b368370
           description: APK
         - title: 『BhVip』软件更新合集
           logo: lanzou.png
@@ -2011,22 +2189,10 @@
         
     - term: 自建云盘站
       links:
-        - title: 4s云盘
-          logo: file.ssss.fun.ico
-          url: https://file.ssss.fun
-          description: 挂载的微软盘
         - title: 从零开始动漫分享站
           logo: 天翼云.jpg
           url: https://m.cloud.189.cn/u/330783715
           description: 需要登录天翼云
-        - title: 电影收集合集
-          logo: 天翼云.jpg
-          url: https://cloud.189.cn/web/share?code=u6zaIvZRrEB3
-          description: 天翼云盘
-        - title: 爱好论坛自建网盘
-          logo: 天翼云.jpg
-          url: http://pan.aihao.cc
-          description: 各类软件汇总
         - title: 七米蓝的仓库
           logo: OneDrive.png
           url: https://om.chirmyram.com
@@ -2039,7 +2205,7 @@
           logo: OneDrive.png
           url: https://cloud.revincx.icu
           description: OneDrive
-        - title: Noise文件库
+        - title: Noise资源库
           logo: 漫4.jpg
           url: https://www.noiseyp.top
           description: OneDrive盘
@@ -7248,6 +7414,10 @@
           logo: https://m.jsrank.cn/favicon.ico
           url: https://m.jsrank.cn/
           description: 今日热点热搜排行榜
+        - title: csdn热榜
+          logo: https://g.csdnimg.cn/static/logo/favicon32.ico
+          url: https://blog.csdn.net/rank/list
+          description: csdn热点热搜排行榜
     - term: APP精选
       links:
         - title: CommandPost
@@ -7307,7 +7477,7 @@
           url: https://thorn.red/
           description: 一站式个人写作与建站服务：创作、发布、让知识蓬勃生长
         - title: Swiftcord
-          logo: https://swiftcordapp.github.io/favicon.svg
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/swiftcord_new_icon.png
           url: https://swiftcordapp.github.io/Swiftcord/
           description: Swift 内置的适用于 macOS 的原生 Discord 客户端
         - title: corkmac
@@ -7534,3 +7704,7 @@
           logo: 100font.ico
           url: https://www.100font.com/
           description: 100font.com创建于2019年，是一个主要靠爱发电的免费商用字体收集整理网站，致力于让所有人都有免费商用字体使用、让所有人都能正确使用免费商用字体、让所有优秀的公益字体都能得到更有价值地传播，坚持做企业、设计师都爱用的免费商用字体下载网站
+        - title: 36氪创投平台
+          logo: https://pitchhub.36kr.com/favicon.ico
+          url: https://pitchhub.36kr.com/
+          description: 36氪创投平台
