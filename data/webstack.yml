@@ -26,30 +26,6 @@
       logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20230801/1122r.420m6b1mgl40.jpg
       url: https://www.noisevip.cn
       description: NOISE宝藏阁
-    - title: 本站备用1
-      logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/n1.jpeg
-      url: https://noisedaohang.netlify.app
-      description: 本站备用访问地址
-    - title: 本站备用2
-      logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/n2.jpeg
-      url: https://daohang-c5k.pages.dev
-      description: 本站备用访问地址
-    - title: 本站备用3
-      logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/n3.jpeg
-      url: https://www.n1.noisedh.cn
-      description: 本站备用访问地址
-    - title: 本站备用4
-      logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/n4.jpeg
-      url: https://www.n2.noisedh.cn
-      description: 本站备用访问地址
-    - title: 本站备用5
-      logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/n5.jpeg
-      url: https://n3.noisedh.cn
-      description: 本站备用访问地址
-    - title: 本站备用6
-      logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/n6.jpeg
-      url: https://noisedh.vercel.app
-      description: 本站备用访问地址
     - title: 今日热榜
       logo: 今日热榜.jpg
       url: https://tophub.today
@@ -673,6 +649,10 @@
 
     - term: 音乐世界
       links:
+        - title: Nsf小站
+          logo: nsf.ico
+          url: http://nsf.nesbbs.com
+          description: 8Bit音乐站
         - title: igoutu
           logo: igoutu.png
           url: https://igoutu.cn/music
@@ -4316,8 +4296,18 @@
           logo: 播客.png
           url: https://www.ximalaya.com/keji/50656645
           description: EmacsTalk 是一档专注在 Emacs 社区的程序员闲聊节目	和程序员闲聊
-        
-
+        - title: 一起听播客
+          logo: 37sl6mdxtc00.png
+          url: https://fm.lemonsjtu.cn
+          description: 创建房间邀请好友一起实时在线听播客
+        - title: 思奥FM
+          logo: 思奥FM.png
+          url: https://sao.fm
+          description: 专门为忙碌的年轻人量身打造的轻量型音频及电台收听平台，内容包括全球主流电台流媒体以及各种风格流派的音乐电台播放收听服务，让用户在使用过程中，找到朋友般陪伴的感觉，用不一样的方式与这个世界沟通。
+        - title: pod.link
+          logo: pod.link.png
+          url: https://pod.link
+          description: 播客搜索引擎
 
 - taxonomy: 独立开发
   icon: fas fa-code fa-lg
@@ -6610,6 +6600,18 @@
           logo: https://weekly.linuxcat.top/upload/496.webp
           url: https://weekly.linuxcat.top
           description: Linux周刊，记录Linux最新资讯，每周天发布
+        - title: 技术周刊精选推荐
+          logo: https://img.fre123.com/i/2023/11/25/65619e791f166.ico
+          url: https://www.fre123.com/weekly/
+          description: 技术周刊精选推荐 - fre123 免费资源共享平台
+        - title: 简答
+          logo: 简答.png
+          url: https://www.jianda.com/zh
+          description: 一个实验性的周刊系统
+        - title: pod.link
+          logo: zb.png
+          url: https://zb.liey.cn
+          description: 竹白专栏收录检索
     - term: 公众号
       links:
         - title: 前端食堂技术周刊
@@ -6947,7 +6949,52 @@
           logo: https://naturobot-faq.oss-cn-shanghai.aliyuncs.com/images/logo_l.png
           url: https://ziranai.cn
           description: 自然机器人作为新一代的AutoPaaS自动化产品，致力于帮助企业和个人提高数字化的效率和灵活性，并轻松实现自动化。通过实施基于云的网页设计，自然机器人允许用户随时随地打开网页，并通过简单的拖放操作轻松构建流程。它还支持将基于界面和API的软件同时自动化在一个业务流程中，同时还具备方便和即用型私有部署的能力
-    - term: 探索发现
+- taxonomy: 探索发现
+  icon: fas fa-compass
+  list:   
+    - term: 热榜资讯
+      links:
+        - title: 慧语简报
+          logo: 慧简报.jpg
+          url: https://news.topurl.cn
+          description: 慧语简报，每日更新新资讯
+        - title: 365实时热榜
+          logo: 365热榜.png
+          url: https://hot.primo.wiki
+          description: 365实时热榜
+        - title: 杂志天下
+          logo: 杂志.6sfn96v3k4k0.png
+          url: http://www.fuyoutech.club
+          description: 杂志期刊在线阅读
+        - title: 中文播客榜
+          logo: 播客榜.png
+          url: https://xyzrank.com
+          description: 中文播客榜
+        - title: 今日热搜
+          logo: https://s.webfollow.cc/logo.svg
+          url: https://s.webfollow.cc/
+          description: 今日热搜提供各站各类别热搜信息聚合：知乎、V2EX、微博、贴吧、豆瓣、网易、虎扑、机核、Github、抖音...追踪全网热点、高效快捷更便利。
+        - title: Mu-快乐每一天
+          logo: https://mu.memosa.cn/favicon.png
+          url: https://mu.memosa.cn
+          description: Mu-快乐每一天
+        - title: 今日热榜
+          logo: 今日热榜.jpg
+          url: https://tophub.today
+          description: 提供各站热榜聚合：微信、今日头条、知乎...追踪全网热点、简单高效阅读
+        - title: rebang
+          logo: https://rebang.today/favicon.ico
+          url: https://rebang.today
+          description: 提供各站热榜聚合
+        - title: 热搜引擎
+          logo: https://weibo.zhaoyizhe.com/favicon.ico
+          url: https://weibo.zhaoyizhe.com/
+          description: 全平台热搜历史记录
+        - title: 即时热榜
+          logo: https://m.jsrank.cn/favicon.ico
+          url: https://m.jsrank.cn/
+          description: 今日热点热搜排行榜
+    - term: APP精选
       links:
         - title: WinDrop
           logo: AirDrop.png
@@ -6961,10 +7008,194 @@
           logo: emulator.png
           url: https://yuzu-emu.org
           description: 开源Nintendo Switch PC模拟器
-        - title: Nsf小站
-          logo: nsf.ico
-          url: http://nsf.nesbbs.com
-          description: 8Bit音乐站
+        - title: 设计助理
+          logo: https://cdn.dancf.com/sjzl/main.ico
+          url: https://pszhuli.com
+          description: 让你快速出高的PS插件
+        - title: markmark
+          logo: https://storage.googleapis.com/markmark-media/markmark/website_icon.svg
+          url: https://markmark.app/
+          description: 本地化书签管理的最佳选择
+        - title: xpressioncamera
+          logo: https://xpressioncamera.com/assets/images/favicon-32x32.png
+          url: https://xpressioncamera.com/
+          description: 用于视频聊天和直播的实时生成式 AI 应用程序
+        - title: QuickRecorder
+          logo: https://lihaoyun6.github.io/favicon.ico
+          url: https://lihaoyun6.github.io/quickrecorder/
+          description: 多功能、轻量化、高性能的开源 macOS 屏幕录制工具
+        - title: ontime
+          logo: https://www.getontime.no/favicon.ico
+          url: https://www.getontime.no/
+          description: 用于管理纲要和事件计时器的免费开源软件
+        - title: xterminal
+          logo: https://www.xterminal.cn/favicon.png
+          url: https://www.xterminal.cn/
+          description: 不仅是强大的SSH工具，更提供本地控制台，以及更多即将推出的开发相关功能，让您专注于创造卓越的代码
+        - title: memo
+          logo: https://vip2.loli.io/2023/08/12/jtziym7orAeLdKg.png
+          url: https://memo.ac/zh/
+          description: AI赋能转录。音频视频轻松转文字。
+        - title: bilibilidown
+          logo: https://zhouql.vip/bilibili/pc/logo.png
+          url: http://zhouql.vip/bilibili/pc/
+          description: 一款简洁好用的B站视频下载工具
+        - title: 阅然ReadZen
+          logo: https://readzen.app/logo.svg
+          url: https://readzen.app/
+          description: 现代化的中文稍后阅读
+        - title: THORN
+          logo: https://framerusercontent.com/images/WpjuO6yaRncz3wacFeDU4joNR0.png
+          url: https://thorn.red/
+          description: 一站式个人写作与建站服务：创作、发布、让知识蓬勃生长
+        - title: Swiftcord
+          logo: https://swiftcordapp.github.io/favicon.svg
+          url: https://swiftcordapp.github.io/Swiftcord/
+          description: Swift 内置的适用于 macOS 的原生 Discord 客户端
+        - title: corkmac
+          logo: https://corkmac.app/Assets/Images/favicon.png
+          url: https://corkmac.app/
+          description: The Homebrew GUI for macOS
+        - title: explorertabs
+          logo: https://explorertabs.com/wp-content/uploads/2021/05/white-logo.png
+          url: https://explorertabs.com/
+          description: 资源管理器标签页可为您的 Windows 资源管理器启用 Chrome 标签页的强大功能
+        - title: spacedrive
+          logo: https://www.spacedrive.com/favicon.ico
+          url: https://www.spacedrive.com
+          description: 将所有设备和云中的文件统一到一个易于使用的资源管理器中。专为创作者、囤积者和痛苦的杂乱无章的人设计
+        - title: flameshot
+          logo: https://flameshot.org/favicon-32x32.png
+          url: https://flameshot.org/
+          description: 功能强大且易于使用的开源屏幕截图软件
+        - title: beat
+          logo: https://www.beat-app.fi/wp-content/uploads/2023/09/cropped-Beat-iOS-167x167-1-32x32.png
+          url: https://www.beat-app.fi/
+          description: 适用于 macOS 和 iOS 的优雅编剧应用程序 - 免费和开源！
+        - title: realesrgan
+          logo: https://gcore.jsdelivr.net/gh/TransparentLC/transparentlc.github.io/img/favicon.png
+          url: https://akarin.dev/realesrgan-gui/
+          description: 实用、美观的AI 图片放大工具
+        - title: freechat
+          logo: https://www.freechat.run/favicon.ico
+          url: https://www.freechat.run/
+          description: 本地、安全、开源的 macOS AI 聊天
+        - title: Applite
+          logo: github.jpg
+          url: https://github.com/milanvarady/Applite
+          description: 完全免费开源的homebrew (https://brew.sh/) GUI客户端
+        - title: kotatsu
+          logo: https://kotatsu.app/favicon.ico?v=2
+          url: https://kotatsu.app/
+          description: Kotatsu漫画阅读器
+        - title: airclap
+          logo: https://airclap.app/public/favicon.ico
+          url: https://airclap.app
+          description: 将任何文件发送到任何设备在 Mac、iOS、Windows 和 同一本地网络中的 Android 设备
+        - title: MDVideo
+          logo: https://www.wvovw.com/logo.png
+          url: https://www.wvovw.com/
+          description: 将Markdown文档快速转为视频的编辑器
+        - title: BuhoNTFS
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/787y.png
+          url: https://www.drbuho.com/zh-tw/buhontfs
+          description: NTFS for Mac 應用程式
+        - title: Sidekick
+          logo: https://www.meetsidekick.com/wp-content/uploads/2021/12/cropped-Frame-8505-32x32.png
+          url: https://www.meetsidekick.com/
+          description: Sidekick 是唯一专为工作而设计的浏览器。将您使用的所有 Web 工具汇集在一起。停止标签杂乱。下载快速、私密且安全的浏览器
+        - title: 易有云
+          logo: https://www.linkease.com/logoYi.ico
+          url: https://www.linkease.com/
+          description: 手机相册备份，电脑数据同步，统一管理所有设备数据
+        - title: pot
+          logo: https://pot-app.com/favicon.ico
+          url: https://pot-app.com/
+          description: 跨平台划词翻译和OCR软件
+        - title: myservers
+          logo: https://myservers.codeloverme.cn/img/newMyServer1024.png
+          url: https://myservers.codeloverme.cn/
+          description: 一个App监控管理您所有的服务器和应用。
+        - title: imageoptim
+          logo: https://imageoptim.com/icon.png
+          url: https://imageoptim.com
+          description: 快速压缩图像
+        - title: Whisper自动字幕
+          logo: https://whisperautocaptions.com/website-icon.png
+          url: https://whisperautocaptions.com/
+          description: 用于 Final Cut Pro 的超快速和准确的 AI 字幕生成
+    - term: 产品发现
+      links:
+        - title: 开发者简报
+          logo: xxx.5t33hxqi3h00.png
+          url: https://dev.com.cn/
+          description: 每周为你轻简读技术创业、酷产品、编程语言、开发工具、DevOps…等内容
+        - title: 创造者日报
+          logo: 创造者日报.png
+          url: https://creatorsdaily.com
+          description: 发现创意和产品
+        - title: 发现产品
+          logo: xxx.1rud2nj2icow.png
+          url: https://fxcp.info
+          description: 收集一些有意思的创意和产品
+        - title: v1tx
+          logo: v1tx.png
+          url: https://www.v1tx.com
+          description: 发现实用工具和软件
+        - title: Solo 独立开发者社区
+          logo: https://solo.xin/favicon.ico
+          url: https://solo.xin
+          description: 在这里和众多独立开发者们一起分享最新动态、推动产品落地及运营和市场化。你能在这里找到资源和灵感，完成第一桶金的收入。
+        - title: fuun.fun
+          logo: fuun.ico
+          url: https://fuun.fun
+          description: 奇趣网站收藏家
+        - title: Altapps
+          logo: app.net.png
+          url: https://zh.altapps.net/
+          description: 帮助您找到软件和应用程序的更好替代品
+        - title: 码力全开
+          logo: 码力全开.png
+          url: https://design.maliquankai.com
+          description: 汇集产品、设计、独立开发者的高质量资源站
+        - title: 神器集
+          logo: logosc.ico
+          url: https://hao.logosc.cn
+          description: 神器集是一个互联网工具收集与分享网站，这里收集了最新最酷的互联网产品和创意工具网站，你一定能发现能带给你灵感的工具
+        - title: 一网一匠
+          logo: https://www.ywyj.cn/favicon.ico
+          url: https://www.ywyj.cn
+          description: 一网一匠极速版一起发现有趣的新产品
+        - title: openalternative
+          logo: https://openalternative.co/favicon.png
+          url: https://openalternative.co
+          description: 流行软件的开源替代品
+        - title: top.tools
+          logo: https://top.tools/favicon-32x32.png
+          url: https://top.tools
+          description: AI产品发现
+        - title: poweredbyai
+          logo: https://poweredbyai.app/favicon.ico
+          url: https://poweredbyai.app
+          description: 流行AI产品发现
+        - title: 独开出海
+          logo: https://chuhai.tools/favicon.ico
+          url: https://chuhai.tools
+          description: 独立开发者出海技术栈和工具集合
+        - title: topaibase
+          logo: https://top.aibase.com/favicon.ico
+          url: https://top.aibase.com
+          description: 流行AI产品发现
+        - title: PartnerShare
+          logo: https://www.partnershare.cn/partnershare.ico
+          url: https://www.partnershare.cn/
+          description: PartnerShare产品分享社区是一个为SAAS软件/APP/网站用户提供最新产品资讯、交流沟通的平台。10,000+家服务商正在通过PartnerShare展示产品，并获得潜在客户。
+        - title: Product Hunt
+          logo: https://ph-static.imgix.net/ph-ios-icon.png?auto=format,compress
+          url: https://www.producthunt.com
+          description: Product Hunt——每天最好的新产品
+    - term: 更多探索
+      links:
         - title: Emoji Favicon
           logo: smiley.png
           url: https://favicon.magnobiet.com
@@ -6985,10 +7216,6 @@
           logo: LOGO生产.png
           url: https://creecros.github.io/simple_logo_gen
           description: 非常简单的logo图标制作工具，开源：https://github.com/creecros/simple_logo_gen
-        - title: Altapps
-          logo: app.net.png
-          url: https://zh.altapps.net/
-          description: 帮助您找到软件和应用程序的更好替代品
         - title: 无涯教程网
           logo: 无涯.png 
           url: https://www.learnfk.com
@@ -6997,46 +7224,14 @@
           logo: znvzi33k5og.png
           url: https://www.hellocjc.com
           description: 虚幻4免费教程站
-        - title: 中文播客榜
-          logo: 播客榜.png
-          url: https://xyzrank.com
-          description: 中文播客榜
         - title: 像素画分享站
           logo: 像素分享.png
           url: https://hello.eboy.com
           description: 像素画分享站
-        - title: 慧语简报
-          logo: 慧简报.jpg
-          url: https://news.topurl.cn
-          description: 慧语简报，每日更新新资讯
-        - title: 365实时热榜
-          logo: 365热榜.png
-          url: https://hot.primo.wiki
-          description: 365实时热榜
-        - title: 一起听播客
-          logo: 37sl6mdxtc00.png
-          url: https://fm.lemonsjtu.cn
-          description: 创建房间邀请好友一起实时在线听播客
         - title: 大疆无人机在线飞行
           logo: d9dbbvkdjhk.png
           url: https://start.dji.com
           description: 大疆无人机在线飞行模拟器
-        - title: 开发者简报
-          logo: xxx.5t33hxqi3h00.png
-          url: https://dev.com.cn/
-          description: 每周为你轻简读技术创业、酷产品、编程语言、开发工具、DevOps…等内容
-        - title: 创造者日报
-          logo: 创造者日报.png
-          url: https://creatorsdaily.com
-          description: 发现创意和产品
-        - title: 发现产品
-          logo: xxx.1rud2nj2icow.png
-          url: https://fxcp.info
-          description: 收集一些有意思的创意和产品
-        - title: 杂志天下
-          logo: 杂志.6sfn96v3k4k0.png
-          url: http://www.fuyoutech.club
-          description: 杂志期刊在线阅读
         - title: 匿名墙
           logo: shu.caihnmz7i0g.png
           url: https://www.nm1.cn
@@ -7053,14 +7248,6 @@
           logo: o2b4p.png
           url: https://www.ooopn.com/tool/zlibrary
           description: 电子书库Zhelper可用网址列表
-        - title: 码力全开
-          logo: 码力全开.png
-          url: https://design.maliquankai.com
-          description: 汇集产品、设计、独立开发者的高质量资源站
-        - title: 思奥FM
-          logo: 思奥FM.png
-          url: https://sao.fm
-          description: 专门为忙碌的年轻人量身打造的轻量型音频及电台收听平台，内容包括全球主流电台流媒体以及各种风格流派的音乐电台播放收听服务，让用户在使用过程中，找到朋友般陪伴的感觉，用不一样的方式与这个世界沟通。
         - title: uiset
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221020/uiset.73k3kfq8fyw0.png
           url: https://uiset.com
@@ -7073,10 +7260,6 @@
           logo: gglink.ico
           url: https://www.ooopn.com/tool/gglink/
           description: Google谷歌搜索镜像
-        - title: v1tx
-          logo: v1tx.png
-          url: https://www.v1tx.com
-          description: 发现实用工具和软件
         - title: pixilart
           logo: pixilart.ico
           url: https://www.pixilart.com
@@ -7085,35 +7268,11 @@
           logo: 全历史.ico
           url: https://www.allhistory.com
           description: get历史知识
-        - title: 神器集
-          logo: logosc.ico
-          url: https://hao.logosc.cn
-          description: 神器集是一个互联网工具收集与分享网站，这里收集了最新最酷的互联网产品和创意工具网站，你一定能发现能带给你灵感的工具
         - title: 克苏鲁公社
           logo: 克苏鲁公社.png
           url: https://www.cthulhuclub.com
           description: 整理收录关于克苏鲁
-        - title: fuun.fun
-          logo: fuun.ico
-          url: https://fuun.fun
-          description: 奇趣网站收藏家
-        - title: 简答
-          logo: 简答.png
-          url: https://www.jianda.com/zh
-          description: 一个实验性的周刊系统
-        - title: pod.link
-          logo: pod.link.png
-          url: https://pod.link
-          description: 播客搜索引擎
-        - title: pod.link
-          logo: zb.png
-          url: https://zb.liey.cn
-          description: 竹白专栏收录检索
         - title: 100font
           logo: 100font.ico
           url: https://www.100font.com/
           description: 100font.com创建于2019年，是一个主要靠爱发电的免费商用字体收集整理网站，致力于让所有人都有免费商用字体使用、让所有人都能正确使用免费商用字体、让所有优秀的公益字体都能得到更有价值地传播，坚持做企业、设计师都爱用的免费商用字体下载网站
-        - title: Solo 独立开发者社区
-          logo: https://solo.xin/favicon.ico
-          url: https://solo.xin
-          description: 在这里和众多独立开发者们一起分享最新动态、推动产品落地及运营和市场化。你能在这里找到资源和灵感，完成第一桶金的收入。

@@ -35,6 +35,14 @@
       url: "https://noisedaohang.netlify.app"
     - name: 🎁备用2
       url: "https://daohang-c5k.pages.dev"
+    - name: 🎁备用3
+      url: "http://www.n1.noisedh.cn"
+    - name: 🎁备用4
+      url: "https://n2.noisedh.cn"
+    - name: 🎁备用5
+      url: "https://n3.noisedh.cn"
+    - name: 🎁备用6
+      url: "https://noisedh.vercel.app"
     - name: 📑旧版
       url: "./jiuban/"
     - name: 🚗博客版
