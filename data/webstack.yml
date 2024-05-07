@@ -40,7 +40,7 @@
       description: 本站备用访问地址
     - title: 本站备用4
       logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/n4.jpeg
-      url: https://www.n2.noisedh.cn
+      url: https://n2.noisedh.cn
       description: 本站备用访问地址
     - title: 本站备用5
       logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/n5.jpeg
@@ -1386,25 +1386,9 @@
           logo: yongshuo.png
           url: http://z007.ysepan.com
           description: 综合网址书签库
-        - title: 一见如故储物室
-          logo: yongshuo.png
-          url: http://yyds007.ysepan.com
-          description: 很强的综合资源书签库
-        - title: 大好人资源铺
-          logo: yongshuo.png
-          url: http://babe.ysepan.com
-          description: 综合网址书签库
         - title: 记忆力博客站
           logo: yongshuo.png
           url: http://qq351605872.ysepan.com
-          description: 综合资源站
-        - title: 油麦同学的藏宝阁
-          logo: yongshuo.png
-          url: http://cangbaoge.ysepan.com
-          description: 综合类网址书签
-        - title: 效率视界的空间站
-          logo: yongshuo.png
-          url: http://xiaolv.ysepan.com
           description: 综合资源站
         - title: 可可西里的杂货铺
           logo: yongshuo.png
@@ -1462,10 +1446,6 @@
           logo: yongshuo.png
           url: http://xuexinxs.ysepan.com
           description: 网址书签库
-        - title: 彬彬同学
-          logo: yongshuo.png
-          url: http://abinpan.ysepan.com
-          description: 网址书签库
         - title: 利爪典藏资源分享
           logo: yongshuo.png
           url: http://lizhua.ysepan.com
@@ -1474,42 +1454,14 @@
           logo: yongshuo.png
           url: http://youngqc.ysepan.com
           description: 网址书签库
-        - title: 阡陌的储物间
-          logo: yongshuo.png
-          url: http://tig198.ysepan.com
-          description: 网址书签库
         - title: sakura
           logo: yongshuo.png
           url: http://sakura.ysepan.com
           description: 网址书签综合资源站
-        - title: 真不错资源网
-          logo: yongshuo.png
-          url: http://fendoudeniu.ysepan.com
-          description: 网址书签库
         - title: 仙҈流҈
           logo: yongshuo.png
           url: http://xianliu.ysepan.com
           description: 综合类书签站
-        - title: 猫
-          logo: yongshuo.png
-          url: http://hushuojinpeng.ysepan.com
-          description: 少量的网址书签
-        - title: 个人储存空间站
-          logo: yongshuo.png
-          url: http://982585608.ysepan.com
-          description: 网址书签综合资源站
-        - title: zuliang
-          logo: yongshuo.png
-          url: http://zuliang.ysepan.com
-          description: 网址书签库
-        - title: bo文的储物间
-          logo: yongshuo.png
-          url: http://bowenkongjian.ysepan.com
-          description: 网址书签库    
-        - title: 量子孤岛杂货店
-          logo: yongshuo.png
-          url: http://quantumisland.ysepan.com
-          description: 网址书签库     
         - title: 文武科技柜
           logo: yongshuo.png
           url: http://itxh.ysepan.com
@@ -1529,7 +1481,7 @@
         - title: bileizhen的收纳箱
           logo: yongshuo.png
           url: http://bileizhen.ysepan.com
-          description: 只录最优质的网站！        
+          description: 网址书签库    
     - term: 永硕·软件文件类
       links:
         - title: 一些软件文件
@@ -1695,14 +1647,6 @@
           logo: yongshuo.png
           url: http://uiuiui.ysepan.com
           description: 影视导航书签
-        - title: 57号影社
-          logo: yongshuo.png
-          url: http://57tv.ysepan.com
-          description: 影视网站书签汇总
-        - title: 15935916112com
-          logo: yongshuo.png
-          url: 15935916112com.ysepan.com
-          description: FC-HACK游戏
         - title: Forever的单机游戏空间	
           logo: yongshuo.png
           url: http://foreve.ysepan.com
@@ -1798,14 +1742,6 @@
 
     - term: 永硕·科考类
       links:
-        - title: gongkao6688
-          logo: yongshuo.png
-          url: http://gongkao6688.edudisk.cn
-          description: 国考省考
-        - title: 学习分享菌
-          logo: yongshuo.png
-          url: http://mxhg678.ysepan.com
-          description: 初中高中网课资源
         - title: 考博论坛库
           logo: yongshuo.png
           url: http://freekaobo.ysepan.com
@@ -2264,7 +2200,7 @@
           description: pan.qlam
         - title: 宝哥网盘
           logo: yundown.jpg
-          url: hhttps://pan.baoge.vip/
+          url: https://pan.baoge.vip
           description: 宝哥网盘
         
     - term: 云盘搜索
@@ -4653,10 +4589,6 @@
           logo: 36解析.ico
           url: http://www.36jxs.com
           description: 36解析式工具箱是一个功能强大的在线查询工具网站，为用户提供了各种实用的查询与计算工具等。不论您是需要查询汉语字典、笔顺、组词、造句、成语、近义词、反义词、英文单词、缩写、谜语等，还是需要进身份照归属地、机场三字码查询、世界港口查询等操作，36解析式工具箱都能满足您的需求
-        - title: kedou视频解析
-          logo: https://www.kedou.life/favicon.ico
-          url: https://www.kedou.life/
-          description: 一款支持海量视频网站解析下载工具，致力于为您提供优质的视频解析服务
     - term: API平台
       links:
         - title: 搏天api
@@ -5537,6 +5469,32 @@
           logo: Keploy.png
           url: https://www.keploy.io/
           description: Keploy 是一个开源的基于 AI 的测试生成平台，可创建测试用例和数据模拟/存根，在 90 分钟内实现 2% 的代码覆盖率。把它想象成用于测试的ChatGPT
+    - term: AI·数字人
+      links: 
+        - title: dreamtalk
+          logo: github.jpg
+          url: https://dreamtalk-project.github.io/
+          description: AI生成数字人像视频
+        - title: VirtualWife
+          logo: github.jpg
+          url: https://github.com/yakami129/VirtualWife
+          description: 你可以像朋友一样和她相识，作者希望虚拟数字人融入人类生活，作为恋爱导师，心理咨询师，解决人类的情感需求
+        - title: NextHuman
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715066032139.png
+          url: https://nexthuman.cn/wiki/home
+          description: 消费级3D超写实数字人创作与应用引擎
+        - title: D-ID Studio
+          logo: https://studio.d-id.com/favicon/apple-icon-57x57.png
+          url: https://studio.d-id.com/
+          description: 仅使用带有AI驱动的文本或音频的静止图像创建专业视频。
+        - title: neiro ai
+          logo: https://neiro.ai/assets/favicon-CzvEMlcM.ico
+          url: https://neiro.ai/
+          description: 无需任何编码技能即可利用生成式 AI。140+种语言，10+种声音，无限可能。
+        - title: kreadoai
+          logo: https://www.kreadoai.com/favicon.png
+          url: https://www.kreadoai.com/
+          description: AIGC数字营销创作平台
     - term: AI·知识库
       links: 
         - title: ChatDOC
@@ -5739,6 +5697,10 @@
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221117/xxx.4td97in3vnc0.jpg
           url: https://co.wukko.me
           description: 支持Twitter、YouTube、TikTok、douyin等
+        - title: kedou视频解析
+          logo: https://www.kedou.life/favicon.ico
+          url: https://www.kedou.life/
+          description: 一款支持海量视频网站解析下载工具，致力于为您提供优质的视频解析服务
 
     - term: 下载MAC
       links:
@@ -6795,7 +6757,7 @@
           url: https://tg.i-c-a.su
           description: TG频道转换RSS
         - title: RSS翻译器
-          logo: https://rsstranslator.com/assets/logo.svg
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/lo2go.png
           url: https://rsstranslator.com/
           description: 开源、简洁、可自部署RSS翻译
         - title: Tops
@@ -6838,13 +6800,273 @@
           logo: https://www.tidyread.info/favicon.svg
           url: https://www.tidyread.info/zh-CN
           description: Tidyread 支持管理和计划你的日常阅读，并通过 AI 摘要、整洁的简报使你获得更现代的阅读体验
-
+        - title: lightfeed
+          logo: https://www.lightfeed.app/static/site/favicon.ico
+          url: https://www.lightfeed.app
+          description: 使用 LLM 过滤和总结来自任何公共网站的新闻。每天自动化。在浏览器或电子邮件中查看
+    - term: RSS源精选
+      links:
+        - title: 已转换的外文源合集
+          logo: rssy.png
+          url: https://rcy1314.github.io/Rss-Translation/
+          description: 已转换的精选外文源
+        - title: geekerline
+          logo: rssy.png
+          url: https://geekerline.com/feed
+          description: 发现好物，分享资源，推荐精品
+        - title: 独立开发者社区
+          logo: rssy.png
+          url: https://solo.xin/rss.xml
+          description: Solo 独立开发者社区
+        - title: 知乎每日精选
+          logo: rssy.png
+          url: https://www.zhihu.com/rss
+          description: 知乎每日精选
+        - title: V2EX分享创造
+          logo: rssy.png
+          url: https://www.v2ex.com/feed/create.xml
+          description: V2EX分享创造
+        - title: 与AI有关
+          logo: rssy.png
+          url: https://zacfire.github.io/newpodcastforAI/rss/filtered_podcast_rss.xml
+          description: 与AI有关
+        - title: smianao
+          logo: rssy.png
+          url: https://www.smianao.com/feed
+          description: smianao
+        - title: Funletu发现好物
+          logo: rssy.png
+          url: https://funletu.com/feed
+          description: Funletu发现好物
+        - title: 奇客Solidot
+          logo: rssy.png
+          url: https://www.solidot.org/index.rss
+          description: 奇客Solidot–传递最新科技情报
+        - title: 虎嗅网
+          logo: rssy.png
+          url: https://rss.huxiu.com/
+          description: 虎嗅网
+        - title: 摄影世界
+          logo: rssy.png
+          url: https://feedx.net/rss/photoworld.xml
+          description: 摄影世界
+        - title: 老司机iOS周报
+          logo: rssy.png
+          url: https://github.com/SwiftOldDriver/iOS-Weekly/releases.atom
+          description: 老司机iOS周报
+        - title: 猫鱼周刊
+          logo: rssy.png
+          url: https://ameow.xyz/feed/categories/weekly.xml
+          description: 猫鱼周刊
+        - title: 湖畔里
+          logo: rssy.png
+          url: https://hupan.li/feed
+          description: 湖畔里
+        - title: 酷 壳
+          logo: rssy.png
+          url: http://coolshell.cn/feed
+          description: 酷壳CoolShell
+        - title: 爱范儿
+          logo: rssy.png
+          url: https://www.ifanr.com/feed
+          description: 爱范儿
+        - title: 编程随想的博客
+          logo: rssy.png
+          url: https://feeds2.feedburner.com/programthink
+          description: 编程随想的博客
+        - title: 《联合早报》-国际-即时
+          logo: rssy.png
+          url: https://plink.anyfeeder.com/zaobao/realtime/world
+          description: 《联合早报》-国际-即时
+        - title: 知乎日报
+          logo: rssy.png
+          url: https://rsshub.app/zhihu/daily
+          description: 知乎日报
+        - title: 小众软件
+          logo: rssy.png
+          url: http://feed.appinn.com/
+          description: 小众软件
+        - title: 极客公园
+          logo: rssy.png
+          url: http://www.geekpark.net/rss
+          description: 极客公园
+        - title: 构建我的被动收入
+          logo: rssy.png
+          url: https://www.bmpi.dev/index.xml
+          description: 构建我的被动收入
+        - title: 掘金 前端
+          logo: rssy.png
+          url: https://rsshub.app/juejin/category/frontend
+          description: 掘金 前端
+        - title: 酷安-新鲜图文
+          logo: rssy.png
+          url: https://rsshub.app/coolapk/tuwen-xinxian
+          description: 酷安-新鲜图文
+        - title: 异次元软件世界
+          logo: rssy.png
+          url: http://feed.iplaysoft.com
+          description: 异次元软件世界
+        - title: HelloGitHub 月刊
+          logo: rssy.png
+          url: http://hellogithub.com/rss
+          description: HelloGitHub 月刊
+        - title: 潮流周刊
+          logo: rssy.png
+          url: https://weekly.tw93.fun/rss.xml
+          description: 潮流周刊
+        - title: 少数派Matrix
+          logo: rssy.png
+          url: https://plink.anyfeeder.com/ssapi/matrix
+          description: 少数派Matrix
+        - title: 青年文摘
+          logo: rssy.png
+          url: https://plink.anyfeeder.com/weixin/qnwzwx
+          description: 青年文摘
+        - title: 好奇心日报
+          logo: rssy.png
+          url: http://www.qdaily.com/feed.xml
+          description: 好奇心日报
+        - title: 二丫讲梵
+          logo: rssy.png
+          url: https://wiki.eryajf.net/rss.xml
+          description: 二丫讲梵
+        - title: 码农周刊
+          logo: rssy.png
+          url: https://rsshub.app/manong-weekly
+          description: 码农周刊
+        - title: 人民日报
+          logo: rssy.png
+          url: https://plink.anyfeeder.com/people-daily
+          description: 人民日报
+        - title: 第一财经周刊
+          logo: rssy.png
+          url: https://plink.anyfeeder.com/weixin/CBNweekly2008
+          description: 第一财经周刊
+        - title: 搬砖小组
+          logo: rssy.png
+          url: https://plink.anyfeeder.com/weixin/banzhuanxiaozu
+          description: 搬砖小组
+        - title: Vista看天下
+          logo: rssy.png
+          url: https://plink.anyfeeder.com/weixin/vistaweek
+          description: Vista看天下
+        
+    - term: RSS阅读
+      links:
+        - title: rss.cafe
+          logo: https://feedx.net/wp-content/uploads/2018/03/logo-150x150.png
+          url: https://rss.cafe
+          description: 提供RSS订阅服务，帮助用户订阅感兴趣的信息
+        - title: rssfeedasap
+          logo: https://rssfeedasap.com/favicon.ico
+          url: https://rssfeedasap.com/
+          description: 从 iTunes、Google 播客、Spotify、Youtube、博客等中提取 RSS 提要
+        - title: sinan.fun
+          logo: https://sinan.fun/favicon.ico
+          url: https://sinan.fun/rss
+          description: 寻找你感兴趣的内容
+        - title: Feed Reader
+          logo: github.jpg
+          url: https://github.com/bubelov/news
+          description: 适用于 Android 的 Feed 阅读器和播客播放器
+        - title: Ego-Reader
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/ebfb4.png
+          url: https://egorss.com/zh/
+          description: 极简优美的RSS阅读器
+        - title: Cruise
+          logo: github.jpg
+          url: https://github.com/jiangxiaoqiang/cruise-open
+          description: 一款简洁的RSS(Really Simple Syndication)阅读器
+        - title: yarr
+          logo: github.jpg
+          url: https://github.com/nkanaev/yarr
+          description: Yarr（另一个 RSS 阅读器）是一个基于 Web 的提要聚合器，可以同时使用 作为桌面应用程序和个人自承载服务器。
+        - title: irreader
+          logo: https://fate2.oss-cn-shanghai.aliyuncs.com/kong/kong_favicon.png
+          url: https://fatecore.com/p/irreader/
+          description: 阅读力+999 again
+        - title: VSCode-RSS
+          logo: https://marketplace.visualstudio.com/favicon.ico
+          url: https://marketplace.visualstudio.com/items?itemName=luyuhuang.rss
+          description: VSCode-RSS
+        - title: dinorss
+          logo: https://dinorss.org/img/logo.svg
+          url: https://dinorss.org/
+          description: 一个简单、高效、开源的 RSS 阅读器服务。
+        - title: inoreader
+          logo: https://www.inoreader.com/icon.svg
+          url: https://www.inoreader.com/
+          description: 使用 Inoreader，内容在可用的那一刻就会出现在您面前。关注网站、社交媒体提要、播客、博客和时事通讯。在一个地方享受对你来说重要的东西。
+        - title: selfoss
+          logo: https://selfoss.aditu.de/favicon.ico
+          url: https://selfoss.aditu.de/
+          description: Selfoss 基于 Web 的开源 RSS 阅读器和多源混搭聚合器
+        - title: Reeder5
+          logo: https://reederapp.com/favicon.ico
+          url: https://reederapp.com/
+          description: 高效、简洁的 RSS 阅读器服务。
+        - title: Fluent Reader
+          logo: https://hyliu.me/favicon.ico
+          url: https://hyliu.me/fluent-reader/
+          description: 简洁的 RSS 阅读器服务。
+        - title: 蚁阅
+          logo: https://rss.anyant.com/favicon.ico?v=2020042001
+          url: https://rss.anyant.com/register
+          description: 让RSS更好用，轻松订阅你喜欢的博客和资讯
+        - title: readflow
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715068115578.png
+          url: https://accounts.readflow.app/
+          description: readflow轻松订阅你喜欢的博客和资讯
+        - title: freshrss
+          logo: https://freshrss.org/favicon.ico
+          url: https://freshrss.org/
+          description: freshrss开源 RSS 阅读器和多源混搭聚合器
+        - title: Tiny RSS
+          logo: https://tt-rss.org/images/icon_classic_72.png
+          url: https://tt-rss.org/
+          description: Tiny RSS 是一个免费的开源基于 Web 的新闻源 （RSS/Atom） 阅读器 和聚合器
+        - title: readdig
+          logo: https://www.readdig.com/favicons/favicon-32x32.png
+          url: https://www.readdig.com
+          description: 轻松订阅你喜欢的博客和资讯
+        - title: 有更新
+          logo: https://yougeng.xin/favicon.ico
+          url: https://yougeng.xin
+          description: 有更新轻松订阅你喜欢的博客和资讯
+        - title: Lettura
+          logo: github.jpg
+          url: https://zhanglun.github.io/lettura/
+          description: Lettura 是适用于 macOS 和 Windows 的免费开源提要阅读器。闪电般的性能满足强大的用户需求 经验
+        - title: avandy-news
+          logo: https://avandy-news.ru/assets/images/news.png
+          url: https://avandy-news.ru/
+          description: 一个来自俄罗斯开发者开发的新闻分析器和RSS聚合器，可以强大地过滤不必要的信息，并一键按关键字搜索世界上任何语言的头条新闻
+        - title: Qireader
+          logo: https://www.qireader.com/favicon.ico
+          url: https://www.qireader.com/
+          description: 优雅的在线 RSS 阅读器
+        - title: Taberu
+          logo: github.jpg
+          url: https://github.com/Mnpn/Taberu
+          description: 适用于MAC菜单栏的rss阅读器
+        - title: SnipRSS
+          logo: https://sniprss.com/static/img/fav.png
+          url: https://sniprss.com/
+          description: SnipRSS将任何网页中的内容剪辑到自己的 RSS 提要中，以便您可以共享它或使用它们来为您的时事通讯提供支持
+        - title: 深蓝阅读
+          logo: https://bluereader.org/favicon.ico
+          url: https://bluereader.org
+          description: 可订阅RSS或任意网站链接等
     - term: 极客自动化
       links:
         - title: Github action
           logo: github.jpg
           url: https://docs.github.com/zh/actions
           description: 在 GitHub Actions 的仓库中自动化、自定义和执行软件开发工作流程
+        - title: Automate
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715062223549.png
+          url: https://automate.io/app/
+          description: automate自动化集成开源平台
         - title: ifttt
           logo: ifttt.ico
           url: https://ifttt.com
@@ -6865,10 +7087,6 @@
           logo: activepieces.png
           url: https://cloud.activepieces.com/sign-up?referral=UvhYQVNxIY6mgRfqhgng4
           description: activepieces是一个强大的自动化平台，拥有和N8N一样出色的流程功能
-        - title: CommandPost
-          logo: CommandPost.png
-          url: https://commandpost.io
-          description: FCPX必备工具，自动化集成推送通知
         - title: mintlify
           logo: mintlify.ico
           url: https://www.mintlify.com
@@ -7032,6 +7250,10 @@
           description: 今日热点热搜排行榜
     - term: APP精选
       links:
+        - title: CommandPost
+          logo: CommandPost.png
+          url: https://commandpost.io
+          description: FCPX必备工具，自动化集成推送通知
         - title: WinDrop
           logo: AirDrop.png
           url: https://github.com/q1006608006/windrop/releases/tag/v1.0.1
@@ -7105,7 +7327,7 @@
           url: https://flameshot.org/
           description: 功能强大且易于使用的开源屏幕截图软件
         - title: beat
-          logo: https://www.beat-app.fi/wp-content/uploads/2023/09/cropped-Beat-iOS-167x167-1-32x32.png
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/cropped.png
           url: https://www.beat-app.fi/
           description: 适用于 macOS 和 iOS 的优雅编剧应用程序 - 免费和开源！
         - title: realesrgan
