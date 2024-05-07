@@ -521,6 +521,74 @@
           logo: https://assets.soutushenqi.com/common/mktp_logo.ico
           url: https://miankoutupian.com
           description: 免抠图片网，透明素材
+
+    - term: 图片设计
+      links:
+        - title: coverview
+          logo: https://coverview.vercel.app/./logo.png
+          url: https://coverview.vercel.app
+          description: 封面制作好帮手，国内请科学访问
+        - title: Tweetlet
+          logo: https://tweetlet.net/favicon.ico
+          url: https://tweetlet.net
+          description: 创造漂亮推文、文本、代码图像
+        - title: picprose
+          logo: https://www.picprose.net/favicon/favicon-32x32.png
+          url: https://www.picprose.net/
+          description: 封面制作美化
+        - title: ray.so
+          logo: https://ray.so/favicon.png
+          url: https://ray.so
+          description: 创造漂亮的代码图像
+        - title: pika
+          logo: https://pika.style/icons/favicon.ico
+          url: https://pika.style
+          description: 快速截图美化
+        - title: showcode
+          logo: https://showcode.app/favicon.ico
+          url: https://showcode.app
+          description: 创建漂亮的代码图像，可以导入导出保存工程
+        - title: shots.so
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/my-photo@master/20230516/noiseimage.792b2ace7fc0.png
+          url: https://shots.so
+          description: 最受欢迎的截图美化，很多博主推主喜欢用的
+        - title: deviceshots
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/my-photo@master/20230516/noiseimage.65tqqk61pk40.png
+          url: https://deviceshots.com/app
+          description: 强大的截图美化套壳程序，可以添加文字到画布
+        - title: deviceshots
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/my-photo@master/20230516/noiseimage.2juqe9vy7n20.jpg
+          url: https://app.jellylade.com
+          description: 一个截图美化套壳程序，非常精美
+        - title: 讯排设计
+          logo: https://design.palxp.cn/favicon.svg
+          url: https://design.palxp.cn/
+          description: 一个漂亮且功能强大的在线海报图片设计器
+        - title: picyard
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715088710502.png
+          url: https://www.picyard.in
+          description: 提供截图套壳，推文图设计，youtube截图等
+        - title: ushare
+          logo: https://www.ushare.fun/favicon.ico
+          url: https://www.ushare.fun
+          description: 创造漂亮的代码图像
+        - title: 即时设计
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715089118853.png
+          url: https://js.design/
+          description: 可云端编辑的专业级 UI 设计工具
+        - title: Canva可画
+          logo: Canva.ico
+          url: https://www.canva.cn/
+          description: Canva可画专业设计
+        - title: 搞定设计
+          logo: https://cdn.dancf.com/fe-assets/20230811/logo/favicon@w64.ico
+          url: https://www.gaoding.com/
+          description: 轻松制作海报
+        - title: 图怪兽
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715089468754.png
+          url: https://818ps.com/
+          description: 在线作图神器
+
     - term: 无版权视频
       links:
         - title: Pixabay
