@@ -861,7 +861,7 @@
           url: https://ixiaguo.com
           description: 虾果,私域营销必备神器,支持短链、活码、微信外链、企微客服、短信营销等功能
 
-    - term: AI云剪辑
+    - term: 云剪辑
       links:
         - title: 闪剪
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221023/闪剪.3rci9x94b100.png
@@ -989,6 +989,14 @@
           logo: voice.ai.ico
           url: https://voice.ai
           description: 实时人工智能变声器
+        - title: Live Auto Record
+          logo: github.jpg
+          url: https://github.com/WhiteMinds/LiveAutoRecord
+          description: 多平台直播自动录制软件
+        - title: kplayer
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715058699901.png
+          url: https://docs.kplayer.net
+          description: 服务器直播系统
 
 - taxonomy: 影视片场
   icon: far fas fa-tape
@@ -5380,6 +5388,10 @@
           logo: https://www.morphic.sh/favicon.ico
           url: https://www.morphic.sh/
           description: 一个完全开源的人工智能驱动的答案引擎，具有生成式用户界面。
+        - title: 开搜AI
+          logo: https://img.kaisouai.com/img/browserLogo.png
+          url: https://kaisouai.com
+          description: 一款面向大众的、直达答案的、AI专业语义搜索引擎。AI搜索工具，具有精准甄别、快速直达、即搜即得、智选推荐核心功能（精准甄别丨快速直达丨即搜即得丨智选推荐）
     - term: AI·写作
       links: 
         - title: Effidit
