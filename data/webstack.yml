@@ -873,6 +873,26 @@
           logo: 全网音乐.ico
           url: https://music.txqq.pro/
           description: 全网音乐免费下载工具
+        - title: lofi音乐
+          logo: https://lofillama.com/favicon.8b189d32.png
+          url: https://lofillama.com/
+          description: lofi音乐
+        - title: 程序员音乐
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715249194115.png
+          url: https://musicforprogramming.net/
+          description: 程序员音乐
+        - title: 蒸汽波音乐
+          logo: https://plaza.one/icons/favicon.ico?v=2208042
+          url: https://plaza.one/
+          description: 蒸汽波音乐
+        - title: 二进制音乐
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715249477185.png
+          url: https://binarypiano.com/
+          description: 二进制音乐
+        - title: lofi白噪音
+          logo: https://lofi.co/favicon-32x32.png?v=5bf6df1fd331ee02fda8a5c9a7af634f
+          url: https://lofi.co/
+          description: lofi白噪音
 
     - term: 抖音工具箱
       links:
@@ -1136,6 +1156,10 @@
           logo: Discord.png
           url: https://discord.com
           description: Discord
+        - title: 网易云音乐创作者中心
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221023/云音乐.2pmhprxylje0.png
+          url: https://music.163.com/st/ncreator
+          description: 网易云音乐创作者中心
         - title: 微信公众平台
           logo: 微信公众.ico
           url: https://mp.weixin.qq.com/
@@ -1152,6 +1176,9 @@
           logo: Pinterest.png
           url: https://www.pinterest.com
           description: 全球设计创意灵感
+
+    - term: 运营工具
+      links:
         - title: 视云鹤
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221023/image.15oic54wk68w.png
           url: http://www.videospread.biz
@@ -1160,10 +1187,6 @@
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221023/image.6yggp05q86o0.png
           url: https://cpc.yixiaoer.cn
           description: 自媒体平台一键发布
-        - title: 网易云音乐创作者中心
-          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221023/云音乐.2pmhprxylje0.png
-          url: https://music.163.com/st/ncreator
-          description: 网易云音乐创作者中心
         - title: 推兔
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/NV/image.txiafnpc34w.png
           url: https://www.tuitool.cn
@@ -1176,6 +1199,10 @@
           logo: https://17707510.s21i.faiusr.com/4/ABUIABAEGAAgtMOPmwYoweaE5gUwoAE4oAE!100x100.png
           url: https://ixiaguo.com
           description: 虾果,私域营销必备神器,支持短链、活码、微信外链、企微客服、短信营销等功能
+        - title: 新榜小豆芽
+          logo: https://d.newrank.cn/favicon.ico
+          url: https://d.newrank.cn/
+          description: 跨平台多账号内容运营工具
 
     - term: 数据运营
       links:
@@ -2436,6 +2463,10 @@
           logo: yundown.jpg
           url: https://pan.baoge.vip
           description: 宝哥网盘
+        - title: crrashh
+          logo: https://i.cdn.crrashh.com/avatar.jpg
+          url: https://disk.crrashh.com/
+          description: crrashh
         
     - term: 云盘搜索
       links:
@@ -4153,6 +4184,10 @@
           logo: https://playgames8.com/theme/images/logo16.png
           url: https://playgames8.com
           description: 免费在线游戏
+        - title: 低端游戏
+          logo: https://ddyx.me/favicon.ico
+          url: https://ddyx.me/
+          description: 在线PC经典游戏站
 
     - term: 博客人生·构建
       links:
@@ -6836,10 +6871,6 @@
           logo: https://img.fre123.com/i/2023/11/25/65619e791f166.ico
           url: https://www.fre123.com/weekly/
           description: 技术周刊精选推荐 - fre123 免费资源共享平台
-        - title: 简答
-          logo: 简答.png
-          url: https://www.jianda.com/zh
-          description: 一个实验性的周刊系统
         - title: pod.link
           logo: zb.png
           url: https://zb.liey.cn
@@ -7417,10 +7448,10 @@
           logo: pabbly.png
           url: https://connect.pabbly.com
           description: 表单创建、电子邮件营销、计费、自动化
-        - title: NAS媒体库资源归集
-          logo: github.jpg
-          url: https://github.com/jxxghp/nas-tools
-          description: NAS媒体库资源归集、整理自动化
+        - title: buildship
+          logo: https://framerusercontent.com/images/b51Z2Y1mVJl1y1zVjfJM7Ykw8O0.png
+          url: https://buildship.com
+          description: 以AI为基础的低代码可视化方式构建应用的后端工作流、API、计划作业、云功能。结合了无代码和代码的优点。
         - title: cyclr
           logo: cyclr.png
           url: https://cyclr.com
@@ -7486,6 +7517,10 @@
           logo: https://g.csdnimg.cn/static/logo/favicon32.ico
           url: https://blog.csdn.net/rank/list
           description: csdn热点热搜排行榜
+        - title: 浑水阅读
+          logo: https://www.hsmy.fun/favicon/favicon-48x48.png
+          url: https://www.hsmy.fun/
+          description: 浑水阅读
     - term: APP精选
       links:
         - title: CommandPost
@@ -7690,6 +7725,130 @@
           logo: https://ph-static.imgix.net/ph-ios-icon.png?auto=format,compress
           url: https://www.producthunt.com
           description: Product Hunt——每天最好的新产品
+
+    - term: 摸鱼趣站
+      links:
+        - title: 时间胶囊
+          logo: https://p.timepill.net/favicon.ico
+          url: https://p.timepill.net/
+          description: 时间胶囊
+        - title: Emoji短网址
+          logo: https://e.mezw.com/content/images/icon_rayps_64.png
+          url: https://e.mezw.com/
+          description: Emoji短网址
+        - title: 颜文字屋
+          logo: https://kaomojiya.com/favicon.ico
+          url: https://kaomojiya.com/
+          description: 颜文字屋
+        - title: 天空有多高
+          logo: https://www.secaibi.com/tools/wp-content/themes/Paradise/images/favicon.ico
+          url: https://www.secaibi.com/howbigisspace/
+          description: 天空有多高
+        - title: 纸飞机折叠教程
+          logo: https://www.foldnfly.com/favicon.ico
+          url: https://www.foldnfly.com/
+          description: 纸飞机折叠教程
+        - title: 全世界随机明信片
+          logo: https://static1.postcrossing.com/favicon.ico
+          url: https://www.postcrossing.com/
+          description: 全世界随机明信片
+        - title: 深海
+          logo: https://neal.fun/favicons/home.png
+          url: https://neal.fun/deep-sea/
+          description: 深海
+        - title: 海洋的声音
+          logo: https://virtocean.b-cdn.net/images/fav/favicon-32x32.png
+          url: https://virtocean.com/
+          description: 海洋的声音
+        - title: 航空事故数据库
+          logo: https://www.planecrashinfo.com/favicon.ico
+          url: https://www.planecrashinfo.com/database.htm
+          description: 航空事故数据库
+        - title: 空难中最后的话
+          logo: https://www.planecrashinfo.com/favicon.ico
+          url: https://www.planecrashinfo.com/lastwords.htm
+          description: 空难中最后的话
+        - title: 80年代TV
+          logo: https://www.my80stv.com/img/apple-touch-icon.png
+          url: https://www.my80stv.com/
+          description: 80年代TV
+        - title: 传统颜色手册
+          logo: https://colors.ichuantong.cn/favicon-32x32.png
+          url: https://colors.ichuantong.cn/
+          description: 传统颜色手册
+        - title: 假装是黑客
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715247420062.png
+          url: https://geektyper.com/
+          description: 假装是黑客
+        - title: 你好污啊
+          logo: https://www.nihaowua.com/favicon.ico
+          url: https://www.nihaowua.com/
+          description: 你好污啊
+        - title: 假装在升级
+          logo: https://fakeupdate.net/favicon.gif
+          url: https://fakeupdate.net/
+          description: 假装在升级
+        - title: 信任的进化
+          logo: https://dccxi.com/favicon-32x32.png
+          url: https://dccxi.com/trust/
+          description: 信任的进化
+        - title: bongo猫
+          logo: https://bongo.cat/meta/favicon-32x32.png
+          url: https://bongo.cat/
+          description: bongo猫
+        - title: 贝塞尔练习
+          logo: https://bezier.method.ac/favicon.ico
+          url: https://bezier.method.ac/
+          description: 贝塞尔练习
+        - title: 哄哄模拟器
+          logo: https://hong.greatdk.com/favicon.ico
+          url: https://hong.greatdk.com/
+          description: 哄哄模拟器基于AI技术，你需要使用语言技巧和沟通能力，在限定次数内让对方原谅你，这并不容易
+        - title: 这是有毒的吗
+          logo: https://iitt.chester.how/favicon-32x32.png
+          url: https://iitt.chester.how/
+          description: 这是有毒的吗
+        - title: 最高的建筑物
+          logo: https://www.ctbuh.org/favicon.ico
+          url: https://www.ctbuh.org/
+          description: 最高的建筑物
+        - title: 视觉欺骗
+          logo: https://michaelbach.de/assets/images/favicon.ico
+          url: https://michaelbach.de/ot/
+          description: 视觉欺骗
+        - title: 图寻
+          logo: https://s.chao-fan.com/tuxun/favicon.ico
+          url: https://tuxun.fun/
+          description: 探索世界，找到你
+        - title: 因特网历史博物馆
+          logo: https://neal.fun/favicons/home.png
+          url: https://neal.fun/internet-artifacts/million-dollar/
+          description: 因特网历史博物馆
+        - title: AI小镇
+          logo: https://www.convex.dev/favicon.ico
+          url: https://www.convex.dev/ai-town
+          description: AI生成人物互动
+        - title: 恐龙数据库
+          logo: https://dinosaurpictures.org/favicon.ico
+          url: https://dinosaurpictures.org/
+          description: 恐龙数据库
+        - title: 播客小镇
+          logo: https://podtown.xyz/favicon-32x32.png
+          url: https://podtown.xyz/
+          description: 播客小镇
+        - title: 今天长这样
+          logo: https://today.demochen.com/favicon.ico
+          url: https://today.demochen.com/
+          description: 来自全国网友的天空拍摄
+        - title: 二选一
+          logo: https://eitherchoice.com/icon.png?28b2e602ac313948
+          url: https://eitherchoice.com/
+          description: 二选一问AI
+        - title: 指尖上
+          logo: https://www.zhijianshang.com/favicon.ico
+          url: https://www.zhijianshang.com/
+          description: 全球全景360VR
+        
     - term: 更多探索
       links:
         - title: Emoji Favicon
