@@ -5542,6 +5542,10 @@
           logo: https://s7.music.126.net/6369f9ec78c25c1818ccfc08/img/favicon_021f7155.ico
           url: https://tianyin.music.163.com
           description: 网易天音是一款网易云推出的一站式AI音乐创作工具，带有AI一键编曲、DEMO、歌词创作且支持创建多音乐风格的程序。
+        - title: Rap Generator
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/fweravicon.png
+          url: https://rapgenerator.net/
+          description: 一个AI Rap生成网站，可以免费生成 Rap 歌词，根据歌词生成 Rap 歌曲，也可以免费下载和收听Rap音乐
 
     - term: AI·搜索
       links: 
