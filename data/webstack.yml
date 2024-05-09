@@ -3563,6 +3563,10 @@
           logo: JerryChen.png
           url: https://www.ijerrychen.com
           description: 丰富的vue、java、html笔记
+        - title: 无涯教程网
+          logo: 无涯.png 
+          url: https://www.learnfk.com
+          description: 无涯教程网提供程序员在线零基础学IT编程技术教程。包括Javascript、MySQL、PHP、Python、Java、HTML5、Go语言等入门基础教程
         - title: awesome-bookmarks
           logo: awesome.png
           url: https://panjiachen.github.io/awesome-bookmarks/repository/#%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8
@@ -3994,7 +3998,7 @@
       links:
         - title: switch520
           logo: switch520.png
-          url: https://xxxxx525.com
+          url: https://www.520switch.com
           description: 全球游戏免费下载
         - title: Epic游戏|周免
           logo: www.epicgames.com.ico
@@ -7729,6 +7733,10 @@
           logo: https://ph-static.imgix.net/ph-ios-icon.png?auto=format,compress
           url: https://www.producthunt.com
           description: Product Hunt——每天最好的新产品
+        - title: mergeek
+          logo: mergeek.png
+          url: https://mergeek.com
+          description: 科技产品爱好者社区，限免APP情报
 
     - term: 摸鱼趣站
       links:
@@ -7875,14 +7883,6 @@
           logo: LOGO生产.png
           url: https://creecros.github.io/simple_logo_gen
           description: 非常简单的logo图标制作工具，开源：https://github.com/creecros/simple_logo_gen
-        - title: 无涯教程网
-          logo: 无涯.png 
-          url: https://www.learnfk.com
-          description: 无涯教程网提供程序员在线零基础学IT编程技术教程。包括Javascript、MySQL、PHP、Python、Java、HTML5、Go语言等入门基础教程
-        - title: hellocjc
-          logo: znvzi33k5og.png
-          url: https://www.hellocjc.com
-          description: 虚幻4免费教程站
         - title: 像素画分享站
           logo: 像素分享.png
           url: https://hello.eboy.com
@@ -7911,10 +7911,6 @@
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221020/uiset.73k3kfq8fyw0.png
           url: https://uiset.com
           description: 一个收录收集插图、图标、表情、图案等资源的网站
-        - title: mergeek
-          logo: mergeek.png
-          url: https://mergeek.com
-          description: 科技产品爱好者社区，限免APP情报
         - title: Google谷歌搜索镜像
           logo: gglink.ico
           url: https://www.ooopn.com/tool/gglink/
