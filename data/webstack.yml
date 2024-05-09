@@ -1759,10 +1759,6 @@
           logo: yongshuo.png
           url: http://yxxang.ysepan.com
           description: 网址书签库 
-        - title: 阿虚储物间
-          logo: yongshuo.png
-          url: https://axutongxue.com
-          description: 简单的网址书签
         - title: 是个阿叔杂货铺
           logo: yongshuo.png
           url: http://thislinda.ysepan.com
@@ -3350,10 +3346,6 @@
           logo: explore.ico
           url: https://mubu.com/explore
           description: 知识分享交流
-        - title: 品品品
-          logo: www.pinmuch.com.ico
-          url: http://www.pinmuch.com
-          description: 电子书类论坛
         - title: 医学论坛网		
           logo: www.cmt.com.cn.ico
           url: http://www.cmt.com.cn
@@ -3366,10 +3358,6 @@
           logo: www.qkoufu.com.ico
           url: http://www.qkoufu.com
           description: 问答社区
-        - title: 百步塔		
-          logo: www.baibuta.com.ico
-          url: https://www.baibuta.com
-          description: 考试类资源社区
         - title: 答疑啦
           logo: www.dayila.net.ico
           url: https://www.dayila.net
@@ -3378,14 +3366,6 @@
           logo: bbs.kaoyan.com.ico
           url: http://bbs.kaoyan.com
           description: 考研为主
-        - title: 溜达TXT电子书论坛
-          logo: www.ldtxt.net.ico
-          url: https://www.ldtxt.net
-          description: TXT电子书论坛
-        - title: 爱快考论坛
-          logo: aikuaikao.com.ico
-          url: http://aikuaikao.com
-          description: 考试学习资料
         - title: 医学资料吧
           logo: www.yxzlb.com.ico
           url: https://www.yxzlb.com
@@ -3396,7 +3376,7 @@
           description: 英语听力论坛
         - title: FREE考研论坛
           logo: bbs.freekaoyan.com.ico
-          url: http://bbs.freekaoyan.com
+          url: http://bbs.freekaoyan.com/forum.php
           description: 考研论坛
         - title: 学法网论坛
           logo: bbs.xuefa.com.ico
