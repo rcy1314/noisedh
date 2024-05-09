@@ -1769,10 +1769,6 @@
           description: 网址书签库    
     - term: 永硕·软件文件类
       links:
-        - title: 一些软件文件
-          logo: yongshuo.png
-          url: http://shenlong123.ysepan.com
-          description: 一些软件文件
         - title: win维护工具集
           logo: yongshuo.png
           url: http://laiyuanys.ysepan.com
@@ -1781,18 +1777,10 @@
           logo: yongshuo.png
           url: http://yuzhuyi.ysepan.com
           description: 电子书文献
-        - title: 青春的秘密基地
-          logo: yongshuo.png
-          url: http://qcsuper.ysepan.com
-          description: 软件资源收录
         - title: Burger Studio 的空间
           logo: yongshuo.png
           url: http://burger.ysepan.com
           description: 系统软件类
-        - title: 小张分享的空间站
-          logo: yongshuo.png
-          url: http://xiaozhangfx.ysepan.com
-          description: 网址软件综合资源站
         - title: 鱼果天晴的资源库
           logo: yongshuo.png
           url: http://ygtq.ysepan.com
@@ -1805,10 +1793,6 @@
           logo: yongshuo.png
           url: http://a1111.ysepan.com
           description: 安卓TVapk
-        - title: 油麦同学的藏宝阁
-          logo: yongshuo.png
-          url: http://cangbaoge.ysepan.com
-          description: 网址软件综合资源站
         - title: 周哥的K1官方网盘
           logo: yongshuo.png
           url: http://kteam.ysepan.com
@@ -1833,10 +1817,6 @@
           logo: yongshuo.png
           url: http://ltbb.ysepan.com
           description: 软件备用书签
-        - title: 舒颜
-          logo: yongshuo.png
-          url: http://mr123.ysepan.com
-          description: 软件综合书签
         - title: 电脑绿色精品软件库
           logo: yongshuo.png
           url: http://ruchun.ysepan.com
@@ -1853,10 +1833,6 @@
           logo: yongshuo.png
           url: http://866286.ysepan.com
           description: 网咖电竞维护工具收集
-        - title: 旷世奇才电子书
-          logo: yongshuo.png
-          url: http://apkbook.ysepan.com
-          description: 安卓APK电子书
         - title: 哆啦A梦的神奇口袋
           logo: yongshuo.png
           url: http://baozangku.ysepan.com
@@ -1905,18 +1881,10 @@
           logo: yongshuo.png
           url: http://qq676712213.ysepan.com
           description: 各种淘宝抖音电商软件收录
-        - title: 蓝天云研究所
-          logo: yongshuo.png
-          url: http://maorenjie147.ysepan.com
-          description: 病毒样本
         - title: 渊龙Sec安全团队公开网盘1
           logo: yongshuo.png
           url: http://ymlz2.ysepan.com
           description: 安全 渗透类软件
-        - title: 黑猫装饰软件
-          logo: yongshuo.png
-          url: http://ten-cent.ysepan.com
-          description: 黑猫软件服务
 
     - term: 永硕·游戏娱乐类
       links:
@@ -2384,9 +2352,10 @@
           logo: yundown.jpg
           url: https://alist.advanced360.top
           description: alist云盘
-        - title: qyide
+        - title: 轻易の网盘
           logo: yundown.jpg
           url: https://alist.qyide.com/
+          description: alist云盘
         - title: 酷小呵网盘
           logo: yundown.jpg
           url: https://pan.kuhehe.top/
@@ -3112,10 +3081,6 @@
           logo: alifree.net.ico
           url: https://alifree.net
           description: 阿里云网盘资源分享论坛
-        - title: 90云盘网论坛
-          logo: 90yp.com.ico
-          url: http://90yp.com
-          description: 网盘综合类类资源论坛
         - title: 112网盘社区
           logo: www.112pan.com.ico
           url: http://www.112pan.com
@@ -3140,18 +3105,6 @@
           logo: wpfx8.com.ico
           url: https://www.wpfx8.com
           description: 网盘资源论坛
-        - title: 网盘世界吧
-          logo: www.wpsj8.com.ico
-          url: http://www.wpsj8.com
-          description: 网盘综合类类资源论坛
-        - title: 星期八
-          logo: www.xinqi8888.com.ico
-          url: https://www.xinqi8888.com
-          description: 一些资源论坛
-        - title: 视界论坛
-          logo: bbs.outfu.com.ico
-          url: https://bbs.outfu.com
-          description: 阿里云资源
         - title: 好家当
           logo: https://www.hjdang.com/icons/favicon-32x32.png
           url: https://www.hjdang.com
@@ -3496,10 +3449,6 @@
           logo: bbs.pku.edu.cn.ico
           url: https://bbs.pku.edu.cn
           description: 北京大学校园论坛
-        - title: 有趣网站之家
-          logo: youquhome.com.ico
-          url: https://youquhome.com
-          description: 一个背时鬼的有趣网站
         - title: 人民强国论坛
           logo: bbs1.people.com.cn.ico
           url: http://bbs1.people.com.cn/board/1.html
@@ -7915,3 +7864,7 @@
           logo: https://pitchhub.36kr.com/favicon.ico
           url: https://pitchhub.36kr.com/
           description: 36氪创投平台
+        - title: 有趣网站之家
+          logo: youquhome.com.ico
+          url: https://youquhome.com
+          description: 一个背时鬼的有趣网站
