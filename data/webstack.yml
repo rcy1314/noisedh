@@ -1580,6 +1580,10 @@
           logo: https://hehe.cc/app200.png
           url: https://hehe.cc
           description: 免费高质量在线动漫网站！为动漫爱好者提供无与伦比的追番体验!
+        - title: 咕咕番
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715320172218.png
+          url: https://www.gugufan.com
+          description: 免费高质量在线动漫网站！为动漫爱好者提供无与伦比的追番体验!
 
 
     - term: 直播聚合
@@ -2292,10 +2296,6 @@
           logo: arley.png
           url: https://pan.arley.cn
           description: Arley的私人盘
-        - title: 小江的私人盘
-          logo: xiaojiang.png
-          url: https://mqs.hk
-          description: 小江盘
         - title: Liynw的网盘
           logo: Liynw.ico
           url: https://pan.liynw.top
@@ -4255,10 +4255,10 @@
           logo: blog.scxho.cn.ico
           url: https://blog.scxho.cn
           description: 山川行貉
-        - title: 汀彵の汐
-          logo: izznan.png
-          url: https://www.izznan.cn
-          description: 汀彵の汐
+        - title: 终身学习
+          logo: https://lifelonglearn.ing/static/cactus/images/logo.png?20211213
+          url: https://lifelonglearn.ing/
+          description: 奶爸博客
         - title: 林海草原
           logo: lhcy.org.ico
           url: https://lhcy.org
@@ -4271,10 +4271,10 @@
           logo: dyfa.top.ico
           url: https://dyfa.top
           description: itsNeko博客~
-        - title: YaloisBlog 
-          logo: sky233.jpg
-          url: https://blog.sky233.top
-          description: 探索永无止境
+        - title: Meekdai
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/1715268083772.png
+          url: https://blog.meekdai.com/
+          description: 童话是一种生活态度，仅此而已。
         - title: 归梦の博客
           logo: 归梦.png
           url: https://blog.zengjunyin.com
@@ -4291,10 +4291,10 @@
           logo: blog.zhheo.com.ico
           url: https://blog.zhheo.com
           description: 分享设计与科技生活
-        - title: 忽然笔记
-          logo: blog.huran.xyz.ico
-          url: https://blog.huran.xyz
-          description: 忽然笔记
+        - title: 子舒的博客
+          logo: https://imgurl.zishu.me/favicon.ico
+          url: https://zishu.me/
+          description: 子舒的博客
         - title: Akilarの糖果屋
           logo: akilar.top.ico
           url: https://akilar.top
@@ -4319,10 +4319,10 @@
           logo: www.flydean.com.ico
           url: http://www.flydean.com
           description: 程序那些事
-        - title: zhanghe.cool
-          logo: zhanghe.cool.ico
-          url: https://zhanghe.cool
-          description: zhanghe.cool
+        - title: Guangzheng Li
+          logo: https://guangzhengli.com/images/avatar.ico
+          url: https://guangzhengli.com
+          description:  Guangzheng Li
         - title: 辣椒の酱
           logo: dogzi.fun.ico
           url: https://dogzi.fun
@@ -4363,10 +4363,10 @@
           logo: 小康博客.png
           url: https://www.antmoe.com
           description: 一个收藏回忆与分享技术的地方！
-        - title: WangScaler
-          logo: WangScaler.png
-          url: https://blog.wangscaler.com/
-          description: wangscaler blog
+        - title: 程序员DD
+          logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/uPic/8t8t7.png
+          url: https://www.didispace.com/
+          description: 程序员DD
         - title: 安知鱼
           logo: https://jsd.onmicrosoft.cn/gh/rcy1314/tuchuang@main/20221028/xxx.3uh8ymtn6540.png
           url: https://anzhiy.cn
@@ -5644,6 +5644,10 @@
           logo: https://aijar-www-oss.yyjjtech.com/logo_paper_128.png
           url: https://www.aipaperpass.com/?pic=lLGw
           description: 5分钟3万字，附带ppt，开题报告，40篇真实中英文知网参考文献，查重超过10%退费！
+        - title: 笔尖AI写作
+          logo: https://s21.ax1x.com/2024/04/28/pkiY0Nd.png
+          url: https://www.bijianxiezuo.com/
+          description: 专业写作领域的全能型AI写作助手，简单、易操作，1000+写作模板，小白也能快速上手。
 
     - term: AI·代码
       links: 
