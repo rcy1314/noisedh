@@ -1055,6 +1055,10 @@
           logo: https://spdpd.net/favicon.ico
           url: https://spdpd.net/
           description: 大拍档剪辑助手
+        - title: 视频翻译配音
+          logo: https://pyvideotrans.com/favicon.ico
+          url: https://pyvideotrans.com/
+          description: 一键实现语音识别->字幕翻译->配音 = 带字幕和配音的新视频
 
     - term: 虚拟直播
       links:
@@ -4858,6 +4862,45 @@
           url: https://www.freefish.love/
           description: 一个为用户和开发者提供全面API接口调用服务的平台
 
+    - term: JSD·CDN
+      links:
+        - title: zzko-jsDelivr镜像站
+          logo: jsd.ico
+          url: https://jsd.cdn.zzko.cn/
+          description: 稳定免费有检测是否违规的jsd镜像
+        - title: tianli0-jsDelivr镜像站
+          logo: jsd.ico
+          url: https://cdn1.tianli0.top
+          description: 稳定免费有检测是否违规的jsd镜像
+        - title: 渺软CDN
+          logo: jsd.ico
+          url: https://jsd.onmicrosoft.cn
+          description: 免费有检测是否违规的jsd镜像
+        - title: us-jsDelivr镜像站
+          logo: jsd.ico
+          url: https://cdn.jsdelivr.us
+          description: cdn.jsdelivr.us海外融合Anycast/CDN优化回国
+        - title: b-cdn-jsDelivr镜像站
+          logo: jsd.ico
+          url: https://jsdelivr.b-cdn.net
+          description: jsdelivr.b-cdn.net台湾CDN
+        - title: 荣6的jsDelivr镜像站
+          logo: jsd.ico
+          url: https://jsd.nmmsl.top/
+          description: 荣6的jsDelivr镜像站
+        - title: gcore-jsDelivr镜像站
+          logo: jsd.ico
+          url: https://gcore.jsdelivr.net
+          description: gcore.jsdelivr.net
+        - title: fastly-jsDelivr镜像站
+          logo: jsd.ico
+          url: https://fastly.jsdelivr.net/
+          description: fastly.jsdelivr.net
+        - title: testingcf-jsDelivr镜像站
+          logo: jsd.ico
+          url: https://testingcf.jsdelivr.net
+          description: testingcf.jsdelivr.net
+
     - term: 效率生产力
       links:
         - title: Notion
@@ -5305,6 +5348,10 @@
           logo: https://cdn.mewxai.com/images/static/logo/goenhance-logo-drak-400.png
           url: https://www.goenhance.ai/zh
           description: AI视频转动漫
+        - title: vivago
+          logo: https://vivago.ai/favicon.png
+          url: https://vivago.ai/
+          description: AI视频轻松制作
 
     - term: AI·图设
       links:
@@ -5668,6 +5715,10 @@
           logo: https://s21.ax1x.com/2024/04/28/pkiY0Nd.png
           url: https://www.bijianxiezuo.com/
           description: 专业写作领域的全能型AI写作助手，简单、易操作，1000+写作模板，小白也能快速上手。
+        - title: 梅子Ai论文
+          logo: https://jsd.cdn.zzko.cn/gh/rcy1314/tuchuang@main/uPic/1716258154075.png
+          url: https://www.meizilunwen.com/
+          description: 无限免费生成千字论文大纲-在线快速生成论文初稿-查重率10%左右
 
     - term: AI·代码
       links: 
@@ -6276,6 +6327,10 @@
           logo: appshare.ico
           url: https://appshare.muge.info
           description: 更好用的第三方安卓应用商店
+        - title: apkbot
+          logo: https://apk.bot/favicon.ico
+          url: https://apk.bot
+          description: 一个免费的apk下载站点，无广告版apkpure，设计简洁，下载速度快
 
     - term: 下载·系统
       links:
@@ -7617,8 +7672,8 @@
           url: https://imageoptim.com
           description: 快速压缩图像
         - title: Whisper自动字幕
-          logo: https://whisperautocaptions.com/website-icon.png
-          url: https://whisperautocaptions.com/
+          logo: github.jpg
+          url: https://github.com/shaishaicookie/fcpx-auto-captions?tab=readme-ov-file
           description: 用于 Final Cut Pro 的超快速和准确的 AI 字幕生成
     - term: 产品发现
       links:
