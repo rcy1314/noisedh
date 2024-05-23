@@ -5190,6 +5190,10 @@
           logo: https://story-diffusion.com/favicon.ico
           url: https://story-diffusion.com/
           description: 生成人物模样一致的漫画故事书
+        - title: PikPoet
+          logo: https://www.pikpoet.com/static/favicons/favicon-32x32.png
+          url: https://www.pikpoet.com/
+          description: 探索创意表达的世界，并通过美丽而引人深思的文字表达让您的图片讲述故事。
 
     - term: AI·问答
       links:
@@ -5546,6 +5550,10 @@
           logo: https://jsd.cdn.zzko.cn/gh/rcy1314/tuchuang@main/uPic/fweravicon.png
           url: https://rapgenerator.net/
           description: 一个AI Rap生成网站，可以免费生成 Rap 歌词，根据歌词生成 Rap 歌曲，也可以免费下载和收听Rap音乐
+        - title: Sunoify | AI Music
+          logo: https://www.sunoify.com/static/favicons/favicon-32x32.png
+          url: https://www.sunoify.com/
+          description: 将您的想法、情感、图片和网站转化为迷人的歌曲，使用Sunoify，您的个人AI音乐家。
 
     - term: AI·搜索
       links: 
