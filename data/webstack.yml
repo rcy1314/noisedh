@@ -3755,6 +3755,10 @@
           logo: notion.png
           url: https://xiaohuge.icu
           description: 个人博客，Notion模版、教程等资源分享，高质量软件分享
+        - title: 洋同学的宏观笔记
+          logo: notion.png
+          url: https://ocmacro.com
+          description: 洋同学的宏观笔记
         
     - term: 电子书库
       links:
