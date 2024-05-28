@@ -2531,6 +2531,10 @@
           logo: https://so.yuneu.com/static/logo.svg
           url: https://so.yuneu.com/
           description: 云盘搜索站
+        - title: NOISE盘云搜
+          logo: 夸克云盘.png
+          url: https://pan.noisework.cn
+          description: NOISE盘云搜
         
     - term: 云盘存储
       links:
@@ -7963,3 +7967,7 @@
           logo: youquhome.com.ico
           url: https://youquhome.com
           description: 一个背时鬼的有趣网站
+        - title: iKaomoji
+          logo: https://ikaomoji.com/favicon.ico
+          url: https://ikaomoji.com
+          description: 这是一个专门的网站，提供具有多种变体的表情符号列表和易于使用的复制功能。 找到可爱、快乐、哭泣、惊喜等贴近您感受的表情符号
