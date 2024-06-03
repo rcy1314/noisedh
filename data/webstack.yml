@@ -4892,10 +4892,6 @@
           logo: jsd.ico
           url: https://jsdelivr.b-cdn.net
           description: jsdelivr.b-cdn.net台湾CDN
-        - title: 荣6的jsDelivr镜像站
-          logo: jsd.ico
-          url: https://jsd.nmmsl.top/
-          description: 荣6的jsDelivr镜像站
         - title: gcore-jsDelivr镜像站
           logo: jsd.ico
           url: https://gcore.jsdelivr.net
@@ -7975,3 +7971,7 @@
           logo: https://ikaomoji.com/favicon.ico
           url: https://ikaomoji.com
           description: 这是一个专门的网站，提供具有多种变体的表情符号列表和易于使用的复制功能。 找到可爱、快乐、哭泣、惊喜等贴近您感受的表情符号
+        - title: 聊斋茶舍
+          logo: https://i0.wp.com/www.liaozhaichatroom.com/wp-content/uploads/2024/04/logo02.webp?fit=32%2C32&ssl=1
+          url: https://www.liaozhaichatroom.com/
+          description: 网站汇集了丰富的志怪故事、修行的道法与法术，以及民间神祇的详细介绍，带您探索古代神秘与智慧。无论您是神话爱好者，还是文化研究者，这里都将为您提供宝贵的知识与灵感
