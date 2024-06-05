@@ -1,4 +1,4 @@
-baseURL = "https://www.noisedh.cn"
+baseURL = "https://www.noisedh.link"
 languageCode = "zh-CN"
 title = "Noise导航 & 收录值得珍藏的网站"
 theme = "WebStack-Hugo"
@@ -13,7 +13,7 @@ publishDir = "docs"
     description   = "Noise导航 & 收录值得珍藏的网站"
     siteurl       = "./"
     about         = "./about"   # 左侧导航栏的"关于导航"页面(./about)
-    repository    = "https://noisedh.cn"
+    repository    = "https://noisedh.link"
     enablePreLoad = false		    		        # 网站完全打开前预加载的动画
     textPreLoad   = "Noise导航 & 收录珍藏的网站"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
     logosPath     = "assets/images/logos"				# 网站每个导航地址logo存放地址
@@ -47,9 +47,9 @@ publishDir = "docs"
     unsafe = true
 
 [params.footer]
-    copyright = '<p> 2019 - {year} | 本站收录值得珍藏的网站，欢迎访问使用</p>©<a href="https://noisedh.cn" target="_blank"><strong>NOISE导航</strong></a> '
+    copyright = '<p> 2019 - {year} | 本站收录值得珍藏的网站，欢迎访问使用</p>©<a href="https://noisedh.link" target="_blank"><strong>NOISE导航</strong></a> '
     busuanzi  = true
 
 [params.waline]
     comment   = false
-    serverURL = 'https://www.noisedh.cn'
+    serverURL = 'https://www.noisedh.link'
