@@ -700,7 +700,7 @@
           url: https://www.vecteezy.com/free-videos
           description: vecteezy.com提供大量免费视频素材和动态图像可供选择
  
-    - term: 创意片库
+    - term: 创意灵感
       links:
         - title: 开眼视频
           logo: www.kaiyanapp.com.ico
@@ -758,6 +758,10 @@
           logo: eagle社区.png
           url: https://community-cn.eagle.cool
           description: 设计师灵感交流地
+        - title: 创艺里巷
+          logo: https://www.owosb.com/wp-content/uploads/2024/06/cropped-IMG_20240604_003327-32x32.png
+          url: https://www.owosb.com
+          description: 创艺里巷设计网站是创意与设计的交汇点，提供灵感分享、作品展示及资源下载，助力设计师和爱好者实现艺术梦想。
 
     - term: 音乐世界
       links:
