@@ -29,27 +29,27 @@
     - title: 本站备用1
       logo: https://cdn1.tianli0.top/gh/rcy1314/tuchuang@main/uPic/n1.jpeg
       url: https://noisedaohang.netlify.app
-      description: 本站备用访问地址
+      description: 本站备用访问地址,托关于netlify，域名：noisedaohang.netlify.app
     - title: 本站备用2
       logo: https://cdn1.tianli0.top/gh/rcy1314/tuchuang@main/uPic/n2.jpeg
       url: https://daohang-c5k.pages.dev
-      description: 本站备用访问地址
+      description: 本站备用访问地址，托关于cloudflare，域名：daohang-c5k.pages.dev
     - title: 本站备用3
       logo: https://cdn1.tianli0.top/gh/rcy1314/tuchuang@main/uPic/n3.jpeg
-      url: https://www.n1.noisedh.cn
-      description: 本站备用访问地址
+      url: https://www.noisedh.link
+      description: 本站备用主访问地址，域名：noisedh.link
     - title: 本站备用4
       logo: https://cdn1.tianli0.top/gh/rcy1314/tuchuang@main/uPic/n4.jpeg
       url: https://n2.noisedh.cn
-      description: 本站备用访问地址
+      description: 本站备用访问地址，可访问n1.noisedh.cn，n2.noisedh.cn
     - title: 本站备用5
       logo: https://cdn1.tianli0.top/gh/rcy1314/tuchuang@main/uPic/n5.jpeg
-      url: https://n3.noisedh.cn
-      description: 本站备用访问地址
+      url: https://www.noisedh.cn
+      description: 本站前访问地址，目前已被DNS污染，www.noisedh.cn
     - title: 本站备用6
       logo: https://cdn1.tianli0.top/gh/rcy1314/tuchuang@main/uPic/n6.jpeg
       url: https://noisedh.vercel.app
-      description: 本站备用访问地址
+      description: 本站备用访问地址，托关于vercel，请科学访问noisedh.vercel.app
     - title: 今日热榜
       logo: 今日热榜.jpg
       url: https://tophub.today
@@ -5360,6 +5360,10 @@
           logo: https://vivago.ai/favicon.png
           url: https://vivago.ai/
           description: AI视频轻松制作
+        - title: Veggie AI
+          logo: veggieai.net.png
+          url: https://veggieai.net/
+          description: vigle ai是一个利用AI的能力在线生成可控的视频工具产品，用户只需要输入图片、视频或者文字prompt等素材，就可以生成动作和任务形象完全一致的短视频。使用简单，任何人都可以上手使用，不需要有任何的AI知识基础。
 
     - term: AI·图设
       links:
