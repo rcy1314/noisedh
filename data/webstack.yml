@@ -2,10 +2,10 @@
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
-    - title: Efficiency主页
-      logo: binoculars.jpg
-      url: https://efficiencyfollow.notion.site
-      description: 栏目为主综合Notion收录增长页
+    - title: 瓜子影视
+      logo: guazi.png
+      url: 
+      description: 瓜子影视，精品影视app
     - title: 书签检索
       logo: https://cdn1.tianli0.top/gh/rcy1314/tuchuang@main/uPic/logo.png
       url: https://www.noisework.cn/soso/
@@ -54,10 +54,10 @@
       logo: 今日热榜.jpg
       url: https://tophub.today
       description: 提供各站热榜聚合：微信、今日头条、知乎...追踪全网热点、简单高效阅读
-    - title: Replit
-      logo: replit.png
-      url: https://replit.com
-      description: replit
+    - title: Efficiency主页
+      logo: binoculars.jpg
+      url: https://efficiencyfollow.notion.site
+      description: 栏目为主综合Notion收录增长页
     - title: 新片场
       logo: 新片场.jpg
       url: https://www.xinpianchang.com
