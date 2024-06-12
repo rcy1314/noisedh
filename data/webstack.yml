@@ -5368,6 +5368,10 @@
           logo: veggieai.net.png
           url: https://veggieai.net/
           description: vigle ai是一个利用AI的能力在线生成可控的视频工具产品，用户只需要输入图片、视频或者文字prompt等素材，就可以生成动作和任务形象完全一致的短视频。使用简单，任何人都可以上手使用，不需要有任何的AI知识基础。
+        - title: ToonCrafter AI
+          logo: https://tooncrafter.net/favicon.ico
+          url: https://tooncrafter.net/
+          description: ToonCrafter AI是一款创新的动漫视频生成工具，它能够将您上传的两张动漫图片巧妙融合，创造出一段生动的动漫视频。通过这项技术，您可以轻松体验到动漫创作的乐趣，让静态的画面跃然纸上，讲述您自己的故事
 
     - term: AI·图设
       links:
