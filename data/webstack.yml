@@ -4811,6 +4811,10 @@
           logo: 36解析.ico
           url: http://www.36jxs.com
           description: 36解析式工具箱是一个功能强大的在线查询工具网站，为用户提供了各种实用的查询与计算工具等。不论您是需要查询汉语字典、笔顺、组词、造句、成语、近义词、反义词、英文单词、缩写、谜语等，还是需要进身份照归属地、机场三字码查询、世界港口查询等操作，36解析式工具箱都能满足您的需求
+        - title: notion avatar maker
+          logo: https://www.notionavatarmaker.com/favicon/favicon-32x32.png
+          url: https://www.notionavatarmaker.com/
+          description: Notion 头像制作 - 一个生成 Notion 风格头像的在线工具
     - term: API平台
       links:
         - title: 搏天api
@@ -7991,3 +7995,4 @@
           logo: https://palworldzucht.de/icon.png?8e02e4888a8bff55
           url: https://palworldzucht.de
           description: 在Palworld Breeding List的帮助下培育最强的伙伴。在这里，您将找到最适合您育种的 Pal 组合。
+        
