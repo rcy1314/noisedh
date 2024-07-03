@@ -1468,6 +1468,10 @@
           logo: https://www.niutv.top/template/conch/asset/img/favicon.png
           url: https://www.niutv.top
           description: 免费高清观看电影，连续剧，动漫，短剧等
+        - title: 看剧吧
+          logo: https://jnasbh.cn/template/yingshiba/images/favicon.ico
+          url: https://jnasbh.cn
+          description: 看剧吧每天更新全网最新无删减短剧，热门电视剧。支持手机，电脑无广告免费在线观看。免费追剧就来看剧吧
 
 
     - term: 动漫番剧
@@ -5495,6 +5499,10 @@
           logo: https://www.photoaistudio.com/structure/favicon-32x32.jpg
           url: https://www.photoaistudio.com/zh
           description: AI照片生成器
+        - title: Image Describer
+          logo: https://imagedescriber.online/favicon.svg
+          url: https://imagedescriber.online
+          description: mage Describer是一个图片AI工具，上传图片，描述图片内容。
 
     - term: AI·音乐
       links:
@@ -5755,6 +5763,10 @@
           logo: https://app.68wenan.com/paper/lunwen_icon.png
           url: https://www.66paper.cn
           description: 写论文，仅需3步，5分钟搞定！写论文就是这么快捷！论文质量有保障，知网论文查重率为10%左右，超过15%可联系客服退款！限免费生成千字论文大纲-在线快速生成论文初稿-查重率10%左右
+        - title: Wordvice AI
+          logo: https://cdn.wordvice.ai/favicon.ico
+          url: https://wordvice.ai/
+          description: AI写作助手，具备语法检查纠错校对、改写润色降重、总结文本生成摘要、即时在线翻译、在线查重(抄袭检测)和AI内容检测等功能。
 
     - term: AI·代码
       links: 
@@ -7999,4 +8011,8 @@
           logo: https://palworldzucht.de/icon.png?8e02e4888a8bff55
           url: https://palworldzucht.de
           description: 在Palworld Breeding List的帮助下培育最强的伙伴。在这里，您将找到最适合您育种的 Pal 组合。
+        - title: albacub
+          logo: https://www.albacub.com/favicon.ico
+          url: https://www.albacub.com
+          description: Discover a vast collection of Free framer templates at Albacub. Find the perfect template for your next project
         
