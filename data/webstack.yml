@@ -5586,6 +5586,10 @@
           logo: https://www.sunoify.com/static/favicons/favicon-32x32.png
           url: https://www.sunoify.com/
           description: 将您的想法、情感、图片和网站转化为迷人的歌曲，使用Sunoify，您的个人AI音乐家。
+        - title: RapGenerator
+          logo: https://rapgenerator.app/favicon.ico
+          url: https://rapgenerator.app
+          description: 一键文本生成Rap音乐
 
     - term: AI·搜索
       links: 
