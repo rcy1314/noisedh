@@ -1458,7 +1458,7 @@
           description: 影视搜索全网海量影片数据
         - title: 小羊影视
           logo: https://cdn1.tianli0.top/gh/rcy1314/tuchuang@main/uPic/micn.png
-          url: https://micn.top
+          url: https://xyys.top
           description: 提供最新最快的电影电视剧在线观看
         - title: DHZ影视
           logo: https://dhzys.xckiu.cn/upload/dycms/20240322-1/c4ca83d1ae16de74fc5a096655becb6a.png
@@ -8019,4 +8019,8 @@
           logo: https://www.albacub.com/favicon.ico
           url: https://www.albacub.com
           description: Discover a vast collection of Free framer templates at Albacub. Find the perfect template for your next project
+        - title: 荔枝ip
+          logo: https://www.lycheeip.com/favicon.ico
+          url: https://www.lycheeip.com/?affId=StN3iILCpi
+          description: 荔枝IP（lycheeip）是一家拥有超3000万全球IP的代理服务商，所有的IP都经过AI+算法的滤洗，专为跨境电商和社媒运营服务。
         
