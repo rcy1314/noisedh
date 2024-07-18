@@ -438,6 +438,10 @@
           logo: https://elevenlabs.io/favicon.ico
           url: https://elevenlabs.io
           description: 在线AI文本转语音
+        - title: Luvvoive
+          logo: https://luvvoice.com/wp-content/uploads/2024/03/%E6%88%AA%E5%B1%8F2024-03-08-21.35.50.png
+          url: https://luvvoice.com/
+          description: 免费的文本转语音工具，无需登录，没有字数限制，支持70多种语言，200多种声音
 
     - term: 无版权图库
       links:
