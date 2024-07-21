@@ -5401,6 +5401,10 @@
           logo: https://liveportrait.org/favicon.ico
           url: https://liveportrait.org/
           description: 利用先进的人工智能为静态照片制作动画，将其转换为逼真的视频。这项技术对个性化视频通信、内容本地化和具有成本效益的视频制作特别有用。通过为静态图像注入活力，Live Portrait AI使用户能够毫不费力地创建引人入胜和逼真的视频内容
+        - title: RunComfy
+          logo: https://www.runcomfy.com/favicon.ico
+          url: https://www.runcomfy.com/
+          description: ComfyUI云平台，可以一键运行流行的AI生图生视频工作流
 
     - term: AI·图设
       links:
@@ -8040,4 +8044,8 @@
           logo: https://www.lycheeip.com/favicon.ico
           url: https://www.lycheeip.com/?affId=StN3iILCpi
           description: 荔枝IP（lycheeip）是一家拥有超3000万全球IP的代理服务商，所有的IP都经过AI+算法的滤洗，专为跨境电商和社媒运营服务。
+        - title: ClaudeFound
+          logo: https://www.claudefinds.com/favicon/logo.png
+          url: https://www.claudefinds.com
+          description: ClaudeFound 是 Claude AI 爱好者的首要社区。在这里，您可以探索、分享和创建令人惊叹的克劳德文物。从代码片段到交互式网页，从SVG图像到复杂的文档，我们为每一位Claude Artifacts爱好者提供灵感和资源
         
