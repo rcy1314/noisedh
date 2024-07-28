@@ -4894,11 +4894,7 @@
       links:
         - title: zzko-jsDelivr镜像站
           logo: jsd.ico
-          url: https://jsd.cdn.noisework.cn/
-          description: 稳定免费有检测是否违规的jsd镜像
-        - title: tianli0-jsDelivr镜像站
-          logo: jsd.ico
-          url: https://jsd.cdn.noisework.cn
+          url: https://cdn.jsdmirror.com/
           description: 稳定免费有检测是否违规的jsd镜像
         - title: 渺软CDN
           logo: jsd.ico
@@ -7822,6 +7818,14 @@
           logo: mergeek.png
           url: https://mergeek.com
           description: 科技产品爱好者社区，限免APP情报
+        - title: mazikbox
+          logo: https://mazikbox.com/icon.png?a27acebe4ea13d50
+          url: https://mazikbox.com
+          description: mazikbox.com is a ai tools directory, that display variety of tools from web
+        - title: webcurate
+          logo: https://webcurate.co/assets/images/favicon/favicon-32x32.png?v.6
+          url: https://webcurate.co
+          description: 它每天都会显示互联网上最好的在线工具和资源
 
     - term: 摸鱼趣站
       links:
