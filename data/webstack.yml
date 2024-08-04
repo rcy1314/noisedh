@@ -5230,6 +5230,10 @@
           logo: https://picturetosummary.online/favicon.svg
           url: https://picturetosummary.online
           description: 只需上传一张图片，我们的 AI 技术便会生成详细描述、深刻见解，甚至创意提示，帮助你更深入地理解和运用视觉内容。
+        - title: FLUX.1 AI
+          logo: https://flux1ai.com/favicon.ico
+          url: https://flux1ai.com
+          description: FLUX.1 AI是由Black Forest Labs开发的先进文本到图像生成模型。它提供卓越的图像质量、准确的提示词遵循和多样的风格
         
 
     - term: AI·问答
