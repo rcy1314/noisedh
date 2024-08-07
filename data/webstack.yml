@@ -5619,6 +5619,10 @@
           logo: https://rapgenerator.app/favicon.ico
           url: https://rapgenerator.app
           description: 一键文本生成Rap音乐
+        - title: AI Song Generator
+          logo: https://aisonggenerator.io/favicon.ico
+          url: https://aisonggenerator.io
+          description: Using ours cutting-edge AI Song Generator technology, create any music or song you desire
 
     - term: AI·搜索
       links: 
