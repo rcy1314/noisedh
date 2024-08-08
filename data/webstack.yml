@@ -5234,6 +5234,10 @@
           logo: https://flux1ai.com/favicon.ico
           url: https://flux1ai.com
           description: FLUX.1 AI是由Black Forest Labs开发的先进文本到图像生成模型。它提供卓越的图像质量、准确的提示词遵循和多样的风格
+        - title: Flux.1-Image-Generator
+          logo: https://fluximagegenerator.ai/favicon.ico
+          url: https://fluximagegenerator.ai/zh
+          description: The Flux.1 Image Generator is the next leap forward in text-to-image models.
         
 
     - term: AI·问答
@@ -6617,6 +6621,10 @@
           logo: https://www.xinyuedh.com/data/user/admin/favicon/favicon.png
           url: https://www.xinyuedh.com/
           description: 网站工具收录导航
+        - title: 斯塔克电子导航
+          logo: https://nav.starkmcu.com/wp-content/uploads/2024/07/1721284067-favicon.ico
+          url: https://nav.starkmcu.com
+          description: 斯塔克电子导航网是专为电子工程师、硬件工程师和嵌入式开发工程师打造的一站式资源导航平台
 
 
     - term: 科学机场
