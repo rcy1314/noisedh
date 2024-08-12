@@ -5110,6 +5110,10 @@
           logo: https://www.artitattoos.com/favicon.ico
           url: https://www.artitattoos.com/
           description: AI 生成纹身
+        - title: Change Clothes AI
+          logo: https://changeclothesai.online/favicon.svg
+          url: https://changeclothesai.online
+          description: Change Clothes AI 是一款主打AI虚拟试衣的在线平台，告别“想象”，让你在购买前就能直观看到衣服的上身效果。
         
 
     - term: AI·绘画
@@ -5536,6 +5540,10 @@
           logo: https://imagedescriber.online/favicon.svg
           url: https://imagedescriber.online
           description: mage Describer是一个图片AI工具，上传图片，描述图片内容。
+        - title: PS2 Filter AI
+          logo: https://ps2filterai.online/favicon.svg
+          url: https://ps2filterai.online
+          description: 可以用 AI 把照片处理成 PS2 游戏的那种风格，就是很怀旧。
 
     - term: AI·音乐
       links:
