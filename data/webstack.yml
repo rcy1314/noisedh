@@ -5242,6 +5242,10 @@
           logo: https://fluximagegenerator.ai/favicon.ico
           url: https://fluximagegenerator.ai/zh
           description: The Flux.1 Image Generator is the next leap forward in text-to-image models.
+        - title: flux1ai
+          logo: https://www.flux1ai.net/favicon.ico
+          url: https://www.flux1ai.net
+          description: 提供在线体验flux 模型的文生图能力
         
 
     - term: AI·问答
