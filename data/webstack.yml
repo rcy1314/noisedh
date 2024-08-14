@@ -2,10 +2,10 @@
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
-    - title: 瓜子影视
-      logo: guazi.png
-      url: https://www.123pan.com/s/l0TmTd-Wxkt.html
-      description: 瓜子影视，精品影视app
+    - title: 频道页面
+      logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/7877y.jpeg
+      url: https://tg.noisework.cn
+      description: 我的TG频道页面
     - title: 书签检索
       logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/logo.png
       url: https://www.noisework.cn/soso/
@@ -5421,6 +5421,10 @@
           logo: https://www.runcomfy.com/favicon.ico
           url: https://www.runcomfy.com/
           description: ComfyUI云平台，可以一键运行流行的AI生图生视频工作流
+        - title: VidAU
+          logo: https://www.vidau.ai/wp-content/uploads/2024/07/cropped-logo@1x-3-32x32.png
+          url: https://www.vidau.ai
+          description: vidau，通过ai算法进行视频生成，可通过输入网店产品url自动化生成产品介绍视频、视频换脸、视频语言转换（包括人种转换）
 
     - term: AI·图设
       links:
@@ -6083,6 +6087,10 @@
           logo: https://www.kedou.life/favicon.ico
           url: https://www.kedou.life/
           description: 一款支持海量视频网站解析下载工具，致力于为您提供优质的视频解析服务
+        - title: getindevice
+          logo: https://getindevice.com/wp-content/uploads/2024/06/cropped-GetinDevice.com-Site-Icon-32x32.png
+          url: https://getindevice.com
+          description: 这是社交媒体视频下载器，几乎支持所有平台，用户无需访问其他网站即可从任何社交媒体平台下载视频或照片
 
     - term: 下载MAC
       links:
