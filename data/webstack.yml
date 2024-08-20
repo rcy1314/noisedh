@@ -5114,6 +5114,14 @@
           logo: https://changeclothesai.online/favicon.svg
           url: https://changeclothesai.online
           description: Change Clothes AI 是一款主打AI虚拟试衣的在线平台，告别“想象”，让你在购买前就能直观看到衣服的上身效果。
+        - title: nex.art
+          logo: https://cdn.prod.website-files.com/6673557cfe2f26731e896ff9/66a0f6eb6a203190a0fc3448_favicon%201.png
+          url: https://www.nex.art
+          description: 世界上最可控的 AI 图像工具，专为团队和企业打造
+        - title: mimicpc
+          logo: https://www.mimicpc.com/favicon.ico
+          url: https://www.mimicpc.com/
+          description: Mimicpc 是一款免费的 AI 在线工具，包括 Flux、SD 等流行的 AI 工具！
         
 
     - term: AI·绘画
@@ -5246,6 +5254,18 @@
           logo: https://www.flux1ai.net/favicon.ico
           url: https://www.flux1ai.net
           description: 提供在线体验flux 模型的文生图能力
+        - title: FLUX.1 AI
+          logo: https://flux1pro.com/favicon.ico
+          url: https://flux1pro.com/zh
+          description: 将您的文字转化为受 FLUX.1 AI 启发的令人惊叹的杰作
+        - title: Harpy Hare OC
+          logo: https://harpyhareocmaker.com/favicon.ico
+          url: https://harpyhareocmaker.com
+          description: 使用 Harpy Hare OC Maker 将您的想法转化为独特的原创角色。
+        - title: flux ai
+          logo: https://flux-ai.io/icon.svg?bdb16d22e5a90000
+          url: https://flux-ai.io
+          description: flux ai在线绘画工具，免费体验flux.1 schnell模型和各种不同的prompt
         
 
     - term: AI·问答
@@ -5552,6 +5572,10 @@
           logo: https://ps2filterai.online/favicon.svg
           url: https://ps2filterai.online
           description: 可以用 AI 把照片处理成 PS2 游戏的那种风格，就是很怀旧。
+        - title: 图念(PicMoss)
+          logo: https://picmoss.cn/static/moss/image/logo_icon.png
+          url: https://picmoss.cn/zh-hans/mat.html
+          description: 图念(PicMoss) 是一款免费图像处理平台，支持在线抠图、批量抠图、去水印、模糊照片变清晰、无损放大、图片压缩、黑白照片上色等功能，一键制作出精美图片，批量处理图片，提高图片编辑效率
 
     - term: AI·音乐
       links:
