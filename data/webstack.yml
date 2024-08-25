@@ -2277,6 +2277,10 @@
           logo: lanzou.png
           url: https://www.lanzoux.com/b00z6coeh
           description: MIUI应用更新
+        - title: 软件宝库
+          logo: lanzou.png
+          url: https://www.lanzoui.com/s/1464164
+          description: 全网最全软件宝库，每天更新各类娱乐实用软件，已不间断更新10年，收录超10000+款精品应用
         
     - term: 自建云盘站
       links:
@@ -5266,6 +5270,14 @@
           logo: https://flux-ai.io/icon.svg?bdb16d22e5a90000
           url: https://flux-ai.io
           description: flux ai在线绘画工具，免费体验flux.1 schnell模型和各种不同的prompt
+        - title: flux ai
+          logo: https://fluxaiart.com/favicon.ico
+          url: https://fluxaiart.com
+          description: 发现 Flux AI 的力量，这是一个智能图像生成器，可以在几秒钟内将您的描述转换为惊人的视觉效果
+        - title: AI紋身生成器
+          logo: https://aitattooideas.com/icon.ico?c61340a32d821051
+          url: https://aitattooideas.com/
+          description: 在AITattooIdeas，釋放您的創造力，使用我們的智能紋身生成器。只需提供描述，然後觀看我們的AI為您創作獨特的紋身點子
         
 
     - term: AI·问答
