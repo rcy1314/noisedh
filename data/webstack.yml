@@ -6992,10 +6992,10 @@
           logo: https://weekly-7lo.pages.dev/assets/images/favicon.png
           url: https://weekly-7lo.pages.dev
           description: 主要针对计算机领域，内容主题极大程度被维护者个人喜好主导
-        - title: XiaoHu.Ai日报
-          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/350_100.png
-          url: https://xiaohu.ai/
-          description: 针对AI领域的知识案例汇总
+        - title: 周E信
+          logo: https://api.iowen.cn/favicon/www.zhouexin.com/.png
+          url: https://www.zhouexin.com/issues
+          description: 一周编程期刊
         - title: 产品经理周刊
           logo: https://pmfeeds.bearman.xyz/weekly/noodles.png
           url: https://pm.bearman.xyz
@@ -8132,4 +8132,8 @@
           logo: https://www.claudefinds.com/favicon/logo.png
           url: https://www.claudefinds.com
           description: ClaudeFound 是 Claude AI 爱好者的首要社区。在这里，您可以探索、分享和创建令人惊叹的克劳德文物。从代码片段到交互式网页，从SVG图像到复杂的文档，我们为每一位Claude Artifacts爱好者提供灵感和资源
+        - title: midjourneysref
+          logo: https://midjourneysref.com/logo.png
+          url: https://midjourneysref.com
+          description: 一个专注于收集和分类 MidJourney 中 sref 代码的网站。用户可以通过该网站探索和使用不同的 sref 代码，从而生成风格各异的图像效果。网站旨在帮助用户轻松找到自己喜欢的独特效果
         
