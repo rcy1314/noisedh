@@ -3791,6 +3791,10 @@
           logo: notion.png
           url: https://ocmacro.com
           description: 洋同学的宏观笔记
+        - title: Notion2Go 资源分享站
+          logo: notion.png
+          url: https://notion2go.com/
+          description: 提供丰富的Notion工具与资源，助力用户打造最全Notion生态，提升工作效率。Keyword:Notion 资源, Notion 模板, Notion 使用技巧
         
     - term: 电子书库
       links:
@@ -5278,6 +5282,18 @@
           logo: https://aitattooideas.com/icon.ico?c61340a32d821051
           url: https://aitattooideas.com/
           description: 在AITattooIdeas，釋放您的創造力，使用我們的智能紋身生成器。只需提供描述，然後觀看我們的AI為您創作獨特的紋身點子
+        - title: AI Image Enhancer
+          logo: https://www.imageenhan.com/static/image-enhancer.ico
+          url: https://www.imageenhan.com/create-your-own-one-piece-character
+          description: 将先进的 AI 技术与用户友好性相结合，将您的视觉内容转变为令人惊叹的艺术作品
+        - title: MyImg.ai
+          logo: https://www.myimg.ai/static/myimg-ai.ico
+          url: https://www.myimg.ai/create-your-own-one-piece-character
+          description: 可以将照片即时转换为卡通和动画艺术风格的人工智能工具
+        - title: Swapfaces AI
+          logo: https://www.swapfaces.ai/static/swapfaces-ai.ico
+          url: https://www.swapfaces.ai/text-to-image
+          description: 一个前沿的在线工具，利用人工智能技术为用户提供独特的换脸体验。它的用户界面友好，允许用户轻松上传视频或照片，并将其转变为AI生成的换脸效果
         
 
     - term: AI·问答
@@ -8136,4 +8152,12 @@
           logo: https://midjourneysref.com/logo.png
           url: https://midjourneysref.com
           description: 一个专注于收集和分类 MidJourney 中 sref 代码的网站。用户可以通过该网站探索和使用不同的 sref 代码，从而生成风格各异的图像效果。网站旨在帮助用户轻松找到自己喜欢的独特效果
+        - title: 酒店协议代码
+          logo: https://corporate-codes.online/favicon.ico
+          url: https://corporate-codes.online/zh
+          description: 酒店协议代码是一种关于IHG、希尔顿、万豪、凯悦等酒店品牌的特别折扣代码。这些代码提供给企业，以便以优惠价格预订酒店。公司可以利用这些代码为员工的出差节省旅行费用
+        - title: findsocialmedia
+          logo: https://findsocialmediaprofile.com/favicon.ico
+          url: https://findsocialmediaprofile.com
+          description: 轻松地通过用户名在400多个社交网络中查找社交媒体资料/账户
         
