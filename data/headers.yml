@@ -6,9 +6,9 @@
   icon: fa fa-book
   link: "./soso/"
   
-- item: 备用地址
+- item: 链接检测记录
   icon: fa fa-star
-  link: "https://www.noisework.cn/fb/index.html"
+  link: "./invalidlinks"
 
 - item: 投稿
   icon: fa fa-paper-plane
