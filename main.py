@@ -4,7 +4,6 @@ import time
 import requests
 from urllib.parse import urlparse
 from datetime import datetime
-import http.client
 
 # 定义跳过检测 URL 部分列表
 EXCLUDED_URL_PARTS = [
@@ -56,37 +55,35 @@ def should_exclude_url(url):
             return True
     return False
 
-def check_url(url, retries=3, timeout=10):
+def check_url(url, retries=5, timeout=10):
     """检查 URL 的有效性，支持重试机制。"""
     if should_exclude_url(url):
         return True, url  # 直接标记为有效
 
-    parsed_url = urlparse(url)
-    conn = None
+    session = requests.Session()  # 创建一个会话对象
+    session.headers.update({'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'})
 
     for attempt in range(retries):
         try:
-            # 创建 HTTP 连接
-            conn = http.client.HTTPConnection(parsed_url.netloc, timeout=timeout)
-            conn.request("GET", parsed_url.path or "/")
-            response = conn.getresponse()
+            response = session.get(url, timeout=timeout)
 
-            if response.status == 200:
+            if response.status_code == 200:
                 return True, url  # 返回有效链接
-            elif response.status == 404:
+            elif response.status_code == 404:
                 print(f"链接未找到 (404)，URL: {url}，标记为删除。")
                 return False, None  # 标记为删除
             else:
-                print(f"收到状态码 {response.status}，URL: {url}，继续保留。")
+                print(f"收到状态码 {response.status_code}，URL: {url}，继续保留。")
                 return True, url  # 只保留有效链接，不移除
 
-        except (http.client.HTTPException, ConnectionResetError, TimeoutError) as e:
+        except requests.Timeout:
+            print(f"请求超时，URL: {url}，正在重试...")
+        except requests.ConnectionError as e:
+            print(f"连接错误，URL: {url}，错误信息: {e}，正在重试...")
+        except requests.RequestException as e:
             print(f"请求 URL {url} 发生错误: {e}，正在重试...")
-            time.sleep(2)  # 等待后重试
 
-        finally:
-            if conn:
-                conn.close()
+        time.sleep(5)  # 增加重试间隔
 
     print(f"经过 {retries} 次尝试验证 URL 失败: {url}")
     return False, None  # 在重试失败后标记为无效
