@@ -3,7 +3,6 @@ import os
 import time
 import random
 import requests
-from urllib.parse import urlparse
 from datetime import datetime
 
 # 定义跳过检测 URL 部分列表
@@ -40,9 +39,8 @@ EXCLUDED_URL_PARTS = [
     "bratgenerator.xyz",
     "noisework.cn",
     "noisedh.cn",
-    "noisedaohang.vercel",
     "noisevip.cn",
-    "noiseblogs.top",
+    "noisedaohang.vercel",
     "noisedaohang.netlify.app",
     "app.netlify.com",
     # 可以根据需要添加更多部分
@@ -96,7 +94,8 @@ def check_url(url, retries=5, timeout=10):
             print(f"SSL 错误，URL: {url}，错误信息: {e}，将其视为有效链接。")
             return True, url  # 将 SSL 错误的链接视为有效
         except requests.exceptions.RemoteDisconnected as e:
-            print(f"远程断开连接，URL: {url}，错误信息: {e}，正在重试...")
+            print(f"远程断开连接，URL: {url}，错误信息: {e}，将其视为有效链接。")
+            return True, url  # 将 RemoteDisconnected 错误视为有效链接
         except requests.RequestException as e:
             print(f"请求 URL {url} 发生错误: {e}，正在重试...")
 
