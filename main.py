@@ -4,6 +4,7 @@ import time
 import requests
 from urllib.parse import urlparse
 from datetime import datetime
+import http.client
 
 # 定义跳过检测 URL 部分列表
 EXCLUDED_URL_PARTS = [
