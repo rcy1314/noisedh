@@ -66,7 +66,8 @@ def get_proxy():
         response = httpx.get("https://api.geoproxy.in/http")
         print(f"API 返回内容: {response.text}")  # 打印 API 返回的原始内容
         if response.status_code == 200:
-            return response.text.strip()  # 直接返回代理地址，去掉多余的空格
+            proxy_address = response.text.strip()  # 去掉多余的空格
+            return f"http://{proxy_address}"  # 添加 http:// 前缀
     except Exception as e:
         print(f"获取代理时发生错误: {e}")
     return None
