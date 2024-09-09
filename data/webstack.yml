@@ -30,14 +30,6 @@
     logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/n1.jpeg
     url: https://noisedaohang.netlify.app
     description: 本站备用访问地址,托关于netlify，域名：noisedaohang.netlify.app
-  - title: 本站备用2
-    logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/n2.jpeg
-    url: https://daohang-c5k.pages.dev
-    description: 本站备用访问地址，托关于cloudflare，域名：daohang-c5k.pages.dev
-  - title: 本站备用3
-    logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/n3.jpeg
-    url: https://www.noisedh.link
-    description: 本站备用主访问地址，域名：noisedh.link
   - title: 本站备用4
     logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/n4.jpeg
     url: https://n2.noisedh.cn
@@ -50,50 +42,18 @@
     logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/n6.jpeg
     url: https://noisedh.vercel.app
     description: 本站备用访问地址，托关于vercel，请科学访问noisedh.vercel.app
-  - title: 今日热榜
-    logo: 今日热榜.jpg
-    url: https://tophub.today
-    description: 提供各站热榜聚合：微信、今日头条、知乎...追踪全网热点、简单高效阅读
-  - title: Efficiency主页
-    logo: binoculars.jpg
-    url: https://efficiencyfollow.notion.site
-    description: 栏目为主综合Notion收录增长页
-  - title: 新片场
-    logo: 新片场.jpg
-    url: https://www.xinpianchang.com
-    description: 质量上乘的视频大开眼界
-  - title: 天空之城
-    logo: 天空之城.jpg
-    url: https://www.skypixel.com
-    description: 世界各地的航拍摄影师、拍手叫绝的航拍作品与独具价值的航拍攻略。全世界的探索者们互相启发，乐在其中。现在加入天空之城，换个角度看世界！。
-  - title: 哔哩哔哩
-    logo: 哔哩哔哩.jpg
-    url: https://www.bilibili.com
-    description: 哔哩哔哩
   - title: Pinterest
     logo: Pinterest.png
     url: https://www.pinterest.com
     description: 全球设计创意灵感
-  - title: vercel
-    logo: vercel.png
-    url: https://vercel.com
-    description: vercel
   - title: Netlify
     logo: netlify.png
     url: https://app.netlify.com
     description: Netlify
-  - title: Gatsbyjs
-    logo: gatsbyjs.jpg
-    url: https://www.gatsbyjs.com
-    description: Gatsbyjs
   - title: Github
     logo: github.jpg
     url: https://github.com
     description: github
-  - title: Railway
-    logo: railway.png
-    url: https://railway.app
-    description: railway
   - title: cloudflare
     logo: cloudflare.png
     url: https://dash.cloudflare.com
@@ -5393,7 +5353,8 @@
     - title: 小白兔 AI
       logo: https://aigo.tools/favicon.ico
       url: https://aigo.tools
-      description: 通过 在 AIGO.tools AI 工具目录中找到您最喜欢的 AI 工具。我们的 AI 工具列表由 GPT-4o 每天更新。提交您的 AI 工具是免费的，有助于增强您的 SEO
+      description: 通过 在 AIGO.tools AI 工具目录中找到您最喜欢的 AI 工具。我们的 AI 工具列表由 GPT-4o 每天更新。提交您的
+        AI 工具是免费的，有助于增强您的 SEO
     - title: tyy.ai
       logo: https://tyy.ai/wp-content/uploads/2024/05/icon-1-150x150.png
       url: https://tyy.ai
@@ -7378,4 +7339,5 @@
     - title: Best MEME Coin
       logo: https://memeisgame.com/favicon.ico
       url: https://memeisgame.com
-      description: 在 MEME is Game 上发现最新和最好的模因币，其中包含 AI 驱动的见解。随时了解顶级模因币的最新趋势、评论和 AI 分析，包括 Hot New Meme Coins 和 Best Meme Coins
+      description: 在 MEME is Game 上发现最新和最好的模因币，其中包含 AI 驱动的见解。随时了解顶级模因币的最新趋势、评论和 AI
+        分析，包括 Hot New Meme Coins 和 Best Meme Coins
