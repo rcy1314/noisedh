@@ -57,18 +57,16 @@ def should_exclude_url(url):
             return True
     return False
 
-def check_url(url, retries=3, timeout=20):
+def check_url(url, retries=5, timeout=20):
     """检查 URL 的有效性，支持重试机制。"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
     }
 
-    # 检查 URL 是否在排除列表中
     if should_exclude_url(url):
-        return True, url  # 直接标记为有效
+        return True, url
 
-    # 检查域名是否可以解析
-    domain = url.split("//")[-1].split("/")[0]  # 从 URL 中提取域名
+    domain = url.split("//")[-1].split("/")[0]
     if not dns_lookup(domain):
         print(f"域名 {domain} 无法解析，跳过 URL: {url}")
         return False, None
@@ -76,30 +74,30 @@ def check_url(url, retries=3, timeout=20):
     for attempt in range(retries):
         try:
             with httpx.Client() as client:
-                response = client.get(url, headers=headers, timeout=timeout)
+                response = client.get(url, headers=headers, timeout=httpx.Timeout(connect=10.0, read=30.0))
                 if response.status_code == 200:
-                    return True, url  # 返回有效链接
+                    return True, url
                 elif response.status_code == 404:
                     print(f"链接未找到 (404)，URL: {url}，标记为删除。")
-                    return False, None  # 标记为删除
+                    return False, None
                 elif response.status_code == 502:
                     print(f"服务器错误状态码 (502)，URL: {url}，标记为失效链接。")
-                    return False, None  # 标记为失效链接
+                    return False, None
                 elif response.status_code in [403, 526]:
                     print(f"访问被拒绝 (403) 或 SSL 问题 (526)，URL: {url}，标记为审核。")
-                    return None, None  # 标记为人工审核
+                    return None, None
                 elif "Error establishing a database connection" in response.text:
                     print(f"数据库连接错误，URL: {url}，标记为审核。")
-                    return None, None  # 标记为人工审核
+                    return None, None
                 elif 400 <= response.status_code < 500:
                     print(f"客户端错误状态码 {response.status_code}，URL: {url}，保持有效。")
-                    return True, url  # 假设有效
+                    return True, url
                 elif 500 <= response.status_code < 600:
                     print(f"服务器错误状态码 {response.status_code}，尝试 {attempt + 1}")
-                    time.sleep(2)  # 等待 2 秒后重试
-        except (httpx.TimeoutException, httpx.NetworkError) as e:
+                    time.sleep(2)
+        except (httpx.TimeoutException, httpx.NetworkError, httpx.RemoteProtocolError) as e:
             print(f"URL {url} 发生错误: {e}，正在重试...")
-            time.sleep(2)  # 等待后重试
+            time.sleep(2)
 
     print(f"经过 {retries} 次尝试验证 URL 失败: {url}")
     return False, None
