@@ -99,8 +99,8 @@ def check_url(url, retries=5, timeout=20):
                         print(f"链接未找到 (404)，URL: {url}，标记为删除。")
                         return False, None
                     elif response.status_code == 502:
-                        print(f"服务器错误状态码 (502)，URL: {url}，标记为失效链接。")
-                        return False, None
+                        print(f"代理返回错误状态码 (502)，尝试获取新的代理...")
+                        break  # 退出当前循环，尝试获取新的代理
                     elif response.status_code in [403, 526]:
                         print(f"访问被拒绝 (403) 或 SSL 问题 (526)，URL: {url}，标记为审核。")
                         return None, None
