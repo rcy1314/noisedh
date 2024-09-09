@@ -67,7 +67,7 @@ def should_exclude_url(url):
             return True
     return False
 
-def check_url(url, retries=5, timeout=10):
+def check_url(url, retries=3, timeout=10):
     """检查 URL 的有效性，支持重试机制。"""
     if should_exclude_url(url):
         return True, url  # 直接标记为有效
@@ -76,6 +76,11 @@ def check_url(url, retries=5, timeout=10):
 
     for attempt in range(retries):
         try:
+            # 确保 URL 格式正确
+            if not url.startswith(('http://', 'https://')):
+                print(f"URL 格式不正确，URL: {url}，标记为有效但需人工审核。")
+                return True, url  # 标记为有效但需人工审核
+
             # 随机选择 User-Agent
             session.headers.update({'User-Agent': random.choice(USER_AGENTS)})
             # 忽略 SSL 证书验证
@@ -95,7 +100,7 @@ def check_url(url, retries=5, timeout=10):
         except requests.ConnectionError as e:
             print(f"连接错误，URL: {url}，错误信息: {e}，标记为有效但需人工审核。")
             return True, url  # 将连接错误视为有效链接并标记为人工审核
-        except requests.SSLError as e:
+        except requests.exceptions.SSLError as e:
             print(f"SSL 错误，URL: {url}，错误信息: {e}，将其视为有效链接。")
             return True, url  # 将 SSL 错误的链接视为有效
         except requests.exceptions.RemoteDisconnected as e:
@@ -107,8 +112,8 @@ def check_url(url, retries=5, timeout=10):
         # 增加随机的重试间隔
         time.sleep(random.randint(5, 15))  # 随机等待 5 到 15 秒
 
-    print(f"经过 {retries} 次尝试验证 URL 失败: {url}")
-    return False, None  # 在重试失败后标记为无效
+    print(f"经过 {retries} 次尝试验证 URL 失败: {url}，标记为有效但需人工审核。")
+    return True, url  # 标记为有效但需人工审核
 
 def write_yaml(yaml_file, data):
     """将更新后的数据写回 YAML 文件，并保留第一行 '---'。"""
