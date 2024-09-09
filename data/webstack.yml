@@ -4501,6 +4501,14 @@
       logo: https://aicomicfactory.cc/favicon.ico
       url: https://aicomicfactory.cc
       description: 通过 AI Comic Factory 释放您的创造力！我们的 AI 漫画书生成器可帮助您创建独特的漫画书。今天就开始您的故事吧
+    - title: Reflection 70B AI
+      logo: https://reflectionai.ai/favicon.ico
+      url: https://reflectionai.ai
+      description: 通过使用反射调优技术进行训练，这是一种使LLMs能够修正自己错误的模型。
+    - title: Yes/No Tarot AI
+      logo: https://yesnotarot.org/favicon.ico
+      url: hhttps://yesnotarot.org
+      description: 为用户提供即时准确的塔罗牌解读。无论您提出的是关于爱情、事业还是个人成长相关的问题，该工具都为您提供清晰且有见地的答案。该工具结合传统塔罗智慧和先进的AI技术，简洁清爽的界面为您良好的用户体验，清晰的解读为您带来思考与指引
   - term: AI·绘画
     links:
     - title: stability
