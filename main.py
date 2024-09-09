@@ -1,9 +1,8 @@
 import yaml
-import httpx
-from datetime import datetime
 import os
 import time
-import socket
+import subprocess
+from datetime import datetime
 
 # 定义跳过检测 URL 部分列表
 EXCLUDED_URL_PARTS = [
@@ -38,19 +37,14 @@ EXCLUDED_URL_PARTS = [
     "pixabay.com",
     "bratgenerator.xyz",
     "noisework.cn",
+    "noisedh.cn",
+    "noisedaohang.vercel",
     "noisevip.cn",
     "noiseblogs.top",
+    "noisedaohang.netlify.app",
+    "app.netlify.com",
     # 可以根据需要添加更多部分
 ]
-
-def dns_lookup(domain):
-    """检查域名是否可以解析。"""
-    try:
-        socket.gethostbyname(domain)
-        return True
-    except socket.error:
-        print(f"DNS 查找失败，域名: {domain}")
-        return False
 
 def should_exclude_url(url):
     """检查 URL 是否包含待检测部分，返回是否应排除。"""
@@ -60,67 +54,52 @@ def should_exclude_url(url):
             return True
     return False
 
-def get_proxy():
-    """请求新的代理地址。"""
-    try:
-        response = httpx.get("https://api.geoproxy.in/http")
-        print(f"API 返回内容: {response.text}")  # 打印 API 返回的原始内容
-        if response.status_code == 200:
-            proxy_address = response.text.strip()  # 去掉多余的空格
-            return f"http://{proxy_address}"  # 添加 http:// 前缀
-    except Exception as e:
-        print(f"获取代理时发生错误: {e}")
-    return None
+def ping_url(url, retries=5):
+    """通过 ping 和 curl 命令检查 URL 的有效性，支持重试机制。"""
+    hostname = url.split("//")[-1].split("/")[0]  # 提取主机名
+    print(f"正在检查 URL: {url}，提取的主机名: {hostname}")  # 调试信息
 
-def check_url(url, retries=5, timeout=20):
-    """检查 URL 的有效性，支持重试机制。"""
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
-    }
-
-    if should_exclude_url(url):
-        return True, url
-
-    domain = url.split("//")[-1].split("/")[0]
-    if not dns_lookup(domain):
-        print(f"域名 {domain} 无法解析，跳过 URL: {url}")
-        return False, None
-
+    # 尝试使用 ping
     for attempt in range(retries):
-        proxy = get_proxy()  # 获取新的代理地址
-        if proxy:
-            print(f"使用代理: {proxy}")
-            try:
-                with httpx.Client(proxies={"http://": proxy, "https://": proxy}, timeout=timeout) as client:
-                    response = client.get(url, headers=headers)
-                    if response.status_code == 200:
-                        return True, url
-                    elif response.status_code == 404:
-                        print(f"链接未找到 (404)，URL: {url}，标记为删除。")
-                        return False, None
-                    elif response.status_code == 502:
-                        print(f"代理返回错误状态码 (502)，尝试获取新的代理...")
-                        break  # 退出当前循环，尝试获取新的代理
-                    elif response.status_code in [403, 526]:
-                        print(f"访问被拒绝 (403) 或 SSL 问题 (526)，URL: {url}，标记为审核。")
-                        return None, None
-                    elif "Error establishing a database connection" in response.text:
-                        print(f"数据库连接错误，URL: {url}，标记为审核。")
-                        return None, None
-                    elif 400 <= response.status_code < 500:
-                        print(f"客户端错误状态码 {response.status_code}，URL: {url}，保持有效。")
-                        return True, url
-                    elif 500 <= response.status_code < 600:
-                        print(f"服务器错误状态码 {response.status_code}，尝试 {attempt + 1}")
-                        time.sleep(2)
-            except (httpx.TimeoutException, httpx.NetworkError, httpx.RemoteProtocolError) as e:
-                print(f"URL {url} 发生错误: {e}，正在重试...")
+        try:
+            output = subprocess.run(
+                ["ping", "-c", "1", hostname],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                universal_newlines=True
+            )
+            print(f"Ping 输出: {output.stdout}")  # 打印 ping 输出
+            if output.returncode == 0:
+                return True, url
+            else:
+                print(f"Ping 失败，URL: {url}，尝试 {attempt + 1}")
                 time.sleep(2)
-        else:
-            print("获取代理失败，正在重试...")
+        except Exception as e:
+            print(f"Ping URL {url} 发生错误: {e}，正在重试...")
+            time.sleep(2)
+
+    # 如果 ping 失败，尝试使用 curl
+    for attempt in range(retries):
+        try:
+            output = subprocess.run(
+                ["curl", "-Is", url],  # 使用 -I 选项获取 HTTP 头
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                universal_newlines=True
+            )
+            print(f"curl 输出: {output.stdout}")  # 打印 curl 输出
+            if output.returncode == 0:
+                return True, url
+            else:
+                print(f"curl 失败，URL: {url}，尝试 {attempt + 1}")
+                time.sleep(2)
+        except Exception as e:
+            print(f"curl URL {url} 发生错误: {e}，正在重试...")
+            time.sleep(2)
 
     print(f"经过 {retries} 次尝试验证 URL 失败: {url}")
     return False, None
+
 
 def write_yaml(yaml_file, data):
     """将更新后的数据写回 YAML 文件，并保留第一行 '---'。"""
@@ -150,8 +129,6 @@ def clean_invalid_urls(yaml_file, report_file):
         return
 
     invalid_links_report = []
-    auto_modified_links_report = []
-    review_links_report = []
 
     # 处理每个分类
     for category in data:
@@ -159,24 +136,15 @@ def clean_invalid_urls(yaml_file, report_file):
             valid_links = []
             for link in category['links']:
                 url = link.get('url')
-                if url:
-                    is_valid, new_url = check_url(url)
+                if url and not should_exclude_url(url):
+                    is_valid, new_url = ping_url(url)
                     if is_valid:
                         valid_links.append(link)  # 保留有效链接
-                    elif is_valid is False:
+                    else:
                         print(f"移除无效链接条目: {link}")
                         invalid_links_report.append(link)  # 记录无效链接
-                    elif new_url:  # 如果有新的可访问地址
-                        print(f"自动重定向，旧 URL: {url} -> 新 URL: {new_url}")
-                        link['url'] = new_url  # 更新为新的可访问地址
-                        auto_modified_links_report.append(link)  # 记录为自动重定向
-                        valid_links.append(link)  # 保留更新后的链接
-                    else:
-                        print(f"链接需人工审核，URL: {url}，标记为有效。")
-                        review_links_report.append(link)  # 标记为人工审核
-                        valid_links.append(link)  # 将其视为有效链接
                 else:
-                    valid_links.append(link)  # 保留无 URL 的链接
+                    valid_links.append(link)  # 保留无 URL 的链接或被排除的链接
 
             category['links'] = valid_links
 
@@ -185,28 +153,8 @@ def clean_invalid_urls(yaml_file, report_file):
     report_dir = os.path.dirname(report_file)
     os.makedirs(report_dir, exist_ok=True)
 
-    try:
-        with open(report_file, 'r', encoding='utf-8') as report:
-            old_content = report.read()
-    except FileNotFoundError:
-        old_content = ""
-
     current_date = datetime.now().strftime("%Y年%m月%d日 %H:%M")
     new_report_content = f"## 检查日期: {current_date}\n\n"
-
-    if auto_modified_links_report:
-        new_report_content += "# 自动修改的重定向网站\n\n"
-        for link in auto_modified_links_report:
-            new_report_content += f"- 标题: {link.get('title', '未知')}\n"
-            new_report_content += f"  原始 URL: {link.get('url', '无 URL')}\n"
-            new_report_content += f"  描述: {link.get('description', '无描述')}\n\n"
-
-    if review_links_report:
-        new_report_content += "# 需人工检查的链接\n\n"
-        for link in review_links_report:
-            new_report_content += f"- 标题: {link.get('title', '未知')}\n"
-            new_report_content += f"  URL: {link.get('url', '无 URL')}\n"
-            new_report_content += f"  描述: {link.get('description', '无描述')}\n\n"
 
     if invalid_links_report:
         new_report_content += "# 已失效链接\n\n"
@@ -214,8 +162,7 @@ def clean_invalid_urls(yaml_file, report_file):
             new_report_content += f"- 标题: {link.get('title', '未知')}\n"
             new_report_content += f"  URL: {link.get('url', '无 URL')}\n"
             new_report_content += f"  描述: {link.get('description', '无描述')}\n\n"
-
-    if not auto_modified_links_report and not invalid_links_report and not review_links_report:
+    else:
         new_report_content += "# 当前所有链接均有效\n"
 
     with open(report_file, 'a', encoding='utf-8') as report:  # 使用 'a' 模式以追加内容
