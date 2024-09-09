@@ -73,9 +73,8 @@ def check_url(url, retries=5, timeout=20):
 
     for attempt in range(retries):
         try:
-            with httpx.Client() as client:
-                # 使用默认超时设置
-                response = client.get(url, headers=headers, timeout=timeout)
+            with httpx.Client(timeout=timeout) as client:
+                response = client.get(url, headers=headers)
                 if response.status_code == 200:
                     return True, url
                 elif response.status_code == 404:
@@ -138,7 +137,6 @@ def clean_invalid_urls(yaml_file, report_file):
     for category in data:
         if 'links' in category:
             valid_links = []
-            links_to_remove = []  # 存储需要移除的链接
             for link in category['links']:
                 url = link.get('url')
                 if url:
@@ -148,7 +146,6 @@ def clean_invalid_urls(yaml_file, report_file):
                     elif is_valid is False:
                         print(f"移除无效链接条目: {link}")
                         invalid_links_report.append(link)  # 记录无效链接
-                        links_to_remove.append(link)  # 添加到待移除列表
                     elif new_url:  # 如果有新的可访问地址
                         print(f"自动重定向，旧 URL: {url} -> 新 URL: {new_url}")
                         link['url'] = new_url  # 更新为新的可访问地址
@@ -162,33 +159,6 @@ def clean_invalid_urls(yaml_file, report_file):
                     valid_links.append(link)  # 保留无 URL 的链接
 
             category['links'] = valid_links
-
-        elif 'list' in category:
-            for item in category['list']:
-                if 'links' in item:
-                    valid_links = []
-                    for link in item['links']:
-                        url = link.get('url')
-                        if url:
-                            is_valid, new_url = check_url(url)
-                            if is_valid:
-                                valid_links.append(link)  # 保留有效链接
-                            elif is_valid is False:
-                                print(f"移除无效链接条目: {link}")
-                                invalid_links_report.append(link)  # 记录无效链接
-                            elif new_url:  # 如果有新的可访问地址
-                                print(f"自动重定向，旧 URL: {url} -> 新 URL: {new_url}")
-                                link['url'] = new_url  # 更新为新的可访问地址
-                                auto_modified_links_report.append(link)  # 记录为自动重定向
-                                valid_links.append(link)  # 保留更新后的链接
-                            else:
-                                print(f"链接需人工审核，URL: {url}，标记为有效。")
-                                review_links_report.append(link)  # 标记为人工审核
-                                valid_links.append(link)  # 将其视为有效链接
-                        else:
-                            valid_links.append(link)  # 保留无 URL 的链接
-
-                    item['links'] = valid_links
 
     write_yaml(yaml_file, data)
 
