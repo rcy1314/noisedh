@@ -57,7 +57,6 @@ def should_exclude_url(url):
 
 def check_url(url, retries=3, timeout=10):
     """检查 URL 的有效性，支持重试机制。"""
-    # 检查 URL 是否在排除列表中
     if should_exclude_url(url):
         return True, url  # 直接标记为有效
 
@@ -68,7 +67,7 @@ def check_url(url, retries=3, timeout=10):
     for attempt in range(retries):
         try:
             conn = http.client.HTTPConnection(host, timeout=timeout)
-            conn.request("HEAD", path)  # 使用 HEAD 请求以减少数据传输
+            conn.request("HEAD", path)
             response = conn.getresponse()
             conn.close()
 
@@ -77,18 +76,16 @@ def check_url(url, retries=3, timeout=10):
             elif response.status == 404:
                 print(f"链接未找到 (404)，URL: {url}，标记为删除。")
                 return False, None  # 标记为删除
-            elif response.status in [403, 502, 526]:
-                print(f"访问被拒绝或服务器错误，URL: {url}，标记为审核。")
-                return None, None  # 标记为人工审核
             else:
-                print(f"收到状态码 {response.status}，URL: {url}，继续重试...")
-        
+                print(f"收到状态码 {response.status}，URL: {url}，继续保留。")
+                return True, url  # 只保留有效链接，不移除
+
         except Exception as e:
             print(f"请求 URL {url} 发生错误: {e}，正在重试...")
             time.sleep(2)  # 等待后重试
 
     print(f"经过 {retries} 次尝试验证 URL 失败: {url}")
-    return False, None
+    return False, None  # 在重试失败后标记为无效
 
 def write_yaml(yaml_file, data):
     """将更新后的数据写回 YAML 文件，并保留第一行 '---'。"""
@@ -98,6 +95,10 @@ def write_yaml(yaml_file, data):
 
 def clean_invalid_urls(yaml_file, report_file):
     """清理 YAML 文件中的无效 URL 并生成报告。"""
+    auto_modified_links_report = []
+    review_links_report = []
+    invalid_links_report = []
+
     try:
         with open(yaml_file, 'r', encoding='utf-8') as file:
             content = file.read()
@@ -117,33 +118,115 @@ def clean_invalid_urls(yaml_file, report_file):
         print("YAML 文件不包含条目列表。")
         return
 
-    invalid_links_report = []
-
     # 处理每个分类
     for category in data:
+        # 检查是否包含 links
         if 'links' in category:
             valid_links = []
+            links_to_remove = []  # 存储需要移除的链接
             for link in category['links']:
                 url = link.get('url')
-                if url and not should_exclude_url(url):
+                if url:
                     is_valid, new_url = check_url(url)
                     if is_valid:
                         valid_links.append(link)  # 保留有效链接
-                    else:
+                    elif is_valid is False:
+                        # 记录无效链接并标记为删除
                         print(f"移除无效链接条目: {link}")
                         invalid_links_report.append(link)  # 记录无效链接
+                        links_to_remove.append(link)  # 添加到待移除列表
+                    elif new_url:  # 如果有新的可访问地址
+                        print(f"自动重定向，旧 URL: {url} -> 新 URL: {new_url}")
+                        link['url'] = new_url  # 更新为新的可访问地址
+                        auto_modified_links_report.append(link)  # 记录为自动重定向
+                        valid_links.append(link)  # 保留更新后的链接
+                    else:
+                        # 仅标记为人工审核，视为有效链接
+                        print(f"链接需人工审核，URL: {url}，标记为有效。")
+                        review_links_report.append(link)  # 标记为人工审核
+                        valid_links.append(link)  # 将其视为有效链接
                 else:
-                    valid_links.append(link)  # 保留无 URL 的链接或被排除的链接
+                    valid_links.append(link)  # 保留无 URL 的链接
 
+            # 从原始链接列表中移除无效链接
+            for link in links_to_remove:
+                category['links'].remove(link)
+
+            # 更新链接列表，仅保留有效链接
             category['links'] = valid_links
 
+            # 立即写回更新后的数据到 YAML 文件
+            write_yaml(yaml_file, data)
+
+        # 检查是否包含 list
+        elif 'list' in category:
+            for item in category['list']:
+                if 'links' in item:
+                    valid_links = []
+                    links_to_remove = []  # 存储需要移除的链接
+                    for link in item['links']:
+                        url = link.get('url')
+                        if url:
+                            is_valid, new_url = check_url(url)
+                            if is_valid:
+                                valid_links.append(link)  # 保留有效链接
+                            elif is_valid is False:
+                                # 记录无效链接并标记为删除
+                                print(f"移除无效链接条目: {link}")
+                                invalid_links_report.append(link)  # 记录无效链接
+                                links_to_remove.append(link)  # 添加到待移除列表
+                            elif new_url:  # 如果有新的可访问地址
+                                print(f"自动重定向，旧 URL: {url} -> 新 URL: {new_url}")
+                                link['url'] = new_url  # 更新为新的可访问地址
+                                auto_modified_links_report.append(link)  # 记录为自动重定向
+                                valid_links.append(link)  # 保留更新后的链接
+                            else:
+                                # 仅标记为人工审核，视为有效链接
+                                print(f"链接需人工审核，URL: {url}，标记为有效。")
+                                review_links_report.append(link)  # 标记为人工审核
+                                valid_links.append(link)  # 将其视为有效链接
+                        else:
+                            valid_links.append(link)  # 保留无 URL 的链接
+
+                    # 从原始链接列表中移除无效链接
+                    for link in links_to_remove:
+                        item['links'].remove(link)
+
+                    # 更新链接列表，仅保留有效链接
+                    item['links'] = valid_links
+
+                    # 立即写回更新后的数据到 YAML 文件
+                    write_yaml(yaml_file, data)
+
+    # 最后写回更新后的数据到 YAML 文件
     write_yaml(yaml_file, data)
 
+    # 生成处理后的报告
     report_dir = os.path.dirname(report_file)
     os.makedirs(report_dir, exist_ok=True)
 
+    try:
+        with open(report_file, 'r', encoding='utf-8') as report:
+            old_content = report.read()
+    except FileNotFoundError:
+        old_content = ""
+
     current_date = datetime.now().strftime("%Y年%m月%d日 %H:%M")
     new_report_content = f"## 检查日期: {current_date}\n\n"
+
+    if auto_modified_links_report:
+        new_report_content += "# 自动修改的重定向网站\n\n"
+        for link in auto_modified_links_report:
+            new_report_content += f"- 标题: {link.get('title', '未知')}\n"
+            new_report_content += f"  原始 URL: {link.get('url', '无 URL')}\n"
+            new_report_content += f"  描述: {link.get('description', '无描述')}\n\n"
+
+    if review_links_report:
+        new_report_content += "# 需人工检查的链接\n\n"
+        for link in review_links_report:
+            new_report_content += f"- 标题: {link.get('title', '未知')}\n"
+            new_report_content += f"  URL: {link.get('url', '无 URL')}\n"
+            new_report_content += f"  描述: {link.get('description', '无描述')}\n\n"
 
     if invalid_links_report:
         new_report_content += "# 已失效链接\n\n"
@@ -151,10 +234,12 @@ def clean_invalid_urls(yaml_file, report_file):
             new_report_content += f"- 标题: {link.get('title', '未知')}\n"
             new_report_content += f"  URL: {link.get('url', '无 URL')}\n"
             new_report_content += f"  描述: {link.get('description', '无描述')}\n\n"
-    else:
+
+    if not auto_modified_links_report and not invalid_links_report and not review_links_report:
         new_report_content += "# 当前所有链接均有效\n"
 
-    with open(report_file, 'a', encoding='utf-8') as report:  # 使用 'a' 模式以追加内容
+    # 将报告写入文件
+    with open(report_file, 'a', encoding='utf-8') as report:
         report.write(new_report_content)  # 直接写入新报告内容
 
 def main(yaml_file_path, report_file_name):
