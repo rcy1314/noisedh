@@ -1,7 +1,8 @@
 import yaml
 import os
 import time
-import subprocess
+import http.client
+from urllib.parse import urlparse
 from datetime import datetime
 
 # 定义跳过检测 URL 部分列表
@@ -54,52 +55,40 @@ def should_exclude_url(url):
             return True
     return False
 
-def ping_url(url, retries=5):
-    """通过 ping 和 curl 命令检查 URL 的有效性，支持重试机制。"""
-    hostname = url.split("//")[-1].split("/")[0]  # 提取主机名
-    print(f"正在检查 URL: {url}，提取的主机名: {hostname}")  # 调试信息
+def check_url(url, retries=3, timeout=10):
+    """检查 URL 的有效性，支持重试机制。"""
+    # 检查 URL 是否在排除列表中
+    if should_exclude_url(url):
+        return True, url  # 直接标记为有效
 
-    # 尝试使用 ping
+    parsed_url = urlparse(url)
+    host = parsed_url.netloc
+    path = parsed_url.path if parsed_url.path else "/"
+
     for attempt in range(retries):
         try:
-            output = subprocess.run(
-                ["ping", "-c", "1", hostname],
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
-                universal_newlines=True
-            )
-            print(f"Ping 输出: {output.stdout}")  # 打印 ping 输出
-            if output.returncode == 0:
-                return True, url
-            else:
-                print(f"Ping 失败，URL: {url}，尝试 {attempt + 1}")
-                time.sleep(2)
-        except Exception as e:
-            print(f"Ping URL {url} 发生错误: {e}，正在重试...")
-            time.sleep(2)
+            conn = http.client.HTTPConnection(host, timeout=timeout)
+            conn.request("HEAD", path)  # 使用 HEAD 请求以减少数据传输
+            response = conn.getresponse()
+            conn.close()
 
-    # 如果 ping 失败，尝试使用 curl
-    for attempt in range(retries):
-        try:
-            output = subprocess.run(
-                ["curl", "-Is", url],  # 使用 -I 选项获取 HTTP 头
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
-                universal_newlines=True
-            )
-            print(f"curl 输出: {output.stdout}")  # 打印 curl 输出
-            if output.returncode == 0:
-                return True, url
+            if response.status == 200:
+                return True, url  # 返回有效链接
+            elif response.status == 404:
+                print(f"链接未找到 (404)，URL: {url}，标记为删除。")
+                return False, None  # 标记为删除
+            elif response.status in [403, 502, 526]:
+                print(f"访问被拒绝或服务器错误，URL: {url}，标记为审核。")
+                return None, None  # 标记为人工审核
             else:
-                print(f"curl 失败，URL: {url}，尝试 {attempt + 1}")
-                time.sleep(2)
+                print(f"收到状态码 {response.status}，URL: {url}，继续重试...")
+        
         except Exception as e:
-            print(f"curl URL {url} 发生错误: {e}，正在重试...")
-            time.sleep(2)
+            print(f"请求 URL {url} 发生错误: {e}，正在重试...")
+            time.sleep(2)  # 等待后重试
 
     print(f"经过 {retries} 次尝试验证 URL 失败: {url}")
     return False, None
-
 
 def write_yaml(yaml_file, data):
     """将更新后的数据写回 YAML 文件，并保留第一行 '---'。"""
@@ -137,7 +126,7 @@ def clean_invalid_urls(yaml_file, report_file):
             for link in category['links']:
                 url = link.get('url')
                 if url and not should_exclude_url(url):
-                    is_valid, new_url = ping_url(url)
+                    is_valid, new_url = check_url(url)
                     if is_valid:
                         valid_links.append(link)  # 保留有效链接
                     else:
