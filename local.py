@@ -244,6 +244,7 @@ def clean_invalid_urls(yaml_file, report_file):
 
     if review_links_report:
         new_report_content += "# 需人工检查的链接\n\n"
+        new_report_content += "### 此项不会自动删除链接\n\n"  # 添加说明
         for link in review_links_report:
             new_report_content += f"- 标题: {link.get('title', '未知')}\n"
             new_report_content += f"  URL: {link.get('url', '无 URL')}\n"
@@ -251,6 +252,7 @@ def clean_invalid_urls(yaml_file, report_file):
 
     if invalid_links_report:
         new_report_content += "# 已失效链接\n\n"
+        new_report_content += "### 此项会自动删除链接\n\n"  # 添加说明
         for link in invalid_links_report:
             new_report_content += f"- 标题: {link.get('title', '未知')}\n"
             new_report_content += f"  URL: {link.get('url', '无 URL')}\n"
