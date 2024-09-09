@@ -37,6 +37,9 @@ EXCLUDED_URL_PARTS = [
     "noiseyp.top",
     "pixabay.com",
     "bratgenerator.xyz",
+    "noisework.cn",
+    "noisevip.cn",
+    "noiseblogs.top",
     # 可以根据需要添加更多部分
 ]
 
@@ -57,6 +60,17 @@ def should_exclude_url(url):
             return True
     return False
 
+def get_proxy():
+    """请求新的代理地址。"""
+    try:
+        response = httpx.get("https://api.geoproxy.in/http")
+        if response.status_code == 200:
+            proxy_data = response.json()
+            return proxy_data.get("proxy")  # 假设返回的 JSON 中有 "proxy" 字段
+    except Exception as e:
+        print(f"获取代理时发生错误: {e}")
+    return None
+
 def check_url(url, retries=5, timeout=20):
     """检查 URL 的有效性，支持重试机制。"""
     headers = {
@@ -72,32 +86,37 @@ def check_url(url, retries=5, timeout=20):
         return False, None
 
     for attempt in range(retries):
-        try:
-            with httpx.Client(timeout=timeout) as client:
-                response = client.get(url, headers=headers)
-                if response.status_code == 200:
-                    return True, url
-                elif response.status_code == 404:
-                    print(f"链接未找到 (404)，URL: {url}，标记为删除。")
-                    return False, None
-                elif response.status_code == 502:
-                    print(f"服务器错误状态码 (502)，URL: {url}，标记为失效链接。")
-                    return False, None
-                elif response.status_code in [403, 526]:
-                    print(f"访问被拒绝 (403) 或 SSL 问题 (526)，URL: {url}，标记为审核。")
-                    return None, None
-                elif "Error establishing a database connection" in response.text:
-                    print(f"数据库连接错误，URL: {url}，标记为审核。")
-                    return None, None
-                elif 400 <= response.status_code < 500:
-                    print(f"客户端错误状态码 {response.status_code}，URL: {url}，保持有效。")
-                    return True, url
-                elif 500 <= response.status_code < 600:
-                    print(f"服务器错误状态码 {response.status_code}，尝试 {attempt + 1}")
-                    time.sleep(2)
-        except (httpx.TimeoutException, httpx.NetworkError, httpx.RemoteProtocolError) as e:
-            print(f"URL {url} 发生错误: {e}，正在重试...")
-            time.sleep(2)
+        proxy = get_proxy()  # 获取新的代理地址
+        if proxy:
+            print(f"使用代理: {proxy}")
+            try:
+                with httpx.Client(proxies={"http://": proxy, "https://": proxy}, timeout=timeout) as client:
+                    response = client.get(url, headers=headers)
+                    if response.status_code == 200:
+                        return True, url
+                    elif response.status_code == 404:
+                        print(f"链接未找到 (404)，URL: {url}，标记为删除。")
+                        return False, None
+                    elif response.status_code == 502:
+                        print(f"服务器错误状态码 (502)，URL: {url}，标记为失效链接。")
+                        return False, None
+                    elif response.status_code in [403, 526]:
+                        print(f"访问被拒绝 (403) 或 SSL 问题 (526)，URL: {url}，标记为审核。")
+                        return None, None
+                    elif "Error establishing a database connection" in response.text:
+                        print(f"数据库连接错误，URL: {url}，标记为审核。")
+                        return None, None
+                    elif 400 <= response.status_code < 500:
+                        print(f"客户端错误状态码 {response.status_code}，URL: {url}，保持有效。")
+                        return True, url
+                    elif 500 <= response.status_code < 600:
+                        print(f"服务器错误状态码 {response.status_code}，尝试 {attempt + 1}")
+                        time.sleep(2)
+            except (httpx.TimeoutException, httpx.NetworkError, httpx.RemoteProtocolError) as e:
+                print(f"URL {url} 发生错误: {e}，正在重试...")
+                time.sleep(2)
+        else:
+            print("获取代理失败，正在重试...")
 
     print(f"经过 {retries} 次尝试验证 URL 失败: {url}")
     return False, None
@@ -209,5 +228,5 @@ def main(yaml_file_path, report_file_name):
 
 if __name__ == "__main__":
     yaml_file_path = './data/webstack.yml'
-    report_file_name = '../content/invalidlinks.md'
+    report_file_name = './content/invalidlinks.md'
     main(yaml_file_path, report_file_name)

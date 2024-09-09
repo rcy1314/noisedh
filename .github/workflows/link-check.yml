@@ -1,4 +1,3 @@
-# .github/workflows/link-check.yml
 name: Link Checker
 
 on:
@@ -26,7 +25,7 @@ jobs:
 
       - name: Run Link Checker
         run: |
-          python main.py ./data/webstack.yml ../content/invalidlinks.md
+          python main.py ./data/webstack.yml ./content/invalidlinks.md  # 修改路径
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 用于访问 GitHub API（如果需要）
 
@@ -34,7 +33,7 @@ jobs:
         run: |
           git config --local user.name "rcy1314"
           git config --local user.email "1129159201@qq.com"
-          git add ./data/webstack.yml ../content/invalidlinks.md
+          git add ./data/webstack.yml ./content/invalidlinks.md  # 修改路径
           git commit -m "Update links after check" || echo "No changes to commit"
           git push
         env:
