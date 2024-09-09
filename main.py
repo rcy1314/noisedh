@@ -76,7 +76,8 @@ def check_url(url, retries=5, timeout=10):
         try:
             # 随机选择 User-Agent
             session.headers.update({'User-Agent': random.choice(USER_AGENTS)})
-            response = session.get(url, timeout=timeout)
+            # 忽略 SSL 证书验证
+            response = session.get(url, timeout=timeout, verify=False)
 
             if response.status_code == 200:
                 return True, url  # 返回有效链接
@@ -91,6 +92,9 @@ def check_url(url, retries=5, timeout=10):
             print(f"请求超时，URL: {url}，正在重试...")
         except requests.ConnectionError as e:
             print(f"连接错误，URL: {url}，错误信息: {e}，正在重试...")
+        except requests.SSLError as e:
+            print(f"SSL 错误，URL: {url}，错误信息: {e}，将其视为有效链接。")
+            return True, url  # 将 SSL 错误的链接视为有效
         except requests.RequestException as e:
             print(f"请求 URL {url} 发生错误: {e}，正在重试...")
 
