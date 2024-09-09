@@ -95,11 +95,13 @@ def check_url(url, retries=5, timeout=10):
         except requests.SSLError as e:
             print(f"SSL 错误，URL: {url}，错误信息: {e}，将其视为有效链接。")
             return True, url  # 将 SSL 错误的链接视为有效
+        except requests.exceptions.RemoteDisconnected as e:
+            print(f"远程断开连接，URL: {url}，错误信息: {e}，正在重试...")
         except requests.RequestException as e:
             print(f"请求 URL {url} 发生错误: {e}，正在重试...")
 
         # 增加随机的重试间隔
-        time.sleep(random.randint(5, 10))  # 随机等待 5 到 10 秒
+        time.sleep(random.randint(5, 15))  # 随机等待 5 到 15 秒
 
     print(f"经过 {retries} 次尝试验证 URL 失败: {url}")
     return False, None  # 在重试失败后标记为无效
