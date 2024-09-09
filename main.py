@@ -1,13 +1,9 @@
 import yaml
-import requests
+import httpx
 from datetime import datetime
-import urllib3
 import os
 import time
 import socket
-
-# Disable SSL warnings
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # 定义跳过检测 URL 部分列表
 EXCLUDED_URL_PARTS = [
@@ -63,7 +59,6 @@ def should_exclude_url(url):
 
 def check_url(url, retries=3, timeout=20):
     """检查 URL 的有效性，支持重试机制。"""
-    session = requests.Session()
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
     }
@@ -80,28 +75,29 @@ def check_url(url, retries=3, timeout=20):
 
     for attempt in range(retries):
         try:
-            response = session.get(url, headers=headers, timeout=timeout, allow_redirects=True, verify=False)
-            if response.status_code == 200:
-                return True, url  # 返回有效链接
-            elif response.status_code == 404:
-                print(f"链接未找到 (404)，URL: {url}，标记为删除。")
-                return False, None  # 标记为删除
-            elif response.status_code == 502:
-                print(f"服务器错误状态码 (502)，URL: {url}，标记为失效链接。")
-                return False, None  # 标记为失效链接
-            elif response.status_code in [403, 526]:
-                print(f"访问被拒绝 (403) 或 SSL 问题 (526)，URL: {url}，标记为审核。")
-                return None, None  # 标记为人工审核
-            elif "Error establishing a database connection" in response.text:
-                print(f"数据库连接错误，URL: {url}，标记为审核。")
-                return None, None  # 标记为人工审核
-            elif 400 <= response.status_code < 500:
-                print(f"客户端错误状态码 {response.status_code}，URL: {url}，保持有效。")
-                return True, url  # 假设有效
-            elif 500 <= response.status_code < 600:
-                print(f"服务器错误状态码 {response.status_code}，尝试 {attempt + 1}")
-                time.sleep(2)  # 等待 2 秒后重试
-        except (requests.Timeout, requests.ConnectionError, requests.RequestException) as e:
+            with httpx.Client() as client:
+                response = client.get(url, headers=headers, timeout=timeout)
+                if response.status_code == 200:
+                    return True, url  # 返回有效链接
+                elif response.status_code == 404:
+                    print(f"链接未找到 (404)，URL: {url}，标记为删除。")
+                    return False, None  # 标记为删除
+                elif response.status_code == 502:
+                    print(f"服务器错误状态码 (502)，URL: {url}，标记为失效链接。")
+                    return False, None  # 标记为失效链接
+                elif response.status_code in [403, 526]:
+                    print(f"访问被拒绝 (403) 或 SSL 问题 (526)，URL: {url}，标记为审核。")
+                    return None, None  # 标记为人工审核
+                elif "Error establishing a database connection" in response.text:
+                    print(f"数据库连接错误，URL: {url}，标记为审核。")
+                    return None, None  # 标记为人工审核
+                elif 400 <= response.status_code < 500:
+                    print(f"客户端错误状态码 {response.status_code}，URL: {url}，保持有效。")
+                    return True, url  # 假设有效
+                elif 500 <= response.status_code < 600:
+                    print(f"服务器错误状态码 {response.status_code}，尝试 {attempt + 1}")
+                    time.sleep(2)  # 等待 2 秒后重试
+        except (httpx.TimeoutException, httpx.NetworkError) as e:
             print(f"URL {url} 发生错误: {e}，正在重试...")
             time.sleep(2)  # 等待后重试
 
@@ -141,7 +137,6 @@ def clean_invalid_urls(yaml_file, report_file):
 
     # 处理每个分类
     for category in data:
-        # 检查是否包含 links
         if 'links' in category:
             valid_links = []
             links_to_remove = []  # 存储需要移除的链接
@@ -152,7 +147,6 @@ def clean_invalid_urls(yaml_file, report_file):
                     if is_valid:
                         valid_links.append(link)  # 保留有效链接
                     elif is_valid is False:
-                        # 记录无效链接并标记为删除
                         print(f"移除无效链接条目: {link}")
                         invalid_links_report.append(link)  # 记录无效链接
                         links_to_remove.append(link)  # 添加到待移除列表
@@ -162,17 +156,14 @@ def clean_invalid_urls(yaml_file, report_file):
                         auto_modified_links_report.append(link)  # 记录为自动重定向
                         valid_links.append(link)  # 保留更新后的链接
                     else:
-                        # 仅标记为人工审核，视为有效链接
                         print(f"链接需人工审核，URL: {url}，标记为有效。")
                         review_links_report.append(link)  # 标记为人工审核
                         valid_links.append(link)  # 将其视为有效链接
                 else:
                     valid_links.append(link)  # 保留无 URL 的链接
 
-            # 更新链接列表，仅保留有效链接
             category['links'] = valid_links
 
-        # 检查是否包含 list
         elif 'list' in category:
             for item in category['list']:
                 if 'links' in item:
@@ -184,7 +175,6 @@ def clean_invalid_urls(yaml_file, report_file):
                             if is_valid:
                                 valid_links.append(link)  # 保留有效链接
                             elif is_valid is False:
-                                # 记录无效链接并标记为删除
                                 print(f"移除无效链接条目: {link}")
                                 invalid_links_report.append(link)  # 记录无效链接
                             elif new_url:  # 如果有新的可访问地址
@@ -193,20 +183,16 @@ def clean_invalid_urls(yaml_file, report_file):
                                 auto_modified_links_report.append(link)  # 记录为自动重定向
                                 valid_links.append(link)  # 保留更新后的链接
                             else:
-                                # 仅标记为人工审核，视为有效链接
                                 print(f"链接需人工审核，URL: {url}，标记为有效。")
                                 review_links_report.append(link)  # 标记为人工审核
                                 valid_links.append(link)  # 将其视为有效链接
                         else:
                             valid_links.append(link)  # 保留无 URL 的链接
 
-                    # 更新链接列表，仅保留有效链接
                     item['links'] = valid_links
 
-    # 最后写回更新后的数据到 YAML 文件
     write_yaml(yaml_file, data)
 
-    # 生成处理后的报告
     report_dir = os.path.dirname(report_file)
     os.makedirs(report_dir, exist_ok=True)
 
