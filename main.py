@@ -74,7 +74,8 @@ def check_url(url, retries=5, timeout=20):
     for attempt in range(retries):
         try:
             with httpx.Client() as client:
-                response = client.get(url, headers=headers, timeout=httpx.Timeout(connect=10.0, read=30.0))
+                # 使用默认超时设置
+                response = client.get(url, headers=headers, timeout=timeout)
                 if response.status_code == 200:
                     return True, url
                 elif response.status_code == 404:
