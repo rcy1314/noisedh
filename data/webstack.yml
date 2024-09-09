@@ -4497,6 +4497,10 @@
       logo: https://www.mimicpc.com/favicon.ico
       url: https://www.mimicpc.com/
       description: Mimicpc 是一款免费的 AI 在线工具，包括 Flux、SD 等流行的 AI 工具！
+    - title: AI Comic Factory
+      logo: https://aicomicfactory.cc/favicon.ico
+      url: https://aicomicfactory.cc
+      description: 通过 AI Comic Factory 释放您的创造力！我们的 AI 漫画书生成器可帮助您创建独特的漫画书。今天就开始您的故事吧
   - term: AI·绘画
     links:
     - title: stability
@@ -5386,6 +5390,14 @@
       logo: https://okp.ai/logo.ico
       url: https://okp.ai
       description: Okp AI FutureTools 收集所有！最好的人工智能工具，让你也能成为超人。
+    - title: 小白兔 AI
+      logo: https://aigo.tools/favicon.ico
+      url: https://aigo.tools
+      description: 通过 在 AIGO.tools AI 工具目录中找到您最喜欢的 AI 工具。我们的 AI 工具列表由 GPT-4o 每天更新。提交您的 AI 工具是免费的，有助于增强您的 SEO
+    - title: tyy.ai
+      logo: https://tyy.ai/wp-content/uploads/2024/05/icon-1-150x150.png
+      url: https://tyy.ai
+      description: 通过tyy.ai发现最佳AI工具列表和AI工具目录
 - taxonomy: 极客下载
   icon: fas fa-circle
   list:
@@ -7363,3 +7375,7 @@
       logo: https://bestmemecoin.org/favicon.ico
       url: https://bestmemecoin.org
       description: 在 Best MEME Coin 上发掘下一个大热的模因币。我们使用 AI 分析趋势，提供专家评论，并帮助您在模因币爆发之前发现顶级模因币
+    - title: Best MEME Coin
+      logo: https://memeisgame.com/favicon.ico
+      url: https://memeisgame.com
+      description: 在 MEME is Game 上发现最新和最好的模因币，其中包含 AI 驱动的见解。随时了解顶级模因币的最新趋势、评论和 AI 分析，包括 Hot New Meme Coins 和 Best Meme Coins
