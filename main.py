@@ -1,7 +1,7 @@
 import yaml
 import os
 import time
-import http.client
+import requests
 from urllib.parse import urlparse
 from datetime import datetime
 
@@ -60,27 +60,19 @@ def check_url(url, retries=3, timeout=10):
     if should_exclude_url(url):
         return True, url  # 直接标记为有效
 
-    parsed_url = urlparse(url)
-    host = parsed_url.netloc
-    path = parsed_url.path if parsed_url.path else "/"
-
     for attempt in range(retries):
         try:
-            conn = http.client.HTTPConnection(host, timeout=timeout)
-            conn.request("HEAD", path)
-            response = conn.getresponse()
-            conn.close()
-
-            if response.status == 200:
+            response = requests.head(url, timeout=timeout, allow_redirects=True)
+            if response.status_code == 200:
                 return True, url  # 返回有效链接
-            elif response.status == 404:
+            elif response.status_code == 404:
                 print(f"链接未找到 (404)，URL: {url}，标记为删除。")
                 return False, None  # 标记为删除
             else:
-                print(f"收到状态码 {response.status}，URL: {url}，继续保留。")
+                print(f"收到状态码 {response.status_code}，URL: {url}，继续保留。")
                 return True, url  # 只保留有效链接，不移除
 
-        except Exception as e:
+        except requests.RequestException as e:
             print(f"请求 URL {url} 发生错误: {e}，正在重试...")
             time.sleep(2)  # 等待后重试
 
