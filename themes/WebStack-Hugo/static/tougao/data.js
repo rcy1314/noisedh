@@ -11,7 +11,7 @@ new Valine({
     path: path,
     notify: true,
     enableQQ: true,
-    serverURLs: 'https://s9cewscb.lc-cn-n1-shared.com',
+    serverURLs: 'https://ment.noisework.cn',
     recordIP: true,
     lang: isEN ? 'en' : 'zh-cn',
     visitor: true,
