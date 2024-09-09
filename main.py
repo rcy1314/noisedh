@@ -94,8 +94,8 @@ def check_url(url, retries=5, timeout=10):
             print(f"SSL 错误，URL: {url}，错误信息: {e}，将其视为有效链接。")
             return True, url  # 将 SSL 错误的链接视为有效
         except requests.exceptions.RemoteDisconnected as e:
-            print(f"远程断开连接，URL: {url}，错误信息: {e}，将其视为有效链接。")
-            return True, url  # 将 RemoteDisconnected 错误视为有效链接
+            print(f"远程断开连接，URL: {url}，错误信息: {e}，标记为有效但需人工审核。")
+            return True, url  # 将 RemoteDisconnected 错误视为有效链接并标记为人工审核
         except requests.RequestException as e:
             print(f"请求 URL {url} 发生错误: {e}，正在重试...")
 
@@ -269,6 +269,6 @@ def main(yaml_file_path, report_file_name):
     print("URL 验证过程完成。")
 
 if __name__ == "__main__":
-    yaml_file_path = './data/webstack.yml'
-    report_file_name = './content/invalidlinks.md'
+    yaml_file_path = './data/webstack.yml'  # 替换为你的 YAML 文件路径
+    report_file_name = './content/invalidlinks.md'  # 替换为你的报告文件路径
     main(yaml_file_path, report_file_name)
