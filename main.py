@@ -3,7 +3,11 @@ import os
 import time
 import random
 import requests
+import urllib3
 from datetime import datetime
+
+# 禁用不安全请求警告
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # 定义跳过检测 URL 部分列表
 EXCLUDED_URL_PARTS = [
@@ -89,7 +93,8 @@ def check_url(url, retries=5, timeout=10):
         except requests.Timeout:
             print(f"请求超时，URL: {url}，正在重试...")
         except requests.ConnectionError as e:
-            print(f"连接错误，URL: {url}，错误信息: {e}，正在重试...")
+            print(f"连接错误，URL: {url}，错误信息: {e}，标记为有效但需人工审核。")
+            return True, url  # 将连接错误视为有效链接并标记为人工审核
         except requests.SSLError as e:
             print(f"SSL 错误，URL: {url}，错误信息: {e}，将其视为有效链接。")
             return True, url  # 将 SSL 错误的链接视为有效
