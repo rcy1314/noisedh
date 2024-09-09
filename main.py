@@ -1,6 +1,7 @@
 import yaml
 import os
 import time
+import random
 import requests
 from urllib.parse import urlparse
 from datetime import datetime
@@ -47,6 +48,15 @@ EXCLUDED_URL_PARTS = [
     # 可以根据需要添加更多部分
 ]
 
+# 随机 User-Agent 列表
+USER_AGENTS = [
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0.2 Safari/605.1.15',
+    'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0',
+    'Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Mobile Safari/537.36',
+    # 可以添加更多 User-Agent
+]
+
 def should_exclude_url(url):
     """检查 URL 是否包含待检测部分，返回是否应排除。"""
     for part in EXCLUDED_URL_PARTS:
@@ -61,10 +71,11 @@ def check_url(url, retries=5, timeout=10):
         return True, url  # 直接标记为有效
 
     session = requests.Session()  # 创建一个会话对象
-    session.headers.update({'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'})
 
     for attempt in range(retries):
         try:
+            # 随机选择 User-Agent
+            session.headers.update({'User-Agent': random.choice(USER_AGENTS)})
             response = session.get(url, timeout=timeout)
 
             if response.status_code == 200:
@@ -83,7 +94,8 @@ def check_url(url, retries=5, timeout=10):
         except requests.RequestException as e:
             print(f"请求 URL {url} 发生错误: {e}，正在重试...")
 
-        time.sleep(5)  # 增加重试间隔
+        # 增加随机的重试间隔
+        time.sleep(random.randint(5, 10))  # 随机等待 5 到 10 秒
 
     print(f"经过 {retries} 次尝试验证 URL 失败: {url}")
     return False, None  # 在重试失败后标记为无效
