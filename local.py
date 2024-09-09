@@ -99,7 +99,7 @@ def check_url(url, retries=3, timeout=20):
                 print(f"客户端错误状态码 {response.status_code}，URL: {url}，保持有效。")
                 return True, url  # 假设有效
             elif 500 <= response.status_code < 600:
-                print(f"服务器错误状态码 {response.status_code}，尝试 {attempt + 1}")
+                print(f"服务器错误状态码 {response.status_code}，URL: {url}，尝试 {attempt + 1}")
                 time.sleep(2)  # 等待 2 秒后重试
         except (requests.Timeout, requests.ConnectionError, requests.RequestException) as e:
             print(f"URL {url} 发生错误: {e}，正在重试...")
@@ -169,14 +169,22 @@ def clean_invalid_urls(yaml_file, report_file):
                 else:
                     valid_links.append(link)  # 保留无 URL 的链接
 
+            # 从原始链接列表中移除无效链接
+            for link in links_to_remove:
+                category['links'].remove(link)
+
             # 更新链接列表，仅保留有效链接
             category['links'] = valid_links
+
+            # 立即写回更新后的数据到 YAML 文件
+            write_yaml(yaml_file, data)
 
         # 检查是否包含 list
         elif 'list' in category:
             for item in category['list']:
                 if 'links' in item:
                     valid_links = []
+                    links_to_remove = []  # 存储需要移除的链接
                     for link in item['links']:
                         url = link.get('url')
                         if url:
@@ -187,6 +195,7 @@ def clean_invalid_urls(yaml_file, report_file):
                                 # 记录无效链接并标记为删除
                                 print(f"移除无效链接条目: {link}")
                                 invalid_links_report.append(link)  # 记录无效链接
+                                links_to_remove.append(link)  # 添加到待移除列表
                             elif new_url:  # 如果有新的可访问地址
                                 print(f"自动重定向，旧 URL: {url} -> 新 URL: {new_url}")
                                 link['url'] = new_url  # 更新为新的可访问地址
@@ -200,8 +209,15 @@ def clean_invalid_urls(yaml_file, report_file):
                         else:
                             valid_links.append(link)  # 保留无 URL 的链接
 
+                    # 从原始链接列表中移除无效链接
+                    for link in links_to_remove:
+                        item['links'].remove(link)
+
                     # 更新链接列表，仅保留有效链接
                     item['links'] = valid_links
+
+                    # 立即写回更新后的数据到 YAML 文件
+                    write_yaml(yaml_file, data)
 
     # 最后写回更新后的数据到 YAML 文件
     write_yaml(yaml_file, data)
