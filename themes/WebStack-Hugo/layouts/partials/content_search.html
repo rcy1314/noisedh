@@ -42,6 +42,13 @@
                 animation: gradient-animation 3s ease infinite; /* 动画效果 */
             }
 
+            /* 媒体查询：手机尺寸下自适应标题大小 */
+            @media (max-width: 768px) {
+                .main-title {
+                    font-size: 24px; /* 自适应字体大小 */
+                }
+            }
+
             @keyframes gradient-animation {
                 0% { background-position: 0% 50%; }
                 50% { background-position: 100% 50%; }
@@ -49,7 +56,7 @@
             }
 
             .title-spacing {
-                margin: 0 10px; /* 标题之间的间距 */
+                margin: 0; /* 取消标题之间的间距 */
                 display: inline-block; /* 使间距生效 */
             }
         </style>
@@ -57,8 +64,6 @@
         <!-- 添加居中的彩色渐变动态标题 -->
         <h1 class="main-title">
             <span class="title-spacing">NOISE导航——收录值得珍藏的网站</span>
-           
-            
         </h1>
 
         <div class="recent-sites" id="recent-sites">
