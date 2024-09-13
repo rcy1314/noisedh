@@ -13,119 +13,57 @@
                 margin-top: 10px;
                 padding: 10px;
                 border-radius: 5px;
-                box-shadow: 0 0 10px rgba(241, 239, 239, 0.1);
                 text-align: center;
             }
-            .recent-sites h4 {
+            .avatar-container {
+                display: flex;
+                align-items: center;
+                justify-content: center; /* 水平居中 */
+                margin-bottom: 10px;
+            }
+            .avatar {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            .welcome-text {
                 color: white;
-                padding: 10px;
+                font-size: 18px;
+                text-align: center; /* 文字居中 */
             }
-            #site-list {
-                color: white;
-                overflow: hidden;
-                list-style-type: none;
-                padding: 0;
-                margin: 0;
-                height: 20px;
-                position: relative;
+            .main-title {
+                font-size: 36px; /* 大标题 */
+                text-align: center; /* 居中 */
+                margin-bottom: 20px; /* 底部间距 */
+                background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: gradient-animation 3s ease infinite; /* 动画效果 */
             }
-            #site-list li {
-                padding: 8px 12px;
+
+            @keyframes gradient-animation {
+                0% { background-position: 0% 50%; }
+                50% { background-position: 100% 50%; }
+                100% { background-position: 0% 50%; }
             }
-            #site-list li:last-child {
-                border-bottom: none;
-            }
-            #site-list a {
-                text-decoration: none;
-                color: #ff8800;
-            }
-            #site-list a:hover {
-                text-decoration: underline;
-            }
-            .studytextgzbox {
-                background: #F9F9F9;
-                border: 1px solid #999999;
-                margin: 1px;
-                text-align: center;
-                float: left;
-                line-height: 18px;
-                height: 18px;
-                overflow: hidden;
-                width: 206px;
-            }
-            .zzbuluoled:after {
-                content: ".";
-                display: block;
-                height: 0;
-                clear: both;
-                visibility: hidden;
+
+            .title-spacing {
+                margin: 0 10px; /* 标题之间的间距 */
+                display: inline-block; /* 使间距生效 */
             }
         </style>
 
+        <!-- 添加居中的彩色渐变动态标题 -->
+        <h1 class="main-title">
+            <span class="title-spacing">NOISE导航——收录值得收藏的站点</span>
+           
+            
+        </h1>
+
         <div class="recent-sites" id="recent-sites">
-            <h4>最近收录的站点 20条</h4>
-            <ul id="site-list"></ul>
+           
         </div>
-
-        <script>
-            async function fetchRecentSites() {
-                const recentSitesDiv = document.getElementById('recent-sites');
-                try {
-                    const response = await fetch('https://extension.noisework.cn/api/notifications');
-                    if (!response.ok) throw new Error('网络响应不正常');
-                    const data = await response.json();
-                    if (data && data.length > 0) {
-                        displaySites(data);
-                        recentSitesDiv.style.display = 'block';
-                    } else {
-                        recentSitesDiv.style.display = 'none';
-                    }
-                } catch (error) {
-                    console.error('获取数据时出错:', error);
-                    recentSitesDiv.style.display = 'none';
-                }
-            }
-
-            function displaySites(data) {
-                const siteListElement = document.getElementById('site-list');
-                siteListElement.innerHTML = data.map(site => `
-                    <li>
-                        <strong>${site.title}：</strong>
-                        <a href="${site.url}" target="_blank">${site.url}</a>
-                    </li>
-                `).join('');
-                startScrolling(siteListElement);
-            }
-
-            function startScrolling(element) {
-                let scrollTop = 0;
-                const scrollHeight = element.scrollHeight;
-
-                function scroll() {
-                    scrollTop = (scrollTop + 0.2) % scrollHeight;
-                    element.scrollTop = scrollTop;
-                    requestAnimationFrame(scroll);
-                }
-                scroll();
-            }
-
-            window.onload = fetchRecentSites;
-        </script>
-
-        <div class="card search-smart-tips search-hot-text"></div>
-
-        <script>
-            study_textgz_jQuery(function() {
-                const container = study_textgz_jQuery('#masonry');
-                container.imagesLoaded(function() {
-                    container.masonry({
-                        itemSelector: '.studytextgzbox',
-                        gutter: 0,
-                        isAnimated: true,
-                    });
-                });
-            });
-        </script>
 
         <div class="wp zzbuluoled" style="margin-top:0;">
             <div style="background:url('https://cdn1.tianli0.top/gh/rcy1314/tuchuang@main/uPic/222.png'); text-align: center; height:80px;">
