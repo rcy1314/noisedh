@@ -3866,10 +3866,6 @@
           logo: 粥里有勺糖.ico
           url: https://sugarat.top
           description: 来自99年技术博主，博客框架：vitepress，记录随笔与学习笔记，包含技术笔记、计算机知识、前端及一些代码笔记
-        - title: 芙樱竹的博客
-          logo: https://object.muna.uk/favicon.ico
-          url: https://blog.muna.uk/
-          description: ✨ 美妙代码创佳世，蓦然相望遇佳人。我是芙樱竹,一个个人博主，嘘~，这里发现了一只野生的整活博主~~
     - term: 优质播客
       links:
         - title: 摄影叨B叨
@@ -7046,6 +7042,10 @@
           logo: github.jpg
           url: https://github.com/shaishaicookie/fcpx-auto-captions?tab=readme-ov-file
           description: 用于 Final Cut Pro 的超快速和准确的 AI 字幕生成
+        - title: 灵感盒子
+          logo: https://www.mindbox.cc/favicon.ico
+          url: https://www.mindbox.cc/
+          description: Web site created using create-react-app
     - term: 产品发现
       links:
         - title: 开发者简报
