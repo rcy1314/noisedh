@@ -4037,6 +4037,10 @@
           logo: Zion无代码.ico
           url: https://www.functorz.com/?channel=noise
           description: Zion无代码开发工具，无需一行代码，实现小程序/Web开发，从设计到上线完全自动化，赋予你全流程开发能力！
+        - title: Youform
+          logo: https://youform.com/assets/images/favicon.ico
+          url: https://youform.com/
+          description: ' A Free Typeform alternative'
     - term: 工具箱
       links:
         - title: 抖音/TikTok无水印在线解析
@@ -7042,10 +7046,6 @@
           logo: github.jpg
           url: https://github.com/shaishaicookie/fcpx-auto-captions?tab=readme-ov-file
           description: 用于 Final Cut Pro 的超快速和准确的 AI 字幕生成
-        - title: 灵感盒子
-          logo: https://www.mindbox.cc/favicon.ico
-          url: https://www.mindbox.cc/
-          description: Web site created using create-react-app
     - term: 产品发现
       links:
         - title: 开发者简报
