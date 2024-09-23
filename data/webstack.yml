@@ -372,8 +372,8 @@
           url: https://peiyin.wozhiyi.com
           description: 知意配音是专业的AI文字转语音配音平台，支持短视频配音、有声书制作、影视解说、课件配音、广告配音、促销叫卖等各类配音场景需求
         - title: ttsmaker
-          logo: https://ttsmaker.com/static/v3_theme_01_asset/logo/favicon-32x32.png?version=2
-          url: https://ttsmaker.com/zh-cn
+          logo: ttsm.png
+          url: https://ttsmaker.cn
           description: 在线免费文字转语音
         - title: TTS - 文本转语音
           logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/1715074881169.png
@@ -418,7 +418,7 @@
           url: https://sketchvalley.com
           description: 免费矢量手绘插画资源
         - title: 西田图像
-          logo: www.sitapix.com.png
+          logo: https://www.sitapix.com/favicon.ico
           url: https://www.sitapix.com
           description: 高质量无版权图片素材
         - title: pixabay
@@ -822,7 +822,7 @@
           url: https://binarypiano.com/
           description: 二进制音乐
         - title: lofi白噪音
-          logo: https://lofi.co/favicon-32x32.png?v=5bf6df1fd331ee02fda8a5c9a7af634f
+          logo: https://lofi.co/favicon.ico
           url: https://lofi.co/
           description: lofi白噪音
     - term: 抖音工具箱
@@ -871,6 +871,10 @@
           logo: https://cdn.jsdelivr.net/gh/wang0618/PyWebIO-assets@v1.8.3/image/apple-touch-icon.png
           url: https://douyin.wtf
           description: 在线抖音去水印作品下载
+        - title: 抖音嘴替 | 一种AI生成的抖音用户点评
+          logo: https://zuiti.ocyss.icu/favicon.ico
+          url: https://zuiti.ocyss.icu/
+          description: 利用大模型技术，从抖音视频生成人物画像
     - term: 剪辑能手
       links:
         - title: 闪剪
@@ -1447,6 +1451,10 @@
           logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/1715320172218.png
           url: https://www.gugufan.com
           description: 免费高质量在线动漫网站！为动漫爱好者提供无与伦比的追番体验!
+        - title: 樱花动漫
+          logo: https://yhdm.one/static/favicon.ico
+          url: https://yhdm.one/
+          description: 免费高质量在线动漫网站！
     - term: 直播聚合
       links:
         - title: 斗鱼
@@ -2297,6 +2305,10 @@
           logo: 夸克云盘.png
           url: https://pan.noisework.cn
           description: NOISE盘云搜
+        - title: 云易搜 - 夸克资源搜索，发现无限可能
+          logo: https://likunqi.top/file/eb6960d93ca6ce3149369.png
+          url: https://www.yun1sou.com/
+          description: 一站式夸克网盘资源发现平台，提供清新界面与丰富内容。无论是追求知识的学习资料，还是寻找娱乐的影视、综艺、动漫，云易搜都能以高效搜索技术满足您的需求。即刻体验，探索无限资源，享受个性化的网盘搜索服务。
     - term: 云盘存储
       links:
         - title: 百度云盘
@@ -2610,6 +2622,10 @@
           logo: www.52pojie.cn.ico
           url: https://www.52pojie.cn
           description: 老牌的站点,很强
+        - title: 搜索客，搜索人自己的社区
+          logo: https://elasticsearch.cn/static/css/default/img/favicon.ico?v=20151125
+          url: https://elasticsearch.cn/
+          description: 搜索客，搜索人自己的社区，国内最大的围绕搜索相关技术的垂直社区。
     - term: 社区·软件技术类
       links:
         - title: 猪猪猫论坛
@@ -3177,10 +3193,6 @@
           logo: https://www.waytoagi.com/favicon.ico
           url: https://www.waytoagi.com/
           description: WaytoAGI（通往 AGI 之路）是最大最全面的 AI 知识库，汇聚上千个人工智能网站和工具，汇集最新的 AI 工具、GPT 应用、AI 智能体和行业资讯。无论您是 AI 爱好者、研究者还是开发者，WaytoAGI 助力您在通往 AGI 的旅途中开启智能创新的未来。
-        - title: TGwiki - Telegram知识库
-          logo: https://tgnav.github.io/tgwiki/assets/logo.png
-          url: https://tgnav.github.io/tgwiki/
-          description: TGwiki - Telegram知识库，由TGNAV打造的高质量Telegram知识库，汇集了Telegram常用功能介绍和使用说明，帮助用户更全面地了解Telegram的各种功能。
         - title: 系统工程师实战
           logo: github.jpg
           url: https://fifilyu.github.io/seia/
@@ -3201,6 +3213,10 @@
           logo: https://vitepress.yiov.top/logo.png
           url: https://vitepress.yiov.top/
           description: vitpress文档教程
+        - title: RenDocs
+          logo: https://docs.evancookie.cn/favicon.ico
+          url: https://docs.evancookie.cn/
+          description: RenDocs知识库，包含前端常用知识、笔记、日常工具等
     - term: notion站点
       links:
         - title: Harumonia
@@ -3811,7 +3827,7 @@
           url: https://blog.zhheo.com
           description: 分享设计与科技生活
         - title: 子舒的博客
-          logo: https://imgurl.zishu.me/favicon.ico
+          logo: zish.ico
           url: https://zishu.me/
           description: 子舒的博客
         - title: Akilarの糖果屋
@@ -3894,10 +3910,6 @@
           logo: kmar.png
           url: https://kmar.top
           description: 记录绘画学习的独立站
-        - title: 川流
-          logo: https://chuanliu.org/assets/images/favicon.ico
-          url: https://chuanliu.org
-          description: 川流
         - title: NUTSWP
           logo: NUTSWP.png
           url: https://nutswp.com
@@ -3915,7 +3927,7 @@
           url: https://blog.tama.guru/
           description: 念念不忘，必有回响。
         - title: 风记星辰
-          logo: https://cdn.thyuu.com/wp-content/uploads/2024/02/cropped-20240228150250680-32x32.png!webp
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/cropped32.png
           url: https://www.thyuu.com/
           description: 一名来自盛京的大叔！希望我的文章能给您带来正能量和思考，如果能在您的生活中体现些许色彩那就更好了。
         - title: 开源服务指南
@@ -3939,9 +3951,21 @@
           url: https://www.mulingyuer.com/
           description: 有梦就能远航
         - title: '技术松鼠 '
-          logo: https://cdn.jishusongshu.com/images/2020/06/cropped-favicon-32x32.png
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/site-logo-jsss.png
           url: https://www.jishusongshu.com/
           description: 学习，让视野更宽阔！
+        - title: lookroot的个人空间-林中小屋
+          logo: https://www.lookroot.cn/favicon.ico
+          url: https://www.lookroot.cn/
+          description: 不定时分享互联网信息,编程教程,后端开发教程,前端开发教程,学习路线,蓉漂生活
+        - title: 芙樱竹的博客
+          logo: https://object.muna.uk/favicon.ico
+          url: https://blog.muna.uk/
+          description: ✨ 美妙代码创佳世，蓦然相望遇佳人。我是芙樱竹,一个个人博主，嘘~，这里发现了一只野生的整活博主~~
+        - title: 云端奇趣 | 分享各种网盘资源,考公资源,三支一扶,申论真题,影视资源,AI工具,收集各种有趣实用的软件，尽享全网云盘资源免费分享
+          logo: https://www.yunduanqiqu.com/favicon.ico
+          url: https://www.yunduanqiqu.com/
+          description: 分享各种网盘资源,考公资源,三支一扶,申论真题,影视资源,AI工具,收集各种有趣实用的软件，尽享全网云盘资源免费分享
     - term: 优质播客
       links:
         - title: 摄影叨B叨
@@ -4016,10 +4040,10 @@
           logo: pod.link.png
           url: https://pod.link
           description: 播客搜索引擎
-        - title: 芙樱竹的博客
-          logo: https://object.muna.uk/favicon.ico
-          url: https://blog.muna.uk/
-          description: ✨ 美妙代码创佳世，蓦然相望遇佳人。我是芙樱竹,一个个人博主，嘘~，这里发现了一只野生的整活博主~~
+        - title: 播客广场
+          logo: https://www.pcspy.net/favicon.ico
+          url: https://www.pcspy.net/
+          description: 通过话题发现播客
 - taxonomy: 独立开发
   icon: fas fa-code fa-lg
   list:
@@ -4121,6 +4145,10 @@
           logo: https://static.app/landing/assets/favicon/favicon-32x32.png
           url: https://static.app/
           description: 静态网站托管 -All-in-one solution to host static websites online. Free, fast, and simple static website hosting. Publish your static webpage with just one click.
+        - title: Undb | 开源自托管无代码数据库
+          logo: https://undb.io/favicon/favicon.ico
+          url: https://undb.io/
+          description: 开源Airtable替代品和后端即服务
     - term: 工具箱
       links:
         - title: 抖音/TikTok无水印在线解析
@@ -4207,10 +4235,6 @@
           logo: MIKU.png
           url: https://tools.miku.ac
           description: MikuTools工具合集
-        - title: 九蛙工具箱
-          logo: 九蛙工具箱.ico
-          url: https://www.jiuwa.net
-          description: 九蛙工具箱
         - title: 蛙蛙工具
           logo: 蛙蛙.ico
           url: https://www.iamwawa.cn/
@@ -4299,14 +4323,6 @@
           logo: https://www.notionavatarmaker.com/favicon/favicon-32x32.png
           url: https://www.notionavatarmaker.com/
           description: Notion 头像制作 - 一个生成 Notion 风格头像的在线工具
-        - title: Tools by AI 工具集 | 提高工作效率的多语言翻译和文本处理工具
-          logo: https://api.iowen.cn/favicon/tools.newzone.top.png
-          url: https://tools.newzone.top/
-          description: AI 驱动的工具集合，包括多语言翻译、正则匹配、文本分割和去重等，帮助开发者更高效地完成工作。
-        - title: Tools by AI 工具集 | 提高工作效率的多语言翻译和文本处理工具
-          logo: https://api.iowen.cn/favicon/tools.newzone.top.png
-          url: https://tools.newzone.top/
-          description: AI 驱动的工具集合，包括多语言翻译、正则匹配、文本分割和去重等，帮助开发者更高效地完成工作。
     - term: API平台
       links:
         - title: 搏天api
@@ -4322,7 +4338,7 @@
           url: https://api.pearktrue.cn/
           description: 永久免费稳定提供各类API服务接口
         - title: 桑帛云API
-          logo: https://api.lolimi.cn/favicon.ico
+          logo: https://api.lolimi.cn/assets/img/favicons/favicon.png
           url: https://api.lolimi.cn/
           description: 免费、易用的API接口平台
         - title: 夏柔API
@@ -4330,7 +4346,7 @@
           url: https://api.aa1.cn/
           description: 夏柔API
         - title: 极客API
-          logo: https://api.wxshares.com/favicon.ico
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/jik.png
           url: https://api.wxshares.com/
           description: 极客开放API接口
         - title: 无铭API
@@ -4361,6 +4377,10 @@
           logo: https://www.freefish.love/favicon.ico
           url: https://www.freefish.love/
           description: 一个为用户和开发者提供全面API接口调用服务的平台
+        - title: 教书先生API
+          logo: https://api.oioweb.cn/favicon.ico
+          url: https://api.oioweb.cn
+          description: 教书先生API,稳定、快速、免费的 API 接口服务
     - term: JSD·CDN
       links:
         - title: zzko-jsDelivr镜像站
@@ -4494,7 +4514,7 @@
           url: https://www.helplook.net/?source=noisedh
           description: HelpLook 是一款零代码、开箱即用的帮助中心及博客网站搭建工具，只需简单几步，即可帮助企业、机构、个人发布在线品牌内容站点。还提供智能客服等AI向服务。
         - title: 知犀思维导图
-          logo: https://i.postimg.cc/4xB0PWL0/2-1-1.png
+          logo: https://www.zhixi.com/favicon.ico
           url: https://www.zhixi.com/
           description: 知犀思维导图是一款国产的在线思维导图软件。支持Windows、Mac、安卓、鸿蒙、ios系统使用。知犀思维导图为用户提供思维导图、向右逻辑图、鱼骨图、目录组织图、组织结构图、桥图、括号图、顺序图、圆圈图、气泡图、双气泡图、因果图等十八种导图结构。还提供免费思维导图模板；创作完成后可导出为PNG图片、PDF文档、Word 文档、Markdown 文档还支持直接分享链接
         - title: Youform
@@ -4594,10 +4614,22 @@
           logo: https://reflectionai.ai/favicon.ico
           url: https://reflectionai.ai
           description: 通过使用反射调优技术进行训练，这是一种使LLMs能够修正自己错误的模型。
-        - title: Yes/No Tarot AI
+        - title: AI驱动的免费Yes/No塔罗
           logo: https://yesnotarot.org/favicon.ico
-          url: hhttps://yesnotarot.org
-          description: 为用户提供即时准确的塔罗牌解读。无论您提出的是关于爱情、事业还是个人成长相关的问题，该工具都为您提供清晰且有见地的答案。该工具结合传统塔罗智慧和先进的AI技术，简洁清爽的界面为您良好的用户体验，清晰的解读为您带来思考与指引
+          url: https://yesnotarot.org/zh
+          description: 体验我们基于人工智能的免费Yes/No塔罗！感受塔罗洞察未来的能力，探索人工智能的神秘力量
+        - title: twinny-适用于 Visual Studio Code 的免费私有 AI 扩展
+          logo: https://twinny.dev/favicon.ico
+          url: https://twinny.dev/
+          description: The free and private AI extension for Visual Studio Code.
+        - title: Firecrawl
+          logo: https://www.firecrawl.dev/favicon.ico
+          url: https://www.firecrawl.dev/
+          description: 将网站转变为 LLM 就绪数据
+        - title: AI Story Diffusion
+          logo: https://storydiffusion.cc/favicon-16x16.png
+          url: https://storydiffusion.cc/zh
+          description: 在AI Story Diffusion释放你的创造力 - 这个尖端平台将你的想法转化为令人惊叹的视觉叙事。在storydiffusion.cc开启你的讲故事之旅。
     - term: AI·绘画
       links:
         - title: stability
@@ -4768,6 +4800,14 @@
           logo: https://fluximage.co/favicon.ico
           url: https://fluximage.co/
           description: Create stunning images and videos with Flux Image AI Generator, the cutting-edge AI image generation tool free online
+        - title: aiflux
+          logo: https://aiflux.cc/favicon.ico
+          url: https://aiflux.cc/zh
+          description: FLUX模型生成图片
+        - title: AI Comic Factory
+          logo: https://ai-comicfactory.com/favicon.ico
+          url: https://ai-comicfactory.com
+          description: 把你的故事变成漫画！AI Comic Factory使用人工智能从文本中生成令人惊叹的漫画书。每个人都可以使用的漫画书生成器。不需要绘画技能
     - term: AI·问答
       links:
         - title: ChatGPT
@@ -4909,7 +4949,7 @@
           url: https://pixverse.ai
           description: AI文本和图像生成视频
         - title: Moonvalley
-          logo: https://assets.ycodeapp.com/assets/app24697/favicons/mLscWXM8rxaqEZ1rA68PFFLo3Qd7il5QlAMIVnf9.png
+          logo: moonvalley.avif
           url: https://moonvalley.ai
           description: AI简单文本创造惊艳视频
         - title: TOPVIEW
@@ -5062,6 +5102,10 @@
           logo: https://picmoss.cn/static/moss/image/logo_icon.png
           url: https://picmoss.cn/zh-hans/mat.html
           description: 图念(PicMoss) 是一款免费图像处理平台，支持在线抠图、批量抠图、去水印、模糊照片变清晰、无损放大、图片压缩、黑白照片上色等功能，一键制作出精美图片，批量处理图片，提高图片编辑效率
+        - title: Image to Video AI
+          logo: https://image2video.ai/favicon.ico
+          url: https://image2video.ai/
+          description: Image to Video AI是一款AI图片转视频工具，能够提升AI图像转视频的质量。
     - term: AI·音乐
       links:
         - title: Soundraw
@@ -5163,7 +5207,7 @@
           url: https://phind-ai.com/
           description: phind-ai
         - title: thinkany
-          logo: https://thinkany.ai/favicon.ico
+          logo: thany.png
           url: https://thinkany.ai/zh
           description: thinkany
         - title: Kimi.ai
@@ -5171,7 +5215,7 @@
           url: https://kimi.moonshot.cn/
           description: Kimi.ai帮你看更大的世界
         - title: aoyo
-          logo: https://aoyo.ai/favicon.ico
+          logo: aoyo.ico
           url: https://aoyo.ai/
           description: aoyoAI
         - title: phind
@@ -5179,7 +5223,7 @@
           url: https://www.phind.com/search?home=true
           description: phind
         - title: Devv.ai
-          logo: https://devv.ai/favicon-dark.png
+          logo: devv.png
           url: https://devv.ai
           description: Devv.ai - 面向程序员的革命性AI搜索引擎
         - title: Morphic
@@ -5313,7 +5357,7 @@
           url: https://www.meizilunwen.com/
           description: 无限免费生成千字论文大纲-在线快速生成论文初稿-查重率10%左右
         - title: 66AI论文
-          logo: https://app.68wenan.com/paper/lunwen_icon.png
+          logo: https://static.68wenan.com/paper/66.png
           url: https://www.66paper.cn
           description: 写论文，仅需3步，5分钟搞定！写论文就是这么快捷！论文质量有保障，知网论文查重率为10%左右，超过15%可联系客服退款！限免费生成千字论文大纲-在线快速生成论文初稿-查重率10%左右
         - title: Wordvice AI
@@ -5331,7 +5375,7 @@
           url: https://www.tabnine.com
           description: 面向软件开发人员的 AI 助手，免费 + 收费
         - title: Mutable AI
-          logo: Mutable.png
+          logo: https://mutable.ai/icon.png?a8f2cb336379a243
           url: https://mutable.ai
           description: 具有 AI 自动完成功能的原型。利用 AI 转换为生产质量代码，免费
         - title: cheat.sh
@@ -5369,7 +5413,7 @@
           url: https://studio.d-id.com/
           description: 仅使用带有AI驱动的文本或音频的静止图像创建专业视频。
         - title: neiro ai
-          logo: https://neiro.ai/assets/favicon-CzvEMlcM.ico
+          logo: https://neiro.ai/assets/favicon-BwmCCWV1.ico
           url: https://neiro.ai/
           description: 无需任何编码技能即可利用生成式 AI。140+种语言，10+种声音，无限可能。
         - title: kreadoai
@@ -5479,8 +5523,8 @@
           url: https://chathelp.ai/
           description: AI Chatbot - AI-powered Business, Work, Study Assistant & Website Chat Widget.Chat with Private AI Knowledge Base - Increase daily work efficiency, by having an AI assistant, who knows everything about your business & competitors, your work or studies.Save time & money on customer support. Drive more sales, by letting AI interact with potential customers 24/7, via Website Chat Widget. Train AI with your Website data & other documentation!
         - title: OK pai
-          logo: https://okp.ai/logo.ico
-          url: https://okp.ai
+          logo: https://okp.ai/favicon-32x32.png
+          url: https://okp.ai/zh
           description: Okp AI FutureTools 收集所有！最好的人工智能工具，让你也能成为超人。
         - title: 小白兔 AI
           logo: https://aigo.tools/favicon.ico
@@ -5490,6 +5534,10 @@
           logo: https://tyy.ai/wp-content/uploads/2024/05/icon-1-150x150.png
           url: https://tyy.ai
           description: 通过tyy.ai发现最佳AI工具列表和AI工具目录
+        - title: Zzo AI 工具目录
+          logo: https://api.iowen.cn/favicon/zzo.ai.png
+          url: https://zzo.ai/
+          description: Explore cutting-edge AI tools in our comprehensive Zzo.ai AI Directory
 - taxonomy: 极客下载
   icon: fas fa-circle
   list:
@@ -5702,7 +5750,7 @@
           url: https://macenjoy.net/
           description: 把最好的资源,以最快的速度分享给大家
         - title: Macked
-          logo: https://macked.app/wp-content/uploads/favicon.png
+          logo: macked.png
           url: https://macked.app
           description: MAC软件下载服务，由会员机制
         - title: Cmacked
@@ -5710,7 +5758,7 @@
           url: https://cmacked.com/
           description: 免费下载Mac应用程序和游戏，每天更新最佳和最受欢迎的Mac应用程序。
         - title: POMAC
-          logo: https://www.pomac.cc/upload/ABE961FD-1D4C-4812-B59A-E5C6FC3AE9F5-e1662871033968%20(1).png
+          logo: pomac.png
           url: https://www.pomac.cc/
           description: 专注于提供最新的Mac软件下载的网站
         - title: Mac下载网
@@ -5725,6 +5773,64 @@
           logo: https://www.macfuwu.com/favicon.ico
           url: https://www.macfuwu.com/
           description: 分享优秀Mac软件实用Mac技巧
+        - title: xmac.app
+          logo: https://xmac.app/assets/icons/logo.png
+          url: https://xmac.app
+          description: 不限速、仅需一步即可下载Mac破解App
+    - term: 下载·扩展
+      links:
+        - title: nav-manage
+          logo: navm.png
+          url: https://microsoftedge.microsoft.com/addons/detail/pogpiicgclbpchehmdgdeianhgpnjanl
+          description: 本站的浏览器扩展，方便添加删除数据条目
+        - title: Eagle for Edge
+          logo: EagleforEdge.png
+          url: https://microsoftedge.microsoft.com/addons/detail/eagle-for-edge/cfgchmkedjfehclfhhmgedljhcibojcm
+          description: Eagle 扩充套件，快速将网路上的图片保存至图片库中
+        - title: Elmo
+          logo: elmo.png
+          url: https://www.elmo.chat
+          description: AI对话及创建页面摘要和要点
+        - title: automa
+          logo: automa.ico
+          url: https://www.automa.site
+          description: 浏览器中的自动化扩展套件
+        - title: cookie-editor
+          logo: cookieeditor.ico
+          url: https://cookie-editor.com
+          description: 一键查询页面cookie信息
+        - title: RSSHub Radar
+          logo: rsshubread.png
+          url: https://microsoftedge.microsoft.com/addons/detail/rsshub-radar/gangkeiaobmjcjokiofpkfpcobpbmnln
+          description: 轻松查找和订阅 RSS 和 RSSHub。
+        - title: Save to Notion
+          logo: savenotion.png
+          url: https://microsoftedge.microsoft.com/addons/detail/save-to-notion/mhbgebmjigmgkdmehblomgoappmeckfa?hl=zh-CN
+          description: 快速将信息导入Notion
+        - title: MarkMagic-智能书签管理器
+          logo: markmag.png
+          url: https://microsoftedge.microsoft.com/addons/detail/markmagic-%E6%99%BA%E8%83%BD%E4%B9%A6%E7%AD%BE%E7%AE%A1%E7%90%86%E5%99%A8/chdnocboifbdehfnghinbjjcnklgdafm?hl=zh-CN
+          description: 检测书签中重复链接、识别空文件夹
+        - title: Notion Web Clipper
+          logo: notionwc.png
+          url: https://clipper.website
+          description: 更快的将当前页面导入Notion
+        - title: tampermonkey
+          logo: tamper.png
+          url: https://www.tampermonkey.net
+          description: 强大的油猴脚本管理器
+        - title: Youtube中文配音
+          logo: ydubb.png
+          url: https://www.youtube-dubbing.com/zh/
+          description: 一键点击插件按钮，即可用您熟悉的语言进行youtube视频播放
+        - title: kimi浏览器助手
+          logo: kimi.ico
+          url: https://kimi.moonshot.cn/extension/download
+          description: kimi浏览器助手
+        - title: 标签星球
+          logo: tagzhu.png
+          url: https://tag.zhuayuya.com
+          description: 可以将收藏夹变为导航页形式展示，并支持模糊搜索，以及导出收藏夹，生成收藏夹订阅源分享给其他小伙伴等功能
     - term: 下载·综合
       links:
         - title: 黑域基地
@@ -5843,6 +5949,14 @@
           logo: https://www.yxzhi.com/wp-content/uploads/2023/06/favicon-350x300.png
           url: https://www.yxzhi.com/
           description: 鸭先知，原资源否，专注于互联网软件、技术等优质资源分享，坚持以不付钱的伟大原则来获取资源！
+        - title: 小羿 - 专注收录各种优秀软件！
+          logo: xiaoyi.png
+          url: https://xiaoyi.vc/
+          description: 收录各种优秀软件！
+        - title: 桔子资源网
+          logo: https://www.juzia.cn/favicon-32x32.png
+          url: https://www.juzia.cn
+          description: 桔子资源网是一个专注于查找和分享网络资源的平台，汇集最全网络技术学习资源，热门软件资源和影音娱乐资源
     - term: 下载·安卓
       links:
         - title: texhocea-海纳百川
@@ -5889,6 +6003,10 @@
           logo: https://apk.bot/favicon.ico
           url: https://apk.bot
           description: 一个免费的apk下载站点，无广告版apkpure，设计简洁，下载速度快
+        - title: Aptoide - Android应用商店
+          logo: https://cn.aptoide.com/static/favicon.ico
+          url: https://cn.aptoide.com/
+          description: 在官方Aptoide应用商店中查找、发现和下载适用于Android的最佳应用和游戏
     - term: 下载·系统
       links:
         - title: 专注WIN7
@@ -6138,6 +6256,84 @@
           logo: Hneko.ico
           url: http://798798.site
           description: 7元月付，15元可年付
+        - title: 一个朋友 | 每日免费机场推荐
+          logo: https://ygpy.net/favicon.ico
+          url: https://ygpy.net/
+          description: 一个免费 VPN 推荐网站。本网站提供各种免费的机场资源订阅，包括免费机场节点、免费机场 Clash 配置、免费机场 SSR 节点等。我们收集整理了 2024 年最新的免费机场资源，包括订阅链接、节点分享等，方便用户快速获取优质的免费代理服务。对于一些付费机场，我们也会提供优惠信息和测评，为用户选择合适的机场提供参考。无论您是需要访问国外网站还是观看海外视频，这里都能找到适合您的免费机场解决方案。欢迎大家持续关注我们的最新动态和更新。
+    - term: 免费科学APP
+      links:
+        - title: 快喵
+          logo: kuaimiaovpn_icon.png
+          url: https://onekeynpv.org
+          description: IOS专用，无需账号,一键直连,高速稳定不掉线
+        - title: Halo
+          logo: haloon.png
+          url: https://www.myhalo.online
+          description: 支持安卓、ios、MAC,快速、安全和私密的互联网访问，您的数据将被加密，您的在线活动将保持完全匿名
+        - title: JoyBooster
+          logo: joybooster.png
+          url: https://joyboosterapp.com
+          description: IOS专用，无需进行任何配置，只需单击一个按钮，即可安全匿名地访问 Internet
+        - title: Bluelight
+          logo: bluelight.ico
+          url: https://www.bluelightapps.com
+          description: 支持IOS及MAC，使用 BlueLight，您的活动没有限制，在 Internet 上创建一个安全高速的环境
+        - title: vpnify
+          logo: vpnify.png
+          url: https://vpnifyapp.com
+          description: 支持安卓、ios、mac，只需轻轻一按即可连接到全世界的互联网，无需执行任何其他操作
+        - title: Biuvip
+          logo: biuvip.ico
+          url: https://biuvip.com
+          description: 全平台支持，不过有时你需要先链接到其它节点才能完全使用
+        - title: karing
+          logo: karing.ico
+          url: https://karing.app
+          description: 支持全平台免费，兼容Clash的通用网络代理工具, 支持clash/v2ray/ss订阅
+        - title: cloudflare warp
+          logo: 11111.ico
+          url: https://one.one.one.one
+          description: 全平台支持，最棒的隐私传输协议，免费支持您的设备
+        - title: Ostrich
+          logo: ostrich.ico
+          url: https://www.ostrichvpn.net
+          description: 支持安卓、IOS，无需账号,一键直连,高速稳定不掉线
+        - title: protonvpn
+          logo: proton.png
+          url: https://protonvpn.com
+          description: 全平台支持，有高级套餐服务
+        - title: Quantumult X
+          logo: qux.png
+          url: https://quantumult.app/x/
+          description: IOS专用,支持添加各种代理及规则
+        - title: Shadowrocket
+          logo: shadow.png
+          url: https://shadowlaunch.com
+          description: IOS专用,支持添加各种代理及规则
+        - title: hiddify
+          logo: hiddiy.ico
+          url: https://hiddify.com
+          description: 全平台支持，支持 Hysteria2、TUIC、SSH、Reality、VMess、VLESS 等 20 多种协议
+        - title: sing-box
+          logo: singbox.svg
+          url: https://sing-box.sagernet.org/zh/clients/
+          description: 全平台支持，支持多种协议
+        - title: Lux
+          logo: lux.svg
+          url: https://igoogolx.github.io/lux-docs/
+          description: 轻量级客户端，支持 Clash 的所有代理协议
+        - title: Pandora-Box
+          logo: pand.png
+          url: https://github.com/snakem982/Pandora-Box
+          description: 全平台支持，支持 Clash 的所有代理协议
+        - title: 安心加速
+          logo: anx.png
+          url: https://www.05axjsq.com
+          description: 支持WIN和安卓平台，全球云加速
+        - title: ShadowShare
+          logo: shar.png
+          url: https://9527521.xyz
+          description: 支持安卓及IOS平台，提供免费的科学节点
     - term: TG·BOT·相关
       links:
         - title: Download_it_bot
@@ -6384,7 +6580,7 @@
     - term: 周刊期刊
       links:
         - title: 村雨遥好物周刊
-          logo: https://cunyu1943.github.io/logo.svg
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/cu99.png
           url: https://cunyu1943.github.io/weekly/
           description: 发现好用的网站、软件、项目、资料、插件等资源
         - title: 偷懒爱好者周刊
@@ -6404,7 +6600,7 @@
           url: https://www.zhouexin.com/issues
           description: 一周编程期刊
         - title: 产品经理周刊
-          logo: https://pmfeeds.bearman.xyz/weekly/noodles.png
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/1726818136593.png
           url: https://pm.bearman.xyz
           description: 产品经理周刊，记录每周看到的有趣内容，每周一早晨发布
         - title: MDH Weekly
@@ -6455,6 +6651,14 @@
           logo: https://woodash.cc/images/favicon.ico
           url: https://woodash.cc/weekly/
           description: 技术与美学与数字花园
+        - title: 大橘和朋友们的周刊
+          logo: https://rrorangeandfriends.site/favicon.ico
+          url: https://rrorangeandfriends.site/posts/2024/013
+          description: 《大橘和朋友们的周刊》： 分享日常冲浪互联网看到好玩的网站、app应用、资源分享、效率软件工具集等
+        - title: 科技奇闻汇
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/72557529.jpeg
+          url: https://binarycoder777.com/zh-cn/
+          description: 前沿科技，奇趣故事，一键开启你的探索之旅
     - term: 公众号
       links:
         - title: 前端食堂技术周刊
@@ -6536,7 +6740,7 @@
           url: https://openpioneers.com/
           description: 开源的最前沿资讯，每周更新一次
         - title: Python潮流周刊
-          logo: https://substackcdn.com/icons/substack/apple-touch-icon-57x57.png
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/1726819225251.png
           url: https://substack.com/sign-in?redirect=%2Faccount%3Futm_medium%3Dweb%26utm_source%3Dsubscribe-widget&for_pub=pythoncat&email=&with_password=&change_user=false&justTrying=
           description: 由豌豆花下猫主理，精心筛选国内外的 250+ 信息源，
         - title: BestofShowHN
@@ -6793,10 +6997,6 @@
           logo: https://rssfeedasap.com/favicon.ico
           url: https://rssfeedasap.com/
           description: 从 iTunes、Google 播客、Spotify、Youtube、博客等中提取 RSS 提要
-        - title: sinan.fun
-          logo: https://sinan.fun/favicon.ico
-          url: https://sinan.fun/rss
-          description: 寻找你感兴趣的内容
         - title: Feed Reader
           logo: github.jpg
           url: https://github.com/bubelov/news
@@ -6822,7 +7022,7 @@
           url: https://marketplace.visualstudio.com/items?itemName=luyuhuang.rss
           description: VSCode-RSS
         - title: dinorss
-          logo: https://dinorss.org/img/logo.svg
+          logo: dinorss.png
           url: https://dinorss.org/
           description: 一个简单、高效、开源的 RSS 阅读器服务。
         - title: inoreader
@@ -7032,7 +7232,7 @@
           url: https://www.yingdao.com/
           description: 影刀是杭州分叉智能科技有限公司研发的RPA自动化软件，影刀RPA致力于为各行业客户提供RPA自动化机器人产品与解决方案。影刀RPA能实现PC、手机上的任何软件自动化操作。积木式流程搭建，0编程基础快速入门，人人都能轻松上手，是上万家企业信赖之选。
         - title: 八爪鱼RPA
-          logo: https://api.iowen.cn/favicon/rpa.bazhuayu.com.png
+          logo: bazhuayu.ico
           url: https://rpa.bazhuayu.com/
           description: 八爪鱼RPA是一款免费流程自动化机器人，可以模拟人在电脑上的各种操作，结合AI打造人人可用的小白神器，解放重复性工作，提升组织人效。
 - taxonomy: 探索发现
@@ -7187,7 +7387,7 @@
           url: https://www.linkease.com/
           description: 手机相册备份，电脑数据同步，统一管理所有设备数据
         - title: pot
-          logo: https://pot-app.com/favicon.ico
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/potfavicon.ico
           url: https://pot-app.com/
           description: 跨平台划词翻译和OCR软件
         - title: myservers
@@ -7222,6 +7422,14 @@
           logo: https://jianqiezhushou.com/favicon.ico
           url: https://jianqiezhushou.com/
           description: 剪切助手，轻松管理您的文本复制粘贴！简化您的工作流程，通过一键操作，快速访问最近复制的文本内容，提高工作效率，让剪切板管理变得轻松便捷！
+        - title: Pastebar
+          logo: https://www.pastebar.app/favicon-32x32.png
+          url: https://www.pastebar.app
+          description: 无限、免费的剪贴板管理器
+        - title: stems
+          logo: https://stems.app/favicon-32x32.png
+          url: https://stems.app
+          description: 简单而高质量的声音分离
     - term: 产品发现
       links:
         - title: 开发者简报
@@ -7300,6 +7508,10 @@
           logo: https://webcurate.co/assets/images/favicon/favicon-32x32.png?v.6
           url: https://webcurate.co
           description: 它每天都会显示互联网上最好的在线工具和资源
+        - title: Indie Hacker Tools - 独立开发者出海工具箱
+          logo: https://indiehackertools.net/favicon-16x16.png
+          url: https://indiehackertools.net/
+          description: Indie Hacker Tools 精心为出海独立开发者和创业者挑选并分类优质的开发、设计、营销和商业分析工具。我们帮助您发现实用高效的工具组合，提高工作效率，实现营利。
     - term: 摸鱼趣站
       links:
         - title: 时间胶囊
@@ -7311,7 +7523,7 @@
           url: https://kaomojiya.com/
           description: 颜文字屋
         - title: 天空有多高
-          logo: https://www.secaibi.com/tools/wp-content/themes/Paradise/images/favicon.ico
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/1726818864799.png
           url: https://www.secaibi.com/howbigisspace/
           description: 天空有多高
         - title: 纸飞机折叠教程
@@ -7338,10 +7550,10 @@
           logo: https://www.planecrashinfo.com/favicon.ico
           url: https://www.planecrashinfo.com/lastwords.htm
           description: 空难中最后的话
-        - title: 80年代TV
-          logo: https://www.my80stv.com/img/apple-touch-icon.png
-          url: https://www.my80stv.com/
-          description: 80年代TV
+        - title: MyRetroTVs
+          logo: https://www.myretrotvs.com/img/apple-touch-icon.png
+          url: https://www.myretrotvs.com
+          description: 准备好回到过去，通过这些虚拟电视重温过去几十年的怀旧之情。
         - title: 传统颜色手册
           logo: https://colors.ichuantong.cn/favicon-32x32.png
           url: https://colors.ichuantong.cn/
@@ -7544,3 +7756,7 @@
           logo: https://introcard.iwhy.dev/favicon.ico
           url: https://introcard.iwhy.dev/
           description: IntroCard is a tool that helps you create a personalized business card with your own information.
+        - title: 富途证券
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/2321.ico
+          url: https://www.futuhk.com
+          description: 富途證券,一站式提供港股、美股、A股、期貨、期權和基金等交易服務
