@@ -987,3 +987,17 @@
 - 标题: 图标生成器
   URL: https://faviconator.gaetan.me
   描述: 图标生成工具
+## 检查日期: 2024年10月01日 03:09
+
+# 已失效链接
+
+### 此项会自动删除链接
+
+- 标题: 西狂部落阁
+  URL: https://xikuang.ren
+  描述: 梳理化文章
+
+- 标题: rephrase
+  URL: https://www.rephrase.ai
+  描述: Rephrase 的技术可实现大规模超个性化的视频创建，从而提高参与度和业务效率。
+
