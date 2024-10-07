@@ -1,53 +1,59 @@
-        <footer class="main-footer footer-type-1 text-xs">
-            <div id="footer-tools" class="d-flex flex-column">
-                <a href="javascript:" id="go-to-up" class="btn rounded-circle go-up m-1" rel="go-top">
-                    <i class="iconfont icon-to-up"></i>
-                </a>
+<footer class="main-footer footer-type-1 text-xs">
+    <div id="footer-tools" class="d-flex flex-column">
+        <a href="javascript:" id="go-to-up" class="btn rounded-circle go-up m-1" rel="go-top">
+            <i class="iconfont icon-to-up"></i>
+        </a>
 <!-- 右下角  -->
-                
-                <a href="https://www.noisework.cn/lianxi/weixin.png" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="联系我">
-                    <i class="far fa-comment-dots"></i>
-                </a>
-                <a href="tougao\" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="投稿">
-                    <i class="fa fa-paper-plane"></i>
-                </a>
-                <!-- 右下角end -->
-                {{ if $.Site.Params.nightMode }} 
-                <a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
-                    data-toggle="tooltip" data-placement="left" title="夜间模式">
-                    <i class="mode-ico iconfont icon-light"></i>
-                </a>
-		{{ else }}
-		<a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
-                    data-toggle="tooltip" data-placement="left" title="日间模式">
-                    <i class="mode-ico iconfont icon-night"></i>
-                </a>
-                {{ end }}
-            </div>
-            <style>
-                .gradient-text {
-                   background: linear-gradient(90deg, red, yellow, green, blue, purple, red);
-                   -webkit-background-clip: text;
-                   -webkit-text-fill-color: transparent; 
-                   animation: gradient 5s ease-in-out infinite;
-                }
-               
-                @keyframes gradient {
-                  0% { background-position: 0% }
-                  100% { background-position: 100% }
-                }
-               </style>
-               
-               <footer>
-                   <div class="footer-inner">
-                       <div class="footer-text gradient-text">{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}</div>
-                       {{ if $.Site.Params.footer.busuanzi }}
-                       <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-                       <center class="gradient-text"><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></center>
-                       {{ end }}
-                   </div>
-               </footer>
-        </footer>
-      
-    </div><!-- main-content end -->
+        
+        <a href="https://www.noisework.cn/lianxi/weixin.png" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="联系我">
+            <i class="far fa-comment-dots"></i>
+        </a>
+        <a href="tougao\" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="投稿">
+            <i class="fa fa-paper-plane"></i>
+        </a>
+        <a href="http://23.224.98.186:8980/api/export-bookmarks" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="导出为书签文件">
+            <i class="fa fa-download"></i>
+        </a>
+        <a href="./invalidlinks" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="失效检测记录">
+            <i class="fa fa-question-circle"></i>
+        </a>
+        <!-- 右下角end -->
+        {{ if $.Site.Params.nightMode }} 
+        <a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
+            data-toggle="tooltip" data-placement="left" title="夜间模式">
+            <i class="mode-ico iconfont icon-light"></i>
+        </a>
+{{ else }}
+<a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
+            data-toggle="tooltip" data-placement="left" title="日间模式">
+            <i class="mode-ico iconfont icon-night"></i>
+        </a>
+        {{ end }}
+    </div>
+    <style>
+        .gradient-text {
+           background: linear-gradient(90deg, red, yellow, green, blue, purple, red);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent; 
+           animation: gradient 5s ease-in-out infinite;
+        }
+       
+        @keyframes gradient {
+          0% { background-position: 0% }
+          100% { background-position: 100% }
+        }
+       </style>
+       
+       <footer>
+           <div class="footer-inner">
+               <div class="footer-text gradient-text">{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}</div>
+               {{ if $.Site.Params.footer.busuanzi }}
+               <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+               <center class="gradient-text"><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></center>
+               {{ end }}
+           </div>
+       </footer>
+</footer>
+
+</div><!-- main-content end -->
 </div><!-- page-container end -->
