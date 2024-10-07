@@ -6,7 +6,7 @@
       logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/7877y.jpeg
       url: https://tg.noisework.cn
       description: 我的TG频道页面
-    - title: 碎碎念
+    - title: memos说说
       logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/786.jpeg
       url: https://www.noisework.cn/e/talk/
       description: 个人朋友圈说说
@@ -3229,6 +3229,10 @@
           logo: https://tiddlywiki-starter-kit.vercel.app/favicon.ico
           url: https://tiddlywiki-starter-kit.vercel.app/docs/
           description: 📦 使用 TiddlyWiki5 搭建的本地优先笔记软件
+        - title: ' ATRI Doc'
+          logo: https://www.lblb.eu.org/favicon.ico
+          url: https://www.lblb.eu.org/
+          description: 来自ZShab Niba的知识笔记
     - term: notion站点
       links:
         - title: Harumonia
@@ -4002,6 +4006,10 @@
           logo: https://ipfs.crossbell.io/ipfs/QmNXCVARSQqT1gfmo6sPpaRuphK9pB6cbLdcjniGobZytR
           url: https://ladfenemies.cc/
           description: It is better to manage the army than to manage the people. And the enemy.
+        - title: 老张博客
+          logo: https://laozhang.org/wp-content/uploads/2023/04/favicon.ico
+          url: https://laozhang.org/
+          description: 老张博客，一个记录生活随笔日志的个人博客。融合个人生活随笔、电脑网络使用技巧、实用资源分享、网站建设教程攻略等相关内容。
     - term: 优质播客
       links:
         - title: 摄影叨B叨
@@ -4924,7 +4932,7 @@
           logo: studio.d-id.png
           url: https://studio.d-id.com
           description: 仅使用图像和文本生成视频。从几种不同的头像和声音中进行选择。
-        - title: Chromox 
+        - title: Chromox
           logo: https://chromox.alkaidvision.com/favicon.ico
           url: https://chromox.alkaidvision.com
           description: Chromox is a cutting-edge AI video generator that excels at transforming text and images into videos. It is designed to expand creative space, enhance creativity, and simplify the video creation process. With Chromox, you can effortlessly produce high-quality videos from various styles of text, whether depicting the real world or transcending imagination.
@@ -5424,6 +5432,10 @@
           logo: https://cdn.wordvice.ai/favicon.ico
           url: https://wordvice.ai/
           description: AI写作助手，具备语法检查纠错校对、改写润色降重、总结文本生成摘要、即时在线翻译、在线查重(抄袭检测)和AI内容检测等功能。
+        - title: C2Story — AI Story Generator & Top Stories
+          logo: https://c2story.com/favicon.ico
+          url: https://c2story.com/
+          description: 提供各种类型的故事小说写作模型和写作阅读平台。包括：不同类型小说的撰写，不同模型的使用，图片生成等
     - term: AI·代码
       links:
         - title: Copilot
@@ -7514,6 +7526,10 @@
           logo: https://startab.cn/favicon.png
           url: https://startab.cn/
           description: StarTab 是一款轻简舒适、高效灵活的模块化自定义书签导航管理工具, 通过多列流式布局和拖拽移动操作，可以轻松便捷的整理常用网址收藏, 定制个性化导航面板, 并随时随地同步数据，提升日常在线工作生活的效率与体验。
+        - title: hoarder
+          logo: https://hoarder.app/favicon.ico
+          url: https://hoarder.app/
+          description: 快速保存链接、注释和图像，hoarder 将使用 AI 自动为您标记它们，以便更快地检索
     - term: 产品发现
       links:
         - title: 开发者简报
