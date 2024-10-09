@@ -5280,6 +5280,46 @@
           logo: https://tomusic.ai/favicon.ico
           url: https://tomusic.ai/
           description: ToMusic 是一个简单易用的 AI 歌曲生成器。你可以定制自己的歌曲，或者从他人的创作中汲取灵感。通过 ToMusic，你可以轻松创作出完美长度、情感和风格的背景音乐。
+    - term: AI·PPT
+      links:
+        - title: 博思AIPPT
+          logo: https://cms.pptgo.cn/images/fav.ico
+          url: https://pptgo.cn
+          description: 让繁琐的PPT GO吧，海量PPT模板任选，布局灵活切换，在线编辑PPT内容
+        - title: iSlide
+          logo: https://www.islide.cc/favicon.ico
+          url: https://www.islide.cc/
+          description: iSlide- 让PPT设计简单起来 | PPT模板下载平台
+        - title: pptx.ai
+          logo: https://pptx.ai/favicon.ico
+          url: https://pptx.ai
+          description: Artifical Intelligence for PowerPoint Slides, Beautifully Presented
+        - title: Ai-to-pptx
+          logo: github.jpg
+          url: https://github.com/chatbookai/ai-to-pptx
+          description: 使用AI技术(DeepSeek)制作PPTX的助手，支持在线修改和导出PPTX
+    - term: AI·3D
+      links:
+        - title: artflow.ai
+          logo: https://app.artflow.ai/favicon.ico
+          url: https://app.artflow.ai/
+          description: No.1 AI 摄影工作室，将您变成任何角色，在任何地点，穿着任何服装。
+        - title: TripoSR - a Hugging Face Space by stabilityai
+          logo: https://huggingface.co/favicon.ico
+          url: https://huggingface.co/spaces/stabilityai/TripoSR
+          description: Discover amazing ML apps made by the community
+        - title: tripo3d.ai
+          logo: https://www.tripo3d.ai/v1/favicon.png
+          url: https://www.tripo3d.ai/
+          description: 在Tripo AI中体验变革性的3D内容创作方式，设计师、开发者和与艺术家的终极3D AI工具，提供高效、精确和创新的解决方案。
+        - title: lumalabs.ai
+          logo: https://cdn-luma.com/public/captures.lumalabs.ai/images/logo.svg
+          url: https://lumalabs.ai/
+          description: Unlock your creativity with Luma AI Video Generator. Turn text into stunning videos with our cutting-edge text-to-video AI. Dream big, create bigger!
+        - title: Level up your business with 3D | ThreeDee
+          logo: https://www.threedee.design/images/favicon/favicon-32x32.png
+          url: https://www.threedee.design/
+          description: Award-winning design studio behind the biggest 3D libraries in the world.
     - term: AI·搜索
       links:
         - title: isou
@@ -5330,6 +5370,14 @@
           logo: https://pica.zhimg.com/v2-79e835d86b026c7c499de99d49906814.png
           url: https://zhida.zhihu.com/
           description: 知乎直答（zhida.ai）是知乎推出的一款使用 AI 大模型等先进技术的产品，以知乎社区的优质内容为核心，多种数据源为辅助，为人们提供一种全新的获取可靠信息的途径。知乎直答是多智能体系统，能够满足用户多维度的需求；同时对生成结果进行溯源，以确保内容的可信、可控以及对知识产权和版权的尊重。知乎直答致力于为用户提供卓越的使用体验，用技术拉近创作者和用户之间的距离。有问题，就会有答案。
+        - title: 博查AI搜索 - 多模态AI搜索，答案丰富多彩
+          logo: https://bochaai.com/_next/image?url=%2Flogo-blue.png&w=384&q=75
+          url: https://bochaai.com/
+          description: 博查是一个无广告干扰的答案引擎。你可以用自然语言提问，它会理解问题、细分检索并生成准确的答案。
+        - title: 大同搜索
+          logo: https://datong.info/ui/favicon.ico
+          url: https://datong.info/ui/index.html
+          description: 大同搜索科学可靠、没有门槛的高质量信息入口。
     - term: AI·写作
       links:
         - title: Effidit
