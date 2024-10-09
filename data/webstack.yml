@@ -5650,10 +5650,18 @@
           logo: https://openai01.net/favicon.svg
           url: https://openai01.net/zh
           description: 免费OpenAI 01：OpenAI01.net提供免费、用户友好的在线OpenAI01聊天界面，用于AI对话。
-        - title: ' OpenAI o1 API | OpenAIo1API'
+        - title: OpenAI o1 API | OpenAIo1API
           logo: https://openaio1api.com/favicon.svg
           url: https://openaio1api.com/zh
           description: 便宜稳定、按次付费的 OpenAI o1 API 解决方案。以无与伦比的价格使用强大的 OpenAI o1 API。免费开始，轻松扩展，只需为您实际使用的部分付费。
+        - title: Discover Top AI Tools
+          logo: https://top-ai.tools/favicon.ico
+          url: https://top-ai.tools
+          description: Explore Top AI Tools, your go-to AI tools directory. Find the best AI solutions for productivity, creativity, and business. Enhance your workflow with cutting-edge AI technology.
+        - title: Discover Best Free AI Tools
+          logo: https://bestfreeaiweb.site/favicon.ico
+          url: https://bestfreeaiweb.site
+          description: Explore Best Free AI Website, your ultimate directory for cutting-edge AI tools. Find the best AI solutions for productivity, creativity, and business. Enhance your workflow with innovative AI technology.
 - taxonomy: 极客下载
   icon: fas fa-circle
   list:
