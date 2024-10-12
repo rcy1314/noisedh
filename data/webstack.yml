@@ -829,6 +829,10 @@
           logo: https://lofi.co/favicon.ico
           url: https://lofi.co/
           description: lofi白噪音
+        - title: InCrediBox Sprunki - 创新音乐创作游戏
+          logo: https://incredibox-sprunki.org/favicon.ico
+          url: https://incredibox-sprunki.org/zh
+          description: InCrediBox Sprunki是一款革命性的音乐创作游戏。通过直观的界面和丰富的音乐元素,让每个人都能轻松创作独特的节拍和旋律。
     - term: 抖音工具箱
       links:
         - title: 旧版tiktok安装
@@ -1357,6 +1361,10 @@
           logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/micn.png
           url: https://xyys.top
           description: 提供最新最快的电影电视剧在线观看
+        - title: 瓜子影视
+          logo: guazi.png
+          url: https://www.pzlyw.com/
+          description: 一款专为追剧而设计的免费高清看剧软件，提供最新热门的电视剧，电影等各种精彩大片资源，让你随时随地高清追剧
     - term: 动漫番剧
       links:
         - title: 哔哩哔哩
@@ -4367,6 +4375,10 @@
           logo: https://www.notionavatarmaker.com/favicon/favicon-32x32.png
           url: https://www.notionavatarmaker.com/
           description: Notion 头像制作 - 一个生成 Notion 风格头像的在线工具
+        - title: PDF 到 PNG 转换器 |免费在线 PDF 工具 |PDF 转 PNG
+          logo: https://pdftopng.tools/favicon.ico
+          url: https://pdftopng.tools/
+          description: Use our free PDF to PNG converter to easily transform your PDF documents into high-quality PNG images. Convert entire PDF pages or extract specific images quickly and efficiently.
     - term: API平台
       links:
         - title: 搏天api
@@ -4710,6 +4722,10 @@
           logo: https://framerusercontent.com/images/k4yDky9zA58ceImgoOwPjGV26ow.png
           url: https://qodex.ai/
           description: Qodex.ai 是一种 AI 驱动的 QA 自动化工具，用于构建、使用和测试 Web 应用程序、移动应用程序和 API 测试。
+        - title: Humanize AI - Free AI Humanizer & Get 100% Human Score
+          logo: https://humanizeai.tools/favicon.ico
+          url: https://humanizeai.tools/
+          description: Humanize AI是功能最强大的免费在线工具，可将 AI 文本人性化。也被称为 AI Humanizer 或 AI 到人类文本转换器。它将使用人工智能 (AI) 编写器生成的内容或文本重写为类似人类的文本，没有机器人的语气
     - term: AI·绘画
       links:
         - title: stability
