@@ -5528,6 +5528,136 @@
           logo: https://c2story.com/favicon.ico
           url: https://c2story.com/
           description: 提供各种类型的故事小说写作模型和写作阅读平台。包括：不同类型小说的撰写，不同模型的使用，图片生成等
+    - term: AI·模型+平台
+      links:
+        - title: 趋动云社区
+          logo: https://gemini-static.bd.bcebos.com/favicon.ico
+          url: https://open.virtaicloud.com/web/home
+          description: 趋动云社区
+        - title: Huggingface 镜像站
+          logo: https://hf-mirror.com/favicon.ico
+          url: https://hf-mirror.com/
+          description: Huggingface 镜像站
+        - title: OpenXLab浦源
+          logo: https://cdn-static.openxlab.org.cn/header/openxlab_logo.svg
+          url: https://openxlab.org.cn/home
+          description: OpenXLab浦源面向人工智能领域开发者和使用者，提供一站式AI开发平台。提供包括应用开发，模型免费托管，数据集下载等服务。应用中心提供应用构建平台
+        - title: deepinfra
+          logo: https://deepinfra.com/deepinfra-logo-64.webp
+          url: https://deepinfra.com
+          description: 使用简单的 API 运行顶级 AI 模型，按使用量付费。低成本、可扩展且生产就绪的基础设施
+        - title: Compare LLM API
+          logo: https://llmpricecheck.com/favicon-32x32.png
+          url: https://llmpricecheck.com
+          description: Compare LLM API Pricing Instantly - Get the Best Deals at LLM Price Check
+        - title: ssc-FinLLM-金融大模型
+          logo: github.jpg
+          url: https://github.com/haidizym/ssc-FinLLM
+          description: ssc-FinLLM-金融大模型
+        - title: 卖货主播大模型
+          logo: github.jpg
+          url: https://github.com/PeterH0323/Streamer-Sales
+          description: 卖货主播大模型，一个能够根据给定的商品特点对商品进行解说并激发用户的购买意愿的卖货主播模型
+        - title: 始智AI
+          logo: https://www.wisemodel.cn/favicon.ico
+          url: https://www.wisemodel.cn/home
+          description: 始智AI-wisemodel-中国AI开源创新社区
+        - title: 医疗垂直领域大模型
+          logo: github.jpg
+          url: https://github.com/winninghealth/WiNGPT2
+          description: 医疗垂直领域大模型
+        - title: Xinference
+          logo: https://inference.readthedocs.io/zh-cn/latest/_static/favicon.svg
+          url: https://inference.readthedocs.io/zh-cn/
+          description: 一个开源平台，用于简化各种 AI 模型的运行和集成。借助 Xinference，您可以使用任何开源 LLM、嵌入模型和多模态模型在云端或本地环境中运行推理，并创建强大的 AI 应用
+        - title: CodeWithGPU | 能复现才是好算法
+          logo: https://www.codewithgpu.com/favicon.png
+          url: https://www.codewithgpu.com/image
+          description: CodeWithGPU | 能复现才是好算法
+        - title: Llama中文社区
+          logo: https://llama.family/favicon.png
+          url: https://llama.family
+          description: 从大模型到小模型，从文本到多模态，从软件到硬件算法优化，Llama中文社区期望开源能够带给全人类以AI普惠。在一个科技爆发的时代，加入Llama Family，与技术一同进步，与社区一同前行，一起迈向AGI！
+        - title: 魔搭社区
+          logo: https://g.alicdn.com/sail-web/maas/1.17.2/favicon/128.ico
+          url: https://www.modelscope.cn/studios
+          description: 汇聚各领域最先进的机器学习模型，提供模型探索体验、推理、训练、部署和应用的一站式服务。
+        - title: Flux.1 AI
+          logo: https://flux1.org/favicon.ico
+          url: https://flux1.org
+          description: Revolutionizing Next-Generation Image Generation
+        - title: Grok-1
+          logo: https://grok-1.info/logo2.png
+          url: https://grok-1.info
+          description: The next 1000x coin built in the Ethereum Chain.
+        - title: Anakin.ai
+          logo: https://anakin.ai/favicon.ico
+          url: https://anakin.ai/zh-cn
+          description: Anakin.ai - 一站式 AI 应用平台
+        - title: SmallAI
+          logo: https://www.smallai.asia/favicon.ico?v=1
+          url: https://www.smallai.asia/welcome
+          description: SmallAI 带给你最好的 AI大模型 使用体验,免费GPT4公益站点：https://free.smallai.asia 访问密码：smallai2024 提供市面200+主流Ai大模型一站式使用平台
+        - title: 即梦AI
+          logo: https://lf3-lv-buz.vlabstatic.com/obj/image-lvweb-buz/common/images/dreamina-v5.ico
+          url: https://jimeng.jianying.com/ai-tool/home
+          description: 即梦AI是一个AI创作平台，可激发艺术创意、提升绘画和视频创作体验。您可以利用AI智能，将想象变为现实。即梦AI支持文字绘图、文字生成视频和图片生成视频，并提供创作灵感。让即梦AI开启您的AI生成艺术之旅，探索创造的无限可能！
+        - title: Juchats ｜ Infinite love
+          logo: https://www.hermchats.com/favicon.ico
+          url: https://www.hermchats.com
+          description: Juchats ｜ Infinite love
+        - title: civitai
+          logo: https://civitai.com/favicon-blue.ico
+          url: https://civitai.com
+          description: 探索数千个高质量的稳定扩散和助熔剂模型，分享您的AI生成的艺术，并与充满活力的创作者社区互动。
+        - title: AutoGPT
+          logo: https://agpt.co/path/to/favicon.ico
+          url: https://news.agpt.co
+          description: AutoGPT
+        - title: Open WebUI
+          logo: https://openwebui.com/favicon.png
+          url: https://openwebui.com
+          description: Open WebUI is an extensible, self-hosted interface for AI that adapts to your workflow, all while operating entirely offline; Supported LLM runners include Ollama and OpenAI-compatible APIs.
+        - title: Moonshot AI
+          logo: https://www.moonshot.cn/favicon.ico
+          url: https://www.moonshot.cn
+          description: 欢迎探索月之暗面，寻求将能源转化为智能的最优解
+        - title: 讯飞AI
+          logo: https://turbodesk.xfyun.cn/favicon.ico
+          url: https://turbodesk.xfyun.cn
+          description: 讯飞绘文，集AI写作，选题，配图，排版，润色，发布等功能为一体的智能创作平台。通用稿件30分钟生成，深度稿件效率翻番。应用于企业公众号，头条，新闻、等场景。释放创意，让内容创作更轻松！
+        - title: 文心一言
+          logo: https://nlp-eb.cdn.bcebos.com/logo/favicon.ico
+          url: https://yiyan.baidu.com
+          description: 文心一言
+        - title: 摹小仙
+          logo: https://cdn.frontis.top/cdn-content/static/moxiaoxian/favicon1.png
+          url: https://www.moxiaoxian.art/
+          description: 摹小仙,一句话,一张图,营销爆款轻松出炉,大幅降低电商拍摄和社媒营销成本.
+        - title: Adobe Firefly
+          logo: https://firefly.adobe.com/firefly_favicon.ico
+          url: https://firefly.adobe.com
+          description: Adobe Firefly
+        - title: AI提示语
+          logo: https://www.tishi.top/favicon.ico
+          url: https://www.tishi.top
+          description: AI提示语 - 文本、声音、图像、视频、代码 - 一站式 AI 模型与应用集成平台
+        - title: xAI
+          logo: https://x.ai/favicon.ico
+          url: https://x.ai
+          description: xAI 是一家人工智能公司，其使命是推进科学发现并更深入地了解我们的宇宙。我们的第一个产品是 Grok - 一种对话式 AI。
+        - title: 智谱AI开放平台
+          logo: https://open.bigmodel.cn/img/icons/favicon-32x32.png
+          url: https://open.bigmodel.cn
+          description: 智谱AI开放平台
+        - title: Kimi 
+          logo: https://statics.moonshot.cn/kimi-chat/favicon.ico
+          url: https://kimi.moonshot.cn
+          description: Kimi 是一个有着超大“内存”的智能助手，可以一口气读完二十万字的小说，还会上网冲浪，快来跟他聊聊吧 | Kimi.ai - Moonshot AI 出品的智能助手
+        - title: Tensor.Art
+          logo: https://tensor.art/tensorart.ico
+          url: https://tensor.art
+          description: 免费的在线图像生成器和模型托管网站！     
     - term: AI·代码
       links:
         - title: Copilot
@@ -5558,6 +5688,10 @@
           logo: Keploy.png
           url: https://www.keploy.io/
           description: Keploy 是一个开源的基于 AI 的测试生成平台，可创建测试用例和数据模拟/存根，在 90 分钟内实现 2% 的代码覆盖率。把它想象成用于测试的ChatGPT
+        - title: Cursor
+          logo: https://www.cursor.com/favicon.ico
+          url: https://www.cursor.com
+          description: Cursor 旨在让您非常高效，是使用 AI 进行编码的最佳方式
     - term: AI·数字人
       links:
         - title: dreamtalk
