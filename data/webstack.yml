@@ -3449,10 +3449,6 @@
           logo: book.png
           url: https://readhub.one
           description: 电子书下载
-        - title: 天浪书屋
-          logo: book.png
-          url: https://www.tianlangbooks.com
-          description: 电子书下载
         - title: 秘籍网
           logo: book.png
           url: http://www.miji8.com
@@ -3473,14 +3469,6 @@
           logo: book.png
           url: https://book.zhishikoo.com
           description: 网站进入较慢，可能要等个十秒
-        - title: 可可观察
-          logo: book.png
-          url: http://book.cocotao.cn/
-          description: 同上，也是域通网盘
-        - title: 书行万里
-          logo: book.png
-          url: https://www.gpdf.net
-          description: 域通网盘
         - title: Z-Library
           logo: book.png
           url: https://zh.booksc.xyz/
@@ -3505,9 +3493,9 @@
           logo: book.png
           url: https://www.kankezw.com
           description: 网文电子书
-        - title: 24hBook search - Download ebooks free with AI
-          logo: https://24hbook.us/assets/favicon-78d57e8b.ico
-          url: https://24hbook.us
+        - title: 24hBook search
+          logo: https://find.24hbook.us/assets/favicon-78d57e8b.ico
+          url: https://find.24hbook.us
           description: 简单快捷的图书搜索器，免费查找和下载图书。
 - taxonomy: 思维人生
   icon: fas fa-heart fa-lg
