@@ -3497,6 +3497,10 @@
           logo: https://find.24hbook.us/assets/favicon-78d57e8b.ico
           url: https://find.24hbook.us
           description: 简单快捷的图书搜索器，免费查找和下载图书。
+        - title: 推书郎
+          logo: https://www.tuishulang.com/wp-content/uploads/2024/10/%E6%89%BEPDF-logo.png
+          url: https://tuishulang.com
+          description: 分享各类电子书下载
 - taxonomy: 思维人生
   icon: fas fa-heart fa-lg
   list:
@@ -6391,6 +6395,10 @@
           logo: https://api.iowen.cn/favicon/www.88ipa.com.png
           url: https://www.88ipa.com/
           description: 立志做全球最大的IPA分享网站,  提供在线iOS应用下载服务，为您搜集最全、最专业的iPhone,iPad,iPod软件与IPA文件, 支持iOS4,iOS5,iOS6软件,iOS7软件,iOS8,iOS9软件在线安装以及IPA文件下载。
+        - title: iPA商店
+          logo: https://ipa.store/wp-content/uploads/2022/08/2022080502143894.png
+          url: https://ipa.store/
+          description: iPA商店致力于iOS10以上的iPA资源下载和分享，包括游戏iPA、软件应用IPA、破解版iPA、砸壳IPA等资源的分享和下载，做最稳定最优秀的iPA下载网站。
     - term: 下载·系统
       links:
         - title: 专注WIN7
@@ -8098,3 +8106,85 @@
           description: 36氪创投平台
         - title: 有趣网站之家
           logo: youquhome.com.ico
+          url: https://youquhome.com
+          description: 一个背时鬼的有趣网站
+        - title: iKaomoji
+          logo: https://ikaomoji.com/favicon.ico
+          url: https://ikaomoji.com
+          description: 这是一个专门的网站，提供具有多种变体的表情符号列表和易于使用的复制功能。 找到可爱、快乐、哭泣、惊喜等贴近您感受的表情符号
+        - title: 聊斋茶舍
+          logo: https://i0.wp.com/www.liaozhaichatroom.com/wp-content/uploads/2024/04/logo02.webp?fit=32%2C32&ssl=1
+          url: https://www.liaozhaichatroom.com/
+          description: 网站汇集了丰富的志怪故事、修行的道法与法术，以及民间神祇的详细介绍，带您探索古代神秘与智慧。无论您是神话爱好者，还是文化研究者，这里都将为您提供宝贵的知识与灵感
+        - title: PalworldZucht
+          logo: https://palworldzucht.de/icon.png?8e02e4888a8bff55
+          url: https://palworldzucht.de
+          description: 在Palworld Breeding List的帮助下培育最强的伙伴。在这里，您将找到最适合您育种的 Pal 组合。
+        - title: albacub
+          logo: https://www.albacub.com/favicon.ico
+          url: https://www.albacub.com
+          description: Discover a vast collection of Free framer templates at Albacub. Find the perfect template for your next project
+        - title: 荔枝ip
+          logo: https://www.lycheeip.com/favicon.ico
+          url: https://www.lycheeip.com/?affId=StN3iILCpi
+          description: 荔枝IP（lycheeip）是一家拥有超3000万全球IP的代理服务商，所有的IP都经过AI+算法的滤洗，专为跨境电商和社媒运营服务。
+        - title: ClaudeFound
+          logo: https://www.claudefinds.com/favicon/logo.png
+          url: https://www.claudefinds.com
+          description: ClaudeFound 是 Claude AI 爱好者的首要社区。在这里，您可以探索、分享和创建令人惊叹的克劳德文物。从代码片段到交互式网页，从SVG图像到复杂的文档，我们为每一位Claude Artifacts爱好者提供灵感和资源
+        - title: midjourneysref
+          logo: https://midjourneysref.com/logo.png
+          url: https://midjourneysref.com
+          description: 一个专注于收集和分类 MidJourney 中 sref 代码的网站。用户可以通过该网站探索和使用不同的 sref 代码，从而生成风格各异的图像效果。网站旨在帮助用户轻松找到自己喜欢的独特效果
+        - title: 酒店协议代码
+          logo: https://corporate-codes.online/favicon.ico
+          url: https://corporate-codes.online/zh
+          description: 酒店协议代码是一种关于IHG、希尔顿、万豪、凯悦等酒店品牌的特别折扣代码。这些代码提供给企业，以便以优惠价格预订酒店。公司可以利用这些代码为员工的出差节省旅行费用
+        - title: findsocialmedia
+          logo: https://findsocialmediaprofile.com/favicon.ico
+          url: https://findsocialmediaprofile.com
+          description: 轻松地通过用户名在400多个社交网络中查找社交媒体资料/账户
+        - title: 幻獸帕魯配種大全
+          logo: https://www.palworldbreed.com/favicon.ico
+          url: https://www.palworldbreed.com/zh-TW
+          description: 探索您最喜愛的帕魯的所有配種組合。使用我們的幻獸帕魯配種計算器找到完美的配種公式
+        - title: Best MEME Coin
+          logo: https://bestmemecoin.org/favicon.ico
+          url: https://bestmemecoin.org
+          description: 在 Best MEME Coin 上发掘下一个大热的模因币。我们使用 AI 分析趋势，提供专家评论，并帮助您在模因币爆发之前发现顶级模因币
+        - title: Best MEME Coin
+          logo: https://memeisgame.com/favicon.ico
+          url: https://memeisgame.com
+          description: 在 MEME is Game 上发现最新和最好的模因币，其中包含 AI 驱动的见解。随时了解顶级模因币的最新趋势、评论和 AI 分析，包括 Hot New Meme Coins 和 Best Meme Coins
+        - title: 宙世代 - 为您开启前所未有的元宇宙空间探索之旅
+          logo: https://www.z-metaspace.com/web/favicon.png
+          url: https://www.z-metaspace.com/
+          description: 宙世代是ZAKER旗下专注元宇宙空间设计的品牌，支持免费及定制化的搭建方式，涵盖文旅、党建、会展、峰会、电商等多个场景，提供品牌空间搭建、私域流量运营、线上展览承办等服务，可用移动设备浏览。
+        - title: IntroCard
+          logo: https://introcard.iwhy.dev/favicon.ico
+          url: https://introcard.iwhy.dev/
+          description: IntroCard is a tool that helps you create a personalized business card with your own information.
+        - title: 富途证券
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/2321.ico
+          url: https://www.futuhk.com
+          description: 富途證券,一站式提供港股、美股、A股、期貨、期權和基金等交易服務
+        - title: Ikonik-您在互联网上免费图标的首选
+          logo: https://ikonik.azwedo.com/favicon.ico
+          url: https://ikonik.azwedo.com/
+          description: Iknoik 提供 50k+ 开源图标供大家使用，这些图标来自创意人士创建的超过 45 个项目。它提供了一个内置的 SVG 编辑器，允许用户将图标复制和粘贴到任何地方。
+        - title: 重庆邮电大学开源镜像站
+          logo: https://mirrors.cqupt.edu.cn/favicon.ico
+          url: https://mirrors.cqupt.edu.cn/
+          description: 重庆邮电大学开源镜像站 | CQUPT OpenSource Mirror
+        - title: 免费在线英语发音词典
+          logo: https://pronounceonline.com/favicons/favicon-32x32.png
+          url: https://pronounceonline.com/zh/
+          description: PronounceOnline 提供超过 17 万个英语单词和常用短语的真人发音，帮助您掌握英语发音。
+        - title: 泰仔泰国(BoyinThai)
+          logo: https://boyinthai.com/favicon.ico
+          url: https://boyinthai.com
+          description: 一款泰国同志旅游产品，泰国旅游同志探店必备网址，收罗整理友好型店铺，部分门店涵盖促销优惠信息以及提供服务预约等
+        - title: 海棠诗社
+          logo: https://shi300.com/images/favicon.svg
+          url: https://shi300.com
+          description: 海棠诗社，古诗词的数字桃源。海棠诗社按诗集、朝代、诗人、诗词等方式检索，内容丰富，信息齐全。海棠诗社按选集、主题、节日、节气、词牌、时令、地理等方式精选分类。海棠诗社全站响应式布局，兼容移动端，支持暗黑模式，响应速度快。
