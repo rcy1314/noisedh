@@ -3694,6 +3694,10 @@
           logo: https://map.bemanicn.com/favicon.png
           url: https://map.bemanicn.com/
           description: 全国音游地图
+        - title: Hack games
+          logo: https://hack-games.com/favicon.ico
+          url: https://hack-games.com
+          description: 破解版抖音微信小游戏在线免费玩，0广告0内购。
     - term: 博客人生·构建
       links:
         - title: Github
