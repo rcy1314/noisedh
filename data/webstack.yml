@@ -473,6 +473,10 @@
           logo: https://assets.soutushenqi.com/common/mktp_logo.ico
           url: https://miankoutupian.com
           description: 免抠图片网，透明素材
+        - title: colorhub.me
+          logo: https://colorhub.me/colorhub.png
+          url: https://colorhub.me
+          description: 高清无版权图片，个人和商业用途免费
     - term: 图片设计
       links:
         - title: coverview
@@ -707,6 +711,10 @@
           logo: https://owosb.com/wp-content/uploads/2024/08/2024081405102785.png
           url: https://owosb.com/
           description: 轻设网（owosb.com），国内专注于设计素材领域。这里有海量优质素材，涵盖精美图片、创意插画、多样字体及实用图标等。精心筛选，品质上乘。简洁界面，便捷操作。无论您是专业设计师还是设计爱好者，轻设网都是您的灵感宝库！
+        - title: freepik
+          logo: https://fps.cdnpk.net/favicons/favicon.ico
+          url: https://www.freepik.com/
+          description: 数百万个免费图形资源。✓ 照片 ✓ AI 图像 ✓ 矢量 ✓ 图标 ✓ 模板 ✓ 视频。了解我们的实时 AI 艺术生成器。
     - term: 音乐世界
       links:
         - title: Nsf小站
@@ -829,10 +837,18 @@
           logo: https://lofi.co/favicon.ico
           url: https://lofi.co/
           description: lofi白噪音
-        - title: InCrediBox Sprunki - 创新音乐创作游戏
-          logo: https://incredibox-sprunki.org/favicon.ico
-          url: https://incredibox-sprunki.org/zh
-          description: InCrediBox Sprunki是一款革命性的音乐创作游戏。通过直观的界面和丰富的音乐元素,让每个人都能轻松创作独特的节拍和旋律。
+        - title: NCS
+          logo: https://ncs.io/favicon.png?_m=1597301782
+          url: https://ncs.io/
+          description: NCS 是一个拥有数百万人收听的电子音乐厂牌，为创作者免费提供音乐。
+        - title: fiftysounds
+          logo: https://www.fiftysounds.com/images/gallery/misc/favicon-fiftysounds.ico
+          url: https://www.fiftysounds.com/zh/
+          description: 无版权音乐，免费商用。您可以轻松地利用您的视频在YouTube以及您最喜欢的社交媒体上盈利。享受数百个音效，样本和独家音轨。 我们创造了一系列主题，涵盖广泛的音乐风格。 获得完美的音轨如今更为容易! 
+        - title: 音效怪
+          logo: http://yxguai.com/wp-content/uploads/2024/04/12100452381.png
+          url: https://www.yxguai.com
+          description: 音效怪-影视音效大全下载 - (无版权声音分享|音效素材库)
     - term: 抖音工具箱
       links:
         - title: 旧版tiktok安装
@@ -3698,6 +3714,14 @@
           logo: https://hack-games.com/favicon.ico
           url: https://hack-games.com
           description: 破解版抖音微信小游戏在线免费玩，0广告0内购。
+        - title: Incredibox-Sprunki
+          logo: https://thatsnot-myneighbor.org/favicon.ico
+          url: https://thatsnot-myneighbor.org
+          description: Incredibox-Sprunki是一个有趣和创造性的音乐游戏，让玩家使用各种角色设计他们独特的节拍
+        - title: InCrediBox Sprunki - 创新音乐创作游戏
+          logo: https://incredibox-sprunki.org/favicon.ico
+          url: https://incredibox-sprunki.org/zh
+          description: InCrediBox Sprunki是一款革命性的音乐创作游戏。通过直观的界面和丰富的音乐元素,让每个人都能轻松创作独特的节拍和旋律。
     - term: 博客人生·构建
       links:
         - title: Github
@@ -8192,3 +8216,7 @@
           logo: https://shi300.com/images/favicon.svg
           url: https://shi300.com
           description: 海棠诗社，古诗词的数字桃源。海棠诗社按诗集、朝代、诗人、诗词等方式检索，内容丰富，信息齐全。海棠诗社按选集、主题、节日、节气、词牌、时令、地理等方式精选分类。海棠诗社全站响应式布局，兼容移动端，支持暗黑模式，响应速度快。
+        - title: theuselessweb
+          logo: https://theuselessweb.com/favicon.ico
+          url: https://theuselessweb.com
+          description: 无用的 Web 按钮...带我去某个地方......无用。对于无聊的人或希望在网上查找随机网站的人来说，这是一个完美的按钮！
