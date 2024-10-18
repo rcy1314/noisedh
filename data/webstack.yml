@@ -1128,6 +1128,10 @@
           logo: Pinterest.png
           url: https://www.pinterest.com
           description: 全球设计创意灵感
+        - title: bilibili.tv
+          logo: 哔哩哔哩.jpg
+          url: https://www.bilibili.tv/en
+          description: 哔哩哔哩海外站，需要VPN访问
     - term: 运营工具
       links:
         - title: 视云鹤
@@ -6131,6 +6135,10 @@
           logo: https://xmac.app/assets/icons/logo.png
           url: https://xmac.app
           description: 不限速、仅需一步即可下载Mac破解App
+        - title: 小番茄盒子
+          logo: https://img.mac163.cn/wp-content/uploads/2022/12/11135820370.ico
+          url: https://www.mac163.cn
+          description: 小番茄盒子专业苹果电脑软件下载网站，专注苹果电脑软件、苹果电脑游戏下载、苹果笔记本软件下载、办公软件、设计字体下载、Mac使用教程等破解软件资源下载平台！
     - term: 下载·扩展
       links:
         - title: nav-manage
@@ -6317,10 +6325,6 @@
           description: Hereitis,在这里资源站,每日更新推荐优质的软件以及资源、摸鱼、在线工具，并为您提供详细的教程说明，本站一直坚持提供纯净、无广告、无插件、免费的软件资源下载收录
     - term: 下载·安卓
       links:
-        - title: texhocea-海纳百川
-          logo: 海纳百川.png
-          url: https://texhocean.com
-          description: 精品破解安卓下载站
         - title: 翻应用
           logo: 翻应用.ico
           url: https://www.iapps.me/
@@ -6364,7 +6368,75 @@
         - title: Aptoide - Android应用商店
           logo: https://cn.aptoide.com/static/favicon.ico
           url: https://cn.aptoide.com/
-          description: 在官方Aptoide应用商店中查找、发现和下载适用于Android的最佳应用和游戏
+          description: 个别地区需要VPN访问，查找、发现和下载适用于Android的最佳应用和游戏
+        - title: HappyMod
+          logo: https://happymod.com/statics/favicon.ico
+          url: https://happymod.com
+          description: HappyMod 让您可以免费使用修改后的任何您最喜欢的应用程序和游戏。它是修改后的 APK 商店
+        - title: MODYOLO
+          logo: https://modyolo.com/wp-content/uploads/2021/09/modyolo-1-150x150.png
+          url: https://modyolo.com
+          description: 免费的MOD APK游戏和高级安卓APP
+        - title: APKdone
+          logo: https://apkdone.com/images/main/favicon-circle.png
+          url: https://apkdone.com
+          description: MOD APK 文件的最佳下载器
+        - title: REXDL
+          logo: https://rexdl.com/wp-content/uploads/2020/04/cropped-favicon-150x150.png
+          url: https://rexdl.com
+          description: 下载 MOD APK 游戏高级 Android
+        - title: GETMODSAPK.COM
+          logo: https://getmodsapk.com/assets/images/logo/favicon/android-icon-192x192.png
+          url: https://getmodsapk.com/
+          description: Free MOD APKs, MOD Games, & Premium Apps | 100% Working Downloads
+        - title: an1
+          logo: https://an1.com/templates/an1/images/favicon/f32.png
+          url: https://an1.com
+          description: Free Games and Programs, you can download for free, a lot popular games with MOD for Android.
+        - title: PlayMods
+          logo: https://qn-resource.playmods.net/html/2024091801/favicon.ico
+          url: https://playmods.net/zh
+          description: PlayMods专注提供安卓版mod apk，免费为您提供最新、最热的游戏和应用
+        - title: Apk-mod.net
+          logo: https://apk-mod.net/templates/apkmodtheme/images/favicon/favicon.ico
+          url: https://apk-mod.net/en/
+          description: Games and programs
+        - title: ihackedit
+          logo: https://ihackedit.com/favicon.png
+          url: https://ihackedit.com
+          description: iHackedIt 是您免费下载 Android 游戏、应用程序、OBB 和 Mods（Hacks，Cheats） APK 下载的来源。每日更新，数百万人信赖！
+        - title: androeed
+          logo: https://androeed.store/tpl/ee/images/favicons/favicon-16x16.png
+          url: https://androeed.cn
+          description: 免费下载 APK 模组、APK 黑客和高级游戏
+        - title: modded-1
+          logo: https://modded-1.com/wp-content/uploads/2023/03/cropped-modded-1-icon-1-32x32.png
+          url: https://modded-1.com
+          description: 下载数百万个原始APK / MOD APK / Premium APK游戏和应用程序并付费。了解如何并通过 Modded-1.com 社区与他人分享您的知识。
+        - title: MODDER
+          logo: https://modder.me/wp-content/uploads/2021/08/cropped-modder.me-android-logo-32x32.png
+          url: https://modder.me
+          description: 下载适用于 Android 的 MOD APK 游戏和应用
+        - title: apkvipo
+          logo: https://apkvipo.cc/favicon-32x32.png
+          url: https://apkvipo.cc/
+          description: APKVIPO - Free MOD APK 
+        - title: modradar
+          logo: https://modradar.cc/wp-content/uploads/2024/09/cropped-modradar-32x32.jpg
+          url: https://modradar.cc
+          description: 下载所有MOD APK游戏和高级应用
+        - title: apkaward
+          logo: https://apkawards.com/favicon.ico?=201796
+          url: https://apkaward.com
+          description: 下载所有MOD APK游戏和高级应用
+        - title: apktodo
+          logo: https://apktodo.io/assets/image/favicon.png
+          url: https://apktodo.io
+          description: 在APKTodo，您可以获得免费的安卓MOD APK游戏和应用程序。数以千计的有史以来最佳游戏和免费的高级应用程序等着您来发现！
+        - title: apklite
+          logo: https://apklite.me/wp-content/uploads/2023/03/cropped-site-icons-180x180.png
+          url: https://apklite.me
+          description: 安卓MOD APK游戏和应用程序
     - term: 下载·IPA
       links:
         - title: IPA之家
@@ -6427,6 +6499,10 @@
           logo: https://ipa.store/wp-content/uploads/2022/08/2022080502143894.png
           url: https://ipa.store/
           description: iPA商店致力于iOS10以上的iPA资源下载和分享，包括游戏iPA、软件应用IPA、破解版iPA、砸壳IPA等资源的分享和下载，做最稳定最优秀的iPA下载网站。
+        - title: iOS CodeVN
+          logo: https://api.iowen.cn/favicon/ios.codevn.net.png
+          url: https://ios.codevn.net
+          description: Kho iPA miễn phí dành cho iPhone/iPad
     - term: 下载·系统
       links:
         - title: 专注WIN7
@@ -8062,6 +8138,10 @@
           logo: https://www.zhijianshang.com/favicon.ico
           url: https://www.zhijianshang.com/
           description: 全球全景360VR
+        - title: theuselessweb
+          logo: https://theuselessweb.com/favicon.ico
+          url: https://theuselessweb.com
+          description: 无用的 Web 按钮...带我去某个地方......无用。对于无聊的人或希望在网上查找随机网站的人来说，这是一个完美的按钮！
     - term: 更多探索
       links:
         - title: Emoji Favicon
@@ -8216,7 +8296,7 @@
           logo: https://shi300.com/images/favicon.svg
           url: https://shi300.com
           description: 海棠诗社，古诗词的数字桃源。海棠诗社按诗集、朝代、诗人、诗词等方式检索，内容丰富，信息齐全。海棠诗社按选集、主题、节日、节气、词牌、时令、地理等方式精选分类。海棠诗社全站响应式布局，兼容移动端，支持暗黑模式，响应速度快。
-        - title: theuselessweb
-          logo: https://theuselessweb.com/favicon.ico
-          url: https://theuselessweb.com
-          description: 无用的 Web 按钮...带我去某个地方......无用。对于无聊的人或希望在网上查找随机网站的人来说，这是一个完美的按钮！
+        - title: 免费字体网
+          logo: https://mimg.cdn.bcebos.com/upload/view/img/favicon.ico
+          url: https://www.mianfeiziti.com/
+          description: 免费字体网-字体下载-字体预览-海量免费中英文字体下载网站
