@@ -3726,6 +3726,10 @@
           logo: https://incredibox-sprunki.org/favicon.ico
           url: https://incredibox-sprunki.org/zh
           description: InCrediBox Sprunki是一款革命性的音乐创作游戏。通过直观的界面和丰富的音乐元素,让每个人都能轻松创作独特的节拍和旋律。
+        - title: Spunky Game
+          logo: spunk7y.ico
+          url: https://spunky.games
+          description: 立即体验 Spunky Game 的 Sprunki InCrediBox - 无需下载！在这款来自 Spunky Game 的免费在线音乐游戏中混音、创作并分享独特的 Spunky 节拍
     - term: 博客人生·构建
       links:
         - title: Github
@@ -4928,6 +4932,10 @@
           logo: https://ai-comicfactory.com/favicon.ico
           url: https://ai-comicfactory.com
           description: 把你的故事变成漫画！AI Comic Factory使用人工智能从文本中生成令人惊叹的漫画书。每个人都可以使用的漫画书生成器。不需要绘画技能
+        - title: Flux Pro AI
+          logo: https://www.fluxpro.ai/favicon.ico
+          url: https://www.fluxpro.ai/zh
+          description: Flux AI 图片模型在线使用
     - term: AI·问答
       links:
         - title: ChatGPT
@@ -5112,6 +5120,10 @@
           logo: https://pixeldance.io/favicon.ico
           url: https://pixeldance.io/zh
           description: PixelDance AI是业界领先的AI视频生成平台。利用尖端3D技术，生成长达2分钟的1080p高质量视频。适用于电影、广告、短视频等多个领域。立即体验AI驱动的创意视频制作。
+        - title: AI Hug Video Generator
+          logo: https://aihugvideo.org/favicon-16x16.png
+          url: https://aihugvideo.org/
+          description: 将您的照片转化为栩栩如生的拥抱视频。轻松创建个性化、富有情感的拥抱动画，创造珍贵的时刻
     - term: AI·图设
       links:
         - title: Hugging Face
