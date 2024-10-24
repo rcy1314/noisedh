@@ -4407,6 +4407,10 @@
           logo: https://pdftopng.tools/favicon.ico
           url: https://pdftopng.tools/
           description: Use our free PDF to PNG converter to easily transform your PDF documents into high-quality PNG images. Convert entire PDF pages or extract specific images quickly and efficiently.
+        - title: Image Toolbox
+          logo: https://www.amagicsoft.com/favicon.ico
+          url: https://www.amagicsoft.com/photo-editor/
+          description: 免费在线图片编辑工具，提供图片编辑、美化、加背景、照片圆角等永久免费功能
     - term: API平台
       links:
         - title: 搏天api
@@ -5124,6 +5128,10 @@
           logo: https://aihugvideo.org/favicon-16x16.png
           url: https://aihugvideo.org/
           description: 将您的照片转化为栩栩如生的拥抱视频。轻松创建个性化、富有情感的拥抱动画，创造珍贵的时刻
+        - title: Act-One
+          logo: http://act-one.org/favicon.ico
+          url: http://act-one.org/
+          description: 使用简单的视频输入创建富有表现力的角色表演，将演员表演转化为引人入胜的动画。
     - term: AI·图设
       links:
         - title: Hugging Face
