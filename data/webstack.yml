@@ -849,6 +849,10 @@
           logo: http://yxguai.com/wp-content/uploads/2024/04/12100452381.png
           url: https://www.yxguai.com
           description: 音效怪-影视音效大全下载 - (无版权声音分享|音效素材库)
+        - title: MP3TAG
+          logo: https://mp3tag.suno-top.com/favicon.ico
+          url: https://mp3tag.suno-top.com/zh-CN/
+          description: 免费在线编辑ID3信息网站，同时可以下载suno和udio的歌曲。
     - term: 抖音工具箱
       links:
         - title: 旧版tiktok安装
@@ -4758,6 +4762,10 @@
           logo: https://humanizeai.tools/favicon.ico
           url: https://humanizeai.tools/
           description: Humanize AI是功能最强大的免费在线工具，可将 AI 文本人性化。也被称为 AI Humanizer 或 AI 到人类文本转换器。它将使用人工智能 (AI) 编写器生成的内容或文本重写为类似人类的文本，没有机器人的语气
+        - title: aimangatranslator
+          logo: https://aimangatranslator.com/favicon.ico
+          url: https://aimangatranslator.com/zh-CN
+          description: AI漫画翻译网站，提供漫画翻译功能，新用户免费10次。
     - term: AI·绘画
       links:
         - title: stability
@@ -7271,6 +7279,10 @@
           logo: notion.png
           url: https://luminous-mapusaurus-1aa.notion.site/ComfyUI-AnimateDiff-fd5303fdafd14630b15726ad56e6dae3
           description: 每日AI新闻
+        - title: Show HN Today
+          logo: https://showhntoday.com/public/favicon.svg
+          url: https://showhntoday.com/
+          description: 每天自动整合HackNews上发布的产品，翻译成中英日三语，方便了解最新科技信息
     - term: RSS生产力
       links:
         - title: RSSHUB文档
