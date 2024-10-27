@@ -1389,6 +1389,10 @@
           logo: guazi.png
           url: https://www.pzlyw.com/
           description: 一款专为追剧而设计的免费高清看剧软件，提供最新热门的电视剧，电影等各种精彩大片资源，让你随时随地高清追剧
+        - title: 影视搜索
+          logo: sumain.ico
+          url: http://u1.cx
+          description: 看vip会员电影，tv电视直播，fm电台，在线音乐
     - term: 动漫番剧
       links:
         - title: 哔哩哔哩
@@ -3734,6 +3738,10 @@
           logo: spunk7y.ico
           url: https://spunky.games
           description: 立即体验 Spunky Game 的 Sprunki InCrediBox - 无需下载！在这款来自 Spunky Game 的免费在线音乐游戏中混音、创作并分享独特的 Spunky 节拍
+        - title: Golf Orbit | Exciting Golf Simulator Game
+          logo: https://www.golforbit.net/favicon.ico
+          url: https://www.golforbit.net
+          description: 简单上手的在线高尔夫游戏
     - term: 博客人生·构建
       links:
         - title: Github
@@ -4948,6 +4956,10 @@
           logo: https://www.fluxpro.ai/favicon.ico
           url: https://www.fluxpro.ai/zh
           description: Flux AI 图片模型在线使用
+        - title: SD Image
+          logo: https://sdimage.net/favicon.ico
+          url: https://sdimage.net
+          description: 免费不限次数的Stable Diffusion 3.5图片生成器
     - term: AI·问答
       links:
         - title: ChatGPT
@@ -8329,6 +8341,6 @@
           url: https://shi300.com
           description: 海棠诗社，古诗词的数字桃源。海棠诗社按诗集、朝代、诗人、诗词等方式检索，内容丰富，信息齐全。海棠诗社按选集、主题、节日、节气、词牌、时令、地理等方式精选分类。海棠诗社全站响应式布局，兼容移动端，支持暗黑模式，响应速度快。
         - title: 免费字体网
-          logo: https://mimg.cdn.bcebos.com/upload/view/img/favicon.ico
+          logo: zi.ico
           url: https://www.mianfeiziti.com/
           description: 免费字体网-字体下载-字体预览-海量免费中英文字体下载网站
