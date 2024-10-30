@@ -844,7 +844,7 @@
         - title: fiftysounds
           logo: https://www.fiftysounds.com/images/gallery/misc/favicon-fiftysounds.ico
           url: https://www.fiftysounds.com/zh/
-          description: 无版权音乐，免费商用。您可以轻松地利用您的视频在YouTube以及您最喜欢的社交媒体上盈利。享受数百个音效，样本和独家音轨。 我们创造了一系列主题，涵盖广泛的音乐风格。 获得完美的音轨如今更为容易! 
+          description: 无版权音乐，免费商用。您可以轻松地利用您的视频在YouTube以及您最喜欢的社交媒体上盈利。享受数百个音效，样本和独家音轨。 我们创造了一系列主题，涵盖广泛的音乐风格。 获得完美的音轨如今更为容易!
         - title: 音效怪
           logo: http://yxguai.com/wp-content/uploads/2024/04/12100452381.png
           url: https://www.yxguai.com
@@ -4774,6 +4774,10 @@
           logo: https://aimangatranslator.com/favicon.ico
           url: https://aimangatranslator.com/zh-CN
           description: AI漫画翻译网站，提供漫画翻译功能，新用户免费10次。
+        - title: 每日约会灵感生成器 |约会 Phabet
+          logo: https://alphabet-date-ideas.top/favicon.webp
+          url: https://alphabet-date-ideas.top/
+          description: Transform your dating life with our daily date inspiration generator. From A to Z, discover unique, creative date ideas perfect for couples. Free personalized date suggestions updated daily.
     - term: AI·绘画
       links:
         - title: stability
@@ -4960,6 +4964,14 @@
           logo: https://sdimage.net/favicon.ico
           url: https://sdimage.net
           description: 免费不限次数的Stable Diffusion 3.5图片生成器
+        - title: Flux AI Image Generator Free Online - Flux AI
+          logo: https://fluxaiimagegenerator.com/favicon.ico
+          url: https://fluxaiimagegenerator.com/
+          description: Create stunning visuals fast with Flux.1 AI's image generation tools. Explore Flux Schnell, Flux Dev, and Flux Pro 用于高质量的 AI 驱动的图像创建
+        - title: 'Fast Flux AI: Free Online AI Art Generator with Flux.1'
+          logo: https://fastfluxai.org/favicon.ico
+          url: https://fastfluxai.org/
+          description: 使用 Fast Flux AI 将您的创意转化为令人惊叹的视觉效果，Fast Flux AI 是一款利用 Flux.1 技术功能的免费 AI 艺术生成器。
     - term: AI·问答
       links:
         - title: ChatGPT
@@ -6460,7 +6472,7 @@
         - title: apkvipo
           logo: https://apkvipo.cc/favicon-32x32.png
           url: https://apkvipo.cc/
-          description: APKVIPO - Free MOD APK 
+          description: APKVIPO - Free MOD APK
         - title: modradar
           logo: https://modradar.cc/wp-content/uploads/2024/09/cropped-modradar-32x32.jpg
           url: https://modradar.cc
