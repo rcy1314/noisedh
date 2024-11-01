@@ -715,6 +715,10 @@
           logo: https://fps.cdnpk.net/favicons/favicon.ico
           url: https://www.freepik.com/
           description: 数百万个免费图形资源。✓ 照片 ✓ AI 图像 ✓ 矢量 ✓ 图标 ✓ 模板 ✓ 视频。了解我们的实时 AI 艺术生成器。
+        - title: YARN
+          logo: https://y.yarn.co/site/favicon-16x16.png
+          url: https://getyarn.io/
+          description: YARN-剪辑片段搜索
     - term: 音乐世界
       links:
         - title: Nsf小站
@@ -4062,6 +4066,10 @@
           logo: https://laozhang.org/wp-content/uploads/2023/04/favicon.ico
           url: https://laozhang.org/
           description: 老张博客，一个记录生活随笔日志的个人博客。融合个人生活随笔、电脑网络使用技巧、实用资源分享、网站建设教程攻略等相关内容。
+        - title: 牧之笔记 | 世界不应有局限
+          logo: https://www.mspace.cc/wp-content/uploads/2022/10/eabf5073bf064814.png
+          url: https://www.mspace.cc/
+          description: ChatGPT、技术笔记、黑群晖、破解 Switch、DIYNAS、IOS 越狱，很高兴认识你 :-)
     - term: 优质播客
       links:
         - title: 摄影叨B叨
@@ -7791,6 +7799,10 @@
           logo: bazhuayu.ico
           url: https://rpa.bazhuayu.com/
           description: 八爪鱼RPA是一款免费流程自动化机器人，可以模拟人在电脑上的各种操作，结合AI打造人人可用的小白神器，解放重复性工作，提升组织人效。
+        - title: Apify
+          logo: https://apify.com/favicon.ico
+          url: https://apify.com/
+          description: Apify 是开发人员构建、部署和发布 Web 抓取、数据提取和 Web 自动化工具的平台。
 - taxonomy: 探索发现
   icon: fas fa-compass
   list:
@@ -8356,3 +8368,7 @@
           logo: zi.ico
           url: https://www.mianfeiziti.com/
           description: 免费字体网-字体下载-字体预览-海量免费中英文字体下载网站
+        - title: 点点链接
+          logo: https://ddlink.cc/favicon.ico
+          url: https://ddlink.cc/
+          description: 点点链接是一款一站式个人主页、导航页和营销工具。可以制作你的主页|数字名片|导航页。聚合你的所有信息，到一个永久链接、二维码、个人网页
