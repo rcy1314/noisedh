@@ -3950,18 +3950,6 @@
           logo: https://hack-games.com/favicon.ico
           url: https://hack-games.com
           description: 破解版抖音微信小游戏在线免费玩，0广告0内购。
-        - title: Incredibox-Sprunki
-          logo: https://thatsnot-myneighbor.org/favicon.ico
-          url: https://thatsnot-myneighbor.org
-          description: Incredibox-Sprunki是一个有趣和创造性的音乐游戏，让玩家使用各种角色设计他们独特的节拍
-        - title: InCrediBox Sprunki - 创新音乐创作游戏
-          logo: https://incredibox-sprunki.org/favicon.ico
-          url: https://incredibox-sprunki.org/zh
-          description: InCrediBox Sprunki是一款革命性的音乐创作游戏。通过直观的界面和丰富的音乐元素,让每个人都能轻松创作独特的节拍和旋律。
-        - title: Spunky Game
-          logo: spunk7y.ico
-          url: https://spunky.games
-          description: 立即体验 Spunky Game 的 Sprunki InCrediBox - 无需下载！在这款来自 Spunky Game 的免费在线音乐游戏中混音、创作并分享独特的 Spunky 节拍
         - title: Golf Orbit | Exciting Golf Simulator Game
           logo: https://www.golforbit.net/favicon.ico
           url: https://www.golforbit.net
@@ -3998,17 +3986,13 @@
           logo: https://zland.club/wp-content/themes/lolimeow/assets/images/favicon.ico
           url: https://zland.club/
           description: switch游戏下载，ps4游戏下载，宝可梦改版资源
-        - title: Sprunki Remastered - 体验前所未有的音乐创作
-          logo: https://sprunki-remastered.org/favicon.ico
-          url: https://sprunki-remastered.org/zh
-          description: 潜入 Sprunki Remastered 的世界，这是一款独特的音乐创作游戏，可让您混合声音并使用充满活力的角色创作自己的音乐杰作。
         - title: Free Web Gamer | Play Free Web Games
           logo: https://freewebgamer.com/favicon.ico
           url: https://freewebgamer.com/
           description: Play HTML5 Games for Free
         - title: switch-xci,nsp,nsz,ns
           logo: https://www.2cyshare.com/zb_users/upload/2022/07/202207161657957695608469.png
-          url: https://www.2cyshare.com/?cate=7
+          url: https://www.2cyshare.com/
           description: 关于Switch分类的相关文章列表
         - title: 自制应用商店 - ForTheUsers
           logo: https://hb-app.store/favicon.ico
@@ -4022,18 +4006,10 @@
           logo: https://unblocked-games.cc/favicon.ico
           url: https://unblocked-games.cc/
           description: 各种在线游戏。随时随地不受限制地享受动作、益智和体育游戏
-        - title: Sprunki Retake – Fan-Made Incredibox Music Mixing Game
-          logo: https://sprunkiretake.xyz/favicon.ico
-          url: https://sprunkiretake.xyz/
-          description: 探索 Sprunki Retake，这是一款粉丝制作的 Incredibox 模组，具有新的声音、角色和创作自由。免费玩！
         - title: Top1 Games
           logo: https://top1.games/favicon.ico
           url: https://top1.games/
           description: 在 Top 1 Games 享受数以千计的免费在线游戏！潜入各种类型的游戏，包括街机、益智、动作、运动、射击游戏等等 - 都可以直接玩
-        - title: Sprunki Retake
-          logo: https://sprunkiretake.net/favicons/favicon.ico
-          url: https://sprunkiretake.net/
-          description: 开源地址：https://github.com/hoodee153/Sprunki-Retake 介绍：sprunkiretake.net是一个incredibox的模组，是由粉丝社区自制的一系列sprunki小游戏，在全球都很火热
         - title: JoyGames | 免费在线游戏平台
           logo: https://www.joygames.io/logo.png
           url: https://www.joygames.io/zh
@@ -4042,10 +4018,48 @@
           logo: https://revolutionidle.com/favicon.ico
           url: https://revolutionidle.com/
           description: Play Revolution Idle Game, a free browser empire builder. Expand territories & lead revolutions in this strategic idle game. No downloads - start conquering now!
+    - term: Sprunki-Incredibox
+      links:
+        - title: Sprunki Remastered - 体验前所未有的音乐创作
+          logo: https://sprunki-remastered.org/favicon.ico
+          url: https://sprunki-remastered.org/zh
+          description: 潜入 Sprunki Remastered 的世界，这是一款独特的音乐创作游戏，可让您混合声音并使用充满活力的角色创作自己的音乐杰作。
+        - title: Play Sprunki online
+          logo: https://playsprunki.online/favicon.svg
+          url: https://playsprunki.online
+          description: Play Sprunki online! This fan-made mod of Incredibox offers a unique music mixing experience with new sounds
+        - title: Sprunki Retake
+          logo: https://sprunkiretake.net/favicons/favicon.ico
+          url: https://sprunkiretake.net/
+          description: 开源地址：https://github.com/hoodee153/Sprunki-Retake 介绍：sprunkiretake.net是一个incredibox的模组，是由粉丝社区自制的一系列sprunki小游戏，在全球都很火热
+        - title: Sprunki Retake – Fan-Made Incredibox Music Mixing Game
+          logo: https://sprunkiretake.xyz/favicon.ico
+          url: https://sprunkiretake.xyz/
+          description: 探索 Sprunki Retake，这是一款粉丝制作的 Incredibox 模组，具有新的声音、角色和创作自由。免费玩！
+        - title: Incredibox-Sprunki
+          logo: https://thatsnot-myneighbor.org/favicon.ico
+          url: https://thatsnot-myneighbor.org
+          description: Incredibox-Sprunki是一个有趣和创造性的音乐游戏，让玩家使用各种角色设计他们独特的节拍
+        - title: InCrediBox Sprunki - 创新音乐创作游戏
+          logo: https://incredibox-sprunki.org/favicon.ico
+          url: https://incredibox-sprunki.org/zh
+          description: InCrediBox Sprunki是一款革命性的音乐创作游戏。通过直观的界面和丰富的音乐元素,让每个人都能轻松创作独特的节拍和旋律。
+        - title: Spunky Game
+          logo: spunk7y.ico
+          url: https://spunky.games
+          description: 立即体验 Spunky Game 的 Sprunki InCrediBox - 无需下载！在这款来自 Spunky Game 的免费在线音乐游戏中混音、创作并分享独特的 Spunky 节拍
         - title: Free Sprunki S Series Games
           logo: https://sprunkix.com/favicon.ico
           url: https://sprunkix.com/
           description: sprunki 系列在线游戏站
+        - title: Sprunki Game
+          logo: https://sprunki.org/cache/data/image/options/sprunki-favicon1-m60x60.png
+          url: https://sprunki.org/
+          description: sprunki 系列合集在线站
+        - title: Incredibox Game
+          logo: https://incredibox-game.io/cache/data/image/options/incredibox-favicon-m60x60.png
+          url: https://incredibox-game.io/home
+          description: sprunki 系列合集在线站
     - term: 博客人生·构建
       links:
         - title: Github
@@ -5678,6 +5692,10 @@
           logo: https://svg.la/favicons/favicon-32x32.png
           url: https://svg.la/
           description: 使用我们的 AI 工具轻松创建令人惊叹的 SVG 文件。将文本或图像转换为高质量的矢量图形，并在几秒钟内生成自定义设计。
+        - title: 免费在线PNG制作工具：将文本转换为透明背景的PNG
+          logo: https://pngmaker.io/favicon.ico
+          url: https://pngmaker.io/zh-CN
+          description: 使用PNG制作工具轻松创建高质量PNG图像。我们的免费在线PNG制作工具可将文本转换为PNG，并支持自定义选项。是网页设计师和内容创作者的理想选择，适合需要透明PNG的用户。
     - term: AI·音乐
       links:
         - title: Soundraw
