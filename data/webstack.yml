@@ -391,6 +391,14 @@
           logo: https://luvvoice.com/wp-content/uploads/2024/03/%E6%88%AA%E5%B1%8F2024-03-08-21.35.50.png
           url: https://luvvoice.com/
           description: 免费的文本转语音工具，无需登录，没有字数限制，支持70多种语言，200多种声音
+        - title: edgetts
+          logo: https://edgetts.noisework.cn/static/icon.png
+          url: https://edgetts.noisework.cn
+          description: 免费的文本转语音工具，提供语音合成服务
+        - title: 文字转语音 - 松子工具
+          logo: https://tool.szfx.top/favicon.ico
+          url: https://tool.szfx.top/tts
+          description: 采用讯飞语音合成（流式版），语音合成流式接口将文字信息转化为声音信息，同时提供了众多极具特色的发音人（音库）供您选择。
     - term: 无版权图库
       links:
         - title: piqsels
