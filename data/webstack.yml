@@ -915,6 +915,10 @@
           logo: https://zuiti.ocyss.icu/favicon.ico
           url: https://zuiti.ocyss.icu/
           description: 利用大模型技术，从抖音视频生成人物画像
+        - title: 抖音AI自动回复引流系统
+          logo: github.jpg
+          url: https://github.com/pen9un/douyin-chatgpt-bot
+          description: 抖音AI自动回复引流系统
     - term: 小红书工具
       links:
         - title: 小红书笔记采集助手
