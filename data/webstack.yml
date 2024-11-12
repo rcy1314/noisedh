@@ -1182,6 +1182,70 @@
           logo: 哔哩哔哩.jpg
           url: https://www.bilibili.tv/en
           description: 哔哩哔哩海外站，需要VPN访问
+        - title: Threads
+          logo: https://static.cdninstagram.com/rsrc.php/ye/r/lEu8iVizmNW.ico
+          url: https://www.threads.net/
+          description: 加入 Threads 可分享灵感、提出问题、随想随发心中的想法、寻找志趣相投的用户等等。使用你的 Instagram 登录。
+        - title: bluesky
+          logo: https://bsky.app/static/favicon-32x32.png
+          url: https://bsky.app/
+          description: Social media as it should be. Find your community among millions of users, unleash your creativity, and have some fun again.
+        - title: tumblr
+          logo: https://assets.tumblr.com/pop/manifest/favicon-cfddd25f.svg
+          url: https://www.tumblr.com/
+          description: 探索 Tumblr 上的热门话题。查看所有 GIF 动图、同人图、关于网上最受喜爱的东西的大众讨论。
+        - title: Facebook
+          logo: https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico
+          url: https://www.facebook.com/
+          description: 探索Facebook
+        - title: 简书
+          logo: https://cdn2.jianshu.io/assets/favicons/favicon-e743bfb1821442341c3ab15bdbe804f7ad97676bd07a770ccc9483473aa76f06.ico
+          url: https://www.jianshu.com/
+          description: 简书是一个优质的创作社区，在这里，你可以任性地创作，一篇短文、一张照片、一首诗、一幅画……我们相信，每个人都是生活中的艺术家，有着无穷的创造力。
+        - title: 新片场
+          logo: 新片场.jpg
+          url: https://www.xinpianchang.com
+          description: 质量上乘的视频大开眼界
+        - title: 天空之城
+          logo: 天空之城.jpg
+          url: https://www.skypixel.com
+          description: 世界各地的航拍摄影师、拍手叫绝的航拍作品与独具价值的航拍攻略。全世界的探索者们互相启发，乐在其中。现在加入天空之城，换个角度看世界！。
+        - title: csdn
+          logo: https://g.csdnimg.cn/static/logo/favicon32.ico
+          url: https://blog.csdn.net/
+          description: CSDN是全球知名中文IT技术交流平台,创建于1999年,包含原创博客、精品问答、职业培训、技术论坛、资源下载等产品服务,提供原创、优质、完整内容的专业IT技术开发社区.
+        - title: 51CTO
+          logo: https://s5-media.51cto.com/cms/static/favicon.ico
+          url: https://www.51cto.com/
+          description: 51CTO是中国知名的数字化人才学习平台和技术社区，以服务一亿数字化人才职业成长为己任，对中国数千万数字化人才拥有强大的影响力和服务能力。
+        - title: 站酷ZCOOL
+          logo: https://static.zcool.cn/git_z/z/site/favicon.ico?version=1618914637608
+          url: https://www.zcool.com.cn
+          description: 站酷ZCOOL，中国设计师互动平台。深耕设计领域十八年，站酷聚集了1700万设计师、摄影师、插画师、艺术家、创意人，设计创意群体中具有较高的影响力与号召力。
+        - title: v2ex
+          logo: https://v2ex.com/static/icon-192.png
+          url: https://v2ex.com/
+          description: 创意工作者的社区。讨论编程、设计、硬件、游戏等令人激动的话题。
+        - title: snapchat
+          logo: https://static.snapchat.com/favicon.ico
+          url: https://www.snapchat.com/
+          description: 在电脑桌面上聊天、发送 Snap、探索故事和试用特效镜头，或在手机上下载应用！了解如何在 Snapchat 上与好友联系，一起创作，随时随地都可以。
+        - title: 百度贴吧
+          logo: https://tb3.bdstatic.com/public/icon/favicon-v2.ico
+          url: https://tieba.baidu.com/
+          description: 百度贴吧——全球领先的中文社区。
+        - title: 虎扑
+          logo: https://w1.hoopchina.com.cn/images/pc/old/favicon.ico
+          url: https://www.hupu.com/
+          description: 虎扑是以体育赛事和男性兴趣生活为主的社区网站。专注于NBA赛程、NBA录像、NBA直播、NBA资讯、球员交易、足球、英超、电竞、LPL等全部篮球足球电竞赛事，并提供虎扑步行街社区服务。
+        - title: 豆瓣
+          logo: https://api.iowen.cn/favicon/www.douban.com.png
+          url: https://www.douban.com/
+          description: 提供图书、电影、音乐唱片的推荐、评论和价格比较，以及城市独特的文化生活。
+        - title: 知乎
+          logo: https://static.zhihu.com/heifetz/favicon.ico
+          url: https://www.zhihu.com/
+          description: 知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解答」为品牌使命。知乎凭借认真、专业、友善的社区氛围、独特的产品机制以及结构化和易获得的优质内容
     - term: 运营工具
       links:
         - title: 视云鹤
@@ -4945,6 +5009,10 @@
           logo: https://memowise.ink/favicon.ico
           url: https://memowise.ink/
           description: Memowise Memowise 帮你快捷收藏、查询、吸收和使用 在线阅读中有价值的信息
+        - title: 即时写作
+          logo: https://cdn.iappdaily.com/jishixiezuo/assets/images/favicon/android-icon-192x192.png
+          url: https://www.jishixiezuo.com/
+          description: 即时写作提供强大的人工智能写作解决方案，涵盖多种行业需求。通过数千个模板和先进的 AI 技术，实现快速生成高质量文案、SEO 优化内容、社交媒体营销材料等。无论是自媒体运营、企业主、营销人员还是自由职业者，我们的智能写作平台助力您提升工作效率，快速实现想法到执行。
 - taxonomy: AI新时代
   icon: fas fa-cog
   list:
