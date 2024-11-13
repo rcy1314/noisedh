@@ -8772,10 +8772,10 @@
           logo: https://static.wixstatic.com/media/3af1b5_9c23c0496ca7499d9a3b28fd4c3ec153%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/3af1b5_9c23c0496ca7499d9a3b28fd4c3ec153%7Emv2.jpg
           url: https://www.chinalgbt.org
           description: OutChina - China's LGBT stories.
-        - title: 酷儿论坛
-          logo: https://forum.motss.cc/uploads/default/optimized/2X/4/40e01614122fd8b385649c4a07c359e594b084b1_2_32x32.png
-          url: https://forum.motss.cc
-          description: 酷儿论坛
+        - title: caihongto
+          logo: https://m.caihongto.com/public/assets/images/favicon.ico
+          url: https://m.caihongto.com
+          description: 彩虹to
         - title: 出色伙伴
           logo: https://viennapride.at/wp-content/uploads/2019/favicon.ico
           url: https://viennapride.at/
@@ -8828,6 +8828,10 @@
           logo: http://boy99.cn/wp-content/themes/Grace/img/favicon.ico
           url: http://boy99.cn
           description: boy99
+        - title: shuaito
+          logo: https://www.shuaito.buzz/favicon.ico
+          url: https://www.shuaito.buzz/
+          description: shuaito社区
         - title: 翻咔
           logo: https://finka-h5.finka.cn/favicon.ico
           url: https://finka-h5.finka.cn
