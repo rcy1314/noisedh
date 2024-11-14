@@ -2569,6 +2569,10 @@
           logo: https://likunqi.top/file/eb6960d93ca6ce3149369.png
           url: https://www.yun1sou.com/
           description: 一站式夸克网盘资源发现平台，提供清新界面与丰富内容。无论是追求知识的学习资料，还是寻找娱乐的影视、综艺、动漫，云易搜都能以高效搜索技术满足您的需求。即刻体验，探索无限资源，享受个性化的网盘搜索服务。
+        - title: 夸克搜-最优雅的夸克网盘搜索引擎
+          logo: https://img.fre123.com/i/2024/03/29/6606d33b5a284.png
+          url: https://www.quark.so
+          description: 夸克搜是一款简洁优雅的夸克网盘搜索引擎，页面清爽，资源全面，支持影视、短剧、综艺、动漫等夸克网盘资源搜索。只需输入关键词，即可快速找到相关夸克网盘资源。
     - term: 云盘存储
       links:
         - title: 百度云盘
@@ -4060,6 +4064,14 @@
           logo: https://incredibox-game.io/cache/data/image/options/incredibox-favicon-m60x60.png
           url: https://incredibox-game.io/home
           description: sprunki 系列合集在线站
+        - title: Sprunki Game
+          logo: https://sprunkigame.games/favicon.ico
+          url: https://sprunkigame.games/
+          description: 免费在线玩 Sprunki Game 和 Sprunki Incredibox！用这个有趣的节奏游戏创作美妙的音乐
+        - title: Sprunki Retake
+          logo: https://sprunki-retake.org/favicon-16x16.png
+          url: https://sprunki-retake.org
+          description: sprunki-retake.org 是一款沉浸式的游戏，让玩家可以在带有暗黑氛围的环境中探索音乐创作
     - term: 博客人生·构建
       links:
         - title: Github
@@ -7136,7 +7148,7 @@
 - taxonomy: 极客创造
   icon: fas fa-cube
   list:
-    - term: 其它导航
+    - term: 更多导航
       links:
         - title: 创造狮导航
           logo: 创造狮.ico
@@ -7274,6 +7286,10 @@
           logo: https://toolifytoday.com/favicon.ico
           url: https://toolifytoday.com/
           description: Free online tools for various tasks and calculations
+        - title: 小报童专栏导航
+          logo: https://img.fre123.com/i/2024/09/03/66d6b5558fc59.ico
+          url: https://www.xiaobot.so
+          description: 小报童导航精选，帮你发现高价值小报童专栏：包括 AI、搞钱、个人 IP、成长、小红书、公众号、抖音、独立开发、出海、产品、育儿职场等各类专栏
     - term: 科学机场
       links:
         - title: 闪电
@@ -9010,3 +9026,7 @@
           logo: https://cm-to-inch.com/favicon.ico
           url: https://cm-to-inch.com
           description: 使用我们的可视化工具将厘米转换为英寸。用日常物品比较长度。快速、免费且易用。立即尝试我们独特的厘米英寸转换器！
+        - title: Infiniate Craft.Online-Play Now with Infinite Craft Recipes
+          logo: https://www.infinite-craft.online/favicon.ico
+          url: https://www.infinite-craft.online
+          description: 使用 Infinite Craft Recipes 在线玩 Infinite Craft，发现令人兴奋的制作配方，并学习如何掌握游戏！浏览我们的博客获取提示和指南，并观看专家玩家的视频以加深您的知识。您关于 Infinite Craft 一切的终极资源！
