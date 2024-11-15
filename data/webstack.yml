@@ -5208,6 +5208,10 @@
           logo: https://jimmyai.app/favicon.ico
           url: https://jimmyai.app
           description: 提供日常工作等知识碎片处理，日常功能to do 管理，根据知识AI驱动管理任务等
+        - title: Agent use
+          logo: https://www.agentuse.cc/favicon.ico
+          url: https://www.agentuse.cc
+          description: 提供AI Agent 应用实例和使用技巧等，包括Claude computer use使用案例和技巧展示网站
     - term: AI·绘画
       links:
         - title: stability
