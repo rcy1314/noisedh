@@ -4022,6 +4022,10 @@
           logo: https://revolutionidle.com/favicon.ico
           url: https://revolutionidle.com/
           description: Play Revolution Idle Game, a free browser empire builder. Expand territories & lead revolutions in this strategic idle game. No downloads - start conquering now!
+        - title: 带提示的wordle游戏在线玩
+          logo: https://wordle-with-hints.org/wordle-header-logo.svg
+          url: https://wordle-with-hints.org/
+          description: wordle with hint ，每个游戏有三个提示，支持4-7组词组，支持多语言，包括中文拼音，每天更新新词，麻烦站佬收录，感谢！
     - term: Sprunki-Incredibox
       links:
         - title: Sprunki Remastered - 体验前所未有的音乐创作
@@ -4072,6 +4076,10 @@
           logo: https://sprunki-retake.org/favicon-16x16.png
           url: https://sprunki-retake.org
           description: sprunki-retake.org 是一款沉浸式的游戏，让玩家可以在带有暗黑氛围的环境中探索音乐创作
+        - title: Sprunki Phase 4
+          logo: https://www.playsprunkiphrase4.com/favicon.ico
+          url: https://www.playsprunkiphrase4.com
+          description: playsprunkiphrase4.com 是Spunki phase 4在线游戏，沉浸式体验，多语言支持，万圣节风格
     - term: 博客人生·构建
       links:
         - title: Github
@@ -4797,6 +4805,14 @@
           logo: https://d3btrheyejmivy.cloudfront.net/sites/2/2023/05/21033148/linksgpt-favicon-150x150.png
           url: https://www.linksgpt.com/
           description: LinksGPT是一个专业的链接管理平台，用于自定义短网址、品牌建设和转换。提供网址缩短和扩展功能，支持自定义域、团队协作、定制二维码、跟踪和深入分析、深度链接、开放API和增强的链接安全
+        - title: 卡路里计算器
+          logo: https://www.calories-calculator.cc/favicon.ico
+          url: https://www.calories-calculator.cc
+          description: 卡路里在线计算器，计算多家快餐店菜单卡路里含量，另外计算个人bmi等数据，支持菜单上传计算卡路里，支持根据喜好生成个人食物清单。
+        - title: Free Unlimited Image Splitter
+          logo: https://www.immagon.cc/favicon.ico
+          url: https://www.immagon.cc/
+          description: 提供图片分割工具，支持多语言，支持九宫格、横向，竖向分割等。可用于朋友圈九宫格图片分割、ins图片分割
     - term: API平台
       links:
         - title: 搏天api
@@ -5184,10 +5200,14 @@
           logo: https://mj.xinpianchang.com/favicon.ico
           url: https://mj.xinpianchang.com/
           description: 新片场AI创作是一款利用AI专注于创作的绘画工具，具备高质量图片素材生成能力，让创作更有想象力。
-        - title: 'Describe Picture: AI-Generated Image Descriptions for Enhanced Accessibility and SEO'
+        - title: Describe Picture
           logo: https://describepicture.cc/favicon.ico
           url: https://describepicture.cc/
           description: Describe Picture是一个专业的图片图像分析描述平台，通过 AI 驱动的平台生成详细的图像描述，提升可访问性和 SEO。上传您的图像，让我们的 AI 提供准确且可编辑的描述，改善您的数字内容
+        - title: Jimmy AI to do list
+          logo: https://jimmyai.app/favicon.ico
+          url: https://jimmyai.app
+          description: 提供日常工作等知识碎片处理，日常功能to do 管理，根据知识AI驱动管理任务等
     - term: AI·绘画
       links:
         - title: stability
@@ -5582,6 +5602,14 @@
           logo: https://www.vmagic.app/favicon.ico
           url: https://www.vmagic.app/
           description: 具有视频转动画、图像舞蹈、AI 视频换脸、人脸运动和视频增强器的 AI 视频平台
+        - title: 海螺AI 视频生成
+          logo: https://www.hailuoai.work/favicon.ico
+          url: https://www.hailuoai.work/
+          description: 海螺AI视频生成展示和使用技巧网站，展示AI视频，生成功能，使用技巧等
+        - title: mochi 1 preview AI生成视频模型试用和生成工具。
+          logo: https://www.mochi1preview.com/favicon.ico
+          url: https://www.mochi1preview.com/
+          description: Preview Mochi 1, the latest AI video generation technology from Genmo. Transform text into high-quality videos with advanced AI features. Experience the future of video creation with Mochi 1 Preview.
     - term: AI·图设
       links:
         - title: Hugging Face
@@ -6423,7 +6451,7 @@
         - title: V3小店
           logo: https://shop.gpt.ge/favicon.svg
           url: https://shop.gpt.ge
-          description: ChatGPT API批发购买 
+          description: ChatGPT API批发购买
         - title: 智增增
           logo: https://gpt.zhizengzeng.com/assets/favicon-09eb7c1b.ico
           url: https://gpt.zhizengzeng.com
