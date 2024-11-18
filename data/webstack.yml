@@ -1456,6 +1456,135 @@
           logo: https://www.uw0.cn/wp-content/uploads/2022/06/1654176019-01f586cf32bfb85.png
           url: https://www.uw0.cn/
           description: 优文影视解说网专注于分享影视电视剧动漫解说文案、影视电视剧动漫文案解说词，为广大影视剪辑爱好者提供丰富的影视剪辑文案影视剪辑素材，以及分享影视剪辑的技巧和教程，为您的剪辑工作保驾护航。
+- taxonomy: 职场生涯
+  icon: fas fa-briefcase
+  list:
+    - term: 求职招聘
+      links:
+        - title: BOSS直聘
+          logo: https://www.zhipin.com/favicon.ico
+          url: https://www.zhipin.com
+          description: BOSS直聘是权威领先的招聘网，开启人才网招聘求职新时代，招聘求职找工作，上BOSS直聘，直接谈！
+        - title: 前程无忧
+          logo: https://img04.51jobcdn.com/im/mkt/pc/favicon/favicon_51.ico?20221122
+          url: https://www.51job.com
+          description: 前程无忧人才网面向全国,提供2024准确的招聘网站信息,为企业和求职者提供人才招聘、求职、找工作、培训等在内的全方位的人力资源服务,更多求职找工作信息尽在前程无忧!
+        - title: 拉勾招聘
+          logo: https://www.lgstatic.com/lg-www-fed/common/static/favicon_faed927.ico
+          url: https://www.lagou.com/
+          description: 拉勾招聘是专业的互联网求职招聘网站。致力于提供真实可靠的互联网岗位求职招聘找工作信息，拥有海量的互联网人才储备，互联网行业找工作就上拉勾招聘，值得信赖的求职招聘网站。
+        - title: 智联招聘
+          logo: https://common-bucket.zhaopin.cn/img/favicon/favicon-2011.ico
+          url: https://www.zhaopin.com
+          description: 智联招聘求职招聘网站,为求职者提供2024年真实准确的全国求职招聘信息,海量的高薪职位招聘信息供求职者选择,找工作就上智联招聘！
+        - title: 实习僧|大学生实习|校招求职|校园招聘
+          logo: https://sxsimg.xiaoyuanzhao.com/static/img/favicon.ico
+          url: https://www.shixiseng.com
+          description: 实习僧，专注实习,校招的校园招聘平台。为大学生提供国内外行业巨头在内的40万+企业实习、校园招聘岗位信息。助力大学生职业发展，帮助企业有效招聘，找实习校招就上实习僧。
+        - title: 猎聘网
+          logo: https://concat.lietou-static.com/fe-www-pc/v6/static/images/favicon.e6edbc00.ico
+          url: https://www.liepin.com
+          description: 猎聘是专业高效的招聘求职平台，为求职者提供海量高薪职位，在线沟通，快速反馈！为企业招聘方提供免费招人服务，优质人才，精准推荐，招人找工作就用猎聘聊！
+        - title: 应届生求职网
+          logo: https://img01.51jobcdn.com/im/yjs/logo_arc.ico
+          url: https://www.yingjiesheng.com
+          description: 应届生求职网是中国领先的大学生求职网站，为应届毕业生提供大量校园招聘信息、兼职实习招聘信息以及校园宣讲会和校园招聘会信息，地区覆盖上海、北京、广州、深圳、武汉、南京、天津、成都等热门城市。
+        - title: 牛客网 - 找工作神器
+          logo: https://static.nowcoder.com/fe/file/images/nowpick/web/www-favicon.ico
+          url: https://www.nowcoder.com
+          description: 求职之前，先上牛客，就业找工作一站解决。互联网IT技术/产品/运营/硬件/汽车机械制造/金融/财务管理/审计/银行/市场营销/地产/快消/管培生等等专业技能学习/备考/求职神器，在线进行企业校招实习笔试面试真题模拟考试练习
+        - title: 鱼泡招聘网
+          logo: https://cdn.yupaowang.com/yupao_pc/images/zddq/facvion.ico
+          url: https://www.yupao.com
+          description: 鱼泡招聘网为企业提供最新人才简历，为求职者提供2024年海量招聘职位，覆盖建筑装修、工厂制造、物流运输、生活服务、机械司机、餐饮酒旅等行业，找工作，上鱼泡直聘，老板直招！
+        - title: 赶集直招
+          logo: https://ganji.com/favicon.ico
+          url: https://ganji.com
+          description: 赶集直招-高薪名企随你挑的人才招聘信息网站，找工作更迅速！
+        - title: 公考雷达
+          logo: https://www.gongkaoleida.com/favicon.ico
+          url: https://www.gongkaoleida.com
+          description: 公考雷达-捕捉每一次考编机会【官网】
+        - title: 58同城
+          logo: https://58.com/favicon.ico
+          url: https://58.com
+          description: 58同城 58.com
+        - title: 电鸭社区
+          logo: https://eleduck.com/static/favicon.ico
+          url: https://eleduck.com
+          description: 电鸭社区-专注远程工作招聘交流-远程工作，从电鸭开始
+    - term: 简历模版
+      links:
+        - title: Markdown简历排版
+          logo: https://resume.mdnice.com/favicon.ico
+          url: https://resume.mdnice.com
+          description: Markdown简历排版工具
+        - title: 职徒简历
+          logo: https://www.52cv.com/favicon.ico
+          url: https://www.52cv.com
+          description: 职徒简历52cv是专业的智能简历制作工具，拥有大量的中英文简历模板、简历案例，可进行智能简历检测，支持金融、互联网、咨询、快销等行业中文简历、英文简历制作，适用于应届生求职、实习、研究生升学等多个场景。
+        - title: 极简简历
+          logo: https://www.polebrief.com/favicon.ico
+          url: https://www.polebrief.com
+          description: 极简简历是polebrief简历，一个专业免费的个人简历制作平台，在线简历引领者，带给你不一样的体验，拥有专业简历模板，为求职者提供专业极简的简历模板，三分钟制作一份简历，可随时随地将在线制作的简历下载为图片、PDF、Word格式文件。
+        - title: 冷熊简历
+          logo: https://fox.ftqq.com/bearcv/favicon.png
+          url: https://cv.ftqq.com
+          description: 冷熊 Markdown 简历工具
+        - title: 简历下载网
+          logo: https://jianlixiazai.cn/assets/img/favicon.ico
+          url: https://jianlixiazai.cn
+          description: 简历模板免费下载_优秀个人简历WORD模板下载_可编辑简历制作模板免费下载_简历下载
+        - title: 简历本
+          logo: https://www.jianliben.com/favicon.ico
+          url: https://www.jianliben.com
+          description: 简历本是一个专门写简历的网站，为求职者提供专业简历模板，使用简历本5分钟就能制作一份优秀简历，可随时随地将简历下载为Word、PDF、图片格式文件，可在线发送或投递。
+        - title: 蓝字典
+          logo: https://www.lanzidian.com/wp-content/uploads/2024/07/cropped-%E7%94%BB%E6%9D%BF-1-32x32.png
+          url: https://www.lanzidian.com
+          description: 蓝字典AI专注于提供专业的AI简历生成和优化服务，帮助求职者快速生成高质量的简历，提高求职成功率。通过蓝字典AI求职工具，你可以轻松获得一份符合岗位要求的专业简历。
+        - title: 91化简
+          logo: https://91huajian.cn/favicon.ico
+          url: https://91huajian.cn
+          description: 91化简-开源简历制作神器！免费制作一份精美的简历！内置两款设计器、快速设计、简历、封面、海报均可免费制作，支持一键导出高清PDF、JSON数据等。
+        - title: 未来简历
+          logo: https://file.futurecv.cn/static/company/ef683f16-b489-4b44-b96f-532d9a5cd87f.png
+          url: https://futurecv.cn
+          description: 未来简历-HR推荐的专业AI简历生成工具、轻松搞定专业简历
+        - title: 热速美斯
+          logo: https://www.resumeis.com/favicon.png
+          url: https://www.resumeis.com
+          description: 热速美斯是一款免费的简历制作工具，无需登录即可使用，本地存储保护隐私，拖拽组合，制作简单，还有丰富的简历模板任你选。
+    - term: 企业查
+      links:
+        - title: 企查查
+          logo: https://qcc-static.qcc.com/resources/web/omaterial/favicon.png
+          url: https://www.qcc.com
+          description: 企查查是官方备案的企业征信机构，为您提供全国企业信息查询，包括企业工商信息查询，信用信息查询，经营状况查询等相关信息。查企业，查老板，查风险就上企查查!
+        - title: 风鸟
+          logo: https://www.riskbird.com/favicon.ico
+          url: https://www.riskbird.com/
+          description: 风鸟查询是一款信用查询监控平台，核心功能：查公司、查人员、查关系、企业查、查老赖，提供便捷的工商信用查询、企业信息报告下载、主体信用报告下载、风险预警监控、关联族谱查询、营业执照查询等服务。为您提供全国企业信息查询，包括企业工商信息查询，信用信息查询，经营状况查询等相关信息。
+        - title: 企知道
+          logo: https://qzd-web-group-oss.qizhidao.com/qiye/static/prod/favicon.ico
+          url: https://qiye.qizhidao.com
+          description: 企知道-企业工商信息查询-公司查询-全国企业信用信息公示系统
+        - title: 天眼查
+          logo: https://cdn.tianyancha.com/wap/images/icon-hires-192x192.png
+          url: https://www.tianyancha.com
+          description: 天眼查-商业查询平台_企业信息查询_公司查询_工商查询_企业信用信息系统
+        - title: 爱企查
+          logo: https://xinpub.cdn.bcebos.com/static/favicon.ico
+          url: https://aiqicha.baidu.com
+          description: 爱企查首页 - 专业企业查询平台 - 查企业 - 查老板 - 查风险 - 工商信息查询系统
+        - title: 国家企业信用信息公示系统
+          logo: https://bt.gsxt.gov.cn/images/logo_index_660000_big.png
+          url: https://bt.gsxt.gov.cn
+          description: 国家企业信用信息公示系统
+        - title: 国家市场监督管理总局
+          logo: https://zxjg.samr.gov.cn/samrmrkout/images/favicon.ico
+          url: https://zxjg.samr.gov.cn
+          description: 国家市场监督管理总局
 - taxonomy: 影视片场
   icon: far fas fa-tape
   list:
@@ -1609,6 +1738,10 @@
           logo: https://www.tianail.cn/uploads/image/20241020/0cd5cb7bf3df43c8ab377b39874706a0.png
           url: https://www.tianail.cn/
           description: 甜爱路搜剧为您提供百万级影视资源的免费分享，专注于打造顶尖的影视搜索引擎，让您畅享影视资源无忧。
+        - title: iqiyis 在线电影-最新电影-免费电影-电影在线观看
+          logo: https://iqiyis.com/static/img/favicon.ico
+          url: https://iqiyis.com/
+          description: iqiyis每天搜集互联网最新电影和电视剧，为广大用户免费提供无广告在线观看电影和电视剧服务，及时收录最新、最热、最全的电影大片,高清正版免费看。
     - term: 动漫番剧
       links:
         - title: 哔哩哔哩
@@ -4026,6 +4159,14 @@
           logo: https://wordle-with-hints.org/wordle-header-logo.svg
           url: https://wordle-with-hints.org/
           description: wordle with hint ，每个游戏有三个提示，支持4-7组词组，支持多语言，包括中文拼音，每天更新新词，麻烦站佬收录，感谢！
+        - title: Multiplayer Games
+          logo: https://multiplayergames.click/favicon.ico
+          url: https://multiplayergames.click/
+          description: 在 MultiplayerGames.click 玩免费的在线多人游戏！与世界各地的玩家一起享受动作、赛车、射击和拼图——无需下载。
+        - title: Run 3 - Free Online Games
+          logo: https://run-3.click/favicon.ico
+          url: https://run-3.click/
+          description: 在 Run 3 中探索太空隧道！选择探索或无限模式，解锁独特的角色，并在这款令人上瘾的在线游戏中掌握惊心动魄的挑战。
     - term: Sprunki-Incredibox
       links:
         - title: Sprunki Remastered - 体验前所未有的音乐创作
@@ -4080,6 +4221,10 @@
           logo: https://www.playsprunkiphrase4.com/favicon.ico
           url: https://www.playsprunkiphrase4.com
           description: playsprunkiphrase4.com 是Spunki phase 4在线游戏，沉浸式体验，多语言支持，万圣节风格
+        - title: Spunky Game
+          logo: https://spunky.game/favicon.ico
+          url: https://spunky.game/
+          description: 立即在线体验 Spunky Games，无需下载。享受我们一系列免费的浏览器游戏，这些游戏具有独特的游戏玩法和令人惊叹的图形
     - term: 博客人生·构建
       links:
         - title: Github
@@ -5212,6 +5357,10 @@
           logo: https://www.agentuse.cc/favicon.ico
           url: https://www.agentuse.cc
           description: 提供AI Agent 应用实例和使用技巧等，包括Claude computer use使用案例和技巧展示网站
+        - title: Run ComfyUI workflows online and deploy APIs with one click - ComfyOnline
+          logo: https://www.comfyonline.app/favicon.ico
+          url: https://www.comfyonline.app/
+          description: Provides an online environment for running your ComfyUI workflows, with the ability to generate APIs for easy AI application development.
     - term: AI·绘画
       links:
         - title: stability
@@ -8582,6 +8731,10 @@
           logo: https://flameshot.org/favicon-32x32.png
           url: https://flameshot.org/
           description: Flameshot 是一个免费的开源跨平台工具，可以截取具有许多内置功能的屏幕截图，以节省您的时间。
+        - title: Whisper 键盘
+          logo: https://whisperkeyboard.app/favicon.ico
+          url: https://whisperkeyboard.app/
+          description: Whisper 键盘 - 使用 OpenAl Notch 将语音输入速度提高 3 倍
     - term: 产品发现
       links:
         - title: 开发者简报
@@ -9062,3 +9215,7 @@
           logo: https://www.infinite-craft.online/favicon.ico
           url: https://www.infinite-craft.online
           description: 使用 Infinite Craft Recipes 在线玩 Infinite Craft，发现令人兴奋的制作配方，并学习如何掌握游戏！浏览我们的博客获取提示和指南，并观看专家玩家的视频以加深您的知识。您关于 Infinite Craft 一切的终极资源！
+        - title: WordPress建站教程
+          logo: https://website-custom.com/wp-content/uploads/2024/09/logo-600.svg
+          url: https://website-custom.com
+          description: WordPress建站教程，通过这篇文章你将学会如何搭建外贸网站，文章通俗易懂的讲解了域名和服务器、WordPress主题和插件使用、WordPress页面搭建等操作。
