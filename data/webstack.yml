@@ -1095,6 +1095,10 @@
           logo: github.jpg
           url: https://github.com/heifengli001/video-de-clip-moviepy
           description: 使用moviepy对视频去重剪辑
+        - title: AI一键批量生成短视频
+          logo: github.jpg
+          url: https://github.com/ddean2009/MoneyPrinterPlus
+          description: 使用moviepy对视频去重剪辑
     - term: 虚拟直播
       links:
         - title: animaze
@@ -8092,6 +8096,34 @@
           logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/72557529.jpeg
           url: https://binarycoder777.com/zh-cn/
           description: 前沿科技，奇趣故事，一键开启你的探索之旅
+        - title: 加密货币周刊
+          logo: https://weekly.kkdemian.com/favicon.ico
+          url: https://weekly.kkdemian.com/
+          description: 加密货币周刊，每周扫盲，寻找热点和财富密码，定投才是最好的投资方式
+        - title: 独立开发者出海周刊
+          logo: https://gapis.money/favicon.ico
+          url: https://gapis.money
+          description: 「信息差——独立开发者出海周刊」是一个帮助独立开发者缩小信息差的技术周刊。
+        - title: 《FAV0周刊》
+          logo: https://fav0.com/favicon.ico
+          url: https://fav0.com/
+          description: 《FAV0周刊》：记录每周所见所闻，主要关注前端、AI领域、独立开发以及计算机相关内容
+        - title: C++ 中文周刊
+          logo: https://wanghenshui.github.io/favicon.ico
+          url: https://wanghenshui.github.io/cppweeklynews/
+          description: C++ 中文周刊
+        - title: 漫谈
+          logo: https://weekly.mancuoj.me/logo.svg
+          url: https://weekly.mancuoj.me/
+          description: 一个开发者周刊，记录我的所见所闻所思，每周日更新
+        - title: 前端周刊
+          logo: https://s2.loli.net/2024/11/18/Fuai1CZ54nGOt8j.png
+          url: https://frontend-weekly.com/
+          description: 前端周刊，给前端同学准备的每周 1 小时阅读清单
+        - title: 诺诺前端周刊
+          logo: https://nuofe.github.io/nuofe-weekly1/gitbook/images/favicon.ico
+          url: https://nuofe.github.io/nuofe-weekly1/
+          description: 诺诺前端周刊，为前端开发同学创建的每周一小时了解前端发展、技术文档和业界新闻的 readlist
     - term: 公众号
       links:
         - title: 前端食堂技术周刊
