@@ -727,6 +727,10 @@
           logo: https://illustrations.saas-ui.dev/favicon/favicon-32x32.png
           url: https://illustrations.saas-ui.dev/
           description: UI设计200+
+        - title: AHAtime灵感时刻
+          logo: https://www.ahatime.net/favicon.ico
+          url: https://www.ahatime.net/
+          description: Artstation-与百万设计师分享灵感、与全球项目方建立联系，开启你的创意职业新道路！
     - term: 音乐世界
       links:
         - title: Nsf小站
@@ -1059,6 +1063,14 @@
           logo: https://getjumper.io/favicon.png
           url: https://getjumper.io/
           description: Jumper 是一款视频编辑功能强大的工具，可让您以前所未有的方式快速浏览视频内容。
+        - title: Tailor
+          logo: github.jpg
+          url: https://github.com/FutureUniant/Tailor
+          description: 视频智能裁剪、视频生成和视频优化的视频剪辑工具
+        - title: 卡卡字幕助手
+          logo: github.jpg
+          url: https://github.com/WEIFENG2333/VideoCaptioner
+          description: 基于 LLM 的智能字幕助手，无需GPU一键高质量字幕视频合成
     - term: 虚拟直播
       links:
         - title: animaze
@@ -1509,10 +1521,22 @@
           logo: https://58.com/favicon.ico
           url: https://58.com
           description: 58同城 58.com
+        - title: 学信网
+          logo: https://t1.chei.com.cn/chsi/favicon.ico
+          url: https://www.chsi.com.cn
+          description: 教育部学历查询网站、教育部高校招生阳光工程指定网站、全国硕士研究生招生报名和调剂指定网站。
         - title: 电鸭社区
           logo: https://eleduck.com/static/favicon.ico
           url: https://eleduck.com
           description: 电鸭社区-专注远程工作招聘交流-远程工作，从电鸭开始
+        - title: X-Hiring
+          logo: https://woky.cc/favicon.svg
+          url: https://woky.cc
+          description: 每日最新招聘信息，使用 Google AI 提取摘要
+        - title: 面试鸭
+          logo: https://www.mianshiya.com/favicon.ico
+          url: https://www.mianshiya.com
+          description: 面试鸭 - 程序员求职面试刷题神器，高频编程题目免费刷
     - term: 简历模版
       links:
         - title: Markdown简历排版
@@ -1577,6 +1601,10 @@
           logo: https://xinpub.cdn.bcebos.com/static/favicon.ico
           url: https://aiqicha.baidu.com
           description: 爱企查首页 - 专业企业查询平台 - 查企业 - 查老板 - 查风险 - 工商信息查询系统
+        - title: 启信宝
+          logo: https://www.qixin.com/favicon.ico
+          url: https://www.qixin.com
+          description: 启信宝-企业查询_企业信用信息平台
         - title: 国家企业信用信息公示系统
           logo: https://bt.gsxt.gov.cn/images/logo_index_660000_big.png
           url: https://bt.gsxt.gov.cn
@@ -1585,6 +1613,32 @@
           logo: https://zxjg.samr.gov.cn/samrmrkout/images/favicon.ico
           url: https://zxjg.samr.gov.cn
           description: 国家市场监督管理总局
+    - term: 投简脚本
+      links:
+        - title: get-jobs-boss
+          logo: github.jpg
+          url: https://github.com/BeammNotFound/get-jobs-boss
+          description: 自动在Boss直聘平台上沟通以此来获得一份工作
+        - title: BOSS助手
+          logo: https://store-images.s-microsoft.com/image/apps.55318.aeb5bacc-043d-4662-90d8-bdcea4e6db27.4f87a5f5-d335-46c8-bb3c-c7a8b02e9f58.d4b8cee9-21b0-4bd1-a90c-22e7decc5a86?mode=scale&h=100&q=90&w=100
+          url: https://microsoftedge.microsoft.com/addons/detail/boss-%E5%8A%A9%E6%89%8B/hlfbkbddkgaoejcblmlohmdjjocdddcn
+          description: 一键带你飞到爱企查，公司信息一目了然
+        - title: 快投简历
+          logo: https://store-images.s-microsoft.com/image/apps.16421.33b27c53-0a83-4af5-9586-b0739808c57c.89b08309-5b27-4abb-b545-116d8a8f5c6b.1132ac8d-1b02-4af9-abff-9157358856b5?mode=scale&h=100&q=90&w=100
+          url: https://microsoftedge.microsoft.com/addons/detail/%E5%BF%AB%E6%8A%95%E7%AE%80%E5%8E%86/hbeanedmcmdhdpbibinkeknbngnkioll
+          description: 帮助您在boss直聘网站上一秒钟投递100份简历
+        - title: BOSS直聘批量沟通
+          logo: github.jpg
+          url: https://github.com/wvit/BOSS_batch_deliver?tab=readme-ov-file
+          description: BOSS 直聘批量沟通职位 chrome 插件
+        - title: Boss直聘助手
+          logo: github.jpg
+          url: https://github.com/Ocyss/boos-helper
+          description: 优化UI去除广告,批量投递简历,高级筛选,GPT自动打招呼,多账号管理
+        - title: 自动打招呼软件
+          logo: github.jpg
+          url: https://github.com/TaterTotX/go_spider_boss
+          description: boss直聘自动打招呼软件 mac和windows均可使用 支持筛选岗位关键词，自定义打招呼语句
 - taxonomy: 影视片场
   icon: far fas fa-tape
   list:
