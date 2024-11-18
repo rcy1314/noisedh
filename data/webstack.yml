@@ -1613,6 +1613,88 @@
           logo: https://zxjg.samr.gov.cn/samrmrkout/images/favicon.ico
           url: https://zxjg.samr.gov.cn
           description: 国家市场监督管理总局
+    - term: 创业投资
+      links:
+        - title: 创业邦
+          logo: https://www.cyzone.cn/img/favicon.ico
+          url: https://www.cyzone.cn
+          description: 创业邦 - 关注创新经济及其推动者
+        - title: 全国大学生创业服务网
+          logo: https://t3.chei.com.cn/ncss/cy/favicon.ico
+          url: https://cy.ncss.cn/
+          description: 全国大学生创业服务网(cy.ncss.cn)，是中华人民共和国教育部唯一专门宣传、鼓励、引导、帮助大学生创业的官方网站。
+        - title: 28创业网
+          logo: https://www.28.com/favicon.ico
+          url: https://www.28.com/
+          description: 28创业网-品牌招商加盟服务平台
+        - title: 前瞻网
+          logo: https://img1.qianzhan.com/img/apple-touch-icon.png
+          url: https://www.qianzhan.com
+          description: 前瞻网 - 发现趋势 预见未来_行业趋势研究报告_行业分析报告_产业规划
+        - title: 36氪创投
+          logo: https://pitchhub.36kr.com/favicon.ico
+          url: https://pitchhub.36kr.com/
+          description: 36氪创投平台,内容涵盖融资新闻,创业项目,投资人动态,企业资讯,融资快报,项目信息等最新信息
+        - title: VCNEWS创新网
+          logo: https://vcnews.com/app/uploads/2019/08/favicon.ico
+          url: https://www.vcnews.com
+          description: VCNEWS创新网 - 更早发现好公司
+        - title: 国家税务总局上海税务局税费专栏
+          logo: https://shanghai.chinatax.gov.cn/favicon.ico
+          url: https://shanghai.chinatax.gov.cn/xwdt/ztzl/zcgll/jsjf/202406/t472232.html
+          description: 国家税务总局上海税务局税费专栏
+        - title: 光大控股
+          logo: https://www.everbright.com/sites/default/files/favicon_1.ico
+          url: https://www.everbright.com/zh-hans
+          description: 光大控股 | 专注致远 顺势有为
+        - title: 深创投
+          logo: https://www.szvc.com.cn/static/favicon.ico
+          url: https://www.szvc.com.cn
+          description: 深创投集团
+        - title: 投中网
+          logo: https://www.chinaventure.com.cn/images/logo/logo_tiny.png
+          url: https://www.chinaventure.com.cn/
+          description: 投中网 | 创新经济的智识、洞见和未来
+        - title: 高新创投
+          logo: https://www.hhtvc.com/Public/static/gxct/img/logo.png
+          url: https://www.hhtvc.com/
+          description: 湖南高新创业投资集团有限公司系省委、省政府批准设立的全省唯一的省级国有创投机构，是为创新财政投入方式、推进战略新兴产业和高新技术产业发展而打造的政府性投融资平台。
+        - title: IT桔子
+          logo: https://static.itjuzi.com/assets/front/favicon.png
+          url: https://www.itjuzi.com
+          description: IT桔子 | 泛互联网创业投资项目信息数据库及商业信息服务商
+        - title: STARTUP101
+          logo: https://startup101.biz/favicon.ico
+          url: https://startup101.biz
+          description: STARTUP101 致力於活絡新創環境、加速資金流動、消弭市場資訊不對稱，同時深入洞察新創市場的趨勢和動態，實現募資者和投資者的雙贏局面。
+        - title: 投融界
+          logo: https://www.trjcn.com/favicon.ico
+          url: https://www.trjcn.com/
+          description: 投融界｜国内专业的一站式创业服务平台
+        - title: 讯飞创投
+          logo: https://startups.xfyun.cn/favicon.ico
+          url: https://startups.xfyun.cn/support/hatch
+          description: 全面开放讯飞AI核心技术，汇聚强大的资本资源和丰富的产业资源，助力初创企业快速成长
+        - title: 腾讯技术公益-创投计划
+          logo: https://s2.loli.net/2024/11/18/TtcLgyBdNiKO5YF.jpg
+          url: https://techforgood.qq.com
+          description: 创新型公益合作模式和资助机制
+        - title: 阿里云创新中心投融
+          logo: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
+          url: https://startup.aliyun.com/company/
+          description: 阿里云创新中心投融资对接是一个解决您创业投融资的平台。一键解决您的资金困扰，为企业快速融资、项目快速融资、创业融资提供对接服务。
+        - title: 鲸准-投融资平台
+          logo: https://www.jingdata.com/assets/favicon.ico
+          url: https://www.jingdata.com/
+          description: 鲸准-投融资平台，极速融资，帮助创业者寻找天使投资人
+        - title: 烯牛数据
+          logo: https://www.xiniudata.com/static-official/images/xiniu-icon-org.png
+          url: https://www.xiniudata.com/
+          description: 烯牛数据 · 新一代科创数据引擎
+        - title: 中国海外人才创新创业
+          logo: https://cotiec.cast.org.cn/favicon.ico
+          url: https://cotiec.cast.org.cn/
+          description: 中国海外人才创新创业项目大赛,海外人才创新创业项目大赛,海外创业者中国行,海外人才创新大赛
     - term: 投简脚本
       links:
         - title: get-jobs-boss
