@@ -377,8 +377,8 @@
           description: TTS - 文本转语音
         - title: 原神在线TTS
           logo: https://www.gradio.app/favicon.png
-          url: https://v2.genshinvoice.top/
-          description: 原神在线TTS-引导页
+          url: https://tools.miku.ac/anime_tts/
+          description: 原神在线TTS
         - title: TTS-Online
           logo: https://www.ttson.cn/favicon.ico
           url: https://www.ttson.cn/
@@ -923,6 +923,10 @@
           logo: github.jpg
           url: https://github.com/pen9un/douyin-chatgpt-bot
           description: 抖音AI自动回复引流系统
+        - title: social-auto-upload
+          logo: github.jpg
+          url: https://github.com/dreammis/social-auto-upload
+          description: 自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili
     - term: 小红书工具
       links:
         - title: 小红书笔记采集助手
@@ -953,6 +957,128 @@
           logo: github.jpg
           url: https://github.com/Skyler1n/XHS_Statistics
           description: 获取小红书创作者后台播放数据并导出xls的快捷工具
+    - term: 微信工具
+      links:
+        - title: chatgpt-on-wechat
+          logo: github.jpg
+          url: https://github.com/zhayujie/chatgpt-on-wechat
+          description: 基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入
+        - title: 智能微秘书
+          logo: https://wechat.aibotk.com/favicon.ico
+          url: https://wechat.aibotk.com?r=BnxapK
+          description: 智能机器人配置管理平台，一键接入ChatGPT对话
+        - title: 微信群聊总结助手 JS 版
+          logo: github.jpg
+          url: https://github.com/small-tou/wechat-ai-summarize-bot
+          description: 微信群聊总结助手 JS 版
+        - title: 微信同步至discord
+          logo: github.jpg
+          url: https://github.com/121812/dcnews
+          description: 微信同步至discord
+        - title: 微信机器人webhook
+          logo: github.jpg
+          url: https://github.com/danni-cool/wechatbot-webhook
+          description: 微信机器人webhook
+        - title: 推羊毛
+          logo: github.jpg
+          url: https://github.com/why2lyj/youxiang-Itchat
+          description: 无视微信Web无法登录问题。获取淘宝优惠券、京东优惠券、拼多多（多多客）优惠券、苏宁易购优惠券、唯品会优惠券，通过接入淘宝联盟、京东联盟、拼多多（多多进宝）、苏宁联盟（苏宁推客）、唯品会及其对应的开放平台，获取优惠商品图片和对应商品信息，利用微信机器人推送到指定群聊
+        - title: wechat2tg
+          logo: github.jpg
+          url: https://github.com/finalpi/wechat2tg
+          description: 微信消息转发到telegram
+        - title: chatgpt-wechat
+          logo: github.jpg
+          url: https://github.com/whyiyhw/chatgpt-wechat
+          description: 企业微信/微信 安全使用的 ChatGPT 个人助手应用
+        - title: 多商户多微信号机器人web系统
+          logo: github.jpg
+          url: https://github.com/fudaoji/wxbot
+          description: 多商户多微信号机器人web系统
+        - title: WeChatRobot
+          logo: github.jpg
+          url: https://github.com/lich0821/WeChatRobot
+          description: 微信机器人，接入Gemini、ChatGPT、ChatGLM、讯飞星火、Tigerbot；成语接龙、天气预报、新闻摘要、定时任务
+        - title: 提取微信聊天记录
+          logo: github.jpg
+          url: https://github.com/LC044/WeChatMsg
+          description: 提取微信聊天记录，将其导出成HTML、Word、Excel文档永久保存
+        - title: PyWxDump
+          logo: github.jpg
+          url: https://github.com/xaoyaoo/PyWxDump
+          description: 获取微信信息；读取数据库
+        - title: 微信语音转 MP3
+          logo: github.jpg
+          url: https://github.com/lich0821/SilkMp3Converter
+          description: 微信语音转 MP3
+        - title: spark-wechat-vercel
+          logo: github.jpg
+          url: https://github.com/LuhangRui/spark-wechat-vercel
+          description: 基于vercel的serverless服务，把星火认知大模型接入微信公众号
+        - title: XYBot
+          logo: github.jpg
+          url: https://github.com/HenryXiaoYang/XYBot
+          description: XYBot是一个可运行于Linux和Windows的基于Hook的微信机器人
+        - title: WeCron
+          logo: github.jpg
+          url: https://github.com/polyrabbit/WeCron
+          description: 微信上的定时提醒
+        - title: easyChat
+          logo: github.jpg
+          url: https://github.com/LTEnjoy/easyChat
+          description: PC端微信助手（非web微信版）：定时发送信息；群发信息；自动回复等。直接下载文件目录内的exe即可使用
+        - title: 微信自动发送信息
+          logo: github.jpg
+          url: https://github.com/Frica01/WeChat-mass-msg
+          description: 微信自动发送信息
+        - title: WeChatter
+          logo: github.jpg
+          url: https://github.com/Cassius0924/WeChatter
+          description: 一个基于 wechatbot-webhook 的微信机器人💬，支持 GPT 问答、热搜推送、天气预报、消息转发、小游戏、Webhook 提醒等功能
+        - title: aiwechat-vercel
+          logo: github.jpg
+          url: https://github.com/pwh-pwh/aiwechat-vercel
+          description: 使用vercel的functions，将ai功能加入微信公众号
+        - title: WeChatApi
+          logo: github.jpg
+          url: https://github.com/WeChatAPIs/wechatAPI
+          description: 微信接口和 Hook 解决方案
+        - title: 微信朋友圈导出工具
+          logo: github.jpg
+          url: https://github.com/tech-shrimp/WechatMoments
+          description: 微信朋友圈导出工具
+        - title: API接口管理工具
+          logo: github.jpg
+          url: https://github.com/mrknow001/API-Explorer
+          description: API接口管理工具(目前内置微信公众号、微信小程序、企业微信、飞书、钉钉等)
+        - title: Mac版微信RPA群聊机器人
+          logo: github.jpg
+          url: https://github.com/x5iu/wemac
+          description: 利用 AppleScript 和 Mac 版微信客户端制作的简易版微信机器人
+        - title: 微信公众号关键词回复助手
+          logo: github.jpg
+          url: https://github.com/iuroc/wechat-auto-reply
+          description: 微信公众号关键词回复助手
+        - title: 微信机器人助手
+          logo: github.jpg
+          url: https://github.com/code-innovator-zyx/wechat-gptbot
+          description: 微信聊天机器人，支持群聊和私信
+        - title: wxdown
+          logo: github.jpg
+          url: https://github.com/systemmin/wxdown
+          description: 保存公众号文章到本地离线查看的软件，支持将 HTML 文章保存至本地，并提供 HTML 转 PDF 的功能
+        - title: escape-wechat
+          logo: github.jpg
+          url: https://github.com/hmllsnow/escape-wechat
+          description: 微信助手，登录微信bot和配置管理页面
+        - title: YuYuWechat
+          logo: github.jpg
+          url: https://github.com/xieyumc/YuYuWechat
+          description: 一个让微信（非WEB版）定时循环发送消息/文件（cron表达式精确到分钟）
+        - title: GoodWeBot
+          logo: github.jpg
+          url: https://github.com/ImGoodBai/GoodWeBot
+          description: GoodWeBot 是一款基于RPA技术实现的AI微信机器人，支持AI自动回复、私聊群发和群聊群发、自动加好友、自动接受好友申请、自动给好友打标签等功能
     - term: 剪辑能手
       links:
         - title: 闪剪
@@ -1565,6 +1691,10 @@
           logo: https://www.mianshiya.com/favicon.ico
           url: https://www.mianshiya.com
           description: 面试鸭 - 程序员求职面试刷题神器，高频编程题目免费刷
+        - title: 诚信点评-甄别好坏企业
+          logo: https://s2.loli.net/2024/11/18/kaXINLjmATUEvn5.png
+          url: https://s2.loli.net/2024/11/18/JVj9PcZ6abygO1X.png
+          description: 诚信点评微信小程序-入职企业避雷
     - term: 简历模版
       links:
         - title: Markdown简历排版
@@ -3445,6 +3575,10 @@
           logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/1722174863460.png
           url: https://www.975w.com
           description: 综合影视、游戏资源论坛
+        - title: 音频应用
+          logo: https://www.audiobar.cn/favicon.ico
+          url: https://www.audiobar.cn/
+          description: 音频应用,音频应用论坛,midi,录音,音频,音乐制作,recording,audio,vst,乐器,吉他,话筒,耳机,声卡 
     - term: 社区·设计摄影类
       links:
         - title: 新摄影
@@ -4401,6 +4535,10 @@
           logo: https://spunky.game/favicon.ico
           url: https://spunky.game/
           description: 立即在线体验 Spunky Games，无需下载。享受我们一系列免费的浏览器游戏，这些游戏具有独特的游戏玩法和令人惊叹的图形
+        - title: Sprunked 2.0
+          logo: https://sprunked2.com/favicon.ico
+          url: https://sprunked2.com/
+          description: Sprunked 2.0 is an exciting horror-themed music creation game that builds upon the Sprunki series, combining eerie soundscapes with immersive gameplay inspired by Incredibox.
     - term: 博客人生·构建
       links:
         - title: Github
@@ -4948,6 +5086,10 @@
           logo: https://static.tildacdn.com/tild3435-6532-4565-b865-666139353136/6210favicon_48_48_.ico
           url: https://tilda.cc/
           description: 使用 Tilda 直观的网站构建器创建网站、在线商店、登录页面。从数百个预先设计的模板构建您的网站并立即发布。无需代码。
+        - title: Kamal
+          logo: https://kamal-deploy.org/assets/images/favicon.svg
+          url: https://kamal-deploy.org/
+          description: Kamal — 在任何位置部署 Web 应用程序
     - term: 工具箱
       links:
         - title: 抖音/TikTok无水印在线解析
@@ -6537,6 +6679,10 @@
           logo: https://tensor.art/tensorart.ico
           url: https://tensor.art
           description: 免费的在线图像生成器和模型托管网站！
+        - title: 飞桨星河社区
+          logo: https://paddlepaddle-org-cn.cdn.bcebos.com/paddle-site-front/favicon-48.png
+          url: https://aistudio.baidu.com/
+          description: 飞桨星河社区是面向AI学习者的人工智能学习与实训社区。飞桨星河社区集成了丰富的免费AI课程，大模型社区及模型应用，深度学习样例项目，各领域经典数据集，云端超强GPU算力及存储资源，更有新手练习赛、精英算法大赛等你参与。
     - term: AI·代码
       links:
         - title: Copilot
