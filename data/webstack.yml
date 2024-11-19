@@ -6411,6 +6411,46 @@
           logo: https://chatglm.cn/img/icons/favicon.svg
           url: https://chatglm.cn/main/gdetail/65d2f07bb2c10188f885bd89?lang=zh
           description: PPT助手 - 智谱清言智能体
+        - title: Gamma
+          logo: https://gamma.app/favicons/favicon-192.svg
+          url: https://gamma.app/zh-cn
+          description: 用 Gamma 制成。一种由 AI 提供支持的展示想法的新媒介。
+        - title: AiPPT
+          logo: https://www.aippt.cn/favicon.ico
+          url: https://www.aippt.cn
+          description: AiPPT结合最新AI技术，为用户提供一键生成高质量PPT的解决方案。无论是职场展示、教育课件还是销售报告，AiPPT均能快速生成符合需求的专业PPT，简化设计流程，提升工作效率。
+        - title: SlidesGPT
+          logo: https://slidesgpt.com/assets/img/favicon.png
+          url: https://slidesgpt.com
+          description: 由 ChatGPT API 提供支持的 SlidesGPT AI PowerPoint 生成器
+        - title: Presentations.AI
+          logo: https://cdn.prod.website-files.com/63ca9a05fdc83042565f605c/63fedbd8e101652ba74f55c5_p_ai_32.png
+          url: https://www.presentations.ai/
+          description: 用于演示文稿的 ChatGPT
+        - title: SlideSpeak
+          logo: https://slidespeak.co/wp-content/uploads/2024/01/cropped-android-chrome-512x512-1-32x32.png
+          url: https://slidespeak.co
+          description: SlideSpeak - 您的 AI 创建由 ChatGPT 提供支持的演示文稿
+        - title: 免费在线AI一键生成PPT
+          logo: https://cdn.zbaseglobal.com/saasbox/product/icon/b340e3334ff0893cc4e4a553412c9175.png
+          url: https://aipptmaker.ai/cn
+          description: 在 aipptmaker.ai 上轻松创建令人惊艳的演示文稿——最好的免费 AI PPT 制作工具。这个在线工具帮助快速、轻松地设计专业幻灯片，节省时间并提高效率。立即体验最佳的 AI 驱动演示制作工具。
+        - title: boardAI一键生成PPT
+          logo: https://cms.boardmix.cn/images/board.ico
+          url: https://boardmix.cn/ai-powerpoint/
+          description: ai生成ppt
+        - title: 熊猫办公AIPPT
+          logo: https://ai.tukuppt.com/favicon.ico
+          url: https://ai.tukuppt.com/
+          description: 熊猫办公AIPPT结合最前沿的AI人工智能技术，为用户提供了一站式PPT生成与写作方案。支持PPT大纲自动生成，AI图文模板自动搭配、在线播放演示以及多格式导出功能，满足你不同场景下的PPT办公写作需求。
+        - title: 艾达艾
+          logo: https://adaippt.com/favicon.ico
+          url: https://adaippt.com/
+          description: 艾达艾 | adAI PPT生成器,一个永久免费的基于ai的ppt生成器，ai一键生成ppt工具。
+        - title: X-Design
+          logo: https://x-design-release.stariidata.com/x-design-international/_next/static/media/favicon.a76c14e7.png
+          url: https://www.x-design.com/
+          description: AI-Powered Photo Editing Studio for Marketing 
     - term: AI·3D
       links:
         - title: artflow.ai
@@ -6873,7 +6913,7 @@
           logo: github.jpg
           url: https://github.com/gpt-open/rag-gpt
           description: RAG-GPT 利用 LLM 和 RAG 技术，从用户定制的知识库中学习
-    - term: AI·知识·文档
+    - term: AI·知识库·文档
       links:
         - title: Windsurf AI Directory
           logo: https://www.windsurf.directory/favicon.ico
