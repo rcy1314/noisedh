@@ -1067,6 +1067,84 @@
           logo: github.jpg
           url: https://github.com/ddean2009/MoneyPrinterPlus
           description: 使用moviepy对视频去重剪辑
+    - term: 摄影聚焦
+      links:
+        - title: 摄影世界
+          logo: https://s2.loli.net/2024/11/20/cMWrxutF8fVN7XT.png
+          url: https://www.photoworld.com.cn
+          description: 有温度的专业影像媒体
+        - title: 拍立享摄影师接单大厅
+          logo: https://www.pailixiang.com/favicon.ico
+          url: https://www.pailixiang.com/demand.html
+          description: 拍立享摄影师接单大厅
+        - title: 中国摄影家协会网
+          logo: https://www.cpanet.org.cn/uploads/201608/23/1471932316657245.ico
+          url: https://www.cpanet.org.cn
+          description: 中国摄影家协会网
+        - title: 索尼中国
+          logo: https://www.sony.com.cn/favicon.ico
+          url: https://www.sony.com.cn/
+          description: SonyChinaCorporatePortal首页-索尼（中国）有限公司企业官网
+        - title: 尼康影像与摄影大赛
+          logo: https://photocontest.nikon.com.cn/favicon.ico
+          url: https://photocontest.nikon.com.cn/cn/
+          description: 尼康影像与摄影大赛
+        - title: 新摄影
+          logo: https://www.nphoto.net/
+          url: https://www.nphoto.net
+          description: 新摄影 - 摄影门户网站 nPhoto.net
+        - title: 摄影杂志
+          logo: https://s2.loli.net/2024/11/20/plQmJugz72ZAiGT.png
+          url: https://i50mm.com/
+          description: 摄影杂志
+        - title: MyWed摄影师社区
+          logo: https://cdn2.mywed.com/images/fav-ico/favicon-16x16.png
+          url: https://mywed.com/zh/
+          description: 包含全世界超过45 000名最优秀的专业婚礼摄影师名录。选择和预约最优秀的一名婚礼摄影专业人员。
+        - title: 图虫
+          logo: https://static.tuchong.com/images/favicon.ico
+          url: https://tuchong.com/community
+          description: 优质摄影师交流社区
+        - title: FIBA 摄影大赛
+          logo: https://photocontest.fiba.basketball/favicon-32x32.png
+          url: https://photocontest.fiba.basketball/zh/
+          description: FIBA 摄影大赛
+        - title: 《中国摄影家》杂志社官网
+          logo: https://s2.loli.net/2024/11/20/pyuBE3IDlsdAJ4f.png
+          url: https://www.chinaphoto.net.cn/
+          description: 《中国摄影家》杂志社官网
+        - title: 中国摄影在线
+          logo: https://www.cphoto.net/favicon.ico
+          url: https://www.cphoto.net/
+          description: 中国摄影在线提供摄影师、摄影爱好者交流经验的地方，最新摄影比赛征稿通知，国际比赛参赛方式，摄影相关资讯，摄影大师作品发布，图书画册资讯 
+        - title: 蜂鸟网
+          logo: https://www.fengniao.com/favicon.ico
+          url: https://www.fengniao.com/
+          description: 蜂鸟网,专业摄影门户网站,学习摄影技巧、分享摄影图片,这里有极具个性的摄影作品,全新数码相机、镜头等摄影器材的行情评测；涉及生活摄影、旅游摄影、风光摄影等主题
+        - title: 颇可网
+          logo: https://www.poco.cn/favicon.ico
+          url: https://www.poco.cn/
+          description: 颇可网 - 领先的时尚摄影平台，摄影视频，摄影爱好者分享作品和技巧首选，个人空间
+        - title: Lomography
+          logo: https://cdn.www.lomography.com/assets/frontend/favicon-7638b05458fabb97dff3411ee2d575b430305e86386c2c6348faaa8882933f0d.ico
+          url: https://www.lomography.com/
+          description: 在 Lomography，我们非常热爱创意摄影。加入我们的社区，分享您的照片并阅读最新的摄影技巧和功能。
+        - title: The Eye of Photography - Photography Art news and events
+          logo: https://loeildelaphotographie.com/webapp/android-icon-192x192.png?v=1516045391
+          url: https://loeildelaphotographie.com/en/
+          description: 您的摄影艺术日报杂志。独立观察世界摄影事件、摄影师及其作品。独特的照片档案收藏。
+        - title: 500px摄影社区
+          logo: https://pic.500px.me/images/favicon_n.ico
+          url: https://500px.com.cn
+          description: 500px摄影社区-与全球摄影师交流分享
+        - title: 咔咔约拍
+          logo: https://www.kakayuepai.com/i/logo.png
+          url: https://www.kakayuepai.com
+          description: 咔咔约拍汇聚优质时尚摄影师、摄像师、模特、COSER、化妆师、艺人，是国内专业的摄影约拍、发通告、网拍、商家发起需求的网络在线平台。
+        - title: 麻豆约拍
+          logo: https://images.madouyuepai.com/static/common/img/favicon.ico
+          url: https://www.mdyuepai.com
+          description: 模特约拍—模特与摄影师知名约拍平台，是中国找模特、找主播、找演员、找摄影师的约拍网，发布约拍动态、发布摄影作品的模特约拍网
     - term: 虚拟直播
       links:
         - title: animaze
