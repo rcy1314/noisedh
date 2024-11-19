@@ -285,7 +285,7 @@
           logo: https://www.ysvfx.com/wp-content/uploads/2024/04/23092512701.png
           url: https://www.ysvfx.com/
           description: 与山视觉(ysvfx.com)专注于海外精品AE模板、各种最新AE插件，PR模板、PR插件、转场预设、视频素材、FCPX插件、音频素材。LR调色预设、LUT调色预设等资源.
-    - term: 字幕配音制作
+    - term: 字幕配音·AI合成
       links:
         - title: 智影
           logo: 智影.ico
@@ -399,6 +399,54 @@
           logo: https://tool.szfx.top/favicon.ico
           url: https://tool.szfx.top/tts
           description: 采用讯飞语音合成（流式版），语音合成流式接口将文字信息转化为声音信息，同时提供了众多极具特色的发音人（音库）供您选择。
+        - title: Fish Audio
+          logo: https://fish.audio/logo-circle.png
+          url: https://fish.audio/zh-CN/discovery/
+          description: 功能强大、快速且可定制的文本转语音解决方案。AI 语音基础设施的超低延迟、快速语音克隆和统一费率定价。
+        - title: Fish Speech
+          logo: https://speech.fish.audio/assets/figs/logo-circle.png
+          url: https://speech.fish.audio/zh/
+          description: 部署文档-输入 10 到 30 秒的声音样本即可生成高质量的 TTS 
+        - title: ChatTTS-Deployment
+          logo: github.jpg
+          url: https://github.com/yuanquderzi/ChatTTS-Deployment-using-FastAPI-and-Streamlit
+          description: 使用 FastAPI 和 Streamlit 本地部署 ChatTTS 文本转语音模型，并通过 Docker Compose 进行容器化部署
+        - title: ChatTTS
+          logo: https://chattts.com/favicon.ico
+          url: https://chattts.com/zh
+          description: 用于对话场景的文本转语音模型，经过优化，适用于自然、对话式文本转语音
+        - title: Dub Genius
+          logo: github.jpg
+          url: https://github.com/2DIPW/dub_genius
+          description: 基于 GPT-SoVITS 的视频剪辑快捷配音工具
+        - title: VITS变声
+          logo: github.jpg
+          url: https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI
+          description: 一个基于VITS的简单易用的变声框架
+        - title: Free Text To Speech Online with Lifelike AI Voices | ElevenLabs
+          logo: https://elevenlabs.io/favicon.ico
+          url: https://elevenlabs.io/text-to-speech
+          description: Transform text into lifelike speech with ElevenLabs’ text to speech. ElevenLabs ultra-realistic text-to-speech supports 30+ languages. 
+        - title: 大饼AI变声
+          logo: https://dubbing.tech/favicon.ico
+          url: https://dubbing.tech
+          description: 大饼AI变声，WIndows&Mac免费下载，有态度、有感情的AI变声器，IP音效、御姐萝莉，正太萌妹，千百种丰富音色免费试用，一键安装轻松上手，支持全平台游戏、直播、软件内使用
+        - title: Reecho睿声
+          logo: https://www.reecho.ai/images/favicon.png
+          url: https://www.reecho.ai
+          description: Reecho睿声是一款专注于5秒瞬时语音克隆和超拟真语音合成的创新产品，由自研尖端Reecho文生语音大模型驱动，可深入理解文本，瞬时克隆任意声音，并实现与真人无异的超拟真语音合成效果。
+        - title: 魔音工坊
+          logo: https://tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/img/icons/favicon.svg
+          url: https://www.moyin.com
+          description: 魔音工坊是一款可以在线将文字转成语音的智能配音产品。提供不同性别、不同口音的真人声音，在你输入文字后直接配音。你可快速对短视频等需要配音的内容进行配音。是一款功能强大AI语音合成神器。
+        - title: 呱呱有声制作平台
+          logo: https://www.gstudios.com.cn/favicon.ico
+          url: https://www.gstudios.com.cn
+          description: 呱呱有声制作平台
+        - title: AI语音转换器 | LALAL.AI
+          logo: https://s.lalal.ai/icons/favicon-32x32.png
+          url: https://www.lalal.ai/zh-hans/voice-changer/
+          description: 变声器使用人工智能算法来修改人的声音。它可以改变声音的音调、音色和其他特征，使其听起来像其他歌手的声音.
     - term: 无版权图库
       links:
         - title: piqsels
@@ -3173,8 +3221,12 @@
           description: 编程技术为主，有一定年份了
         - title: geekhub
           logo: www.geekhub.com.ico
-          url: https://www.geekhub.com
+          url: https://geekhub.com
           description: 极客玩家社区
+        - title: 苹果团
+          logo: https://appletuan.com/favicon.ico
+          url: https://appletuan.com/
+          description: 苹果团 | 购买苹果产品的完美之地
         - title: 4414论坛
           logo: www.4414.cn.ico
           url: https://www.4414.cn
@@ -5699,6 +5751,10 @@
           logo: https://framerusercontent.com/images/EIbT8RYrTi16Lw425LfvWGrnqg.svg
           url: https://anythingllm.com/
           description: 在一个桌面应用程序中实现 AI 的所有优点。与文档聊天、使用 AI 代理等 - 本地和离线完整
+        - title: 极虎漫剪
+          logo: https://tiger.easyartx.com/favicon.ico
+          url: https://tiger.easyartx.com/
+          description: 极虎漫剪是一款优秀的漫画剪辑、小说推文生成工具,是一款集成AI创作能力和SD绘图能力的小说推文创作提效工具，使用者通过极虎漫剪可以快速、方便、简洁、高效的制作视频、图片等形式的小说推文工具
     - term: AI·绘画
       links:
         - title: stability
@@ -6325,6 +6381,14 @@
           logo: https://aisonggenerator.ai/favicon.ico
           url: https://aisonggenerator.ai/
           description: Create professional-quality songs with our Free AI Song Generator for free. Transform your ideas into custom music using cutting-edge artificial intelligence technology.
+        - title: 海绵音乐 - 一键创作你的 AI 音乐
+          logo: https://lf-hm-scm.haimianyinyue.com/obj/haimian-scm/doria/swing/favicon.png
+          url: https://www.haimian.com
+          description: 海绵音乐是一款抖音字节出品的AI音乐创作产品，输入一句话灵感或者歌词，即可快速生成音乐，最大限度拉近每个人同音乐创作的距离。同时，海绵音乐提供了丰富的自定义功能，让每个人都可以一键创作属于自己的 AI 音乐。在这个过程中，偶遇惊喜，发现更多可能
+        - title: Tryreplay
+          logo: https://www.tryreplay.io/android-icon-192x192.png
+          url: https://www.tryreplay.io/
+          description: 使用AI重新翻唱混合您最喜爱的音乐
     - term: AI·PPT
       links:
         - title: 博思AIPPT
@@ -6703,6 +6767,10 @@
           logo: https://csdnimg.cn/release/inscode_fe/public/favicon.ico
           url: https://inscode.csdn.net/
           description: 在浏览器中实时运行代码，支持30多种语言和在线IDE，尽在 InsCode。
+        - title: Weights
+          logo: https://www.weights.gg/android-icon-192x192.png
+          url: https://www.weights.gg/zh
+          description: Weights 是一个使用所有类型的 AI 进行创作的社交平台
     - term: AI·代码
       links:
         - title: Copilot
@@ -6805,7 +6873,7 @@
           logo: github.jpg
           url: https://github.com/gpt-open/rag-gpt
           description: RAG-GPT 利用 LLM 和 RAG 技术，从用户定制的知识库中学习
-    - term: AI·知识库·文档
+    - term: AI·知识·文档
       links:
         - title: Windsurf AI Directory
           logo: https://www.windsurf.directory/favicon.ico
