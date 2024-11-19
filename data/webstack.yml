@@ -5763,6 +5763,10 @@
           logo: https://tiger.easyartx.com/favicon.ico
           url: https://tiger.easyartx.com/
           description: 极虎漫剪是一款优秀的漫画剪辑、小说推文生成工具,是一款集成AI创作能力和SD绘图能力的小说推文创作提效工具，使用者通过极虎漫剪可以快速、方便、简洁、高效的制作视频、图片等形式的小说推文工具
+        - title: Change Clothes AI 
+          logo: https://changeclothesai.online/favicon.ico
+          url: https://changeclothesai.online/zh
+          description: Change Clothes AI是一款基于人工智能技术的在线换装工具。通过上传肖像和服装图像轻松交换照片中的衣服。我们的人工智能算法可在几秒钟内生成新图像，让您尝试不同的外观并找到完美的服装。
     - term: AI·绘画
       links:
         - title: stability
