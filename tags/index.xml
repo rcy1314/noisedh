@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Noise导航 &amp; 收录值得珍藏的网站</title>
-    <link>https://www.noisedh.link/tags/</link>
+    <link>https://www.noisedh.cn/tags/</link>
     <description>Recent content in Tags on Noise导航 &amp; 收录值得珍藏的网站</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <atom:link href="https://www.noisedh.link/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.noisedh.cn/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
