@@ -406,7 +406,7 @@
         - title: Fish Speech
           logo: https://speech.fish.audio/assets/figs/logo-circle.png
           url: https://speech.fish.audio/zh/
-          description: 部署文档-输入 10 到 30 秒的声音样本即可生成高质量的 TTS 
+          description: 部署文档-输入 10 到 30 秒的声音样本即可生成高质量的 TTS
         - title: ChatTTS-Deployment
           logo: github.jpg
           url: https://github.com/yuanquderzi/ChatTTS-Deployment-using-FastAPI-and-Streamlit
@@ -426,7 +426,7 @@
         - title: Free Text To Speech Online with Lifelike AI Voices | ElevenLabs
           logo: https://elevenlabs.io/favicon.ico
           url: https://elevenlabs.io/text-to-speech
-          description: Transform text into lifelike speech with ElevenLabs’ text to speech. ElevenLabs ultra-realistic text-to-speech supports 30+ languages. 
+          description: Transform text into lifelike speech with ElevenLabs’ text to speech. ElevenLabs ultra-realistic text-to-speech supports 30+ languages.
         - title: 大饼AI变声
           logo: https://dubbing.tech/favicon.ico
           url: https://dubbing.tech
@@ -3630,7 +3630,7 @@
         - title: 音频应用
           logo: https://www.audiobar.cn/favicon.ico
           url: https://www.audiobar.cn/
-          description: 音频应用,音频应用论坛,midi,录音,音频,音乐制作,recording,audio,vst,乐器,吉他,话筒,耳机,声卡 
+          description: 音频应用,音频应用论坛,midi,录音,音频,音乐制作,recording,audio,vst,乐器,吉他,话筒,耳机,声卡
     - term: 社区·设计摄影类
       links:
         - title: 新摄影
@@ -6450,7 +6450,7 @@
         - title: X-Design
           logo: https://x-design-release.stariidata.com/x-design-international/_next/static/media/favicon.a76c14e7.png
           url: https://www.x-design.com/
-          description: AI-Powered Photo Editing Studio for Marketing 
+          description: AI-Powered Photo Editing Studio for Marketing
     - term: AI·3D
       links:
         - title: artflow.ai
@@ -9313,6 +9313,10 @@
           logo: https://whisperkeyboard.app/favicon.ico
           url: https://whisperkeyboard.app/
           description: Whisper 键盘 - 使用 OpenAl Notch 将语音输入速度提高 3 倍
+        - title: Arc
+          logo: https://arc.net/favicon.png
+          url: https://arc.net/gift/110a5127
+          description: 在这款专为您设计的浏览器中体验更平静、更个性化的互联网。使用 Arc 浏览器放开点击、杂乱和干扰。
     - term: 产品发现
       links:
         - title: 开发者简报
