@@ -447,6 +447,10 @@
           logo: https://s.lalal.ai/icons/favicon-32x32.png
           url: https://www.lalal.ai/zh-hans/voice-changer/
           description: 变声器使用人工智能算法来修改人的声音。它可以改变声音的音调、音色和其他特征，使其听起来像其他歌手的声音.
+        - title: Voicv - 克隆你的声音
+          logo: https://voicv.com/favicon.ico
+          url: https://voicv.com/zh
+          description: Voicv 是一个尖端的语音克隆平台，可以在几分钟内将你的声音转化为数字资产，支持多种语言和零样本学习。
     - term: 无版权图库
       links:
         - title: piqsels
@@ -4595,6 +4599,10 @@
           logo: https://sprunkiphase.net/favicon.ico
           url: https://sprunkiphase.net
           description: 一款在线免费音乐节奏游戏，将创造力与怪异扭曲相结合。以节奏和声音为中心，让您轻松发挥您的音乐想象力
+        - title: Sprunki Phase
+          logo: https://sprunkiphase.online/favicon.ico
+          url: https://sprunkiphase.online
+          description: Join the Sprunki Phase music universe and embark on this game of musical creation, crafting unique rhythmic beats and unleashing your inner musical talent, starting today!
     - term: 博客人生·构建
       links:
         - title: Github
@@ -7035,6 +7043,10 @@
           logo: https://js.langchain.com/img/favicon.ico
           url: https://www.langchain.asia/
           description: LangChain中文站，助力大语言模型LLM应用开发、chatGPT应用开发。
+        - title: AI研究论文每日精选
+          logo: https://www.chatpaper.ai/favicon.ico
+          url: https://www.chatpaper.ai/zh/papers
+          description: 每日精选AI研究论文及翻译
     - term: AI·工具集
       links:
         - title: futuretools
@@ -9801,3 +9813,7 @@
           logo: https://website-custom.com/wp-content/uploads/2024/09/logo-600.svg
           url: https://website-custom.com
           description: WordPress建站教程，通过这篇文章你将学会如何搭建外贸网站，文章通俗易懂的讲解了域名和服务器、WordPress主题和插件使用、WordPress页面搭建等操作。
+        - title: netboot.xyz
+          logo: https://netboot.xyz/img/favicon.ico
+          url: https://netboot.xyz/
+          description: netboot.xyz 使您能够从由 iPXE 项目提供支持的简单易用的菜单中 PXE 启动许多操作系统安装程序和实用程序。
