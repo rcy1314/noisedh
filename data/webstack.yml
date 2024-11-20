@@ -4681,6 +4681,10 @@
           logo: https://sprunkiphase.online/favicon.ico
           url: https://sprunkiphase.online
           description: Join the Sprunki Phase music universe and embark on this game of musical creation, crafting unique rhythmic beats and unleashing your inner musical talent, starting today!
+        - title: Sprunki Retake
+          logo: https://www.sprunkiretake.co/favicon.ico
+          url: https://www.sprunkiretake.co/zh
+          description: 在SprunkiRetake.co上发现Sprunki Retake Mod，这是广受欢迎的Incredibox游戏的最新粉丝自制版本！享受Sprunki Retake Incredibox的沉浸式体验，它拥有增强型节拍、视觉效果和独特风格，让您的音乐创作栩栩如生。
     - term: 博客人生·构建
       links:
         - title: Github
