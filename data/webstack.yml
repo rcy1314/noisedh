@@ -533,7 +533,7 @@
           logo: https://colorhub.me/colorhub.png
           url: https://colorhub.me
           description: 高清无版权图片，个人和商业用途免费
-    - term: 图片设计
+    - term: 封面图文
       links:
         - title: coverview
           logo: https://coverview.vercel.app/./logo.png
@@ -579,10 +579,6 @@
           logo: https://www.ushare.fun/favicon.ico
           url: https://www.ushare.fun
           description: 创造漂亮的代码图像
-        - title: 即时设计
-          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/1715089118853.png
-          url: https://js.design/
-          description: 可云端编辑的专业级 UI 设计工具
         - title: Canva可画
           logo: Canva.ico
           url: https://www.canva.cn/
@@ -607,6 +603,18 @@
           logo: https://www.postergenerator.online/favicon.ico
           url: https://www.postergenerator.online/zh
           description: 您的首选在线海报制作器和生成器！使用 Poster Generator 轻松创建令人惊叹的定制海报——无论个人还是商业用途均可免费使用。现在就开始吧！
+        - title: Text Behind Image
+          logo: https://textbehindimage.rexanwong.xyz/favicon.ico
+          url: https://textbehindimage.rexanwong.xyz/
+          description: 在图像设计背后创建文本
+        - title: 简单设计
+          logo: https://jiandan.link/statics/office_logo_lv.svg
+          url: https://jiandan.link/
+          description: EasyDesign-免费在线设计工具图片处理工具
+        - title: 流光卡片—让分享更优雅，最好看具创意的文字卡片工具，文字转图片，小红书图文神器
+          logo: https://fireflycard.shushiai.com/favicon.png
+          url: https://fireflycard.shushiai.com/
+          description: 致力于提供一种全新的文字转图像体验。让你分享的文字，书摘，推文，帖子，歌词，朋友圈语录变得更优雅有吸引力，成为视觉与思想的完美融合。最好用的 web 图文神器，小红书图文必备
     - term: 无版权视频
       links:
         - title: Pixabay
@@ -1116,7 +1124,7 @@
         - title: 中国摄影在线
           logo: https://www.cphoto.net/favicon.ico
           url: https://www.cphoto.net/
-          description: 中国摄影在线提供摄影师、摄影爱好者交流经验的地方，最新摄影比赛征稿通知，国际比赛参赛方式，摄影相关资讯，摄影大师作品发布，图书画册资讯 
+          description: 中国摄影在线提供摄影师、摄影爱好者交流经验的地方，最新摄影比赛征稿通知，国际比赛参赛方式，摄影相关资讯，摄影大师作品发布，图书画册资讯
         - title: 蜂鸟网
           logo: https://www.fengniao.com/favicon.ico
           url: https://www.fengniao.com/
@@ -1548,6 +1556,10 @@
           logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/1715073773690.png
           url: https://itiktok.best
           description: 旧版tiktok在线安装
+        - title: 抖音/TikTok无水印在线解析
+          logo: 下载.png
+          url: https://douyin.wtf
+          description: 抖音/TikTok无水印在线解析，开源：https://github.com/Evil0ctal/Douyin_TikTok_Download_API
         - title: 抖音TikTok无水印下载
           logo: https://dlpanda.com/favicon.ico
           url: https://dlpanda.com/zh-CN
@@ -4610,7 +4622,15 @@
         - title: 吸血鬼幸存者wiki - 完整的游戏指南和武器进化
           logo: https://s2.loli.net/2024/11/18/mcPRkWslxFO6yMe.png
           url: https://vampiresurvivor.wiki/
-          description: 'Comprehensive Vampire Survivors guide: Learn about weapon evolutions, character builds, and strategies. Official wiki for the roguelike survival game.'
+          description: Comprehensive Vampire Survivors guide Learn about weapon evolutions, character builds, and strategies. Official wiki for the roguelike survival game.
+        - title: Retro Bowl 25 Unblocked
+          logo: https://retrobowl25.org/favicon.ico
+          url: https://retrobowl25.org/
+          description: Retro Bowl 25 - 像素艺术与橄榄球荣耀的完美邂逅,在这款引人入胜的8位体育游戏中，体验复古游戏魅力与现代橄榄球策略的完美融合
+        - title: FNF mobile
+          logo: https://fnfmobile.com/favicon.ico
+          url: https://fnfmobile.com/
+          description: 在线免费的音乐节奏游戏，伴随着洗脑的音乐，玩家只要抓准时机，通过符号正确按上下左右键盘，就可以聆听主角的歌声，在手机端就可以体验有趣的音乐节奏决斗。
     - term: Sprunki-Incredibox
       links:
         - title: Sprunki Remastered - 体验前所未有的音乐创作
@@ -4685,6 +4705,14 @@
           logo: https://www.sprunkiretake.co/favicon.ico
           url: https://www.sprunkiretake.co/zh
           description: 在SprunkiRetake.co上发现Sprunki Retake Mod，这是广受欢迎的Incredibox游戏的最新粉丝自制版本！享受Sprunki Retake Incredibox的沉浸式体验，它拥有增强型节拍、视觉效果和独特风格，让您的音乐创作栩栩如生。
+        - title: sprunki phase 5
+          logo: https://sprunkiphase5.com/favicon-32x32.png
+          url: https://sprunkiphase5.com
+          description: 在线免费音乐节奏游戏
+        - title: Sprunki Phase Incredibox
+          logo: https://sprunkiphaseincredibox.com/favicon.ico
+          url: https://sprunkiphaseincredibox.com
+          description: 在线免费音乐节奏游戏,主要以节奏和声音为中心,释放玩家的音乐想象力！
     - term: 博客人生·构建
       links:
         - title: Github
@@ -5038,9 +5066,13 @@
           url: https://www.deartanker.com/
           description: 极简极客风格主题搭配清晰的分类的个人wp站点
         - title: 陶小桃Blog - 无限进步的优质帅气大学生！
-          logo: https://my.52txr.cn/favicon.png-jsut.webp
+          logo: https://s2.loli.net/2024/11/21/SzZjnX4y5GkNRmc.png
           url: https://www.52txr.cn/
           description: 热衷于分享技术和日常生活的机械专业小哥哥，捣鼓机械设计、计算机视觉和深度学习。网站还涉及到网页设计以及SEO相关博文。
+        - title: Insight Arc. - 月の彼方で逢いましょう
+          logo: https://www.zbf1009.top/wp-content/uploads/2024/10/1729675999-favicon-1.svg
+          url: https://www.zbf1009.top/
+          description: 工欲善其事，必先利其器。所以，颜值怎么不算一种生产力呢？
     - term: 优质播客
       links:
         - title: 摄影叨B叨
@@ -5126,7 +5158,7 @@
 - taxonomy: 独立开发
   icon: fas fa-code fa-lg
   list:
-    - term: 开发部署
+    - term: 云端部署
       links:
         - title: vercel
           logo: vercel.png
@@ -5240,12 +5272,70 @@
           logo: https://uptimebeats.com/favicon.ico
           url: https://uptimebeats.com/
           description: 实时监控以获得最佳性能，确保 24/7 全天候正常运行时间，提升用户体验，并最大限度地提高您的在线形象
+    - term: 原型设计
+      links:
+        - title: pixso
+          logo: https://cms.pixso.cn/images/favicon.ico
+          url: https://pixso.cn
+          description: pixso是一体化设计协作工具，助力产研设团队制作原型，ui/ux设计，视觉设计，低代码交付时获得更轻松流畅的工作体验，让团队协作更高效。支持sketch，figma格式。
+        - title: 即时设计
+          logo: https://img.js.design/assets/webImg/favicon.ico
+          url: https://js.design
+          description: 可实时协作的专业 UI 设计工具
+        - title: 墨刀
+          logo: https://images.modao.cc/images/favicon.ico
+          url: https://modao.cc
+          description: 墨刀是A股上市公司万兴科技旗下的原型设计工具,支持APP、网站页面、管理后台、可视化大屏、工业HMI、小程序、H5多场景领域原型设计，AI智能生成组件、页面，智能填充，支持执行AI语义化指令，支持团队项目实时协作和管理，金融级数据安全保障，还支持私有化部署，是产品经理、设计师和技术开发团队必备工具。
+        - title: Figma
+          logo: https://static.figma.com/app/icon/1/icon-192.png
+          url: https://www.figma.com
+          description: Figma 是用于构建有意义产品的领先协作设计工具。在单一平台中无缝设计、原型设计、开发和收集反馈。
+        - title: Sketch
+          logo: https://www.sketch.com/images/metadata/icon-16.svg
+          url: https://www.sketch.com
+          description: Sketch 将重点重新放在您和您的工作上。由设计师制造，为设计师服务。
+        - title: 摹客
+          logo: https://www.mockplus.cn/favicon.ico
+          url: https://www.mockplus.cn/
+          description: 摹客，让设计和协作更快更简单
+        - title: InVision
+          logo: https://marketing.invisionapp-cdn.com/www.invisionapp.com/global-assets/favicon/android-icon-192x192.png
+          url: https://www.invisionapp.com/
+          description: InVision 是在线白板和生产力平台，为未来工作提供动力。了解 InVision Freehand 如何专为团队协作而构建。
+        - title: 莫高设计
+          logo: https://api.iowen.cn/favicon/mastergo.com.png
+          url: https://mastergo.com
+          description: AI设计系统,产品原型设计平台,在线UX界面交互软件,UI设计工具-Mastergo/莫高设计
+        - title: 蓝湖
+          logo: 8lan.ico
+          url: https://lanhuapp.com
+          description: 高效的产品设计协作平台
+        - title: uizard
+          logo: https://uizard.io/favicon-32x32.png
+          url: https://uizard.io/
+          description: 由 AI 提供支持，让 UI 设计变得简单
+        - title: Visily
+          logo: https://www.visily.ai/wp-content/uploads/2022/02/cropped-favicon-32x32.png
+          url: https://www.visily.ai/
+          description: Visily - AI 驱动的 UI 设计软件
+        - title: magicui
+          logo: https://magicui.design/favicon.ico
+          url: https://magicui.design/
+          description: 漂亮的 UI 组件和模板，让您的着陆页看起来令人惊叹。
+        - title: motiff
+          logo: Motiff
+          url: https://motiff.com/
+          description: AI 驱动的专业界面设计工具
+        - title: creatie
+          logo: https://static.creatie.ai/creatie-website/favicon.ico
+          url: https://creatie.ai/
+          description: 创客 |直观、经济实惠、AI 驱动的产品设计软件
+        - title: Proto
+          logo: https://proto.io/favicon-32x32.png?6.8.41.0
+          url: https://proto.io
+          description: Proto.io - 所有人的原型设计
     - term: 工具箱
       links:
-        - title: 抖音/TikTok无水印在线解析
-          logo: 下载.png
-          url: https://douyin.wtf
-          description: 抖音/TikTok无水印在线解析，开源：https://github.com/Evil0ctal/Douyin_TikTok_Download_API
         - title: PicUploader
           logo: 还不错.png
           url: https://github.com/xiebruce/PicUploader
@@ -5845,7 +5935,7 @@
           logo: https://tiger.easyartx.com/favicon.ico
           url: https://tiger.easyartx.com/
           description: 极虎漫剪是一款优秀的漫画剪辑、小说推文生成工具,是一款集成AI创作能力和SD绘图能力的小说推文创作提效工具，使用者通过极虎漫剪可以快速、方便、简洁、高效的制作视频、图片等形式的小说推文工具
-        - title: Change Clothes AI 
+        - title: Change Clothes AI
           logo: https://changeclothesai.online/favicon.ico
           url: https://changeclothesai.online/zh
           description: Change Clothes AI是一款基于人工智能技术的在线换装工具。通过上传肖像和服装图像轻松交换照片中的衣服。我们的人工智能算法可在几秒钟内生成新图像，让您尝试不同的外观并找到完美的服装。
@@ -7700,6 +7790,14 @@
           logo: https://img.puresys.net/wp-content/uploads/2024/03/1710685043-logo32.png
           url: https://www.puresys.net/
           description: Puresys是一个分享Ghost系统与PC软件资源的博客，致力于免费提供优质的去广告绿色软件、常用的破解优化软件，以及各类经验教程。
+        - title: mefcl - 分享纯净好资源
+          logo: https://www.mefcl.com/wp-content/uploads/2024/04/cropped-shiguangtao-32x32.png
+          url: https://www.mefcl.com/
+          description: mefcl，mefcl官网，mefcl博客，mefcl'sblog，坚持初心，免费分享最新纯净版、绿色版、开源软件，包含电脑软件、安卓应用等。
+        - title: 缘本初见 | 分享实用好软件！
+          logo: https://www.52ybcj.com/wp-content/uploads/2023/12/favicon.png
+          url: https://www.52ybcj.com/
+          description: 缘本初见『52ybcj』是一软件资源分享下载站，专注为用户提供各种绿色、实用、有趣的应用和技术教程等，分享是我们的宗旨也是这个站点存在的意义！
     - term: 下载·安卓
       links:
         - title: 翻应用
@@ -9903,3 +10001,7 @@
           logo: https://netboot.xyz/img/favicon.ico
           url: https://netboot.xyz/
           description: netboot.xyz 使您能够从由 iPXE 项目提供支持的简单易用的菜单中 PXE 启动许多操作系统安装程序和实用程序。
+        - title: PanSci 泛科學
+          logo: https://pansci.asia/wp-content/themes/pansci-bootstrap-child//src/imgs/logo/pansci_logo_only.png
+          url: https://pansci.asia/
+          description: PanSci 泛科學

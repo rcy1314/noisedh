@@ -6,29 +6,42 @@ $(function() {
     const $sidebar = $('#sidebar');
     const $sidebarNav = $('.sidebar-nav');
 
-    // 夜间模式
-    $darkModeSwitch.on('click', function(event) {
-        event.preventDefault();
-        $.ajax({
-            url: theme.ajaxurl,
-            type: 'POST',
-            dataType: 'html',
-            data: {
-                mode_toggle: $body.hasClass('io-black-mode') ? 1 : 0,
-                action: 'switch_dark_mode',
-            },
-        }).done(function(response) {
-            $body.toggleClass('io-black-mode ' + theme.defaultclass);
-            switch_mode();
-            $("#" + $darkModeSwitch.attr('aria-describedby')).remove();
-        });
-    });
-
-    function switch_mode() {
-        const isDarkMode = $body.hasClass('io-black-mode');
-        $darkModeSwitch.attr("data-original-title", isDarkMode ? "日间模式" : "夜间模式");
-        $(".mode-ico").toggleClass("icon-light", isDarkMode).toggleClass("icon-night", !isDarkMode);
+    // 页面加载时检查 localStorage 中的模式设置
+$(document).ready(function() {
+    const darkModeEnabled = localStorage.getItem('darkMode') === 'true';
+    if (darkModeEnabled) {
+        $body.addClass('io-black-mode');
     }
+    switch_mode(); // 更新图标和按钮提示
+});
+
+// 夜间模式切换事件
+$darkModeSwitch.on('click', function(event) {
+    event.preventDefault();
+    $.ajax({
+        url: theme.ajaxurl,
+        type: 'POST',
+        dataType: 'html',
+        data: {
+            mode_toggle: $body.hasClass('io-black-mode') ? 1 : 0,
+            action: 'switch_dark_mode',
+        },
+    }).done(function(response) {
+        $body.toggleClass('io-black-mode ' + theme.defaultclass);
+        switch_mode();
+        $("#" + $darkModeSwitch.attr('aria-describedby')).remove();
+
+        // 更新 localStorage 中的模式设置
+        const isDarkMode = $body.hasClass('io-black-mode');
+        localStorage.setItem('darkMode', isDarkMode);
+    });
+});
+
+function switch_mode() {
+    const isDarkMode = $body.hasClass('io-black-mode');
+    $darkModeSwitch.attr("data-original-title", isDarkMode ? "日间模式" : "夜间模式");
+    $(".mode-ico").toggleClass("icon-light", isDarkMode).toggleClass("icon-night", !isDarkMode);
+}
 
     // 返回顶部
     $(window).scroll(function() {
@@ -230,3 +243,172 @@ $(function() {
         }
     });
 });
+    // 使用 fetch 请求 API 获取最近收录的网站数据
+    async function fetchRecentSites() {
+        const cachedData = localStorage.getItem('recentSites'); // 从 localStorage 获取缓存数据
+        const cachedTime = localStorage.getItem('recentSitesTimestamp'); // 获取缓存时间
+    
+        // 如果有缓存数据且未过期，直接使用缓存
+        if (cachedData && cachedTime) {
+            const currentTime = Date.now();
+            const timeDiff = currentTime - cachedTime;
+    
+            // 假设缓存有效期为1小时（3600000毫秒）
+            if (timeDiff < 3600000) {
+                console.log('使用缓存数据');
+                displaySites(JSON.parse(cachedData));
+                return;
+            }
+        }
+    
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 5000); // 5秒超时
+            const response = await fetch('https://extension.noisework.cn/api/notifications', {
+                signal: controller.signal
+            });
+            clearTimeout(timeoutId); // 清除超时
+    
+            if (!response.ok) {
+                throw new Error('网络响应不正常: ' + response.status);
+            }
+    
+            const data = await response.json();
+            
+            // 更新缓存
+            localStorage.setItem('recentSites', JSON.stringify(data));
+            localStorage.setItem('recentSitesTimestamp', Date.now()); // 更新缓存时间
+    
+            displaySites(data);
+        } catch (error) {
+            console.error('获取数据时出错:', error);
+            // 请求失败时隐藏标题和列表
+            document.getElementById('recent-sites-title').style.display = 'none';
+            document.getElementById('recent-sites').style.display = 'none'; // 隐藏整个区域
+        }
+    }
+    
+    function displaySites(data) {
+        const siteListElement = document.getElementById('site-list');
+        const titleElement = document.getElementById('recent-sites-title');
+        const recentSitesElement = document.getElementById('recent-sites');
+        siteListElement.innerHTML = ''; // 清空列表
+    
+        if (data.message) {
+            const messageItem = document.createElement('li');
+            messageItem.textContent = data.message;
+            siteListElement.appendChild(messageItem);
+            titleElement.style.display = 'block'; // 显示标题
+            recentSitesElement.style.display = 'block'; // 显示整个区域
+            return;
+        }
+    
+        data.forEach(site => {
+            const listItem = document.createElement('li');
+            listItem.innerHTML = `<strong class="title">${site.title}：</strong><a class="url" href="${site.url}" target="_blank">${site.url}</a>：<span class="description">${site.description || '无描述'}</span>`;
+            siteListElement.appendChild(listItem);
+        });
+    
+        // 显示标题
+        titleElement.style.display = 'block';
+        recentSitesElement.style.display = 'block'; // 显示整个区域
+    
+        // 开始循环滚动
+        startScrolling(siteListElement);
+    }
+    
+    function startScrolling(element) {
+        let scrollHeight = element.scrollHeight;
+        let scrollTop = 0;
+    
+        function scroll() {
+            scrollTop += 0.3; // 每次向上滚动0.3px
+            if (scrollTop >= scrollHeight) {
+                scrollTop = 0; // 重置滚动位置
+            }
+            element.scrollTop = scrollTop;
+            requestAnimationFrame(scroll); // 使用 requestAnimationFrame 进行平滑滚动
+        }
+    
+        scroll(); // 启动滚动
+    }
+    
+    // 页面加载时获取最近收录的网站数据
+    window.onload = fetchRecentSites;
+    
+    
+    //搜索模块
+    const serverUrl = 'https://extension.noisework.cn'; // 替换为你的服务器地址
+    const searchInput = document.getElementById('search-input');
+    const searchButton = document.getElementById('search-button');
+    const searchResults = document.getElementById('search-results');
+    const overlay = document.getElementById('overlay');
+    const resultsHeader = searchResults.querySelector('.results-header');
+
+    // 假设文件路径是一个已知的变量
+    const filePath = '/www/wwwroot/www.noisedh.cn/data/webstack.yml'; // 替换为你的文件路径
+
+    async function performSearch() {
+        const keyword = searchInput.value.trim();
+        if (keyword) {
+            try {
+                const response = await fetch(`${serverUrl}/api/search?keyword=${encodeURIComponent(keyword)}&filePath=${encodeURIComponent(filePath)}`);
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    alert(`搜索请求失败: ${response.status} - ${errorText}`);
+                    return;
+                }
+
+                const results = await response.json();
+                displaySearchResults(results);
+            } catch (error) {
+                console.error('网络请求出错:', error);
+                alert('网络请求失败，请检查网络连接');
+            }
+        } else {
+            alert('请输入搜索关键词');
+        }
+    }
+
+    function displaySearchResults(results) {
+        // 清空之前的结果
+        searchResults.innerHTML = ''; // 清空之前的内容
+        searchResults.appendChild(resultsHeader); // 重新添加标题
+
+        if (results.length === 0) {
+            searchResults.innerHTML += '<div>当前无搜索结果</div>';
+            searchResults.style.display = 'flex'; // 显示结果
+            overlay.style.display = 'block'; // 显示遮罩层
+            return;
+        }
+
+        resultsHeader.style.display = 'block'; // 显示标题
+        results.forEach(result => {
+            const div = document.createElement('div');
+            div.classList.add('result-item');
+            div.innerHTML = `
+                <div class="result-title">${result.title}</div>
+                <div class="result-url"><a href="${result.url}" target="_blank">${result.url}</a></div>
+                <div class="result-description">${result.description || '无描述'}</div>
+            `;
+            searchResults.appendChild(div);
+        });
+
+        searchResults.style.display = 'flex'; // 使用 flex 布局显示结果
+        overlay.style.display = 'block'; // 显示遮罩层
+    }
+
+    function closeSearchResults() {
+        searchResults.style.display = 'none';
+        overlay.style.display = 'none'; // 隐藏遮罩层
+    }
+
+    searchButton.addEventListener('click', performSearch);
+    searchInput.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            performSearch();
+        }
+    });
+
+    // 点击遮罩层关闭搜索结果
+    overlay.addEventListener('click', closeSearchResults);

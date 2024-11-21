@@ -35,13 +35,12 @@
             .main-title {
                 font-size: 36px; /* 大标题 */
                 text-align: center; /* 居中 */
-                margin-bottom: 20px; /* 底部间距 */
+                margin-bottom: 10px; /* 底部间距 */
                 background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 animation: gradient-animation 3s ease infinite; /* 动画效果 */
             }
-
             /* 媒体查询：手机尺寸下自适应标题大小 */
             @media (max-width: 768px) {
                 .main-title {
@@ -59,6 +58,97 @@
                 margin: 0; /* 取消标题之间的间距 */
                 display: inline-block; /* 使间距生效 */
             }
+            #search-input {
+                padding: 10px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 5px 0 0 5px;
+                width: 250px;
+                margin-bottom: 20px;
+            }
+
+            #search-button {
+                padding: 10px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 0 5px 5px 0;
+                background-color: #f0f0f0;
+                cursor: pointer;
+            }
+
+            #search-results {
+                background-color: rgba(0, 0, 0, 0.7);
+                padding: 20px;
+                border-radius: 5px;
+                width: 80%; /* 自适应宽度 */
+                max-width: 800px; /* 最大宽度 */
+                max-height: 80vh; /* 最大高度 */
+                overflow-y: auto;
+                display: none; /* 默认隐藏 */
+                position: fixed; /* 使用 fixed 使其固定在视口 */
+                left: 50%;
+                transform: translateX(-50%);
+                color: white;
+                z-index: 1000;
+                top: 20%; /* 调整位置 */
+                text-align: center; /* 居中对齐 */
+                display: flex; /* 使用 flex 布局 */
+                flex-wrap: wrap; /* 允许换行 */
+                justify-content: center; /* 居中对齐 */
+            }
+
+            .results-header {
+                width: 100%; /* 使标题占满整个宽度 */
+                font-size: 20px;
+                margin-bottom: 15px;
+                text-align: center; /* 标题居中 */
+            }
+
+            .result-item {
+                margin: 10px; /* 上下左右间距 */
+                padding: 15px;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                border-radius: 5px;
+                background-color: rgba(32, 30, 30, 0.699);
+                width: 200px; /* 减小卡片宽度 */
+                text-align: center; /* 卡片内容居中 */
+            }
+
+            .result-item a {
+                color: orange;
+                text-decoration: none;
+            }
+
+            .result-item a:hover {
+                text-decoration: underline;
+            }
+
+            /* 遮罩层样式 */
+            #overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5); /* 设置遮罩层背景色 */
+                z-index: 999; /* 低于搜索结果 */
+            }
+
+            .result-title {
+                font-weight: bold;
+                font-size: 16px; /* 减小标题字体 */
+            }
+
+            .result-description {
+                font-size: 12px; /* 减小描述字体 */
+                color: #ccc;
+            }
+
+            .result-url {
+                font-size: 12px; /* 减小链接字体 */
+                color: lightblue;
+            }
         </style>
 
         <!-- 添加居中的彩色渐变动态标题 -->
@@ -66,37 +156,112 @@
             <span class="title-spacing">NOISE导航——收录值得珍藏的网站</span>
         </h1>
 
-        <div class="recent-sites" id="recent-sites">
-           
+        <div style="text-align: center; margin-top: 20px;">
+            <input type="text" id="search-input" placeholder="站内搜索..." />
+            <button id="search-button">🔍</button>
         </div>
 
+        <div id="overlay"></div> <!-- 遮罩层 -->
+        <div id="search-results" style="display: none;">
+            <div class="results-header" style="display: none;">当前搜索结果如下：</div> <!-- 默认隐藏标题 -->
+       </div>
+    
+ <!-- 提示分割 -->
+ <style>
+    .recent-sites {
+        margin-top: 0px;
+        padding: 10px;
+        border-radius: 5px; /* 圆角 */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+        text-align: center; /* 内容居中 */
+       
+        overflow: hidden; /* 隐藏滚动条 */
+        display: none; /* 默认隐藏 */
+    }
+
+    .recent-sites h2 {
+        color: white; /* 大标题为白色 */
+        font-size: 14px; /* 调整标题字体大小 */
+        padding: 10px; /* 添加一些内边距 */
+        display: none; /* 默认隐藏标题 */
+    }
+
+    #site-list {
+        list-style-type: none; /* 去掉默认的列表样式 */
+        padding: 0; /* 去掉内边距 */
+        margin: 0; /* 去掉外边距 */
+        max-height: 40px; /* 设置最大高度为两行 */
+        overflow-y: auto; /* 允许纵向滚动 */
+        overflow: hidden; /* 隐藏滚动条 */
+    }
+
+    #site-list li {
+        padding: 8px 12px; /* 内边距 */
+    }
+
+    #site-list li:last-child {
+        border-bottom: none; /* 最后一项去掉下边框 */
+    }
+
+    #site-list .title {
+        color: white; /* 标题颜色为白色 */
+    }
+
+    #site-list .url {
+        color: #e54911; /* 链接颜色为橙色 */
+        text-decoration: none; /* 去掉链接下划线 */
+    }
+
+    #site-list .url:hover {
+        text-decoration: underline; /* 悬停时下划线 */
+    }
+
+    #site-list .description {
+        color: white; /* 描述颜色为白色 */
+    }
+</style>
+<!-- 最近收录的站点 -->
+<div class="recent-sites" id="recent-sites">
+    <h2 id="recent-sites-title">最近收录的站点（欢迎投稿）</h2>
+    <ul id="site-list">
+        <!-- 动态添加网站数据 -->
+    </ul>
+</div>
+
         <div class="wp zzbuluoled" style="margin-top:0;">
-            <div style="background:url('https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/uPic/222.png'); text-align: center; height:80px;">
-                <div id="zzbuluoled_sx" style="width:auto;overflow:hidden;height:80px;line-height:80px;text-align:left;">
+            <div style="
+                background: linear-gradient(rgba(46, 52, 72, 0.5), rgba(46, 52, 72, 0.1)); /* 渐变透明背景 */
+                text-align: center; 
+                height: 45px; 
+                border-radius: 10px; /* 圆弧效果 */
+                box-shadow: inset 0 0 10px rgba(10, 10, 10, 0.5); /* 内边发光模糊 */
+                display: flex; /* 使用 flexbox 使内容居中 */
+                align-items: center; /* 垂直居中 */
+                justify-content: center; /* 水平居中 */
+            ">    
+                <div id="zzbuluoled_sx" style="width:auto; overflow:hidden; height: 45px; text-align:left; display: flex; align-items: center; line-height: 45px;">
                     <marquee direction="left" scrollamount="5">
                         <strong>
                             <a href="https://www.noisedh.link" target="_blank">
-                                <span style="font-family: 'Tahoma'; font-weight:600; color: #FF0000; font-size: 30px;">👏欢迎访问，本站域名:www.noisedh.link 🧐 www.noisedh.cn 👉</span>
+                                <span style="font-family: 'Tahoma'; font-weight:600; color: #FF0000; font-size: 20px;">👏欢迎访问，本站域名:www.noisedh.cn 🧐 www.noisedh.link 👉</span>
                             </a>
-                            <a href="https://www.noisedh.link/invalidlinks" target="_blank">
-                                <span style="font-family: 'Tahoma'; font-weight:600; color: #39a4e5; font-size: 30px;">查看链接检测记录，如有误删可联系😄</span>
-                            </a>
-                            <a href="https://simhaoka.com/phone/index?id=A7BA17EFD6DC47F6826F0C67B898725A" target="_blank">
-                                <span style="font-family: 'Tahoma'; font-weight:600; color: #566cd7; font-size: 30px;">已更新站点收录信息，收录请投稿，广告Loading...</span>
-                            </a>
-                            <a href="https://hk.yunhaoka.cn/#/pages/micro_store/index?agent_id=422648" target="_blank">
-                                <span style="font-family: 'Tahoma'; font-weight:600; color: #e56e33; font-size: 30px;">📢：全国正规流量手机卡优惠渠道二</span>
-                            </a>
-                            <a href="#" target="_blank">
-                                <span style="font-family: 'Tahoma'; font-weight:600; color: #b333e5ce; font-size: 30px;">📢：已优化站点，如您发现域名访问受限，请尝试访问其它域名，本站可永久持续访问</span>
-                            </a>
-                            <a href="https://www.noisedh.link" target="_blank">
-                                <span style="font-family: 'Tahoma'; font-weight:600; color: #FFFFFF; font-size: 30px;">公告已更新，欢迎随时回来👏</span>
-                            </a>
+                            <a href="https://www.noisedh.link/invalidlinks" target="_blank"></a>
+                            <span style="font-family: 'Tahoma'; font-weight:600; color: #e56f39; font-size: 20px;">新增分类调整及增加站点收录👉</span>
+                            <a href="https://www.noisedh.link/invalidlinks" target="_blank"></a>
+                            <span style="font-family: 'Tahoma'; font-weight:600; color: #39a4e5; font-size: 20px;">查看链接检测记录，如有误删可联系😄</span>
+                            <a href="https://simhaoka.com/phone/index?id=A7BA17EFD6DC47F6826F0C67B898725A" target="_blank"></a>
+                            <span style="font-family: 'Tahoma'; font-weight:600; color: #566cd7; font-size: 20px;">已更新站点收录信息，收录请投稿，广告Loading...</span>
+                            <a href="https://hk.yunhaoka.cn/#/pages/micro_store/index?agent_id=422648" target="_blank"></a>
+                            <span style="font-family: 'Tahoma'; font-weight:600; color: #e56e33; font-size: 20px;">📢：全国正规流量手机卡优惠渠道二</span>
+                            <a href="#" target="_blank"></a>
+                            <span style="font-family: 'Tahoma'; font-weight:600; color: #b333e5ce; font-size: 20px;">📢：已优化站点，如您发现域名访问受限，请尝试访问其它域名，本站可永久持续访问</span>
+                            <a href="https://www.noisedh.link" target="_blank"></a>
+                            <span style="font-family: 'Tahoma'; font-weight:600; color: #FFFFFF; font-size: 20px;">公告已更新，欢迎随时回来👏</span>
                         </strong>
                     </marquee>
                 </div>
             </div>
         </div>
+        
     </div>
 </div>
