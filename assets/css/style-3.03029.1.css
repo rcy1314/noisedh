@@ -188,7 +188,7 @@ a>i.sidebar-more{transform:scale(.8)}
 /*--------------------------------------------------------------
 ## URL box style
 --------------------------------------------------------------*/
-.text-gray{color:#555}
+.text-gray{color:#f6f0f0}
 .overflowClip_1{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;word-break:break-all;display:-webkit-box!important;-webkit-line-clamp:1;-webkit-box-orient:vertical}
 .overflowClip_1{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block!important}
 .overflowClip_2{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;word-break:break-all;display:-webkit-box!important;-webkit-line-clamp:2;-webkit-box-orient:vertical}
@@ -199,7 +199,7 @@ a>i.sidebar-more{transform:scale(.8)}
 .url-card .url-info{overflow:hidden;padding-right:5px}
 .url-card .url-goto-after{height:24px;border-top:1px solid rgba(136,136,136,.2)}
 .url-card .url-goto{position:absolute;bottom:0;left:0px;right:0}
-.url-card .card-body{padding:.938rem}
+.url-card .card-body{padding:.738rem}
 .url-card .url-img{width:40px;height:40px;-webkit-box-flex:0;-ms-flex:none;flex:none;background:rgba(255, 255, 255, 0);overflow:hidden}
 .url-card .url-img>img{max-height:100%;vertical-align:unset}
 .url-card .max .url-img{width:60px;height:60px}
@@ -236,7 +236,7 @@ a>i.sidebar-more{transform:scale(.8)}
 .card-app.default:hover .media,.card-app.card:hover{transform:translateY(-6px);-webkit-transform:translateY(-6px);-moz-transform:translateY(-6px);box-shadow:0 26px 40px -24px rgba(0,36,100,.3);-webkit-box-shadow:0 26px 40px -24px rgba(0,36,100,.3);-moz-box-shadow:0 26px 40px -24px rgba(0,36,100,.3);-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}
 .app-info .info-term{display:inline-block}
 .app-content{overflow:hidden;align-items:center}
-.app-content .app-ico img{width:128px}
+.app-content .app-ico img{width:108px}
 .app-nature .badge i{font-weight:100}
 .card-app.card .tga{overflow:hidden}
 .card-app.card .tga a{font-size:75%;padding:.125rem .4rem;background:rgba(134,134,134,.1);color:#888;border-radius:10px;transition:.3s}
@@ -267,7 +267,7 @@ a>i.sidebar-more{transform:scale(.8)}
 --------------------------------------------------------------*/
 footer.main-footer{padding:20px 30px;margin-top:0px}
 #footer-tools{position:fixed;bottom:20px;right:20px;display:flex}
-#footer-tools .btn{color:#777;background:#eee;width:40px;height:40px;font-size:1rem;text-align:center;line-height:40px;padding:unset;display:block;border:unset}
+#footer-tools .btn{color:#050505;background:#eee;width:40px;height:40px;font-size:1rem;text-align:center;line-height:40px;padding:unset;display:block;border:unset}
 #footer-tools .go-up{display:none}
 #footer-tools .btn:hover{color:#444}
 #footer-tools [data-v-db6ccf64][data-v-41ba7e2c],#footer-tools [data-v-db6ccf64][data-v-6d083e75]{top:unset!important;bottom:0!important;right:44px!important}
@@ -420,7 +420,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 #search{max-width:800px;position:relative}
 #search form{position:relative}
 #search-text{z-index:inherit;padding:9pt;height:50px;font-size:1pc;border:0;border-radius:3px;background-color:#fff;transition:.3s}
-#search button{position:absolute;top:0;right:0;background:#313437;border:0;width:60px;height:36px;margin:7px 9pt 0;line-height:36px;border-radius:3px}
+#search button{position:absolute;top:0;right:0;background:#121212;border:0;width:60px;height:36px;margin:7px 9pt 0;line-height:36px;border-radius:3px}
 #search button:hover{background:#000;cursor:pointer}
 #search button i{color:#fff;font-size:18px}
 #search .search-select{height:50px;cursor:pointer;border:none;background-color:#fff;transition:.3s}
