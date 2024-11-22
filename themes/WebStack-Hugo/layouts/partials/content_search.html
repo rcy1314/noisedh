@@ -7,261 +7,151 @@
                 </div>
             </div>
         </div>
-
         <style>
-            .recent-sites {
-                margin-top: 10px;
-                padding: 10px;
-                border-radius: 5px;
-                text-align: center;
-            }
-            .avatar-container {
-                display: flex;
-                align-items: center;
-                justify-content: center; /* 水平居中 */
-                margin-bottom: 10px;
-            }
-            .avatar {
-                width: 50px;
-                height: 50px;
-                border-radius: 50%;
-                margin-right: 10px;
-            }
-            .welcome-text {
-                color: white;
-                font-size: 18px;
-                text-align: center; /* 文字居中 */
-            }
-            .main-title {
-                font-size: 36px; /* 大标题 */
-                text-align: center; /* 居中 */
-                margin-bottom: 10px; /* 底部间距 */
-                background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                animation: gradient-animation 3s ease infinite; /* 动画效果 */
-            }
-            /* 媒体查询：手机尺寸下自适应标题大小 */
-            @media (max-width: 768px) {
-                .main-title {
-                    font-size: 24px; /* 自适应字体大小 */
-                }
-            }
-
-            @keyframes gradient-animation {
-                0% { background-position: 0% 50%; }
-                50% { background-position: 100% 50%; }
-                100% { background-position: 0% 50%; }
-            }
-
-            .title-spacing {
-                margin: 0; /* 取消标题之间的间距 */
-                display: inline-block; /* 使间距生效 */
-            }
-            #search-input {
-                padding: 10px;
-                font-size: 16px;
-                border: 1px solid #ccc;
-                border-radius: 5px 0 0 5px;
-                width: 250px;
-                margin-bottom: 20px;
-            }
-
-            #search-button {
-                padding: 10px;
-                font-size: 16px;
-                border: 1px solid #ccc;
-                border-radius: 0 5px 5px 0;
-                background-color: #f0f0f0;
-                cursor: pointer;
-            }
-
-            #search-results {
-                background-color: rgba(0, 0, 0, 0.7);
-                padding: 20px;
-                border-radius: 5px;
-                width: 80%; /* 自适应宽度 */
-                max-width: 800px; /* 最大宽度 */
-                max-height: 80vh; /* 最大高度 */
-                overflow-y: auto;
-                display: none; /* 默认隐藏 */
-                position: fixed; /* 使用 fixed 使其固定在视口 */
-                left: 50%;
-                transform: translateX(-50%);
-                color: white;
-                z-index: 1000;
-                top: 20%; /* 调整位置 */
-                text-align: center; /* 居中对齐 */
-                display: flex; /* 使用 flex 布局 */
-                flex-wrap: wrap; /* 允许换行 */
-                justify-content: center; /* 居中对齐 */
-            }
-
-            .results-header {
-                width: 100%; /* 使标题占满整个宽度 */
-                font-size: 20px;
-                margin-bottom: 15px;
-                text-align: center; /* 标题居中 */
-            }
-
-            .result-item {
-                margin: 10px; /* 上下左右间距 */
-                padding: 15px;
-                border: 1px solid rgba(255, 255, 255, 0.3);
-                border-radius: 5px;
-                background-color: rgba(32, 30, 30, 0.699);
-                width: 200px; /* 减小卡片宽度 */
-                text-align: center; /* 卡片内容居中 */
-            }
-
-            .result-item a {
-                color: orange;
-                text-decoration: none;
-            }
-
-            .result-item a:hover {
-                text-decoration: underline;
-            }
-
-            /* 遮罩层样式 */
-            #overlay {
-                display: none;
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background-color: rgba(0, 0, 0, 0.5); /* 设置遮罩层背景色 */
-                z-index: 999; /* 低于搜索结果 */
-            }
-
-            .result-title {
-                font-weight: bold;
-                font-size: 16px; /* 减小标题字体 */
-            }
-
-            .result-description {
-                font-size: 12px; /* 减小描述字体 */
-                color: #ccc;
-            }
-
-            .result-url {
-                font-size: 12px; /* 减小链接字体 */
-                color: lightblue;
-            }
+            
+            body::-webkit-scrollbar { display: none; }
+            body { -ms-overflow-style: none; scrollbar-width: none; }
+            .avatar-container { display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
+            .avatar { width: 50px; height: 50px; border-radius: 50%; margin-right: 10px; }
+            .welcome-text { color: white; font-size: 18px; text-align: center; }
+            .main-title { font-size: 36px; text-align: center; margin-bottom: 10px; background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce); -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: gradient-animation 3s ease infinite; }
+            @media (max-width: 768px) { .main-title { font-size: 34px; } }
+            @keyframes gradient-animation { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+            .title-spacing { margin: 0; display: inline-block; }
+            #search-input { padding: 8px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px 0 0 5px; width: 400px; margin-bottom: 20px; }
+            @media (max-width: 840px) { #search-input { width: 300px; } }
+            #search-button { padding: 8px; font-size: 16px; border: 1px solid #ccc; border-radius: 0 5px 5px 0; background-color: #f0f0f0; cursor: pointer; }
+            #search-results { background-color: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 5px; width: 80%; max-width: 800px; max-height: 80vh; overflow-y: auto; display: none; position: fixed; left: 50%; transform: translateX(-50%); color: white; z-index: 1000; top: 20%; text-align: center; display: flex; flex-wrap: wrap; justify-content: center; }
+            .results-header { width: 100%; font-size: 20px; margin-bottom: 15px; text-align: center; }
+            .result-item { margin: 5px; padding: 15px; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 5px; background-color: rgba(32, 30, 30, 0.699); width: 180px; text-align: center; }
+            .result-item a { color: orange; text-decoration: none; }
+            .result-item a:hover { text-decoration: underline; }
+            #overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999; }
+            .result-title { font-weight: bold; font-size: 16px; }
+            .result-description { font-size: 12px; color: #ccc; }
+            .result-url { font-size: 12px; color: lightblue; }
+            .ad-section { text-align: center; overflow: hidden; border-radius: 15px; }
+            .ad-section img { width: 100%; height: auto; object-fit: cover; border-radius: 15px; }
+            .carousel-control-prev, .carousel-control-next { position: absolute; top: 50%; transform: translateY(-50%); z-index: 10; background-color: rgba(255, 255, 255, 0.5); border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; visibility: visible; opacity: 1; }
+            .carousel-control-prev { left: 5px; }
+            .carousel-control-next { right: 5px; }
+            .flex-container { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: stretch; padding: 2px; margin: 0; background-color: rgba(10, 10, 11, 0.234); border: 2px solid #44444400; }
+            .flex-item { flex: 0 0 30%; padding: 0 5px; box-sizing: border-box; border: 1px solid #444; }
+            .flex-item.right { flex: 0 0 70%; padding: 0 5px; box-sizing: border-box; border: 1px solid #444; }
+            @media (max-width: 768px) { .flex-container { flex-direction: column; } .flex-item { flex: 1; } }
+            .bilibiliindex { display: flex; justify-content: center; align-items: center; height: 25vh; width: auto; margin: auto; background-color: #323232; border: 2px solid #212020; border-radius: 10px; }
+            @media (max-width: 768px) { .bilibiliindex { display: none; } }
+            #lbl { font-family: brushscriptmt; font-size: 25px; background: linear-gradient(90deg, #FF0000, #8939e5, #9e443a, #3383e5, #b333e5ce); -webkit-background-clip: text; background-clip: text; color: transparent; padding: 5px; border: 1px solid #212936ca; text-align: center; line-height: 1.5; height: 85%; }
+            #date { font-size: 18px; background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce); -webkit-background-clip: text; background-clip: text; color: transparent; }
         </style>
 
-        <!-- 添加居中的彩色渐变动态标题 -->
-        <h1 class="main-title">
-            <span class="title-spacing">NOISE导航——收录值得珍藏的网站</span>
-        </h1>
+        <div id="lbl"></div>
 
-        <div style="text-align: center; margin-top: 20px;">
-            <input type="text" id="search-input" placeholder="站内搜索..." />
-            <button id="search-button">🔍</button>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var weekday = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+                var today = new Date();
+                var hrs = today.getHours();
+                var dayOfWeek = weekday[today.getDay()];
+                var date = today.getFullYear() + '年' + (today.getMonth() + 1).toString().padStart(2, '0') + '月' + today.getDate().toString().padStart(2, '0') + '日';
+
+                var greet = hrs < 5 ? "凌晨好" :
+                            hrs < 9 ? "早上好" :
+                            hrs < 11 ? "上午好" :
+                            hrs < 13 ? "中午好" :
+                            hrs < 17 ? "下午好" :
+                            hrs < 19 ? "傍晚好" :
+                            hrs < 22 ? "晚上好" : "夜深了";
+
+                document.getElementById('lbl').innerHTML = greet + `<div id="date"> 今天是：${date}</div>`;
+            });
+        </script>
+
+        <div class="flex-container">
+            <div class="flex-item">
+                <h3 class="main-title">
+                    <span class="title-spacing">欢迎访问NOISE导航</span>
+                </h3>
+                <div style="text-align: center; margin-top: 20px;">
+                    <input type="text" id="search-input" placeholder="站内搜索..." />
+                    <button id="search-button">🔍</button>
+                </div>
+                <div id="overlay"></div>
+                <div id="search-results" style="display: none;">
+                    <div class="results-header" style="display: none;">当前搜索结果如下：</div>
+                </div>
+                <div class="bilibiliindex" style="width: 98%; height: 25vh;">
+                    <iframe src="https://www.noisework.cn/e/bili/index.html?id=3271958393"
+                        style="width: 95%; height: 100%; border: none;" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="flex-item right" style="color: white;">
+                <div style="width:auto;">
+                    <meting-js list-max-height="58px" server="netease" type="playlist" data-fixed="true"
+                        data-autoplay="false" id="2141128031"></meting-js>
+                </div>
+                <br>
+                <div class="ad-section">
+                    <div id="ad-carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="https://simhaoka.com/phone/index?id=A7BA17EFD6DC47F6826F0C67B898725A" target="_blank">
+                                    <img src="https://noisevip.cn/./2024/04/1712849718-6446d860dbbfe54.png" alt="超大流量性价比手机卡渠道1" style="max-height: 200px; object-fit: cover;" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#" target="_blank">
+                                    <img src="https://noisevip.cn/./2023/07/1689164400-73c18c59a39b183.png" alt="广告位+" style="max-height: 200px; object-fit: cover;" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://hk.yunhaoka.cn/#/pages/micro_store/index?agent_id=422648" target="_blank">
+                                    <img src="https://noisevip.cn/./2024/04/1712938175-6446d860dbbfe54.png" alt="超大流量性价比手机卡渠道2" style="max-height: 200px; object-fit: cover;" loading="lazy">
+                                </a>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#ad-carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#ad-carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        <br>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div id="overlay"></div> <!-- 遮罩层 -->
-        <div id="search-results" style="display: none;">
-            <div class="results-header" style="display: none;">当前搜索结果如下：</div> <!-- 默认隐藏标题 -->
-       </div>
-    
- <!-- 提示分割 -->
- <style>
-    .recent-sites {
-        margin-top: 0px;
-        padding: 10px;
-        border-radius: 5px; /* 圆角 */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
-        text-align: center; /* 内容居中 */
-       
-        overflow: hidden; /* 隐藏滚动条 */
-        display: none; /* 默认隐藏 */
-    }
-
-    .recent-sites h2 {
-        color: white; /* 大标题为白色 */
-        font-size: 14px; /* 调整标题字体大小 */
-        padding: 10px; /* 添加一些内边距 */
-        display: none; /* 默认隐藏标题 */
-    }
-
-    #site-list {
-        list-style-type: none; /* 去掉默认的列表样式 */
-        padding: 0; /* 去掉内边距 */
-        margin: 0; /* 去掉外边距 */
-        max-height: 40px; /* 设置最大高度为两行 */
-        overflow-y: auto; /* 允许纵向滚动 */
-        overflow: hidden; /* 隐藏滚动条 */
-    }
-
-    #site-list li {
-        padding: 8px 12px; /* 内边距 */
-    }
-
-    #site-list li:last-child {
-        border-bottom: none; /* 最后一项去掉下边框 */
-    }
-
-    #site-list .title {
-        color: white; /* 标题颜色为白色 */
-    }
-
-    #site-list .url {
-        color: #e54911; /* 链接颜色为橙色 */
-        text-decoration: none; /* 去掉链接下划线 */
-    }
-
-    #site-list .url:hover {
-        text-decoration: underline; /* 悬停时下划线 */
-    }
-
-    #site-list .description {
-        color: white; /* 描述颜色为白色 */
-    }
-</style>
-<!-- 最近收录的站点 -->
-<div class="recent-sites" id="recent-sites">
-    <h2 id="recent-sites-title">最近收录的站点（欢迎投稿）</h2>
-    <ul id="site-list">
-        <!-- 动态添加网站数据 -->
-    </ul>
-</div>
-
         <div class="wp zzbuluoled" style="margin-top:0;">
-            <div style="
-                background: linear-gradient(rgba(46, 52, 72, 0.5), rgba(46, 52, 72, 0.1)); /* 渐变透明背景 */
-                text-align: center; 
-                height: 45px; 
-                border-radius: 10px; /* 圆弧效果 */
-                box-shadow: inset 0 0 10px rgba(10, 10, 10, 0.5); /* 内边发光模糊 */
-                display: flex; /* 使用 flexbox 使内容居中 */
-                align-items: center; /* 垂直居中 */
-                justify-content: center; /* 水平居中 */
-            ">    
+            <div style="background: linear-gradient(rgba(46, 52, 72, 0.5), rgba(46, 52, 72, 0.1)); text-align: center; height: 45px; border-radius: 10px; box-shadow: inset 0 0 10px rgba(10, 10, 10, 0.5); display: flex; align-items: center; justify-content: center;">
                 <div id="zzbuluoled_sx" style="width:auto; overflow:hidden; height: 45px; text-align:left; display: flex; align-items: center; line-height: 45px;">
                     <marquee direction="left" scrollamount="5">
                         <strong>
                             <a href="https://www.noisedh.link" target="_blank">
                                 <span style="font-family: 'Tahoma'; font-weight:600; color: #FF0000; font-size: 20px;">👏欢迎访问，本站域名:www.noisedh.cn 🧐 www.noisedh.link 👉</span>
                             </a>
-                            <a href="https://www.noisedh.link/invalidlinks" target="_blank"></a>
-                            <span style="font-family: 'Tahoma'; font-weight:600; color: #e56f39; font-size: 20px;">新增分类调整及增加站点收录👉</span>
-                            <a href="https://www.noisedh.link/invalidlinks" target="_blank"></a>
-                            <span style="font-family: 'Tahoma'; font-weight:600; color: #39a4e5; font-size: 20px;">查看链接检测记录，如有误删可联系😄</span>
-                            <a href="https://simhaoka.com/phone/index?id=A7BA17EFD6DC47F6826F0C67B898725A" target="_blank"></a>
+                            <a href="https://www.noisedh.link/invalidlinks" target="_blank">
+                                <span style="font-family: 'Tahoma'; font-weight:600; color: #e56f39; font-size: 20px;">新增分类调整及增加站点收录👉</span>
+                            </a>
+                            <a href="https://www.noisedh.link/invalidlinks" target="_blank">
+                                <span style="font-family: 'Tahoma'; font-weight:600; color: #39a4e5; font-size: 20px;">查看链接检测记录，如有误删可联系😄</span>
+                            </a>
                             <span style="font-family: 'Tahoma'; font-weight:600; color: #566cd7; font-size: 20px;">已更新站点收录信息，收录请投稿，广告Loading...</span>
-                            <a href="https://hk.yunhaoka.cn/#/pages/micro_store/index?agent_id=422648" target="_blank"></a>
-                            <span style="font-family: 'Tahoma'; font-weight:600; color: #e56e33; font-size: 20px;">📢：全国正规流量手机卡优惠渠道二</span>
-                            <a href="#" target="_blank"></a>
+                            <a href="https://hk.yunhaoka.cn/#/pages/micro_store/index?agent_id=422648" target="_blank">
+                                <span style="font-family: 'Tahoma'; font-weight:600; color: #e56e33; font-size: 20px;">📢：全国正规流量手机卡优惠渠道二</span>
+                            </a>
                             <span style="font-family: 'Tahoma'; font-weight:600; color: #b333e5ce; font-size: 20px;">📢：已优化站点，如您发现域名访问受限，请尝试访问其它域名，本站可永久持续访问</span>
-                            <a href="https://www.noisedh.link" target="_blank"></a>
-                            <span style="font-family: 'Tahoma'; font-weight:600; color: #FFFFFF; font-size: 20px;">公告已更新，欢迎随时回来👏</span>
+                            <a href="https://www.noisedh.link" target="_blank">
+                                <span style="font-family: 'Tahoma'; font-weight:600; color: #FFFFFF; font-size: 20px;">公告已更新，欢迎随时回来👏</span>
+                            </a>
                         </strong>
                     </marquee>
                 </div>
             </div>
         </div>
-        
+        <link rel="stylesheet" href="https://www.noisework.cn/css/APlayer.min.css">
+        <script src="https://www.noisework.cn/js/APlayer.min.js"></script>
+        <script src="https://www.noisework.cn/js/Meting.min.js"></script>
     </div>
 </div>

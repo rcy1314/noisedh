@@ -2234,7 +2234,7 @@
           description: 国外的一家综合类番剧库
         - title: 打驴动漫
           logo: dalv.png
-          url: https://www.dqsj.cc
+          url: https://www.dlidli.app
           description: 番剧免费看
         - title: 简单动漫
           logo: jiandan.ico
@@ -4631,6 +4631,10 @@
           logo: https://fnfmobile.com/favicon.ico
           url: https://fnfmobile.com/
           description: 在线免费的音乐节奏游戏，伴随着洗脑的音乐，玩家只要抓准时机，通过符号正确按上下左右键盘，就可以聆听主角的歌声，在手机端就可以体验有趣的音乐节奏决斗。
+        - title: 弓箭传说2 游戏站
+          logo: https://archero2.org/favicon.ico
+          url: https://archero2.org/
+          description: 一个提供弓箭传说2游戏攻略的网站！
     - term: Sprunki-Incredibox
       links:
         - title: Sprunki Remastered - 体验前所未有的音乐创作
@@ -5520,6 +5524,10 @@
           logo: https://www.immagon.cc/favicon.ico
           url: https://www.immagon.cc/
           description: 提供图片分割工具，支持多语言，支持九宫格、横向，竖向分割等。可用于朋友圈九宫格图片分割、ins图片分割
+        - title: Docgenie
+          logo: https://docgenie.co.uk/images/new_assets/docgenie-icon.svg
+          url: https://docgenie.co.uk/
+          description: 将Kindle Scribe笔记本分享至Google Drive、OneDrive 和 Dropbox的小工具
     - term: API平台
       links:
         - title: 搏天api
@@ -6133,6 +6141,10 @@
           logo: https://fastfluxai.org/favicon.ico
           url: https://fastfluxai.org/
           description: 使用 Fast Flux AI 将您的创意转化为令人惊叹的视觉效果，Fast Flux AI 是一款利用 Flux.1 技术功能的免费 AI 艺术生成器。
+        - title: FluxAIGenerator
+          logo: https://flux-ai-generator.com/favicon.ico
+          url: https://flux-ai-generator.com/
+          description: 使用flux模型文生图
     - term: AI·问答
       links:
         - title: ChatGPT
@@ -7444,6 +7456,14 @@
           logo: https://getindevice.com/wp-content/uploads/2024/06/cropped-GetinDevice.com-Site-Icon-32x32.png
           url: https://getindevice.com
           description: 这是社交媒体视频下载器，几乎支持所有平台，用户无需访问其他网站即可从任何社交媒体平台下载视频或照片
+        - title: Stream DL
+          logo: https://streamdl.net/image/favicon.svg
+          url: https://streamdl.net/
+          description: YouTube to MP4 to MP3 converter, downloader
+        - title: AMZ Downloader
+          logo: https://amzdownloader.com/favicon.ico
+          url: https://amzdownloader.com/
+          description: Amazon产品页面图片和视频下载小工具
     - term: 下载MAC
       links:
         - title: Mhero
@@ -7652,6 +7672,10 @@
           logo: https://s2.loli.net/2024/11/09/9o5682qA7HLkOtf.png
           url: https://chromewebstore.google.com/detail/shareto/lbngllckgpcfndeneofhlkccchlkknpb
           description: 社交媒体分享
+        - title: ExtensionFoxs Store
+          logo: https://extensionsfox.store/favicon.ico
+          url: https://extensionsfox.store/
+          description: 专为 Instagram 营销人员设计的一套功能强大的 Chrome 工具。简化追随者管理，自动化 DM 并轻松提取有价值的数据
     - term: 下载·综合
       links:
         - title: 黑域基地
