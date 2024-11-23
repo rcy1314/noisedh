@@ -4721,6 +4721,10 @@
           logo: https://sprunkionline.com/img/icon.png
           url: https://sprunkionline.com
           description: Sprunki游戏合集，免费畅玩！
+        - title: Sprunki Sinner Edition
+          logo: https://s2.loli.net/2024/11/23/VYMLAjienQOSzH3.png
+          url: https://sprunki-sinner-edition.org/
+          description: Sprunki 游戏的罪人版本，拥有独特的音效和专属罪人模式，解锁全新声音维度，在游戏中沉浸式体验创作迷人音乐曲目的乐趣
     - term: 博客人生·构建
       links:
         - title: Github
@@ -7071,6 +7075,10 @@
           logo: https://www.kreadoai.com/favicon.png
           url: https://www.kreadoai.com/
           description: AIGC数字营销创作平台
+        - title: AIGCPanel | 开源AI数字人系统
+          logo: https://ms-assets.modstart.com/data/image/2024/10/19/5418_giot_9547.png
+          url: https://aigcpanel.com/
+          description: AigcPanel是一个可以在本地轻松使用AI模型的面板工具，支持模型安装、模型启动、模型调用等一站式便捷体验，让工作更高效！
     - term: AI·知识库·产品
       links:
         - title: ChatDOC
