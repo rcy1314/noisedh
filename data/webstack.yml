@@ -4717,6 +4717,10 @@
           logo: https://sprunkiphaseincredibox.com/favicon.ico
           url: https://sprunkiphaseincredibox.com
           description: 在线免费音乐节奏游戏,主要以节奏和声音为中心,释放玩家的音乐想象力！
+        - title: Sprunki Online
+          logo: https://sprunkionline.com/img/icon.png
+          url: https://sprunkionline.com
+          description: Sprunki游戏合集，免费畅玩！
     - term: 博客人生·构建
       links:
         - title: Github
@@ -8810,6 +8814,10 @@
           logo: https://showhntoday.com/public/favicon.svg
           url: https://showhntoday.com/
           description: 每天自动整合HackNews上发布的产品，翻译成中英日三语，方便了解最新科技信息
+        - title: ExplainThis 全端開發雙週報 | Substack
+          logo: https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F477f2db3-f90a-4c49-aa98-29b30254a3fa%2Ffavicon-16x16.png
+          url: https://explainthis.substack.com/
+          description: 精選的前端、後端與軟體業職涯內容. Click to read ExplainThis 全端開發雙週報, a Substack publication with thousands of subscribers.
     - term: RSS生产力
       links:
         - title: RSSHUB文档
