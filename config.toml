@@ -25,8 +25,8 @@ publishDir = "docs"
 [params.seo]    
     baiduhmid     = '009396af5ea4d210f55b120d1f1465d8'		# 百度统计 hm.src 的 ID
     baiduSiteVer  = 'codeva-cCAOSG8MBO'				# 百度HTML标签验证(baidu-site-verification)
-    tj51laid        = ''                        		# 51.LA 网站统计
-    tj51lack        = ''
+    tj51laid        = '3KPnWbkdUF6PmFfg'                        		# 51.LA 网站统计
+    tj51lack        = '3KPnWbkdUF6PmFfg'
 
 [params.qweather]
     key = "085791e805a24491b43b06cf58ab31e7"
