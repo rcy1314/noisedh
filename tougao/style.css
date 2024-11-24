@@ -7,28 +7,33 @@
 .box-1 {
 	padding: 50px 20px 20px 20px;
 	padding-bottom: 0;
+	text-align: center; /* 使盒子内的文本居中 *
 }
 
 .box-1 h1 {
 	font-size: 40px;
 	color: #003543;
+	text-align: center; /* 使盒子内的文本居中 */
 }
 
 .box-1 h1 svg {
 	position: relative;
 	top: 18px;
+	text-align: center; /* 使盒子内的文本居中 */
 }
 
 .box-1 p {
 	padding: 25px 20px;
 	color: #6e6e6e;
 	line-height: 28px;
+	text-align: center; /* 使盒子内的文本居中 */
 }
 
 
 .box-1 p a {
 	color: #6e6e6e;
 	font-weight: 800;
+	text-align: center; /* 使盒子内的文本居中 */
 }
 
 body {

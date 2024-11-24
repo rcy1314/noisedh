@@ -4,21 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Noise导航投稿区" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noise导航投稿区</title>
     <link rel="icon" href="../assets/images/favicon.png">
     <link rel="apple-touch-icon" href="../assets/images/favicon.png">
     <link rel="stylesheet" href="./style.css">
     <style>
+        body, html {
+       
+            padding: 0;
+            height: 100%;
+            
+        }
 
-        .box {
+        .background {
+            position: fixed; /* 使用fixed确保背景图固定 */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            filter: blur(0px); /* 背景模糊效果 */
+            z-index: 0; /* 确保背景在最底层 */
+        }
+
+        .container {
+            position: relative; /* 确保内容在背景之上 */
+            z-index: 1; /* 确保内容在背景之上 */
             max-width: 800px; /* 设置最大宽度 */
-            width: 100%; /* 使其适应宽度 */
+            width: auto; /* 使其适应宽度 */
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9); /* 透明白色背景 */
+            background-color: rgba(255, 255, 255, 0.939); /* 透明白色背景 */
             border-radius: 10px; /* 圆角 */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
-            margin: 20px auto; /* 上下外边距，水平居中 */
+            margin: 50px auto; /* 上下外边距，居中显示 */
         }
 
         .recent-sites {
@@ -55,28 +75,39 @@
         #site-list a:hover {
             text-decoration: underline; /* 悬停时下划线 */
         }
-    </style>
-</head>
+        .gradient-link {
+  background: linear-gradient(to right,  #745fff, #7194ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
 
-<body>
-    <div class="box">
-        <div class="box-1">
+.gradient-link:hover {
+  background-position: right center; /* 当鼠标悬停时，背景渐变从右向左 */
+}
+
+    </style>
+    </head>
+    
+    <body>
+        <div class="background" id="background"></div> <!-- 背景图层 -->
+        <div class="container">
+            <div class="box-1">
             <h1>
-                <svg t="1129159201" class="icon" viewBox="0 0 1024 1024" version="1.1"
-                    xmlns="http://www.w3.org/2000/svg" p-id="2421" width="60" height="60">
-                    <path
-                        d="M258.944 561.792a50.624 50.624 0 1 0 0.128-101.248 50.624 50.624 0 0 0-0.128 101.248z m0 0M427.776 561.792a50.688 50.688 0 1 0-50.624-50.624 50.56 50.56 0 0 0 50.624 50.624z m0 0M596.544 561.792a50.56 50.56 0 1 0 0-101.248 50.56 50.56 0 0 0 0 101.248z m0 0"
-                        p-id="2422" fill="#00dc82"></path>
-                    <path
-                        d="M782.208 241.152H73.344s-33.728 0-33.728 33.728v472.576c0 33.792 33.728 33.792 33.728 33.792h101.312v168.768l168.768-168.768h438.784s33.728 0 33.728-33.792V274.88c0-33.728-33.728-33.728-33.728-33.728z m-33.792 472.512H315.392l-19.776 19.84-53.504 53.504v-73.344h-135.04V308.608h641.344v405.056z m0 0"
-                        p-id="2423" fill="#00dc82"></path>
-                    <path
-                        d="M950.976 72.32H242.112s-33.728 0-33.728 33.728V207.36H275.84V139.904h641.344v405.056h-67.52V612.48h101.312s33.728 0 33.728-33.728V106.112c0.064-33.792-33.728-33.792-33.728-33.792z m0 0"
-                        p-id="2424" fill="#00dc82"></path>
+                <svg width='53' height='66' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+                    <path fill='#080808'
+                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm227 385.3c-1 4.2-3.5 10.4-7 17.8h.1l-.4.7c-20.3 43.1-73.1 127.7-73.1 127.7s-.1-.2-.3-.5l-15.5 26.8h74.5L575.1 810l32.3-128h-58.6l20.4-84.7c-16.5 3.9-35.9 9.4-59 16.8 0 0-31.2 18.2-89.9-35 0 0-39.6-34.7-16.6-43.4 9.8-3.7 47.4-8.4 77-12.3 40-5.4 64.6-8.2 64.6-8.2S422 517 392.7 512.5c-29.3-4.6-66.4-53.1-74.3-95.8 0 0-12.2-23.4 26.3-12.3 38.5 11.1 197.9 43.2 197.9 43.2s-207.4-63.3-221.2-78.7c-13.8-15.4-40.6-84.2-37.1-126.5 0 0 1.5-10.5 12.4-7.7 0 0 153.3 69.7 258.1 107.9 104.8 37.9 195.9 57.3 184.2 106.7z">
+                    </path>
                 </svg>
+        
                 Noise导航投稿区
             </h1>
-            <p>这里是静态化的评论区，你可以投稿收录网址，也可以提出建议反馈，【申请时请按格式提交】收录原则：定期维护网站，不接受存在时间过短及三分钟热度的网站收录，本页面无邮件通知，如需及时通知反馈可在主页（非导航页）留言联系<a target="_blank" rel="noopener" href="https://www.noisework.cn">前往主页</a></font> </p>
+            <p>这里是静态化的评论区，你可以投稿收录网址，也可以提出建议反馈，【申请时请按格式提交】收录原则：定期维护网站，不接受存在时间过短及三分钟热度的网站收录，本页面无邮件通知，如需及时通知反馈可在我的主页留言联系👉<a href="https://www.noisework.cn" target="_blank" rel="noopener noreferrer">
+                <span class="gradient-link">前往主页</span>
+              </a>
+              </p>
         </div>
         
         <!-- 最近收录的站点 -->
@@ -128,6 +159,24 @@
 
         // 页面加载时获取最近收录的网站数据
         window.onload = fetchRecentSites;
+
+        // 背景图数组
+        const backgroundImages = [
+            './img/bg1.webp',
+            './img/bg2.webp',
+            './img/bg3.webp',
+            './img/bg4.webp',
+            './img/bg6.webp',
+        ];
+
+        // 随机更换背景图
+        function changeBackground() {
+            const randomIndex = Math.floor(Math.random() * backgroundImages.length);
+            document.getElementById('background').style.backgroundImage = `url('${backgroundImages[randomIndex]}')`;
+        }
+
+        // 初始化背景图
+        changeBackground();
     </script>
 </body>
 
