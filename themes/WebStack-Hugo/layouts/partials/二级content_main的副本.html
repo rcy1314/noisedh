@@ -1,0 +1,158 @@
+<div id="content" class="content-site customize-site">
+    {{ range .Site.Data.webstack }}
+        {{ if .list }}
+            <div class="taxonomy-section">
+                <div class="d-flex flex-fill">
+                    <h4 class="text-gray text-lg mb-4">
+                        <i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 .taxonomy }}"></i>
+                        {{ .taxonomy }}
+                    </h4>
+                </div>
+                <div class="row">
+                    <div class="d-flex flex-wrap term-container" style="background-color: rgba(0, 0, 0, 0.1); padding: 10px; border-radius: 5px;">
+                        {{ range .list }}
+                        <div class="term-section col-auto mr-2 mb-2" data-term="{{ .term }}">
+                            <h5 class="text-gray text-md mb-0 term-toggle" style="cursor: pointer; padding: 5px 10px; border-radius: 5px; transition: background-color 0.3s;">
+                                {{ .term }}
+                            </h5>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="content-section">
+                    {{ range .list }}
+                    <div class="term-content" data-term="{{ .term }}" style="display: none;">
+                        <div class="row">
+                            {{ range .links }}
+                            <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                                <div class="url-body default">
+                                    {{ if .qrcode }}
+                                        <a href="javascript:" class="card no-c mb-4" data-toggle="tooltip"
+                                           data-placement="bottom" data-html="true"
+                                           title="<img src='{{ $.Site.Params.logosPath }}/{{ .qrcode }}' width='128'>">
+                                    {{ else }}
+                                        <a href="{{ .url }}" target="_blank" class="card no-c mb-4" data-toggle="tooltip" 
+                                           data-placement="bottom" data-original-title="{{ .description }}">
+                                    {{ end }}
+                                    <div class="card-body">
+                                        <div class="url-content d-flex align-items-center">
+                                            <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                                <img class="lazy" 
+                                                     src="{{ $.Site.Params.defaultLogo }}" 
+                                                     data-src="{{ if findRE "http.*?(.|\n)*?" .logo }}{{ .logo }}{{ else }}{{ $.Site.Params.logosPath }}/{{ .logo }}{{ end }}"
+                                                     onerror="this.src='{{ $.Site.Params.defaultLogo }}'" 
+                                                     alt="{{ .title }}">
+                                            </div>
+                                            <div class="url-info flex-fill">
+                                                <div class="text-sm overflowClip_1">
+                                                    <strong>{{ .title }}</strong>
+                                                </div>
+                                                <p class="overflowClip_1 m-0 text-muted text-xs">{{ .description }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </a>
+                                    <a href="{{ .url }}" class="togo text-center text-muted is-views" data-id="689"
+                                       data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
+                                        <i class="iconfont icon-goto"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div><!--end row-->
+                    </div>
+                    {{ end }}
+                </div><!--end content-section-->
+            </div>
+            <br />
+        {{ end }}
+    {{ end }}
+
+    <h4 class="text-gray text-lg mb-4">
+        <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
+    </h4>
+    <div class="friendlink text-xs card">
+        <div class="card-body">
+            {{ range .Site.Data.friendlinks }}
+            <a href="{{ .url }}" title="{{ .description }}" target="_blank">{{ .title }}</a>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+<style>
+    .term-toggle {
+        background-color: transparent;
+        color: #333;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    .term-toggle:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .term-toggle.selected {
+        background-color: blue; /* 主题颜色 */
+        color: white;
+    }
+
+    @media (max-width: 576px) {
+        .url-card {
+            flex: 1 0 100%; /* 100% width on small screens */
+            margin-bottom: 10px; /* Add spacing between cards */
+        }
+        .term-container {
+            flex-direction: column; /* Stack terms vertically on small screens */
+        }
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const termSections = document.querySelectorAll('.term-content');
+        const termToggles = document.querySelectorAll('.term-toggle');
+
+        // 默认显示每个 taxonomy 下的第一个 term 的内容
+        termSections.forEach((section, index) => {
+            if (index === 0) {
+                section.style.display = 'block'; // 显示第一个 taxonomy 的第一个 term 的内容
+            } else {
+                section.style.display = 'none'; // 隐藏其他内容
+            }
+        });
+
+        termToggles.forEach(toggle => {
+            toggle.addEventListener('click', function() {
+                const termToShow = this.textContent.trim();
+                const currentSection = this.closest('.taxonomy-section'); // 获取当前 taxonomy 部分
+
+                // 隐藏当前 taxonomy 下的所有 term 内容
+                const currentTermSections = currentSection.querySelectorAll('.term-content');
+                currentTermSections.forEach(section => {
+                    section.style.display = 'none';
+                });
+
+                // 移除所有 term 的选中状态
+                termToggles.forEach(t => t.classList.remove('selected'));
+
+                // 显示被点击的 term 的内容
+                const sectionToShow = currentSection.querySelector(`.term-content[data-term="${termToShow}"]`);
+                if (sectionToShow) {
+                    sectionToShow.style.display = 'block';
+                }
+
+                // 为当前点击的 term 添加选中状态
+                this.classList.add('selected');
+            });
+        });
+
+        // 在页面加载时，显示所有 taxonomy 下的第一个 term 的内容
+        const firstTaxonomySections = document.querySelectorAll('.taxonomy-section');
+        firstTaxonomySections.forEach(taxonomy => {
+            const firstTermContent = taxonomy.querySelector('.term-content');
+            if (firstTermContent) {
+                firstTermContent.style.display = 'block'; // 显示第一个 term 的内容
+            }
+        });
+    });
+</script>

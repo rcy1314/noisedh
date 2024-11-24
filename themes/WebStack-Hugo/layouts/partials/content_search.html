@@ -8,7 +8,91 @@
             </div>
         </div>
         <style>
-            
+            .recent-sites {
+                margin-top: 0px;
+                padding: 10px;
+                border-radius: 5px;
+                /* 圆角 */
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                /* 阴影效果 */
+                text-align: center;
+                /* 内容居中 */
+                border: 2px solid rgba(128, 128, 128, 0.5);
+                /* 透明灰色边框 */
+                overflow: hidden;
+                /* 隐藏滚动条 */
+                display: none;
+                /* 默认隐藏 */
+                background-color: #1d233738;
+            }
+        
+            @media (max-width: 768px) {
+        
+                .recent-sites,
+                .recent-sites h2,
+                #site-list {
+                    display: none !important;
+                    /* 在手机尺寸下隐藏所有相关元素 */
+                }
+            }
+        
+            .recent-sites h2 {
+                color: white;
+                /* 大标题为白色 */
+                font-size: 14px;
+                /* 调整标题字体大小 */
+                padding: 10px;
+                /* 添加一些内边距 */
+                display: none;
+                /* 默认隐藏标题 */
+            }
+        
+            #site-list {
+                list-style-type: none;
+                /* 去掉默认的列表样式 */
+                padding: 0;
+                /* 去掉内边距 */
+                margin: 0;
+                /* 去掉外边距 */
+                max-height: 40px;
+                /* 设置最大高度为两行 */
+                overflow-y: auto;
+                /* 允许纵向滚动 */
+                overflow: hidden;
+                /* 隐藏滚动条 */
+            }
+        
+            #site-list li {
+                padding: 8px 12px;
+                /* 内边距 */
+            }
+        
+            #site-list li:last-child {
+                border-bottom: none;
+                /* 最后一项去掉下边框 */
+            }
+        
+            #site-list .title {
+                color: white;
+                /* 标题颜色为白色 */
+            }
+        
+            #site-list .url {
+                color: #e54911;
+                /* 链接颜色为橙色 */
+                text-decoration: none;
+                /* 去掉链接下划线 */
+            }
+        
+            #site-list .url:hover {
+                text-decoration: underline;
+                /* 悬停时下划线 */
+            }
+        
+            #site-list .description {
+                color: white;
+                /* 描述颜色为白色 */
+            }
             body::-webkit-scrollbar { display: none; }
             body { -ms-overflow-style: none; scrollbar-width: none; }
             .avatar-container { display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
@@ -41,37 +125,43 @@
             @media (max-width: 768px) { .flex-container { flex-direction: column; } .flex-item { flex: 1; } }
             .bilibiliindex { display: flex; justify-content: center; align-items: center; height: 25vh; width: auto; margin: auto; background-color: #323232; border: 2px solid #212020; border-radius: 10px; }
             @media (max-width: 768px) { .bilibiliindex { display: none; } }
-            #lbl { font-family: brushscriptmt; font-size: 25px; background: linear-gradient(90deg, #FF0000, #8939e5, #9e443a, #3383e5, #b333e5ce); -webkit-background-clip: text; background-clip: text; color: transparent; padding: 5px; border: 1px solid #212936ca; text-align: center; line-height: 1.5; height: 85%; }
+            #lbl { font-family: brushscriptmt; font-size: 21px; background: linear-gradient(90deg, #FF0000, #8939e5, #9e443a, #3383e5, #b333e5ce); -webkit-background-clip: text; background-clip: text; color: transparent; padding: 5px; border: 1px solid #212936ca; text-align: center; line-height: 1.5; height: auto; }
             #date { font-size: 18px; background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce); -webkit-background-clip: text; background-clip: text; color: transparent; }
         </style>
-
-        <div id="lbl"></div>
-
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                var weekday = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
-                var today = new Date();
-                var hrs = today.getHours();
-                var dayOfWeek = weekday[today.getDay()];
-                var date = today.getFullYear() + '年' + (today.getMonth() + 1).toString().padStart(2, '0') + '月' + today.getDate().toString().padStart(2, '0') + '日';
-
-                var greet = hrs < 5 ? "凌晨好" :
-                            hrs < 9 ? "早上好" :
-                            hrs < 11 ? "上午好" :
-                            hrs < 13 ? "中午好" :
-                            hrs < 17 ? "下午好" :
-                            hrs < 19 ? "傍晚好" :
-                            hrs < 22 ? "晚上好" : "夜深了";
-
-                document.getElementById('lbl').innerHTML = greet + `<div id="date"> 今天是：${date}</div>`;
-            });
-        </script>
-
+        <!-- 最近收录的站点 -->
+           <div class="recent-sites" id="recent-sites">
+            <h2 id="recent-sites-title" style="background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce); text-align: center; height: 45px; border-radius: 10px; box-shadow: inset 0 0 10px rgba(10, 10, 10, 0.086); display: flex; align-items: center; justify-content: center; font-size: 22px; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                最近收录的站点（欢迎投稿）
+            </h2>        
+            <ul id="site-list">
+                <!-- 动态添加网站数据 -->
+            </ul>
+        </div>
+        <!-- 左侧 -->
         <div class="flex-container">
             <div class="flex-item">
-                <h3 class="main-title">
-                    <span class="title-spacing">欢迎访问NOISE导航</span>
-                </h3>
+                <div id="lbl"></div>
+
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        var weekday = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+                        var today = new Date();
+                        var hrs = today.getHours();
+                        var dayOfWeek = weekday[today.getDay()];
+                        var date = today.getFullYear() + '年' + (today.getMonth() + 1).toString().padStart(2, '0') + '月' + today.getDate().toString().padStart(2, '0') + '日';
+        
+                        var greet = hrs < 5 ? "凌晨好,欢迎访问 NOISE导航"  :
+                                    hrs < 9 ? "早上好,欢迎访问 NOISE导航"  :
+                                    hrs < 11 ? "上午好,欢迎访问 NOISE导航"  :
+                                    hrs < 13 ? "中午好,欢迎访问 NOISE导航" :
+                                    hrs < 17 ? "下午好,欢迎访问 NOISE导航" : 
+                                    hrs < 19 ? "傍晚好,欢迎访问 NOISE导航"  :
+                                    hrs < 22 ? "晚上好,欢迎访问 NOISE导航"  : "夜深了";
+        
+                        document.getElementById('lbl').innerHTML = greet + `<div id="date"> 今天是：${date}</div>`;
+                    });
+                </script>
+        
                 <div style="text-align: center; margin-top: 20px;">
                     <input type="text" id="search-input" placeholder="站内搜索..." />
                     <button id="search-button">🔍</button>
@@ -85,9 +175,10 @@
                         style="width: 95%; height: 100%; border: none;" loading="lazy"></iframe>
                 </div>
             </div>
+            <!-- 右侧 -->
             <div class="flex-item right" style="color: white;">
                 <div style="width:auto;">
-                    <meting-js list-max-height="58px" server="netease" type="playlist" data-fixed="true"
+                    <meting-js list-max-height="62px" server="netease" type="playlist" data-fixed="true"
                         data-autoplay="false" id="2141128031"></meting-js>
                 </div>
                 <br>
@@ -96,17 +187,17 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <a href="https://simhaoka.com/phone/index?id=A7BA17EFD6DC47F6826F0C67B898725A" target="_blank">
-                                    <img src="https://noisevip.cn/./2024/04/1712849718-6446d860dbbfe54.png" alt="超大流量性价比手机卡渠道1" style="max-height: 200px; object-fit: cover;" loading="lazy">
+                                    <img src="https://noisevip.cn/./2024/04/1712849718-6446d860dbbfe54.png" alt="超大流量性价比手机卡渠道1" style="max-height: 220px; object-fit: cover;" loading="lazy">
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="#" target="_blank">
-                                    <img src="https://noisevip.cn/./2023/07/1689164400-73c18c59a39b183.png" alt="广告位+" style="max-height: 200px; object-fit: cover;" loading="lazy">
+                                    <img src="https://noisevip.cn/./2023/07/1689164400-73c18c59a39b183.png" alt="广告位+" style="max-height: 220px; object-fit: cover;" loading="lazy">
                                 </a>
                             </div>
                             <div class="carousel-item">
                                 <a href="https://hk.yunhaoka.cn/#/pages/micro_store/index?agent_id=422648" target="_blank">
-                                    <img src="https://noisevip.cn/./2024/04/1712938175-6446d860dbbfe54.png" alt="超大流量性价比手机卡渠道2" style="max-height: 200px; object-fit: cover;" loading="lazy">
+                                    <img src="https://noisevip.cn/./2024/04/1712938175-6446d860dbbfe54.png" alt="超大流量性价比手机卡渠道2" style="max-height: 220px; object-fit: cover;" loading="lazy">
                                 </a>
                             </div>
                         </div>
@@ -123,6 +214,7 @@
                 </div>
             </div>
         </div>
+       <!-- 公告 -->
         <div class="wp zzbuluoled" style="margin-top:0;">
             <div style="background: linear-gradient(rgba(46, 52, 72, 0.5), rgba(46, 52, 72, 0.1)); text-align: center; height: 45px; border-radius: 10px; box-shadow: inset 0 0 10px rgba(10, 10, 10, 0.5); display: flex; align-items: center; justify-content: center;">
                 <div id="zzbuluoled_sx" style="width:auto; overflow:hidden; height: 45px; text-align:left; display: flex; align-items: center; line-height: 45px;">
