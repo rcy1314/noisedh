@@ -3,32 +3,58 @@
                 <a href="javascript:" id="go-to-up" class="btn rounded-circle go-up m-1" rel="go-top">
                     <i class="iconfont icon-to-up"></i>
                 </a>
-<!-- 右下角  -->
-                
-                <a href="https://www.noisework.cn/lianxi/weixin.png" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="联系我">
-                    <i class="far fa-comment-dots"></i>
-                </a>
-                <a href="tougao\" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="投稿">
+                <a href="tougao" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="投稿">
                     <i class="fa fa-paper-plane"></i>
                 </a>
-                <a href="https://extension.noisework.cn/api/export-bookmarks" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="导出为书签文件">
-                    <i class="fa fa-download"></i>
-                </a>
-                <a href="./invalidlinks/" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="失效检测记录">
-                    <i class="fa fa-question-circle"></i>
-                </a>
-                <!-- 右下角end -->
-                {{ if $.Site.Params.nightMode }} 
-                <a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
-                    data-toggle="tooltip" data-placement="left" title="夜间模式">
-                    <i class="mode-ico iconfont icon-light"></i>
-                </a>
-		{{ else }}
-		<a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
-                    data-toggle="tooltip" data-placement="left" title="日间模式">
-                    <i class="mode-ico iconfont icon-night"></i>
-                </a>
-                {{ end }}
+<!-- 右下角  -->
+                
+<div id="toggleSection" style="display: none;">
+    <!-- 这里是折叠内容，可以根据需要添加 -->
+    <a href="https://www.noisework.cn/lianxi/weixin.png" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="联系我">
+        <i class="far fa-comment-dots"></i>
+    </a>
+    
+    <a href="./invalidlinks/" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="失效检测记录">
+        <i class="fa fa-question-circle"></i>
+    </a>
+    <a href="https://extension.noisework.cn/api/export-bookmarks" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="导出为书签文件">
+        <i class="fa fa-download"></i>
+    </a>
+</div>
+
+<a href="javascript:void(0);" id="toggleButton" class="btn rounded-circle m-1" data-toggle="tooltip" data-placement="left" title="展开/折叠">
+    <i class="fa fa-plus-circle"></i>
+</a>
+
+<script>
+    document.getElementById('toggleButton').addEventListener('click', function() {
+        const section = document.getElementById('toggleSection');
+        const icon = this.querySelector('i');
+
+        if (section.style.display === 'none') {
+            section.style.display = 'block';
+            icon.classList.remove('fa-plus-circle');
+            icon.classList.add('fa-minus-circle');
+        } else {
+            section.style.display = 'none';
+            icon.classList.remove('fa-minus-circle');
+            icon.classList.add('fa-plus-circle');
+        }
+    });
+</script>
+
+{{ if $.Site.Params.nightMode }} 
+<a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
+    data-toggle="tooltip" data-placement="left" title="夜间模式">
+    <i class="mode-ico iconfont icon-light"></i>
+</a>
+{{ else }}
+<a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
+    data-toggle="tooltip" data-placement="left" title="日间模式">
+    <i class="mode-ico iconfont icon-night"></i>
+</a>
+{{ end }}
+
             </div>
             <style>
                 .gradient-text {
