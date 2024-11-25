@@ -9,103 +9,126 @@
         </div>
         <style>
             .recent-sites {
-                margin-top: 0px;
-                padding: 10px;
-                border-radius: 5px;
-                /* 圆角 */
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                /* 阴影效果 */
-                text-align: center;
-                /* 内容居中 */
-                border: 2px solid rgba(128, 128, 128, 0.5);
-                /* 透明灰色边框 */
-                overflow: hidden;
-                /* 隐藏滚动条 */
-                display: none;
-                /* 默认隐藏 */
-                background-color: #1d233738;
-            }
-        
-            @media (max-width: 768px) {
-        
-                .recent-sites,
-                .recent-sites h2,
-                #site-list {
-                    display: none !important;
-                    /* 在手机尺寸下隐藏所有相关元素 */
-                }
-            }
-        
-            .recent-sites h2 {
-                color: white;
-                /* 大标题为白色 */
-                font-size: 14px;
-                /* 调整标题字体大小 */
-                padding: 10px;
-                /* 添加一些内边距 */
-                display: none;
-                /* 默认隐藏标题 */
-            }
-        
-            #site-list {
-                list-style-type: none;
-                /* 去掉默认的列表样式 */
-                padding: 0;
-                /* 去掉内边距 */
-                margin: 0;
-                /* 去掉外边距 */
-                max-height: 40px;
-                /* 设置最大高度为两行 */
-                overflow-y: auto;
-                /* 允许纵向滚动 */
-                overflow: hidden;
-                /* 隐藏滚动条 */
-            }
-        
-            #site-list li {
-                padding: 8px 12px;
-                /* 内边距 */
-            }
-        
-            #site-list li:last-child {
-                border-bottom: none;
-                /* 最后一项去掉下边框 */
-            }
-        
-            #site-list .title {
-                color: white;
-                /* 标题颜色为白色 */
-            }
-        
-            #site-list .url {
-                color: #e54911;
-                /* 链接颜色为橙色 */
-                text-decoration: none;
-                /* 去掉链接下划线 */
-            }
-        
-            #site-list .url:hover {
-                text-decoration: underline;
-                /* 悬停时下划线 */
-            }
-        
-            #site-list .description {
-                color: white;
-                /* 描述颜色为白色 */
-            }
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid rgba(128, 128, 128, 0.5);
+    overflow: hidden;
+    background-color: #1d233738;
+    opacity: 0; /* 先设置为透明 */
+    transition: opacity 0.3s ease; /* 添加过渡效果 */
+}
+
+.recent-sites.visible {
+    display: block; /* 显示时使用块级显示 */
+    opacity: 1; /* 变为不透明 */
+}
+
+@media (max-width: 800px) {
+    .recent-sites,
+    .recent-sites h2,
+    #site-list {
+        display: none !important;
+    }
+}
+
+.recent-sites h2 {
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0; /* 去掉默认外边距 */
+}
+
+#site-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 40px;
+    overflow: hidden; /* 只保留必要的 overflow 属性 */
+}
+
+#site-list li {
+    padding: 8px 12px;
+}
+
+#site-list li:last-child {
+    border-bottom: none;
+}
+
+#site-list .title {
+    color: white;
+}
+
+#site-list .url {
+    color: #e54911;
+    text-decoration: none;
+}
+
+#site-list .url:hover {
+    text-decoration: underline;
+}
+
+#site-list .description {
+    color: white;
+}
+
             body::-webkit-scrollbar { display: none; }
             body { -ms-overflow-style: none; scrollbar-width: none; }
             .avatar-container { display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
             .avatar { width: 50px; height: 50px; border-radius: 50%; margin-right: 10px; }
             .welcome-text { color: white; font-size: 18px; text-align: center; }
             .main-title { font-size: 36px; text-align: center; margin-bottom: 10px; background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce); -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: gradient-animation 3s ease infinite; }
-            @media (max-width: 768px) { .main-title { font-size: 34px; } }
+            @media (max-width: 800px) { .main-title { font-size: 34px; } }
             @keyframes gradient-animation { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
             .title-spacing { margin: 0; display: inline-block; }
-            #search-input { padding: 8px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px 0 0 5px; width: 400px; margin-bottom: 20px; }
-            @media (max-width: 840px) { #search-input { width: 300px; } }
-            #search-button { padding: 8px; font-size: 16px; border: 1px solid #ccc; border-radius: 0 5px 5px 0; background-color: #f0f0f0; cursor: pointer; }
-            #search-results { background-color: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 5px; width: 80%; max-width: 800px; max-height: 80vh; overflow-y: auto; display: none; position: fixed; left: 50%; transform: translateX(-50%); color: white; z-index: 1000; top: 20%; text-align: center; display: flex; flex-wrap: wrap; justify-content: center; }
+            #search-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 70%; /* 使用百分比来适应不同宽度 */
+    max-width: 400px; /* 设置最大宽度 */
+    margin-bottom: 20px;
+}
+
+@media (max-width: 840px) {
+    #search-input {
+        width: 80%; /* 在小屏幕上增加占比 */
+        max-width: 300px; /* 设置最大宽度 */
+    }
+}
+
+#search-button {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+#search-results {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%; /* 使用百分比来适应不同宽度 */
+    max-width: 800px; /* 设置最大宽度 */
+    max-height: 80vh;
+    overflow-y: auto;
+    display: none;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    z-index: 1000;
+    top: 20%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
             .results-header { width: 100%; font-size: 20px; margin-bottom: 15px; text-align: center; }
             .result-item { margin: 5px; padding: 15px; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 5px; background-color: rgba(32, 30, 30, 0.699); width: 180px; text-align: center; }
             .result-item a { color: orange; text-decoration: none; }
@@ -119,24 +142,59 @@
             .carousel-control-prev, .carousel-control-next { position: absolute; top: 50%; transform: translateY(-50%); z-index: 10; background-color: rgba(255, 255, 255, 0.5); border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; visibility: visible; opacity: 1; }
             .carousel-control-prev { left: 5px; }
             .carousel-control-next { right: 5px; }
-            .flex-container { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: stretch; padding: 2px; margin: 0; background-color: rgba(10, 10, 11, 0.234); border: 2px solid #44444400; }
-            .flex-item { flex: 0 0 30%; padding: 0 5px; box-sizing: border-box; border: 1px solid #444; }
-            .flex-item.right { flex: 0 0 70%; padding: 0 5px; box-sizing: border-box; border: 1px solid #444; }
-            @media (max-width: 768px) { .flex-container { flex-direction: column; } .flex-item { flex: 1; } }
+            .flex-container {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                align-items: stretch;
+                padding: 2px;
+                margin: 0;
+                background-color: rgba(10, 10, 11, 0.234);
+                border: 2px solid #44444400;
+            }
+
+            .flex-item {
+                flex: 1; /* 自适应宽度 */
+                padding: 0 5px;
+                box-sizing: border-box;
+                border: 1px solid #444;
+                display: flex;
+                flex-direction: column; /* 垂直排列 */
+            }
+
+            .flex-item.right {
+                flex: 2; /* 右侧区域占比加大 */
+            }
+
+            @media (max-width: 800px) { .flex-container { flex-direction: column; } .flex-item { flex: 1; } }
             .bilibiliindex { display: flex; justify-content: center; align-items: center; height: 25vh; width: auto; margin: auto; background-color: #323232; border: 2px solid #212020; border-radius: 10px; }
-            @media (max-width: 768px) { .bilibiliindex { display: none; } }
+            @media (max-width: 800px) { .bilibiliindex { display: none; } }
             #lbl { font-family: brushscriptmt; font-size: 21px; background: linear-gradient(90deg, #FF0000, #8939e5, #9e443a, #3383e5, #b333e5ce); -webkit-background-clip: text; background-clip: text; color: transparent; padding: 5px; border: 1px solid #212936ca; text-align: center; line-height: 1.5; height: auto; }
             #date { font-size: 18px; background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce); -webkit-background-clip: text; background-clip: text; color: transparent; }
         </style>
         <!-- 最近收录的站点 -->
-           <div class="recent-sites" id="recent-sites">
-            <h2 id="recent-sites-title" style="background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce); text-align: center; height: 45px; border-radius: 10px; box-shadow: inset 0 0 10px rgba(10, 10, 10, 0.086); display: flex; align-items: center; justify-content: center; font-size: 22px; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-                最近收录的站点（欢迎投稿）
-            </h2>        
-            <ul id="site-list">
-                <!-- 动态添加网站数据 -->
-            </ul>
-        </div>
+<div class="recent-sites" id="recent-sites">
+    <h2 id="recent-sites-title" style="background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce); text-align: center; height: 45px; border-radius: 10px; box-shadow: inset 0 0 10px rgba(10, 10, 10, 0.086); display: flex; align-items: center; justify-content: center; font-size: 22px; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+        最近收录的站点（欢迎投稿）
+    </h2>        
+    <ul id="site-list">
+        <!-- 动态添加网站数据 -->
+    </ul>
+</div>
+
+<script>
+    // 模拟动态加载内容
+    document.addEventListener("DOMContentLoaded", function() {
+        const recentSites = document.getElementById("recent-sites");
+        // 假设这里是动态获取数据的地方
+        setTimeout(() => {
+            // 添加内容
+            // 例如：recentSites.querySelector("#site-list").innerHTML = "<li>示例网站</li>";
+            recentSites.classList.add("visible"); // 添加可见类
+        }, 100); // 模拟异步加载
+    });
+</script>
+
         <!-- 左侧 -->
         <div class="flex-container">
             <div class="flex-item">
