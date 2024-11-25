@@ -48,6 +48,12 @@
     #noisenotification-container a:hover {
         text-decoration: underline; /* 悬停时下划线 */
     }
+    /* 媒体查询：手机尺寸下的样式 */
+    @media (max-width: 768px) {
+        #noisenotification-icon {
+            display: none; /* 隐藏图标 */
+        }
+    }
 </style>
 
 <i id="noisenotification-icon" class="fa fa-bell-o"></i>
