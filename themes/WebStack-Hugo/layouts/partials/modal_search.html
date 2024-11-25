@@ -1,0 +1,100 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* 图标样式 */
+    #noisenotification-icon {
+        position: fixed;
+        top: 22px;
+        right: 20px;
+        font-size: 22px;
+        cursor: pointer;
+        color: white;
+        transition: color 0.3s;
+    }
+
+    #noisenotification-icon.active {
+        color: orange;
+    }
+
+    /* 弹窗样式 */
+    #noisenotification-container {
+        position: fixed;
+        background-color: rgba(37, 35, 35, 0.745);
+        color: white; /* 默认文本颜色为白色 */
+        padding: 10px;
+        border-radius: 8px;
+        display: none;
+        z-index: 1000;
+        transition: opacity 0.5s;
+        opacity: 0;
+        max-height: 300px;
+        overflow-y: auto;
+        width: 250px;
+        right: 20px;
+        top: 70px;
+    }
+
+    /* 链接样式 */
+    #noisenotification-container a {
+        color: orange; /* 链接颜色为橙色 */
+        text-decoration: none;
+    }
+
+    #noisenotification-container a:hover {
+        text-decoration: underline; /* 悬停时下划线 */
+    }
+</style>
+
+<i id="noisenotification-icon" class="fa fa-bell-o"></i>
+<div id="noisenotification-container"></div>
+
+<script>
+    const shownNotifications = JSON.parse(localStorage.getItem('shownNotifications')) || [];
+
+    async function fetchNotifications() {
+        try {
+            const response = await fetch('https://extension.noisework.cn/api/notifications');
+            const notifications = await response.json();
+            
+            for (const notification of notifications) {
+                if (!shownNotifications.some(shown => shown.id === notification.id)) {
+                    shownNotifications.push(notification);
+                    localStorage.setItem('shownNotifications', JSON.stringify(shownNotifications));
+                    displayNotification(notification);
+                    document.getElementById('noisenotification-icon').classList.add('active');
+                    break; // 只显示第一个新通知
+                }
+            }
+        } catch (error) {
+            console.error('获取通知时出错:', error);
+        }
+    }
+
+    function displayNotification(notification) {
+        const notificationContainer = document.getElementById('noisenotification-container');
+        notificationContainer.innerHTML = `
+            🎉站点收录更新通知：<strong>${notification.title}</strong><br>
+            <a href="${notification.url}" target="_blank">${notification.description}</a>
+        `;
+        notificationContainer.style.display = 'block';
+        notificationContainer.style.opacity = 1;
+
+        setTimeout(() => {
+            notificationContainer.style.opacity = 0;
+            setTimeout(() => {
+                notificationContainer.style.display = 'none';
+            }, 500);
+        }, 8000); // 8秒后消失
+    }
+
+    // 页面载入时检查通知
+    window.onload = fetchNotifications;
+
+    // 每隔8秒检查更新
+    setInterval(fetchNotifications, 8000);
+</script>
