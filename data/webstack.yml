@@ -2178,6 +2178,10 @@
           logo: https://iqiyis.com/static/img/favicon.ico
           url: https://iqiyis.com/
           description: iqiyis每天搜集互联网最新电影和电视剧，为广大用户免费提供无广告在线观看电影和电视剧服务，及时收录最新、最热、最全的电影大片,高清正版免费看。
+        - title: 专享影院
+          logo: https://zxx.gg/upload/mxcms/20241118-1/1f7feba01aba84c7554355ce78e9636b.webp
+          url: https://zxx.gg
+          description: 专享影院(zxx.gg)是一个面向全球用户的免费无广告在线观影平台，汇聚了最新的高清电影、热门电视剧、综艺节目、动漫以及泰剧、韩剧、日剧、美剧等多样化的影视资源。我们致力于为用户提供全网最全面的影视资源，让您轻松获取最新影视娱乐内容。用户可以一键在线观看，享受最热、最新的娱乐体验，尽享无缝观影乐趣。
     - term: 动漫番剧
       links:
         - title: 哔哩哔哩
@@ -4627,7 +4631,11 @@
           logo: https://www.zbf1009.top/wp-content/uploads/2024/10/1729675999-favicon-1.svg
           url: https://www.zbf1009.top/
           description: 工欲善其事，必先利其器。所以，颜值怎么不算一种生产力呢？
-    - term: 博客构建
+        - title: 空白Koobai
+          logo: https://img.koobai.com/koobai.png
+          url: https://koobai.com/
+          description: 工作生活记录、折腾备忘, 同时分享下日常使用的软件、 观看的影视、喜欢的好物等
+    - term: 博客人生·构建
       links:
         - title: Github
           logo: github.jpg
@@ -5106,7 +5114,7 @@
           logo: https://sandtetris.net/icon.svg?de66039f2418830d
           url: https://sandtetris.net/
           description: 在线网页小游戏合集，是一款结合了沙子和俄罗斯方块元素的创意益智游戏，玩家通过控制沙子和方块的落下与堆积，挑战空间和时间的限制
-        - title: Golf Game 
+        - title: Golf Game
           logo: https://golfgame.app/favicon.ico
           url: https://golfgame.app/
           description: 在线高尔夫网页小游戏合集
@@ -5200,7 +5208,7 @@
           logo: https://s2.loli.net/2024/11/23/VYMLAjienQOSzH3.png
           url: https://sprunki-sinner-edition.org/
           description: Sprunki 游戏的罪人版本，拥有独特的音效和专属罪人模式，解锁全新声音维度，在游戏中沉浸式体验创作迷人音乐曲目的乐趣
-        - title: Sprunki Incredibox 
+        - title: Sprunki Incredibox
           logo: https://playgame123.com/favicon.ico
           url: https://playgame123.com/
           description: Sprunki游戏合集
@@ -5827,6 +5835,10 @@
           logo: https://cdn.iappdaily.com/jishixiezuo/assets/images/favicon/android-icon-192x192.png
           url: https://www.jishixiezuo.com/
           description: 即时写作提供强大的人工智能写作解决方案，涵盖多种行业需求。通过数千个模板和先进的 AI 技术，实现快速生成高质量文案、SEO 优化内容、社交媒体营销材料等。无论是自媒体运营、企业主、营销人员还是自由职业者，我们的智能写作平台助力您提升工作效率，快速实现想法到执行。
+        - title: Mako
+          logo: https://img.alicdn.com/imgextra/i4/O1CN01dvFN0j1e2rYBJpJGJ_!!6000000003814-2-tps-2048-2048.png_240x240.jpg
+          url: https://makojs.dev/
+          description: 极快的生产级 Web 打包器
 - taxonomy: AI新时代
   icon: fas fa-cog
   list:
@@ -7296,6 +7308,10 @@
           logo: https://www.chatpaper.ai/favicon.ico
           url: https://www.chatpaper.ai/zh/papers
           description: 每日精选AI研究论文及翻译
+        - title: 动手学 Ollama 🦙
+          logo: github.jpg
+          url: https://datawhalechina.github.io/handy-ollama/#/
+          description: 动手学 Ollama 教程，轻松上手实现大模型本地化部署，快速在本地管理以及运行大模型，让 CPU 也可以玩转大模型推理部署！
     - term: AI·工具集
       links:
         - title: futuretools
@@ -7366,6 +7382,10 @@
           logo: https://aibest.tools/favicon.ico
           url: https://aibest.tools/
           description: AIBest.Tools is a curated list of the best AI tools that are currently trending and profitable. Discover the latest and the best AI tools and stay ahead of the curve.
+        - title: 掘金探索者
+          logo: https://rexss.com/favicon.ico
+          url: https://rexss.com/
+          description: 给你不一样的精彩
     - term: AI购买商店
       links:
         - title: OpenAI o1 API | OpenAIo1API
