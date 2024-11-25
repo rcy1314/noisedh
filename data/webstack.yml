@@ -4342,487 +4342,9 @@
           logo: https://www.dushupai.com/favicon.ico
           url: https://www.dushupai.com/
           description: 电子书下载,epub电子书,azw3电子书,mobi电子书,pdf电子书下载去哪儿？上读书派! 靠谱的电子书下载,了解更多免费好用的电子书下载网站。
-- taxonomy: 思维人生
+- taxonomy: 博客人生
   icon: fas fa-heart fa-lg
   list:
-    - term: 游戏人生
-      links:
-        - title: switch520
-          logo: switch520.png
-          url: https://www.520switch.com
-          description: 全球游戏免费下载
-        - title: Epic游戏|周免
-          logo: www.epicgames.com.ico
-          url: https://www.epicgames.com/store/zh-CN/free-games?utm_source=iplaysoft.com&hmsr=iplaysoft.com
-          description: Epic游戏|每周都有免费游戏可领
-        - title: G1游戏
-          logo: g1yx.com.ico
-          url: https://g1yx.com/
-          description: 游戏社区资源站
-        - title: FFF游戏
-          logo: www.fffyouxi.com.ico
-          url: http://www.fffyouxi.com/
-          description: 单机游戏整合平台
-        - title: FC小霸王
-          logo: www.yikm.net.ico
-          url: https://www.yikm.net
-          description: 小霸王其乐无穷
-        - title: Deep Fun
-          logo: www.deepfun.net.ico
-          url: https://www.deepfun.net/
-          description: switch游戏下载
-        - title: RGB Game
-          logo: www.rpg.kim.ico
-          url: https://www.rpg.kim
-          description: pc游戏下载中心
-        - title: 游戏年轮
-          logo: www.bibgame.com.ico
-          url: https://www.bibgame.com
-          description: 主机游戏下载综合站
-        - title: 178游戏网
-          logo: 178.com.png
-          url: http://www.178.com
-          description: 网游集合地
-        - title: Steam
-          logo: steam.ico
-          url: https://store.steampowered.com/
-          description: Steam游戏商店
-        - title: 电玩巴士
-          logo: www.tgbus.com.ico
-          url: http://www.tgbus.com
-          description: 电玩巴士
-        - title: 游民星空
-          logo: www.gamersky.com.ico
-          url: https://www.gamersky.com
-          description: 单机游戏门户
-        - title: 3DM
-          logo: www.3dmgame.com.ico
-          url: https://www.3dmgame.com
-          description: 单机游戏门户
-        - title: 游侠网
-          logo: www.ali213.net.ico
-          url: https://www.ali213.net
-          description: 单机游戏门户
-        - title: webrcade
-          logo: webrcade.png
-          url: https://play-staging.webrcade.com
-          description: 国外的FC类模拟器游戏大全
-        - title: IndieNova独立精神
-          logo: indienova.ico
-          url: https://indienova.com
-          description: indienova独立游戏
-        - title: itch
-          logo: itch.ico
-          url: https://itch.io
-          description: 独立游戏爱好者必备网站，独立游戏制作、上传、售卖、社区交流
-        - title: 多人在线网页游戏站
-          logo: 多人在线网页游戏站.png
-          url: https://www.crazygames.com
-          description: 摸鱼多人在线网页游戏站
-        - title: 奶牛关
-          logo: 奶牛关.png
-          url: https://cowlevel.net
-          description: 玩游戏就要有追求
-        - title: GOG
-          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/NV/image.1ff8kp31zmsg.png
-          url: https://www.gog.com
-          description: 一个游戏商店，和Epic一样|每周都有免费游戏可领
-        - title: NSW2U
-          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/NV/image.524qfwazzhk0.jpg
-          url: https://nsw2u.com
-          description: 以主机游戏为主的破解游戏下载
-        - title: Games press
-          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/NV/image.5bv9l6j3amw0.jpg
-          url: https://www.gamespress.com
-          description: Games Press是报道游戏行业资讯为主的平台
-        - title: TAPTAP
-          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/NV/image.4wb3rlbrpew0.jpg
-          url: https://www.taptap.cn
-          description: 发现手机平台的那些好游戏
-        - title: Game Maker
-          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/NV/image.4wdnxfoeu220.png
-          url: https://forum.gamemaker.io/
-          description: 国外的游戏设计、开发和发行论坛社区
-        - title: flash保存计划
-          logo: flash.zczc.ico
-          url: https://flash.zczc.cz/flash
-          description: flash游戏收录
-        - title: 在线DOS游戏
-          logo: dos.zczc.ico
-          url: https://dos.zczc.cz
-          description: 在线DOS游戏
-        - title: 老男人游戏网
-          logo: oldmanemu.ico
-          url: https://www.oldmanemu.net
-          description: 经典游戏，主机游戏收录
-        - title: iogames
-          logo: iogames.png
-          url: https://iogames.space
-          description: 国外的网页游戏大全
-        - title: 灵动游戏
-          logo: 灵动游戏.png
-          url: https://www.mhhf.com
-          description: 网页小游戏大全
-        - title: indiexpo
-          logo: indiexpo.ico
-          url: https://www.indiexpo.net
-          description: 电子独立游戏
-        - title: kookapp
-          logo: kookapp.ico
-          url: https://www.kookapp.cn
-          description: 为游戏派对而生的语音沟通工具
-        - title: silvergames
-          logo: silvergames.ico
-          url: https://www.silvergames.com
-          description: 国外经典小游戏
-        - title: 4399
-          logo: 4399.ico
-          url: https://www.4399.com
-          description: 童年经典4399
-        - title: 5dplay
-          logo: 5dplay.png
-          url: http://www.5dplay.net
-          description: 网页摸鱼小游戏4399
-        - title: Infinity Games
-          logo: inftab.png
-          url: https://games.inftab.com
-          description: H5网页摸鱼小游戏
-        - title: kbhgames
-          logo: kbhgames.ico
-          url: https://kbhgames.com
-          description: 国外网页摸鱼小游戏站
-        - title: flysheep资源避难所
-          logo: flysheep.png
-          url: https://www.flysheep6.com
-          description: PC单机大作下载站
-        - title: nexusmods
-          logo: nexusmods.ico
-          url: https://www.nexusmods.com
-          description: MMD游戏模组供给站
-        - title: 游戏怀旧灌水
-          logo: 游戏怀旧灌水.ico
-          url: https://www.yxhjgs.com
-          description: 游戏精品分享站
-        - title: G1游戏
-          logo: G1游戏.ico
-          url: https://g1yx.com
-          description: 游戏下载和社区
-        - title: JUMP
-          logo: JUMP.png
-          url: http://www.jump-game.com
-          description: 全面及时的游戏折扣信息，无网页版，支持app和小程序
-        - title: 游戏动力
-          logo: 游戏动力.ico
-          url: https://vgn.cn
-          description: 游戏资讯、折扣及提供APP
-        - title: 668游戏仓库
-          logo: 668游戏.ico
-          url: https://www.668play.com
-          description: 668游戏仓库支持单机游戏下载,免费游戏下载,Switch游戏下载,PS4游戏下载，本站游戏每日更新，且资源优质！
-        - title: gamelll
-          logo: https://www.gamelll.com/wp-content/uploads/fa.png
-          url: https://www.gamelll.com
-          description: 全球游戏软件试玩学习中心，分享热门单机游戏、绿色软件、游戏攻略、游戏补丁
-        - title: playgames8
-          logo: https://playgames8.com/theme/images/logo16.png
-          url: https://playgames8.com
-          description: 免费在线游戏
-        - title: 低端游戏
-          logo: https://ddyx.me/favicon.ico
-          url: https://ddyx.me/
-          description: 在线PC经典游戏站
-        - title: 全国音游地图
-          logo: https://map.bemanicn.com/favicon.png
-          url: https://map.bemanicn.com/
-          description: 全国音游地图
-        - title: Hack games
-          logo: https://hack-games.com/favicon.ico
-          url: https://hack-games.com
-          description: 破解版抖音微信小游戏在线免费玩，0广告0内购。
-        - title: Golf Orbit | Exciting Golf Simulator Game
-          logo: https://www.golforbit.net/favicon.ico
-          url: https://www.golforbit.net
-          description: 简单上手的在线高尔夫游戏
-        - title: Switch520.com
-          logo: https://img.piclabo.xyz/2023/10/25/d67adcffb89dd.jpg
-          url: https://www.gamer520.com/
-          description: switch游戏下载-PC游戏下载-switch破解游戏下载-PC破解游戏下载-Switch520-xxxxx520
-        - title: 橘子下载 - switch游戏下载,ns游戏下载,ns游戏资源网
-          logo: https://www.juzixiazai.com/zb_users/upload/2024/02/202402281709107110453345.ico
-          url: https://www.juzixiazai.com/
-          description: 橘子下载持续更新NS游戏资源,switch游戏下载资源,系统固件,常用工具,nsp,xci,nsz多格式选择,找switch中文游戏,ns游戏下载就来免费的ns游戏资源网。
-        - title: 上游世界 | SWITCH游戏下载 | PS4游戏下载 | SWITCH中文游戏
-          logo: https://www.vgter.net/wp-content/uploads/2020/11/cropped-9999-32x32.jpg
-          url: https://www.vgter.net/
-          description: 精品游戏下载
-        - title: Mouthwashing - Immersive Space Horror Game
-          logo: https://mouth-washing.com/favicon.ico
-          url: https://mouth-washing.com/zh
-          description: Experience Mouthwashing, the award-winning psychological space horror game. Uncover dark secrets, manage your sanity, and survive the abandoned courier ship in this narrative-driven adventure.
-        - title: Delta资源站 - 分享各类游戏资源
-          logo: https://www.have1993.com/wp-content/uploads/2024/04/cropped-android-chrome-512x512-1-32x32.png
-          url: https://www.have1993.com/
-          description: 分享各类游戏资源
-        - title: 首页 | Themezer
-          logo: https://themezer.net/icon-64.png
-          url: https://themezer.net/
-          description: 一个用于共享 Nintendo Switch 的主题、主题包和布局的网站。发现数百个基于游戏、电影、动漫、艺术、自然等的主题！
-        - title: 好玩客 单机游戏库
-          logo: https://www.haowank.com/favicon.ico
-          url: https://www.haowank.com/
-          description: 好玩客汇集了丰富游戏资源，为广大玩家提供全面的游戏情报资讯。
-        - title: Zero - 零之资源仓库|switch破解游戏下载|免费资源下载
-          logo: https://zland.club/wp-content/themes/lolimeow/assets/images/favicon.ico
-          url: https://zland.club/
-          description: switch游戏下载，ps4游戏下载，宝可梦改版资源
-        - title: Free Web Gamer | Play Free Web Games
-          logo: https://freewebgamer.com/favicon.ico
-          url: https://freewebgamer.com/
-          description: Play HTML5 Games for Free
-        - title: switch-xci,nsp,nsz,ns
-          logo: https://www.2cyshare.com/zb_users/upload/2022/07/202207161657957695608469.png
-          url: https://www.2cyshare.com/
-          description: 关于Switch分类的相关文章列表
-        - title: 自制应用商店 - ForTheUsers
-          logo: https://hb-app.store/favicon.ico
-          url: https://hb-app.store/
-          description: Homebrew App Store 是一个免费的开源开源存储库，适用于 Wii U 和 Switch 游戏机的自制应用程序。这里分发的应用程序、工具和游戏都是由社区内的独立软件开发人员制作的。
-        - title: Ragdoll Archers - 物理引擎射箭对战游戏 | 史诗级弓箭战斗
-          logo: https://ragdollarchers.net/favicon.ico
-          url: https://ragdollarchers.net/zh
-          description: Ragdoll Archers 是一款令人兴奋的物理引擎射箭对战游戏，玩家可以在真实的布娃娃物理系统中进行史诗级的弓箭战斗。
-        - title: Unblocked Games - Play Free Online Games Anytime, Anywhere
-          logo: https://unblocked-games.cc/favicon.ico
-          url: https://unblocked-games.cc/
-          description: 各种在线游戏。随时随地不受限制地享受动作、益智和体育游戏
-        - title: Top1 Games
-          logo: https://top1.games/favicon.ico
-          url: https://top1.games/
-          description: 在 Top 1 Games 享受数以千计的免费在线游戏！潜入各种类型的游戏，包括街机、益智、动作、运动、射击游戏等等 - 都可以直接玩
-        - title: JoyGames | 免费在线游戏平台
-          logo: https://www.joygames.io/logo.png
-          url: https://www.joygames.io/zh
-          description: JoyGames 是一个免费的在线游戏集合平台，我们提供高质量的网页游戏。快来加入我们的游戏社区，尽情享受游戏的乐趣！
-        - title: Revolution Idle - The Best Free Idle Game Online
-          logo: https://revolutionidle.com/favicon.ico
-          url: https://revolutionidle.com/
-          description: Play Revolution Idle Game, a free browser empire builder. Expand territories & lead revolutions in this strategic idle game. No downloads - start conquering now!
-        - title: 带提示的wordle游戏在线玩
-          logo: https://wordle-with-hints.org/wordle-header-logo.svg
-          url: https://wordle-with-hints.org/
-          description: wordle with hint ，每个游戏有三个提示，支持4-7组词组，支持多语言，包括中文拼音，每天更新新词，麻烦站佬收录，感谢！
-        - title: Multiplayer Games
-          logo: https://multiplayergames.click/favicon.ico
-          url: https://multiplayergames.click/
-          description: 在 MultiplayerGames.click 玩免费的在线多人游戏！与世界各地的玩家一起享受动作、赛车、射击和拼图——无需下载。
-        - title: Run 3 - Free Online Games
-          logo: https://run-3.click/favicon.ico
-          url: https://run-3.click/
-          description: 在 Run 3 中探索太空隧道！选择探索或无限模式，解锁独特的角色，并在这款令人上瘾的在线游戏中掌握惊心动魄的挑战。
-        - title: 吸血鬼幸存者wiki - 完整的游戏指南和武器进化
-          logo: https://s2.loli.net/2024/11/18/mcPRkWslxFO6yMe.png
-          url: https://vampiresurvivor.wiki/
-          description: Comprehensive Vampire Survivors guide Learn about weapon evolutions, character builds, and strategies. Official wiki for the roguelike survival game.
-        - title: Retro Bowl 25 Unblocked
-          logo: https://retrobowl25.org/favicon.ico
-          url: https://retrobowl25.org/
-          description: Retro Bowl 25 - 像素艺术与橄榄球荣耀的完美邂逅,在这款引人入胜的8位体育游戏中，体验复古游戏魅力与现代橄榄球策略的完美融合
-        - title: FNF mobile
-          logo: https://fnfmobile.com/favicon.ico
-          url: https://fnfmobile.com/
-          description: 在线免费的音乐节奏游戏，伴随着洗脑的音乐，玩家只要抓准时机，通过符号正确按上下左右键盘，就可以聆听主角的歌声，在手机端就可以体验有趣的音乐节奏决斗。
-        - title: 弓箭传说2 游戏站
-          logo: https://archero2.org/favicon.ico
-          url: https://archero2.org/
-          description: 一个提供弓箭传说2游戏攻略的网站！
-        - title: retro bowl Online
-          logo: https://www.retrobowl25.online/statics/img/favicon-32x32.png
-          url: https://www.retrobowl25.online/
-          description: retro bowl游戏合集，免费畅玩！
-        - title: Burger Cafe
-          logo: https://burgercafe.fun/favicon.ico
-          url: https://burgercafe.fun/
-          description: 免费在线游戏网站，300+游戏免费玩
-        - title: Football Bros
-          logo: https://footballbros.fun/favicon.ico
-          url: https://footballbros.fun/
-          description: 一款简单的在线足球游戏，站上还有很多其他的免费小游戏
-        - title: Bad Ice Cream
-          logo: https://s2.loli.net/2024/11/24/nuE6z7aNQsd84HD.png
-          url: https://badicecream.org/
-          description: 网站提供的是一个有趣的双人益智游戏，由玩家控制冰淇淋，收集水果并防御敌人
-        - title: Football Bros
-          logo: https://s2.loli.net/2024/11/24/cQLih16s52uDfRF.png
-          url: https://footballbros.pro/
-          description: 网站提供一款在线大学橄榄球游戏，可选多种模式、可定制球队和进行多人对战
-    - term: Sprunki-Incredibox
-      links:
-        - title: Sprunki Remastered - 体验前所未有的音乐创作
-          logo: https://sprunki-remastered.org/favicon.ico
-          url: https://sprunki-remastered.org/zh
-          description: 潜入 Sprunki Remastered 的世界，这是一款独特的音乐创作游戏，可让您混合声音并使用充满活力的角色创作自己的音乐杰作。
-        - title: Play Sprunki online
-          logo: https://playsprunki.online/favicon.svg
-          url: https://playsprunki.online
-          description: Play Sprunki online! This fan-made mod of Incredibox offers a unique music mixing experience with new sounds
-        - title: Sprunki Retake
-          logo: https://sprunkiretake.net/favicons/favicon.ico
-          url: https://sprunkiretake.net/
-          description: 开源地址：https://github.com/hoodee153/Sprunki-Retake 介绍：sprunkiretake.net是一个incredibox的模组，是由粉丝社区自制的一系列sprunki小游戏，在全球都很火热
-        - title: Sprunki Retake – Fan-Made Incredibox Music Mixing Game
-          logo: https://sprunkiretake.xyz/favicon.ico
-          url: https://sprunkiretake.xyz/
-          description: 探索 Sprunki Retake，这是一款粉丝制作的 Incredibox 模组，具有新的声音、角色和创作自由。免费玩！
-        - title: Incredibox-Sprunki
-          logo: https://thatsnot-myneighbor.org/favicon.ico
-          url: https://thatsnot-myneighbor.org
-          description: Incredibox-Sprunki是一个有趣和创造性的音乐游戏，让玩家使用各种角色设计他们独特的节拍
-        - title: InCrediBox Sprunki - 创新音乐创作游戏
-          logo: https://incredibox-sprunki.org/favicon.ico
-          url: https://incredibox-sprunki.org/zh
-          description: InCrediBox Sprunki是一款革命性的音乐创作游戏。通过直观的界面和丰富的音乐元素,让每个人都能轻松创作独特的节拍和旋律。
-        - title: Spunky Game
-          logo: spunk7y.ico
-          url: https://spunky.games
-          description: 立即体验 Spunky Game 的 Sprunki InCrediBox - 无需下载！在这款来自 Spunky Game 的免费在线音乐游戏中混音、创作并分享独特的 Spunky 节拍
-        - title: Free Sprunki S Series Games
-          logo: https://sprunkix.com/favicon.ico
-          url: https://sprunkix.com/
-          description: sprunki 系列在线游戏站
-        - title: Sprunki Game
-          logo: https://sprunki.org/cache/data/image/options/sprunki-favicon1-m60x60.png
-          url: https://sprunki.org/
-          description: sprunki 系列合集在线站
-        - title: Incredibox Game
-          logo: https://incredibox-game.io/cache/data/image/options/incredibox-favicon-m60x60.png
-          url: https://incredibox-game.io/home
-          description: sprunki 系列合集在线站
-        - title: Sprunki Game
-          logo: https://sprunkigame.games/favicon.ico
-          url: https://sprunkigame.games/
-          description: 免费在线玩 Sprunki Game 和 Sprunki Incredibox！用这个有趣的节奏游戏创作美妙的音乐
-        - title: Sprunki Retake
-          logo: https://sprunki-retake.org/favicon-16x16.png
-          url: https://sprunki-retake.org
-          description: sprunki-retake.org 是一款沉浸式的游戏，让玩家可以在带有暗黑氛围的环境中探索音乐创作
-        - title: Sprunki Phase 4
-          logo: https://www.playsprunkiphrase4.com/favicon.ico
-          url: https://www.playsprunkiphrase4.com
-          description: playsprunkiphrase4.com 是Spunki phase 4在线游戏，沉浸式体验，多语言支持，万圣节风格
-        - title: Spunky Game
-          logo: https://spunky.game/favicon.ico
-          url: https://spunky.game/
-          description: 立即在线体验 Spunky Games，无需下载。享受我们一系列免费的浏览器游戏，这些游戏具有独特的游戏玩法和令人惊叹的图形
-        - title: Sprunked 2.0
-          logo: https://sprunked2.com/favicon.ico
-          url: https://sprunked2.com/
-          description: Sprunked 2.0 is an exciting horror-themed music creation game that builds upon the Sprunki series, combining eerie soundscapes with immersive gameplay inspired by Incredibox.
-        - title: Sprunki Phase
-          logo: https://sprunkiphase.net/favicon.ico
-          url: https://sprunkiphase.net
-          description: 一款在线免费音乐节奏游戏，将创造力与怪异扭曲相结合。以节奏和声音为中心，让您轻松发挥您的音乐想象力
-        - title: Sprunki Phase
-          logo: https://sprunkiphase.online/favicon.ico
-          url: https://sprunkiphase.online
-          description: Join the Sprunki Phase music universe and embark on this game of musical creation, crafting unique rhythmic beats and unleashing your inner musical talent, starting today!
-        - title: Sprunki Retake
-          logo: https://www.sprunkiretake.co/favicon.ico
-          url: https://www.sprunkiretake.co/zh
-          description: 在SprunkiRetake.co上发现Sprunki Retake Mod，这是广受欢迎的Incredibox游戏的最新粉丝自制版本！享受Sprunki Retake Incredibox的沉浸式体验，它拥有增强型节拍、视觉效果和独特风格，让您的音乐创作栩栩如生。
-        - title: sprunki phase 5
-          logo: https://sprunkiphase5.com/favicon-32x32.png
-          url: https://sprunkiphase5.com
-          description: 在线免费音乐节奏游戏
-        - title: Sprunki Phase Incredibox
-          logo: https://sprunkiphaseincredibox.com/favicon.ico
-          url: https://sprunkiphaseincredibox.com
-          description: 在线免费音乐节奏游戏,主要以节奏和声音为中心,释放玩家的音乐想象力！
-        - title: Sprunki Online
-          logo: https://sprunkionline.com/img/icon.png
-          url: https://sprunkionline.com
-          description: Sprunki游戏合集，免费畅玩！
-        - title: Sprunki Sinner Edition
-          logo: https://s2.loli.net/2024/11/23/VYMLAjienQOSzH3.png
-          url: https://sprunki-sinner-edition.org/
-          description: Sprunki 游戏的罪人版本，拥有独特的音效和专属罪人模式，解锁全新声音维度，在游戏中沉浸式体验创作迷人音乐曲目的乐趣
-    - term: 博客人生·构建
-      links:
-        - title: Github
-          logo: github.jpg
-          url: https://github.com
-          description: 全世界的码农社区和代码托管平台
-        - title: Gitlab
-          logo: gitlab.png
-          url: https://about.gitlab.com
-          description: 全世界的代码托管平台
-        - title: gitee.ico
-          logo: gitee.ico
-          url: https://gitee.com
-          description: 国内的代码托管平台
-        - title: Hugo
-          logo: Hugo.ico
-          url: https://gohugo.io
-          description: Hugo 是最受欢迎的开源静态站点生成器之一
-        - title: Hexo
-          logo: hexo.ico
-          url: https://hexo.io/zh-cn/
-          description: 快速、简洁且高效的博客框架
-        - title: Vuepress
-          logo: vuepress.png
-          url: https://www.vuepress.cn
-          description: Vue 驱动的静态网站生成器
-        - title: Wordpress
-          logo: wordpress.ico
-          url: https://cn.wordpress.org
-          description: WordPress是一款能让您建立出色网站、博客或应用程序的开源软件
-        - title: Solo
-          logo: Solo.ico
-          url: https://b3log.org/solo/
-          description: 小而美的博客系统，为未来而构建
-        - title: 21云盒子
-          logo: 21yun.png
-          url: https://www.21cloudbox.com
-          description: 出色的网站托管及静态站构建
-        - title: Gridea
-          logo: Gridea.ico
-          url: https://gridea.dev
-          description: Gridea 是一个静态博客写作客户端，帮助你更容易地构建并管理博客或任何静态站点
-        - title: Typecho
-          logo: typecho.ico
-          url: http://typecho.org
-          description: 轻量化网站构建器，N 年 Typecho 沉淀，现在，回应您的等待
-        - title: Halo
-          logo: halo.ico
-          url: https://halo.run
-          description: 好用又强大的开源建站工具
-        - title: xnote
-          logo: gitee.ico
-          url: https://gitee.com/xupingmao/xnote
-          description: xnote是一款面向个人的轻量级笔记系统
-        - title: Publii
-          logo: publii.ico
-          url: https://getpublii.com
-          description: 比Gridea更早的静态站点构建器，您可以快速轻松地创建一个美观、安全且隐私友好的网站
-        - title: vercel
-          logo: vercel.png
-          url: https://vercel.com
-          description: 静态化站点托管平台，可一键生成静态博客模版
-        - title: Netlify
-          logo: netlify.png
-          url: https://app.netlify.com
-          description: 静态化站点托管平台，可一键生成静态博客模版
-        - title: cloudflare
-          logo: cloudflare.png
-          url: https://dash.cloudflare.com
-          description: 静态化站点托管平台，可一键生成静态博客模版
-        - title: TinyMind - 用GitHub账号一键登录写作并同步你的博客和想法
-          logo: https://tinymind.me/favicon.ico
-          url: https://tinymind.me/
-          description: 使用Markdown编写博客并同步，数据存储在GitHub中。
-        - title: Gitblog |轻量级博客解决方案
-          logo: https://gitblog.io/favicon.ico
-          url: https://gitblog.io/
-          description: Gitblog 是一种轻量级、简单且功能强大的博客解决方案，可让您利用 GitHub 问题的简单性在几分钟内创建一个持久的博客。
     - term: 博客人生·独立博客
       links:
         - title: 冬烛之焰
@@ -5105,6 +4627,84 @@
           logo: https://www.zbf1009.top/wp-content/uploads/2024/10/1729675999-favicon-1.svg
           url: https://www.zbf1009.top/
           description: 工欲善其事，必先利其器。所以，颜值怎么不算一种生产力呢？
+    - term: 博客构建
+      links:
+        - title: Github
+          logo: github.jpg
+          url: https://github.com
+          description: 全世界的码农社区和代码托管平台
+        - title: Gitlab
+          logo: gitlab.png
+          url: https://about.gitlab.com
+          description: 全世界的代码托管平台
+        - title: gitee.ico
+          logo: gitee.ico
+          url: https://gitee.com
+          description: 国内的代码托管平台
+        - title: Hugo
+          logo: Hugo.ico
+          url: https://gohugo.io
+          description: Hugo 是最受欢迎的开源静态站点生成器之一
+        - title: Hexo
+          logo: hexo.ico
+          url: https://hexo.io/zh-cn/
+          description: 快速、简洁且高效的博客框架
+        - title: Vuepress
+          logo: vuepress.png
+          url: https://www.vuepress.cn
+          description: Vue 驱动的静态网站生成器
+        - title: Wordpress
+          logo: wordpress.ico
+          url: https://cn.wordpress.org
+          description: WordPress是一款能让您建立出色网站、博客或应用程序的开源软件
+        - title: Solo
+          logo: Solo.ico
+          url: https://b3log.org/solo/
+          description: 小而美的博客系统，为未来而构建
+        - title: 21云盒子
+          logo: 21yun.png
+          url: https://www.21cloudbox.com
+          description: 出色的网站托管及静态站构建
+        - title: Gridea
+          logo: Gridea.ico
+          url: https://gridea.dev
+          description: Gridea 是一个静态博客写作客户端，帮助你更容易地构建并管理博客或任何静态站点
+        - title: Typecho
+          logo: typecho.ico
+          url: http://typecho.org
+          description: 轻量化网站构建器，N 年 Typecho 沉淀，现在，回应您的等待
+        - title: Halo
+          logo: halo.ico
+          url: https://halo.run
+          description: 好用又强大的开源建站工具
+        - title: xnote
+          logo: gitee.ico
+          url: https://gitee.com/xupingmao/xnote
+          description: xnote是一款面向个人的轻量级笔记系统
+        - title: Publii
+          logo: publii.ico
+          url: https://getpublii.com
+          description: 比Gridea更早的静态站点构建器，您可以快速轻松地创建一个美观、安全且隐私友好的网站
+        - title: vercel
+          logo: vercel.png
+          url: https://vercel.com
+          description: 静态化站点托管平台，可一键生成静态博客模版
+        - title: Netlify
+          logo: netlify.png
+          url: https://app.netlify.com
+          description: 静态化站点托管平台，可一键生成静态博客模版
+        - title: cloudflare
+          logo: cloudflare.png
+          url: https://dash.cloudflare.com
+          description: 静态化站点托管平台，可一键生成静态博客模版
+        - title: TinyMind - 用GitHub账号一键登录写作并同步你的博客和想法
+          logo: https://tinymind.me/favicon.ico
+          url: https://tinymind.me/
+          description: 使用Markdown编写博客并同步，数据存储在GitHub中。
+        - title: Gitblog |轻量级博客解决方案
+          logo: https://gitblog.io/favicon.ico
+          url: https://gitblog.io/
+          description: Gitblog 是一种轻量级、简单且功能强大的博客解决方案，可让您利用 GitHub 问题的简单性在几分钟内创建一个持久的博客。
     - term: 优质播客
       links:
         - title: 摄影叨B叨
@@ -5187,6 +4787,435 @@
           logo: https://hardhacker.com/favicon.ico
           url: https://hardhacker.com/podcasts
           description: 每周我们都会聊聊和硬地骇客工作、生活、搞钱相关的话题，也会时不时邀请一些硬地骇客们分享自己的故事。
+- taxonomy: 游戏人生
+  icon: fas fa-gamepad
+  list:
+    - term: 游戏仓库
+      links:
+        - title: switch520
+          logo: switch520.png
+          url: https://www.520switch.com
+          description: 全球游戏免费下载
+        - title: Epic游戏|周免
+          logo: www.epicgames.com.ico
+          url: https://www.epicgames.com/store/zh-CN/free-games?utm_source=iplaysoft.com&hmsr=iplaysoft.com
+          description: Epic游戏|每周都有免费游戏可领
+        - title: G1游戏
+          logo: g1yx.com.ico
+          url: https://g1yx.com/
+          description: 游戏社区资源站
+        - title: FFF游戏
+          logo: www.fffyouxi.com.ico
+          url: http://www.fffyouxi.com/
+          description: 单机游戏整合平台
+        - title: FC小霸王
+          logo: www.yikm.net.ico
+          url: https://www.yikm.net
+          description: 小霸王其乐无穷
+        - title: Deep Fun
+          logo: www.deepfun.net.ico
+          url: https://www.deepfun.net/
+          description: switch游戏下载
+        - title: RGB Game
+          logo: www.rpg.kim.ico
+          url: https://www.rpg.kim
+          description: pc游戏下载中心
+        - title: 游戏年轮
+          logo: www.bibgame.com.ico
+          url: https://www.bibgame.com
+          description: 主机游戏下载综合站
+        - title: 178游戏网
+          logo: 178.com.png
+          url: http://www.178.com
+          description: 网游集合地
+        - title: Steam
+          logo: steam.ico
+          url: https://store.steampowered.com/
+          description: Steam游戏商店
+        - title: 电玩巴士
+          logo: www.tgbus.com.ico
+          url: http://www.tgbus.com
+          description: 电玩巴士
+        - title: 游民星空
+          logo: www.gamersky.com.ico
+          url: https://www.gamersky.com
+          description: 单机游戏门户
+        - title: 3DM
+          logo: www.3dmgame.com.ico
+          url: https://www.3dmgame.com
+          description: 单机游戏门户
+        - title: 游侠网
+          logo: www.ali213.net.ico
+          url: https://www.ali213.net
+          description: 单机游戏门户
+        - title: webrcade
+          logo: webrcade.png
+          url: https://play-staging.webrcade.com
+          description: 国外的FC类模拟器游戏大全
+        - title: IndieNova独立精神
+          logo: indienova.ico
+          url: https://indienova.com
+          description: indienova独立游戏
+        - title: itch
+          logo: itch.ico
+          url: https://itch.io
+          description: 独立游戏爱好者必备网站，独立游戏制作、上传、售卖、社区交流
+        - title: 奶牛关
+          logo: 奶牛关.png
+          url: https://cowlevel.net
+          description: 玩游戏就要有追求
+        - title: GOG
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/NV/image.1ff8kp31zmsg.png
+          url: https://www.gog.com
+          description: 一个游戏商店，和Epic一样|每周都有免费游戏可领
+        - title: NSW2U
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/NV/image.524qfwazzhk0.jpg
+          url: https://nsw2u.com
+          description: 以主机游戏为主的破解游戏下载
+        - title: Games press
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/NV/image.5bv9l6j3amw0.jpg
+          url: https://www.gamespress.com
+          description: Games Press是报道游戏行业资讯为主的平台
+        - title: TAPTAP
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/NV/image.4wb3rlbrpew0.jpg
+          url: https://www.taptap.cn
+          description: 发现手机平台的那些好游戏
+        - title: Game Maker
+          logo: https://jsd.cdn.noisework.cn/gh/rcy1314/tuchuang@main/NV/image.4wdnxfoeu220.png
+          url: https://forum.gamemaker.io/
+          description: 国外的游戏设计、开发和发行论坛社区
+        - title: flash保存计划
+          logo: flash.zczc.ico
+          url: https://flash.zczc.cz/flash
+          description: flash游戏收录
+        - title: 在线DOS游戏
+          logo: dos.zczc.ico
+          url: https://dos.zczc.cz
+          description: 在线DOS游戏
+        - title: 老男人游戏网
+          logo: oldmanemu.ico
+          url: https://www.oldmanemu.net
+          description: 经典游戏，主机游戏收录
+        - title: indiexpo
+          logo: indiexpo.ico
+          url: https://www.indiexpo.net
+          description: 电子独立游戏
+        - title: kookapp
+          logo: kookapp.ico
+          url: https://www.kookapp.cn
+          description: 为游戏派对而生的语音沟通工具
+        - title: flysheep资源避难所
+          logo: flysheep.png
+          url: https://www.flysheep6.com
+          description: PC单机大作下载站
+        - title: nexusmods
+          logo: nexusmods.ico
+          url: https://www.nexusmods.com
+          description: MMD游戏模组供给站
+        - title: 游戏怀旧灌水
+          logo: 游戏怀旧灌水.ico
+          url: https://www.yxhjgs.com
+          description: 游戏精品分享站
+        - title: G1游戏
+          logo: G1游戏.ico
+          url: https://g1yx.com
+          description: 游戏下载和社区
+        - title: JUMP
+          logo: JUMP.png
+          url: http://www.jump-game.com
+          description: 全面及时的游戏折扣信息，无网页版，支持app和小程序
+        - title: 游戏动力
+          logo: 游戏动力.ico
+          url: https://vgn.cn
+          description: 游戏资讯、折扣及提供APP
+        - title: 668游戏仓库
+          logo: 668游戏.ico
+          url: https://www.668play.com
+          description: 668游戏仓库支持单机游戏下载,免费游戏下载,Switch游戏下载,PS4游戏下载，本站游戏每日更新，且资源优质！
+        - title: gamelll
+          logo: https://www.gamelll.com/wp-content/uploads/fa.png
+          url: https://www.gamelll.com
+          description: 全球游戏软件试玩学习中心，分享热门单机游戏、绿色软件、游戏攻略、游戏补丁
+        - title: playgames8
+          logo: https://playgames8.com/theme/images/logo16.png
+          url: https://playgames8.com
+          description: 免费在线游戏
+        - title: 低端游戏
+          logo: https://ddyx.me/favicon.ico
+          url: https://ddyx.me/
+          description: 在线PC经典游戏站
+        - title: 全国音游地图
+          logo: https://map.bemanicn.com/favicon.png
+          url: https://map.bemanicn.com/
+          description: 全国音游地图
+        - title: Switch520.com
+          logo: https://img.piclabo.xyz/2023/10/25/d67adcffb89dd.jpg
+          url: https://www.gamer520.com/
+          description: switch游戏下载-PC游戏下载-switch破解游戏下载-PC破解游戏下载-Switch520-xxxxx520
+        - title: 橘子下载 - switch游戏下载,ns游戏下载,ns游戏资源网
+          logo: https://www.juzixiazai.com/zb_users/upload/2024/02/202402281709107110453345.ico
+          url: https://www.juzixiazai.com/
+          description: 橘子下载持续更新NS游戏资源,switch游戏下载资源,系统固件,常用工具,nsp,xci,nsz多格式选择,找switch中文游戏,ns游戏下载就来免费的ns游戏资源网。
+        - title: 上游世界 | SWITCH游戏下载 | PS4游戏下载 | SWITCH中文游戏
+          logo: https://www.vgter.net/wp-content/uploads/2020/11/cropped-9999-32x32.jpg
+          url: https://www.vgter.net/
+          description: 精品游戏下载
+        - title: Mouthwashing - Immersive Space Horror Game
+          logo: https://mouth-washing.com/favicon.ico
+          url: https://mouth-washing.com/zh
+          description: Experience Mouthwashing, the award-winning psychological space horror game. Uncover dark secrets, manage your sanity, and survive the abandoned courier ship in this narrative-driven adventure.
+        - title: Delta资源站 - 分享各类游戏资源
+          logo: https://www.have1993.com/wp-content/uploads/2024/04/cropped-android-chrome-512x512-1-32x32.png
+          url: https://www.have1993.com/
+          description: 分享各类游戏资源
+        - title: 首页 | Themezer
+          logo: https://themezer.net/icon-64.png
+          url: https://themezer.net/
+          description: 一个用于共享 Nintendo Switch 的主题、主题包和布局的网站。发现数百个基于游戏、电影、动漫、艺术、自然等的主题！
+        - title: 好玩客 单机游戏库
+          logo: https://www.haowank.com/favicon.ico
+          url: https://www.haowank.com/
+          description: 好玩客汇集了丰富游戏资源，为广大玩家提供全面的游戏情报资讯。
+        - title: Zero - 零之资源仓库|switch破解游戏下载|免费资源下载
+          logo: https://zland.club/wp-content/themes/lolimeow/assets/images/favicon.ico
+          url: https://zland.club/
+          description: switch游戏下载，ps4游戏下载，宝可梦改版资源
+        - title: Free Web Gamer | Play Free Web Games
+          logo: https://freewebgamer.com/favicon.ico
+          url: https://freewebgamer.com/
+          description: Play HTML5 Games for Free
+        - title: 2cyshare
+          logo: https://www.2cyshare.com/zb_users/upload/2022/07/202207161657957695608469.png
+          url: https://www.2cyshare.com/
+          description: 2cyshare汇集了丰富游戏资源
+        - title: 自制应用商店 - ForTheUsers
+          logo: https://hb-app.store/favicon.ico
+          url: https://hb-app.store/
+          description: Homebrew App Store 是一个免费的开源开源存储库，适用于 Wii U 和 Switch 游戏机的自制应用程序。这里分发的应用程序、工具和游戏都是由社区内的独立软件开发人员制作的。
+    - term: 网页游戏
+      links:
+        - title: iogames
+          logo: iogames.png
+          url: https://iogames.space
+          description: 国外的网页游戏大全
+        - title: 多人在线网页游戏站
+          logo: 多人在线网页游戏站.png
+          url: https://www.crazygames.com
+          description: 摸鱼多人在线网页游戏站
+        - title: 灵动游戏
+          logo: 灵动游戏.png
+          url: https://www.mhhf.com
+          description: 网页小游戏大全
+        - title: Hack games
+          logo: https://hack-games.com/favicon.ico
+          url: https://hack-games.com
+          description: 破解版抖音微信小游戏在线免费玩，0广告0内购。
+        - title: Golf Orbit | Exciting Golf Simulator Game
+          logo: https://www.golforbit.net/favicon.ico
+          url: https://www.golforbit.net
+          description: 简单上手的在线高尔夫游戏
+        - title: silvergames
+          logo: silvergames.ico
+          url: https://www.silvergames.com
+          description: 国外经典小游戏
+        - title: 4399
+          logo: 4399.ico
+          url: https://www.4399.com
+          description: 童年经典4399
+        - title: 5dplay
+          logo: 5dplay.png
+          url: http://www.5dplay.net
+          description: 网页摸鱼小游戏4399
+        - title: Infinity Games
+          logo: inftab.png
+          url: https://games.inftab.com
+          description: H5网页摸鱼小游戏
+        - title: kbhgames
+          logo: kbhgames.ico
+          url: https://kbhgames.com
+          description: 国外网页摸鱼小游戏站
+        - title: Ragdoll Archers - 物理引擎射箭对战游戏 | 史诗级弓箭战斗
+          logo: https://ragdollarchers.net/favicon.ico
+          url: https://ragdollarchers.net/zh
+          description: Ragdoll Archers 是一款令人兴奋的物理引擎射箭对战游戏，玩家可以在真实的布娃娃物理系统中进行史诗级的弓箭战斗。
+        - title: Unblocked Games - Play Free Online Games Anytime, Anywhere
+          logo: https://unblocked-games.cc/favicon.ico
+          url: https://unblocked-games.cc/
+          description: 各种在线游戏。随时随地不受限制地享受动作、益智和体育游戏
+        - title: Top1 Games
+          logo: https://top1.games/favicon.ico
+          url: https://top1.games/
+          description: 在 Top 1 Games 享受数以千计的免费在线游戏！潜入各种类型的游戏，包括街机、益智、动作、运动、射击游戏等等 - 都可以直接玩
+        - title: JoyGames | 免费在线游戏平台
+          logo: https://www.joygames.io/logo.png
+          url: https://www.joygames.io/zh
+          description: JoyGames 是一个免费的在线游戏集合平台，我们提供高质量的网页游戏。快来加入我们的游戏社区，尽情享受游戏的乐趣！
+        - title: Revolution Idle - The Best Free Idle Game Online
+          logo: https://revolutionidle.com/favicon.ico
+          url: https://revolutionidle.com/
+          description: Play Revolution Idle Game, a free browser empire builder. Expand territories & lead revolutions in this strategic idle game. No downloads - start conquering now!
+        - title: 带提示的wordle游戏在线玩
+          logo: https://wordle-with-hints.org/wordle-header-logo.svg
+          url: https://wordle-with-hints.org/
+          description: wordle with hint ，每个游戏有三个提示，支持4-7组词组，支持多语言，包括中文拼音，每天更新新词，麻烦站佬收录，感谢！
+        - title: Multiplayer Games
+          logo: https://multiplayergames.click/favicon.ico
+          url: https://multiplayergames.click/
+          description: 在 MultiplayerGames.click 玩免费的在线多人游戏！与世界各地的玩家一起享受动作、赛车、射击和拼图——无需下载。
+        - title: Run 3 - Free Online Games
+          logo: https://run-3.click/favicon.ico
+          url: https://run-3.click/
+          description: 在 Run 3 中探索太空隧道！选择探索或无限模式，解锁独特的角色，并在这款令人上瘾的在线游戏中掌握惊心动魄的挑战。
+        - title: 吸血鬼幸存者wiki - 完整的游戏指南和武器进化
+          logo: https://s2.loli.net/2024/11/18/mcPRkWslxFO6yMe.png
+          url: https://vampiresurvivor.wiki/
+          description: Comprehensive Vampire Survivors guide Learn about weapon evolutions, character builds, and strategies. Official wiki for the roguelike survival game.
+        - title: Retro Bowl 25 Unblocked
+          logo: https://retrobowl25.org/favicon.ico
+          url: https://retrobowl25.org/
+          description: Retro Bowl 25 - 像素艺术与橄榄球荣耀的完美邂逅,在这款引人入胜的8位体育游戏中，体验复古游戏魅力与现代橄榄球策略的完美融合
+        - title: FNF mobile
+          logo: https://fnfmobile.com/favicon.ico
+          url: https://fnfmobile.com/
+          description: 在线免费的音乐节奏游戏，伴随着洗脑的音乐，玩家只要抓准时机，通过符号正确按上下左右键盘，就可以聆听主角的歌声，在手机端就可以体验有趣的音乐节奏决斗。
+        - title: 弓箭传说2 游戏站
+          logo: https://archero2.org/favicon.ico
+          url: https://archero2.org/
+          description: 一个提供弓箭传说2游戏攻略的网站！
+        - title: retro bowl Online
+          logo: https://www.retrobowl25.online/statics/img/favicon-32x32.png
+          url: https://www.retrobowl25.online/
+          description: retro bowl游戏合集，免费畅玩！
+        - title: Burger Cafe
+          logo: https://burgercafe.fun/favicon.ico
+          url: https://burgercafe.fun/
+          description: 免费在线游戏网站，300+游戏免费玩
+        - title: Football Bros
+          logo: https://footballbros.fun/favicon.ico
+          url: https://footballbros.fun/
+          description: 一款简单的在线足球游戏，站上还有很多其他的免费小游戏
+        - title: Bad Ice Cream
+          logo: https://s2.loli.net/2024/11/24/nuE6z7aNQsd84HD.png
+          url: https://badicecream.org/
+          description: 网站提供的是一个有趣的双人益智游戏，由玩家控制冰淇淋，收集水果并防御敌人
+        - title: Football Bros
+          logo: https://s2.loli.net/2024/11/24/cQLih16s52uDfRF.png
+          url: https://footballbros.pro/
+          description: 网站提供一款在线大学橄榄球游戏，可选多种模式、可定制球队和进行多人对战
+        - title: SandTetris
+          logo: https://sandtetris.net/icon.svg?de66039f2418830d
+          url: https://sandtetris.net/
+          description: 在线网页小游戏合集，是一款结合了沙子和俄罗斯方块元素的创意益智游戏，玩家通过控制沙子和方块的落下与堆积，挑战空间和时间的限制
+        - title: Golf Game 
+          logo: https://golfgame.app/favicon.ico
+          url: https://golfgame.app/
+          description: 在线高尔夫网页小游戏合集
+    - term: Sprunki-Incredibox
+      links:
+        - title: Sprunki Remastered - 体验前所未有的音乐创作
+          logo: https://sprunki-remastered.org/favicon.ico
+          url: https://sprunki-remastered.org/zh
+          description: 潜入 Sprunki Remastered 的世界，这是一款独特的音乐创作游戏，可让您混合声音并使用充满活力的角色创作自己的音乐杰作。
+        - title: Play Sprunki online
+          logo: https://playsprunki.online/favicon.svg
+          url: https://playsprunki.online
+          description: Play Sprunki online! This fan-made mod of Incredibox offers a unique music mixing experience with new sounds
+        - title: Sprunki Retake
+          logo: https://sprunkiretake.net/favicons/favicon.ico
+          url: https://sprunkiretake.net/
+          description: 开源地址：https://github.com/hoodee153/Sprunki-Retake 介绍：sprunkiretake.net是一个incredibox的模组，是由粉丝社区自制的一系列sprunki小游戏，在全球都很火热
+        - title: Sprunki Retake – Fan-Made Incredibox Music Mixing Game
+          logo: https://sprunkiretake.xyz/favicon.ico
+          url: https://sprunkiretake.xyz/
+          description: 探索 Sprunki Retake，这是一款粉丝制作的 Incredibox 模组，具有新的声音、角色和创作自由。免费玩！
+        - title: Incredibox-Sprunki
+          logo: https://thatsnot-myneighbor.org/favicon.ico
+          url: https://thatsnot-myneighbor.org
+          description: Incredibox-Sprunki是一个有趣和创造性的音乐游戏，让玩家使用各种角色设计他们独特的节拍
+        - title: InCrediBox Sprunki - 创新音乐创作游戏
+          logo: https://incredibox-sprunki.org/favicon.ico
+          url: https://incredibox-sprunki.org/zh
+          description: InCrediBox Sprunki是一款革命性的音乐创作游戏。通过直观的界面和丰富的音乐元素,让每个人都能轻松创作独特的节拍和旋律。
+        - title: Spunky Game
+          logo: spunk7y.ico
+          url: https://spunky.games
+          description: 立即体验 Spunky Game 的 Sprunki InCrediBox - 无需下载！在这款来自 Spunky Game 的免费在线音乐游戏中混音、创作并分享独特的 Spunky 节拍
+        - title: Free Sprunki S Series Games
+          logo: https://sprunkix.com/favicon.ico
+          url: https://sprunkix.com/
+          description: sprunki 系列在线游戏站
+        - title: Sprunki Game
+          logo: https://sprunki.org/cache/data/image/options/sprunki-favicon1-m60x60.png
+          url: https://sprunki.org/
+          description: sprunki 系列合集在线站
+        - title: Incredibox Game
+          logo: https://incredibox-game.io/cache/data/image/options/incredibox-favicon-m60x60.png
+          url: https://incredibox-game.io/home
+          description: sprunki 系列合集在线站
+        - title: Sprunki Game
+          logo: https://sprunkigame.games/favicon.ico
+          url: https://sprunkigame.games/
+          description: 免费在线玩 Sprunki Game 和 Sprunki Incredibox！用这个有趣的节奏游戏创作美妙的音乐
+        - title: Sprunki Retake
+          logo: https://sprunki-retake.org/favicon-16x16.png
+          url: https://sprunki-retake.org
+          description: sprunki-retake.org 是一款沉浸式的游戏，让玩家可以在带有暗黑氛围的环境中探索音乐创作
+        - title: Sprunki Phase 4
+          logo: https://www.playsprunkiphrase4.com/favicon.ico
+          url: https://www.playsprunkiphrase4.com
+          description: playsprunkiphrase4.com 是Spunki phase 4在线游戏，沉浸式体验，多语言支持，万圣节风格
+        - title: Spunky Game
+          logo: https://spunky.game/favicon.ico
+          url: https://spunky.game/
+          description: 立即在线体验 Spunky Games，无需下载。享受我们一系列免费的浏览器游戏，这些游戏具有独特的游戏玩法和令人惊叹的图形
+        - title: Sprunked 2.0
+          logo: https://sprunked2.com/favicon.ico
+          url: https://sprunked2.com/
+          description: Sprunked 2.0 is an exciting horror-themed music creation game that builds upon the Sprunki series, combining eerie soundscapes with immersive gameplay inspired by Incredibox.
+        - title: Sprunki Phase
+          logo: https://sprunkiphase.net/favicon.ico
+          url: https://sprunkiphase.net
+          description: 一款在线免费音乐节奏游戏，将创造力与怪异扭曲相结合。以节奏和声音为中心，让您轻松发挥您的音乐想象力
+        - title: Sprunki Phase
+          logo: https://sprunkiphase.online/favicon.ico
+          url: https://sprunkiphase.online
+          description: Join the Sprunki Phase music universe and embark on this game of musical creation, crafting unique rhythmic beats and unleashing your inner musical talent, starting today!
+        - title: Sprunki Retake
+          logo: https://www.sprunkiretake.co/favicon.ico
+          url: https://www.sprunkiretake.co/zh
+          description: 在SprunkiRetake.co上发现Sprunki Retake Mod，这是广受欢迎的Incredibox游戏的最新粉丝自制版本！享受Sprunki Retake Incredibox的沉浸式体验，它拥有增强型节拍、视觉效果和独特风格，让您的音乐创作栩栩如生。
+        - title: sprunki phase 5
+          logo: https://sprunkiphase5.com/favicon-32x32.png
+          url: https://sprunkiphase5.com
+          description: 在线免费音乐节奏游戏
+        - title: Sprunki Phase Incredibox
+          logo: https://sprunkiphaseincredibox.com/favicon.ico
+          url: https://sprunkiphaseincredibox.com
+          description: 在线免费音乐节奏游戏,主要以节奏和声音为中心,释放玩家的音乐想象力！
+        - title: Sprunki Online
+          logo: https://sprunkionline.com/img/icon.png
+          url: https://sprunkionline.com
+          description: Sprunki游戏合集，免费畅玩！
+        - title: Sprunki Sinner Edition
+          logo: https://s2.loli.net/2024/11/23/VYMLAjienQOSzH3.png
+          url: https://sprunki-sinner-edition.org/
+          description: Sprunki 游戏的罪人版本，拥有独特的音效和专属罪人模式，解锁全新声音维度，在游戏中沉浸式体验创作迷人音乐曲目的乐趣
+        - title: Sprunki Incredibox 
+          logo: https://playgame123.com/favicon.ico
+          url: https://playgame123.com/
+          description: Sprunki游戏合集
+        - title: sinner sprunki
+          logo: https://sprunkimod.net/favicon.ico
+          url: https://sinnersprunki.com/
+          description: Sprunki游戏
+        - title: Sprunki Mod
+          logo: https://sprunkimod.net/favicon.ico
+          url: https://sprunkimod.net/
+          description: Sprunki游戏
+        - title: Sprunki Incredibox
+          logo: https://sprunkimod.net/favicon.ico
+          url: https://sprunki-incredibox.net/
+          description: 在线 Sprunki Incredibox
 - taxonomy: 独立开发
   icon: fas fa-code fa-lg
   list:
