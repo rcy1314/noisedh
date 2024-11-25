@@ -28,7 +28,9 @@
                                          src="{{ $.Site.Params.defaultLogo }}" 
                                          data-src="{{ if findRE "http.*?(.|\n)*?" .logo }}{{ .logo }}{{ else }}{{ $.Site.Params.logosPath }}/{{ .logo }}{{ end }}"
                                          onerror="this.src='{{ $.Site.Params.defaultLogo }}'" 
-                                         alt="{{ .title }}">
+                                         alt="{{ .title }}" 
+                                         loading="lazy" 
+                                         class="img-placeholder">
                                 </div>
                                 <div class="url-info flex-fill">
                                     <div class="text-sm overflowClip_1">
@@ -78,7 +80,9 @@
                                          src="{{ $.Site.Params.defaultLogo }}" 
                                          data-src="{{ if findRE "http.*?(.|\n)*?" .logo }}{{ .logo }}{{ else }}{{ $.Site.Params.logosPath }}/{{ .logo }}{{ end }}"
                                          onerror="this.src='{{ $.Site.Params.defaultLogo }}'" 
-                                         alt="{{ .title }}">
+                                         alt="{{ .title }}" 
+                                         loading="lazy" 
+                                         class="img-placeholder">
                                 </div>
                                 <div class="url-info flex-fill">
                                     <div class="text-sm overflowClip_1">
@@ -113,3 +117,35 @@
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const lazyImages = document.querySelectorAll('img.lazy');
+
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.getAttribute('data-src');
+                img.classList.remove('lazy');
+                observer.unobserve(img);
+            }
+        });
+    });
+
+    lazyImages.forEach(image => {
+        imageObserver.observe(image);
+    });
+});
+</script>
+
+<style>
+.img-placeholder {
+    background-color: #f0f0f0; /* 占位符的背景色 */
+    width: 100px; /* 设置占位符的宽度 */
+    height: 100px; /* 设置占位符的高度 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+</style>
