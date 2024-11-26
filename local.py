@@ -41,6 +41,8 @@ EXCLUDED_URL_PARTS = [
     "noiseyp.top",
     "pixabay.com",
     "bratgenerator.xyz",
+    "https://zxjg.samr.gov.cn",
+    "https://codegeex.cn/zh-CN",
     "55app.shop",
     # 可以根据需要添加更多部分
 ]

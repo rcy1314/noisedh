@@ -1917,6 +1917,10 @@
       logo: https://bt.gsxt.gov.cn/images/logo_index_660000_big.png
       url: https://bt.gsxt.gov.cn
       description: 国家企业信用信息公示系统
+    - title: 国家市场监督管理总局
+      logo: https://zxjg.samr.gov.cn/samrmrkout/images/favicon.ico
+      url: https://zxjg.samr.gov.cn
+      description: 国家市场监督管理总局
   - term: 创业投资
     links:
     - title: 创业邦
@@ -7044,6 +7048,10 @@
       logo: github.jpg
       url: https://github.com/chubin/cheat.sh#visual-studio-code
       description: 有一个方便的命令行客户端，这是非常有利和有用的，尽管不是强制性的。cht.sh可以直接从代码编辑器使用，无需打开浏览器，免费
+    - title: CodeGeeX
+      logo: CodeGeeX.ico
+      url: https://codegeex.cn/zh-CN
+      description: 清华大学知识工程实验室开源，免费
     - title: CodeWhisperer
       logo: CodeWhisperer.ico
       url: https://aws.amazon.com/cn/codewhisperer/
