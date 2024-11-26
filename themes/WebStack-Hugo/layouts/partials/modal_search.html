@@ -68,17 +68,23 @@
         try {
             const response = await fetch('https://extension.noisework.cn/api/notifications');
             const notifications = await response.json();
-            
-            for (const notification of notifications) {
+
+            // 找到最新的通知（根据时间戳）
+            if (notifications.length > 0) {
+                // 假设每个通知都有一个 `timestamp` 字段
+                const latestNotification = notifications.reduce((latest, current) => {
+                    return new Date(current.timestamp) > new Date(latest.timestamp) ? current : latest;
+                });
+
+                const notificationContent = `${latestNotification.title} - ${latestNotification.description}`;
+
                 // 检查该通知的内容是否已显示过
-                const notificationContent = `${notification.title} - ${notification.description}`;
                 if (!shownNotifications.includes(notificationContent)) {
                     // 将通知内容添加到已显示的通知列表
                     shownNotifications.push(notificationContent);
                     localStorage.setItem('shownNotifications', JSON.stringify(shownNotifications));
-                    displayNotification(notification);
+                    displayNotification(latestNotification);
                     document.getElementById('noisenotification-icon').classList.add('active');
-                    break; // 只显示第一个新通知
                 }
             }
         } catch (error) {
