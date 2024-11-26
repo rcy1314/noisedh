@@ -548,7 +548,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .header-big.no-bg #search-text{color:#fff;border:none;background-color:rgba(0,0,0,0.2)!important}
 .header-big.no-bg .search-type input:checked+label:before{border-color:rgba(0,0,0,0.2) transparent transparent}
 .header-big .search-type li.menu-item{padding:5px 10px 0px 10px}
-@media screen and (min-width:768px){.header-big{padding-top:80px;padding-bottom:110px}
+@media screen and (min-width:768px){.header-big{padding-top:50px;padding-bottom:110px}
 .post-top{padding-bottom:20px}
 .header-big.no-bg{padding-bottom:20px}
 .header-big .search-type li label,.header-big .search-type li.menu-item{padding:5px 20px}
