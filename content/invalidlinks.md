@@ -1001,3 +1001,41 @@
   URL: https://www.rephrase.ai
   描述: Rephrase 的技术可实现大规模超个性化的视频创建，从而提高参与度和业务效率。
 
+## 检查日期: 2024年11月26日 09:27
+
+# 已失效链接
+
+### 此项会自动删除链接
+
+- 标题: 国家市场监督管理总局
+  URL: https://zxjg.samr.gov.cn
+  描述: 国家市场监督管理总局
+
+- 标题: 3A汽车电子
+  URL: http://www.auto3a.com
+  描述: 汽车电子论坛
+
+- 标题: Mac教程
+  URL: https://44maker.github.io/wiki/Mac/index.html
+  描述: 一站式解决大部分Mac问题
+
+- 标题: 古剑Wiki-博物学会特刊
+  URL: https://www.notion.so/Wiki-16b548d0cbf041be8beaecb46e43e8d6
+  描述: 古剑奇谭爱好者
+
+- 标题: RapGenerator
+  URL: https://rapgenerator.app
+  描述: 一键文本生成Rap音乐
+
+- 标题: CodeGeeX
+  URL: https://codegeex.cn/zh-CN
+  描述: 清华大学知识工程实验室开源，免费
+
+- 标题: ai dawnmark
+  URL: https://ai.dawnmark.cn
+  描述: AI词汇加速
+
+- 标题: 酷安-新鲜图文
+  URL: https://rsshub.app/coolapk/tuwen-xinxian
+  描述: 酷安-新鲜图文
+
