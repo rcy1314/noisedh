@@ -7,14 +7,14 @@ on:
 
 jobs:
   link-check:
-    runs-on: ubuntu-last
+    runs-on: ubuntu-22
 
     steps:
       - name: Check out source
         uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v3
         with:
           python-version: '3.9' # 可以根据需要修改 Python 版本
 
