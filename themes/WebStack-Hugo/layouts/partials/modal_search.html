@@ -48,6 +48,7 @@
     #noisenotification-container a:hover {
         text-decoration: underline; /* 悬停时下划线 */
     }
+
     /* 媒体查询：手机尺寸下的样式 */
     @media (max-width: 768px) {
         #noisenotification-icon {
@@ -60,6 +61,7 @@
 <div id="noisenotification-container"></div>
 
 <script>
+    // 从 localStorage 获取已显示的通知内容列表
     const shownNotifications = JSON.parse(localStorage.getItem('shownNotifications')) || [];
 
     async function fetchNotifications() {
@@ -68,8 +70,11 @@
             const notifications = await response.json();
             
             for (const notification of notifications) {
-                if (!shownNotifications.some(shown => shown.id === notification.id)) {
-                    shownNotifications.push(notification);
+                // 检查该通知的内容是否已显示过
+                const notificationContent = `${notification.title} - ${notification.description}`;
+                if (!shownNotifications.includes(notificationContent)) {
+                    // 将通知内容添加到已显示的通知列表
+                    shownNotifications.push(notificationContent);
                     localStorage.setItem('shownNotifications', JSON.stringify(shownNotifications));
                     displayNotification(notification);
                     document.getElementById('noisenotification-icon').classList.add('active');
