@@ -5898,6 +5898,18 @@
           logo: https://changeclothesai.online/favicon.ico
           url: https://changeclothesai.online/zh
           description: Change Clothes AI是一款基于人工智能技术的在线换装工具。通过上传肖像和服装图像轻松交换照片中的衣服。我们的人工智能算法可在几秒钟内生成新图像，让您尝试不同的外观并找到完美的服装。
+        - title: 'Slides Orator: AI Avatar presents and chats with slides.'
+          logo: https://www.slidesorator.com/logo.png
+          url: https://www.slidesorator.com/
+          description: SlidesOrator：使用 AI 头像呈现交互式幻灯片。与朋友分享，以便他们可以根据幻灯片的知识与 AI 头像聊天。
+        - title: 智能客服-AI智能客服
+          logo: https://cc.zaker.cn/icon.png
+          url: https://cc.zaker.cn/
+          description: 机器人客服，智能客服，ai机器人客服
+        - title: 图像到提示 - 快速将图像转换为提示
+          logo: https://imagetoprompt.org/favicon.ico
+          url: https://imagetoprompt.org/
+          description: 上传您的图片，它将在几秒钟内将图片转换为提示。
     - term: AI·绘画
       links:
         - title: stability
@@ -6304,6 +6316,10 @@
           logo: https://www.mochi1preview.com/favicon.ico
           url: https://www.mochi1preview.com/
           description: Preview Mochi 1, the latest AI video generation technology from Genmo. Transform text into high-quality videos with advanced AI features. Experience the future of video creation with Mochi 1 Preview.
+        - title: DomoAI | AI Art Generator & Video to Animation Converter
+          logo: https://cdn.prod.website-files.com/652242395f6164bbe183da35/65d865c66c071ed1af11d0cd_domoai_32.png
+          url: https://domoai.app/
+          description: AI 视频编辑器，可将视频、文本和图像转换为动画。让您的角色随心所欲地移动。
     - term: AI·图设
       links:
         - title: Hugging Face
@@ -6812,6 +6828,10 @@
           logo: https://c2story.com/favicon.ico
           url: https://c2story.com/
           description: 提供各种类型的故事小说写作模型和写作阅读平台。包括：不同类型小说的撰写，不同模型的使用，图片生成等
+        - title: AI写作
+          logo: https://api.iowen.cn/favicon/ai.zaker.cn.png
+          url: https://ai.zaker.cn/
+          description: AI内容创作 一键生成文章、营销文本、配图与短视频等多类型内容
     - term: AI·模型+平台
       links:
         - title: 趋动云社区
@@ -8665,6 +8685,10 @@
           logo: https://nuofe.github.io/nuofe-weekly1/gitbook/images/favicon.ico
           url: https://nuofe.github.io/nuofe-weekly1/
           description: 诺诺前端周刊，为前端开发同学创建的每周一小时了解前端发展、技术文档和业界新闻的 readlist
+        - title: 独立周刊 | go空间 Next-Blogger
+          logo: https://goroutine.cn/static/images/logo.png
+          url: https://goroutine.cn/zh-CN/page/indiehackers
+          description: 录每周所见所学，包括Git热门项目、新产品思路以及新技术方向。
     - term: 公众号
       links:
         - title: 前端食堂技术周刊
@@ -9984,3 +10008,7 @@
           logo: https://pansci.asia/wp-content/themes/pansci-bootstrap-child//src/imgs/logo/pansci_logo_only.png
           url: https://pansci.asia/
           description: PanSci 泛科學
+        - title: Block Blast Cheat | Free Online Block Blast Best Move Calculator
+          logo: https://blockblastcheat.com/favicon.ico
+          url: https://blockblastcheat.com/
+          description: Block Blast Cheat helps you find the best moves for Block Blast. It's free and online! You only need to upload a screenshot and we'll do the rest to get you high scores.
