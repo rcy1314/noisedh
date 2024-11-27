@@ -4623,6 +4623,10 @@
           logo: https://blog.laoda.de/upload/guguge.webp
           url: https://blog.laoda.de/
           description: 服务器折腾不完全指南，定期分享一些好玩的东西，不定期记录生活。
+        - title: 科研学帮帮 - 分享，交流，互助，进步
+          logo: https://wk8686.top/upload/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241016093647.jpg
+          url: https://wk8686.top/
+          description: hey，这里是科研学帮帮，一个收录了各种学术资源的个人博客。可以进行登录投稿评论交流。快进来耍耍吧！
     - term: 博客人生·构建
       links:
         - title: Github
@@ -5475,6 +5479,10 @@
           logo: https://docgenie.co.uk/images/new_assets/docgenie-icon.svg
           url: https://docgenie.co.uk/
           description: 将Kindle Scribe笔记本分享至Google Drive、OneDrive 和 Dropbox的小工具
+        - title: 一站式 iframe 生成器 | 专业的嵌入内容可视化配置工具
+          logo: https://iframegenerator.top/favicon.ico
+          url: https://iframegenerator.top/
+          description: 无需编写代码，轻松创建自定义、响应式且安全的嵌入内容。支持多设备预览、企业级安全控制、完整样式定制、配置管理等专业功能。
     - term: API平台
       links:
         - title: 搏天api
