@@ -1,0 +1,667 @@
+<div class="header-big post-top css-color mb-4" id="search-bg">
+    <div class="s-search mx-auto">
+        <div id="search-list-menu" class="hide-type-list">
+            <div class="s-type text-center">
+                <div class="s-type-list big">
+                    <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .recent-sites {
+                margin-top: 0;
+                padding: 10px;
+                border-radius: 2px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                text-align: center;
+                border: 1px solid rgba(128, 128, 128, 0.5);
+                overflow: hidden;
+                background-color: #1d233738;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+
+            .recent-sites.visible {
+                display: block;
+                opacity: 1;
+            }
+
+            @media (max-width: 800px) {
+
+                .recent-sites,
+                .recent-sites h2,
+                #site-list {
+                    display: none !important;
+                }
+            }
+
+            .recent-sites h2 {
+                color: white;
+                font-size: 14px;
+                padding: 10px;
+                margin: 0;
+            }
+
+            #site-list {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                max-height: 40px;
+                overflow: hidden;
+            }
+
+            #site-list li {
+                padding: 8px 12px;
+            }
+
+            #site-list li:last-child {
+                border-bottom: none;
+            }
+
+            #site-list .title {
+                color: white;
+            }
+
+            #site-list .url {
+                color: #e54911;
+                text-decoration: none;
+            }
+
+            #site-list .url:hover {
+                text-decoration: underline;
+            }
+
+            #site-list .description {
+                color: white;
+            }
+
+            body::-webkit-scrollbar {
+                display: none;
+            }
+
+            body {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+
+            .avatar-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+
+            .avatar {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+            .welcome-text {
+                color: white;
+                font-size: 18px;
+                text-align: center;
+            }
+
+            .main-title {
+                font-size: 36px;
+                text-align: center;
+                margin-bottom: 10px;
+                background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: gradient-animation 3s ease infinite;
+            }
+
+            @media (max-width: 800px) {
+                .main-title {
+                    font-size: 34px;
+                }
+            }
+
+            @keyframes gradient-animation {
+                0% {
+                    background-position: 0% 50%;
+                }
+
+                50% {
+                    background-position: 100% 50%;
+                }
+
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+
+            .title-spacing {
+                margin: 0;
+                display: inline-block;
+            }
+
+            #search-input {
+                padding: 8px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 5px 0 0 5px;
+                width: 70%;
+                /* 使用百分比来适应不同宽度 */
+                max-width: 400px;
+                /* 设置最大宽度 */
+                margin-bottom: 20px;
+            }
+
+            @media (max-width: 840px) {
+                #search-input {
+                    width: 80%;
+                    /* 在小屏幕上增加占比 */
+                    max-width: 300px;
+                    /* 设置最大宽度 */
+                }
+            }
+
+            #search-button {
+                padding: 8px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 0 5px 5px 0;
+                background-color: #f0f0f0;
+                cursor: pointer;
+            }
+
+            #search-results {
+                background-color: rgba(0, 0, 0, 0.7);
+                padding: 20px;
+                border-radius: 5px;
+                width: 80%;
+                max-width: 800px;
+                max-height: 80vh;
+                overflow-y: auto;
+                display: none;
+                position: fixed;
+                left: 50%;
+                transform: translateX(-50%);
+                color: white;
+                z-index: 1000;
+                top: 20%;
+                text-align: center;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .results-header {
+                width: 100%;
+                font-size: 20px;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+
+            .result-item {
+                margin: 5px;
+                padding: 15px;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                border-radius: 5px;
+                background-color: rgba(32, 30, 30, 0.699);
+                width: 180px;
+                text-align: center;
+            }
+
+            .result-item a {
+                color: orange;
+                text-decoration: none;
+            }
+
+            .result-item a:hover {
+                text-decoration: underline;
+            }
+
+            #overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                z-index: 999;
+            }
+
+            .result-title {
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            .result-description {
+                font-size: 12px;
+                color: #ccc;
+            }
+
+            .result-url {
+                font-size: 12px;
+                color: lightblue;
+            }
+
+            .ad-section {
+                text-align: center;
+                overflow: hidden;
+                border-radius: 15px;
+                position: relative;
+                /* 使得绝对定位的子元素相对于这个容器 */
+            }
+
+            .ad-section img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+
+            .ad-description {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                background-color: rgba(36, 35, 35, 0.707);
+                padding: 10px;
+                border-radius: 20px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+                display: none;
+            }
+
+
+            .carousel-item {
+                position: relative;
+            }
+
+            .carousel-item:hover .ad-description {
+                display: block;
+            }
+
+            .carousel-control-prev,
+            .carousel-control-next {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: 10;
+                background-color: rgba(255, 255, 255, 0.5);
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                visibility: visible;
+                opacity: 1;
+            }
+
+            .carousel-control-prev {
+                left: 5px;
+            }
+
+            .carousel-control-next {
+                right: 5px;
+            }
+
+            .flex-container {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                align-items: stretch;
+                padding: 2px;
+                margin: 0;
+                background-color: rgba(10, 10, 11, 0.234);
+                border: 2px solid #44444400;
+            }
+
+            .flex-item {
+                flex: 1;
+                padding: 0 5px;
+                box-sizing: border-box;
+                border: 1px solid #444;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .flex-item.right {
+                flex: 2;
+            }
+
+            @media (max-width: 800px) {
+                .flex-container {
+                    flex-direction: column;
+                }
+
+                .flex-item {
+                    flex: 1;
+                }
+            }
+
+            .bilibiliindex {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 25vh;
+                width: auto;
+                margin: auto;
+                background-color: #323232;
+                border: 2px solid #212020;
+                border-radius: 10px;
+            }
+
+            @media (max-width: 800px) {
+                .bilibiliindex {
+                    display: none;
+                }
+            }
+
+            #lbl {
+                font-family: brushscriptmt;
+                font-size: 21px;
+                background: linear-gradient(90deg, #FF0000, #8939e5, #9e443a, #3383e5, #b333e5ce);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                padding: 5px;
+                border: 1px solid #212936ca;
+                text-align: center;
+                line-height: 1.5;
+                height: auto;
+            }
+
+            #date {
+                font-size: 18px;
+                background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+            }
+
+            .button-container {
+                display: flex;
+                justify-content: center;
+                margin: 20px 0;
+            }
+
+            .nav-button {
+                background-color: #2d324362;
+                color: white;
+                border: none;
+                margin: 0 10px;
+                padding: 5px 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+                transition: background-color 0.3s, color 0.3s;
+                min-width: 20px;
+                /* 设置按钮的最小宽度 */
+            }
+
+            .nav-button:hover {
+                background-color: #7b84fe;
+                color: #fff;
+                transform: scale(1.1);
+            }
+
+            .nav-button svg {
+                height: 16px;
+                width: 16px;
+                margin-right: 5px;
+            }
+
+            .page {
+                display: none;
+            }
+
+            .active {
+                display: block;
+            }
+        </style>
+        <div class="button-container">
+            <button class="nav-button" onclick="showPage('default')">
+                <svg xmlns="http://www.w3.org/2000/svg" fill='#ffffff' width='64' height='64' viewBox="0 0 56 56">
+                    <path
+                        d="M 16.0938 52.3164 C 17.0313 52.3164 17.6876 51.8476 18.7891 50.8164 L 27.2735 43.0820 L 43.0938 43.1055 C 50.0783 43.1289 53.8280 39.2383 53.8280 32.3711 L 53.8280 14.4180 C 53.8280 7.5508 50.0783 3.6836 43.0938 3.6836 L 12.9064 3.6836 C 5.9454 3.6836 2.1720 7.5273 2.1720 14.4180 L 2.1720 32.3711 C 2.1720 39.2617 5.9454 43.1055 12.9064 43.0820 L 14.0079 43.0820 L 14.0079 49.9024 C 14.0079 51.3555 14.7813 52.3164 16.0938 52.3164 Z M 19.9376 24.3555 C 19.9376 26.2070 18.2969 27.8242 16.4220 27.8242 C 14.5469 27.8242 12.9532 26.2070 12.9532 24.3555 C 12.9532 22.4805 14.5001 20.8398 16.4220 20.8398 C 18.2969 20.8398 19.9376 22.5039 19.9376 24.3555 Z M 31.6564 24.3555 C 31.6564 26.2070 30.0391 27.8242 28.1642 27.8242 C 26.3126 27.8242 24.6954 26.2070 24.6954 24.3555 C 24.6954 22.4805 26.2657 20.8398 28.1642 20.8398 C 30.0391 20.8398 31.6564 22.5039 31.6564 24.3555 Z M 43.3751 24.3555 C 43.3751 26.2070 41.8048 27.8242 39.9064 27.8242 C 38.0313 27.8242 36.4142 26.2070 36.4142 24.3555 C 36.4142 22.4805 38.0079 20.8398 39.9064 20.8398 C 41.8048 20.8398 43.3751 22.5039 43.3751 24.3555 Z">
+                    </path>
+                </svg>
+                默认
+            </button>
+            <button class="nav-button" onclick="showPage('friendlinks')">
+                <svg xmlns="http://www.w3.org/2000/svg" width='64' height='64' fill='#ffffff' viewBox="0 0 16 16">
+                    <path
+                        d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5">
+                    </path>
+                </svg>
+                友链
+            </button>
+            <button class="nav-button" onclick="showPage('waline')">
+                <svg xmlns="http://www.w3.org/2000/svg" width='64' height='64' fill='#ffffff' viewBox="0 0 16 16">
+                    <path
+                        d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.5a1 1 0 0 0-.8.4l-1.9 2.533a1 1 0 0 1-1.6 0L5.3 12.4a1 1 0 0 0-.8-.4H2a2 2 0 0 1-2-2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z">
+                    </path>
+                </svg>
+                热榜
+            </button>
+            <button class="nav-button" onclick="showPage('about')">
+                <svg xmlns="http://www.w3.org/2000/svg" fill='#ffffff' width='64' height='64' viewBox="0 0 56 56">
+                    <path
+                        d="M 25.9257 28.5390 L 25.9257 16.1172 L 22.4335 16.1172 C 18.5663 16.1172 16.5272 13.6094 16.5272 11.1719 C 16.5272 8.6406 18.4023 7.1406 20.9101 7.1406 C 23.7929 7.1406 26.0429 9.3672 26.0429 13.0937 L 26.0429 16.1172 L 29.9570 16.1172 L 29.9570 13.0937 C 29.9570 9.3672 32.2070 7.1406 35.0897 7.1406 C 37.5976 7.1406 39.4960 8.6406 39.4960 11.1719 C 39.4960 13.6094 37.3866 16.1172 33.5663 16.1172 L 30.0741 16.1172 L 30.0741 28.5390 L 46.5976 28.5390 C 49.1524 28.5390 50.5352 27.5547 50.5352 25.0468 L 50.5352 19.6094 C 50.5352 17.1250 49.1524 16.1172 46.5976 16.1172 L 41.1366 16.1172 C 42.5897 14.8047 43.4570 13.0234 43.4570 11.0078 C 43.4570 6.4844 39.8710 3.2266 35.3241 3.2266 C 31.9492 3.2266 29.2070 5.1015 28.0116 8.4297 C 26.8163 5.1015 24.0507 3.2266 20.6757 3.2266 C 16.1523 3.2266 12.5429 6.4844 12.5429 11.0078 C 12.5429 13.0234 13.3866 14.8047 14.8632 16.1172 L 9.4023 16.1172 C 6.9882 16.1172 5.4648 17.1250 5.4648 19.6094 L 5.4648 25.0468 C 5.4648 27.5547 6.8710 28.5390 9.4023 28.5390 Z M 25.9257 52.7734 L 25.9257 31.0468 L 8.8163 31.0468 L 8.8163 46.8203 C 8.8163 50.7344 11.1132 52.7734 15.0272 52.7734 Z M 30.0741 31.0468 L 30.0741 52.7734 L 40.9726 52.7734 C 44.8866 52.7734 47.1835 50.7344 47.1835 46.8203 L 47.1835 31.0468 Z">
+                    </path>
+                </svg>
+                关于
+            </button>
+            <button class="nav-button" onclick="window.open('https://memos.noisework.cn/u/noise/rss.xml', '_blank')">
+                <svg xmlns="http://www.w3.org/2000/svg" width='64' height='64' fill='#ffffff' viewBox="0 0 16 16">
+                    <path
+                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2m0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2m.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3">
+                    </path>
+                </svg>
+                订阅
+            </button>
+        </div>
+ <!-- 默认页面内容 -->
+ <div id="default" class="page active">
+   <!-- 最近收录的站点 -->
+   <div class="recent-sites" id="recent-sites">
+    <h2 id="recent-sites-title"
+        style="background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce); text-align: center; height: 45px; border-radius: 10px; box-shadow: inset 0 0 10px rgba(10, 10, 10, 0.086); display: flex; align-items: center; justify-content: center; font-size: 22px; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+        最近收录的站点（欢迎投稿）
+    </h2>
+    <ul id="site-list">
+        <!-- 动态添加网站数据 -->
+    </ul>
+</div>
+
+<script>
+    // 模拟动态加载内容
+    document.addEventListener("DOMContentLoaded", function () {
+        const recentSites = document.getElementById("recent-sites");
+        // 假设这里是动态获取数据的地方
+        setTimeout(() => {
+            // 添加内容
+            // 例如：recentSites.querySelector("#site-list").innerHTML = "<li>示例网站</li>";
+            recentSites.classList.add("visible"); // 添加可见类
+        }, 100); // 模拟异步加载
+    });
+</script>
+
+<!-- 左侧 -->
+<div class="flex-container">
+    <div class="flex-item">
+        <div id="lbl"></div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var weekday = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+                var today = new Date();
+                var hrs = today.getHours();
+                var dayOfWeek = weekday[today.getDay()];
+                var date = today.getFullYear() + '年' + (today.getMonth() + 1).toString().padStart(2, '0') + '月' + today.getDate().toString().padStart(2, '0') + '日';
+
+                var greet = hrs < 5 ? "凌晨好,欢迎访问 NOISE导航" :
+                    hrs < 9 ? "早上好,欢迎访问 NOISE导航" :
+                        hrs < 11 ? "上午好,欢迎访问 NOISE导航" :
+                            hrs < 13 ? "中午好,欢迎访问 NOISE导航" :
+                                hrs < 17 ? "下午好,欢迎访问 NOISE导航" :
+                                    hrs < 19 ? "傍晚好,欢迎访问 NOISE导航" :
+                                        hrs < 22 ? "晚上好,欢迎访问 NOISE导航" : "NOISE导航提醒您，夜深了，早点休息哦😯";
+
+                document.getElementById('lbl').innerHTML = greet + `<div id="date"> 今天是：${date}</div>`;
+            });
+        </script>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <input type="text" id="search-input" placeholder="站内搜索..." />
+            <button id="search-button">🔍</button>
+        </div>
+        <div id="overlay"></div>
+        <div id="search-results" style="display: none;">
+            <div class="results-header" style="display: none;">当前搜索结果如下：</div>
+        </div>
+        <div class="bilibiliindex" style="width: 98%; height: 25vh;">
+            <iframe src="https://www.noisework.cn/e/bili/index.html?id=3271958393"
+                style="width: 95%; height: 100%; border: none;" loading="lazy"></iframe>
+        </div>
+    </div>
+    <!-- 右侧 -->
+    <div class="flex-item right" style="color: white;">
+        <div style="width:auto;">
+            <meting-js list-max-height="62px" server="netease" type="playlist" data-fixed="true"
+                data-autoplay="false" id="128460001"></meting-js>
+        </div>
+        <br>
+        <div class="ad-section">
+            <div id="ad-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://simhaoka.com/phone/index?id=A7BA17EFD6DC47F6826F0C67B898725A"
+                            target="_blank">
+                            <img src="https://noisevip.cn/./2024/04/1712849718-6446d860dbbfe54.png"
+                                alt="超大流量性价比手机卡渠道1" style="max-height: 220px; object-fit: cover;"
+                                loading="lazy">
+                            <div class="ad-description">超大流量性价比手机卡渠道1</div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#" target="_blank">
+                            <img src="https://noisevip.cn/./2023/07/1689164400-73c18c59a39b183.png" alt="广告位+"
+                                style="max-height: 220px; object-fit: cover;" loading="lazy">
+                            <div class="ad-description">广告位+</div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://hk.yunhaoka.cn/#/pages/micro_store/index?agent_id=422648"
+                            target="_blank">
+                            <img src="https://noisevip.cn/./2024/04/1712938175-6446d860dbbfe54.png"
+                                alt="超大流量性价比手机卡渠道2" style="max-height: 220px; object-fit: cover;"
+                                loading="lazy">
+                            <div class="ad-description">超大流量性价比手机卡渠道2</div>
+                        </a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#ad-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#ad-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- 其他页面内容 -->
+<div id="friendlinks" class="page">
+    <div class="title"><i class="fa-solid fa-user-plus"></i>友链示例</div>
+    <!-- 友链内容 -->
+</div>
+
+<div id="waline" class="page">
+    <div class="title">热榜内容</div>
+    <!-- 热榜内容 -->
+</div>
+
+<div id="about" class="page">
+    <div class="title">关于内容</div>
+    <!-- 关于内容 -->
+</div>
+
+<script>
+    function showPage(page) {
+        // 隐藏所有页面
+        document.querySelectorAll('.page').forEach(p => {
+            p.classList.remove('active');
+        });
+
+        // 隐藏最近收录的站点和左右区域
+        const recentSites = document.getElementById("recent-sites");
+        recentSites.classList.remove("hidden");
+
+        // 显示切换的页面
+        const selectedPage = document.getElementById(page);
+        selectedPage.classList.add('active');
+
+        // 隐藏默认内容
+        if (page !== 'default') {
+            recentSites.classList.add("hidden");
+        }
+    }
+
+    // 页面加载时显示默认内容
+    document.addEventListener("DOMContentLoaded", function () {
+        const recentSites = document.getElementById("recent-sites");
+        recentSites.classList.remove("hidden"); // 默认可见
+    });
+</script>
+
+<!-- 公告 -->
+<div class="wp zzbuluoled" style="margin-top:0;">
+    <div
+        style="background: linear-gradient(rgba(46, 52, 72, 0.5), rgba(46, 52, 72, 0.1)); text-align: center; height: 45px; border-radius: 10px; box-shadow: inset 0 0 10px rgba(10, 10, 10, 0.5); display: flex; align-items: center; justify-content: center;">
+        <div id="zzbuluoled_sx"
+            style="width:auto; overflow:hidden; height: 45px; text-align:left; display: flex; align-items: center; line-height: 45px;">
+            <marquee direction="left" scrollamount="5">
+                <strong>
+                    <a href="https://www.noisedh.link" target="_blank">
+                        <span
+                            style="font-family: 'Tahoma'; font-weight:600; color: #FF0000; font-size: 20px;">👏欢迎访问，本站域名:www.noisedh.cn
+                            🧐 www.noisedh.link 👉</span>
+                    </a>
+                    <a href="https://www.noisedh.link/invalidlinks" target="_blank">
+                        <span
+                            style="font-family: 'Tahoma'; font-weight:600; color: #e56f39; font-size: 20px;">新增分类调整及增加站点收录👉</span>
+                    </a>
+                    <a href="https://www.noisedh.link/invalidlinks" target="_blank">
+                        <span
+                            style="font-family: 'Tahoma'; font-weight:600; color: #39a4e5; font-size: 20px;">查看链接检测记录，如有误删可联系😄</span>
+                    </a>
+                    <span
+                        style="font-family: 'Tahoma'; font-weight:600; color: #566cd7; font-size: 20px;">已更新站点收录信息，收录请投稿，广告Loading...</span>
+                    <a href="https://hk.yunhaoka.cn/#/pages/micro_store/index?agent_id=422648" target="_blank">
+                        <span
+                            style="font-family: 'Tahoma'; font-weight:600; color: #e56e33; font-size: 20px;">📢：全国正规流量手机卡优惠渠道二</span>
+                    </a>
+                    <span
+                        style="font-family: 'Tahoma'; font-weight:600; color: #b333e5ce; font-size: 20px;">📢：已优化站点，如您发现域名访问受限，请尝试访问其它域名，本站可永久持续访问</span>
+                    <a href="https://www.noisedh.link" target="_blank">
+                        <span
+                            style="font-family: 'Tahoma'; font-weight:600; color: #FFFFFF; font-size: 20px;">公告已更新，欢迎随时回来👏</span>
+                    </a>
+                </strong>
+            </marquee>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+<link rel="stylesheet" href="https://www.noisework.cn/css/APlayer.min.css">
+        <script src="https://www.noisework.cn/js/APlayer.min.js"></script>
+        <script src="https://www.noisework.cn/js/Meting.min.js"></script>

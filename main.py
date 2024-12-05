@@ -48,6 +48,9 @@ EXCLUDED_URL_PARTS = [
     "noisedaohang.netlify.app",
     "app.netlify.com",
     "55app.shop",
+    "https://zxjg.samr.gov.cn",
+    "https://codegeex.cn/zh-CN",
+    "https://www.ifanr.com/feed",
     # 可以根据需要添加更多部分
 ]
 

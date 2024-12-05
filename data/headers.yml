@@ -2,17 +2,25 @@
   icon: fa fa-home
   link: "./"
 
-- item: 主页版
-  icon: fa fa-book
-  link: "./soso/"
+- item: 关于本站
+  icon: fa fa-info-circle
+  link: "./about/"
+
+- item: 投稿
+  icon: fa fa-paper-plane
+  link: "./tougao/"
+
+- item: 更新记录
+  icon: fa fa-pencil-square-o
+  link: "./update/"  
   
 - item: 链接检测记录
   icon: fa fa-star
   link: "./invalidlinks"
 
-- item: 投稿
-  icon: fa fa-paper-plane
-  link: "./tougao/"
+- item: Nav-Manage说明
+  icon: fa fa-coffee
+  link: "./nav/"
 
 - item: 程序下载
   icon: fa fa-gift
@@ -49,5 +57,3 @@
       url: "https://h5qqf-xqaaa-aaaag-aazea-cai.ic0.app"
     - name: 🗒维格表
       url: "https://spcqwserdvymm.com.vika.cn/share/shryNwH3HRgvzMTaZVAGx/fodkuzz5eaw0w"
-    - name: ⌛关于
-      url: "./about/"
