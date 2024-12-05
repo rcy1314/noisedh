@@ -13,7 +13,7 @@
       <link>https://www.noisedh.cn/about/</link>
       <pubDate>Tue, 28 Jul 2020 19:27:08 +0800</pubDate>
       <guid>https://www.noisedh.cn/about/</guid>
-      <description>&lt;h2 id=&#34;关于本站&#34;&gt;关于本站&lt;/h2&gt;&#xA;&lt;center&gt;Noise导航是一个综合类导航站，收录你那些值得收藏的网站&lt;/center&gt;&#xA;&lt;center&gt;导航内容主要包含新媒体类、运营类、影视类、AI类、订阅类等方向&lt;/center&gt;&#xA;&lt;center&gt;目前本站包含多个版本及域名，以主域名服务为主，欢迎访问使用&lt;center&gt;&#xA;主域名:https://www.noisedh.link&lt;center&gt;&#xA;原https://www.noisedh.cn部分DNS被污染&lt;center&gt;&#xA;备用地址1:https://noisedaohang.netlify.app&lt;center&gt;&#xA;备用地址2:https://daohang-c5k.pages.dev&lt;center&gt;&#xA;简约版【浏览器主页】:https://noisedh.cn/soso/&lt;center&gt;&#xA;旧版【影视新媒体】:https://noisedh.cn/jiuban/&lt;center&gt;&#xA;博客版【卡片样式】:https://h5qqf-xqaaa-aaaag-aazea-cai.ic0.app&lt;center&gt;&#xA;&lt;/center&gt;&#xA;&lt;center&gt;本站收录网址来源于我的各个站点，包括wiki、bookmark站、知识效率集等，在此基础上增加了多个版本，可永久维护和访问&lt;/center&gt;&#xA;&lt;center&gt;本站在增加不同分类的同时也在聚合不同行业，提供新媒体类、编程类、设计类、影视在线类等等，欢迎随时投稿&lt;/center&gt;&#xA;&lt;center&gt;特别感谢：&#xA;    webstack hugo主题，地址：https://github.com/shenweiyan/WebStack-Hugo&#xA;&lt;center&gt;imsyy开源的起始页，地址：https://github.com/imsyy/Snavigation&#xA; &lt;center&gt;同时本站也支持开源，你可以自托管或使用本站维护的版本&#xA;&lt;/center&gt;&#xA;&lt;iframe  &#xA; height=450 &#xA; width=100%&#xA; src=&#34;https://www.noisework.cn/e/zhichi/&#34;  &#xA; frameborder=0  &#xA; allowfullscreen&gt;&#xA; &lt;/iframe&gt;</description>
+      <description>&lt;h2 id=&#34;关于本站&#34;&gt;关于本站&lt;/h2&gt;&#xA;&lt;p&gt;NOISE导航是一个综合类导航网站，提供AI、新媒体、影视、设计、编程等行业分类导航，发现值得珍藏的网站。&lt;/p&gt;&#xA;&lt;p&gt;本站是在webstack hugo主题基础上进行不断优化调整，并使用自制浏览器扩展-Nav Manage进行完善，备有两个站点API，可一键导出站点为浏览器书签及可站内搜索、订阅等.目前本站包含多个版本及域名，以主域名服务为主，欢迎访问使用&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
@@ -28,6 +28,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.noisedh.cn/invalidlinks/</guid>
       <description>&lt;h2 id=&#34;检查日期-2024年09月08日-1309&#34;&gt;检查日期: 2024年09月08日 13:09&lt;/h2&gt;&#xA;&lt;h1 id=&#34;需人工检查的链接&#34;&gt;需人工检查的链接&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;标题: biubiu游戏美术论坛&#xA;URL: &lt;a href=&#34;https://www.magicsart.com&#34;&gt;https://www.magicsart.com&lt;/a&gt;&#xA;描述: 最专业的游戏特效师，动画师社区&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;标题: iiidea CG&#xA;URL: &lt;a href=&#34;http://iiidea.cn&#34;&gt;http://iiidea.cn&lt;/a&gt;&#xA;描述: CG资源网&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;标题: LOOK资源网&#xA;URL: &lt;a href=&#34;https://www.lookzy.cn&#34;&gt;https://www.lookzy.cn&lt;/a&gt;&#xA;描述: 后期素材下载站&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.noisedh.cn/nav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.noisedh.cn/nav/</guid>
+      <description>&lt;h2 id=&#34;nav-manage&#34;&gt;Nav-Manage&lt;/h2&gt;&#xA;&lt;p&gt;本说明是为&lt;a href=&#34;https://github.com/rcy1314/nav-manage&#34;&gt;Nav Manage扩展&lt;/a&gt;的进一步说明&lt;/p&gt;&#xA;&lt;p&gt;Nav-Manage由后端API+前端扩展组成，后端支持一键部署到 Railway和Zeabur&lt;/p&gt;&#xA;&lt;p&gt;开发分为三个组成部分，目前前端扩展满足基本需求的情况下暂不会更新&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.noisedh.cn/update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.noisedh.cn/update/</guid>
+      <description>&lt;h2 id=&#34;网站更新&#34;&gt;网站更新&lt;/h2&gt;&#xA;&lt;p&gt;&lt;u&gt;2023-2024&lt;/u&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;减少不必要的文件和代码，修改主题文件样式代码&lt;/li&gt;&#xA;&lt;li&gt;优化主文件懒加载图标，调整首页网址块显示大小&lt;/li&gt;&#xA;&lt;li&gt;调整投稿页样式及文章页样式&lt;/li&gt;&#xA;&lt;li&gt;增加Nav-Manage浏览器扩展一键增加删除书签&lt;/li&gt;&#xA;&lt;li&gt;增加站内搜索及自动化检测失效网址功能&lt;/li&gt;&#xA;&lt;li&gt;添加更新收录json文件存储，添加收录自动推送频道社群信息功能&lt;/li&gt;&#xA;&lt;li&gt;添加一键导出站内为浏览器书签格式&lt;/li&gt;&#xA;&lt;li&gt;更新扩展后端添加更新收录RSS文件，增加前端显示及时通知收录&lt;/li&gt;&#xA;&lt;li&gt;调整右下角图标显示&lt;/li&gt;&#xA;&lt;li&gt;调整首页头部显示，增加组件模块效果&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;收录更新&#34;&gt;收录更新&lt;/h2&gt;&#xA;&lt;p&gt;&lt;u&gt;2023-2024&lt;/u&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

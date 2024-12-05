@@ -8,33 +8,85 @@
     <meta name="author" content="Noise导航" />
     <title>关于|Noise导航 &amp; 收录值得珍藏的网站</title>
     <meta name="description" content="Noise导航 &amp; 收录值得珍藏的网站">
-    <link rel="shortcut icon" href="../assets/images/favicon.png">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
-    <link rel="stylesheet" href="../assets/css/fonts/linecons/css/linecons.css">
+    <link rel="shortcut icon" href="/assets/images/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
+    <link rel="stylesheet" href="/assets/css/fonts/linecons/css/linecons.css">
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.2.0/css/fontawesome.min.css">
-    <link rel="stylesheet" href="../assets/css/bootstrap.css">
-    <link rel="stylesheet" href="../assets/css/xenon-core.css">
-    <link rel="stylesheet" href="../assets/css/xenon-components.css">
-    <link rel="stylesheet" href="../assets/css/xenon-skins.css">
-    <link rel="stylesheet" href="../assets/css/nav.css">
-    <link rel="stylesheet" href="../assets/css/custom-style.css">
-    
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/xenon-core.css">
+    <link rel="stylesheet" href="/assets/css/xenon-components.css">
+    <link rel="stylesheet" href="/assets/css/xenon-skins.css">
+    <link rel="stylesheet" href="/assets/css/nav.css">
+    <link rel="stylesheet" href="/assets/css/custom-style.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/waline/2.13.0/waline.css">
+
     <style>
         body {
             color: #333;
-            background-color: #fff;
+            background-color: #1616161a;
+            background-size: cover;
             transition: color 0.3s ease, background-color 0.3s ease;
+            position: relative;
+            font-size: 16px;
+            margin: 0;
+            margin-top: 30px;
+        }
+
+        code {
+            word-wrap: break-word;
+            white-space: pre-wrap;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+            cursor: pointer;
+        }
+
+        pre {
+            overflow-x: auto;
+            white-space: pre-wrap;
+        }
+
+        .tiled-background {
+            background-repeat: repeat;
+            background-size: auto;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: inherit;
+            background-size: cover;
+            filter: blur(20px);
+            z-index: -1;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            width: auto;
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
         }
 
         .dark-mode {
             color: #fff;
-            background-color: #333;
+            background-color: #29323b;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+        .dark-mode .container {
+            background-color: rgba(27, 26, 26, 0.8);
         }
 
         .toggle-dark-mode {
@@ -48,11 +100,11 @@
 
         .toggle-dark-mode label {
             display: inline-block;
-            width: 60px;
+            width: 59px;
             height: 34px;
             position: relative;
             cursor: pointer;
-            background-color: #ccc;
+            background-color: #36566f;
             border-radius: 34px;
             transition: background-color 0.3s ease;
         }
@@ -70,19 +122,50 @@
         }
 
         .toggle-dark-mode input[type="checkbox"]:checked+label {
-            background-color: #4caf50;
+            background-color: #2d2f2d;
         }
 
         .toggle-dark-mode input[type="checkbox"]:checked+label:after {
             transform: translateX(26px);
         }
-    </style>
 
-    
-    <script src="../assets/js/jquery-1.11.1.min.js"></script>
-    
-    
-    
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+                margin: 0 auto;
+                max-width: none;
+            }
+        }
+
+         
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(25, 24, 24, 0.207);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.3s ease;
+        }
+
+        .loader .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(0, 0, 0, 0.231);
+            border-left-color: #478eda;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
     <meta property="og:type" content="article">
     <meta property="og:url" content="">
     <meta property="og:title" content="">
@@ -94,41 +177,50 @@
     <meta name="twitter:title" content="">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
+
+    
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/VoIlv7M6HX8hyfR.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/d3H2LvkizVxyqUC.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/yH6TBgWY73h2xN9.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/Pw8mSDcXvea51iN.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/KP91mWiBe8qRjHt.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/RLFobE2ych9B64D.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/qvBA9W17UzixnsF.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/2Ye6tPILnjmuzhN.png" as="image">
 </head>
 
 <body>
+    <div class="loader">
+        <div class="spinner"></div>
+    </div>
     <div class="container">
         <div class="toggle-dark-mode">
             <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode()">
             <label for="dark-mode-toggle"></label>
-    <div class="page-container">
-        <div class="main-content">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="panel panel-default">
-                        <h4 class="text-gray">关于</h4>
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <h2 id="关于本站">关于本站</h2>
-<center>Noise导航是一个综合类导航站，收录你那些值得收藏的网站</center>
-<center>导航内容主要包含新媒体类、运营类、影视类、AI类、订阅类等方向</center>
-<center>目前本站包含多个版本及域名，以主域名服务为主，欢迎访问使用<center>
-主域名:https://www.noisedh.link<center>
-原https://www.noisedh.cn部分DNS被污染<center>
-备用地址1:https://noisedaohang.netlify.app<center>
-备用地址2:https://daohang-c5k.pages.dev<center>
-简约版【浏览器主页】:https://noisedh.cn/soso/<center>
-旧版【影视新媒体】:https://noisedh.cn/jiuban/<center>
-博客版【卡片样式】:https://h5qqf-xqaaa-aaaag-aazea-cai.ic0.app<center>
-</center>
-<center>本站收录网址来源于我的各个站点，包括wiki、bookmark站、知识效率集等，在此基础上增加了多个版本，可永久维护和访问</center>
-<center>本站在增加不同分类的同时也在聚合不同行业，提供新媒体类、编程类、设计类、影视在线类等等，欢迎随时投稿</center>
-<center>特别感谢：
-    webstack hugo主题，地址：https://github.com/shenweiyan/WebStack-Hugo
-<center>imsyy开源的起始页，地址：https://github.com/imsyy/Snavigation
- <center>同时本站也支持开源，你可以自托管或使用本站维护的版本
-</center>
+        </div>
+        <div class="page-container">
+            <div class="main-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <h4 class="text-gray">关于</h4>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h2 id="关于本站">关于本站</h2>
+<p>NOISE导航是一个综合类导航网站，提供AI、新媒体、影视、设计、编程等行业分类导航，发现值得珍藏的网站。</p>
+<p>本站是在webstack hugo主题基础上进行不断优化调整，并使用自制浏览器扩展-Nav Manage进行完善，备有两个站点API，可一键导出站点为浏览器书签及可站内搜索、订阅等.目前本站包含多个版本及域名，以主域名服务为主，欢迎访问使用</p>
+<p>主域名：<a href="https://www.noisedh.cn">https://www.noisedh.cn</a>部分地区DNS被污染</p>
+<p>辅助域名:<a href="https://www.noisedh.link">https://www.noisedh.link</a></p>
+<p>备用地址1:<a href="https://noisedaohang.netlify.app">https://noisedaohang.netlify.app</a></p>
+<p>备用地址2:<a href="https://daohang-c5k.pages.dev">https://daohang-c5k.pages.dev</a></p>
+<p>简约版主页:<a href="https://noisedh.cn/soso/">https://noisedh.cn/soso/</a></p>
+<p>旧版【影视新媒体】:<a href="https://noisedh.cn/jiuban/">https://noisedh.cn/jiuban/</a></p>
+<p>本站收录网址来源于我的各个站点，包括wiki、bookmark站、知识效率集等，在此基础上增加了多个版本，可永久维护和访问
+本站在增加不同分类的同时也在聚合不同行业，提供新媒体类、编程类、设计类、影视在线类等等，欢迎随时投稿</p>
+<p>特别感谢：</p>
+<p>webstack hugo主题，地址：<a href="https://github.com/shenweiyan/WebStack-Hugo">https://github.com/shenweiyan/WebStack-Hugo</a></p>
+<p>imsyy开源的起始页，地址：<a href="https://github.com/imsyy/Snavigation">https://github.com/imsyy/Snavigation</a></p>
 <iframe  
  height=450 
  width=100%
@@ -137,36 +229,109 @@
  allowfullscreen>
  </iframe>
 
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            
-            <footer class="main-footer sticky footer-type-1 fixed">
-                <div class="footer-inner">
-                    <div class="footer-text">
-                        <strong><p> 2019 - 2024 | 本站收录值得珍藏的网站，欢迎访问使用</p>©<a href="https://noisedh.cn" target="_blank"><strong>NOISE导航</strong></a></strong>2024
+                
+                
+                <footer class="main-footer">
+                    <div class="footer-inner">
+                        <div class="footer-text">
+                            <strong><p> 2019 - 2024 | 本站收录值得珍藏的网站，欢迎访问使用</p>©<a href="https://noisedh.cn" target="_blank"><strong>NOISE导航</strong></a></strong>2024
+                        </div>
                     </div>
-                </div>
-            </footer>
+                </footer>
+            </div>
         </div>
     </div>
-<script>
+    <script src="/assets/js/jquery-1.11.1.min.js"></script>
+    <script>
+        
+        const backgrounds = [
+            'https://s2.loli.net/2024/12/01/VoIlv7M6HX8hyfR.png',
+            'https://s2.loli.net/2024/12/01/d3H2LvkizVxyqUC.png',
+            'https://s2.loli.net/2024/12/01/yH6TBgWY73h2xN9.png',
+            'https://s2.loli.net/2024/12/01/Pw8mSDcXvea51iN.png',
+            'https://s2.loli.net/2024/12/01/KP91mWiBe8qRjHt.png',
+            'https://s2.loli.net/2024/12/01/RLFobE2ych9B64D.png',
+            'https://s2.loli.net/2024/12/01/qvBA9W17UzixnsF.png',
+            'https://s2.loli.net/2024/12/01/2Ye6tPILnjmuzhN.png'
+        ];
+
+        
+        function lazyLoadBackground() {
+            const randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
+            document.body.style.backgroundImage = `url("${randomBackground}")`;
+            document.body.style.backgroundSize = 'cover';
+        }
+
         function toggleDarkMode() {
             var body = document.getElementsByTagName("body")[0];
             body.classList.toggle("dark-mode");
         }
+
+        
+        function checkBackgroundColor() {
+            const body = document.body;
+            const heightThreshold = 1800; 
+
+            if (body.scrollHeight > heightThreshold) {
+                body.classList.add('tiled-background'); 
+                body.style.backgroundSize = 'auto'; 
+            } else {
+                body.classList.remove('tiled-background'); 
+                body.style.backgroundSize = 'cover'; 
+            }
+        }
+
+                
+                function showLoader() {
+            const loader = document.querySelector('.loader');
+            loader.style.opacity = 1;
+            loader.style.visibility = 'visible';
+        }
+
+        
+        function hideLoader() {
+            const loader = document.querySelector('.loader');
+            loader.style.opacity = 0;
+            loader.style.visibility = 'hidden';
+        }
+
+        
+        function checkBackgroundImageLoaded() {
+            const body = document.body;
+            const img = new Image();
+            img.src = body.style.backgroundImage.replace(/url\(["']?([^)"']+?)["']?\)/, '$1');
+            img.onload = function() {
+                hideLoader();
+            };
+            img.onerror = function() {
+                hideLoader();
+            };
+        }
+
+        
+        window.onload = function () {
+            showLoader();
+            lazyLoadBackground();
+            checkBackgroundColor();
+            checkBackgroundImageLoaded();
+        };
+        window.onresize = checkBackgroundColor;
     </script>
     
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/TweenMax.min.js"></script>
-    <script src="../assets/js/resizeable.js"></script>
-    <script src="../assets/js/joinable.js"></script>
-    <script src="../assets/js/xenon-api.js"></script>
-    <script src="../assets/js/xenon-toggles.js"></script>
-    <script src="../assets/js/xenon-custom.js"></script>
+    <script src="https://cdn.staticfile.org/waline/2.13.0/waline.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/TweenMax.min.js"></script>
+    <script src="/assets/js/resizeable.js"></script>
+    <script src="/assets/js/joinable.js"></script>
+    <script src="/assets/js/xenon-api.js"></script>
+    <script src="/assets/js/xenon-toggles.js"></script>
+    <script src="/assets/js/xenon-custom.js"></script>
 </body>
+
 </html>

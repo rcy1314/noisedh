@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Noise导航" />
+    <title>|Noise导航 &amp; 收录值得珍藏的网站</title>
+    <meta name="description" content="Noise导航 &amp; 收录值得珍藏的网站">
+    <link rel="shortcut icon" href="/assets/images/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
+    <link rel="stylesheet" href="/assets/css/fonts/linecons/css/linecons.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.2.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/xenon-core.css">
+    <link rel="stylesheet" href="/assets/css/xenon-components.css">
+    <link rel="stylesheet" href="/assets/css/xenon-skins.css">
+    <link rel="stylesheet" href="/assets/css/nav.css">
+    <link rel="stylesheet" href="/assets/css/custom-style.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/waline/2.13.0/waline.css">
+
+    <style>
+        body {
+            color: #333;
+            background-color: #1616161a;
+            background-size: cover;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            position: relative;
+            font-size: 16px;
+            margin: 0;
+            margin-top: 30px;
+        }
+
+        code {
+            word-wrap: break-word;
+            white-space: pre-wrap;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+            cursor: pointer;
+        }
+
+        pre {
+            overflow-x: auto;
+            white-space: pre-wrap;
+        }
+
+        .tiled-background {
+            background-repeat: repeat;
+            background-size: auto;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: inherit;
+            background-size: cover;
+            filter: blur(20px);
+            z-index: -1;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            width: auto;
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .dark-mode {
+            color: #fff;
+            background-color: #29323b;
+        }
+
+        .dark-mode .container {
+            background-color: rgba(27, 26, 26, 0.8);
+        }
+
+        .toggle-dark-mode {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .toggle-dark-mode input[type="checkbox"] {
+            display: none;
+        }
+
+        .toggle-dark-mode label {
+            display: inline-block;
+            width: 59px;
+            height: 34px;
+            position: relative;
+            cursor: pointer;
+            background-color: #36566f;
+            border-radius: 34px;
+            transition: background-color 0.3s ease;
+        }
+
+        .toggle-dark-mode label:after {
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 30px;
+            height: 30px;
+            background-color: #fff;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+
+        .toggle-dark-mode input[type="checkbox"]:checked+label {
+            background-color: #2d2f2d;
+        }
+
+        .toggle-dark-mode input[type="checkbox"]:checked+label:after {
+            transform: translateX(26px);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+                margin: 0 auto;
+                max-width: none;
+            }
+        }
+
+         
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(25, 24, 24, 0.207);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.3s ease;
+        }
+
+        .loader .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(0, 0, 0, 0.231);
+            border-left-color: #478eda;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+
+    
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/VoIlv7M6HX8hyfR.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/d3H2LvkizVxyqUC.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/yH6TBgWY73h2xN9.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/Pw8mSDcXvea51iN.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/KP91mWiBe8qRjHt.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/RLFobE2ych9B64D.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/qvBA9W17UzixnsF.png" as="image">
+    <link rel="preload" href="https://s2.loli.net/2024/12/01/2Ye6tPILnjmuzhN.png" as="image">
+</head>
+
+<body>
+    <div class="loader">
+        <div class="spinner"></div>
+    </div>
+    <div class="container">
+        <div class="toggle-dark-mode">
+            <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode()">
+            <label for="dark-mode-toggle"></label>
+        </div>
+        <div class="page-container">
+            <div class="main-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <h4 class="text-gray"></h4>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h2 id="网站更新">网站更新</h2>
+<p><u>2023-2024</u></p>
+<ul>
+<li>减少不必要的文件和代码，修改主题文件样式代码</li>
+<li>优化主文件懒加载图标，调整首页网址块显示大小</li>
+<li>调整投稿页样式及文章页样式</li>
+<li>增加Nav-Manage浏览器扩展一键增加删除书签</li>
+<li>增加站内搜索及自动化检测失效网址功能</li>
+<li>添加更新收录json文件存储，添加收录自动推送频道社群信息功能</li>
+<li>添加一键导出站内为浏览器书签格式</li>
+<li>更新扩展后端添加更新收录RSS文件，增加前端显示及时通知收录</li>
+<li>调整右下角图标显示</li>
+<li>调整首页头部显示，增加组件模块效果</li>
+</ul>
+<h2 id="收录更新">收录更新</h2>
+<p><u>2023-2024</u></p>
+<ul>
+<li>调整收录分类，增加AI细分</li>
+<li>增加探索发现一栏收录</li>
+<li>增加新媒体一栏运营及工具的分类收录</li>
+<li>增加工作招聘创业类目收录</li>
+<li>增加游戏类目分类收录</li>
+<li>收录统计2400+</li>
+</ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <footer class="main-footer">
+                    <div class="footer-inner">
+                        <div class="footer-text">
+                            <strong><p> 2019 - 2024 | 本站收录值得珍藏的网站，欢迎访问使用</p>©<a href="https://noisedh.cn" target="_blank"><strong>NOISE导航</strong></a></strong>2024
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/jquery-1.11.1.min.js"></script>
+    <script>
+        
+        const backgrounds = [
+            'https://s2.loli.net/2024/12/01/VoIlv7M6HX8hyfR.png',
+            'https://s2.loli.net/2024/12/01/d3H2LvkizVxyqUC.png',
+            'https://s2.loli.net/2024/12/01/yH6TBgWY73h2xN9.png',
+            'https://s2.loli.net/2024/12/01/Pw8mSDcXvea51iN.png',
+            'https://s2.loli.net/2024/12/01/KP91mWiBe8qRjHt.png',
+            'https://s2.loli.net/2024/12/01/RLFobE2ych9B64D.png',
+            'https://s2.loli.net/2024/12/01/qvBA9W17UzixnsF.png',
+            'https://s2.loli.net/2024/12/01/2Ye6tPILnjmuzhN.png'
+        ];
+
+        
+        function lazyLoadBackground() {
+            const randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
+            document.body.style.backgroundImage = `url("${randomBackground}")`;
+            document.body.style.backgroundSize = 'cover';
+        }
+
+        function toggleDarkMode() {
+            var body = document.getElementsByTagName("body")[0];
+            body.classList.toggle("dark-mode");
+        }
+
+        
+        function checkBackgroundColor() {
+            const body = document.body;
+            const heightThreshold = 1800; 
+
+            if (body.scrollHeight > heightThreshold) {
+                body.classList.add('tiled-background'); 
+                body.style.backgroundSize = 'auto'; 
+            } else {
+                body.classList.remove('tiled-background'); 
+                body.style.backgroundSize = 'cover'; 
+            }
+        }
+
+                
+                function showLoader() {
+            const loader = document.querySelector('.loader');
+            loader.style.opacity = 1;
+            loader.style.visibility = 'visible';
+        }
+
+        
+        function hideLoader() {
+            const loader = document.querySelector('.loader');
+            loader.style.opacity = 0;
+            loader.style.visibility = 'hidden';
+        }
+
+        
+        function checkBackgroundImageLoaded() {
+            const body = document.body;
+            const img = new Image();
+            img.src = body.style.backgroundImage.replace(/url\(["']?([^)"']+?)["']?\)/, '$1');
+            img.onload = function() {
+                hideLoader();
+            };
+            img.onerror = function() {
+                hideLoader();
+            };
+        }
+
+        
+        window.onload = function () {
+            showLoader();
+            lazyLoadBackground();
+            checkBackgroundColor();
+            checkBackgroundImageLoaded();
+        };
+        window.onresize = checkBackgroundColor;
+    </script>
+    
+    <script src="https://cdn.staticfile.org/waline/2.13.0/waline.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/TweenMax.min.js"></script>
+    <script src="/assets/js/resizeable.js"></script>
+    <script src="/assets/js/joinable.js"></script>
+    <script src="/assets/js/xenon-api.js"></script>
+    <script src="/assets/js/xenon-toggles.js"></script>
+    <script src="/assets/js/xenon-custom.js"></script>
+</body>
+
+</html>
