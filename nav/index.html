@@ -218,6 +218,13 @@
 <li>调整解决前端扩展因点击搜索时整体界面未铺满的问题</li>
 <li>10月7日-本地及云服务器部署文件增加导入导出浏览器格式文件，导出导航站yml文件时为浏览器书签格式html文件，带有导航站本身的一级目录标题及二级目录标题并设置输出路径下生成的文件自动3分钟删除</li>
 <li>12月1日添加Docker部署运行方式</li>
+<li>12月7日增加github环境下可生成rss文件及导出为浏览器格式书签文件，请自行修改变量，否则会有默认变量输出</li>
+<li><strong>书签文件下载的路由</strong>：
+<ul>
+<li>新增了 <code>/api/export-bookmarks</code> 路由，生成书签文件并允许用户下载。</li>
+<li>使用 <code>generateBookmarksHtml</code> 函数生成书签 HTML，并使用环境变量 <code>BOOKMARKS_TITLE</code> 和 <code>BOOKMARKS_H1</code> 配置标题和 H1。</li>
+</ul>
+</li>
 </ul>
 <h2 id="本地开发测试部分更新">本地开发测试部分更新</h2>
 <ul>
@@ -252,6 +259,13 @@
 <li><strong><code>NAVIGATION_URL</code></strong>：<strong>可选</strong>：指定导航站的 URL，用于在 Telegram 消息中提供链接。</li>
 <li><code>WEBHOOK_URL</code> ：可选：<strong>Webhook 通知</strong>，可联动自动化集成推送到其它平台</li>
 <li><code>STORAGE_FILE_PATH</code>：可选：持久化存储更新数据，用于嵌入网站等，示例·：<code>/data.json</code> 必须是完整文件路径哦！</li>
+<li><code>BOOKMARKS_TITLE</code> ：可选：此为导出浏览器书签文件时书签的文件meta 标题默认为：Noise导航-Bookmarks</li>
+<li><code>BOOKMARKS_H1</code>：可选：此为导出浏览器书签文件时书签的h1标题，默认：Noise导航-Bookmarks</li>
+<li><code>BOOKMARKS_OUTPUT_DIR</code>可选：此为导出浏览器书签文件时存储文件的路径，默认：/themes/WebStack-Hugo/static/bookmarks/</li>
+<li><code>RSS_TITLE</code>：可选：变量为生成的rss文件标题，默认：NOISE导航收录更新</li>
+<li><code>RSS_LINK</code>：可选：变量为生成的rss文件中的站点链接，默认：http://www.noisedh.cn</li>
+<li><code>RSS_DESCRIPTION</code>：可选：变量为生成的rss文件中的描述信息，默认：最新更新通知</li>
+<li><code>RSS_FILE_PATH</code> 可选：变量为生成的rss文件时的存储路径，默认为/themes/WebStack-Hugo/static/rss.xml</li>
 </ul>
 <h2 id="使用github仓库时docker部署说明">使用Github仓库时Docker部署说明</h2>
 <p>将仓库文件下载后，首先确定哪一种方式构建运行，然后修改你的<u>环境变量</u>，修改后再往下查看</p>
@@ -272,6 +286,13 @@ docker run -p 8980:8980 -e GITHUB_TOKEN=your-github-token \
            -e NAVIGATION_URL=https://your-navigation-url \
            -e WEBHOOK_URL=https://your-webhook-url \
            -e STORAGE_FILE_PATH=/data/data.json \
+           -e BOOKMARKS_TITLE=BOOKMARKS_TITLE \
+           -e BOOKMARKS_H1=BOOKMARKS_H1 \
+           -e RSS_TITLE=RSS_TITLE \
+           -e RSS_LINK=RSS_LINK \
+           -e RSS_DESCRIPTION=RSS_DESCRIPTION \
+           -e RSS_FILE_PATH=RSS_FILE_PATH \
+           -e BOOKMARKS_OUTPUT_DIR=BOOKMARKS_OUTPUT_DIR \
            nav-manage-api
 </code></pre><p>这里 <code>nav-manage-api</code> 是镜像的名称。构建过程会根据 Dockerfile 中的指令逐步执行，</p>
 <h3 id="运行-docker-容器">运行 Docker 容器</h3>
@@ -385,7 +406,12 @@ docker run -p 8980:8980 -e GITHUB_TOKEN=your-github-token \
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;文件内容:&#39;</span>, <span style="color:#a6e22e">data</span>);
 </span></span><span style="display:flex;"><span>    })
 </span></span><span style="display:flex;"><span>    .<span style="color:#66d9ef">catch</span>(<span style="color:#a6e22e">error</span> =&gt; <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#39;获取文件时出错:&#39;</span>, <span style="color:#a6e22e">error</span>));
-</span></span></code></pre></div><h3 id="删除文件">删除文件</h3>
+</span></span></code></pre></div><h3 id="获取书签文件">获取书签文件</h3>
+<pre tabindex="0"><code>curl -O &#34;http://localhost:8980/api/export-bookmarks&#34;
+</code></pre><p>你还可以直接在浏览器中访问运行的端口地址 来下载书签文件：</p>
+<pre tabindex="0"><code>http://localhost:8980/api/export-bookmarks
+</code></pre><h3 id="heading"></h3>
+<h3 id="删除文件">删除文件</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#39;http://你部署的域名/api/files&#39;</span>, {
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">method</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;DELETE&#39;</span>,
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">headers</span><span style="color:#f92672">:</span> {
