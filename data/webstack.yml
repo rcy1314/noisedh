@@ -921,6 +921,14 @@
           logo: https://mp3tag.suno-top.com/favicon.ico
           url: https://mp3tag.suno-top.com/zh-CN/
           description: 免费在线编辑ID3信息网站，同时可以下载suno和udio的歌曲。
+        - title: StockTune
+          logo: https://stocktune.com/favicon-32x32.png?v=3
+          url: https://stocktune.com/
+          description: 使用 StockTune 的免费音乐库移动您的观众。下载免费歌曲供商业和个人使用。无需署名。在StockTune探索免费库存音乐：质量和多样性！
+        - title: dl-sounds免版税音乐
+          logo: https://www.dl-sounds.com/wp-content/uploads/2019/05/cropped-trans-headphones-2-32x32.png
+          url: https://www.dl-sounds.com/
+          description: 下载高级免版税音乐以增强您的创意项目。浏览我们的资料库，寻找专为满足您的所有需求而量身定制的独特、高质量的曲目。
     - term: 剪辑能手
       links:
         - title: 闪剪
@@ -1764,6 +1772,10 @@
           logo: github.jpg
           url: https://github.com/xueyouluo/nearly-free-wechat-bot
           description: 微信机器人，使用免费的大模型API. 总结公众号文章 将文章入库存为知识库，知识库的简单管理.
+        - title: wxagent
+          logo: github.jpg
+          url: https://github.com/tonnie17/wxagent
+          description: 支持工具调用的公众号聊天机器人. Contribute to tonnie17/wxagent development by creating an account on GitHub.
 - taxonomy: 职场生涯
   icon: fas fa-briefcase
   list:
@@ -5012,6 +5024,10 @@
           logo: https://www.archero2.net/favicon.ico
           url: https://www.archero2.net/
           description: 帮助 archero 2 玩家找到最新可用的gift codes 和 Andriod MOD APK 的网站
+        - title: HyperPlay -Web3 游戏商店
+          logo: https://www.hyperplay.xyz/favicon.png
+          url: https://www.hyperplay.xyz/zh_Hans
+          description: 在一个应用程序中访问来自顶级商店的大量游戏，包括 HyperPlay Store、Epic Games 和 GOG。
     - term: 网页游戏
       links:
         - title: iogames
@@ -5130,6 +5146,10 @@
           logo: https://sprunkionline.com/img/icon.png
           url: https://sprunkionline.com
           description: Sprunki游戏合集，免费畅玩！
+        - title: Hunger Games Simulator
+          logo: https://hggames.org/favicon.svg
+          url: https://hggames.org/
+          description: 饥饿游戏模拟
 - taxonomy: 独立开发
   icon: fas fa-code fa-lg
   list:
@@ -5255,6 +5275,10 @@
           logo: https://sst.dev/favicon.ico
           url: https://sst.dev/
           description: 一个框架，可让您轻松地在自己的基础设施上构建现代全栈应用程序。
+        - title: JS.ORG - JavaScript 组织
+          logo: https://js.org/favicon.png
+          url: https://js.org
+          description: GitHub 页面获取您自己的免费 JS.ORG 子域
     - term: 原型设计
       links:
         - title: pixso
@@ -5317,6 +5341,10 @@
           logo: https://proto.io/favicon-32x32.png?6.8.41.0
           url: https://proto.io
           description: Proto.io - 所有人的原型设计
+        - title: 'Penpot: The Design Tool for Design & Code Collaboration'
+          logo: https://penpot.app/favicon.ico
+          url: https://penpot.app/
+          description: Penpot 是一款开源的免费设计软件，可将设计人员和开发人员连接起来，无需交接。原型设计、UI 设计和代码 - 都在一个应用程序中。
     - term: 工具箱
       links:
         - title: PicUploader
@@ -5511,6 +5539,10 @@
           logo: https://iframegenerator.top/favicon.ico
           url: https://iframegenerator.top/
           description: 无需编写代码，轻松创建自定义、响应式且安全的嵌入内容。支持多设备预览、企业级安全控制、完整样式定制、配置管理等专业功能。
+        - title: 免费条码生成器
+          logo: https://freebarcodegen.com/favicon.ico
+          url: https://freebarcodegen.com/
+          description: 免费条形码生成器是一款用户友好的在线工具，允许您免费创建专业的条形码。它支持流行的格式，如Code 128、EAN-13和UPC-A，提供高质量的下载，无需注册。非常适合企业和个人，它快速、可靠，在任何设备上都能无缝工作。
     - term: API平台
       links:
         - title: 搏天api
@@ -5966,11 +5998,11 @@
           logo: https://tattooer.info/favicon-16x16.png
           url: https://tattooer.info/
           description: Transform your tattoo ideas into stunning designs in 5 seconds with Tattooer's AI tattoo generator. Create custom, professional-quality tattoo designs instantly - no artistic skills required.
-        - title: Death Clock AI 
+        - title: Death Clock AI
           logo: https://deathclockai.net/favicon.ico
           url: https://deathclockai.net/
           description: Death Clock AI 是一款免费的在线年龄计算器，可预测您的预期寿命并提供个性化的见解和建议。
-        - title: Rizz Lines AI 
+        - title: Rizz Lines AI
           logo: https://www.rizzlines.app/images/icon.png
           url: https://www.rizzlines.app/
           description: Rizz Lines AI 是一款 AI 驱动的助手，可帮助您生成流畅的接机线路、聊天回复和约会内容。
@@ -7919,6 +7951,10 @@
           logo: https://www.52ybcj.com/wp-content/uploads/2023/12/favicon.png
           url: https://www.52ybcj.com/
           description: 缘本初见『52ybcj』是一软件资源分享下载站，专注为用户提供各种绿色、实用、有趣的应用和技术教程等，分享是我们的宗旨也是这个站点存在的意义！
+        - title: SOFA - by Mac Admins Open Source
+          logo: https://sofa.macadmins.io/favicon.ico
+          url: https://sofa.macadmins.io/
+          description: SOFA 通过有效地跟踪和显示有关 macOS 和 iOS 更新的信息来支持 MacAdmins。
     - term: 下载·安卓
       links:
         - title: 翻应用
@@ -8454,6 +8490,10 @@
           logo: shar.png
           url: https://9527521.xyz
           description: 支持安卓及IOS平台，提供免费的科学节点
+        - title: Passepartout
+          logo: https://passepartoutvpn.app/s/favicon.ico?1733127477
+          url: https://passepartoutvpn.app/
+          description: Passepartout 是适用于 Apple 平台的用户友好型 VPN 客户端
     - term: TG·BOT·相关
       links:
         - title: Download_it_bot
