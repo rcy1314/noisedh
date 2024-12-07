@@ -377,7 +377,7 @@
 
             #lbl {
                 font-family: brushscriptmt;
-                font-size: 21px;
+                font-size: 20px;
                 background: linear-gradient(90deg, #FF0000, #8939e5, #9e443a, #3383e5, #b333e5ce);
                 -webkit-background-clip: text;
                 background-clip: text;
@@ -385,12 +385,12 @@
                 padding: 5px;
                 border: 1px solid #212936ca;
                 text-align: center;
-                line-height: 1.5;
+                line-height: 1.8;
                 height: auto;
             }
 
             #date {
-                font-size: 18px;
+                font-size: 17px;
                 background: linear-gradient(90deg, #FF0000, #39a4e5, #566cd7, #e56e33, #b333e5ce);
                 -webkit-background-clip: text;
                 background-clip: text;
@@ -422,29 +422,42 @@
         </script>
 
         <!-- 左侧 -->
-        <div class="flex-container">
-            <div class="flex-item">
-                <div id="lbl"></div>
+<div class="flex-container">
+    <div class="flex-item">
+        <div id="lbl"></div>
 
-                <script>
-                    document.addEventListener("DOMContentLoaded", function () {
-                        var weekday = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
-                        var today = new Date();
-                        var hrs = today.getHours();
-                        var dayOfWeek = weekday[today.getDay()];
-                        var date = today.getFullYear() + '年' + (today.getMonth() + 1).toString().padStart(2, '0') + '月' + today.getDate().toString().padStart(2, '0') + '日';
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var weekday = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+                var today = new Date();
+                var hrs = today.getHours();
+                var dayOfWeek = weekday[today.getDay()];
+                var date = today.getFullYear() + '年' + (today.getMonth() + 1).toString().padStart(2, '0') + '月' + today.getDate().toString().padStart(2, '0') + '日';
 
-                        var greet = hrs < 5 ? "凌晨好,欢迎访问 NOISE导航" :
-                            hrs < 9 ? "早上好,欢迎访问 NOISE导航" :
-                                hrs < 11 ? "上午好,欢迎访问 NOISE导航" :
-                                    hrs < 13 ? "中午好,欢迎访问 NOISE导航" :
-                                        hrs < 17 ? "下午好,欢迎访问 NOISE导航" :
-                                            hrs < 19 ? "傍晚好,欢迎访问 NOISE导航" :
-                                                hrs < 22 ? "晚上好,欢迎访问 NOISE导航" : "NOISE导航提醒您，夜深了，早点休息哦😯";
+                var greet = hrs < 5 ? "凌晨好,欢迎访问 NOISE导航" :
+                    hrs < 9 ? "早上好,欢迎访问 NOISE导航" :
+                        hrs < 11 ? "上午好,欢迎访问 NOISE导航" :
+                            hrs < 13 ? "中午好,欢迎访问 NOISE导航" :
+                                hrs < 17 ? "下午好,欢迎访问 NOISE导航" :
+                                    hrs < 19 ? "傍晚好,欢迎访问 NOISE导航" :
+                                        hrs < 22 ? "晚上好,欢迎访问 NOISE导航" : "NOISE导航提醒您，夜深了，早点休息哦😯";
 
-                        document.getElementById('lbl').innerHTML = greet + `<div id="date"> 今天是：${date}</div>`;
+                // 立即显示问候语
+                document.getElementById('lbl').innerHTML = greet + `<div id="date">今天是:${date}</div>`;
+
+                // 异步请求网站数量
+                fetch('https://extension.noisework.cn/api/statistics')
+                    .then(response => response.json())
+                    .then(data => {
+                        var urlCount = data.urlCount;
+                        document.getElementById('date').innerHTML += ` 本站已收录:${urlCount} 个网站`;
+                    })
+                    .catch(error => {
+                        console.error('获取网站数量时出错:', error);
+                        document.getElementById('date').innerHTML += ` 无法获取网站数量`;
                     });
-                </script>
+            });
+        </script>
 
                 <div style="text-align: center; margin-top: 20px;">
                     <input type="text" id="search-input" placeholder="站内搜索..." />
