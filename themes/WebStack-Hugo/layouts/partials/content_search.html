@@ -396,6 +396,9 @@
                 background-clip: text;
                 color: transparent;
             }
+            #music-container {
+            height: auto;
+        }
         </style>
         <!-- 最近收录的站点 -->
         <div class="recent-sites" id="recent-sites">
@@ -475,8 +478,28 @@
             <!-- 右侧 -->
             <div class="flex-item right" style="color: white;">
                 <div style="width:auto;">
-                    <meting-js list-max-height="62px" server="netease" type="playlist" data-fixed="true"
-                        data-autoplay="false" id="128460001"></meting-js>
+                    <div id="music-container"></div>
+
+                    <script>
+                        // 立即执行的脚本
+                        (function() {
+                            // 创建 Meting.js 组件
+                            const metingJs = document.createElement('meting-js');
+                            metingJs.setAttribute('list-max-height', '62px');
+                            metingJs.setAttribute('server', 'netease');
+                            metingJs.setAttribute('type', 'playlist');
+                            metingJs.setAttribute('data-fixed', 'true');
+                            metingJs.setAttribute('data-autoplay', 'false');
+                            metingJs.setAttribute('id', '128460001');
+                
+                            // 获取容器元素
+                            const container = document.getElementById('music-container');
+                
+                            // 将 Meting.js 组件插入到容器中
+                            container.appendChild(metingJs);
+                        })();
+                    </script>
+
                 </div>
                 <br>
                 <div class="ad-section">
