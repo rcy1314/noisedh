@@ -615,6 +615,14 @@
           logo: https://fireflycard.shushiai.com/favicon.png
           url: https://fireflycard.shushiai.com/
           description: 致力于提供一种全新的文字转图像体验。让你分享的文字，书摘，推文，帖子，歌词，朋友圈语录变得更优雅有吸引力，成为视觉与思想的完美融合。最好用的web 图文神器，小红书图文必备
+        - title: GeekCard-分享文字更美
+          logo: https://geekcard.app/vite.svg
+          url: https://geekcard.app/
+          description: Geek Card - 让分享看起来更好、更优雅。一种用于增强共享内容的可读性和吸引力的工具。
+        - title: ToneLift
+          logo: https://tonelifts.com/sparkles.svg
+          url: https://tonelifts.com/
+          description: ToneLift 是一个 AI 驱动的图文创作平台，帮助你轻松创作精美的图文卡片，让每一次分享都充满温度。
     - term: 无版权视频
       links:
         - title: Pixabay
@@ -1776,6 +1784,10 @@
           logo: github.jpg
           url: https://github.com/tonnie17/wxagent
           description: 支持工具调用的公众号聊天机器人. Contribute to tonnie17/wxagent development by creating an account on GitHub.
+        - title: 'shortDramaWeChatGroupRobot:'
+          logo: github.jpg
+          url: https://github.com/RipperTs/shortDramaWeChatGroupRobot
+          description: 一个基于微信群的短剧机器人, 用于搜索指定抖音话题的热度数据, 并通知到微信群中
 - taxonomy: 职场生涯
   icon: fas fa-briefcase
   list:
@@ -4651,6 +4663,10 @@
           logo: https://wk8686.top/upload/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241016093647.jpg
           url: https://wk8686.top/
           description: hey，这里是科研学帮帮，一个收录了各种学术资源的个人博客。可以进行登录投稿评论交流。快进来耍耍吧！
+        - title: NULL空对象
+          logo: https://www.huib.top/upload/%E5%A4%B4%E5%83%8F256.png
+          url: https://www.huib.top/
+          description: 一个综合型科技博客，开源分享，前沿科技，绿色软件，分享设计与生活。
     - term: 博客人生·构建
       links:
         - title: Github
@@ -5279,6 +5295,14 @@
           logo: https://js.org/favicon.png
           url: https://js.org
           description: GitHub 页面获取您自己的免费 JS.ORG 子域
+        - title: Builder.io： 可视化开发平台
+          logo: https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F470aa2bd45fb4ff5b77c91a394a957e6?width=240
+          url: https://www.builder.io/
+          description: Builder 是唯一提供 AI 驱动的设计到代码工具、可视化编辑器和企业 CMS 的可视化开发平台。
+        - title: Dokploy
+          logo: https://dokploy.com/icon.svg?468e58e2fcb8357a
+          url: https://dokploy.com/zh-Hans
+          description: 使用 Dokplio 简化您的部署流程。使用 Docker 和 Traefik 轻松管理任何 VPS 上的应用程序和数据库，以提高性能和安全性。
     - term: 原型设计
       links:
         - title: pixso
@@ -5605,6 +5629,10 @@
           logo: https://www.explinks.com/favicon.ico
           url: https://www.explinks.com/
           description: 幂简集成是国内最全API接口平台，为开发者提供全面、高效、易用的API集成管理方案，一站搜索、试用、集成国内和国外API接口。此外，通过我们强大的API社区和创新的API产品营销工具，API开放平台能够一站推广和管理API产品，是企业实施API货币化的利器。
+        - title: Apidog
+          logo: https://assets.apidog.com/static/logo/favicon.ico
+          url: https://apidog.com/
+          description: REAL API 设计优先开发平台。设计。调试。测试文档。模拟。更快地构建 API。
     - term: 开发·CDN
       links:
         - title: zzko-jsDelivr镜像站
@@ -6558,6 +6586,10 @@
           logo: https://remove-bg.io/favicon.ico
           url: https://remove-bg.io/zh-CN
           description: 立即免费去除高清图像背景。无需注册，无限制，无质量损失—轻松下载全分辨率结果。
+        - title: Dzine
+          logo: https://static.dzine.ai/light-favicon-d.ico
+          url: https://www.dzine.ai/
+          description: 使用 Dzine 转换设计：最可控的 AI 设计工具。在我们的多合一在线免费平台上享受图像生成和编辑。
     - term: AI·音乐
       links:
         - title: Soundraw
@@ -7106,6 +7138,10 @@
           logo: https://shuttleai.com/favicon.ico
           url: https://shuttleai.com
           description: ShuttleAI 提供了一种简单、可扩展且经济高效的解决方案，用于将 AI 模型集成到您的应用程序中
+        - title: InternVL
+          logo: https://internvl.readthedocs.io/favicon.ico
+          url: https://internvl.readthedocs.io/en/latest/
+          description: 接近GPT-4o表现的开源多模态对话模型
     - term: AI·代码
       links:
         - title: Copilot
@@ -7204,6 +7240,10 @@
           logo: https://framerusercontent.com/images/ul8PLSs8LrMIGu8GNnw9ZapBp0.png
           url: https://steel.dev/
           description: Steel 是专为 AI 代理构建的开源浏览器 API。
+        - title: Tiledesk
+          logo: https://i0.wp.com/tiledesk.com/wp-content/uploads/2022/07/tiledesk_v13.png?fit=32%2C32&ssl=1
+          url: https://tiledesk.com/
+          description: 使用跨渠道的 AI 代理自动化工作流程、运营和客户服务。提高效率。免费开始。
     - term: AI·知识库·产品
       links:
         - title: ChatDOC
@@ -7809,6 +7849,10 @@
           logo: https://extensionsfox.store/favicon.ico
           url: https://extensionsfox.store/
           description: 专为 Instagram 营销人员设计的一套功能强大的 Chrome 工具。简化追随者管理，自动化 DM 并轻松提取有价值的数据
+        - title: BiliScape
+          logo: https://ez118.github.io/biliweb/icon.svg
+          url: https://ez118.github.io/biliweb/
+          description: ' 第三方哔哩哔哩客户端浏览器插件'
     - term: 下载·综合
       links:
         - title: 黑域基地
@@ -9694,6 +9738,18 @@
           logo: https://arc.net/favicon.png
           url: https://arc.net/gift/110a5127
           description: 在这款专为您设计的浏览器中体验更平静、更个性化的互联网。使用 Arc 浏览器放开点击、杂乱和干扰。
+        - title: Mollama
+          logo: https://mollama.com/Icon-macOS-512x512@1x.png
+          url: https://mollama.com/zh/
+          description: 适用于苹果全设备的本地离线运行的智能助理
+        - title: 5ire
+          logo: https://5ire.app/favicon.ico
+          url: https://5ire.app
+          description: 跨平台解锁强大的本地AI知识库，自带bge-m3 集成为本地嵌入模型，支持 DOCX、XLSX、PPTX、PDF、TXT 和 CSV 文档的解析和矢量化，从而能够存储这些矢量，从而在本地支持强大的检索增强生成 （RAG） 功能。
+        - title: Wave
+          logo: https://framerusercontent.com/images/s5BucbxyDs8yx011LSbM8r3zSQ.png
+          url: https://www.waveterm.dev
+          description: Wave 是一个开源终端，它增加了启动图形小部件的功能，可以直接与 CLI 进行控制和集成。
     - term: 产品发现
       links:
         - title: 开发者简报
@@ -9898,6 +9954,10 @@
           logo: https://theuselessweb.com/favicon.ico
           url: https://theuselessweb.com
           description: 无用的 Web 按钮...带我去某个地方......无用。对于无聊的人或希望在网上查找随机网站的人来说，这是一个完美的按钮！
+        - title: mangle
+          logo: https://s2.loli.net/2024/12/08/wuDP69bNUalzKJZ.png
+          url: https://mangle.ca
+          description: 该网站可帮助您随机探索互联网的不同部分。单击上面的按钮，您可以找到新的随机网站、有趣的维基百科文章、独特的图像和照片、引人入胜的电影、引人入胜的电视节目和迷人的书籍
     - term: LGBT友好
       links:
         - title: gagaoolala
