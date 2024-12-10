@@ -18,7 +18,7 @@
                                data-placement="bottom" data-html="true"
                                title="<img src='{{ $.Site.Params.logosPath }}/{{ .qrcode }}' width='128'>">
                         {{ else }}
-                            <a href="{{ .url }}" target="_blank" class="card no-c mb-4" data-toggle="tooltip" 
+                            <a href="redirect.html?url={{ urlquery .url }}" target="_blank" class="card no-c mb-4" data-toggle="tooltip" 
                                data-placement="bottom" data-original-title="{{ .description }}">
                         {{ end }}
                         <div class="card-body">
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                         </a>
-                        <a href="{{ .url }}" class="togo text-center text-muted is-views" data-id="689"
+                        <a href="redirect.html?url={{ urlquery .url }}" class="togo text-center text-muted is-views" data-id="689"
                            data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
                             <i class="iconfont icon-goto"></i>
                         </a>
@@ -70,7 +70,7 @@
                                data-placement="bottom" data-html="true"
                                title="<img src='{{ $.Site.Params.logosPath }}/{{ .qrcode }}' width='128'>">
                         {{ else }}
-                            <a href="{{ .url }}" target="_blank" class="card no-c mb-4" data-toggle="tooltip" 
+                            <a href="redirect.html?url={{ urlquery .url }}" target="_blank" class="card no-c mb-4" data-toggle="tooltip" 
                                data-placement="bottom" data-original-title="{{ .description }}">
                         {{ end }}
                         <div class="card-body">
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                         </a>
-                        <a href="{{ .url }}" class="togo text-center text-muted is-views" data-id="689"
+                        <a href="redirect.html?url={{ urlquery .url }}" class="togo text-center text-muted is-views" data-id="689"
                            data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
                             <i class="iconfont icon-goto"></i>
                         </a>
@@ -112,65 +112,8 @@
     <div class="friendlink text-xs card">
         <div class="card-body">
             {{ range .Site.Data.friendlinks }}
-            <a href="{{ .url }}" title="{{ .description }}" target="_blank">{{ .title }}</a>
+            <a href="redirect.html?url={{ urlquery .url }}" title="{{ .description }}" target="_blank">{{ .title }}</a>
             {{ end }}
         </div>
     </div>
 </div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const lazyImages = document.querySelectorAll('img.lazy');
-
-    const imageObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const img = entry.target;
-                img.src = img.getAttribute('data-src');
-                img.classList.remove('lazy');
-                observer.unobserve(img);
-            }
-        });
-    });
-
-    lazyImages.forEach(image => {
-        imageObserver.observe(image);
-    });
-
-    // 获取当前页面的 URL
-    const currentUrl = window.location.href;
-
-    // 遍历所有需要修改的链接
-    const links = document.querySelectorAll('.content-site a');
-    const modifiedLinks = [];
-
-    links.forEach(link => {
-        if (link.href) {
-            // 手动拼接 URL，避免自动编码
-            const url = new URL(link.href);
-            const refParam = `ref=${currentUrl}`;
-            let newHref = `${url.origin}${url.pathname}${url.search ? url.search + '&' : '?'}${refParam}`;
-            if (url.hash) {
-                newHref += url.hash;
-            }
-            modifiedLinks.push([link, newHref]);
-        }
-    });
-
-    // 批量修改链接
-    modifiedLinks.forEach(([link, newHref]) => {
-        link.href = newHref;
-    });
-});
-</script>
-
-<style>
-.img-placeholder {
-    background-color: #f0f0f0; /* 占位符的背景色 */
-    width: 100px; /* 设置占位符的宽度 */
-    height: 100px; /* 设置占位符的高度 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-</style>
