@@ -623,6 +623,10 @@
           logo: https://tonelifts.com/sparkles.svg
           url: https://tonelifts.com/
           description: ToneLift 是一个 AI 驱动的图文创作平台，帮助你轻松创作精美的图文卡片，让每一次分享都充满温度。
+        - title: 轻快标图
+          logo: https://cdn.markerapp.site/static/marker/assets/logo.png?n1
+          url: https://www.markerapp.site/
+          description: 轻快标图——提供丰富的标注工具，实现轻量、便捷、美观的图片标注体验。一键导出高清图片，适用于网页、浏览器插件及APP。立即免费试用！
     - term: 无版权视频
       links:
         - title: Pixabay
@@ -6850,6 +6854,10 @@
           logo: https://lf-main-frame.bytedeliver.com/obj/eden-cn/lthym_upht_upfbvk/ljhwZthlaukjlkulzlp/douyin_search/pc/favicon.ico
           url: https://search.douyin.com/
           description: 网页版为https://so.douyin.com 这是字节推出的一款独立搜索应用
+        - title: Heurist Search
+          logo: https://search.heurist.ai/favicon.ico
+          url: https://search.heurist.ai/
+          description: 由 Heurist LLM API 提供支持的基于 AI 的搜索引擎部署在 Lepton 上
     - term: AI·写作
       links:
         - title: Effidit
