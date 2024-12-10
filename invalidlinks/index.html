@@ -177,16 +177,6 @@
     <meta name="twitter:title" content="">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
-
-    
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/VoIlv7M6HX8hyfR.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/d3H2LvkizVxyqUC.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/yH6TBgWY73h2xN9.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/Pw8mSDcXvea51iN.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/KP91mWiBe8qRjHt.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/RLFobE2ych9B64D.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/qvBA9W17UzixnsF.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/2Ye6tPILnjmuzhN.png" as="image">
 </head>
 
 <body>
@@ -1518,8 +1508,16 @@ URL: <a href="https://rsshub.app/coolapk/tuwen-xinxian">https://rsshub.app/coola
         
         function lazyLoadBackground() {
             const randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
-            document.body.style.backgroundImage = `url("${randomBackground}")`;
-            document.body.style.backgroundSize = 'cover';
+            const img = new Image();
+            img.src = randomBackground;
+            img.onload = function() {
+                document.body.style.backgroundImage = `url("${randomBackground}")`;
+                document.body.style.backgroundSize = 'cover';
+                hideLoader();
+            };
+            img.onerror = function() {
+                hideLoader();
+            };
         }
 
         function toggleDarkMode() {
@@ -1541,8 +1539,8 @@ URL: <a href="https://rsshub.app/coolapk/tuwen-xinxian">https://rsshub.app/coola
             }
         }
 
-                
-                function showLoader() {
+        
+        function showLoader() {
             const loader = document.querySelector('.loader');
             loader.style.opacity = 1;
             loader.style.visibility = 'visible';
@@ -1556,24 +1554,11 @@ URL: <a href="https://rsshub.app/coolapk/tuwen-xinxian">https://rsshub.app/coola
         }
 
         
-        function checkBackgroundImageLoaded() {
-            const body = document.body;
-            const img = new Image();
-            img.src = body.style.backgroundImage.replace(/url\(["']?([^)"']+?)["']?\)/, '$1');
-            img.onload = function() {
-                hideLoader();
-            };
-            img.onerror = function() {
-                hideLoader();
-            };
-        }
-
-        
         window.onload = function () {
             showLoader();
             lazyLoadBackground();
             checkBackgroundColor();
-            checkBackgroundImageLoaded();
+            setTimeout(hideLoader, 3000); 
         };
         window.onresize = checkBackgroundColor;
     </script>
