@@ -177,16 +177,6 @@
     <meta name="twitter:title" content="">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
-
-    <!-- 预加载背景图 -->
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/VoIlv7M6HX8hyfR.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/d3H2LvkizVxyqUC.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/yH6TBgWY73h2xN9.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/Pw8mSDcXvea51iN.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/KP91mWiBe8qRjHt.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/RLFobE2ych9B64D.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/qvBA9W17UzixnsF.png" as="image">
-    <link rel="preload" href="https://s2.loli.net/2024/12/01/2Ye6tPILnjmuzhN.png" as="image">
 </head>
 
 <body>
@@ -245,8 +235,16 @@
         // 懒加载背景图
         function lazyLoadBackground() {
             const randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
-            document.body.style.backgroundImage = `url("${randomBackground}")`;
-            document.body.style.backgroundSize = 'cover';
+            const img = new Image();
+            img.src = randomBackground;
+            img.onload = function() {
+                document.body.style.backgroundImage = `url("${randomBackground}")`;
+                document.body.style.backgroundSize = 'cover';
+                hideLoader();
+            };
+            img.onerror = function() {
+                hideLoader();
+            };
         }
 
         function toggleDarkMode() {
@@ -268,8 +266,8 @@
             }
         }
 
-                // 显示加载动画
-                function showLoader() {
+        // 显示加载动画
+        function showLoader() {
             const loader = document.querySelector('.loader');
             loader.style.opacity = 1;
             loader.style.visibility = 'visible';
@@ -282,25 +280,12 @@
             loader.style.visibility = 'hidden';
         }
 
-        // 检测背景图片是否加载完成
-        function checkBackgroundImageLoaded() {
-            const body = document.body;
-            const img = new Image();
-            img.src = body.style.backgroundImage.replace(/url\(["']?([^)"']+?)["']?\)/, '$1');
-            img.onload = function() {
-                hideLoader();
-            };
-            img.onerror = function() {
-                hideLoader();
-            };
-        }
-
-        // 页面加载和窗口调整时检查背景颜色
+        // 页面加载时异步加载背景图并检查背景颜色
         window.onload = function () {
             showLoader();
             lazyLoadBackground();
             checkBackgroundColor();
-            checkBackgroundImageLoaded();
+            setTimeout(hideLoader, 3000); // 3秒后隐藏加载动画
         };
         window.onresize = checkBackgroundColor;
     </script>
