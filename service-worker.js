@@ -1,13 +1,13 @@
 var cacheName = 'Noise导航-v1.0';
 var assetsToCache = [
-  'static/assets/bgx/bg1.webp',
-  'static/assets/bgx/bg2.webp',
-  'static/assets/bgx/bg3.webp',
-  'static/assets/bgx/bg4.webp',
-  'static/assets/bgx/bg5.webp',
-  'static/assets/bgx/bg6.webp',
-  'static/assets/bgx/bg7.webp',
-  'static/assets/bgx/bg8.webp',
+  'https://s2.loli.net/2024/12/01/VoIlv7M6HX8hyfR.png',
+  'https://s2.loli.net/2024/12/01/d3H2LvkizVxyqUC.png',
+  'https://s2.loli.net/2024/12/01/yH6TBgWY73h2xN9.png',
+  'https://s2.loli.net/2024/12/01/Pw8mSDcXvea51iN.png',
+  'https://s2.loli.net/2024/12/01/KP91mWiBe8qRjHt.png',
+  'https://s2.loli.net/2024/12/01/RLFobE2ych9B64D.png',
+  'https://s2.loli.net/2024/12/01/qvBA9W17UzixnsF.png',
+  'https://s2.loli.net/2024/12/01/2Ye6tPILnjmuzhN.png',
  
   // 添加您需要缓存的其他静态资源
 ];
